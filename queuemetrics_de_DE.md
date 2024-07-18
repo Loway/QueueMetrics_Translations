@@ -450,7 +450,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=Agentenleistung nach ACD-Gruppe
     clage_agent_ptimebyhour=Zahlbare Zeit des Agenten nach Stunden
     clage_agent_session_detail=Sitzungsdetails
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
+    # 🔴 clage_agent_session_overview -> Übersicht Agentensitzung
     ➡️ clage_agent_session_overview=
     clage_agent_sessionreport=Ansicht Agentensitzungen
     clage_agent_sessions=Agentensitzungen
@@ -513,7 +513,7 @@ Do not change the items below:
     clage_overlaps=Überschneidungen
     clage_pause=Pause
     clage_pause_%=Pause in %
-    # 🔴 clage_pause_type_stats -> Details of pause types
+    # 🔴 clage_pause_type_stats -> Details zum Pausentyp
     ➡️ clage_pause_type_stats=
     clage_pauses=Pausen
     clage_pauses_per_session=Pausen pro Sitzung
@@ -545,7 +545,7 @@ Do not change the items below:
     ➡️ clage_session_queues=
     # 🔴 clage_session_start -> Segment start
     ➡️ clage_session_start=
-    # 🔴 clage_session_talk -> Talk time
+    # 🔴 clage_session_talk -> Gesprächszeit
     ➡️ clage_session_talk=
     # 🔴 clage_session_type -> Session type
     ➡️ clage_session_type=
@@ -638,9 +638,9 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Details der Agentensitzung (RAW)
     cld_detail_of_answered_calls=Details angenommener Anrufe
     cld_detail_of_unanswered_calls=Details nicht angenommener Anrufe
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_afp -> Details zu unbeantworteten Gesprächen
     ➡️ cld_detail_of_unanswered_calls_afp=
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_raw -> unbearbeitete Details zu unbeantworteten Gesprächen
     ➡️ cld_detail_of_unanswered_calls_raw=
     cld_detail_summary=Detail Zusammenfassung nach Stunde
     cld_detail_summary_dom=Detail Zusammenfassung nach Tag
@@ -722,7 +722,7 @@ Do not change the items below:
     cld_queue_detail=Warteschlangendetails
     # 🔴 cld_queue_detail_afp -> Queue detail
     ➡️ cld_queue_detail_afp=
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
+    # 🔴 cld_queue_detail_raw -> unbearbeitete queue detail
     ➡️ cld_queue_detail_raw=
     cld_return=Zurück
     cld_server=Server
