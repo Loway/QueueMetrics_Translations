@@ -212,8 +212,7 @@ Do not change the items below:
     td_pautype_pause=הפסקה
     td_pautype_wrap=השהייה
     td_pautype_wrap-up_time=זמן השהייה
-    # 🔴 td_qdir_any -> Any call
-    ➡️ td_qdir_any= כל השיחות
+    td_qdir_any= כל השיחות
     td_qdir_inbound_calls=שיחות נכנסות
     td_qdir_outbound_calls=שיחות יוצאות
     td_qdir_undefined=<font color='red'>לא מוגדר</font>
@@ -424,8 +423,7 @@ Do not change the items below:
 
 
     clage_%_of_pause_time=% מזמן ההפסקה
-    # 🔴 clage_%_of_queue -> % of queue
-    ➡️ clage_%_of_queue= % מתוך התור
+    clage_%_of_queue= % מתוך התור
     clage_%_of_session_time=% מזמן ההתחברות
     clage_acd_available=פנוי
     clage_acd_avg_dur=משך ממוצע
@@ -530,8 +528,7 @@ Do not change the items below:
     clage_session_byquetagftrreport=סה"כ סשנים לפי תור, תגית ותכונות
     clage_session_byquetagreport=סה"כ סשנים לפי תור ותגית
     clage_session_calls=מספר שיחות
-    # 🔴 clage_session_details -> Session details
-    ➡️ clage_session_details= פרטי סשן
+    clage_session_details= פרטי סשן
     clage_session_end=סיום מקטע
     clage_session_idle=זמן אי-פעילות
     clage_session_lostatt=ניסיונות שהוחמצו
@@ -640,8 +637,7 @@ Do not change the items below:
     cld_dom=יום
     cld_dow=יום בשבוע
     cld_duration=משך
-    # 🔴 cld_end -> End
-    ➡️ cld_end= סיום
+    cld_end= סיום
     cld_end_hour=שעת סיום
     # 🔴 cld_enter -> Enter
     ➡️ cld_enter=
@@ -658,8 +654,7 @@ Do not change the items below:
     cld_ivr=בחירת נתב שיחות
     cld_ivr_detail=פרטי נתב שיחות
     cld_ivr_detail_full=פרטי נתב שיחות - גרסה להדפסה
-    # 🔴 cld_ivr_dur -> IVR Dur.
-    ➡️ cld_ivr_dur= זמן בתפריט
+    cld_ivr_dur= זמן בתפריט
     cld_ivr_time=נתב שיחות
     cld_ivr_time_long=זמן בנתב שיחות לפני כניסה לתור
     cld_key=מפתח
@@ -695,8 +690,7 @@ Do not change the items below:
     cld_pop_opos=מיקום ראשוני
     cld_pop_qa=QA
     cld_pop_queue=תור:
-    # 🔴 cld_pop_server -> Server
-    ➡️ cld_pop_server= שרת
+    cld_pop_server= שרת
     cld_pop_sound_files=קבצי קול:
     cld_pop_status_code=קוד סטטוס:
     cld_pop_stint_cause=ניתוק
@@ -714,10 +708,8 @@ Do not change the items below:
     cld_queue=תור
     cld_queue_batch_export=הוסף שיחות לקבוצת יצוא
     cld_queue_detail=פירוט תור
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp= תור מפורט
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw= נתוני תור גולמיים 
+    cld_queue_detail_afp= תור מפורט
+    cld_queue_detail_raw= נתוני תור גולמיים 
     cld_return=חזור
     cld_server=שרת
     cld_session_agent_detail=פירוט סשן לנציג
@@ -735,8 +727,7 @@ Do not change the items below:
     cld_stints=מכסות
     cld_talk=שיחה
     cld_talk_and_idle_times=זמני שיחה ופנוי
-    # 🔴 cld_termination -> Termination
-    ➡️ cld_termination= סיום שיחה
+    cld_termination= סיום שיחה
     cld_tot_dur=משך כולל
     cld_total_calls=סה"כ שיחות
     cld_total_elapsed_time=סה"כ זמן שעבר
@@ -1011,8 +1002,7 @@ Do not change the items below:
     clok_disconnection_causes=סיבות ניתוק
     clok_dnis=בשימוש DNIS
     clok_dnis_choice=DNIS
-    # 🔴 clok_grouping -> Open Group
-    ➡️ clok_grouping= פתח קבוצה
+    clok_grouping= פתח קבוצה
     clok_hdr=כותרת דו"ח
     clok_ivr=IVR - בחירות ב
     clok_ivrMaxTime=משך מקס.
@@ -1138,178 +1128,92 @@ Used for data blocks Overview by Agent/Queue
 
 ## Headers
 
-# 🔴 hdr_agaw_agent -> Agent
-➡️ hdr_agaw_agent=נציג
-# 🔴 hdr_agaw_logs -> Logs
-➡️ hdr_agaw_logs=לוגים
-# 🔴 hdr_agaw_status -> Status
-➡️ hdr_agaw_status=סטטוס
-# 🔴 hdr_agents -> Agents
-➡️ hdr_agents=נציגים
-# 🔴 hdr_agents_det -> Ag.Dt.
-➡️ hdr_agents_det=נציגים מפורט
-# 🔴 hdr_agents_det_title -> Details of Agent sessions and pauses
-➡️ hdr_agents_det_title=פרטי הפעלות והפסקות של נציגים
-# 🔴 hdr_agents_title -> Agents and Sessions
-➡️ hdr_agents_title=נציגים והפעלות
-# 🔴 hdr_all -> All
-➡️ hdr_all=הכל
-# 🔴 hdr_amo -> AMO
-➡️ hdr_amo=AMO
-# 🔴 hdr_answered -> Answered
-➡️ hdr_answered=נענו
-# 🔴 hdr_answered_details -> Ans.Dt.
-➡️ hdr_answered_details=פירוט נענו
-# 🔴 hdr_answered_details_title -> Details of answered calls
-➡️ hdr_answered_details_title=פרטי שיחות נענות
-# 🔴 hdr_area -> Area
-➡️ hdr_area=אזור
-# 🔴 hdr_area_title -> Area code analysis
-➡️ hdr_area_title=ניתוח לפי קידומת אזור
-# 🔴 hdr_attempts -> Att.
-➡️ hdr_attempts=נסיונות
-# 🔴 hdr_broadcast -> Broadcast
-➡️ hdr_broadcast=שידור
-# 🔴 hdr_calls -> Calls
-➡️ hdr_calls=שיחות
-# 🔴 hdr_calls_title -> Call Details
-➡️ hdr_calls_title=פרטי שיחות
-# 🔴 hdr_casedo -> Cases
-➡️ hdr_casedo=תיקים
-# 🔴 hdr_casedo_title -> Cases and Clients
-➡️ hdr_casedo_title=תיקים ולקוחות
-# 🔴 hdr_cases -> Cases
-➡️ hdr_cases=תיקים
-# 🔴 hdr_cbt -> CBTs
-➡️ hdr_cbt=CBT
-# 🔴 hdr_clients -> Clients
-➡️ hdr_clients=לקוחות
-# 🔴 hdr_cronjobs -> Scheduled Jobs
-➡️ hdr_cronjobs=משימות מתוזמנות
-# 🔴 hdr_customblocks -> Custom Blocks
-➡️ hdr_customblocks=רכיבים מותאמים
-# 🔴 hdr_customreports -> CR
-➡️ hdr_customreports=דו"חות מותאמים
-# 🔴 hdr_dbtest_ami -> Test AMI
-➡️ hdr_dbtest_ami=בדיקת AMI
-# 🔴 hdr_dbtest_ami_queue -> View Cmds
-➡️ hdr_dbtest_ami_queue=הצג פקודות
-# 🔴 hdr_dbtest_configuration -> View Cfg
-➡️ hdr_dbtest_configuration=הצג תצורה
-# 🔴 hdr_dbtest_db_inspector -> View DB
-➡️ hdr_dbtest_db_inspector=הצג בסיס נתונים
-   # 🔴 hdr_dbtest_ram_cache -> View Cache
-➡️ hdr_dbtest_ram_cache=הצג מטמון
-# 🔴 hdr_dbtest_smtp -> Test SMTP
-➡️ hdr_dbtest_smtp=בדיקת SMTP
-# 🔴 hdr_distrib -> Distrib.
-➡️ hdr_distrib=הפצה
-# 🔴 hdr_distrib_day -> Day
-➡️ hdr_distrib_day=יום
-# 🔴 hdr_distrib_day_title -> Call distribution, by day
-➡️ hdr_distrib_day_title=הפצת שיחות לפי יום
-# 🔴 hdr_distrib_dow -> DOW
-➡️ hdr_distrib_dow=יום בשבוע
-# 🔴 hdr_distrib_dow_title -> Call distribution, by day of week
-➡️ hdr_distrib_dow_title=הפצת שיחות לפי ימות השבוע
-# 🔴 hdr_distrib_hour -> Hr.
-➡️ hdr_distrib_hour=שעה
-# 🔴 hdr_distrib_hour_title -> Call distribution, by hour
-➡️ hdr_distrib_hour_title=הפצת שיחות לפי שעה
-# 🔴 hdr_distrib_title -> Call distribuition
-➡️ hdr_distrib_title=הפצת שיחות
-# 🔴 hdr_dnis -> DNIS
-➡️ hdr_dnis=DNIS
-# 🔴 hdr_exports -> Exports
-➡️ hdr_exports=ייצוא
-# 🔴 hdr_fcr_title -> FCR
-➡️ hdr_fcr_title=שיחה ראשונה לפתרון (FCR)
-# 🔴 hdr_fcrdo -> Recalls
-➡️ hdr_fcrdo=שיחות חוזרות
-# 🔴 hdr_features -> Features
-➡️ hdr_features=מאפיינים
-# 🔴 hdr_groups -> Groups
-➡️ hdr_groups=קבוצות
-   # 🔴 hdr_home -> Home
-➡️ hdr_home=דף הבית
-# 🔴 hdr_ivr -> IVR
-➡️ hdr_ivr=IVR
-# 🔴 hdr_ivr_title -> IVR Analysis
-➡️ hdr_ivr_title=ניתוח IVR
-# 🔴 hdr_ivrdo -> IVR
-➡️ hdr_ivrdo=IVR
-# 🔴 hdr_links -> Header links
-➡️ hdr_links=קישורים בכותרת
-# 🔴 hdr_live -> Live
-➡️ hdr_live=שידור חי
-# 🔴 hdr_locations -> Locations
-➡️ hdr_locations=מיקומים
-# 🔴 hdr_logoff -> Log off
-➡️ hdr_logoff=התנתקות
-# 🔴 hdr_numbers -> Nums
-➡️ hdr_numbers=מספרים
-# 🔴 hdr_outcomes -> Outcomes
-➡️ hdr_outcomes=תוצאות
-# 🔴 hdr_outcomes_title -> Call outcomes
-➡️ hdr_outcomes_title=תוצאות שיחות
-# 🔴 hdr_pauses -> Pauses
-➡️ hdr_pauses=הפסקות
-# 🔴 hdr_performance -> Performance
-➡️ hdr_performance=ביצועים
-# 🔴 hdr_performancetrack -> PrfTrk
-➡️ hdr_performancetrack=מעקב ביצועים
-# 🔴 hdr_print -> Print
-➡️ hdr_print=הדפסה
-# 🔴 hdr_qa -> QA
-➡️ hdr_qa=בקרת איכות
-# 🔴 hdr_qa_calibration -> QA Calibration Report
-➡️ hdr_qa_calibration=דו"ח כיול בקרת איכות
-# 🔴 hdr_qa_details -> QA Details
-➡️ hdr_qa_details=פרטי בקרת איכות
-# 🔴 hdr_qa_report -> QA Report
-➡️ hdr_qa_report=דו"ח בקרת איכות
-# 🔴 hdr_qa_summary -> QA Summary
-➡️ hdr_qa_summary=סיכום בקרת איכות
-# 🔴 hdr_qmlogo_returntohomelink -> Return to home
-➡️ hdr_qmlogo_returntohomelink=חזרה לדף הבית
-# 🔴 hdr_queues -> Queues
-➡️ hdr_queues=תורים
-# 🔴 hdr_realtime -> Realtime
-➡️ hdr_realtime=זמן אמת
-# 🔴 hdr_reports -> Reports
-➡️ hdr_reports=דוחות
-# 🔴 hdr_resetquery -> Reset query parameters
-➡️ hdr_resetquery=איפוס פרמטרי חיפוש
-# 🔴 hdr_rt -> RT
-➡️ hdr_rt=זמן אמת
-# 🔴 hdr_rt_title -> Real-Time Metrics
-➡️ hdr_rt_title=מדדי זמן אמת
-# 🔴 hdr_skills -> Skills
-➡️ hdr_skills=מיומנויות
-# 🔴 hdr_stats -> Stats
-➡️ hdr_stats=סטטיסטיקות
-# 🔴 hdr_stats_title -> Statistics
-➡️ hdr_stats_title=סטטיסטיקות
-# 🔴 hdr_tags -> Tags
-➡️ hdr_tags=תגיות
-# 🔴 hdr_tags_title -> Call tags
-➡️ hdr_tags_title=תגיות שיחה
-# 🔴 hdr_tasks -> Tasks
-➡️ hdr_tasks=משימות
-# 🔴 hdr_tasks_rss -> RSS Feed
-➡️ hdr_tasks_rss=הזנת RSS
-# 🔴 hdr_tc -> T&C
-➡️ hdr_tc=תנאים והתניות
-# 🔴 hdr_unanswered -> Unans.
-➡️ hdr_unanswered=לא נענו
-# 🔴 hdr_unanswered_details -> Unans.Dt.
-➡️ hdr_unanswered_details=פ.ל.נ.
-# 🔴 hdr_unanswered_details_title -> Details of unanswered calls
-➡️ hdr_unanswered_details_title=פרטי שיחות שלא נענו
-# 🔴 hdr_user -> User profile information
-➡️ hdr_user=פרטי משתמש
-    # 🔴 hdr_users -> Users
-    ➡️ hdr_users=משתמשים
+    hdr_agaw_agent=נציג
+    hdr_agaw_logs=לוגים
+    hdr_agaw_status=סטטוס
+    hdr_agents=נציגים
+    hdr_agents_det=נציגים מפורט
+    hdr_agents_det_title=פרטי הפעלות והפסקות של נציגים
+    hdr_agents_title=נציגים והפעלות
+    hdr_all=הכל
+    hdr_amo=AMO
+    hdr_answered=נענו
+    hdr_answered_details=פירוט נענו
+    hdr_answered_details_title=פרטי שיחות נענות
+    hdr_area=אזור
+    hdr_area_title=ניתוח לפי קידומת אזור
+    hdr_attempts=נסיונות
+    hdr_broadcast=שידור
+    hdr_calls=שיחות
+    hdr_calls_title=פרטי שיחות
+    hdr_casedo=תיקים
+    hdr_casedo_title=תיקים ולקוחות
+    hdr_cases=תיקים
+    hdr_cbt=CBT
+    hdr_clients=לקוחות
+    hdr_cronjobs=משימות מתוזמנות
+    hdr_customblocks=רכיבים מותאמים
+    hdr_customreports=דו"חות מותאמים
+    hdr_dbtest_ami=בדיקת AMI
+    hdr_dbtest_ami_queue=הצג פקודות
+    hdr_dbtest_configuration=הצג תצורה
+    hdr_dbtest_db_inspector=הצג בסיס נתונים
+    hdr_dbtest_ram_cache=הצג מטמון
+    hdr_dbtest_smtp=בדיקת SMTP
+    hdr_distrib=הפצה
+    hdr_distrib_day=יום
+    hdr_distrib_day_title=הפצת שיחות לפי יום
+    hdr_distrib_dow=יום בשבוע
+    hdr_distrib_dow_title=הפצת שיחות לפי ימות השבוע
+    hdr_distrib_hour=שעה
+    hdr_distrib_hour_title=הפצת שיחות לפי שעה
+    hdr_distrib_title=הפצת שיחות
+    hdr_dnis=DNIS
+    hdr_exports=ייצוא
+    hdr_fcr_title=שיחה ראשונה לפתרון (FCR)
+    hdr_fcrdo=שיחות חוזרות
+    hdr_features=מאפיינים
+    hdr_groups=קבוצות
+    hdr_home=דף הבית
+    hdr_ivr=IVR
+    hdr_ivr_title=ניתוח IVR
+    hdr_ivrdo=IVR
+    hdr_links=קישורים בכותרת
+    hdr_live=שידור חי
+    hdr_locations=מיקומים
+    hdr_logoff=התנתקות
+    hdr_numbers=מספרים
+    hdr_outcomes=תוצאות
+    hdr_outcomes_title=תוצאות שיחות
+    hdr_pauses=הפסקות
+    hdr_performance=ביצועים
+    hdr_performancetrack=מעקב ביצועים
+    hdr_print=הדפסה
+    hdr_qa=בקרת איכות
+    hdr_qa_calibration=דו"ח כיול בקרת איכות
+    hdr_qa_details=פרטי בקרת איכות
+    hdr_qa_report=דו"ח בקרת איכות
+    hdr_qa_summary=סיכום בקרת איכות
+    hdr_qmlogo_returntohomelink=חזרה לדף הבית
+    hdr_queues=תורים
+    hdr_realtime=זמן אמת
+    hdr_reports=דוחות
+    hdr_resetquery=איפוס פרמטרי חיפוש
+    hdr_rt=זמן אמת
+    hdr_rt_title=מדדי זמן אמת
+    hdr_skills=מיומנויות
+    hdr_stats=סטטיסטיקות
+    hdr_stats_title=סטטיסטיקות
+    hdr_tags=תגיות
+    hdr_tags_title=תגיות שיחה
+    hdr_tasks=משימות
+    hdr_tasks_rss=הזנת RSS
+    hdr_tc=תנאים והתניות
+    hdr_unanswered=לא נענו
+    hdr_unanswered_details=פ.ל.נ.
+    hdr_unanswered_details_title=פרטי שיחות שלא נענו
+    hdr_user=פרטי משתמש
+    hdr_users=משתמשים
 
 ## Configuration editors
 
@@ -1326,106 +1230,59 @@ Used for data blocks Overview by Agent/Queue
     edit_ac_supervisor=אחראי משמרת
     edit_ac_term=Term.
     edit_ac_title=הגדרות נציגים קיימים
-    # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute= מאפיין
+    edit_amo_attribute= מאפיין
 
 ### AMO
 
-   # 🔴 edit_amo_attributes -> Attributes
-➡️ edit_amo_attributes=מאפיינים
-# 🔴 edit_amo_campaign -> Campaign
-➡️ edit_amo_campaign=קמפיין
-# 🔴 edit_amo_last_pull -> Last Pull
-➡️ edit_amo_last_pull=שליפה אחרונה
-# 🔴 edit_amo_list_dialer_state -> Dialer State
-➡️ edit_amo_list_dialer_state=מצב חייגן
-# 🔴 edit_amo_list_id -> List ID
-➡️ edit_amo_list_id=מזהה רשימה
-# 🔴 edit_amo_list_last_pull -> Last Pull
-➡️ edit_amo_list_last_pull=שליפה אחרונה
-# 🔴 edit_amo_list_n_added -> N. added
-➡️ edit_amo_list_n_added=כמות שנוספו
-# 🔴 edit_amo_list_n_completed -> N. completed
-➡️ edit_amo_list_n_completed=כמות שהושלמו
-# 🔴 edit_amo_list_n_pulled -> N. pulled
-➡️ edit_amo_list_n_pulled=כמות שנמשכו
-# 🔴 edit_amo_list_name -> Name
-➡️ edit_amo_list_name=שם
-# 🔴 edit_amo_list_numbers -> Edit Numbers
-➡️ edit_amo_list_numbers=עריכת מספרים
-# 🔴 edit_amo_list_pull_by -> Pulled by
-➡️ edit_amo_list_pull_by=נמשך על ידי
-# 🔴 edit_amo_list_state -> List State
-➡️ edit_amo_list_state=מצב רשימה
-# 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-➡️ edit_amo_list_upload_numbers=העלאת מספרים
-    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-➡️ edit_amo_list_upload_text=גרור קובצי CSV או עיון
-# 🔴 edit_amo_list_weight -> Weight
-➡️ edit_amo_list_weight=משקל
-# 🔴 edit_amo_lists_list -> AMO Lists
-➡️ edit_amo_lists_list=רשימות AMO
-# 🔴 edit_amo_lists_name_present -> The selected list name already exists
-➡️ edit_amo_lists_name_present=שם הרשימה שנבחר כבר קיים
-# 🔴 edit_amo_lists_title -> Edit AMO List
-➡️ edit_amo_lists_title=עריכת רשימת AMO
-# 🔴 edit_amo_n_added -> N. added
-➡️ edit_amo_n_added=כמות שנוספו
-# 🔴 edit_amo_n_completed -> N. completed
-➡️ edit_amo_n_completed=כמות שהושלמו
-# 🔴 edit_amo_n_lists -> N. of Lists
-➡️ edit_amo_n_lists=מספר רשימות
-# 🔴 edit_amo_name -> Name
-➡️ edit_amo_name=שם
-# 🔴 edit_amo_notes -> Notes
-➡️ edit_amo_notes=הערות
-# 🔴 edit_amo_number -> Number
-➡️ edit_amo_number=מספר
-# 🔴 edit_amo_number_id -> Number ID
-➡️ edit_amo_number_id=מזהה מספר
-# 🔴 edit_amo_numbers_current_uid -> Current UID
-➡️ edit_amo_numbers_current_uid=UID נוכחי
-# 🔴 edit_amo_numbers_edit -> Edit AMO Number
-➡️ edit_amo_numbers_edit=עריכת מספר AMO
-# 🔴 edit_amo_numbers_list -> AMO Numbers
-➡️ edit_amo_numbers_list=מספרי AMO
-# 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-➡️ edit_amo_numbers_previous_retries=נסיונות קודמים
-# 🔴 edit_amo_numbers_retry_no -> Retry Number
-➡️ edit_amo_numbers_retry_no=מספר ניסיון חוזר
-# 🔴 edit_amo_queue_id -> Queue ID
-➡️ edit_amo_queue_id=מזהה תור
-# 🔴 edit_amo_retry_no -> N. of retries
-➡️ edit_amo_retry_no=מספר ניסיונות חוזרים
-# 🔴 edit_amo_state -> State
-➡️ edit_amo_state=מצב
-# 🔴 edit_amo_valid_attribute -> Attribute
-➡️ edit_amo_valid_attribute=מאפיין
-# 🔴 edit_amo_valid_from -> Valid from
-➡️ edit_amo_valid_from=בתוקף מ-
-# 🔴 edit_amo_valid_value -> Value
-➡️ edit_amo_valid_value=ערך
+    edit_amo_attributes=מאפיינים
+    edit_amo_campaign=קמפיין
+    edit_amo_last_pull=שליפה אחרונה
+    edit_amo_list_dialer_state=מצב חייגן
+    edit_amo_list_id=מזהה רשימה
+    edit_amo_list_last_pull=שליפה אחרונה
+    edit_amo_list_n_added=כמות שנוספו
+    edit_amo_list_n_completed=כמות שהושלמו
+    edit_amo_list_n_pulled=כמות שנמשכו
+    edit_amo_list_name=שם
+    edit_amo_list_numbers=עריכת מספרים
+    edit_amo_list_pull_by=נמשך על ידי
+    edit_amo_list_state=מצב רשימה
+    edit_amo_list_upload_numbers=העלאת מספרים
+    edit_amo_list_upload_text=גרור קובצי CSV או עיון
+    edit_amo_list_weight=משקל
+    edit_amo_lists_list=רשימות AMO
+    edit_amo_lists_name_present=שם הרשימה שנבחר כבר קיים
+    edit_amo_lists_title=עריכת רשימת AMO
+    edit_amo_n_added=כמות שנוספו
+    edit_amo_n_completed=כמות שהושלמו
+    edit_amo_n_lists=מספר רשימות
+    edit_amo_name=שם
+    edit_amo_notes=הערות
+    edit_amo_number=מספר
+    edit_amo_number_id=מזהה מספר
+    edit_amo_numbers_current_uid=UID נוכחי
+    edit_amo_numbers_edit=עריכת מספר AMO
+    edit_amo_numbers_list=מספרי AMO
+    edit_amo_numbers_previous_retries=נסיונות קודמים
+    edit_amo_numbers_retry_no=מספר ניסיון חוזר
+    edit_amo_queue_id=מזהה תור
+    edit_amo_retry_no=מספר ניסיונות חוזרים
+    edit_amo_state=מצב
+    edit_amo_valid_attribute=מאפיין
+    edit_amo_valid_from=בתוקף מ-
+    edit_amo_valid_value=ערך
 
 ### Cases
 
-   # 🔴 edit_cases_client -> Client
-➡️ edit_cases_client=לקוח
-# 🔴 edit_cases_contact -> Contact
-➡️ edit_cases_contact=איש קשר
-# 🔴 edit_cases_email -> Email
-➡️ edit_cases_email=אימייל
-# 🔴 edit_cases_header -> Cases
-➡️ edit_cases_header=תיקים
-# 🔴 edit_cases_id -> Case Id
-➡️ edit_cases_id=מזהה תיק
-# 🔴 edit_cases_key -> Key
-➡️ edit_cases_key=מפתח
-# 🔴 edit_cases_status -> Status
-➡️ edit_cases_status=סטטוס
-# 🔴 edit_cases_title -> Title
-➡️ edit_cases_title=כותרת
-# 🔴 edit_cases_xref -> Reference
-➡️ edit_cases_xref=אסמכתא
+    edit_cases_client=לקוח
+    edit_cases_contact=איש קשר
+    edit_cases_email=אימייל
+    edit_cases_header=תיקים
+    edit_cases_id=מזהה תיק
+    edit_cases_key=מפתח
+    edit_cases_status=סטטוס
+    edit_cases_title=כותרת
+    edit_cases_xref=אסמכתא
     edit_cbt_deleted=נמחק
     edit_cbt_description=תיאור
     edit_cbt_key=מפתח
@@ -1436,30 +1293,18 @@ Used for data blocks Overview by Agent/Queue
     edit_classes_keys=מפתחות
     edit_classes_title=מחלקות משתמש
     edit_classes_user_num=מזהה משתמש
- # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
-➡️ edit_clients_client_in_use=לא ניתן למחוק את הלקוח כיוון שהוא בשימוש
-# 🔴 edit_clients_contact -> Contact
-➡️ edit_clients_contact=איש קשר
-# 🔴 edit_clients_email -> Email
-➡️ edit_clients_email=אימייל
-# 🔴 edit_clients_header -> Clients
-➡️ edit_clients_header=לקוחות
-# 🔴 edit_clients_key -> Key
-➡️ edit_clients_key=מפתח
-# 🔴 edit_clients_name -> Name
-➡️ edit_clients_name=שם
-# 🔴 edit_clients_name_present -> Name already present
-➡️ edit_clients_name_present=השם כבר קיים
-# 🔴 edit_clients_status -> Status
-➡️ edit_clients_status=סטטוס
-# 🔴 edit_clients_xref -> Reference
-➡️ edit_clients_xref=אסמכתא
-# 🔴 edit_clients_xref_already_present -> This reference is already present
-➡️ edit_clients_xref_already_present=האסמכתא הזו כבר קיימת
-# 🔴 edit_clients_xref_missing -> You must set a reference
-➡️ edit_clients_xref_missing=יש להזין אסמכתא
-# 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
-➡️ edit_clients_xref_not_allowed=לאסמכתא פורמט לא תקין
+    edit_clients_client_in_use=לא ניתן למחוק את הלקוח כיוון שהוא בשימוש
+    edit_clients_contact=איש קשר
+    edit_clients_email=אימייל
+    edit_clients_header=לקוחות
+    edit_clients_key=מפתח
+    edit_clients_name=שם
+    edit_clients_name_present=השם כבר קיים
+    edit_clients_status=סטטוס
+    edit_clients_xref=אסמכתא
+    edit_clients_xref_already_present=האסמכתא הזו כבר קיימת
+    edit_clients_xref_missing=יש להזין אסמכתא
+    edit_clients_xref_not_allowed=לאסמכתא פורמט לא תקין
     edit_cronjobs_asuser=פתח כמשתמש
     edit_cronjobs_cyclic=מחזורי
     edit_cronjobs_description=תיאור
@@ -1478,16 +1323,11 @@ Used for data blocks Overview by Agent/Queue
     edit_ct_key=מילת מפתח
     edit_ct_tag=תג
     edit_ct_title=תגי שיחות
-  # 🔴 edit_customblocks_description -> Description
-➡️ edit_customblocks_description=תיאור
-# 🔴 edit_customblocks_header -> Custom DataBlocks
-➡️ edit_customblocks_header=בלוקים מותאמים אישית
-# 🔴 edit_customblocks_key -> Security Key
-➡️ edit_customblocks_key=מפתח אבטחה
-# 🔴 edit_customblocks_provider -> Provider
-➡️ edit_customblocks_provider=ספק
-# 🔴 edit_customblocks_title -> Title
-➡️ edit_customblocks_title=כותרת
+    edit_customblocks_description=תיאור
+    edit_customblocks_header=בלוקים מותאמים אישית
+    edit_customblocks_key=מפתח אבטחה
+    edit_customblocks_provider=ספק
+    edit_customblocks_title=כותרת
     edit_dnis_description=תיאור
     edit_dnis_dnis=קוד DNIS
     edit_dnis_title=DNIS
@@ -1602,659 +1442,326 @@ Used for data blocks Overview by Agent/Queue
     edit_record_agawqueue_conversions=% המרה
     edit_record_agawqueue_cph=CPH - יצירות קשר לשעה
     edit_record_agawqueue_maxwait=מינימום זמן המתנה - לשיחות ממתינות בתור
-   # 🔴 edit_record_agawqueue_ncallswait -> Number of calls waiting
-➡️ edit_record_agawqueue_ncallswait=מספר שיחות ממתינות
-# 🔴 edit_record_agawqueue_qcph -> QCPH - Qualified Contacts per Hour
-➡️ edit_record_agawqueue_qcph=QCPH - פניות מוסמכות לשעה
-# 🔴 edit_record_agawqueue_qsettings -> Queue settings
-➡️ edit_record_agawqueue_qsettings=הגדרות תור
-# 🔴 edit_record_agawqueue_qualconversions -> Qualified Conversions %
-➡️ edit_record_agawqueue_qualconversions=אחוז המרות מוסמכות
-# 🔴 edit_record_agawqueue_red -> red
-➡️ edit_record_agawqueue_red=אדום
-# 🔴 edit_record_agawqueue_sph -> SPH - Sales per Hour
-➡️ edit_record_agawqueue_sph=SPH - מכירות לשעה
-# 🔴 edit_record_agawqueue_title -> AGAW alarms for queue:
-➡️ edit_record_agawqueue_title=התראות AGAW עבור תור:
-# 🔴 edit_record_agawqueue_yellow -> yellow
-➡️ edit_record_agawqueue_yellow=צהוב
-# 🔴 edit_record_agent_delete_protection -> Delete Protection
-➡️ edit_record_agent_delete_protection=הגנת מחיקה
-# 🔴 edit_record_agent_syncsettings -> Synchronizer Settings
-➡️ edit_record_agent_syncsettings=הגדרות סנכרון
-# 🔴 edit_record_agent_update_protection -> Update Protection
-➡️ edit_record_agent_update_protection=הגנת עדכון
-# 🔴 edit_record_agents_agentinqueue -> Agent is a known member of the following queues:
-➡️ edit_record_agents_agentinqueue=הנציג חבר ידוע בתורים הבאים:
-# 🔴 edit_record_agents_agentkeys -> Agent Keys:
-➡️ edit_record_agents_agentkeys=מפתחות נציג:
-# 🔴 edit_record_agents_aliases -> Aliases:
-➡️ edit_record_agents_aliases=כינויים:
-# 🔴 edit_record_agents_code -> Agent Code:
-➡️ edit_record_agents_code=קוד נציג:
-   # 🔴 edit_record_agents_configure -> The Agent/Queue association can be configured from the 'CFG Queues' tab
-➡️ edit_record_agents_configure=ניתן להגדיר את שיוך הנציג לתור בלשונית 'CFG Queues'
-# 🔴 edit_record_agents_defaultserver -> Server
-➡️ edit_record_agents_defaultserver=שרת
-# 🔴 edit_record_agents_description -> Agent description:
-➡️ edit_record_agents_description=תיאור הנציג:
-# 🔴 edit_record_agents_direction -> Direction
-➡️ edit_record_agents_direction=כיוון
-# 🔴 edit_record_agents_eg -> E.g.: Agent/101
-➡️ edit_record_agents_eg=לדוגמה: Agent/101
-# 🔴 edit_record_agents_group -> Agent group:
-➡️ edit_record_agents_group=קבוצת נציג:
-# 🔴 edit_record_agents_imaddress -> Instant messenger address:
-➡️ edit_record_agents_imaddress=כתובת מסרים מיידיים:
-# 🔴 edit_record_agents_level -> Level
-➡️ edit_record_agents_level=רמה
-# 🔴 edit_record_agents_location -> Agent location:
-➡️ edit_record_agents_location=מיקום נציג:
-# 🔴 edit_record_agents_multiplealiases1 -> Separate multiple aliases
-➡️ edit_record_agents_multiplealiases1=הפרד כינויים מרובים
-# 🔴 edit_record_agents_multiplealiases2 -> with a "|" symbol
-➡️ edit_record_agents_multiplealiases2=באמצעות הסימן "|"
-# 🔴 edit_record_agents_noqueues -> No queues defined.
-➡️ edit_record_agents_noqueues=לא הוגדרו תורים.
-# 🔴 edit_record_agents_payroll -> Payroll Code:
-➡️ edit_record_agents_payroll=קוד שכר:
-# 🔴 edit_record_agents_queuename -> Queue name
-➡️ edit_record_agents_queuename=שם תור
-# 🔴 edit_record_agents_supervisor -> Supervisor:
-➡️ edit_record_agents_supervisor=מפקח:
-# 🔴 edit_record_agents_terminal -> Current terminal:
-➡️ edit_record_agents_terminal=טרמינל נוכחי:
-# 🔴 edit_record_agents_title -> Agent Detail
-➡️ edit_record_agents_title=פרטי נציג
-    # 🔴 edit_record_agents_vnc -> VNC monitoring URL:
-➡️ edit_record_agents_vnc=כתובת URL לניטור VNC:
-# 🔴 edit_record_agents_webphoneautoanswer -> Auto Answer
-➡️ edit_record_agents_webphoneautoanswer=מענה אוטומטי
-# 🔴 edit_record_agents_webphonepassword -> WebPhone Password:
-➡️ edit_record_agents_webphonepassword=סיסמת טלפון רשת:
-# 🔴 edit_record_agents_webphonerealm -> WebPhone Realm:
-➡️ edit_record_agents_webphonerealm=תחום טלפון רשת:
-# 🔴 edit_record_agents_webphoneuri -> WebPhone SIP Uri:
-➡️ edit_record_agents_webphoneuri=כתובת SIP של טלפון רשת:
-# 🔴 edit_record_agents_webphoneusername -> WebPhone Username:
-➡️ edit_record_agents_webphoneusername=שם משתמש טלפון רשת:
-# 🔴 edit_record_back -> Back
-➡️ edit_record_back=חזרה
-# 🔴 edit_record_backtoallqueues -> Back to all queues
-➡️ edit_record_backtoallqueues=חזרה לכל התורים
-# 🔴 edit_record_backtolist -> Back to list
-➡️ edit_record_backtolist=חזרה לרשימה
-# 🔴 edit_record_backtoqueue -> Back to queue
-➡️ edit_record_backtoqueue=חזרה לתור
-# 🔴 edit_record_backtoreports -> Back to reports
-➡️ edit_record_backtoreports=חזרה לדוחות
-# 🔴 edit_record_case_transactions -> Activity for this case
-➡️ edit_record_case_transactions=פעילות עבור תיק זה
-# 🔴 edit_record_cases_contact -> Contact
-➡️ edit_record_cases_contact=איש קשר
-# 🔴 edit_record_cases_email -> Email
-➡️ edit_record_cases_email=אימייל
-# 🔴 edit_record_cases_for_client -> Recent cases for this client
-➡️ edit_record_cases_for_client=תיקים אחרונים עבור לקוח זה
-# 🔴 edit_record_cases_handled_by -> Handled by
-➡️ edit_record_cases_handled_by=טופל על ידי
-# 🔴 edit_record_cases_header -> Edit Case
-➡️ edit_record_cases_header=עריכת תיק
-    # 🔴 edit_record_cases_id -> Case Id
-➡️ edit_record_cases_id=מזהה תיק
-# 🔴 edit_record_cases_none_found -> None found
-➡️ edit_record_cases_none_found=לא נמצאו רשומות
-# 🔴 edit_record_cases_notes -> Notes
-➡️ edit_record_cases_notes=הערות
-# 🔴 edit_record_cases_queue -> Queue
-➡️ edit_record_cases_queue=תור
-# 🔴 edit_record_cases_securitykey -> Security Key
-➡️ edit_record_cases_securitykey=מפתח אבטחה
-# 🔴 edit_record_cases_status -> Status
-➡️ edit_record_cases_status=סטטוס
-# 🔴 edit_record_cases_text -> Note text
-➡️ edit_record_cases_text=תוכן ההערה
-# 🔴 edit_record_cases_title -> Title
-➡️ edit_record_cases_title=כותרת
-# 🔴 edit_record_cases_xref -> Reference
-➡️ edit_record_cases_xref=אסמכתא
-# 🔴 edit_record_cbt_code -> CBT Code:
-➡️ edit_record_cbt_code=קוד CBT:
-# 🔴 edit_record_cbt_counter -> Sent counter:
-➡️ edit_record_cbt_counter=מונה שליחות:
-# 🔴 edit_record_cbt_offline -> Offline:
-➡️ edit_record_cbt_offline=לא מקוון:
-# 🔴 edit_record_cbt_test -> Test
-➡️ edit_record_cbt_test=בדיקה
-# 🔴 edit_record_cbt_title -> Edit CBTs
-➡️ edit_record_cbt_title=עריכת CBT
-# 🔴 edit_record_cbt_url -> CBT URL:
-➡️ edit_record_cbt_url=כתובת CBT:
-# 🔴 edit_record_classes_id -> Class Id:
-➡️ edit_record_classes_id=מזהה מחלקה:
-    # 🔴 edit_record_classes_keys -> Keys:
-➡️ edit_record_classes_keys=מפתחות:
-# 🔴 edit_record_classes_name -> Class name:
-➡️ edit_record_classes_name=שם מחלקה:
-# 🔴 edit_record_classes_title -> Class Detail
-➡️ edit_record_classes_title=פרטי מחלקה
-# 🔴 edit_record_classes_usersinclass -> Number of users belonging to this class:
-➡️ edit_record_classes_usersinclass=מספר משתמשים השייכים למחלקה זו:
-# 🔴 edit_record_client_id -> Client
-➡️ edit_record_client_id=לקוח
-# 🔴 edit_record_clients_contact -> Contact
-➡️ edit_record_clients_contact=איש קשר
-# 🔴 edit_record_clients_email -> Email
-➡️ edit_record_clients_email=אימייל
-# 🔴 edit_record_clients_header -> Edit Client
-➡️ edit_record_clients_header=עריכת לקוח
-# 🔴 edit_record_clients_name -> Name
-➡️ edit_record_clients_name=שם
-# 🔴 edit_record_clients_notes -> Notes
-➡️ edit_record_clients_notes=הערות
-# 🔴 edit_record_clients_securitykey -> Security Key
-➡️ edit_record_clients_securitykey=מפתח אבטחה
-# 🔴 edit_record_clients_status -> Client status
-➡️ edit_record_clients_status=סטטוס לקוח
-# 🔴 edit_record_clone -> Clone
-➡️ edit_record_clone=שכפול
-# 🔴 edit_record_createdby -> Created By
-➡️ edit_record_createdby=נוצר על ידי
-    # 🔴 edit_record_cronjob_dom -> Day of Month
-➡️ edit_record_cronjob_dom=יום בחודש
-# 🔴 edit_record_cronjob_dow -> Day of Week
-➡️ edit_record_cronjob_dow=יום בשבוע
-# 🔴 edit_record_cronjob_lastruns -> Most Recent Runs
-➡️ edit_record_cronjob_lastruns=הרצות אחרונות
-# 🔴 edit_record_cronjobs_asuser -> Run as User
-➡️ edit_record_cronjobs_asuser=הרץ כמשתמש
-# 🔴 edit_record_cronjobs_description -> Description
-➡️ edit_record_cronjobs_description=תיאור
-# 🔴 edit_record_cronjobs_every -> Every
-➡️ edit_record_cronjobs_every=כל
-# 🔴 edit_record_cronjobs_hour -> Time
-➡️ edit_record_cronjobs_hour=שעה
-# 🔴 edit_record_cronjobs_is_recurring -> When
-➡️ edit_record_cronjobs_is_recurring=מתי
-# 🔴 edit_record_cronjobs_isenabled -> Enabled
-➡️ edit_record_cronjobs_isenabled=פעיל
-# 🔴 edit_record_cronjobs_lastrun -> Last Run
-➡️ edit_record_cronjobs_lastrun=הרצה אחרונה
-# 🔴 edit_record_cronjobs_lastrunaction -> Action
-➡️ edit_record_cronjobs_lastrunaction=פעולה
-# 🔴 edit_record_cronjobs_lastrundate -> Date
-➡️ edit_record_cronjobs_lastrundate=תאריך
-# 🔴 edit_record_cronjobs_lastrunduration -> Duration
-➡️ edit_record_cronjobs_lastrunduration=משך זמן
-# 🔴 edit_record_cronjobs_lastrunstatus -> Status
-➡️ edit_record_cronjobs_lastrunstatus=סטטוס
-# 🔴 edit_record_cronjobs_lastruntext -> Info
-➡️ edit_record_cronjobs_lastruntext=מידע
-# 🔴 edit_record_cronjobs_name -> Name
-➡️ edit_record_cronjobs_name=שם
-# 🔴 edit_record_cronjobs_nolastruns -> There are no recent runs to show
-➡️ edit_record_cronjobs_nolastruns=אין הרצות אחרונות להצגה
-    # 🔴 edit_record_cronjobs_title -> Scheduled Jobs Details
-➡️ edit_record_cronjobs_title=פרטי משימות מתוזמנות
-# 🔴 edit_record_customblocks_block -> Dispatch Name
-➡️ edit_record_customblocks_block=שם רכיב
-# 🔴 edit_record_customblocks_description -> Description
-➡️ edit_record_customblocks_description=תיאור
-# 🔴 edit_record_customblocks_graph_params -> Chart Parameters
-➡️ edit_record_customblocks_graph_params=פרמטרים לתרשים
-# 🔴 edit_record_customblocks_graph_provider -> Chart Provider
-➡️ edit_record_customblocks_graph_provider=ספק תרשים
-# 🔴 edit_record_customblocks_graphnone -> None
-➡️ edit_record_customblocks_graphnone=ללא
-# 🔴 edit_record_customblocks_graphreact -> React
-➡️ edit_record_customblocks_graphreact=React
-# 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
-➡️ edit_record_customblocks_header=עריכת רכיב נתונים מותאם
-# 🔴 edit_record_customblocks_provider -> Provider
-➡️ edit_record_customblocks_provider=ספק
-# 🔴 edit_record_customblocks_securitykey -> Security Key
-➡️ edit_record_customblocks_securitykey=מפתח אבטחה
-# 🔴 edit_record_customblocks_source_body -> Source
-➡️ edit_record_customblocks_source_body=מקור
-# 🔴 edit_record_customblocks_title -> Title
-➡️ edit_record_customblocks_title=כותרת
-# 🔴 edit_record_customblocks_view -> View
-➡️ edit_record_customblocks_view=תצוגה
-# 🔴 edit_record_delete -> Delete
-➡️ edit_record_delete=מחק
-# 🔴 edit_record_description -> Description
-➡️ edit_record_description=תיאור
-# 🔴 edit_record_dnis_code -> DNIS code:
-➡️ edit_record_dnis_code=קוד DNIS:
-# 🔴 edit_record_dnis_title -> Edit DNIS details
-➡️ edit_record_dnis_title=עריכת פרטי DNIS
-    # 🔴 edit_record_editform -> Edit Form
-➡️ edit_record_editform=ערוך טופס
-# 🔴 edit_record_export_emails -> E-Mail(s):
-➡️ edit_record_export_emails=אימייל(ים):
-# 🔴 edit_record_export_orientation -> Orientation:
-➡️ edit_record_export_orientation=כיוון:
-# 🔴 edit_record_export_period -> Period:
-➡️ edit_record_export_period=תקופה:
-# 🔴 edit_record_export_queue -> Queue:
-➡️ edit_record_export_queue=תור:
-# 🔴 edit_record_export_reportname -> Report name:
-➡️ edit_record_export_reportname=שם דוח:
-# 🔴 edit_record_export_reporttype -> Report type:
-➡️ edit_record_export_reporttype=סוג דוח:
-# 🔴 edit_record_export_separate -> Separate with '|'
-➡️ edit_record_export_separate=הפרד באמצעות '|'
-# 🔴 edit_record_export_title -> Reports Export detail
-➡️ edit_record_export_title=פרטי ייצוא דוחות
-# 🔴 edit_record_export_titlefield -> Title:
-➡️ edit_record_export_titlefield=כותרת:
-# 🔴 edit_record_export_visibility -> Visibility key:
-➡️ edit_record_export_visibility=מפתח נראות:
-# 🔴 edit_record_ext_ref -> Reference
-➡️ edit_record_ext_ref=אסמכתא
-# 🔴 edit_record_external_reference -> External Reference ID:
-➡️ edit_record_external_reference=מזהה אסמכתא חיצונית:
-# 🔴 edit_record_features_code -> Feature code
-➡️ edit_record_features_code=קוד תכונה
-# 🔴 edit_record_features_goal -> Goal:
-➡️ edit_record_features_goal=מטרה:
-# 🔴 edit_record_features_outcomes -> Relevant Outcomes:
-➡️ edit_record_features_outcomes=תוצאות רלוונטיות:
-# 🔴 edit_record_features_title -> Edit call features
-➡️ edit_record_features_title=עריכת מאפייני שיחה
-   # 🔴 edit_record_features_visibility -> Queue visibility:
-➡️ edit_record_features_visibility=נראות תור:
-# 🔴 edit_record_groups_agentsingroup -> Agents belonging to this agent group:
-➡️ edit_record_groups_agentsingroup=נציגים השייכים לקבוצת נציגים זו:
-# 🔴 edit_record_groups_code -> Agent Code
-➡️ edit_record_groups_code=קוד נציג
-# 🔴 edit_record_groups_name -> Agent Name
-➡️ edit_record_groups_name=שם נציג
-# 🔴 edit_record_groups_noagents -> No agents belonging to this group.
-➡️ edit_record_groups_noagents=אין נציגים השייכים לקבוצה זו.
-# 🔴 edit_record_groups_title -> Edit agent group details
-➡️ edit_record_groups_title=עריכת פרטי קבוצת נציגים
-# 🔴 edit_record_icon -> Icon
-➡️ edit_record_icon=אייקון
-# 🔴 edit_record_ivr_code -> IVR code:
-➡️ edit_record_ivr_code=קוד IVR:
-# 🔴 edit_record_ivr_title -> Edit IVR details
-➡️ edit_record_ivr_title=עריכת פרטי IVR
-# 🔴 edit_record_lastupdate -> Last Update
-➡️ edit_record_lastupdate=עדכון אחרון
-# 🔴 edit_record_locations_agentsinlocation -> Number of agents belonging to this location:
-➡️ edit_record_locations_agentsinlocation=מספר נציגים השייכים למיקום זה:
-# 🔴 edit_record_locations_title -> Edit location details
-➡️ edit_record_locations_title=עריכת פרטי מיקום
-# 🔴 edit_record_name -> Name
-➡️ edit_record_name=שם
-# 🔴 edit_record_new -> New
-➡️ edit_record_new=חדש
-# 🔴 edit_record_outcomes_code -> Status code:
-➡️ edit_record_outcomes_code=קוד סטטוס:
-# 🔴 edit_record_outcomes_contact -> Counts as Contact?
-➡️ edit_record_outcomes_contact=נחשב כאיש קשר?
-# 🔴 edit_record_outcomes_qualified -> Counts as Qualified Contact?
-➡️ edit_record_outcomes_qualified=נחשב כאיש קשר מוסמך?
-    # 🔴 edit_record_outcomes_sale -> Counts as Sale?
-➡️ edit_record_outcomes_sale=נחשב כמכירה?
-# 🔴 edit_record_outcomes_title -> Edit call outcomes
-➡️ edit_record_outcomes_title=עריכת תוצאות שיחה
-# 🔴 edit_record_outcomes_visibility -> Queue visibility:
-➡️ edit_record_outcomes_visibility=נראות תור:
-# 🔴 edit_record_pauses_billable -> Counts as Billable activity?
-➡️ edit_record_pauses_billable=נחשב כפעילות לחיוב?
-# 🔴 edit_record_pauses_code -> Status code:
-➡️ edit_record_pauses_code=קוד סטטוס:
-# 🔴 edit_record_pauses_payable -> Counts as Payable activity?
-➡️ edit_record_pauses_payable=נחשב לפעילות בתשלום?
-# 🔴 edit_record_pauses_title -> Edit Pause Codes
-➡️ edit_record_pauses_title=עריכת קודי הפסקה
-# 🔴 edit_record_pauses_type -> Pause type:
-➡️ edit_record_pauses_type=סוג הפסקה:
-# 🔴 edit_record_prftrk_enabled -> Enabled
-➡️ edit_record_prftrk_enabled=פעיל
-# 🔴 edit_record_prftrk_form -> Form:
-➡️ edit_record_prftrk_form=טופס:
-# 🔴 edit_record_prftrk_queue -> Queue:
-➡️ edit_record_prftrk_queue=תור:
-# 🔴 edit_record_prftrk_red -> Red
-➡️ edit_record_prftrk_red=אדום
-# 🔴 edit_record_prftrk_score -> Score
-➡️ edit_record_prftrk_score=ציון
-# 🔴 edit_record_prftrk_target -> Target
-➡️ edit_record_prftrk_target=יעד
-# 🔴 edit_record_prftrk_title -> QA: Performance Tracker Scoring rules
-➡️ edit_record_prftrk_title=בקרת איכות: כללי ניקוד למעקב ביצועים
-# 🔴 edit_record_prftrk_yellow -> Yellow
-➡️ edit_record_prftrk_yellow=צהוב
-# 🔴 edit_record_qa_editsections -> Edit Sections
-➡️ edit_record_qa_editsections=ערוך מקטעים
-    # 🔴 edit_record_qa_grading -> Call Grading
-➡️ edit_record_qa_grading=ניקוד שיחה
-# 🔴 edit_record_qa_inputkey -> Security key for input:
-➡️ edit_record_qa_inputkey=מפתח אבטחה להזנה:
-# 🔴 edit_record_qa_locked -> Form locked?
-➡️ edit_record_qa_locked=האם הטופס נעול?
-# 🔴 edit_record_qa_maxvalue -> Maximum value for
-➡️ edit_record_qa_maxvalue=ערך מרבי עבור
-# 🔴 edit_record_qa_name -> Form name:
-➡️ edit_record_qa_name=שם טופס:
-# 🔴 edit_record_qa_nofgradedcalls -> N. calls graded:
-➡️ edit_record_qa_nofgradedcalls=מס' שיחות שנוקדו:
-# 🔴 edit_record_qa_reportkey -> Security key for reports:
-➡️ edit_record_qa_reportkey=מפתח אבטחה לדוחות:
-# 🔴 edit_record_qa_secnames -> Section Names
-➡️ edit_record_qa_secnames=שמות מקטעים
-# 🔴 edit_record_qa_section -> section
-➡️ edit_record_qa_section=מקטע
-# 🔴 edit_record_qa_title -> QA: Forms Editor
-➡️ edit_record_qa_title=בקרת איכות: עורך טפסים
-# 🔴 edit_record_qa_visibility -> Queue visibility:
-➡️ edit_record_qa_visibility=נראות תור:
-# 🔴 edit_record_qaformitem_activeif -> Active if...
-➡️ edit_record_qaformitem_activeif=פעיל אם...
-# 🔴 edit_record_qaformitem_addnew -> Add new item:
-➡️ edit_record_qaformitem_addnew=הוסף פריט חדש:
-# 🔴 edit_record_qaformitem_extra -> Extra Score
-➡️ edit_record_qaformitem_extra=ניקוד נוסף
-# 🔴 edit_record_qaformitem_noitems -> No Items found
-➡️ edit_record_qaformitem_noitems=לא נמצאו פריטים
-# 🔴 edit_record_qaformitem_nonscoring -> Non Scoring
-➡️ edit_record_qaformitem_nonscoring=ללא ניקוד
-# 🔴 edit_record_qaformitem_section -> Section:
-➡️ edit_record_qaformitem_section=מקטע:
-    # 🔴 edit_record_qaformitem_title -> QA: Items for Form
-➡️ edit_record_qaformitem_title=איכות: פריטים לטופס
-# 🔴 edit_record_qaitems_code -> Engagement code:
-➡️ edit_record_qaitems_code=קוד מעקב:
-# 🔴 edit_record_qaitems_form -> Form
-➡️ edit_record_qaitems_form=טופס
-# 🔴 edit_record_qaitems_mandatory -> Item is mandatory:
-➡️ edit_record_qaitems_mandatory=שדה חובה:
-# 🔴 edit_record_qaitems_multivalue -> Multi value options:
-➡️ edit_record_qaitems_multivalue=אפשרויות מרובות:
-# 🔴 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
-➡️ edit_record_qaitems_notuse=קוד זה לא בשימוש באף טופס.
-# 🔴 edit_record_qaitems_section -> Item is a section shortcut:
-➡️ edit_record_qaitems_section=קיצור לקטע:
-# 🔴 edit_record_qaitems_shortcut -> Item is a shortcut:
-➡️ edit_record_qaitems_shortcut=הפריט הוא קיצור:
-# 🔴 edit_record_qaitems_title -> QA: Items Editor
-➡️ edit_record_qaitems_title=איכות: עריכת פריטים
-# 🔴 edit_record_qaitems_type -> Item value type:
-➡️ edit_record_qaitems_type=סוג ערך:
-# 🔴 edit_record_qaitems_usingcode -> Forms using this Engagement Code
-➡️ edit_record_qaitems_usingcode=טפסים המשתמשים בקוד זה
-# 🔴 edit_record_qaitems_weight -> Item Weight:
-➡️ edit_record_qaitems_weight=משקל פריט:
-# 🔴 edit_record_queue_agawalarms -> AGAW alarms
-➡️ edit_record_queue_agawalarms=אזעקות AGAW
-# 🔴 edit_record_queue_agawenabled -> AGAW enabled for this queue:
-➡️ edit_record_queue_agawenabled=AGAW מופעל עבור תור זה:
-# 🔴 edit_record_queue_agawlookback -> AGAW lookback period(mins):
-➡️ edit_record_queue_agawlookback=משך זמן בדיקה לאחור (דקות):
-# 🔴 edit_record_queue_agawrun -> Will AGAW be run for this queue?
-➡️ edit_record_queue_agawrun=האם AGAW ירוץ עבור תור זה?
-# 🔴 edit_record_queue_agawsettings -> AGAW settings
-➡️ edit_record_queue_agawsettings=הגדרות AGAW
-# 🔴 edit_record_queue_agentsbutton -> Agents
-➡️ edit_record_queue_agentsbutton=נציגים
-    # 🔴 edit_record_queue_agentsoncall -> Number of agents on call:
-➡️ edit_record_queue_agentsoncall=מספר נציגים בשיחה:
-# 🔴 edit_record_queue_agentspaused -> Number of agents paused:
-➡️ edit_record_queue_agentspaused=מספר נציגים בהפסקה:
-# 🔴 edit_record_queue_agentswaiting -> Number of agents waiting:
-➡️ edit_record_queue_agentswaiting=מספר נציגים ממתינים:
-# 🔴 edit_record_queue_alias -> Queue alias:
-➡️ edit_record_queue_alias=כינוי לתור:
-# 🔴 edit_record_queue_amo -> AMO Settings
-➡️ edit_record_queue_amo=הגדרות AMO
-# 🔴 edit_record_queue_amo_enabled -> Enabled
-➡️ edit_record_queue_amo_enabled=פעיל
-# 🔴 edit_record_queue_amo_exponential -> Exponential
-➡️ edit_record_queue_amo_exponential=מעריכי
-# 🔴 edit_record_queue_amo_fixed -> Fixed
-➡️ edit_record_queue_amo_fixed=קבוע
-# 🔴 edit_record_queue_amo_linear -> Linear
-➡️ edit_record_queue_amo_linear=לינארי
-# 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-➡️ edit_record_queue_amo_recall_attributes=מאפייני חזרה
-# 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-➡️ edit_record_queue_amo_recall_max_attempts=מס' ניסיונות מקסימלי
-# 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-➡️ edit_record_queue_amo_recall_sec=שניות לפני חזרה
-# 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-➡️ edit_record_queue_amo_recall_stepping=שלב חזרה
-# 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-➡️ edit_record_queue_amo_recall_valid_outcomes=תוצאות תקפות
-# 🔴 edit_record_queue_attention -> Attention levels
-➡️ edit_record_queue_attention=רמות תשומת לב
-# 🔴 edit_record_queue_callsinqueue -> Number of calls in queue:
-➡️ edit_record_queue_callsinqueue=מספר שיחות בתור:
-# 🔴 edit_record_queue_chat -> Chat group:
-➡️ edit_record_queue_chat=קבוצת צ'אט:
-    # 🔴 edit_record_queue_delete_protection -> Delete Protection
-➡️ edit_record_queue_delete_protection=הגנת מחיקה
-# 🔴 edit_record_queue_flow -> Call flow:
-➡️ edit_record_queue_flow=תרשים זרימת שיחה:
-# 🔴 edit_record_queue_items -> Items defined:
-➡️ edit_record_queue_items=פריטים שהוגדרו:
-# 🔴 edit_record_queue_mainag -> Main agents:
-➡️ edit_record_queue_mainag=נציגים ראשיים:
-# 🔴 edit_record_queue_queues -> Queue(s):
-➡️ edit_record_queue_queues=תור/תורים:
-# 🔴 edit_record_queue_recall -> Recall Campaigns:
-➡️ edit_record_queue_recall=קמפיינים לחזרה:
-# 🔴 edit_record_queue_recalldays -> Recall Max Days:
-➡️ edit_record_queue_recalldays=מס' ימי חזרה מקסימלי:
-# 🔴 edit_record_queue_red -> Red alarm
-➡️ edit_record_queue_red=אזעקה אדומה
-# 🔴 edit_record_queue_separate -> Separate with '|'
-➡️ edit_record_queue_separate=הפרד באמצעות '|'
-# 🔴 edit_record_queue_shown -> Shown on front page:
-➡️ edit_record_queue_shown=מוצג בדף הראשי:
-# 🔴 edit_record_queue_sla -> Service Level Agreement:
-➡️ edit_record_queue_sla=רמת שירות (SLA):
-# 🔴 edit_record_queue_spillag -> Spill agents:
-➡️ edit_record_queue_spillag=נציגי גיבוי:
-# 🔴 edit_record_queue_syncsettings -> Synchronizer Settings
-➡️ edit_record_queue_syncsettings=הגדרות סנכרון
-# 🔴 edit_record_queue_talkingduration -> Call talking duration:
-➡️ edit_record_queue_talkingduration=משך שיחה:
-# 🔴 edit_record_queue_title -> Queue Detail
-➡️ edit_record_queue_title=פרטי תור
-# 🔴 edit_record_queue_update_protection -> Update Protection
-➡️ edit_record_queue_update_protection=הגנת עדכון
-# 🔴 edit_record_queue_url -> Default queue URL:
-➡️ edit_record_queue_url=כתובת ברירת מחדל לתור:
-    # 🔴 edit_record_queue_visibility -> Visibility key:
-➡️ edit_record_queue_visibility=מפתח נראות:
-# 🔴 edit_record_queue_waitduration -> Call wait duration:
-➡️ edit_record_queue_waitduration=משך המתנה לשיחה:
-# 🔴 edit_record_queue_wdsettings -> WombatDialer settings
-➡️ edit_record_queue_wdsettings=הגדרות WombatDialer
-# 🔴 edit_record_queue_wrapag -> Wrap agents:
-➡️ edit_record_queue_wrapag=נציגים בהשהייה:
-# 🔴 edit_record_queue_yellow -> yellow alarm
-➡️ edit_record_queue_yellow=אזעקה צהובה
-
-# 🔴 edit_record_report1_nofscreens -> N. related screens:
-➡️ edit_record_report1_nofscreens=מס' מסכים קשורים:
-# 🔴 edit_record_report1_subtitle -> Subtitle:
-➡️ edit_record_report1_subtitle=כותרת משנה:
-# 🔴 edit_record_report1_title -> Report details
-➡️ edit_record_report1_title=פרטי דוח
-# 🔴 edit_record_report1_titlefield -> Title:
-➡️ edit_record_report1_titlefield=כותרת:
-# 🔴 edit_record_report1_type -> Type:
-➡️ edit_record_report1_type=סוג:
-# 🔴 edit_record_report1_visibility -> Visibility key:
-➡️ edit_record_report1_visibility=מפתח נראות:
-
-# 🔴 edit_record_report2_nofitems -> N. of Items:
-➡️ edit_record_report2_nofitems=מס' פריטים:
-# 🔴 edit_record_report2_short -> Short name:
-➡️ edit_record_report2_short=שם מקוצר:
-# 🔴 edit_record_report2_sort -> Sort order:
-➡️ edit_record_report2_sort=סדר מיון:
-# 🔴 edit_record_report2_titlefield -> Title:
-➡️ edit_record_report2_titlefield=כותרת:
-# 🔴 edit_record_report2_visibility -> Visibility key:
-➡️ edit_record_report2_visibility=מפתח נראות:
-# 🔴 edit_record_report2_visible -> Visible in "All reports"?
-➡️ edit_record_report2_visible=נראה ב-"כל הדוחות"?
-
-# 🔴 edit_record_report3_data -> Data Blocks:
-➡️ edit_record_report3_data=בלוקי נתונים:
-# 🔴 edit_record_report3_hint_complete_list -> A complete list of available reports, their meaning and the way they are computed is available on the User Manual.
-➡️ edit_record_report3_hint_complete_list=רשימת כל הדוחות, משמעותם ואופן חישובם זמינים במדריך למשתמש.
-# 🔴 edit_record_report3_parameters -> Parameters:
-➡️ edit_record_report3_parameters=פרמטרים:
-# 🔴 edit_record_report3_sort -> Sort order:
-➡️ edit_record_report3_sort=סדר מיון:
-# 🔴 edit_record_report3_subtitle -> Subtitle:
-➡️ edit_record_report3_subtitle=כותרת משנה:
-# 🔴 edit_record_report3_titlefield -> Title:
-➡️ edit_record_report3_titlefield=כותרת:
-# 🔴 edit_record_report3_visibility -> Visibility key:
-➡️ edit_record_report3_visibility=מפתח נראות:
-# 🔴 edit_record_report3_visible -> Visible in "All reports"?
-➡️ edit_record_report3_visible=נראה ב-"כל הדוחות"?
-
-# 🔴 edit_record_run -> Run
-➡️ edit_record_run=הפעל
-# 🔴 edit_record_save -> Save
-➡️ edit_record_save=שמור
-# 🔴 edit_record_securitykey -> Security Key
-➡️ edit_record_securitykey=מפתח אבטחה
-# 🔴 edit_record_show -> Show?
-➡️ edit_record_show=להציג?
-# 🔴 edit_record_skills_code -> Skill code:
-➡️ edit_record_skills_code=קוד מיומנות:
-# 🔴 edit_record_skills_sort_weight -> Sort Weight
-➡️ edit_record_skills_sort_weight=משקל מיון
-# 🔴 edit_record_skills_title -> Edit Agents Skill Details
-➡️ edit_record_skills_title=עריכת מיומנויות נציגים
-# 🔴 edit_record_skills_visibility -> Visibility key:
-➡️ edit_record_skills_visibility=מפתח נראות:
-
-# 🔴 edit_record_tags_code -> Call Tag code:
-➡️ edit_record_tags_code=קוד תג שיחה:
-# 🔴 edit_record_tags_title -> Edit Call Tags
-➡️ edit_record_tags_title=עריכת תגי שיחה
-# 🔴 edit_record_tags_visibility -> Queue visibility:
-➡️ edit_record_tags_visibility=נראות תור:
-
-# 🔴 edit_record_test -> Test it
-➡️ edit_record_test=בדוק
-# 🔴 edit_record_users_class -> Class:
-➡️ edit_record_users_class=סיווג:
-# 🔴 edit_record_users_comment -> Comment:
-➡️ edit_record_users_comment=הערה:
-# 🔴 edit_record_users_email -> E-mail:
-➡️ edit_record_users_email=דוא"ל:
-# 🔴 edit_record_users_enabled -> Enabled:
-➡️ edit_record_users_enabled=מופעל:
-# 🔴 edit_record_users_id -> User Id:
-➡️ edit_record_users_id=מזהה משתמש:
-# 🔴 edit_record_users_keys -> User keys:
-➡️ edit_record_users_keys=מפתחות משתמש:
-# 🔴 edit_record_users_lastlogon -> Last logon:
-➡️ edit_record_users_lastlogon=התחברות אחרונה:
-# 🔴 edit_record_users_login -> Login:
-➡️ edit_record_users_login=התחברות:
-# 🔴 edit_record_users_master -> Masterkey:
-➡️ edit_record_users_master=מפתח ראשי:
-# 🔴 edit_record_users_noflogons -> Number of logons:
-➡️ edit_record_users_noflogons=מס' התחברויות:
-# 🔴 edit_record_users_password -> Password:
-➡️ edit_record_users_password=סיסמה:
-# 🔴 edit_record_users_password_confirm -> Confirm Password:
-➡️ edit_record_users_password_confirm=אישור סיסמה:
-# 🔴 edit_record_users_realname -> Real name:
-➡️ edit_record_users_realname=שם מלא:
-# 🔴 edit_record_users_title -> User Detail
-➡️ edit_record_users_title=פרטי משתמש
-# 🔴 edit_record_users_token -> Token:
-➡️ edit_record_users_token=אסימון:
-# 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
-➡️ edit_record_xref_blank=השאר ריק ליצירת הפניה אוטומטית
-
-# 🔴 edit_reports_automatic -> Automatic report configuration
-➡️ edit_reports_automatic=תצורת דוח אוטומטית
-# 🔴 edit_reports_desc -> Desc.
-➡️ edit_reports_desc=תיאור
-# 🔴 edit_reports_key -> Key
-➡️ edit_reports_key=מפתח
-# 🔴 edit_reports_newreptitle -> Create a new report that contains all possible QueueMetrics reports.
-➡️ edit_reports_newreptitle=צור דוח חדש שמכיל את כל דוחות QueueMetrics האפשריים.
-# 🔴 edit_reports_report -> Report
-➡️ edit_reports_report=דוח
-# 🔴 edit_reports_screens -> Screens
-➡️ edit_reports_screens=מסכים
-# 🔴 edit_reports_title -> Configure QueueMetrics Reports
-➡️ edit_reports_title=הגדרת דוחות QueueMetrics
-# 🔴 edit_reports_titlestring -> Title:
-➡️ edit_reports_titlestring=כותרת:
-
-# 🔴 edit_screens_all_reports -> All Reports
-➡️ edit_screens_all_reports=כל הדוחות
-# 🔴 edit_screens_in_all -> In All
-➡️ edit_screens_in_all=בכולם
-# 🔴 edit_screens_items -> Items
-➡️ edit_screens_items=פריטים
-# 🔴 edit_screens_key -> Key
-➡️ edit_screens_key=מפתח
-# 🔴 edit_screens_order -> Order
-➡️ edit_screens_order=סדר
-# 🔴 edit_screens_short -> Short
-➡️ edit_screens_short=מקוצר
-# 🔴 edit_screens_title_field -> Title
-➡️ edit_screens_title_field=כותרת
-
-# 🔴 edit_skill_code -> Skill Code
-➡️ edit_skill_code=קוד מיומנות
-# 🔴 edit_skill_description -> Description
-➡️ edit_skill_description=תיאור
-# 🔴 edit_skill_sort_weight -> Sort Weight
-➡️ edit_skill_sort_weight=משקל מיון
-# 🔴 edit_skill_title -> Agent Skills
-➡️ edit_skill_title=מיומנויות נציג
-# 🔴 edit_skill_visibility_key -> Visibility Key
-➡️ edit_skill_visibility_key=מפתח נראות
-
-# 🔴 edit_ssar_queues_assigned -> Assigned
-➡️ edit_ssar_queues_assigned=שויכו
-# 🔴 edit_ssar_queues_code -> Agent code
-➡️ edit_ssar_queues_code=קוד נציג
-# 🔴 edit_ssar_queues_title -> Self-service agent reports for queue:
-➡️ edit_ssar_queues_title=דו"חות נציג בשירות עצמי עבור תור:
-
-# 🔴 edit_ssar_reports_assigned -> Assigned
-➡️ edit_ssar_reports_assigned=שויכו
-# 🔴 edit_ssar_reports_code -> Agent code
-➡️ edit_ssar_reports_code=קוד נציג
-# 🔴 edit_ssar_reports_title -> Self-service agents reporting for report:
-➡️ edit_ssar_reports_title=דו"חות נציגים בשירות עצמי לדוח:
-
-# 🔴 edit_users_class -> Class
-➡️ edit_users_class=סיווג
-# 🔴 edit_users_email -> Email
-➡️ edit_users_email=דוא"ל
-# 🔴 edit_users_enabled -> Enabled
-➡️ edit_users_enabled=מופעל
-# 🔴 edit_users_login -> Login
-➡️ edit_users_login=התחברות
-# 🔴 edit_users_master_key -> MasterKey
-➡️ edit_users_master_key=מפתח ראשי
-# 🔴 edit_users_real_name -> Real Name
-➡️ edit_users_real_name=שם מלא
-# 🔴 edit_users_title -> System Users
-➡️ edit_users_title=משתמשי מערכת
-# 🔴 edit_users_user_keys -> User Keys
-➡️ edit_users_user_keys=מפתחות משתמש
-
+    edit_record_agawqueue_ncallswait=מספר שיחות ממתינות
+    edit_record_agawqueue_qcph=QCPH - פניות מוסמכות לשעה
+    edit_record_agawqueue_qsettings=הגדרות תור
+    edit_record_agawqueue_qualconversions=אחוז המרות מוסמכות
+    edit_record_agawqueue_red=אדום
+    edit_record_agawqueue_sph=SPH - מכירות לשעה
+    edit_record_agawqueue_title=התראות AGAW עבור תור:
+    edit_record_agawqueue_yellow=צהוב
+    edit_record_agent_delete_protection=הגנת מחיקה
+    edit_record_agent_syncsettings=הגדרות סנכרון
+    edit_record_agent_update_protection=הגנת עדכון
+    edit_record_agents_agentinqueue=הנציג חבר ידוע בתורים הבאים:
+    edit_record_agents_agentkeys=מפתחות נציג:
+    edit_record_agents_aliases=כינויים:
+    edit_record_agents_code=קוד נציג:
+    edit_record_agents_configure=ניתן להגדיר את שיוך הנציג לתור בלשונית 'CFG Queues'
+    edit_record_agents_defaultserver=שרת
+    edit_record_agents_description=תיאור הנציג:
+    edit_record_agents_direction=כיוון
+    edit_record_agents_eg=לדוגמה: Agent/101
+    edit_record_agents_group=קבוצת נציג:
+    edit_record_agents_imaddress=כתובת מסרים מיידיים:
+    edit_record_agents_level=רמה
+    edit_record_agents_location=מיקום נציג:
+    edit_record_agents_multiplealiases1=הפרד כינויים מרובים
+    edit_record_agents_multiplealiases2=באמצעות הסימן "|"
+    edit_record_agents_noqueues=לא הוגדרו תורים.
+    edit_record_agents_payroll=קוד שכר:
+    edit_record_agents_queuename=שם תור
+    edit_record_agents_supervisor=מפקח:
+    edit_record_agents_terminal=טרמינל נוכחי:
+    edit_record_agents_title=פרטי נציג
+    edit_record_agents_vnc=כתובת URL לניטור VNC:
+    edit_record_agents_webphoneautoanswer=מענה אוטומטי
+    edit_record_agents_webphonepassword=סיסמת טלפון רשת:
+    edit_record_agents_webphonerealm=תחום טלפון רשת:
+    edit_record_agents_webphoneuri=כתובת SIP של טלפון רשת:
+    edit_record_agents_webphoneusername=שם משתמש טלפון רשת:
+    edit_record_back=חזרה
+    edit_record_backtoallqueues=חזרה לכל התורים
+    edit_record_backtolist=חזרה לרשימה
+    edit_record_backtoqueue=חזרה לתור
+    edit_record_backtoreports=חזרה לדוחות
+    edit_record_case_transactions=פעילות עבור תיק זה
+    edit_record_cases_contact=איש קשר
+    edit_record_cases_email=אימייל
+    edit_record_cases_for_client=תיקים אחרונים עבור לקוח זה
+    edit_record_cases_handled_by=טופל על ידי
+    edit_record_cases_header=עריכת תיק
+    edit_record_cases_id=מזהה תיק
+    edit_record_cases_none_found=לא נמצאו רשומות
+    edit_record_cases_notes=הערות
+    edit_record_cases_queue=תור
+    edit_record_cases_securitykey=מפתח אבטחה
+    edit_record_cases_status=סטטוס
+    edit_record_cases_text=תוכן ההערה
+    edit_record_cases_title=כותרת
+    edit_record_cases_xref=אסמכתא
+    edit_record_cbt_code=קוד CBT:
+    edit_record_cbt_counter=מונה שליחות:
+    edit_record_cbt_offline=לא מקוון:
+    edit_record_cbt_test=בדיקה
+    edit_record_cbt_title=עריכת CBT
+    edit_record_cbt_url=כתובת CBT:
+    edit_record_classes_id=מזהה מחלקה:
+    edit_record_classes_keys=מפתחות:
+    edit_record_classes_name=שם מחלקה:
+    edit_record_classes_title=פרטי מחלקה
+    edit_record_classes_usersinclass=מספר משתמשים השייכים למחלקה זו:
+    edit_record_client_id=לקוח
+    edit_record_clients_contact=איש קשר
+    edit_record_clients_email=אימייל
+    edit_record_clients_header=עריכת לקוח
+    edit_record_clients_name=שם
+    edit_record_clients_notes=הערות
+    edit_record_clients_securitykey=מפתח אבטחה
+    edit_record_clients_status=סטטוס לקוח
+    edit_record_clone=שכפול
+    edit_record_createdby=נוצר על ידי
+    edit_record_cronjob_dom=יום בחודש
+    edit_record_cronjob_dow=יום בשבוע
+    edit_record_cronjob_lastruns=הרצות אחרונות
+    edit_record_cronjobs_asuser=הרץ כמשתמש
+    edit_record_cronjobs_description=תיאור
+    edit_record_cronjobs_every=כל
+    edit_record_cronjobs_hour=שעה
+    edit_record_cronjobs_is_recurring=מתי
+    edit_record_cronjobs_isenabled=פעיל
+    edit_record_cronjobs_lastrun=הרצה אחרונה
+    edit_record_cronjobs_lastrunaction=פעולה
+    edit_record_cronjobs_lastrundate=תאריך
+    edit_record_cronjobs_lastrunduration=משך זמן
+    edit_record_cronjobs_lastrunstatus=סטטוס
+    edit_record_cronjobs_lastruntext=מידע
+    edit_record_cronjobs_name=שם
+    edit_record_cronjobs_nolastruns=אין הרצות אחרונות להצגה
+    edit_record_cronjobs_title=פרטי משימות מתוזמנות
+    edit_record_customblocks_block=שם רכיב
+    edit_record_customblocks_description=תיאור
+    edit_record_customblocks_graph_params=פרמטרים לתרשים
+    edit_record_customblocks_graph_provider=ספק תרשים
+    edit_record_customblocks_graphnone=ללא
+    edit_record_customblocks_graphreact=React
+    edit_record_customblocks_header=עריכת רכיב נתונים מותאם
+    edit_record_customblocks_provider=ספק
+    edit_record_customblocks_securitykey=מפתח אבטחה
+    edit_record_customblocks_source_body=מקור
+    edit_record_customblocks_title=כותרת
+    edit_record_customblocks_view=תצוגה
+    edit_record_delete=מחק
+    edit_record_description=תיאור
+    edit_record_dnis_code=קוד DNIS:
+    edit_record_dnis_title=עריכת פרטי DNIS
+    edit_record_editform=ערוך טופס
+    edit_record_export_emails=אימייל(ים):
+    edit_record_export_orientation=כיוון:
+    edit_record_export_period=תקופה:
+    edit_record_export_queue=תור:
+    edit_record_export_reportname=שם דוח:
+    edit_record_export_reporttype=סוג דוח:
+    edit_record_export_separate=הפרד באמצעות '|'
+    edit_record_export_title=פרטי ייצוא דוחות
+    edit_record_export_titlefield=כותרת:
+    edit_record_export_visibility=מפתח נראות:
+    edit_record_ext_ref=אסמכתא
+    edit_record_external_reference=מזהה אסמכתא חיצונית:
+    edit_record_features_code=קוד תכונה
+    edit_record_features_goal=מטרה:
+    edit_record_features_outcomes=תוצאות רלוונטיות:
+    edit_record_features_title=עריכת מאפייני שיחה
+    edit_record_features_visibility=נראות תור:
+    edit_record_groups_agentsingroup=נציגים השייכים לקבוצת נציגים זו:
+    edit_record_groups_code=קוד נציג
+    edit_record_groups_name=שם נציג
+    edit_record_groups_noagents=אין נציגים השייכים לקבוצה זו.
+    edit_record_groups_title=עריכת פרטי קבוצת נציגים
+    edit_record_icon=אייקון
+    edit_record_ivr_code=קוד IVR:
+    edit_record_ivr_title=עריכת פרטי IVR
+    edit_record_lastupdate=עדכון אחרון
+    edit_record_locations_agentsinlocation=מספר נציגים השייכים למיקום זה:
+    edit_record_locations_title=עריכת פרטי מיקום
+    edit_record_name=שם
+    edit_record_new=חדש
+    edit_record_outcomes_code=קוד סטטוס:
+    edit_record_outcomes_contact=נחשב כאיש קשר?
+    edit_record_outcomes_qualified=נחשב כאיש קשר מוסמך?
+    edit_record_outcomes_sale=נחשב כמכירה?
+    edit_record_outcomes_title=עריכת תוצאות שיחה
+    edit_record_outcomes_visibility=נראות תור:
+    edit_record_pauses_billable=נחשב כפעילות לחיוב?
+    edit_record_pauses_code=קוד סטטוס:
+    edit_record_pauses_payable=נחשב לפעילות בתשלום?
+    edit_record_pauses_title=עריכת קודי הפסקה
+    edit_record_pauses_type=סוג הפסקה:
+    edit_record_prftrk_enabled=פעיל
+    edit_record_prftrk_form=טופס:
+    edit_record_prftrk_queue=תור:
+    edit_record_prftrk_red=אדום
+    edit_record_prftrk_score=ציון
+    edit_record_prftrk_target=יעד
+    edit_record_prftrk_title=בקרת איכות: כללי ניקוד למעקב ביצועים
+    edit_record_prftrk_yellow=צהוב
+    edit_record_qa_editsections=ערוך מקטעים
+    edit_record_qa_grading=ניקוד שיחה
+    edit_record_qa_inputkey=מפתח אבטחה להזנה:
+    edit_record_qa_locked=האם הטופס נעול?
+    edit_record_qa_maxvalue=ערך מרבי עבור
+    edit_record_qa_name=שם טופס:
+    edit_record_qa_nofgradedcalls=מס' שיחות שנוקדו:
+    edit_record_qa_reportkey=מפתח אבטחה לדוחות:
+    edit_record_qa_secnames=שמות מקטעים
+    edit_record_qa_section=מקטע
+    edit_record_qa_title=בקרת איכות: עורך טפסים
+    edit_record_qa_visibility=נראות תור:
+    edit_record_qaformitem_activeif=פעיל אם...
+    edit_record_qaformitem_addnew=הוסף פריט חדש:
+    edit_record_qaformitem_extra=ניקוד נוסף
+    edit_record_qaformitem_noitems=לא נמצאו פריטים
+    edit_record_qaformitem_nonscoring=ללא ניקוד
+    edit_record_qaformitem_section=מקטע:
+    edit_record_qaformitem_title=איכות: פריטים לטופס
+    edit_record_qaitems_code=קוד מעקב:
+    edit_record_qaitems_form=טופס
+    edit_record_qaitems_mandatory=שדה חובה:
+    edit_record_qaitems_multivalue=אפשרויות מרובות:
+    edit_record_qaitems_notuse=קוד זה לא בשימוש באף טופס.
+    edit_record_qaitems_section=קיצור לקטע:
+    edit_record_qaitems_shortcut=הפריט הוא קיצור:
+    edit_record_qaitems_title=איכות: עריכת פריטים
+    edit_record_qaitems_type=סוג ערך:
+    edit_record_qaitems_usingcode=טפסים המשתמשים בקוד זה
+    edit_record_qaitems_weight=משקל פריט:
+    edit_record_queue_agawalarms=אזעקות AGAW
+    edit_record_queue_agawenabled=AGAW מופעל עבור תור זה:
+    edit_record_queue_agawlookback=משך זמן בדיקה לאחור (דקות):
+    edit_record_queue_agawrun=האם AGAW ירוץ עבור תור זה?
+    edit_record_queue_agawsettings=הגדרות AGAW
+    edit_record_queue_agentsbutton=נציגים
+    edit_record_queue_agentsoncall=מספר נציגים בשיחה:
+    edit_record_queue_agentspaused=מספר נציגים בהפסקה:
+    edit_record_queue_agentswaiting=מספר נציגים ממתינים:
+    edit_record_queue_alias=כינוי לתור:
+    edit_record_queue_amo=הגדרות AMO
+    edit_record_queue_amo_enabled=פעיל
+    edit_record_queue_amo_exponential=מעריכי
+    edit_record_queue_amo_fixed=קבוע
+    edit_record_queue_amo_linear=לינארי
+    edit_record_queue_amo_recall_attributes=מאפייני חזרה
+    edit_record_queue_amo_recall_max_attempts=מס' ניסיונות מקסימלי
+    edit_record_queue_amo_recall_sec=שניות לפני חזרה
+    edit_record_queue_amo_recall_stepping=שלב חזרה
+    edit_record_queue_amo_recall_valid_outcomes=תוצאות תקפות
+    edit_record_queue_attention=רמות תשומת לב
+    edit_record_queue_callsinqueue=מספר שיחות בתור:
+    edit_record_queue_chat=קבוצת צ'אט:
+    edit_record_queue_delete_protection=הגנת מחיקה
+    edit_record_queue_flow=תרשים זרימת שיחה:
+    edit_record_queue_items=פריטים שהוגדרו:
+    edit_record_queue_mainag=נציגים ראשיים:
+    edit_record_queue_queues=תור/תורים:
+    edit_record_queue_recall=קמפיינים לחזרה:
+    edit_record_queue_recalldays=מס' ימי חזרה מקסימלי:
+    edit_record_queue_red=אזעקה אדומה
+    edit_record_queue_separate=הפרד באמצעות '|'
+    edit_record_queue_shown=מוצג בדף הראשי:
+    edit_record_queue_sla=רמת שירות (SLA):
+    edit_record_queue_spillag=נציגי גיבוי:
+    edit_record_queue_syncsettings=הגדרות סנכרון
+    edit_record_queue_talkingduration=משך שיחה:
+    edit_record_queue_title=פרטי תור
+    edit_record_queue_update_protection=הגנת עדכון
+    edit_record_queue_url=כתובת ברירת מחדל לתור:
+    edit_record_queue_visibility=מפתח נראות:
+    edit_record_queue_waitduration=משך המתנה לשיחה:
+    edit_record_queue_wdsettings=הגדרות WombatDialer
+    edit_record_queue_wrapag=נציגים בהשהייה:
+    edit_record_queue_yellow=אזעקה צהובה
+    edit_record_report1_nofscreens=מס' מסכים קשורים:
+    edit_record_report1_subtitle=כותרת משנה:
+    edit_record_report1_title=פרטי דוח
+    edit_record_report1_titlefield=כותרת:
+    edit_record_report1_type=סוג:
+    edit_record_report1_visibility=מפתח נראות:
+    edit_record_report2_nofitems=מס' פריטים:
+    edit_record_report2_short=שם מקוצר:
+    edit_record_report2_sort=סדר מיון:
+    edit_record_report2_titlefield=כותרת:
+    edit_record_report2_visibility=מפתח נראות:
+    edit_record_report2_visible=נראה ב-"כל הדוחות"?
+    edit_record_report3_data=בלוקי נתונים:
+    edit_record_report3_hint_complete_list=רשימת כל הדוחות, משמעותם ואופן חישובם זמינים במדריך למשתמש.
+    edit_record_report3_parameters=פרמטרים:
+    edit_record_report3_sort=סדר מיון:
+    edit_record_report3_subtitle=כותרת משנה:
+    edit_record_report3_titlefield=כותרת:
+    edit_record_report3_visibility=מפתח נראות:
+    edit_record_report3_visible=נראה ב-"כל הדוחות"?
+    edit_record_run=הפעל
+    edit_record_save=שמור
+    edit_record_securitykey=מפתח אבטחה
+    edit_record_show=להציג?
+    edit_record_skills_code=קוד מיומנות:
+    edit_record_skills_sort_weight=משקל מיון
+    edit_record_skills_title=עריכת מיומנויות נציגים
+    edit_record_skills_visibility=מפתח נראות:
+    edit_record_tags_code=קוד תג שיחה:
+    edit_record_tags_title=עריכת תגי שיחה
+    edit_record_tags_visibility=נראות תור:
+    edit_record_test=בדוק
+    edit_record_users_class=סיווג:
+    edit_record_users_comment=הערה:
+    edit_record_users_email=דוא"ל:
+    edit_record_users_enabled=מופעל:
+    edit_record_users_id=מזהה משתמש:
+    edit_record_users_keys=מפתחות משתמש:
+    edit_record_users_lastlogon=התחברות אחרונה:
+    edit_record_users_login=התחברות:
+    edit_record_users_master=מפתח ראשי:
+    edit_record_users_noflogons=מס' התחברויות:
+    edit_record_users_password=סיסמה:
+    edit_record_users_password_confirm=אישור סיסמה:
+    edit_record_users_realname=שם מלא:
+    edit_record_users_title=פרטי משתמש
+    edit_record_users_token=אסימון:
+    edit_record_xref_blank=השאר ריק ליצירת הפניה אוטומטית
+    edit_reports_automatic=תצורת דוח אוטומטית
+    edit_reports_desc=תיאור
+    edit_reports_key=מפתח
+    edit_reports_newreptitle=צור דוח חדש שמכיל את כל דוחות QueueMetrics האפשריים.
+    edit_reports_report=דוח
+    edit_reports_screens=מסכים
+    edit_reports_title=הגדרת דוחות QueueMetrics
+    edit_reports_titlestring=כותרת:
+    edit_screens_all_reports=כל הדוחות
+    edit_screens_in_all=בכולם
+    edit_screens_items=פריטים
+    edit_screens_key=מפתח
+    edit_screens_order=סדר
+    edit_screens_short=מקוצר
+    edit_screens_title_field=כותרת
+    edit_skill_code=קוד מיומנות
+    edit_skill_description=תיאור
+    edit_skill_sort_weight=משקל מיון
+    edit_skill_title=מיומנויות נציג
+    edit_skill_visibility_key=מפתח נראות
+    edit_ssar_queues_assigned=שויכו
+    edit_ssar_queues_code=קוד נציג
+    edit_ssar_queues_title=דו"חות נציג בשירות עצמי עבור תור:
+    edit_ssar_reports_assigned=שויכו
+    edit_ssar_reports_code=קוד נציג
+    edit_ssar_reports_title=דו"חות נציגים בשירות עצמי לדוח:
+    edit_users_class=סיווג
+    edit_users_email=דוא"ל
+    edit_users_enabled=מופעל
+    edit_users_login=התחברות
+    edit_users_master_key=מפתח ראשי
+    edit_users_real_name=שם מלא
+    edit_users_title=משתמשי מערכת
+    edit_users_user_keys=מפתחות משתמש
 
 ## Quality Assessments
 
