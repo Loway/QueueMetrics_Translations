@@ -2160,8 +2160,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Tables
     rt3_category_various=Variés
     rt3_change_queue_confirm=Vous avez des modifications non enregistrées qui seront perdues si vous changez de file d'attente. Confirmer?
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?Vous avez des changements non-enregistrés qui seront perdus si vous quittez la page. Confirmer?
     rt3_choose_action=Choisir une action
     rt3_choose_monitor_mode=Mode de monitoring
     rt3_choose_queue=Choisir une File
