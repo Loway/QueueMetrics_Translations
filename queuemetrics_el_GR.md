@@ -922,10 +922,10 @@ Do not change the items below:
     clko_unanswered_outbound=Αναπάντητες εξερχόμενες ανά χρήστη
     clko_within_x_seconds=Εντός ## δευτερολέπτων:
     clko_unanswered_calls_prc=Αναπ. κλήσ. %
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
-    ➡️ clko_unanswered_with_atts=
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
-    ➡️ clko_unanswered_no_atts=
+    # 👽 clko_unanswered_with_atts -> Unans. with att.
+    clko_unanswered_with_atts=?Αναπ. με προσπ.
+    # 👽 clko_unanswered_no_atts -> Unans no att.
+    clko_unanswered_no_atts=?Αναπ. χωρίς προσπ.
 
 
 ## Report headers
@@ -2162,8 +2162,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Πίνακες
     rt3_category_various=Διάφορα
     rt3_change_queue_confirm=Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν κατά την αλλαγή ουράς αναμονής. Επιβεβαίωση;
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν αν φύγετε από τη σελίδα. Επιβεβαίωση;
     rt3_choose_action=Επιλέξτε Ενέργεια
     rt3_choose_monitor_mode=Λειτουργία Παρακολούθησης
     rt3_choose_queue=Επιλέξτε Ουρά Αναμονής
@@ -2189,8 +2189,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_connection_error=Σφάλμα σύνδεσης με server
     rt3_connection_valid=Η σύνδεση με τον διακομιστή λειτουργεί σωστά
     rt3_cont=Συνεχ.
-    # 🔴 rt3_contph -> CPH
-    ➡️ rt3_contph=
+    # 👽 rt3_contph -> CPH
+    rt3_contph=?CPH
     rt3_conversation=Διάλογος
     rt3_conversions=Διαλ.
     rt3_copy=Αντιγραφή
@@ -2297,12 +2297,12 @@ Used for data blocks Overview by Agent/Queue
     rt3_private=Ιδιωτικό wallboard
     rt3_public=Κοινό Wallboard
     rt3_purple=Μώβ
-    # 🔴 rt3_qcont -> QC
-    ➡️ rt3_qcont=
-    # 🔴 rt3_qcontph -> QCPH
-    ➡️ rt3_qcontph=
-    # 🔴 rt3_qualconversions -> QConv.
-    ➡️ rt3_qualconversions=
+    # 👽 rt3_qcont -> QC
+    rt3_qcont=?QC
+    # 👽 rt3_qcontph -> QCPH
+    rt3_qcontph=?QCPH
+    # 👽 rt3_qualconversions -> QConv.
+    rt3_qualconversions=?Μττρ.Ποι.
     rt3_queue=Ουρά αναμονής
     rt3_queue_inbound=Εισερχόμενες
     rt3_queue_outbound=Εξερχόμενες
@@ -2657,8 +2657,8 @@ Description of configuration properties
     propedit_key_directami_transfer_desc=Ο προορισμός της μεταφοράς κλήσης είναι της μορφής ext@context
     propedit_key_directami_usetracker_desc=Χρησιμοποιούμε Uniloader Tracker για εξερχόμενες;
     propedit_key_directami_verbose_desc=Πότε να απορρίψετε όλες τις αλληλεπιδράσεις AMI στο αρχείο καταγραφής συστήματος (προεπιλογή: false)
-    # 🔴 propedit_key_enswitch_bargeprefix_desc -> The default prefix to use to initiate a barge-in (Default: *92)
-    ➡️ propedit_key_enswitch_bargeprefix_desc=
+    # 👽 propedit_key_enswitch_bargeprefix_desc -> The default prefix to use to initiate a barge-in (Default: *92)
+    propedit_key_enswitch_bargeprefix_desc=?Το προκαθορισμένο πρόθεμα για την έναρξη μιας barge-in (Προκαθορισμένο: *92)
     propedit_key_enswitch_baseurl_desc=Είναι η κύρια διεύθυνση URL για το σύστημα Enswitch
     propedit_key_enswitch_guiaddmember_desc=Εάν είναι διαθέσιμες οι ενέργειες ADDMEMBER / REMOVEMEMBER (προεπιλογή: false)
     propedit_key_enswitch_httplogin_desc=Σύνδεση χρήστη API
@@ -2845,8 +2845,8 @@ Description of security keys:
     keydesc_hidenumbers=Όλοι οι αριθμοί τηλεφώνου/ταυτότητες καλούντων είναι κρυφοί
     keydesc_keyupdate=Ο χρήστης μπορεί να εγκαταστήσει ένα νέο κλειδί ενεργοποίησης QueueMetrics
     keydesc_mon_audio=Ο χρήστης μπορεί να παρακολουθήσει μια κλήση σε πραγματικό χρόνο
-    # 🔴 keydesc_mon_barge -> The user can barge-in on a real-time call
-    ➡️ keydesc_mon_barge=
+    # 👽 keydesc_mon_barge -> The user can barge-in on a real-time call
+    keydesc_mon_barge=?Ο χρήστης μπορεί να κάνει barge-in σε μια κλήση σε πραγματικό χρόνο
     keydesc_mon_im=Ο χρήστης μπορεί να ξεκινήσει ΙΜ Chat προς ένα agent
     keydesc_mon_vnc=Ο χρήστης μπορεί να παρακολουθήσει την οθόνη ενός agent μέσω VNC
     keydesc_mon_whisper=Ο χρήστης μπορεί να επέμβει (whisper) σε μια κλήση σε πραγματικό χρόνο
@@ -4214,8 +4214,8 @@ Other items
     rt_pop_agent_extension=Εσωτερικό χρήστη:
     rt_pop_agent_logon_extension=Εσωτερικό σύνδεσης χρήστη:
     rt_pop_agent_name=Όνομα χρήστη:
-    # 🔴 rt_pop_barge -> Barge-in
-    ➡️ rt_pop_barge=
+    # 👽 rt_pop_barge -> Barge-in
+    rt_pop_barge=?Barge-in
     rt_pop_chanspy=Κατάσκοπος (Ακρόαση μόνο)
     rt_pop_close=Κλείσιμο
     rt_pop_hangup_runbtn=Τερματισμός

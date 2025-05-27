@@ -1,3 +1,6 @@
 aitrans
 .DS_Store
+*.prompt
+*.trans
+
 
