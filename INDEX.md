@@ -13,9 +13,9 @@
 | 9 | *Brazil Portuguese (pt_BR)* | pt_PT | 0 | 97.6% | 2.4% | 100.0% | 🟢 |
 | 10 | *Portuguese (pt_PT)* | pt_BR | 0 | 72.6% | 27.4% | 100.0% | 🟢 |
 | 11 | *Russian (ru_RU)* |  | 0 | 86.0% | 14.0% | 100.0% | 🟢 |
-| 12 | *Spanish (es_ES)* | es_LA | 2 | 19.9% | 80.0% | 100.0% | 🟢 |
-| 13 | *Latam Spanish (es_LA)* | es_ES | 2 | 99.7% | 0.2% | 100.0% | 🟢 |
-| 14 | *Turkish (tr_TR)* |  | 838 | 80.6% | 0.0% | 80.7% | 🟡 |
+| 12 | *Turkish (tr_TR)* |  | 0 | 80.6% | 19.4% | 100.0% | 🟢 |
+| 13 | *Spanish (es_ES)* | es_LA | 2 | 19.9% | 80.0% | 100.0% | 🟢 |
+| 14 | *Latam Spanish (es_LA)* | es_ES | 2 | 99.7% | 0.2% | 100.0% | 🟢 |
 | 15 | *Korean (ko_KR)* |  | 1049 | 75.8% | 0.0% | 75.8% | 🟡 |
 | 16 | *Catalan (ca_ES)* |  | 1201 | 72.3% | 0.0% | 72.3% | 🟡 |
 | 17 | *Georgian (ka_GE)* |  | 1495 | 65.5% | 0.0% | 65.5% | 🔴 |
@@ -38,5 +38,5 @@
 - 🔴 Incomplete
 
 
-Generated at Tue, May 27 2025 @ 17:32.
+Generated at Tue, May 27 2025 @ 17:37.
 
