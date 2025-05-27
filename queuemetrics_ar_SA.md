@@ -240,11 +240,11 @@ Do not change the items below:
     aout_call_res_by_outcome=نتائج المكالمة حسب مخرجات المكالمة
     aout_call_res_by_tag=نتائج المكالمة حسب البطاقة 
     aout_calltag=بطاقة
-    # 🔴 aout_case_distribution -> Case Distribution
-    ➡️ aout_case_distribution=
+    # 👽 aout_case_distribution -> Case Distribution
+    aout_case_distribution=?توزيع الحالات
     aout_chart=~
-    # 🔴 aout_client_distribution -> Client Distribution
-    ➡️ aout_client_distribution=
+    # 👽 aout_client_distribution -> Client Distribution
+    aout_client_distribution=?توزيع العملاء
     aout_contacts_n=سجل اتصال
     aout_convratio=محادثة
     aout_cph=عدد الاتصالات في الساعة
@@ -386,8 +386,8 @@ Do not change the items below:
     art_outboundNumber=رقم
     art_outcomeFor=كتابة مخرجات المكالمة
     art_outcomePanelCallInfo=مكالمة:
-    # 🔴 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
-    ➡️ art_pauseNoExtWarning=
+    # 👽 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
+    art_pauseNoExtWarning=?أمر الإيقاف المؤقت لن يعمل على الأرجح لأن الوكيل لا يملك ملحقًا صالحًا، على الرغم من أن وضع Hotdesking نشط.
     art_row_cache_error=الخيار "realtime.useRowCache" ليس مضبوطاً على قيمة صحيحة، يجب أن يكون "true" 
     art_runAction=جاري التنفيذ
     art_scheduleAction=الجدول
@@ -421,11 +421,11 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=
+    # 👽 clage_%_of_pause_time -> % of pause time
+    clage_%_of_pause_time=?٪ من وقت التوقف المؤقت
     clage_%_of_queue=% من الصف
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=
+    # 👽 clage_%_of_session_time -> % of session time
+    clage_%_of_session_time=?٪ من وقت الجلسة
     clage_acd_available=متاح
     clage_acd_avg_dur=متوسط المدة
     clage_acd_avg_in=متوسط الوارد
@@ -450,8 +450,8 @@ Do not change the items below:
     clage_agent_performance_acd_group=  ACD أداء الَعميل في مجموعة 
     clage_agent_ptimebyhour=وقت الوكيل المستحق للدفع في الساعة
     clage_agent_session_detail=تفاصيل جلسة الوكيل
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview=
+    # 👽 clage_agent_session_overview -> Agent Session Overview
+    clage_agent_session_overview=?نظرة عامة على جلسة الوكيل
     clage_agent_sessionreport=عرض جلسة الوكيل
     clage_agent_sessions=جلسات الوكيل
     clage_agent_stimebyhour=وقت جلسة الوكيل في الساعة
@@ -513,8 +513,8 @@ Do not change the items below:
     clage_overlaps=تَداخل
     clage_pause=توقف مؤقت
     clage_pause_%=توقف مؤقت ٪
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=
+    # 👽 clage_pause_type_stats -> Details of pause types
+    clage_pause_type_stats=?تفاصيل أنواع التوقف المؤقت
     clage_pauses=توقف مؤقت
     clage_pauses_per_session=توقف مؤقت في الجلسة
     clage_pausetype=نوع التوقف المؤقت
@@ -530,25 +530,25 @@ Do not change the items below:
     clage_session_and_pause_durations=مدة الجلسات والتوقف المؤقت
     clage_session_byquetagftrreport=الجلسات التراكمية حسب الصف و البطاقة والخاصية
     clage_session_byquetagreport=الجلسات التراكمية حسب الصف والبطاقة
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=
+    # 👽 clage_session_calls -> N. calls
+    clage_session_calls=?عدد المكالمات
     clage_session_details=تفاصيل الجلسة
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=
+    # 👽 clage_session_end -> Segment end
+    clage_session_end=?نهاية الشريحة
+    # 👽 clage_session_idle -> Idle time
+    clage_session_idle=?وقت الخمول
+    # 👽 clage_session_lostatt -> Lost attempts
+    clage_session_lostatt=?المحاولات الضائعة
+    # 👽 clage_session_pause -> Pause
+    clage_session_pause=?إيقاف مؤقت
+    # 👽 clage_session_queues -> Queues
+    clage_session_queues=?قوائم الانتظار
+    # 👽 clage_session_start -> Segment start
+    clage_session_start=?بداية الشريحة
+    # 👽 clage_session_talk -> Talk time
+    clage_session_talk=?وقت التحدث
+    # 👽 clage_session_type -> Session type
+    clage_session_type=?نوع الجلسة
     clage_sessions=الجلسات
     clage_tag_sessionreport=عرض بطاقات الجلسات
     clage_takenshort=T
@@ -603,8 +603,8 @@ Do not change the items below:
     clacd_lost_calls=المكالمات الفائتة
     clacd_max_attempts=أقصى حد للمحاولات
     clacd_min_attempts=أدنى حد للمحاولات
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=
+    # 👽 clacd_last_acd_attempts -> Last ACD attempts
+    clacd_last_acd_attempts=?آخر محاولات ACD
     clacd_n_lost=عدد الفائتة
     clacd_n_taken=عدد المكالمات المستلمة
     clacd_queue=صف
@@ -633,18 +633,18 @@ Do not change the items below:
     cld_caller_statistics=احصائيات المتصل
     cld_calltag=بطاقة
     cld_complete_calls=المكالمات المأخوذة
-    # 🔴 cld_connect -> Connect
-    ➡️ cld_connect=
+    # 👽 cld_connect -> Connect
+    cld_connect=?ربط
     cld_date=تاريخ
     cld_detail_of_agent_pauses=تفاصيل التوقفات المؤقتة للوكيل
     cld_detail_of_agent_sessions=تفاصيل جلسات الوكيل
     cld_detail_of_agent_sessions_raw=تفاصيل جلسات العميل الأولية
     cld_detail_of_answered_calls=تفاصيل المكالمات المستلمة
     cld_detail_of_unanswered_calls=تفاصيل المكالمات الفائتة
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=
+    # 👽 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    cld_detail_of_unanswered_calls_afp=?تفاصيل المكالمات التي لم يرد عليها
+    # 👽 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    cld_detail_of_unanswered_calls_raw=?تفاصيل خام للمكالمات التي لم يرد عليها
     cld_detail_summary=ملخص التفاصيل حسب الساعة
     cld_detail_summary_dom=ملخص التفاصيل حسب الساعة
     cld_detail_summary_dow=ملخص التفاصيل حسب اليوم من الأسبوع
@@ -653,11 +653,11 @@ Do not change the items below:
     cld_dom=يوم
     cld_dow=يوم من الأسبوع
     cld_duration=مدة
-    # 🔴 cld_end -> End
-    ➡️ cld_end=
+    # 👽 cld_end -> End
+    cld_end=?نهاية
     cld_end_hour=نهاية الساعة
-    # 🔴 cld_enter -> Enter
-    ➡️ cld_enter=
+    # 👽 cld_enter -> Enter
+    cld_enter=?دخول
     cld_executive_summary=ملخص التنفيذ 
     cld_ext=رقم داخلي
     cld_features=رموز الميزة
@@ -666,14 +666,14 @@ Do not change the items below:
     cld_goal=هدف
     cld_handled_by=تم استلمها من قِبَل
     cld_hour=ساعة
-    # 🔴 cld_idle -> Idle
-    ➡️ cld_idle=
+    # 👽 cld_idle -> Idle
+    cld_idle=?خامل
     cld_info=معلومات
     cld_ivr=اختيار الرد الآلي
     cld_ivr_detail=تفاصيل الرد الآلي
     cld_ivr_detail_full=تفاصيل الرد الآلي \ قائمة قابلة للطباعة
-    # 🔴 cld_ivr_dur -> IVR Dur.
-    ➡️ cld_ivr_dur=
+    # 👽 cld_ivr_dur -> IVR Dur.
+    cld_ivr_dur=?مدة IVR
     cld_ivr_time=الرد الآلي
     cld_ivr_time_long=الوقت في الرد الآلي قبل الدخول للصف
     cld_key=مفتاح
@@ -709,8 +709,8 @@ Do not change the items below:
     cld_pop_opos=الترتيب الأصلي
     cld_pop_qa=ضبط الجودة
     cld_pop_queue=صف
-    # 🔴 cld_pop_server -> Server
-    ➡️ cld_pop_server=
+    # 👽 cld_pop_server -> Server
+    cld_pop_server=?الخادم
     cld_pop_sound_files=ملفات صوتية
     cld_pop_status_code=رمز الحالة
     cld_pop_stint_cause=انقطاع
@@ -728,10 +728,10 @@ Do not change the items below:
     cld_queue=صف
     cld_queue_batch_export=إضافة مكالمات إلى الدفعة المُصدَّرة
     cld_queue_detail=تفاصيل الصف
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=
+    # 👽 cld_queue_detail_afp -> Queue detail
+    cld_queue_detail_afp=?تفاصيل قائمة الانتظار
+    # 👽 cld_queue_detail_raw -> Raw queue detail
+    cld_queue_detail_raw=?تفاصيل قائمة الانتظار الأولية
     cld_return=عودة
     cld_server=خادم
     cld_session_agent_detail=تفاصيل جلسة العميل
@@ -747,18 +747,18 @@ Do not change the items below:
     cld_start_hour=بداية الساعة
     cld_status_code=رمز
     cld_stints=جزء
-    # 🔴 cld_talk -> Talk
-    ➡️ cld_talk=
-    # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
-    ➡️ cld_talk_and_idle_times=
+    # 👽 cld_talk -> Talk
+    cld_talk=?تحدث
+    # 👽 cld_talk_and_idle_times -> Talk and Idle Times
+    cld_talk_and_idle_times=?أوقات التحدث والخمول
     cld_termination=إنهاء
-    # 🔴 cld_tot_dur -> Tot. Dur.
-    ➡️ cld_tot_dur=
+    # 👽 cld_tot_dur -> Tot. Dur.
+    cld_tot_dur=?المدة الإجمالية
     cld_total_calls=مجموع المكالمات
     cld_total_elapsed_time=مجموع المدة المنقضية
     cld_transfer_to=تم تحويلها إلى
-    # 🔴 cld_uid -> Unique ID
-    ➡️ cld_uid=
+    # 👽 cld_uid -> Unique ID
+    cld_uid=?معرف فريد
     cld_unique_callers=متصلين فريدين
     cld_unique_final_lost=آخر فريد مفقود
     cld_unique_first_lost=أول فريد مفقود
@@ -923,8 +923,8 @@ Do not change the items below:
     clko_ivr_ko=IVR اٍختيار
     clko_key=مفتاح
     clko_keypress=مُكالمات لم يتم الرد عليها عن طريق الضغط على مفتاح
-    # 🔴 clko_max_queue_position_at_disconnection -> Max queue position at disconnection:
-    ➡️ clko_max_queue_position_at_disconnection=
+    # 👽 clko_max_queue_position_at_disconnection -> Max queue position at disconnection:
+    clko_max_queue_position_at_disconnection=?أقصى موضع في قائمة الانتظار عند الانقطاع:
     clko_max_wait_time_before_disconnection=الحد الأقصى لوقت الانتظار قبل الانقطاع
     clko_min_queue_position_at_disconnection=الحد الأدنى الموقف في انقطاع طابور
     clko_min_wait_time_before_disconnection=الحد الأدنى لوقت الانتظار قبل الانقطاع
@@ -944,23 +944,23 @@ Do not change the items below:
     clko_threedots=...
     clko_total_rows_processed=إجمالي السطور التي تم معالجتها
     clko_total_wait_time_before_disconnection=إجمالي الوقت قبل الانقطاع
-    # 🔴 clko_unans_nums_recalled -> Numbers recalled
-    ➡️ clko_unans_nums_recalled=
-    # 🔴 clko_unans_nums_recap -> Recap of all recalls
-    ➡️ clko_unans_nums_recap=
-    # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
-    ➡️ clko_unans_nums_to_recall=
+    # 👽 clko_unans_nums_recalled -> Numbers recalled
+    clko_unans_nums_recalled=?الأرقام المعاد استدعاؤها
+    # 👽 clko_unans_nums_recap -> Recap of all recalls
+    clko_unans_nums_recap=?ملخص جميع عمليات إعادة الاتصال
+    # 👽 clko_unans_nums_to_recall -> Numbers to be recalled
+    clko_unans_nums_to_recall=?أرقام ليتم إعادة الاتصال بها
     clko_unanswered_calls=مكالمات لم يتم الرد عليها
     clko_unanswered_calls_by_queue=مكالمات لم يتم الرد عليها حسب الصف
     clko_unanswered_calls_distribution_by_length=مكالمات لم يتم الرد عليها - التوزيع حسب المُدة
     clko_unanswered_outbound=المكالمات الصادرة التي لم يتم الرد عليها حسب الوكيل
     clko_within_x_seconds=في غضون ## ثانية
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-    ➡️ clko_unanswered_calls_prc=
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
-    ➡️ clko_unanswered_with_atts=
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
-    ➡️ clko_unanswered_no_atts=
+    # 👽 clko_unanswered_calls_prc -> Unans. %
+    clko_unanswered_calls_prc=?نسبة عدم الرد
+    # 👽 clko_unanswered_with_atts -> Unans. with att.
+    clko_unanswered_with_atts=?لم يُجب عليها مع محاولات
+    # 👽 clko_unanswered_no_atts -> Unans no att.
+    clko_unanswered_no_atts=?لم يُجب عليها بدون محاولات
 
 
 ## Report headers
@@ -1034,8 +1034,8 @@ Do not change the items below:
     clok_disconnection_causes=أسباب الانقطاع
     clok_dnis= المستخدمة DNIS 
     clok_dnis_choice=DNIS
-    # 🔴 clok_grouping -> Open Group
-    ➡️ clok_grouping=
+    # 👽 clok_grouping -> Open Group
+    clok_grouping=?مجموعة مفتوحة
     clok_hdr=رأس التقرير
     clok_ivr=IVR اختيار
     clok_ivrMaxTime=الحد الأقصى للمدة الزمنية
@@ -1085,63 +1085,63 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=
-    # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=
-    # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=
-    # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=
-    # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=
-    # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=
-    # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=
-    # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=
-    # 🔴 clok_effective_prc -> Effective %
-    ➡️ clok_effective_prc=
-    # 🔴 clok_avg_wait -> Avg wait
-    ➡️ clok_avg_wait=
-    # 🔴 clok_max_wait -> Max wait
-    ➡️ clok_max_wait=
+    # 👽 clok_overview_by_agent -> Overview by Agent
+    clok_overview_by_agent=?نظرة عامة حسب الوكيل
+    # 👽 clok_overview_by_queue -> Overview by Queue
+    clok_overview_by_queue=?نظرة عامة حسب قائمة الانتظار
+    # 👽 clok_offered_n -> Offered
+    clok_offered_n=?المقدمة
+    # 👽 clok_answered_calls_prc -> Ans %
+    clok_answered_calls_prc=?نسبة الرد
+    # 👽 clok_lost_attempts -> Lost att.
+    clok_lost_attempts=?المحاولات الضائعة
+    # 👽 clok_lost_attempts_prc -> Lst att %
+    clok_lost_attempts_prc=?نسبة المحاولات الضائعة
+    # 👽 clok_outbound -> Outbound
+    clok_outbound=?صادر
+    # 👽 clok_outbound_prc -> Outb.%
+    clok_outbound_prc=?نسبة الصادر
+    # 👽 clok_asa -> ASA
+    clok_asa=?متوسط سرعة الإجابة
+    # 👽 clok_answered_sla_prc -> Ans in SLA %
+    clok_answered_sla_prc=?نسبة الرد في SLA
+    # 👽 clok_effective_prc -> Effective %
+    clok_effective_prc=?نسبة الفعالية
+    # 👽 clok_avg_wait -> Avg wait
+    clok_avg_wait=?متوسط الانتظار
+    # 👽 clok_max_wait -> Max wait
+    clok_max_wait=?أقصى انتظار
         
     
 ## Call events
 
 
 
-    # 🔴 evt_abandon -> Caller Abandoned
-    ➡️ evt_abandon=
+    # 👽 evt_abandon -> Caller Abandoned
+    evt_abandon=?المتصل تخلى
     evt_agentattempt=محاولة اتصال
     evt_agentdump=التخلص من العميل
-    # 🔴 evt_attended_transfer -> Attended Transfer
-    ➡️ evt_attended_transfer=
-    # 🔴 evt_blind_transfer -> Blind Transfer
-    ➡️ evt_blind_transfer=
-    # 🔴 evt_call_outbound -> Outbound Call
-    ➡️ evt_call_outbound=
+    # 👽 evt_attended_transfer -> Attended Transfer
+    evt_attended_transfer=?تحويل بمساعدة
+    # 👽 evt_blind_transfer -> Blind Transfer
+    evt_blind_transfer=?تحويل أعمى
+    # 👽 evt_call_outbound -> Outbound Call
+    evt_call_outbound=?مكالمة صادرة
     evt_call_tag=بطاقة المكالمة
-    # 🔴 evt_complete_agent -> Complete Agent
-    ➡️ evt_complete_agent=
-    # 🔴 evt_complete_caller -> Complete Caller
-    ➡️ evt_complete_caller=
-    # 🔴 evt_connect -> Connect
-    ➡️ evt_connect=
-    # 🔴 evt_enter_queue -> Enter Queue
-    ➡️ evt_enter_queue=
-    # 🔴 evt_exit_empty -> Exit Empty
-    ➡️ evt_exit_empty=
-    # 🔴 evt_exit_with_key -> Exit With Key
-    ➡️ evt_exit_with_key=
-    # 🔴 evt_exit_with_timeout -> Exit With Timeout
-    ➡️ evt_exit_with_timeout=
+    # 👽 evt_complete_agent -> Complete Agent
+    evt_complete_agent=?اكتمال الوكيل
+    # 👽 evt_complete_caller -> Complete Caller
+    evt_complete_caller=?اكتمال المتصل
+    # 👽 evt_connect -> Connect
+    evt_connect=?ربط
+    # 👽 evt_enter_queue -> Enter Queue
+    evt_enter_queue=?دخول قائمة الانتظار
+    # 👽 evt_exit_empty -> Exit Empty
+    evt_exit_empty=?خروج فارغ
+    # 👽 evt_exit_with_key -> Exit With Key
+    evt_exit_with_key=?خروج بمفتاح
+    # 👽 evt_exit_with_timeout -> Exit With Timeout
+    evt_exit_with_timeout=?خروج بانتهاء الوقت
     evt_feature_added=خاصية مضافة
     evt_feature_deleted=خاصية محذوفة
     evt_ivr_alldigits=IVR كل خانات
@@ -1152,20 +1152,20 @@ Used for data blocks Overview by Agent/Queue
     evt_ivr_start= IVR بداية اتصال
     evt_ivr_waitonly=IVR انتظار
     evt_moh=موسيقى الانتظار
-    # 🔴 evt_other_end_session -> Other Session End
-    ➡️ evt_other_end_session=
-    # 🔴 evt_other_fail_session -> Other Session Fail
-    ➡️ evt_other_fail_session=
-    # 🔴 evt_other_start_session -> Other Session Start
-    ➡️ evt_other_start_session=
-    # 🔴 evt_phone_end_session -> Phone Session End
-    ➡️ evt_phone_end_session=
-    # 🔴 evt_phone_fail_session -> Phone Session Fail
-    ➡️ evt_phone_fail_session=
-    # 🔴 evt_phone_start_session -> Phone Session Start
-    ➡️ evt_phone_start_session=
-    # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel=
+    # 👽 evt_other_end_session -> Other Session End
+    evt_other_end_session=?نهاية جلسة أخرى
+    # 👽 evt_other_fail_session -> Other Session Fail
+    evt_other_fail_session=?فشل جلسة أخرى
+    # 👽 evt_other_start_session -> Other Session Start
+    evt_other_start_session=?بدء جلسة أخرى
+    # 👽 evt_phone_end_session -> Phone Session End
+    evt_phone_end_session=?نهاية جلسة الهاتف
+    # 👽 evt_phone_fail_session -> Phone Session Fail
+    evt_phone_fail_session=?فشل جلسة الهاتف
+    # 👽 evt_phone_start_session -> Phone Session Start
+    evt_phone_start_session=?بدء جلسة الهاتف
+    # 👽 evt_ringcancel -> Ring Cancel
+    evt_ringcancel=?إلغاء الرنين
     evt_ringing=رنين
     evt_ringnoanswer=رنين بدون إجابة
     evt_setvar=ضبط المتغير
@@ -1175,34 +1175,34 @@ Used for data blocks Overview by Agent/Queue
     evt_short_ringing=الرنين (القصيرة)
     evt_short_ringnoanswer=رنين بدون اجابة (القصيرة)
     evt_skillreq=المهارات المطلوبة
-    # 🔴 evt_teams_end_session -> MS Teams Session End
-    ➡️ evt_teams_end_session=
-    # 🔴 evt_teams_fail_session -> Teams Session Fail
-    ➡️ evt_teams_fail_session=
-    # 🔴 evt_teams_start_session -> MS Teams Session Start
-    ➡️ evt_teams_start_session=
-    # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer=
-    # 🔴 evt_unanswered_yet -> Unanswered Yet
-    ➡️ evt_unanswered_yet=
-    # 🔴 evt_web_end_session -> Web Session End
-    ➡️ evt_web_end_session=
-    # 🔴 evt_web_fail_session -> Web Session Fail
-    ➡️ evt_web_fail_session=
-    # 🔴 evt_web_start_session -> Web Session Start
-    ➡️ evt_web_start_session=
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=
+    # 👽 evt_teams_end_session -> MS Teams Session End
+    evt_teams_end_session=?نهاية جلسة فرق MS
+    # 👽 evt_teams_fail_session -> Teams Session Fail
+    evt_teams_fail_session=?فشل جلسة فرق
+    # 👽 evt_teams_start_session -> MS Teams Session Start
+    evt_teams_start_session=?بدء جلسة فرق MS
+    # 👽 evt_transfer -> Transfer
+    evt_transfer=?تحويل
+    # 👽 evt_unanswered_yet -> Unanswered Yet
+    evt_unanswered_yet=?لم يُجب عليها بعد
+    # 👽 evt_web_end_session -> Web Session End
+    evt_web_end_session=?نهاية جلسة الويب
+    # 👽 evt_web_fail_session -> Web Session Fail
+    evt_web_fail_session=?فشل جلسة الويب
+    # 👽 evt_web_start_session -> Web Session Start
+    evt_web_start_session=?بدء جلسة الويب
+    # 👽 evt_var_group -> Variables
+    evt_var_group=?المتغيرات
+    # 👽 evt_custom_prev_stint -> Previous Stint
+    evt_custom_prev_stint=?المدة السابقة
+    # 👽 evt_custom_next_stint -> Next Stint
+    evt_custom_next_stint=?المدة التالية
+    # 👽 evt_custom_n_stint -> N. Stints
+    evt_custom_n_stint=?عدد المدد
+    # 👽 evt_custom_direct_to -> Direct call to
+    evt_custom_direct_to=?مكالمة مباشرة إلى
+    # 👽 evt_custom_quality -> Call quality
+    evt_custom_quality=?جودة المكالمة
 
 ## Headers
 
@@ -1214,8 +1214,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_agents_det_title=تفاصيل جلسات العمل والتوقفات المؤقتة للوكيل
     hdr_agents_title=الوكلاء وجلسات العمل
     hdr_all=جميع
-    # 🔴 hdr_amo -> AMO
-    ➡️ hdr_amo=
+    # 👽 hdr_amo -> AMO
+    hdr_amo=?AMO
     hdr_answered=مجابة
     hdr_answered_details=تفاصيل المكالمات المجابة
     hdr_answered_details_title=تفاصيل المكالمات المجابة
@@ -1223,22 +1223,22 @@ Used for data blocks Overview by Agent/Queue
     hdr_area_title=تحليل رمز المنطقة
     hdr_attempts=محاولات
     hdr_broadcast=تعميم
-    # 🔴 hdr_calls -> Calls
-    ➡️ hdr_calls=
-    # 🔴 hdr_calls_title -> Call Details
-    ➡️ hdr_calls_title=
-    # 🔴 hdr_casedo -> Cases
-    ➡️ hdr_casedo=
-    # 🔴 hdr_casedo_title -> Cases and Clients
-    ➡️ hdr_casedo_title=
-    # 🔴 hdr_cases -> Cases
-    ➡️ hdr_cases=
+    # 👽 hdr_calls -> Calls
+    hdr_calls=?المكالمات
+    # 👽 hdr_calls_title -> Call Details
+    hdr_calls_title=?تفاصيل المكالمة
+    # 👽 hdr_casedo -> Cases
+    hdr_casedo=?الحالات
+    # 👽 hdr_casedo_title -> Cases and Clients
+    hdr_casedo_title=?الحالات والعملاء
+    # 👽 hdr_cases -> Cases
+    hdr_cases=?الحالات
     hdr_cbt=CBTs
-    # 🔴 hdr_clients -> Clients
-    ➡️ hdr_clients=
+    # 👽 hdr_clients -> Clients
+    hdr_clients=?العملاء
     hdr_cronjobs=وظائف مجدولة
-    # 🔴 hdr_customblocks -> Custom Blocks
-    ➡️ hdr_customblocks=
+    # 👽 hdr_customblocks -> Custom Blocks
+    hdr_customblocks=?الكتل المخصصة
     hdr_customreports=CR
     hdr_dbtest_ami=Test AMI
     hdr_dbtest_ami_queue=اظهار التعليمات
@@ -1272,8 +1272,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_outcomes=المخرجات
     hdr_outcomes_title=مخرجات المكالمة
     hdr_pauses=توقفات مؤقتة
-    # 🔴 hdr_performance -> Performance
-    ➡️ hdr_performance=
+    # 👽 hdr_performance -> Performance
+    hdr_performance=?الأداء
     hdr_performancetrack=PrfTrk
     hdr_print=طباعة
     hdr_qa=QA
@@ -1286,15 +1286,15 @@ Used for data blocks Overview by Agent/Queue
     hdr_realtime=الزمن الحقيقي
     hdr_reports=التقارير
     hdr_resetquery=تصفير محددات الاستعلام
-    # 🔴 hdr_rt -> RT
-    ➡️ hdr_rt=
-    # 🔴 hdr_rt_title -> Real-Time Metrics
-    ➡️ hdr_rt_title=
+    # 👽 hdr_rt -> RT
+    hdr_rt=?RT
+    # 👽 hdr_rt_title -> Real-Time Metrics
+    hdr_rt_title=?مقاييس الوقت الحقيقي
     hdr_skills=مهارات
-    # 🔴 hdr_stats -> Stats
-    ➡️ hdr_stats=
-    # 🔴 hdr_stats_title -> Statistics
-    ➡️ hdr_stats_title=
+    # 👽 hdr_stats -> Stats
+    hdr_stats=?الإحصائيات
+    # 👽 hdr_stats_title -> Statistics
+    hdr_stats_title=?الإحصائيات
     hdr_tags=بطاقات
     hdr_tags_title=بطاقات المكالمة
     hdr_tasks=المهام
@@ -1321,106 +1321,106 @@ Used for data blocks Overview by Agent/Queue
     edit_ac_supervisor=المشرف
     edit_ac_term=انهاء
     edit_ac_title=اعدادات الوكلاء المعروفين
-    # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute=
+    # 👽 edit_amo_attribute -> Attribute
+    edit_amo_attribute=?سمة
 
 ### AMO
 
-    # 🔴 edit_amo_attributes -> Attributes
-    ➡️ edit_amo_attributes=
-    # 🔴 edit_amo_campaign -> Campaign
-    ➡️ edit_amo_campaign=
-    # 🔴 edit_amo_last_pull -> Last Pull
-    ➡️ edit_amo_last_pull=
-    # 🔴 edit_amo_list_dialer_state -> Dialer State
-    ➡️ edit_amo_list_dialer_state=
-    # 🔴 edit_amo_list_id -> List ID
-    ➡️ edit_amo_list_id=
-    # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=
-    # 🔴 edit_amo_list_n_added -> N. added
-    ➡️ edit_amo_list_n_added=
-    # 🔴 edit_amo_list_n_completed -> N. completed
-    ➡️ edit_amo_list_n_completed=
-    # 🔴 edit_amo_list_n_pulled -> N. pulled
-    ➡️ edit_amo_list_n_pulled=
-    # 🔴 edit_amo_list_name -> Name
-    ➡️ edit_amo_list_name=
-    # 🔴 edit_amo_list_numbers -> Edit Numbers
-    ➡️ edit_amo_list_numbers=
-    # 🔴 edit_amo_list_pull_by -> Pulled by
-    ➡️ edit_amo_list_pull_by=
-    # 🔴 edit_amo_list_state -> List State
-    ➡️ edit_amo_list_state=
-    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-    ➡️ edit_amo_list_upload_numbers=
-    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-    ➡️ edit_amo_list_upload_text=
-    # 🔴 edit_amo_list_weight -> Weight
-    ➡️ edit_amo_list_weight=
-    # 🔴 edit_amo_lists_list -> AMO Lists
-    ➡️ edit_amo_lists_list=
-    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
-    ➡️ edit_amo_lists_name_present=
-    # 🔴 edit_amo_lists_title -> Edit AMO List
-    ➡️ edit_amo_lists_title=
-    # 🔴 edit_amo_n_added -> N. added
-    ➡️ edit_amo_n_added=
-    # 🔴 edit_amo_n_completed -> N. completed
-    ➡️ edit_amo_n_completed=
-    # 🔴 edit_amo_n_lists -> N. of Lists
-    ➡️ edit_amo_n_lists=
-    # 🔴 edit_amo_name -> Name
-    ➡️ edit_amo_name=
-    # 🔴 edit_amo_notes -> Notes
-    ➡️ edit_amo_notes=
-    # 🔴 edit_amo_number -> Number
-    ➡️ edit_amo_number=
-    # 🔴 edit_amo_number_id -> Number ID
-    ➡️ edit_amo_number_id=
-    # 🔴 edit_amo_numbers_current_uid -> Current UID
-    ➡️ edit_amo_numbers_current_uid=
-    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
-    ➡️ edit_amo_numbers_edit=
-    # 🔴 edit_amo_numbers_list -> AMO Numbers
-    ➡️ edit_amo_numbers_list=
-    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-    ➡️ edit_amo_numbers_previous_retries=
-    # 🔴 edit_amo_numbers_retry_no -> Retry Number
-    ➡️ edit_amo_numbers_retry_no=
-    # 🔴 edit_amo_queue_id -> Queue ID
-    ➡️ edit_amo_queue_id=
-    # 🔴 edit_amo_retry_no -> N. of retries
-    ➡️ edit_amo_retry_no=
-    # 🔴 edit_amo_state -> State
-    ➡️ edit_amo_state=
-    # 🔴 edit_amo_valid_attribute -> Attribute
-    ➡️ edit_amo_valid_attribute=
-    # 🔴 edit_amo_valid_from -> Valid from
-    ➡️ edit_amo_valid_from=
-    # 🔴 edit_amo_valid_value -> Value
-    ➡️ edit_amo_valid_value=
+    # 👽 edit_amo_attributes -> Attributes
+    edit_amo_attributes=?السمات
+    # 👽 edit_amo_campaign -> Campaign
+    edit_amo_campaign=?الحملة
+    # 👽 edit_amo_last_pull -> Last Pull
+    edit_amo_last_pull=?آخر سحب
+    # 👽 edit_amo_list_dialer_state -> Dialer State
+    edit_amo_list_dialer_state=?حالة برنامج الاتصال
+    # 👽 edit_amo_list_id -> List ID
+    edit_amo_list_id=?معرف القائمة
+    # 👽 edit_amo_list_last_pull -> Last Pull
+    edit_amo_list_last_pull=?آخر سحب
+    # 👽 edit_amo_list_n_added -> N. added
+    edit_amo_list_n_added=?عدد الإضافات
+    # 👽 edit_amo_list_n_completed -> N. completed
+    edit_amo_list_n_completed=?عدد المكتملات
+    # 👽 edit_amo_list_n_pulled -> N. pulled
+    edit_amo_list_n_pulled=?عدد المسحوبات
+    # 👽 edit_amo_list_name -> Name
+    edit_amo_list_name=?الاسم
+    # 👽 edit_amo_list_numbers -> Edit Numbers
+    edit_amo_list_numbers=?تعديل الأرقام
+    # 👽 edit_amo_list_pull_by -> Pulled by
+    edit_amo_list_pull_by=?تم سحبها بواسطة
+    # 👽 edit_amo_list_state -> List State
+    edit_amo_list_state=?حالة القائمة
+    # 👽 edit_amo_list_upload_numbers -> Upload Numbers
+    edit_amo_list_upload_numbers=?تحميل الأرقام
+    # 👽 edit_amo_list_upload_text -> Drop csv files or browse
+    edit_amo_list_upload_text=?أسقط ملفات CSV أو تصفح
+    # 👽 edit_amo_list_weight -> Weight
+    edit_amo_list_weight=?الوزن
+    # 👽 edit_amo_lists_list -> AMO Lists
+    edit_amo_lists_list=?قوائم AMO
+    # 👽 edit_amo_lists_name_present -> The selected list name already exists
+    edit_amo_lists_name_present=?اسم القائمة المحددة موجود بالفعل
+    # 👽 edit_amo_lists_title -> Edit AMO List
+    edit_amo_lists_title=?تعديل قائمة AMO
+    # 👽 edit_amo_n_added -> N. added
+    edit_amo_n_added=?عدد الإضافات
+    # 👽 edit_amo_n_completed -> N. completed
+    edit_amo_n_completed=?عدد المكتملات
+    # 👽 edit_amo_n_lists -> N. of Lists
+    edit_amo_n_lists=?عدد القوائم
+    # 👽 edit_amo_name -> Name
+    edit_amo_name=?الاسم
+    # 👽 edit_amo_notes -> Notes
+    edit_amo_notes=?ملاحظات
+    # 👽 edit_amo_number -> Number
+    edit_amo_number=?الرقم
+    # 👽 edit_amo_number_id -> Number ID
+    edit_amo_number_id=?معرف الرقم
+    # 👽 edit_amo_numbers_current_uid -> Current UID
+    edit_amo_numbers_current_uid=?معرف UID الحالي
+    # 👽 edit_amo_numbers_edit -> Edit AMO Number
+    edit_amo_numbers_edit=?تعديل رقم AMO
+    # 👽 edit_amo_numbers_list -> AMO Numbers
+    edit_amo_numbers_list=?أرقام AMO
+    # 👽 edit_amo_numbers_previous_retries -> Previous Retries
+    edit_amo_numbers_previous_retries=?المحاولات السابقة
+    # 👽 edit_amo_numbers_retry_no -> Retry Number
+    edit_amo_numbers_retry_no=?رقم إعادة المحاولة
+    # 👽 edit_amo_queue_id -> Queue ID
+    edit_amo_queue_id=?معرف قائمة الانتظار
+    # 👽 edit_amo_retry_no -> N. of retries
+    edit_amo_retry_no=?عدد مرات إعادة المحاولة
+    # 👽 edit_amo_state -> State
+    edit_amo_state=?الحالة
+    # 👽 edit_amo_valid_attribute -> Attribute
+    edit_amo_valid_attribute=?سمة
+    # 👽 edit_amo_valid_from -> Valid from
+    edit_amo_valid_from=?صالح من
+    # 👽 edit_amo_valid_value -> Value
+    edit_amo_valid_value=?القيمة
 
 ### Cases
 
-    # 🔴 edit_cases_client -> Client
-    ➡️ edit_cases_client=
-    # 🔴 edit_cases_contact -> Contact
-    ➡️ edit_cases_contact=
-    # 🔴 edit_cases_email -> Email
-    ➡️ edit_cases_email=
-    # 🔴 edit_cases_header -> Cases
-    ➡️ edit_cases_header=
-    # 🔴 edit_cases_id -> Case Id
-    ➡️ edit_cases_id=
-    # 🔴 edit_cases_key -> Key
-    ➡️ edit_cases_key=
-    # 🔴 edit_cases_status -> Status
-    ➡️ edit_cases_status=
-    # 🔴 edit_cases_title -> Title
-    ➡️ edit_cases_title=
-    # 🔴 edit_cases_xref -> Reference
-    ➡️ edit_cases_xref=
+    # 👽 edit_cases_client -> Client
+    edit_cases_client=?العميل
+    # 👽 edit_cases_contact -> Contact
+    edit_cases_contact=?جهة الاتصال
+    # 👽 edit_cases_email -> Email
+    edit_cases_email=?البريد الإلكتروني
+    # 👽 edit_cases_header -> Cases
+    edit_cases_header=?الحالات
+    # 👽 edit_cases_id -> Case Id
+    edit_cases_id=?معرف الحالة
+    # 👽 edit_cases_key -> Key
+    edit_cases_key=?المفتاح
+    # 👽 edit_cases_status -> Status
+    edit_cases_status=?الحالة
+    # 👽 edit_cases_title -> Title
+    edit_cases_title=?العنوان
+    # 👽 edit_cases_xref -> Reference
+    edit_cases_xref=?مرجع
     edit_cbt_deleted=تم حذفها
     edit_cbt_description=وصف
     edit_cbt_key=مفتاح
@@ -1431,30 +1431,30 @@ Used for data blocks Overview by Agent/Queue
     edit_classes_keys=مفتاح
     edit_classes_title=مستويات المستخدمين
     edit_classes_user_num=مستخدم #
-    # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
-    ➡️ edit_clients_client_in_use=
-    # 🔴 edit_clients_contact -> Contact
-    ➡️ edit_clients_contact=
-    # 🔴 edit_clients_email -> Email
-    ➡️ edit_clients_email=
-    # 🔴 edit_clients_header -> Clients
-    ➡️ edit_clients_header=
-    # 🔴 edit_clients_key -> Key
-    ➡️ edit_clients_key=
-    # 🔴 edit_clients_name -> Name
-    ➡️ edit_clients_name=
-    # 🔴 edit_clients_name_present -> Name already present
-    ➡️ edit_clients_name_present=
-    # 🔴 edit_clients_status -> Status
-    ➡️ edit_clients_status=
-    # 🔴 edit_clients_xref -> Reference
-    ➡️ edit_clients_xref=
-    # 🔴 edit_clients_xref_already_present -> This reference is already present
-    ➡️ edit_clients_xref_already_present=
-    # 🔴 edit_clients_xref_missing -> You must set a reference
-    ➡️ edit_clients_xref_missing=
-    # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
-    ➡️ edit_clients_xref_not_allowed=
+    # 👽 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
+    edit_clients_client_in_use=?لا يمكن حذف هذا العميل لأنه قيد الاستخدام.
+    # 👽 edit_clients_contact -> Contact
+    edit_clients_contact=?جهة الاتصال
+    # 👽 edit_clients_email -> Email
+    edit_clients_email=?البريد الإلكتروني
+    # 👽 edit_clients_header -> Clients
+    edit_clients_header=?العملاء
+    # 👽 edit_clients_key -> Key
+    edit_clients_key=?المفتاح
+    # 👽 edit_clients_name -> Name
+    edit_clients_name=?الاسم
+    # 👽 edit_clients_name_present -> Name already present
+    edit_clients_name_present=?الاسم موجود بالفعل
+    # 👽 edit_clients_status -> Status
+    edit_clients_status=?الحالة
+    # 👽 edit_clients_xref -> Reference
+    edit_clients_xref=?مرجع
+    # 👽 edit_clients_xref_already_present -> This reference is already present
+    edit_clients_xref_already_present=?هذا المرجع موجود بالفعل
+    # 👽 edit_clients_xref_missing -> You must set a reference
+    edit_clients_xref_missing=?يجب تعيين مرجع
+    # 👽 edit_clients_xref_not_allowed -> This reference has an invalid format
+    edit_clients_xref_not_allowed=?هذا المرجع له تنسيق غير صالح
     edit_cronjobs_asuser=تشغيل كمستخدم
     edit_cronjobs_cyclic=اعادة تدوير
     edit_cronjobs_description=وصف
@@ -1473,16 +1473,16 @@ Used for data blocks Overview by Agent/Queue
     edit_ct_key=مفتاح
     edit_ct_tag=بطاقة
     edit_ct_title=بطاقات المكالمات
-    # 🔴 edit_customblocks_description -> Description
-    ➡️ edit_customblocks_description=
-    # 🔴 edit_customblocks_header -> Custom DataBlocks
-    ➡️ edit_customblocks_header=
-    # 🔴 edit_customblocks_key -> Security Key
-    ➡️ edit_customblocks_key=
-    # 🔴 edit_customblocks_provider -> Provider
-    ➡️ edit_customblocks_provider=
-    # 🔴 edit_customblocks_title -> Title
-    ➡️ edit_customblocks_title=
+    # 👽 edit_customblocks_description -> Description
+    edit_customblocks_description=?الوصف
+    # 👽 edit_customblocks_header -> Custom DataBlocks
+    edit_customblocks_header=?كتل البيانات المخصصة
+    # 👽 edit_customblocks_key -> Security Key
+    edit_customblocks_key=?مفتاح الأمان
+    # 👽 edit_customblocks_provider -> Provider
+    edit_customblocks_provider=?المزود
+    # 👽 edit_customblocks_title -> Title
+    edit_customblocks_title=?العنوان
     edit_dnis_description=وصف
     edit_dnis_dnis=DNIS رمز
     edit_dnis_title=DNIS
@@ -1640,36 +1640,36 @@ Used for data blocks Overview by Agent/Queue
     edit_record_backtolist=العودة إلى لائحة
     edit_record_backtoqueue=العودة إلى الصف
     edit_record_backtoreports=العودة إلى التقارير
-    # 🔴 edit_record_case_transactions -> Activity for this case
-    ➡️ edit_record_case_transactions=
-    # 🔴 edit_record_cases_contact -> Contact
-    ➡️ edit_record_cases_contact=
-    # 🔴 edit_record_cases_email -> Email
-    ➡️ edit_record_cases_email=
-    # 🔴 edit_record_cases_for_client -> Recent cases for this client
-    ➡️ edit_record_cases_for_client=
-    # 🔴 edit_record_cases_handled_by -> Handled by
-    ➡️ edit_record_cases_handled_by=
-    # 🔴 edit_record_cases_header -> Edit Case
-    ➡️ edit_record_cases_header=
-    # 🔴 edit_record_cases_id -> Case Id
-    ➡️ edit_record_cases_id=
-    # 🔴 edit_record_cases_none_found -> None found
-    ➡️ edit_record_cases_none_found=
-    # 🔴 edit_record_cases_notes -> Notes
-    ➡️ edit_record_cases_notes=
-    # 🔴 edit_record_cases_queue -> Queue
-    ➡️ edit_record_cases_queue=
-    # 🔴 edit_record_cases_securitykey -> Security Key
-    ➡️ edit_record_cases_securitykey=
-    # 🔴 edit_record_cases_status -> Status
-    ➡️ edit_record_cases_status=
-    # 🔴 edit_record_cases_text -> Note text
-    ➡️ edit_record_cases_text=
-    # 🔴 edit_record_cases_title -> Title
-    ➡️ edit_record_cases_title=
-    # 🔴 edit_record_cases_xref -> Reference
-    ➡️ edit_record_cases_xref=
+    # 👽 edit_record_case_transactions -> Activity for this case
+    edit_record_case_transactions=?نشاط هذه الحالة
+    # 👽 edit_record_cases_contact -> Contact
+    edit_record_cases_contact=?جهة الاتصال
+    # 👽 edit_record_cases_email -> Email
+    edit_record_cases_email=?البريد الإلكتروني
+    # 👽 edit_record_cases_for_client -> Recent cases for this client
+    edit_record_cases_for_client=?الحالات الأخيرة لهذا العميل
+    # 👽 edit_record_cases_handled_by -> Handled by
+    edit_record_cases_handled_by=?تعامل معها
+    # 👽 edit_record_cases_header -> Edit Case
+    edit_record_cases_header=?تعديل الحالة
+    # 👽 edit_record_cases_id -> Case Id
+    edit_record_cases_id=?معرف الحالة
+    # 👽 edit_record_cases_none_found -> None found
+    edit_record_cases_none_found=?لم يتم العثور على شيء
+    # 👽 edit_record_cases_notes -> Notes
+    edit_record_cases_notes=?ملاحظات
+    # 👽 edit_record_cases_queue -> Queue
+    edit_record_cases_queue=?قائمة الانتظار
+    # 👽 edit_record_cases_securitykey -> Security Key
+    edit_record_cases_securitykey=?مفتاح الأمان
+    # 👽 edit_record_cases_status -> Status
+    edit_record_cases_status=?الحالة
+    # 👽 edit_record_cases_text -> Note text
+    edit_record_cases_text=?نص الملاحظة
+    # 👽 edit_record_cases_title -> Title
+    edit_record_cases_title=?العنوان
+    # 👽 edit_record_cases_xref -> Reference
+    edit_record_cases_xref=?مرجع
     edit_record_cbt_code=رمز CBT:
     edit_record_cbt_counter=ارسال العداد:
     edit_record_cbt_offline=غير متصل:
@@ -1681,22 +1681,22 @@ Used for data blocks Overview by Agent/Queue
     edit_record_classes_name=اسم المستوى:
     edit_record_classes_title=تفاصيل المستوى
     edit_record_classes_usersinclass=عدد المستخدمين الذين ينتمون لهذا المستوى
-    # 🔴 edit_record_client_id -> Client
-    ➡️ edit_record_client_id=
-    # 🔴 edit_record_clients_contact -> Contact
-    ➡️ edit_record_clients_contact=
-    # 🔴 edit_record_clients_email -> Email
-    ➡️ edit_record_clients_email=
-    # 🔴 edit_record_clients_header -> Edit Client
-    ➡️ edit_record_clients_header=
-    # 🔴 edit_record_clients_name -> Name
-    ➡️ edit_record_clients_name=
-    # 🔴 edit_record_clients_notes -> Notes
-    ➡️ edit_record_clients_notes=
-    # 🔴 edit_record_clients_securitykey -> Security Key
-    ➡️ edit_record_clients_securitykey=
-    # 🔴 edit_record_clients_status -> Client status
-    ➡️ edit_record_clients_status=
+    # 👽 edit_record_client_id -> Client
+    edit_record_client_id=?العميل
+    # 👽 edit_record_clients_contact -> Contact
+    edit_record_clients_contact=?جهة الاتصال
+    # 👽 edit_record_clients_email -> Email
+    edit_record_clients_email=?البريد الإلكتروني
+    # 👽 edit_record_clients_header -> Edit Client
+    edit_record_clients_header=?تعديل العميل
+    # 👽 edit_record_clients_name -> Name
+    edit_record_clients_name=?الاسم
+    # 👽 edit_record_clients_notes -> Notes
+    edit_record_clients_notes=?ملاحظات
+    # 👽 edit_record_clients_securitykey -> Security Key
+    edit_record_clients_securitykey=?مفتاح الأمان
+    # 👽 edit_record_clients_status -> Client status
+    edit_record_clients_status=?حالة العميل
     edit_record_clone=استنساخ
     edit_record_createdby=تم انشاؤه من قبل
     edit_record_cronjob_dom=يوم من الشهر
@@ -1717,30 +1717,30 @@ Used for data blocks Overview by Agent/Queue
     edit_record_cronjobs_name=اسم
     edit_record_cronjobs_nolastruns=لا يوجد هناك تشغيلات حديثة لعرضها
     edit_record_cronjobs_title=تفاصيل الوظائف المجدولة
-    # 🔴 edit_record_customblocks_block -> Dispatch Name
-    ➡️ edit_record_customblocks_block=
-    # 🔴 edit_record_customblocks_description -> Description
-    ➡️ edit_record_customblocks_description=
-    # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
-    ➡️ edit_record_customblocks_graph_params=
-    # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
-    ➡️ edit_record_customblocks_graph_provider=
-    # 🔴 edit_record_customblocks_graphnone -> None
-    ➡️ edit_record_customblocks_graphnone=
-    # 🔴 edit_record_customblocks_graphreact -> React
-    ➡️ edit_record_customblocks_graphreact=
-    # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
-    ➡️ edit_record_customblocks_header=
-    # 🔴 edit_record_customblocks_provider -> Provider
-    ➡️ edit_record_customblocks_provider=
-    # 🔴 edit_record_customblocks_securitykey -> Security Key
-    ➡️ edit_record_customblocks_securitykey=
-    # 🔴 edit_record_customblocks_source_body -> Source
-    ➡️ edit_record_customblocks_source_body=
-    # 🔴 edit_record_customblocks_title -> Title
-    ➡️ edit_record_customblocks_title=
-    # 🔴 edit_record_customblocks_view -> View
-    ➡️ edit_record_customblocks_view=
+    # 👽 edit_record_customblocks_block -> Dispatch Name
+    edit_record_customblocks_block=?اسم الإرسال
+    # 👽 edit_record_customblocks_description -> Description
+    edit_record_customblocks_description=?الوصف
+    # 👽 edit_record_customblocks_graph_params -> Chart Parameters
+    edit_record_customblocks_graph_params=?معلمات الرسم البياني
+    # 👽 edit_record_customblocks_graph_provider -> Chart Provider
+    edit_record_customblocks_graph_provider=?مزود الرسم البياني
+    # 👽 edit_record_customblocks_graphnone -> None
+    edit_record_customblocks_graphnone=?لا شيء
+    # 👽 edit_record_customblocks_graphreact -> React
+    edit_record_customblocks_graphreact=?تفاعل
+    # 👽 edit_record_customblocks_header -> Edit Custom DataBlock
+    edit_record_customblocks_header=?تعديل كتلة البيانات المخصصة
+    # 👽 edit_record_customblocks_provider -> Provider
+    edit_record_customblocks_provider=?المزود
+    # 👽 edit_record_customblocks_securitykey -> Security Key
+    edit_record_customblocks_securitykey=?مفتاح الأمان
+    # 👽 edit_record_customblocks_source_body -> Source
+    edit_record_customblocks_source_body=?المصدر
+    # 👽 edit_record_customblocks_title -> Title
+    edit_record_customblocks_title=?العنوان
+    # 👽 edit_record_customblocks_view -> View
+    edit_record_customblocks_view=?عرض
     edit_record_delete=حذف
     edit_record_description=وصف
     edit_record_dnis_code=رمز DNIS
@@ -1756,8 +1756,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_export_title=تفاصيل تصدير التقارير
     edit_record_export_titlefield=عنوان:
     edit_record_export_visibility=مفتاح الرؤية:
-    # 🔴 edit_record_ext_ref -> Reference
-    ➡️ edit_record_ext_ref=
+    # 👽 edit_record_ext_ref -> Reference
+    edit_record_ext_ref=?مرجع
     edit_record_external_reference=رقم المرجع الخارجي:
     edit_record_features_code=رمز الميزة
     edit_record_features_goal=هدف:
@@ -1836,26 +1836,26 @@ Used for data blocks Overview by Agent/Queue
     edit_record_queue_agentspaused=عدد الوكلاء المتوقفين مؤقتاً
     edit_record_queue_agentswaiting=عدد الوكلاء المنتظرين:
     edit_record_queue_alias=أسماء مستعارة للصف:
-    # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo=
-    # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled=
-    # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential=
-    # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed=
-    # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear=
-    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes=
-    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts=
-    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec=
-    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping=
-    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes=
+    # 👽 edit_record_queue_amo -> AMO Settings
+    edit_record_queue_amo=?إعدادات AMO
+    # 👽 edit_record_queue_amo_enabled -> Enabled
+    edit_record_queue_amo_enabled=?ممكن
+    # 👽 edit_record_queue_amo_exponential -> Exponential
+    edit_record_queue_amo_exponential=?أُسّي
+    # 👽 edit_record_queue_amo_fixed -> Fixed
+    edit_record_queue_amo_fixed=?ثابت
+    # 👽 edit_record_queue_amo_linear -> Linear
+    edit_record_queue_amo_linear=?خطي
+    # 👽 edit_record_queue_amo_recall_attributes -> Recall attributes
+    edit_record_queue_amo_recall_attributes=?استدعاء السمات
+    # 👽 edit_record_queue_amo_recall_max_attempts -> Max. attempts
+    edit_record_queue_amo_recall_max_attempts=?أقصى محاولات
+    # 👽 edit_record_queue_amo_recall_sec -> Seconds before recall
+    edit_record_queue_amo_recall_sec=?ثوانٍ قبل الاستدعاء
+    # 👽 edit_record_queue_amo_recall_stepping -> Recall stepping
+    edit_record_queue_amo_recall_stepping=?خطوة الاستدعاء
+    # 👽 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
+    edit_record_queue_amo_recall_valid_outcomes=?النتائج الصالحة
     edit_record_queue_attention=مستويات الانتباه
     edit_record_queue_callsinqueue=عدد المكالمات في الصف:
     edit_record_queue_chat=مجموعة محادثة:
@@ -1928,8 +1928,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=الاسم الحقيقي:
     edit_record_users_title=تفاصيل المستخدم
     edit_record_users_token=مأخوذة:
-    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
-    ➡️ edit_record_xref_blank=
+    # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
+    edit_record_xref_blank=?اتركه فارغًا لإنشاء مرجع تلقائيًا
     edit_reports_automatic=اعدادات التقارير الآلية
     edit_reports_desc=Desc.
     edit_reports_key=مفتاح
@@ -2153,8 +2153,8 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_print=طبع
     qa_prc_act=%
     qa_prc_min=٪ اللازمة
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=
+    # 👽 qa_print_report -> Print QA Report
+    qa_print_report=?طباعة تقرير ضمان الجودة
     qa_queryfilterwarn=فقط بالامكان تفعيل فلتر اختيار واحد للوكيل كل مرة
     qa_queue=صف
     qa_range=نطاق
@@ -2243,8 +2243,8 @@ Used for data blocks Overview by Agent/Queue
     filter_idAgentGroup=مجموعة وكلاء
     filter_idLocation=موقع
     filter_ivr=IVR
-    # 🔴 filter_lostAttemptFor -> Lost Attempt For
-    ➡️ filter_lostAttemptFor=
+    # 👽 filter_lostAttemptFor -> Lost Attempt For
+    filter_lostAttemptFor=?محاولة فاشلة لـ
     filter_noncont_days=أيام
     filter_noncont_r1_from=الوقت منذ
     filter_noncont_r1_to=الوقت إلى
@@ -2272,8 +2272,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_actions_whisper=همس
     rt3_add=اضافة Widget جديد
     rt3_add_box=اضافة صندوق جديد في الصفحة
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    # 👽 rt3_add_queue -> Select Queue
+    rt3_add_queue=?حدد قائمة الانتظار
     rt3_add_view=اضافة عرض جديد
     rt3_advanced=متقدم
     rt3_ag_calls_alm_red=تنبيه أحمر للوكلاء المشغولين
@@ -2294,37 +2294,37 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_action_title=اختيار فعل للوكيل
     rt3_agent_actions=أفعال الوكيل
     rt3_agent_addmember=اضافة عضو للصف
-    # 🔴 rt3_agent_changepause -> Change Pause
-    ➡️ rt3_agent_changepause=
+    # 👽 rt3_agent_changepause -> Change Pause
+    rt3_agent_changepause=?تغيير التوقف المؤقت
     rt3_agent_code=رمز الوكيل
     rt3_agent_extension=لاحقة الوكيل
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=
+    # 👽 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    rt3_agent_extension_regex_error=?ملحق الوكيل لا يتبع التنسيق الصحيح.
+    # 👽 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    rt3_agent_code_regex_error=?رمز الوكيل لا يتبع التنسيق الصحيح.
+    # 👽 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    rt3_agent_extension_min_1_char_error=?يجب أن يكون ملحق الوكيل حرفًا واحدًا على الأقل.
+    # 👽 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    rt3_agent_code_min_1_char_error=?يجب أن يكون رمز الوكيل حرفًا واحدًا على الأقل.
     rt3_agent_info=بيانات وكيل
     rt3_agent_login=دخول "جميع الصفوف"
     rt3_agent_logon=تسجيل دخول وكيل
     rt3_agent_logout=خروج "جميع الصفوف"
     rt3_agent_pause=ايقاف مؤقت للوكيل
     rt3_agent_removemember=ازالة عضو من الصف
-    # 🔴 rt3_agent_select -> Please select an Agent...
-    ➡️ rt3_agent_select=
+    # 👽 rt3_agent_select -> Please select an Agent...
+    rt3_agent_select=?الرجاء تحديد وكيل...
     rt3_agent_status=حالة
     rt3_agent_unpause=ايقاف توقف مؤقت للوكيل
     rt3_agents=وكلاء
     rt3_agents_on_inbound=وكلاء في مكالمة مستلمة
     rt3_agents_on_outbound=وكلاء في مكالمة خارجة
-    # 🔴 rt3_alarm_cell_value -> Cell Value
-    ➡️ rt3_alarm_cell_value=
-    # 🔴 rt3_alarm_column_title -> Column
-    ➡️ rt3_alarm_column_title=
-    # 🔴 rt3_all_agents -> All Agents
-    ➡️ rt3_all_agents=
+    # 👽 rt3_alarm_cell_value -> Cell Value
+    rt3_alarm_cell_value=?قيمة الخلية
+    # 👽 rt3_alarm_column_title -> Column
+    rt3_alarm_column_title=?العمود
+    # 👽 rt3_all_agents -> All Agents
+    rt3_all_agents=?جميع الوكلاء
     rt3_all_columns=جميع الفواصل
     rt3_all_queues=كل الصفوف
     rt3_answer=اجابة
@@ -2342,8 +2342,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_call=اتصل
     rt3_call_action_title=اختيار فعل للمكالمة
     rt3_call_actions=أفعال المكالمة
-    # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
-    ➡️ rt3_call_actions_subtitle=
+    # 👽 rt3_call_actions_subtitle -> Click on a call to select it
+    rt3_call_actions_subtitle=?انقر على مكالمة لتحديدها
     rt3_call_agent=وكيل
     rt3_call_alarm_red=تنبيه أحمر للمكالمة
     rt3_call_alarm_yel=تنبيه أصفر للمكالمة
@@ -2379,10 +2379,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_multiitem=بنود مركبة
     rt3_category_table=جداول
     rt3_category_various=متنوع
-    # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
-    ➡️ rt3_change_queue_confirm=
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
+    rt3_change_queue_confirm=?لديك تغييرات غير محفوظة ستفقد إذا غيرت قائمة الانتظار. تأكيد؟
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?لديك تغييرات غير محفوظة ستفقد إذا خرجت من الصفحة. تأكيد؟
     rt3_choose_action=اختر فعل
     rt3_choose_monitor_mode=نمط المراقبة
     rt3_choose_queue=اختر صف
@@ -2406,8 +2406,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_comment=تعليق
     rt3_configure_phone=اعدادات الهاتف المتضمن
     rt3_connection_error=خطأ في اتصال الخادم
-    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
-    ➡️ rt3_connection_valid=
+    # 👽 rt3_connection_valid -> The connection to the server is working correctly.
+    rt3_connection_valid=?الاتصال بالخادم يعمل بشكل صحيح.
     rt3_cont=Cont.
     rt3_contph=CPH
     rt3_conversation=محادثة
@@ -2419,13 +2419,13 @@ Used for data blocks Overview by Agent/Queue
     rt3_current_agent=الوكيل الحالي:
     rt3_current_call=المكالمة الحالية
     rt3_current_props=الاعدادات الحالية:
-    # 🔴 rt3_data_block -> Data Block
-    ➡️ rt3_data_block=
-    # 🔴 rt3_data_block_chart -> Chart
-    ➡️ rt3_data_block_chart=
+    # 👽 rt3_data_block -> Data Block
+    rt3_data_block=?كتلة البيانات
+    # 👽 rt3_data_block_chart -> Chart
+    rt3_data_block_chart=?مخطط بياني
     rt3_database=قاعدة بيانات
-    # 🔴 rt3_datablock -> Data Block
-    ➡️ rt3_datablock=
+    # 👽 rt3_datablock -> Data Block
+    rt3_datablock=?كتلة البيانات
     rt3_del=الغاء المشهد
     rt3_delete_current_wallboard_confirm=شاشة المراقبة الحالية سيتم حذفها، هل تود المتابعة؟
     rt3_delete_wallboard=حذف
@@ -2439,15 +2439,15 @@ Used for data blocks Overview by Agent/Queue
     rt3_edit_wallboard_cfg=تعديل اللوحة الحالة والعرض
     rt3_editwdg_title=تعديل الودجيت
     rt3_empty_wlbd=لوحة فارغة
-    # 🔴 rt3_enter_title -> Enter Title
-    ➡️ rt3_enter_title=
+    # 👽 rt3_enter_title -> Enter Title
+    rt3_enter_title=?أدخل العنوان
     rt3_error_prefs_fetch=تفضيلات المستخدم قد لا يتم استعادتها
     rt3_error_saving=خطأ في حفظ اللوحة
     rt3_error_saving_prefs=تفضيلات العميل قد لا يتم حفظها
     rt3_error_saving_public_wb=المستخدم لا يتسطيع حفظ لوحة عامة
     rt3_error_saving_wb_missing_key=WALLBOARD_ADD  المستخدم لا يستطيع حفظ لوحة، لا يملك صلاحية : 
-    # 🔴 rt3_export_schema -> Export
-    ➡️ rt3_export_schema=
+    # 👽 rt3_export_schema -> Export
+    rt3_export_schema=?تصدير المخطط
     rt3_extension=اكستنشن
     rt3_extension_info=تسجيل الدخول كـ :
     rt3_extra_value=بعض القيم التي تم اختيارها غير متوفرة
@@ -2457,16 +2457,16 @@ Used for data blocks Overview by Agent/Queue
     rt3_green=اخضر
     rt3_hangup=اغلاق
     rt3_hold=انتظار
-    # 🔴 rt3_html -> HTML Page
-    ➡️ rt3_html=
+    # 👽 rt3_html -> HTML Page
+    rt3_html=?صفحة HTML
     rt3_idle=فعال
     rt3_idle_alarm_red=تنبيه احمر فعال
     rt3_idle_alarm_yel=تنبيه اصفر فعال
-    # 🔴 rt3_import_schema -> Import
-    ➡️ rt3_import_schema=
+    # 👽 rt3_import_schema -> Import
+    rt3_import_schema=?استيراد
     rt3_in_ivr=IVR
-    # 🔴 rt3_incoming_call_from -> Incoming call from
-    ➡️ rt3_incoming_call_from=
+    # 👽 rt3_incoming_call_from -> Incoming call from
+    rt3_incoming_call_from=?مكالمة واردة من
     rt3_insert_valid_value=يرجى ادخال قيمة صالحة
     rt3_ispublic=عام ؟ 
     rt3_ivr_time=IVR
@@ -2485,12 +2485,12 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=أطول انتظار
     rt3_lost_attempts=محاولات ضائعة
     rt3_lost_prc=فائتة
-    # 🔴 rt3_menu_delete -> Delete
-    ➡️ rt3_menu_delete=
-    # 🔴 rt3_menu_edit -> Edit
-    ➡️ rt3_menu_edit=
-    # 🔴 rt3_menu_share -> Share
-    ➡️ rt3_menu_share=
+    # 👽 rt3_menu_delete -> Delete
+    rt3_menu_delete=?حذف
+    # 👽 rt3_menu_edit -> Edit
+    rt3_menu_edit=?تعديل
+    # 👽 rt3_menu_share -> Share
+    rt3_menu_share=?مشاركة
     rt3_missing_wdg=خاصية مفقودة
     rt3_n_agents=عدد الوكلاء
     rt3_n_calls_answered=المكالمات المجابة
@@ -2556,10 +2556,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_secondary_color=اللون الثانوي
     rt3_seconds=ثواني
     rt3_security_key=مفاتيح المشاهدة
-    # 🔴 rt3_select_chart -> Select a Chart...
-    ➡️ rt3_select_chart=
-    # 🔴 rt3_select_db -> Select a DataBlock...
-    ➡️ rt3_select_db=
+    # 👽 rt3_select_chart -> Select a Chart...
+    rt3_select_chart=?حدد مخططًا بيانيًا...
+    # 👽 rt3_select_db -> Select a DataBlock...
+    rt3_select_db=?حدد كتلة بيانات...
     rt3_select_wallboard=رجاءً اختر لوحة
     rt3_send_command=تم
     rt3_session_invalid_reconnecting=مشكلة اتصال مع كيوميتركس، اعادة محاولة الاتصال
@@ -2586,8 +2586,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=الوكيل والمخرج
     rt3_table_aggrbyqueue=مجمعة حسب الصف
     rt3_table_aggrbytag=مجمعة حسب الاشارة
-    # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=
+    # 👽 rt3_table_lastattempts -> Last attempts
+    rt3_table_lastattempts=?المحاولات الأخيرة
     rt3_table_live_agents=الوكلاء المباشرين
     rt3_table_live_calls=المكالمات المباشرة
     rt3_table_live_queues=الصفوف المباشرة
@@ -2600,8 +2600,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_talk_yellow_alarm=تنبيه أصفر للتحدث
     rt3_talking=تحدث
     rt3_text=نص
-    # 🔴 rt3_text_area_placeholder -> Insert text here
-    ➡️ rt3_text_area_placeholder=
+    # 👽 rt3_text_area_placeholder -> Insert text here
+    rt3_text_area_placeholder=?أدخل النص هنا
     rt3_title=عنوان
     rt3_tot_talk=مجموع التحدث
     rt3_total=المجموع
@@ -2614,8 +2614,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_unregister_txt=غير مسجل
     rt3_unregistered=غير مسجل
     rt3_up=تحريك للأعلى
-    # 🔴 rt3_url -> Url
-    ➡️ rt3_url=
+    # 👽 rt3_url -> Url
+    rt3_url=?عنوان URL
     rt3_url_copied=الرابط القابل للمشاركة تم نسخه إلى الحافظة
     rt3_user_prefs_saved=تم حفظ تفضيلات المستخدم
     rt3_user_session_invalid=جلسة المستخدم غير متوفرة الرجاء اعادة تسجيل الدخول
@@ -2774,8 +2774,8 @@ Used for data blocks Overview by Agent/Queue
 
 Description of configuration properties
 
-    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
-    ➡️ propedit_agent_max_qap_calls_desc=
+    # 👽 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
+    propedit_agent_max_qap_calls_desc=?الحد الأقصى للمكالمات اليومية المعروضة للوكلاء
     propedit_category_agentpage=صفحة الوكيل
     propedit_category_engine=محرك الحساب
     propedit_category_misc=غير مصنف
@@ -2787,14 +2787,14 @@ Description of configuration properties
     propedit_category_synchronizer=المزامن
     propedit_edit_label=تعديل
     propedit_explore_label=بحث
-    # 🔴 propedit_feature_agent_amo -> AMO
-    ➡️ propedit_feature_agent_amo=
+    # 👽 propedit_feature_agent_amo -> AMO
+    propedit_feature_agent_amo=?AMO
     propedit_feature_ap_backg=خلفيات اختيارية
     propedit_feature_ap_login_out=تسجيل الدخول والخروج
     propedit_feature_ap_other=غير مصنف
     propedit_feature_autoopenurl=تحديث الخلفية
-    # 🔴 propedit_feature_engine_audit -> Auditing
-    ➡️ propedit_feature_engine_audit=
+    # 👽 propedit_feature_engine_audit -> Auditing
+    propedit_feature_engine_audit=?التدقيق
     propedit_feature_engine_other=غير مصنف
     propedit_feature_engine_shortcalls=المكالمات القصيرة
     propedit_feature_engine_sla=SLA
@@ -2817,12 +2817,12 @@ Description of configuration properties
     propedit_key_agent_background_desc=رابط صفحة الوكيل في الخلفية
     propedit_key_agent_outcome_size=الارتفاع الأقصى لقائمة اختيارات المخرج
     propedit_key_agent_pause_dialout=ايقاف اتصال الوكلاء للخارج عندما يكونون في حالة توقف مؤقت
-    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
-    ➡️ propedit_key_agent_qap_cached_for_ms_desc=
-    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    ➡️ propedit_key_amo_placed_call_timeout=
-    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
-    ➡️ propedit_key_answer_src=
+    # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
+    propedit_key_agent_qap_cached_for_ms_desc=?أقصى وقت مسموح به للتخزين المؤقت لصفحة الوكيل
+    # 👽 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
+    propedit_key_amo_placed_call_timeout=?مهلة إعادة تدوير AMO
+    # 👽 propedit_key_answer_src -> The Softphone's answer tone (URL)
+    propedit_key_answer_src=?نغمة الرد من Softphone (URL)
     propedit_key_atxfer=رمز ميزة تحويل بالمساعدة
     propedit_key_atxferabort=رمز ميزة الخروج من التحويل بالمساعدة
     propedit_key_atxfercomplete=رمز ميزة انهاء التحويل بالمساعدة
@@ -2830,14 +2830,14 @@ Description of configuration properties
     propedit_key_atxferthreeway=رمز ميزة التحاق التحويل بالمساعدة
     propedit_key_audio_html5player_desc=استخدام مشغل الصوت الخاص ب HTML5
     propedit_key_audit_log_days=كم عدد الأيام من السجل التي يجب الاحتفاظ بها خلال عملية تنظيف سجل التدقيق
-    # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
-    ➡️ propedit_key_audit_max_report_time=
-    # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
-    ➡️ propedit_key_audit_max_rows_fetched=
+    # 👽 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
+    propedit_key_audit_max_report_time=?الحد الأقصى لمدة التقرير التي لا تتطلب تدقيقًا
+    # 👽 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
+    propedit_key_audit_max_rows_fetched=?الحد الأقصى لعدد الصفوف الممسوحة ضوئيًا التي لا تتطلب تدقيقًا
     propedit_key_blindxfer=رمز ميزة التحويل الأعمى
     propedit_key_cronjobs_localwebapp=URL الأساسي لعملية تنفيذ الوظائف المجدولة
-    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
-    ➡️ propedit_key_decodeknownnumbers=
+    # 👽 propedit_key_decodeknownnumbers -> Decode known numbers
+    propedit_key_decodeknownnumbers=?فك تشفير الأرقام المعروفة
     propedit_key_default_agentcanamendpause_desc=إذا تم وضع هذا الخيار نعم، الوكلاء يستطيعون تعديل سبب التوقف المؤقت الحالي وتغييره بشكل متكرر، السبب النهائي سيظهر على التقارير وليس الأول. في حال وضع الخيار لا، سيتم انهاء التوقف الحالي بشكل مباشر وبدء توقف مؤقت جديد
     propedit_key_default_alwaysLogonUnpaused_desc=عندما يسجل الوكيل دخول، يبقى دائماً في غير حالة توقف مؤقت
     propedit_key_default_areacode_digits_desc=كم عدد الأرقام التي تعتبر رمز منطقة افتراضي
@@ -2859,8 +2859,8 @@ Description of configuration properties
     propedit_key_default_lockedAgentPopupCode_desc=هل يمكن للمستخدمين تغيير رمزهم في نوافذ تسجيل الدخول / تسجيل الخروج / توقف مؤقت
     propedit_key_default_maxOngoingTalkTime_desc=إذا تجاوز وقت الكلام للمكالمة الحالية هذه القيمة أغلقها:  0 تجاهل
     propedit_key_default_maxOngoingWaitTime_desc=إذا تجاوز وقت الانتظار للمكالمة الحالية هذه القيمة أغلقها:  0 تجاهل
-    # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
-    ➡️ propedit_key_default_maxrowspdf_desc=
+    # 👽 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
+    propedit_key_default_maxrowspdf_desc=?الحد الأقصى لعدد الصفوف لكل جدول عند تصدير تقرير بصيغة PDF.
     propedit_key_default_maxrowsxls_desc=العدد الأقصى للصفوف لكل جدول عند تصديق تقرير بصيغة XLS. يرجى العلم أنه لا يمكن أن يتجاوز عدد الصفوف في XSL عن 65435
     propedit_key_default_openUrlInPopup_desc=فتح CRM في شاشة منفصلة (لا تضمن في أيقونة)
     propedit_key_default_pausecoderequired_desc=إذا تم تفعيل الخيار، سيتوجب على الوكلاء تحديد سبب توقف متاح
@@ -2885,8 +2885,8 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=رؤية المعلومات الفنية وفحص قاعدة البيانات
     propedit_key_default_webloaderpbx_desc=Activate WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=تفعيل خدمة اعادة اتصال وكيل ومبات
-    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
-    ➡️ propedit_key_dialtone_src=
+    # 👽 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
+    propedit_key_dialtone_src=?نغمة الاتصال من Softphone (URL)
     propedit_key_directami_agent_desc=الطريقة التي يجب على قناة الوكيل أن تكون عليها
     propedit_key_directami_cmdseparator_desc=الفاصل يستخدم للمحددات في نسخة Asterisk الخاصة بك، الفاصل الرئيسية  "," و التي يجب تبديلها إلى "|" لكل نظام Asterisk قديم قبل (1.8( 
     propedit_key_directami_extension_desc=الطريقة التي يجب على اكستنشن قناة الوكيل أن تكون عليها
@@ -2911,14 +2911,14 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=أولوية الصف للوكيل الذي سجل دخول بأولوية : التفاف (الافتراضي:6)
     propedit_key_enswitch_spyprefix_desc=البادئة الافتراضية لانشاء تنصت على المكالمة (الافتراضي: *91)
     propedit_key_enswitch_verbose_desc=هل يجب أن يتم تسجيل كل تراسلات Enswitch في السجل العام (الافتراضي: لا)
-    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
-    ➡️ propedit_key_extrabody=
-    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
-    ➡️ propedit_key_hangup_src=
-    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    ➡️ propedit_key_hiddennumberpolicy=
-    # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
-    ➡️ propedit_key_layout_logo_desc=
+    # 👽 propedit_key_extrabody -> Extra text in e-mail bodies.
+    propedit_key_extrabody=?نص إضافي في نصوص البريد الإلكتروني.
+    # 👽 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
+    propedit_key_hangup_src=?نغمة إنهاء المكالمة من Softphone (URL)
+    # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
+    propedit_key_hiddennumberpolicy=?سياسة إخفاء الأرقام
+    # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
+    propedit_key_layout_logo_desc=?شعار شركتك (مسار كامل أو نسبي). أقصى حجم 200 × 40 بكسل، الحجم المفضل هو 150 × 40 بكسل
     propedit_key_noans_timeout=الوقت بالثواني بعد أي مكالمة يتم رفضها في حال عدم الرد، الافتراضي ٦٠ ثانية
     propedit_key_phone_iceservers=لائحة مخدمات ICEs المتاحة للاستخدام
     propedit_key_phone_maxsessions=أقصى عدد جلسات للهاتف المتضمن للوكيل
@@ -2973,14 +2973,14 @@ Description of configuration properties
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=تحقق من وجود الإنذار في وقت الانتظار من المحادثات الجارية
     propedit_key_recovery_max=أقصى وقت بالثانية بين محاولات اعادة اتصال WebSocket. الافتراضي ٣٠
     propedit_key_recovery_min=أقل وقت بالثانية بين محاولات اعادة اتصال WebSocket. الافتراضي ٢
-    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
-    ➡️ propedit_key_ringtone_src=
+    # 👽 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
+    propedit_key_ringtone_src=?نغمة الرنين من Softphone (URL)
     propedit_key_sla_initial_interval_desc= SLA الفاصل الزمني للجزء الأولي لل
     propedit_key_sla_interval_desc=كم هي كبيرة الفواصل الزمنية لمخطط SLA
     propedit_key_sla_max_initial_delay_desc= SLA  الفترة الزمنية الأولى لحساب
     propedit_key_sla_max_monitored_delay_desc=أقصى تأخير ظاهر في مخطط SLA
-    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    ➡️ propedit_key_smtpsubjectprefix=
+    # 👽 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
+    propedit_key_smtpsubjectprefix=?بادئة لمواضيع البريد الإلكتروني
     propedit_key_synchronizer_agents_file=الملف الافتراضي agents.conf
     propedit_key_synchronizer_queuelog_file=ملف سجل الصف الافتراضي
     propedit_key_synchronizer_queues_file=ملف queues.conf الافتراضي
@@ -3000,8 +3000,8 @@ Description of configuration properties
     propedit_key_wb_recovery_max=أقصى مدة بالثانية بين محاولات تسجيل WebSocket. الافتراضي ٣٠
     propedit_key_wb_recovery_min=أقل مدة بالثانية بين محاولات تسجيل WebSocket. الافتراضي ٢
     propedit_key_wombat_password_desc=كلمة مرور وومبات دايلر
-    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
-    ➡️ propedit_key_wombat_prevdial_desc=
+    # 👽 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
+    propedit_key_wombat_prevdial_desc=?عنوان URL لصفحة معاينة الاتصال في WombatDialer.
     propedit_key_wombat_url_desc=رابط وومبات دايلر الرئيسي
     propedit_key_wombat_username_desc=اسم مستخدم وومبات دايلر 
     propedit_option_barge=مداخلة
@@ -3015,14 +3015,14 @@ Description of configuration properties
     propedit_option_false=خاطئة
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch-Live
-    # 🔴 propedit_option_hash -> hash
-    ➡️ propedit_option_hash=
-    # 🔴 propedit_option_hide -> hide
-    ➡️ propedit_option_hide=
-    # 🔴 propedit_option_hide3 -> hide3
-    ➡️ propedit_option_hide3=
-    # 🔴 propedit_option_hide5 -> hide5
-    ➡️ propedit_option_hide5=
+    # 👽 propedit_option_hash -> hash
+    propedit_option_hash=?تجزئة
+    # 👽 propedit_option_hide -> hide
+    propedit_option_hide=?إخفاء
+    # 👽 propedit_option_hide3 -> hide3
+    propedit_option_hide3=?إخفاء3
+    # 👽 propedit_option_hide5 -> hide5
+    propedit_option_hide5=?إخفاء5
     propedit_option_jsonapi=JSON API
     propedit_option_mirtapbx=MirtaPBX
     propedit_option_no=لا
@@ -3035,8 +3035,8 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=الصفوف المعينة فقط مع الاختيار
     propedit_option_realtime_dynamicLoginQueues_registered_label=مسجل
     propedit_option_spy=تنصت
-    # 🔴 propedit_option_stars -> stars
-    ➡️ propedit_option_stars=
+    # 👽 propedit_option_stars -> stars
+    propedit_option_stars=?نجوم
     propedit_option_sync_mode_c=انشاء فقط
     propedit_option_sync_mode_c_d=انشاء، حذف
     propedit_option_sync_mode_c_d_usr=انشاء، حذف، انشاء مستخدمين
@@ -3096,8 +3096,8 @@ Description of security keys:
     keydesc_closecalls=يمكن للمستخدم إغلاق المكالمات الجارية من صفحة الزمن الحقيقي أو صفحة الإحصاءات التاريخية
     keydesc_config=يمكن للمستخدم تشغيل المعالج التكوين التلقائي (حضر والوضع غير المراقب
     keydesc_edit_cfg=configuration.properties يمكن للمستخدم تحرير ملف
-    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
-    ➡️ keydesc_hidenumbers=
+    # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
+    keydesc_hidenumbers=?جميع أرقام الهواتف/هويات المتصل مخفية
     keydesc_keyupdate= يمكن للمستخدم تنزيل مفتاح تفعيل جديد لرخصة كيوميتركس  
     keydesc_mon_audio=يمكن للمستخدم رصد المكالمات في الزمن الحقيقي
     keydesc_mon_barge=المستخدم يستطيع اقتحام المكالمة في الزمن الحقيقي
@@ -3138,17 +3138,17 @@ Description of security keys:
     keydesc_user=هذا المفتاح يجب أن يحمل من قبل أي مستخدم متوفر
     keydesc_usr_agent=يمكن للمستخدم تعديل الوكلاء
     keydesc_usr_agroups=يمكن للمستخدم تعديل مجموعات الوكلاء المخصصة
-    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
-    ➡️ keydesc_usr_amo_edit=
+    # 👽 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
+    keydesc_usr_amo_edit=?يمكن للمستخدم تعديل حملات AMO
     keydesc_usr_calltag=يمكن للمستخدم تعديل بطاقات المكالمة
-    # 🔴 keydesc_usr_cases_edit -> User can edit Cases
-    ➡️ keydesc_usr_cases_edit=
+    # 👽 keydesc_usr_cases_edit -> User can edit Cases
+    keydesc_usr_cases_edit=?يمكن للمستخدم تعديل الحالات
     keydesc_usr_cbts=يمكن للمستخدم تعديل قائمة CBTs معروف
-    # 🔴 keydesc_usr_clients_edit -> User can edit Clients
-    ➡️ keydesc_usr_clients_edit=
+    # 👽 keydesc_usr_clients_edit -> User can edit Clients
+    keydesc_usr_clients_edit=?يمكن للمستخدم تعديل العملاء
     keydesc_usr_cronjobs_edit=يستطيع المستخدم تعديل الوظائف المجدولة
-    # 🔴 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
-    ➡️ keydesc_usr_customblocks_edit=
+    # 👽 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
+    keydesc_usr_customblocks_edit=?يمكن للمستخدم تعديل كتل البيانات المخصصة
     keydesc_usr_diagnostics=المستخدم يستطيع تشغيل التشخيص
     keydesc_usr_dnis=يمكن للمستخدم تعديل قائمة معروفة DID / DNIS
     keydesc_usr_ivr=يمكن للمستخدم تعديل قائمة من الاختيارات IVR المعروفة
@@ -3185,8 +3185,8 @@ Description of security keys:
     tsk_detail_history=تاريخ المهمة
     tsk_detail_info=معلومات المهمة
     tsk_detail_lastUpdated=آخر تحديث
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=
+    # 👽 tsk_detail_message -> Message
+    tsk_detail_message=?رسالة
     tsk_detail_notes=ملاحظات
     tsk_detail_pfield=حقل العملية
     tsk_detail_process=عملية
@@ -3200,15 +3200,15 @@ Description of security keys:
     tsk_disputed_qamsg=نموذج ضمان الجوده المتنازع عليها
     tsk_icon_detail=تفاصيل
     tsk_list_pfield=حقل العملية
-    # 🔴 tsk_list_tbl_agroup -> Group
-    ➡️ tsk_list_tbl_agroup=
+    # 👽 tsk_list_tbl_agroup -> Group
+    tsk_list_tbl_agroup=?مجموعة
     tsk_list_tbl_desc=وصف
     tsk_list_tbl_expdate=تاريخ الاستحقاق
     tsk_list_tbl_from=من
     tsk_list_tbl_id=معرف المهمة
     tsk_list_tbl_status=الحالة
-    # 🔴 tsk_list_tbl_ticon -> Task
-    ➡️ tsk_list_tbl_ticon=
+    # 👽 tsk_list_tbl_ticon -> Task
+    tsk_list_tbl_ticon=?مهمة
     tsk_lists_dueend_date=فترة نهاية تاريخ الاستحقاق
     tsk_lists_duestart_date=فترة بداية تاريخ الاستحقاق
     tsk_lists_extendedsearch=خيارات بحث موسعة
@@ -3288,52 +3288,52 @@ Description of security keys:
     phone_agent=وكيل
     phone_anonymous=مجهول
     phone_answer=رد
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
+    # 👽 phone_attended -> Attended Transfer
+    phone_attended=?تحويل بمساعدة
     phone_attended_transfer=تحويل بالمساعدة
     phone_auto_answer_toggle_off=الرد التلقائي غير مفعل
     phone_auto_answer_toggle_on=الرد التلقائي مفعل
     phone_basic_settings=اعدادات أولية
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
+    # 👽 phone_blind -> Blind Transfer
+    phone_blind=?تحويل أعمى
     phone_blind_transfer=تحويل
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
+    # 👽 phone_call -> Call
+    phone_call=?مكالمة
+    # 👽 phone_calling -> Calling...
+    phone_calling=?يتصل...
     phone_cancel=الغاء
     phone_close=اغلاق
     phone_confirm=تأكيد
     phone_connectionrecoverymax=أقصى وقت لاستعادة الاتصال
     phone_connectionrecoverymin=أقل وقت لاستعادة الاتصال
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
+    # 👽 phone_debug -> Click to print debug information in the browser console.
+    phone_debug=?انقر لطباعة معلومات التصحيح في وحدة تحكم المتصفح.
     phone_dial=اتصل
     phone_dialing=جاري الاتصال ...
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
+    # 👽 phone_dialling -> Dialling...
+    phone_dialling=?جاري الاتصال...
     phone_displayname=اسم العرض
     phone_hangup=اغلاق
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
+    # 👽 phone_http_error -> WebRTC Error.
+    phone_http_error=?خطأ WebRTC.
+    # 👽 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    phone_http_error_body=?لكي يعمل هاتف WebRTC SoftPhone بشكل صحيح، يجب أن يتم تقديم QueueMetrics عبر HTTPS.
     phone_iceservers=ICE مخدمات
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
+    # 👽 phone_incoming_call -> Incoming call...
+    phone_incoming_call=?مكالمة واردة...
     phone_input_error=ادخال خاطئ
     phone_join=التحاق
     phone_maxsessions=عدد الجلسات الأقصى
     phone_mute=كتم
-    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
+    # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    phone_no_https=?يحتاج QueueMetrics إلى التقديم عبر HTTPS لكي يعمل SoftPhone بشكل صحيح.
+    # 👽 phone_no_queue -> No Queue
+    phone_no_queue=?لا توجد قائمة انتظار
     phone_noanswertimeout=حد وقت عدم الرد
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
+    # 👽 phone_not_avaialable -> Softphone Not Available.
+    phone_not_avaialable=?الهاتف غير متاح.
+    # 👽 phone_not_available -> Softphone not available.
+    phone_not_available=?الهاتف غير متاح.
     phone_password=كلمة المرور
     phone_register=تسجيل
     phone_registered=مسجل
@@ -3344,12 +3344,12 @@ Description of security keys:
     phone_swap=تبديل
     phone_toggle_hold=انتظار \ الغاء انتظار
     phone_toggle_transfer=تحويل
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
+    # 👽 phone_transfer -> Transfer
+    phone_transfer=?تحويل
     phone_unmute=الغاء كتم
     phone_unregistered=غير مسجل
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
+    # 👽 phone_update_settings -> Update Settings
+    phone_update_settings=?تحديث الإعدادات
     phone_username=اسم المستخدم
     phone_websocketurl=WebSocket URL
 
@@ -3357,13 +3357,13 @@ Description of security keys:
 
     home_add_infobox=اضف صندوق المعلومات
     home_configuration_agents=وكلاء
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
+    # 👽 home_configuration_cases -> Cases
+    home_configuration_cases=?الحالات
     home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=
+    # 👽 home_configuration_clients -> Clients
+    home_configuration_clients=?العملاء
+    # 👽 home_configuration_custom_blocks -> Custom Data Blocks
+    home_configuration_custom_blocks=?كتل البيانات المخصصة
     home_configuration_dnis=DID/DNIS
     home_configuration_export_jobs=تعديل تصدير التقارير
     home_configuration_features=ميزات المكالمات
@@ -3389,20 +3389,20 @@ Description of security keys:
     home_dbtest_ram_cache=تخزين مؤقت في ذاكرة التخزين العشوائية
     home_dbtest_smtp=SMTP فاحص
     home_diagnostics_title=التشخيص
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
+    # 👽 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    home_error_fetch_admin_infoboxes=?خطأ في جلب مربعات معلومات الإدارة
+    # 👽 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    home_error_fetch_available_infoboxes=?خطأ في جلب مربعات المعلومات المتاحة
+    # 👽 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    home_error_fetch_infoboxes=?خطأ في جلب مربعات المعلومات
+    # 👽 home_error_save_prefs -> Error Saving InfoBox Data
+    home_error_save_prefs=?خطأ في حفظ بيانات InfoBox
     home_icon_subtitle=ايقونة صفحة الوكيل
     home_icon_title=ايقونة
     home_infobox_close=مغلق
     home_infobox_preview=عرض
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
+    # 👽 home_infobox_private -> Private
+    home_infobox_private=?خاص
     home_infobox_quicklinks=روابط سريعة
     home_news_subtitle=آخر أخبار كيوميتركس
     home_news_title=أخبار
@@ -3410,10 +3410,10 @@ Description of security keys:
     home_payroll_title=تقارير نظام الدفع
     home_qa_subtitle=ابدء تقرير جودة الأداء
     home_qa_title=تقارير جودة الاداء
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
+    # 👽 home_qap_subtitle -> Queuemetrics Agent Interface
+    home_qap_subtitle=?واجهة وكيل Queuemetrics
+    # 👽 home_qap_title -> Agent Page
+    home_qap_title=?صفحة الوكيل
     home_realtime_subtitle=نظرة شاملة على المكالمة الحالية
     home_realtime_title=الزمن الحقيقي
     home_reports_subtitle=تقارير عامة
@@ -3449,32 +3449,32 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=QueueMetrics تعديل  معاملات نظام
     cfgprops_title_wizard=استكشاف محددات نظام كيوميتركس
     cfgprops_notice=بعد الحفظ، تحتاج إلى تسجيل الخروج والدخول مرة أخرى ليتم اعادة تحميل التعديلات
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    # 👽 cfgprops_n_items -> N. Properties found
+    cfgprops_n_items=?عدد الخصائص التي تم العثور عليها
+    # 👽 cfgprops_input -> Enter one or more properties to set, one per line
+    cfgprops_input=?أدخل خاصية واحدة أو أكثر لتعيينها، واحدة لكل سطر
+    # 👽 cfgprops_comment -> Reason for this change
+    cfgprops_comment=?سبب هذا التغيير
+    # 👽 cfgprops_sort_by -> Sort by
+    cfgprops_sort_by=?فرز حسب
+    # 👽 cfgprops_sort_bydate -> Last update
+    cfgprops_sort_bydate=?آخر تحديث
+    # 👽 cfgprops_sort_byname -> Name
+    cfgprops_sort_byname=?الاسم
+    # 👽 cfgprops_col_name -> Property name
+    cfgprops_col_name=?اسم الخاصية
+    # 👽 cfgprops_col_value -> Current value
+    cfgprops_col_value=?القيمة الحالية
+    # 👽 cfgprops_col_comment -> Reason
+    cfgprops_col_comment=?السبب
+    # 👽 cfgprops_history_date -> Date
+    cfgprops_history_date=?التاريخ
+    # 👽 cfgprops_history_user -> User
+    cfgprops_history_user=?المستخدم
+    # 👽 cfgprops_history_value -> Value
+    cfgprops_history_value=?القيمة
+    # 👽 cfgprops_history_previous -> Previous entries
+    cfgprops_history_previous=?الإدخالات السابقة
     
 
 These are obsolete:
@@ -3494,52 +3494,52 @@ Other items
     agt_history_cbt=ارسال CBT: 
     agt_history_groupchange=ملتحق بالمجموعة
     agt_history_mtn=أُرسل للتدريب
-    # 🔴 amo_close_info -> Close AMO Information
-    ➡️ amo_close_info=
-    # 🔴 amo_dialer_state_completed -> Completed
-    ➡️ amo_dialer_state_completed=
-    # 🔴 amo_dialer_state_open -> Open
-    ➡️ amo_dialer_state_open=
-    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    ➡️ amo_import_error_nonumber=
-    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
-    ➡️ amo_import_error_norecords=
-    # 🔴 amo_last_info -> AMO Call Information
-    ➡️ amo_last_info=
-    # 🔴 amo_list_state_open -> Open
-    ➡️ amo_list_state_open=
-    # 🔴 amo_list_state_paused -> Paused
-    ➡️ amo_list_state_paused=
-    # 🔴 amo_number_state_blklist -> Blacklisted
-    ➡️ amo_number_state_blklist=
-    # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=
-    # 🔴 amo_number_state_ko -> KO
-    ➡️ amo_number_state_ko=
-    # 🔴 amo_number_state_ok -> OK
-    ➡️ amo_number_state_ok=
-    # 🔴 amo_number_state_placed -> Placed
-    ➡️ amo_number_state_placed=
-    # 🔴 amo_number_state_reserved -> Reserved
-    ➡️ amo_number_state_reserved=
-    # 🔴 amo_number_state_todo -> To do
-    ➡️ amo_number_state_todo=
-    # 🔴 amo_numbers_asteriskid -> Asterisk ID
-    ➡️ amo_numbers_asteriskid=
-    # 🔴 amo_numbers_callstatus -> Status Code
-    ➡️ amo_numbers_callstatus=
-    # 🔴 amo_numbers_date -> Date
-    ➡️ amo_numbers_date=
-    # 🔴 amo_numbers_reason -> Reason
-    ➡️ amo_numbers_reason=
-    # 🔴 amo_numbers_user -> User
-    ➡️ amo_numbers_user=
-    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
-    ➡️ amo_upload_numbers_error=
-    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
-    ➡️ amo_upload_numbers_success=
-    # 🔴 at_invalid_agent -> Invalid Agent
-    ➡️ at_invalid_agent=
+    # 👽 amo_close_info -> Close AMO Information
+    amo_close_info=?إغلاق معلومات AMO
+    # 👽 amo_dialer_state_completed -> Completed
+    amo_dialer_state_completed=?اكتمل
+    # 👽 amo_dialer_state_open -> Open
+    amo_dialer_state_open=?مفتوح
+    # 👽 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
+    amo_import_error_nonumber=?حقل "الرقم" إلزامي لكل سجل.
+    # 👽 amo_import_error_norecords -> Please include at least one record in the CSV file.
+    amo_import_error_norecords=?الرجاء تضمين سجل واحد على الأقل في ملف CSV.
+    # 👽 amo_last_info -> AMO Call Information
+    amo_last_info=?معلومات مكالمة AMO
+    # 👽 amo_list_state_open -> Open
+    amo_list_state_open=?مفتوح
+    # 👽 amo_list_state_paused -> Paused
+    amo_list_state_paused=?متوقف مؤقتًا
+    # 👽 amo_number_state_blklist -> Blacklisted
+    amo_number_state_blklist=?مدرج في القائمة السوداء
+    # 👽 amo_number_state_dialed -> Dialed
+    amo_number_state_dialed=?تم الاتصال
+    # 👽 amo_number_state_ko -> KO
+    amo_number_state_ko=?KO
+    # 👽 amo_number_state_ok -> OK
+    amo_number_state_ok=?تم
+    # 👽 amo_number_state_placed -> Placed
+    amo_number_state_placed=?تم وضعها
+    # 👽 amo_number_state_reserved -> Reserved
+    amo_number_state_reserved=?محجوز
+    # 👽 amo_number_state_todo -> To do
+    amo_number_state_todo=?للقيام به
+    # 👽 amo_numbers_asteriskid -> Asterisk ID
+    amo_numbers_asteriskid=?معرف النجمة
+    # 👽 amo_numbers_callstatus -> Status Code
+    amo_numbers_callstatus=?رمز الحالة
+    # 👽 amo_numbers_date -> Date
+    amo_numbers_date=?التاريخ
+    # 👽 amo_numbers_reason -> Reason
+    amo_numbers_reason=?السبب
+    # 👽 amo_numbers_user -> User
+    amo_numbers_user=?المستخدم
+    # 👽 amo_upload_numbers_error -> Error while uploading AMO numbers
+    amo_upload_numbers_error=?خطأ أثناء تحميل أرقام AMO
+    # 👽 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
+    amo_upload_numbers_success=?تم تحميل أرقام AMO بنجاح.
+    # 👽 at_invalid_agent -> Invalid Agent
+    at_invalid_agent=?وكيل غير صالح
     avg_time_decor_days=d
     bdcmsg_ForAgent=وكيل
     bdcmsg_Group=مجموعة
@@ -3549,26 +3549,26 @@ Other items
     bdcmsg_Text=رسالة
     bdcmsg_Time=وقت
     callselectordecor_select=اختر هذه المكالمة
-    # 🔴 ccase_case_name -> Case
-    ➡️ ccase_case_name=
-    # 🔴 ccase_case_xref -> Ref. #
-    ➡️ ccase_case_xref=
-    # 🔴 ccase_client_name -> Client
-    ➡️ ccase_client_name=
-    # 🔴 ccase_client_xref -> Ref. #
-    ➡️ ccase_client_xref=
+    # 👽 ccase_case_name -> Case
+    ccase_case_name=?الحالة
+    # 👽 ccase_case_xref -> Ref. #
+    ccase_case_xref=?رقم المرجع
+    # 👽 ccase_client_name -> Client
+    ccase_client_name=?العميل
+    # 👽 ccase_client_xref -> Ref. #
+    ccase_client_xref=?رقم المرجع
     cdp_clonedispositions=نسخ القواعد النهائية للمكالمة
     comboex_findlabel=إيجاد
-    # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
-    ➡️ common_jdecode_error=
-    # 🔴 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
-    ➡️ common_jencode_error=
+    # 👽 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
+    common_jdecode_error=?خطأ أثناء فك تشفير قيمة JSON. تحقق من وحدة تحكم المتصفح لمزيد من المعلومات.
+    # 👽 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
+    common_jencode_error=?خطأ أثناء ترميز قيمة JSON. تحقق من وحدة تحكم المتصفح لمزيد من المعلومات.
     cronjobs_export_jobs=تصدير الوظائف
     cronjobs_maintenance_jobs=تصحيح الوظائف
-    # 🔴 customblk_id -> ID
-    ➡️ customblk_id=
-    # 🔴 customblk_title -> Title
-    ➡️ customblk_title=
+    # 👽 customblk_id -> ID
+    customblk_id=?المعرف
+    # 👽 customblk_title -> Title
+    customblk_title=?العنوان
     decoder_goal=هدف
     decoder_queue=صف
     decorator_agentloggedoff=تسجيل الخروج
@@ -3576,20 +3576,20 @@ Other items
     decorator_agentpaused=توقف مؤقت
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=أظهر مستوى أولوية الوكيل في التقرير
-    # 🔴 dlr_last_pull -> Last Pull
-    ➡️ dlr_last_pull=
-    # 🔴 dlr_last_pull_user -> Pull User
-    ➡️ dlr_last_pull_user=
-    # 🔴 dlr_list_state -> List State
-    ➡️ dlr_list_state=
-    # 🔴 dlr_numbers_added -> Numbers Added
-    ➡️ dlr_numbers_added=
-    # 🔴 dlr_numbers_completed -> Numbers Completed
-    ➡️ dlr_numbers_completed=
-    # 🔴 dlr_numbers_pulled -> Numbers Pulled
-    ➡️ dlr_numbers_pulled=
-    # 🔴 dlr_state -> Number State
-    ➡️ dlr_state=
+    # 👽 dlr_last_pull -> Last Pull
+    dlr_last_pull=?آخر سحب
+    # 👽 dlr_last_pull_user -> Pull User
+    dlr_last_pull_user=?مستخدم السحب
+    # 👽 dlr_list_state -> List State
+    dlr_list_state=?حالة القائمة
+    # 👽 dlr_numbers_added -> Numbers Added
+    dlr_numbers_added=?الأرقام المضافة
+    # 👽 dlr_numbers_completed -> Numbers Completed
+    dlr_numbers_completed=?الأرقام المكتملة
+    # 👽 dlr_numbers_pulled -> Numbers Pulled
+    dlr_numbers_pulled=?الأرقام المسحوبة
+    # 👽 dlr_state -> Number State
+    dlr_state=?حالة الرقم
     editor_all_reports=كل التقارير
     editor_back=عودة
     editor_clone=است
@@ -3624,36 +3624,36 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml= تصدير كـ XML
-    # 🔴 grp_ivr -> Ivr Events
-    ➡️ grp_ivr=
-    # 🔴 grp_ivr_calls -> IVR calls
-    ➡️ grp_ivr_calls=
-    # 🔴 grp_ivr_short -> Ivr
-    ➡️ grp_ivr_short=
-    # 🔴 grp_lost_calls -> Lost Calls
-    ➡️ grp_lost_calls=
-    # 🔴 grp_lost_short -> Lost
-    ➡️ grp_lost_short=
-    # 🔴 grp_taken_calls -> Taken Calls
-    ➡️ grp_taken_calls=
-    # 🔴 grp_taken_short -> Taken
-    ➡️ grp_taken_short=
-    # 🔴 gui_fileuploader_msg -> Drop file or Browse
-    ➡️ gui_fileuploader_msg=
-    # 🔴 gui_fileuploader_types -> Supported file formats
-    ➡️ gui_fileuploader_types=
-    # 🔴 gui_fileuploader_upload -> Upload files
-    ➡️ gui_fileuploader_upload=
-    # 🔴 gui_fileuploader_uploaded -> Uploaded files
-    ➡️ gui_fileuploader_uploaded=
-    # 🔴 gui_form_back -> Back
-    ➡️ gui_form_back=
-    # 🔴 gui_form_cancel -> Cancel
-    ➡️ gui_form_cancel=
-    # 🔴 gui_form_next -> Next
-    ➡️ gui_form_next=
-    # 🔴 gui_form_ok -> OK
-    ➡️ gui_form_ok=
+    # 👽 grp_ivr -> Ivr Events
+    grp_ivr=?أحداث الرد الصوتي التفاعلي
+    # 👽 grp_ivr_calls -> IVR calls
+    grp_ivr_calls=?مكالمات الرد الصوتي التفاعلي
+    # 👽 grp_ivr_short -> Ivr
+    grp_ivr_short=?الرد الصوتي
+    # 👽 grp_lost_calls -> Lost Calls
+    grp_lost_calls=?المكالمات الفائتة
+    # 👽 grp_lost_short -> Lost
+    grp_lost_short=?ضائع
+    # 👽 grp_taken_calls -> Taken Calls
+    grp_taken_calls=?المكالمات الملتقطة
+    # 👽 grp_taken_short -> Taken
+    grp_taken_short=?مُجيب عليها
+    # 👽 gui_fileuploader_msg -> Drop file or Browse
+    gui_fileuploader_msg=?اسقط الملف أو تصفح
+    # 👽 gui_fileuploader_types -> Supported file formats
+    gui_fileuploader_types=?تنسيقات الملفات المدعومة
+    # 👽 gui_fileuploader_upload -> Upload files
+    gui_fileuploader_upload=?تحميل الملفات
+    # 👽 gui_fileuploader_uploaded -> Uploaded files
+    gui_fileuploader_uploaded=?الملفات التي تم تحميلها
+    # 👽 gui_form_back -> Back
+    gui_form_back=?رجوع
+    # 👽 gui_form_cancel -> Cancel
+    gui_form_cancel=?إلغاء
+    # 👽 gui_form_next -> Next
+    gui_form_next=?التالي
+    # 👽 gui_form_ok -> OK
+    gui_form_ok=?موافق
     jump_to_main_content=التوجه للمحتوى الرئيسي
     keyinstall_err_nokey=يجب أن يستمر المستخدم بالضغط على مفتاح KEYUPDATE. لا يمكن أن يستمر
     keyinstall_err_noscript=الملف النصي لاعادة التشغيل مفقود
@@ -3667,44 +3667,44 @@ Other items
     keyinstall_popup_descr=انسخ والصق رمز التفعيل الجديد هنا
     keyinstall_popup_title=تركيب مفتاح كيوميتركس جديد
     keyinstall_popup_title_agaw= AGAW ترخيص
-    # 🔴 ko_lst_n -> N Lost
-    ➡️ ko_lst_n=
-    # 🔴 ko_lst_q -> Lost on Q
-    ➡️ ko_lst_q=
-    # 🔴 ko_lst_t -> Last Lost
-    ➡️ ko_lst_t=
-    # 🔴 ko_recall_state -> Recall state
-    ➡️ ko_recall_state=
-    # 🔴 ko_sho_n -> N Short
-    ➡️ ko_sho_n=
-    # 🔴 ko_sho_q -> Short.Q.
-    ➡️ ko_sho_q=
-    # 🔴 ko_sho_t -> Short.Lst.
-    ➡️ ko_sho_t=
-    # 🔴 ko_succ_a -> Agent
-    ➡️ ko_succ_a=
-    # 🔴 ko_succ_n -> Successful
-    ➡️ ko_succ_n=
-    # 🔴 ko_succ_q -> Succ.Q.
-    ➡️ ko_succ_q=
-    # 🔴 ko_succ_t -> Succ.Last
-    ➡️ ko_succ_t=
-    # 🔴 lgui_friday -> Friday
-    ➡️ lgui_friday=
-    # 🔴 lgui_monday -> Monday
-    ➡️ lgui_monday=
-    # 🔴 lgui_saturday -> Saturday
-    ➡️ lgui_saturday=
-    # 🔴 lgui_selectall -> Select All
-    ➡️ lgui_selectall=
-    # 🔴 lgui_sunday -> Sunday
-    ➡️ lgui_sunday=
-    # 🔴 lgui_thursday -> Thursday
-    ➡️ lgui_thursday=
-    # 🔴 lgui_tuesday -> Tuesday
-    ➡️ lgui_tuesday=
-    # 🔴 lgui_wednesday -> Wednesday
-    ➡️ lgui_wednesday=
+    # 👽 ko_lst_n -> N Lost
+    ko_lst_n=?عدد الضائعة
+    # 👽 ko_lst_q -> Lost on Q
+    ko_lst_q=?ضائع في قائمة الانتظار
+    # 👽 ko_lst_t -> Last Lost
+    ko_lst_t=?آخر ضائع
+    # 👽 ko_recall_state -> Recall state
+    ko_recall_state=?حالة إعادة الاتصال
+    # 👽 ko_sho_n -> N Short
+    ko_sho_n=?عدد قصير
+    # 👽 ko_sho_q -> Short.Q.
+    ko_sho_q=?قصير.ق.
+    # 👽 ko_sho_t -> Short.Lst.
+    ko_sho_t=?قصير.آخر
+    # 👽 ko_succ_a -> Agent
+    ko_succ_a=?الوكيل
+    # 👽 ko_succ_n -> Successful
+    ko_succ_n=?ناجح
+    # 👽 ko_succ_q -> Succ.Q.
+    ko_succ_q=?ناجح.ق.
+    # 👽 ko_succ_t -> Succ.Last
+    ko_succ_t=?ناجح.آخر
+    # 👽 lgui_friday -> Friday
+    lgui_friday=?الجمعة
+    # 👽 lgui_monday -> Monday
+    lgui_monday=?الاثنين
+    # 👽 lgui_saturday -> Saturday
+    lgui_saturday=?السبت
+    # 👽 lgui_selectall -> Select All
+    lgui_selectall=?تحديد الكل
+    # 👽 lgui_sunday -> Sunday
+    lgui_sunday=?الأحد
+    # 👽 lgui_thursday -> Thursday
+    lgui_thursday=?الخميس
+    # 👽 lgui_tuesday -> Tuesday
+    lgui_tuesday=?الثلاثاء
+    # 👽 lgui_wednesday -> Wednesday
+    lgui_wednesday=?الأربعاء
     licence_contributors=المساهمين
     licence_firefox_client=نسخة firefox
     licence_install_now=تثبيت الآن
@@ -3715,135 +3715,135 @@ Other items
     licence_show_eula=عرض موافقة رخصة المستخدم
     licence_software_release=تاريخ اصدار البرنامج
     licence_website=تجد الموقع الرسمي لكيوميتركس في 
-    # 🔴 list_amo_title -> AMO Campaigns
-    ➡️ list_amo_title=
+    # 👽 list_amo_title -> AMO Campaigns
+    list_amo_title=?حملات AMO
     logon_ErrAlreadyPresent=تسجيل الدخول هذا موجود بالفعل في قاعدة البيانات
     logon_ErrClassNotFound=الفئة غير موجود
     logon_ErrHidden=فشل تسجيل الدخول 
-    # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
-    ➡️ logon_ErrIllegalSsoSecret=
+    # 👽 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
+    logon_ErrIllegalSsoSecret=?تعذر التحقق من رد SSO - يرجى المحاولة مرة أخرى.
     logon_ErrMoreThanOne=يوجد أكثر من مستخدم بنفس اسم الدخول
     logon_ErrNotFound=المستخدم ليس موجود
     logon_ErrUserDisabled=لا يمكن للمستخدم تسجيل الدخول
     logon_ErrUserNotFound=المستخدم ليس موجود
     logon_ErrWrongPassword=كلمة مرور خاطئة
-    # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
-    ➡️ logon_ErrWrongSsoToken=
+    # 👽 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
+    logon_ErrWrongSsoToken=?لدى المستخدم رمز SSO غير صحيح في ملفه الشخصي.
     logon_ErrWrongToken=رمز خاطئ
     logon_ErrXmlConnect= مشاكل الوصول إلى مصدر المصادقة XML-RPC
     logon_ErrXmlForbid=المجموعة الموردة من معلومات التوثيق غير متوفرة
     logon_btn=تسجيل الدخول
     logon_language=لغة
     logon_login=تسجيل الدخول
-    # 🔴 logon_microsoft -> Sign in with Microsoft
-    ➡️ logon_microsoft=
+    # 👽 logon_microsoft -> Sign in with Microsoft
+    logon_microsoft=?تسجيل الدخول باستخدام Microsoft
     logon_pass=كلمة السر
-    # 🔴 logon_ssoLogInWith -> Or
-    ➡️ logon_ssoLogInWith=
+    # 👽 logon_ssoLogInWith -> Or
+    logon_ssoLogInWith=?أو
     logon_title=تسجيل دخول المستخدم
     lstcall_calllen=مدة
     lstcall_ivr=IVR
     lstcall_waitlen=انتظار
-    # 🔴 memo_add_new -> Create Memo
-    ➡️ memo_add_new=
-    # 🔴 memo_category -> Filter by category
-    ➡️ memo_category=
-    # 🔴 memo_details_caller -> Caller
-    ➡️ memo_details_caller=
-    # 🔴 memo_details_create -> Create Memo
-    ➡️ memo_details_create=
-    # 🔴 memo_details_expireson -> Expires on
-    ➡️ memo_details_expireson=
-    # 🔴 memo_details_form -> Form
-    ➡️ memo_details_form=
-    # 🔴 memo_details_from -> FROM
-    ➡️ memo_details_from=
-    # 🔴 memo_details_goback -> Back
-    ➡️ memo_details_goback=
-    # 🔴 memo_details_info -> Memo Info
-    ➡️ memo_details_info=
-    # 🔴 memo_details_queue -> Queue
-    ➡️ memo_details_queue=
-    # 🔴 memo_details_save -> Save
-    ➡️ memo_details_save=
-    # 🔴 memo_details_title -> Title
-    ➡️ memo_details_title=
-    # 🔴 memo_details_to -> TO
-    ➡️ memo_details_to=
-    # 🔴 memo_details_type -> Type
-    ➡️ memo_details_type=
-    # 🔴 memo_details_user_from -> From
-    ➡️ memo_details_user_from=
-    # 🔴 memo_details_user_to -> To
-    ➡️ memo_details_user_to=
-    # 🔴 memo_details_validfrom -> Valid from
-    ➡️ memo_details_validfrom=
-    # 🔴 memo_due -> Due Date
-    ➡️ memo_due=
-    # 🔴 memo_filter_all -> All Memos
-    ➡️ memo_filter_all=
-    # 🔴 memo_filter_alldone -> All Memos done
-    ➡️ memo_filter_alldone=
-    # 🔴 memo_filter_alltbd -> All Memos to be done
-    ➡️ memo_filter_alltbd=
-    # 🔴 memo_filter_completed -> Memos I completed
-    ➡️ memo_filter_completed=
-    # 🔴 memo_filter_error -> Error filtering Memos
-    ➡️ memo_filter_error=
-    # 🔴 memo_filter_mygroup -> My group
-    ➡️ memo_filter_mygroup=
-    # 🔴 memo_filter_sent -> Memos I sent
-    ➡️ memo_filter_sent=
-    # 🔴 memo_filter_status -> Status
-    ➡️ memo_filter_status=
-    # 🔴 memo_filter_tbd -> Memos to be done
-    ➡️ memo_filter_tbd=
-    # 🔴 memo_from -> From
-    ➡️ memo_from=
-    # 🔴 memo_group -> Group
-    ➡️ memo_group=
-    # 🔴 memo_id -> Id
-    ➡️ memo_id=
-    # 🔴 memo_items_found -> items found
-    ➡️ memo_items_found=
-    # 🔴 memo_list -> Memo List
-    ➡️ memo_list=
-    # 🔴 memo_list_norecords -> No Records
-    ➡️ memo_list_norecords=
-    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
-    ➡️ memo_loadbyid_error=
-    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
-    ➡️ memo_loadbyid_missing=
-    # 🔴 memo_manager -> Manager
-    ➡️ memo_manager=
-    # 🔴 memo_message -> Message
-    ➡️ memo_message=
-    # 🔴 memo_related_to -> Related to
-    ➡️ memo_related_to=
-    # 🔴 memo_status -> Status
-    ➡️ memo_status=
-    # 🔴 memo_tree_empty -> Empty
-    ➡️ memo_tree_empty=
-    # 🔴 memo_tree_title -> Linked memos
-    ➡️ memo_tree_title=
-    # 🔴 memo_type -> Type
-    ➡️ memo_type=
+    # 👽 memo_add_new -> Create Memo
+    memo_add_new=?إنشاء مذكرة
+    # 👽 memo_category -> Filter by category
+    memo_category=?تصفية حسب الفئة
+    # 👽 memo_details_caller -> Caller
+    memo_details_caller=?المتصل
+    # 👽 memo_details_create -> Create Memo
+    memo_details_create=?إنشاء مذكرة
+    # 👽 memo_details_expireson -> Expires on
+    memo_details_expireson=?ينتهي في
+    # 👽 memo_details_form -> Form
+    memo_details_form=?نموذج
+    # 👽 memo_details_from -> FROM
+    memo_details_from=?من
+    # 👽 memo_details_goback -> Back
+    memo_details_goback=?رجوع
+    # 👽 memo_details_info -> Memo Info
+    memo_details_info=?معلومات المذكرة
+    # 👽 memo_details_queue -> Queue
+    memo_details_queue=?قائمة الانتظار
+    # 👽 memo_details_save -> Save
+    memo_details_save=?حفظ
+    # 👽 memo_details_title -> Title
+    memo_details_title=?العنوان
+    # 👽 memo_details_to -> TO
+    memo_details_to=?إلى
+    # 👽 memo_details_type -> Type
+    memo_details_type=?النوع
+    # 👽 memo_details_user_from -> From
+    memo_details_user_from=?من
+    # 👽 memo_details_user_to -> To
+    memo_details_user_to=?إلى
+    # 👽 memo_details_validfrom -> Valid from
+    memo_details_validfrom=?صالح من
+    # 👽 memo_due -> Due Date
+    memo_due=?تاريخ الاستحقاق
+    # 👽 memo_filter_all -> All Memos
+    memo_filter_all=?جميع المذكرات
+    # 👽 memo_filter_alldone -> All Memos done
+    memo_filter_alldone=?جميع المذكرات المكتملة
+    # 👽 memo_filter_alltbd -> All Memos to be done
+    memo_filter_alltbd=?جميع المذكرات التي ستتم
+    # 👽 memo_filter_completed -> Memos I completed
+    memo_filter_completed=?المذكرات التي أكملتها
+    # 👽 memo_filter_error -> Error filtering Memos
+    memo_filter_error=?خطأ في تصفية المذكرات
+    # 👽 memo_filter_mygroup -> My group
+    memo_filter_mygroup=?مجموعتي
+    # 👽 memo_filter_sent -> Memos I sent
+    memo_filter_sent=?المذكرات التي أرسلتها
+    # 👽 memo_filter_status -> Status
+    memo_filter_status=?الحالة
+    # 👽 memo_filter_tbd -> Memos to be done
+    memo_filter_tbd=?المذكرات التي سيتم القيام بها
+    # 👽 memo_from -> From
+    memo_from=?من
+    # 👽 memo_group -> Group
+    memo_group=?مجموعة
+    # 👽 memo_id -> Id
+    memo_id=?المعرف
+    # 👽 memo_items_found -> items found
+    memo_items_found=?عناصر وجدت
+    # 👽 memo_list -> Memo List
+    memo_list=?قائمة المذكرات
+    # 👽 memo_list_norecords -> No Records
+    memo_list_norecords=?لا توجد سجلات
+    # 👽 memo_loadbyid_error -> There was an error loading the Memo by ID
+    memo_loadbyid_error=?حدث خطأ أثناء تحميل المذكرة بواسطة المعرف
+    # 👽 memo_loadbyid_missing -> There seems to be no Memo with ID
+    memo_loadbyid_missing=?لا توجد مذكرة بهذا المعرف على ما يبدو
+    # 👽 memo_manager -> Manager
+    memo_manager=?المدير
+    # 👽 memo_message -> Message
+    memo_message=?رسالة
+    # 👽 memo_related_to -> Related to
+    memo_related_to=?متعلق بـ
+    # 👽 memo_status -> Status
+    memo_status=?الحالة
+    # 👽 memo_tree_empty -> Empty
+    memo_tree_empty=?فارغ
+    # 👽 memo_tree_title -> Linked memos
+    memo_tree_title=?مذكرات مرتبطة
+    # 👽 memo_type -> Type
+    memo_type=?النوع
     menu_licence_page=صفحة الرخصة
     menu_user_page=معلومات المستخدم
-    # 🔴 modal_cancel -> Cancel
-    ➡️ modal_cancel=
-    # 🔴 modal_ok -> Ok
-    ➡️ modal_ok=
-    # 🔴 notification_error -> Error
-    ➡️ notification_error=
-    # 🔴 notification_info -> Info
-    ➡️ notification_info=
-    # 🔴 notification_success -> Success
-    ➡️ notification_success=
-    # 🔴 notification_warning -> Warning
-    ➡️ notification_warning=
-    # 🔴 numberformat_defaultdigits -> 1
-    ➡️ numberformat_defaultdigits=
+    # 👽 modal_cancel -> Cancel
+    modal_cancel=?إلغاء
+    # 👽 modal_ok -> Ok
+    modal_ok=?موافق
+    # 👽 notification_error -> Error
+    notification_error=?خطأ
+    # 👽 notification_info -> Info
+    notification_info=?معلومات
+    # 👽 notification_success -> Success
+    notification_success=?نجاح
+    # 👽 notification_warning -> Warning
+    notification_warning=?تحذير
+    # 👽 numberformat_defaultdigits -> 1
+    numberformat_defaultdigits=?1
     open_addremoveinfobox_menu=افتح صندوق المعلومات لإضافة وحذف صناديق
     open_settings_menu=افتح قائمة الاعدادات
     pager_current_page=الصفحة الحالية
@@ -3944,24 +3944,24 @@ Other items
     prl_time_start_time_check=يرجى التحقق من وقت البداية المدخل
     prl_time_wrong_period=الفترة المحددة غير صالحة، نتوقع أن وقت النهاية أكبر من وقت البداية
     prl_total_duration=المدة الإجمالية
-    # 🔴 pwres_change -> Set new password
-    ➡️ pwres_change=
-    # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
-    ➡️ pwres_changed_successfully=
-    # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
-    ➡️ pwres_expired_link=
-    # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
-    ➡️ pwres_no_resettable_user=
-    # 🔴 pwres_pass -> New password
-    ➡️ pwres_pass=
-    # 🔴 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
-    ➡️ pwres_passwords_dont_match=
-    # 🔴 pwres_repeat_pass -> Repeat new password
-    ➡️ pwres_repeat_pass=
-    # 🔴 pwres_reset_password -> Reset the password of
-    ➡️ pwres_reset_password=
-    # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
-    ➡️ pwres_unknown_link=
+    # 👽 pwres_change -> Set new password
+    pwres_change=?تعيين كلمة مرور جديدة
+    # 👽 pwres_changed_successfully -> The password was reset successfully. Please log on now.
+    pwres_changed_successfully=?تمت إعادة تعيين كلمة المرور بنجاح. الرجاء تسجيل الدخول الآن.
+    # 👽 pwres_expired_link -> The link you used has expired. Please ask for a new one.
+    pwres_expired_link=?الرابط الذي استخدمته انتهت صلاحيته. يرجى طلب رابط جديد.
+    # 👽 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
+    pwres_no_resettable_user=?رابط إعادة تعيين كلمة المرور غير صالح أو تم استخدامه مرة واحدة بالفعل.
+    # 👽 pwres_pass -> New password
+    pwres_pass=?كلمة مرور جديدة
+    # 👽 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
+    pwres_passwords_dont_match=?كلمات المرور التي أدخلتها غير متطابقة. الرجاء المحاولة مرة أخرى.
+    # 👽 pwres_repeat_pass -> Repeat new password
+    pwres_repeat_pass=?أعد إدخال كلمة المرور الجديدة
+    # 👽 pwres_reset_password -> Reset the password of
+    pwres_reset_password=?إعادة تعيين كلمة مرور
+    # 👽 pwres_unknown_link -> The provided password reset link is invalid.
+    pwres_unknown_link=?رابط إعادة تعيين كلمة المرور المقدم غير صالح.
     qagrader_addedbygrtype=أضيفت من قِبل
     qagrader_agent=وكيل
     qagrader_audio=صوت
@@ -3977,492 +3977,492 @@ Other items
     qagrader_time=مرة
     qagrader_wait=انتظر
     qagrader_wrongurl=الرابط المستخدم غير صالح، الرجاء التحقق والمحاولة لاحقاً
-    # 🔴 qap_action_case -> Assign to Case
-    ➡️ qap_action_case=
-    # 🔴 qap_action_clicktodial -> Click to dial
-    ➡️ qap_action_clicktodial=
-    # 🔴 qap_action_client -> Assign to Client
-    ➡️ qap_action_client=
-    # 🔴 qap_action_crm -> Open CRM
-    ➡️ qap_action_crm=
-    # 🔴 qap_action_flag -> Flag Interaction
-    ➡️ qap_action_flag=
-    # 🔴 qap_action_hangup -> Hangup Call
-    ➡️ qap_action_hangup=
-    # 🔴 qap_action_label -> Label Interaction
-    ➡️ qap_action_label=
-    # 🔴 qap_action_monitor -> Monitor Call
-    ➡️ qap_action_monitor=
-    # 🔴 qap_action_qa -> QA Forms
-    ➡️ qap_action_qa=
-    # 🔴 qap_action_recall -> New Recall Memo
-    ➡️ qap_action_recall=
-    # 🔴 qap_action_transfer -> Transfer Call
-    ➡️ qap_action_transfer=
-    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall=
-    # 🔴 qap_addmember_selected -> Join selected queues.
-    ➡️ qap_addmember_selected=
-    # 🔴 qap_agent_code -> Agent Code
-    ➡️ qap_agent_code=
-    # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
-    ➡️ qap_agent_dialout_error=
-    # 🔴 qap_agent_extension -> Agent Extension
-    ➡️ qap_agent_extension=
-    # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
-    ➡️ qap_agent_notifications_error=
-    # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
-    ➡️ qap_agent_settings_error=
-    # 🔴 qap_agent_status_error -> Error while fetching agent status.
-    ➡️ qap_agent_status_error=
-    # 🔴 qap_amo -> AMO
-    ➡️ qap_amo=
-    # 🔴 qap_amo_attributes -> Attributes
-    ➡️ qap_amo_attributes=
-    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
-    ➡️ qap_amo_cannot=
-    # 🔴 qap_amo_error -> Error reserving AMO call:
-    ➡️ qap_amo_error=
-    # 🔴 qap_amo_list -> List Name
-    ➡️ qap_amo_list=
-    # 🔴 qap_amo_number -> Number
-    ➡️ qap_amo_number=
-    # 🔴 qap_amo_queue -> Queue Name
-    ➡️ qap_amo_queue=
-    # 🔴 qap_amo_recall -> Recall
-    ➡️ qap_amo_recall=
-    # 🔴 qap_amo_request -> Request AMO Call
-    ➡️ qap_amo_request=
-    # 🔴 qap_amo_reserved -> Call successfully Reserved.
-    ➡️ qap_amo_reserved=
-    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
-    ➡️ qap_amo_terminated=
-    # 🔴 qap_assign_case -> Assign Interaction to Case
-    ➡️ qap_assign_case=
-    # 🔴 qap_assign_client -> Assign Interaction to Client
-    ➡️ qap_assign_client=
-    # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
-    ➡️ qap_assign_interaction_error=
-    # 🔴 qap_calendar_add -> Add New
-    ➡️ qap_calendar_add=
-    # 🔴 qap_call_associated_to_case -> Call was associated to case
-    ➡️ qap_call_associated_to_case=
-    # 🔴 qap_case -> Case
-    ➡️ qap_case=
-    # 🔴 qap_case_add -> Add New Case
-    ➡️ qap_case_add=
-    # 🔴 qap_case_calls -> ALL CALLS
-    ➡️ qap_case_calls=
-    # 🔴 qap_case_closed -> Closed
-    ➡️ qap_case_closed=
-    # 🔴 qap_case_comments -> Comments
-    ➡️ qap_case_comments=
-    # 🔴 qap_case_contact -> Contact
-    ➡️ qap_case_contact=
-    # 🔴 qap_case_details -> Case Details
-    ➡️ qap_case_details=
-    # 🔴 qap_case_email -> Email
-    ➡️ qap_case_email=
-    # 🔴 qap_case_merged -> Merged
-    ➡️ qap_case_merged=
-    # 🔴 qap_case_notes -> Notes
-    ➡️ qap_case_notes=
-    # 🔴 qap_case_open -> Open
-    ➡️ qap_case_open=
-    # 🔴 qap_case_title -> Title
-    ➡️ qap_case_title=
-    # 🔴 qap_case_unconfirmed -> Unconfirmed
-    ➡️ qap_case_unconfirmed=
-    # 🔴 qap_case_xref -> XREF
-    ➡️ qap_case_xref=
-    # 🔴 qap_cases_placeholder_search -> Search for any Case here
-    ➡️ qap_cases_placeholder_search=
-    # 🔴 qap_choose_server_title -> Choose a Server
-    ➡️ qap_choose_server_title=
-    # 🔴 qap_client -> Client
-    ➡️ qap_client=
-    # 🔴 qap_client_contact -> Contact
-    ➡️ qap_client_contact=
-    # 🔴 qap_client_email -> Email
-    ➡️ qap_client_email=
-    # 🔴 qap_client_externalRef -> External Reference
-    ➡️ qap_client_externalRef=
-    # 🔴 qap_client_key -> Visibility Key
-    ➡️ qap_client_key=
-    # 🔴 qap_client_name -> Name
-    ➡️ qap_client_name=
-    # 🔴 qap_client_notes -> Notes
-    ➡️ qap_client_notes=
-    # 🔴 qap_client_xref -> XREF
-    ➡️ qap_client_xref=
-    # 🔴 qap_clients_add -> Add New Client
-    ➡️ qap_clients_add=
-    # 🔴 qap_clients_placeholder_search -> Search for any Client here
-    ➡️ qap_clients_placeholder_search=
-    # 🔴 qap_control_addall -> Join selected
-    ➡️ qap_control_addall=
-    # 🔴 qap_control_add -> Join
-    ➡️ qap_control_add=
-    # 🔴 qap_control_remove -> Leave
-    ➡️ qap_control_remove=
-    # 🔴 qap_control_all -> All
-    ➡️ qap_control_all=
-    # 🔴 qap_control_amend -> Amend
-    ➡️ qap_control_amend=
-    # 🔴 qap_control_assigned -> Assigned
-    ➡️ qap_control_assigned=
-    # 🔴 qap_control_change -> Change
-    ➡️ qap_control_change=
-    # 🔴 qap_control_composition -> Composition
-    ➡️ qap_control_composition=
-    # 🔴 qap_control_name -> Name
-    ➡️ qap_control_name=
-    # 🔴 qap_control_pause -> Pause
-    ➡️ qap_control_pause=
-    # 🔴 qap_control_priority -> Priority
-    ➡️ qap_control_priority=
-    # 🔴 qap_control_removeall -> Leave selected
-    ➡️ qap_control_removeall=
-    # 🔴 qap_control_selectall -> Select all
-    ➡️ qap_control_selectall=
-    # 🔴 qap_control_timer -> Timer
-    ➡️ qap_control_timer=
-    # 🔴 qap_control_unpause -> Unpause
-    ➡️ qap_control_unpause=
-    # 🔴 qap_create_note_error -> Error while creating a new Note.
-    ➡️ qap_create_note_error=
-    # 🔴 qap_crm_links -> CRM Popup Links
-    ➡️ qap_crm_links=
-    # 🔴 qap_daily_idle -> Idle time
-    ➡️ qap_daily_idle=
-    # 🔴 qap_daily_lost -> Lost Calls
-    ➡️ qap_daily_lost=
-    # 🔴 qap_daily_lostatt -> Lost Attempts
-    ➡️ qap_daily_lostatt=
-    # 🔴 qap_daily_pause -> Pause time
-    ➡️ qap_daily_pause=
-    # 🔴 qap_daily_stats -> Daily Stats
-    ➡️ qap_daily_stats=
-    # 🔴 qap_daily_taken -> Taken Calls
-    ➡️ qap_daily_taken=
-    # 🔴 qap_daily_talk -> Talk time
-    ➡️ qap_daily_talk=
-    # 🔴 qap_debug_api -> API
-    ➡️ qap_debug_api=
-    # 🔴 qap_debug_context -> Context
-    ➡️ qap_debug_context=
-    # 🔴 qap_debug_title -> Debug
-    ➡️ qap_debug_title=
-    # 🔴 qap_details_attempts -> Attempts
-    ➡️ qap_details_attempts=
-    # 🔴 qap_details_caller -> Caller
-    ➡️ qap_details_caller=
-    # 🔴 qap_details_direction -> Direction
-    ➡️ qap_details_direction=
-    # 🔴 qap_details_dnis -> Dnis
-    ➡️ qap_details_dnis=
-    # 🔴 qap_details_entered -> Entered
-    ➡️ qap_details_entered=
-    # 🔴 qap_details_features -> Features
-    ➡️ qap_details_features=
-    # 🔴 qap_details_ivrpath -> IVR Path
-    ➡️ qap_details_ivrpath=
-    # 🔴 qap_details_outcome -> Outcome
-    ➡️ qap_details_outcome=
-    # 🔴 qap_details_position -> Position
-    ➡️ qap_details_position=
-    # 🔴 qap_details_queue -> Queue
-    ➡️ qap_details_queue=
-    # 🔴 qap_details_started -> Started
-    ➡️ qap_details_started=
-    # 🔴 qap_details_tag -> Tag
-    ➡️ qap_details_tag=
-    # 🔴 qap_details_talk -> Talk Time
-    ➡️ qap_details_talk=
-    # 🔴 qap_details_terminated -> Terminated
-    ➡️ qap_details_terminated=
-    # 🔴 qap_details_transferto -> Transfer To
-    ➡️ qap_details_transferto=
-    # 🔴 qap_details_uniqueid -> Unique ID
-    ➡️ qap_details_uniqueid=
-    # 🔴 qap_details_url -> URL
-    ➡️ qap_details_url=
-    # 🔴 qap_details_variables -> Variables
-    ➡️ qap_details_variables=
-    # 🔴 qap_details_wait -> Wait Time
-    ➡️ qap_details_wait=
-    # 🔴 qap_dial -> Dial
-    ➡️ qap_dial=
-    # 🔴 qap_diff_join -> Queues joined
-    ➡️ qap_diff_join=
-    # 🔴 qap_diff_leave -> Queues left
-    ➡️ qap_diff_leave=
-    # 🔴 qap_diff_paused -> Agent Paused
-    ➡️ qap_diff_paused=
-    # 🔴 qap_edit_cases -> Edit Case
-    ➡️ qap_edit_cases=
-    # 🔴 qap_edit_client -> Edit Client
-    ➡️ qap_edit_client=
-    # 🔴 qap_edit_note -> Edit Note
-    ➡️ qap_edit_note=
-    # 🔴 qap_empty_note -> This note is empty.
-    ➡️ qap_empty_note=
-    # 🔴 qap_end_work -> End Work
-    ➡️ qap_end_work=
-    # 🔴 qap_entity_placeholder -> Type to search...
-    ➡️ qap_entity_placeholder=
-    # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
-    ➡️ qap_fetch_notifications_error=
-    # 🔴 qap_filters_main -> Main
-    ➡️ qap_filters_main=
-    # 🔴 qap_filters_priority -> Priority
-    ➡️ qap_filters_priority=
-    # 🔴 qap_filters_queue -> Queue
-    ➡️ qap_filters_queue=
-    # 🔴 qap_filters_spill -> Spill
-    ➡️ qap_filters_spill=
-    # 🔴 qap_filters_status -> Status
-    ➡️ qap_filters_status=
-    # 🔴 qap_filters_type -> Type
-    ➡️ qap_filters_type=
-    # 🔴 qap_filters_unk -> Unknown
-    ➡️ qap_filters_unk=
+    # 👽 qap_action_case -> Assign to Case
+    qap_action_case=?تعيين لحالة
+    # 👽 qap_action_clicktodial -> Click to dial
+    qap_action_clicktodial=?انقر للاتصال
+    # 👽 qap_action_client -> Assign to Client
+    qap_action_client=?تعيين لعميل
+    # 👽 qap_action_crm -> Open CRM
+    qap_action_crm=?فتح CRM
+    # 👽 qap_action_flag -> Flag Interaction
+    qap_action_flag=?تحديد التفاعل
+    # 👽 qap_action_hangup -> Hangup Call
+    qap_action_hangup=?إنهاء المكالمة
+    # 👽 qap_action_label -> Label Interaction
+    qap_action_label=?تسمية التفاعل
+    # 👽 qap_action_monitor -> Monitor Call
+    qap_action_monitor=?مراقبة المكالمة
+    # 👽 qap_action_qa -> QA Forms
+    qap_action_qa=?نماذج QA
+    # 👽 qap_action_recall -> New Recall Memo
+    qap_action_recall=?مذكرة إعادة اتصال جديدة
+    # 👽 qap_action_transfer -> Transfer Call
+    qap_action_transfer=?تحويل المكالمة
+    # 👽 qap_action_wbtrecall -> Recall with WombatDialer
+    qap_action_wbtrecall=?إعادة الاتصال باستخدام WombatDialer
+    # 👽 qap_addmember_selected -> Join selected queues.
+    qap_addmember_selected=?انضم إلى قوائم الانتظار المحددة.
+    # 👽 qap_agent_code -> Agent Code
+    qap_agent_code=?رمز الوكيل
+    # 👽 qap_agent_dialout_error -> Error while performing Agent Dialout.
+    qap_agent_dialout_error=?خطأ أثناء إجراء اتصال الوكيل.
+    # 👽 qap_agent_extension -> Agent Extension
+    qap_agent_extension=?ملحق الوكيل
+    # 👽 qap_agent_notifications_error -> Error while fetching agent notifications.
+    qap_agent_notifications_error=?خطأ أثناء جلب إشعارات الوكيل.
+    # 👽 qap_agent_settings_error -> Error while fetching agent settings.
+    qap_agent_settings_error=?خطأ أثناء جلب إعدادات الوكيل.
+    # 👽 qap_agent_status_error -> Error while fetching agent status.
+    qap_agent_status_error=?خطأ أثناء جلب حالة الوكيل.
+    # 👽 qap_amo -> AMO
+    qap_amo=?AMO
+    # 👽 qap_amo_attributes -> Attributes
+    qap_amo_attributes=?السمات
+    # 👽 qap_amo_cannot -> Cannot reserve a call at this time.
+    qap_amo_cannot=?لا يمكن حجز مكالمة في هذا الوقت.
+    # 👽 qap_amo_error -> Error reserving AMO call:
+    qap_amo_error=?خطأ في حجز مكالمة AMO:
+    # 👽 qap_amo_list -> List Name
+    qap_amo_list=?اسم القائمة
+    # 👽 qap_amo_number -> Number
+    qap_amo_number=?الرقم
+    # 👽 qap_amo_queue -> Queue Name
+    qap_amo_queue=?اسم قائمة الانتظار
+    # 👽 qap_amo_recall -> Recall
+    qap_amo_recall=?إعادة الاتصال
+    # 👽 qap_amo_request -> Request AMO Call
+    qap_amo_request=?طلب مكالمة AMO
+    # 👽 qap_amo_reserved -> Call successfully Reserved.
+    qap_amo_reserved=?تم حجز المكالمة بنجاح.
+    # 👽 qap_amo_terminated -> There are no more available AMO calls.
+    qap_amo_terminated=?لم تعد هناك مكالمات AMO متاحة.
+    # 👽 qap_assign_case -> Assign Interaction to Case
+    qap_assign_case=?تعيين التفاعل إلى حالة
+    # 👽 qap_assign_client -> Assign Interaction to Client
+    qap_assign_client=?تعيين التفاعل إلى عميل
+    # 👽 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
+    qap_assign_interaction_error=?خطأ أثناء تعيين علاقة لهذا التفاعل.
+    # 👽 qap_calendar_add -> Add New
+    qap_calendar_add=?إضافة جديد
+    # 👽 qap_call_associated_to_case -> Call was associated to case
+    qap_call_associated_to_case=?تم ربط المكالمة بالحالة
+    # 👽 qap_case -> Case
+    qap_case=?الحالة
+    # 👽 qap_case_add -> Add New Case
+    qap_case_add=?إضافة حالة جديدة
+    # 👽 qap_case_calls -> ALL CALLS
+    qap_case_calls=?جميع المكالمات
+    # 👽 qap_case_closed -> Closed
+    qap_case_closed=?مغلق
+    # 👽 qap_case_comments -> Comments
+    qap_case_comments=?تعليقات
+    # 👽 qap_case_contact -> Contact
+    qap_case_contact=?جهة الاتصال
+    # 👽 qap_case_details -> Case Details
+    qap_case_details=?تفاصيل الحالة
+    # 👽 qap_case_email -> Email
+    qap_case_email=?البريد الإلكتروني
+    # 👽 qap_case_merged -> Merged
+    qap_case_merged=?مدمج
+    # 👽 qap_case_notes -> Notes
+    qap_case_notes=?ملاحظات
+    # 👽 qap_case_open -> Open
+    qap_case_open=?مفتوح
+    # 👽 qap_case_title -> Title
+    qap_case_title=?العنوان
+    # 👽 qap_case_unconfirmed -> Unconfirmed
+    qap_case_unconfirmed=?غير مؤكد
+    # 👽 qap_case_xref -> XREF
+    qap_case_xref=?XREF
+    # 👽 qap_cases_placeholder_search -> Search for any Case here
+    qap_cases_placeholder_search=?ابحث عن أي حالة هنا
+    # 👽 qap_choose_server_title -> Choose a Server
+    qap_choose_server_title=?اختر خادمًا
+    # 👽 qap_client -> Client
+    qap_client=?العميل
+    # 👽 qap_client_contact -> Contact
+    qap_client_contact=?جهة الاتصال
+    # 👽 qap_client_email -> Email
+    qap_client_email=?البريد الإلكتروني
+    # 👽 qap_client_externalRef -> External Reference
+    qap_client_externalRef=?المرجع الخارجي
+    # 👽 qap_client_key -> Visibility Key
+    qap_client_key=?مفتاح الرؤية
+    # 👽 qap_client_name -> Name
+    qap_client_name=?الاسم
+    # 👽 qap_client_notes -> Notes
+    qap_client_notes=?ملاحظات
+    # 👽 qap_client_xref -> XREF
+    qap_client_xref=?XREF
+    # 👽 qap_clients_add -> Add New Client
+    qap_clients_add=?إضافة عميل جديد
+    # 👽 qap_clients_placeholder_search -> Search for any Client here
+    qap_clients_placeholder_search=?ابحث عن أي عميل هنا
+    # 👽 qap_control_addall -> Join selected
+    qap_control_addall=?انضم إلى المحدد
+    # 👽 qap_control_add -> Join
+    qap_control_add=?انضم
+    # 👽 qap_control_remove -> Leave
+    qap_control_remove=?غادر
+    # 👽 qap_control_all -> All
+    qap_control_all=?الكل
+    # 👽 qap_control_amend -> Amend
+    qap_control_amend=?تعديل
+    # 👽 qap_control_assigned -> Assigned
+    qap_control_assigned=?معين
+    # 👽 qap_control_change -> Change
+    qap_control_change=?تغيير
+    # 👽 qap_control_composition -> Composition
+    qap_control_composition=?التركيب
+    # 👽 qap_control_name -> Name
+    qap_control_name=?الاسم
+    # 👽 qap_control_pause -> Pause
+    qap_control_pause=?إيقاف مؤقت
+    # 👽 qap_control_priority -> Priority
+    qap_control_priority=?الأولوية
+    # 👽 qap_control_removeall -> Leave selected
+    qap_control_removeall=?مغادرة المحدد
+    # 👽 qap_control_selectall -> Select all
+    qap_control_selectall=?تحديد الكل
+    # 👽 qap_control_timer -> Timer
+    qap_control_timer=?مؤقت
+    # 👽 qap_control_unpause -> Unpause
+    qap_control_unpause=?إلغاء الإيقاف المؤقت
+    # 👽 qap_create_note_error -> Error while creating a new Note.
+    qap_create_note_error=?خطأ أثناء إنشاء ملاحظة جديدة.
+    # 👽 qap_crm_links -> CRM Popup Links
+    qap_crm_links=?روابط النوافذ المنبثقة لـ CRM
+    # 👽 qap_daily_idle -> Idle time
+    qap_daily_idle=?وقت الخمول
+    # 👽 qap_daily_lost -> Lost Calls
+    qap_daily_lost=?المكالمات الفائتة
+    # 👽 qap_daily_lostatt -> Lost Attempts
+    qap_daily_lostatt=?المحاولات الفائتة
+    # 👽 qap_daily_pause -> Pause time
+    qap_daily_pause=?وقت التوقف المؤقت
+    # 👽 qap_daily_stats -> Daily Stats
+    qap_daily_stats=?إحصائيات يومية
+    # 👽 qap_daily_taken -> Taken Calls
+    qap_daily_taken=?المكالمات الملتقطة
+    # 👽 qap_daily_talk -> Talk time
+    qap_daily_talk=?وقت التحدث
+    # 👽 qap_debug_api -> API
+    qap_debug_api=?API
+    # 👽 qap_debug_context -> Context
+    qap_debug_context=?السياق
+    # 👽 qap_debug_title -> Debug
+    qap_debug_title=?تصحيح الأخطاء
+    # 👽 qap_details_attempts -> Attempts
+    qap_details_attempts=?المحاولات
+    # 👽 qap_details_caller -> Caller
+    qap_details_caller=?المتصل
+    # 👽 qap_details_direction -> Direction
+    qap_details_direction=?الاتجاه
+    # 👽 qap_details_dnis -> Dnis
+    qap_details_dnis=?Dnis
+    # 👽 qap_details_entered -> Entered
+    qap_details_entered=?تم الدخول
+    # 👽 qap_details_features -> Features
+    qap_details_features=?الميزات
+    # 👽 qap_details_ivrpath -> IVR Path
+    qap_details_ivrpath=?مسار IVR
+    # 👽 qap_details_outcome -> Outcome
+    qap_details_outcome=?النتيجة
+    # 👽 qap_details_position -> Position
+    qap_details_position=?الموضع
+    # 👽 qap_details_queue -> Queue
+    qap_details_queue=?قائمة الانتظار
+    # 👽 qap_details_started -> Started
+    qap_details_started=?بدأ
+    # 👽 qap_details_tag -> Tag
+    qap_details_tag=?علامة
+    # 👽 qap_details_talk -> Talk Time
+    qap_details_talk=?وقت التحدث
+    # 👽 qap_details_terminated -> Terminated
+    qap_details_terminated=?تم إنهاؤها
+    # 👽 qap_details_transferto -> Transfer To
+    qap_details_transferto=?تحويل إلى
+    # 👽 qap_details_uniqueid -> Unique ID
+    qap_details_uniqueid=?معرف فريد
+    # 👽 qap_details_url -> URL
+    qap_details_url=?عنوان URL
+    # 👽 qap_details_variables -> Variables
+    qap_details_variables=?المتغيرات
+    # 👽 qap_details_wait -> Wait Time
+    qap_details_wait=?وقت الانتظار
+    # 👽 qap_dial -> Dial
+    qap_dial=?اتصال
+    # 👽 qap_diff_join -> Queues joined
+    qap_diff_join=?قوائم الانتظار المنضمة
+    # 👽 qap_diff_leave -> Queues left
+    qap_diff_leave=?قوائم الانتظار التي غادرت
+    # 👽 qap_diff_paused -> Agent Paused
+    qap_diff_paused=?الوكيل متوقف مؤقتًا
+    # 👽 qap_edit_cases -> Edit Case
+    qap_edit_cases=?تعديل الحالة
+    # 👽 qap_edit_client -> Edit Client
+    qap_edit_client=?تعديل العميل
+    # 👽 qap_edit_note -> Edit Note
+    qap_edit_note=?تعديل الملاحظة
+    # 👽 qap_empty_note -> This note is empty.
+    qap_empty_note=?هذه الملاحظة فارغة.
+    # 👽 qap_end_work -> End Work
+    qap_end_work=?إنهاء العمل
+    # 👽 qap_entity_placeholder -> Type to search...
+    qap_entity_placeholder=?اكتب للبحث...
+    # 👽 qap_fetch_notifications_error -> Error while fetching User's notifications.
+    qap_fetch_notifications_error=?خطأ أثناء جلب إشعارات المستخدم.
+    # 👽 qap_filters_main -> Main
+    qap_filters_main=?الرئيسية
+    # 👽 qap_filters_priority -> Priority
+    qap_filters_priority=?الأولوية
+    # 👽 qap_filters_queue -> Queue
+    qap_filters_queue=?قائمة الانتظار
+    # 👽 qap_filters_spill -> Spill
+    qap_filters_spill=?فيضان
+    # 👽 qap_filters_status -> Status
+    qap_filters_status=?الحالة
+    # 👽 qap_filters_type -> Type
+    qap_filters_type=?النوع
+    # 👽 qap_filters_unk -> Unknown
+    qap_filters_unk=?غير معروف
     # 🔴 qap_filters_wrap -> Wrap
     ➡️ qap_filters_wrap=
-    # 🔴 qap_find_cases -> Find your Cases
-    ➡️ qap_find_cases=
-    # 🔴 qap_find_clients -> Find your Clients
-    ➡️ qap_find_clients=
-    # 🔴 qap_form_features -> Feature Codes
-    ➡️ qap_form_features=
-    # 🔴 qap_form_outcome -> Outcome
-    ➡️ qap_form_outcome=
-    # 🔴 qap_idle_time -> Idle Time
-    ➡️ qap_idle_time=
-    # 🔴 qap_interaction_caller -> Caller
-    ➡️ qap_interaction_caller=
-    # 🔴 qap_interaction_case -> Case
-    ➡️ qap_interaction_case=
-    # 🔴 qap_interaction_client -> Client
-    ➡️ qap_interaction_client=
-    # 🔴 qap_interaction_details -> Details
-    ➡️ qap_interaction_details=
-    # 🔴 qap_interaction_details_title -> Call Details
-    ➡️ qap_interaction_details_title=
-    # 🔴 qap_interaction_duration -> Duration
-    ➡️ qap_interaction_duration=
-    # 🔴 qap_interaction_outcome -> Outcome
-    ➡️ qap_interaction_outcome=
-    # 🔴 qap_interaction_queue -> Queue
-    ➡️ qap_interaction_queue=
-    # 🔴 qap_interaction_start -> Start
-    ➡️ qap_interaction_start=
-    # 🔴 qap_interaction_tag -> Tag
-    ➡️ qap_interaction_tag=
-    # 🔴 qap_interaction_transfer -> Transfer
-    ➡️ qap_interaction_transfer=
-    # 🔴 qap_interaction_url -> URL
-    ➡️ qap_interaction_url=
-    # 🔴 qap_interaction_variables -> Variables
-    ➡️ qap_interaction_variables=
-    # 🔴 qap_interaction_waiting -> Waiting
-    ➡️ qap_interaction_waiting=
-    # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
-    ➡️ qap_invalid_outcome=
-    # 🔴 qap_join -> Join
-    ➡️ qap_join=
-    # 🔴 qap_label_freetext -> Free Text
-    ➡️ qap_label_freetext=
-    # 🔴 qap_leave -> Leave
-    ➡️ qap_leave=
-    # 🔴 qap_loading -> Loading...
-    ➡️ qap_loading=
-    # 🔴 qap_memos -> Memos
-    ➡️ qap_memos=
-    # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
-    ➡️ qap_missing_cases_key=
-    # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
-    ➡️ qap_missing_clients_key=
-    # 🔴 qap_nav_calendar -> Calendar
-    ➡️ qap_nav_calendar=
-    # 🔴 qap_nav_cases -> Cases
-    ➡️ qap_nav_cases=
-    # 🔴 qap_nav_clients -> Clients
-    ➡️ qap_nav_clients=
-    # 🔴 qap_nav_control -> Control
-    ➡️ qap_nav_control=
-    # 🔴 qap_nav_debug -> Debug
-    ➡️ qap_nav_debug=
-    # 🔴 qap_nav_dialout -> Dialout
-    ➡️ qap_nav_dialout=
-    # 🔴 qap_nav_home -> Home
-    ➡️ qap_nav_home=
-    # 🔴 qap_nav_interactions -> Interactions
-    ➡️ qap_nav_interactions=
-    # 🔴 qap_nav_overview -> Overview
-    ➡️ qap_nav_overview=
-    # 🔴 qap_nav_qa -> QA
-    ➡️ qap_nav_qa=
-    # 🔴 qap_nav_wallboard -> Wallboard
-    ➡️ qap_nav_wallboard=
-    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
-    ➡️ qap_nav_wombat=
-    # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=
-    # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=
-    # 🔴 qap_new_memo -> Create linked Memo
-    ➡️ qap_new_memo=
-    # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
-    ➡️ qap_no_cases=
-    # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
-    ➡️ qap_no_clients=
-    # 🔴 qap_none -> None
-    ➡️ qap_none=
-    # 🔴 qap_note_actions -> Actions
-    ➡️ qap_note_actions=
-    # 🔴 qap_note_complete -> Complete
-    ➡️ qap_note_complete=
-    # 🔴 qap_note_dispute -> Dispute
-    ➡️ qap_note_dispute=
-    # 🔴 qap_note_empty -> Empty
-    ➡️ qap_note_empty=
-    # 🔴 qap_note_expires -> Expires on
-    ➡️ qap_note_expires=
-    # 🔴 qap_note_expires_on -> Expires On
-    ➡️ qap_note_expires_on=
-    # 🔴 qap_note_flag -> Flag
-    ➡️ qap_note_flag=
-    # 🔴 qap_note_ko_disputed -> Disputed
-    ➡️ qap_note_ko_disputed=
-    # 🔴 qap_note_ko_refused -> Refused
-    ➡️ qap_note_ko_refused=
-    # 🔴 qap_note_ko_rejected -> Rejected
-    ➡️ qap_note_ko_rejected=
-    # 🔴 qap_note_meeting -> Meeting
-    ➡️ qap_note_meeting=
-    # 🔴 qap_note_message -> Message
-    ➡️ qap_note_message=
-    # 🔴 qap_note_note -> Note
-    ➡️ qap_note_note=
-    # 🔴 qap_note_notes -> Notes
-    ➡️ qap_note_notes=
-    # 🔴 qap_note_ok -> OK
-    ➡️ qap_note_ok=
-    # 🔴 qap_note_qa -> QA
-    ➡️ qap_note_qa=
-    # 🔴 qap_note_recall -> Recall
-    ➡️ qap_note_recall=
-    # 🔴 qap_note_refuse -> Refuse
-    ➡️ qap_note_refuse=
-    # 🔴 qap_note_reject -> Reject
-    ➡️ qap_note_reject=
-    # 🔴 qap_note_status -> Status
-    ➡️ qap_note_status=
-    # 🔴 qap_note_tbd -> TBD
-    ➡️ qap_note_tbd=
-    # 🔴 qap_note_todo -> Todo
-    ➡️ qap_note_todo=
-    # 🔴 qap_note_togroup -> To Group
-    ➡️ qap_note_togroup=
-    # 🔴 qap_note_touser -> To User
-    ➡️ qap_note_touser=
-    # 🔴 qap_note_training -> Training
-    ➡️ qap_note_training=
-    # 🔴 qap_note_type -> Type
-    ➡️ qap_note_type=
-    # 🔴 qap_note_valid_from -> Valid From
-    ➡️ qap_note_valid_from=
-    # 🔴 qap_notes_type_note -> Note
-    ➡️ qap_notes_type_note=
-    # 🔴 qap_notifications -> Notifications
-    ➡️ qap_notifications=
-    # 🔴 qap_notifications_empty -> You currently have no notifications
-    ➡️ qap_notifications_empty=
-    # 🔴 qap_overview_daily -> Daily
-    ➡️ qap_overview_daily=
-    # 🔴 qap_overview_stats -> Stats
-    ➡️ qap_overview_stats=
-    # 🔴 qap_overview_weekly -> Weekly
-    ➡️ qap_overview_weekly=
-    # 🔴 qap_pause_time -> Pause Time
-    ➡️ qap_pause_time=
-    # 🔴 qap_platform_action_error -> Error while performing platform action.
-    ➡️ qap_platform_action_error=
-    # 🔴 qap_process_note_error -> Error while processing a Note.
-    ➡️ qap_process_note_error=
-    # 🔴 qap_run -> Run
-    ➡️ qap_run=
-    # 🔴 qap_save_case_error -> Error while saving Case.
-    ➡️ qap_save_case_error=
-    # 🔴 qap_save_client_error -> Error while saving Client.
-    ➡️ qap_save_client_error=
-    # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
-    ➡️ qap_search_cases_error=
-    # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
-    ➡️ qap_search_clients_error=
-    # 🔴 qap_server -> Server
-    ➡️ qap_server=
-    # 🔴 qap_session_time -> Session Time
-    ➡️ qap_session_time=
-    # 🔴 qap_signout -> Sign out
-    ➡️ qap_signout=
-    # 🔴 qap_softphone -> Phone
-    ➡️ qap_softphone=
-    # 🔴 qap_softphone_debug -> Softphone
-    ➡️ qap_softphone_debug=
-    # 🔴 qap_start_work -> Start Work
-    ➡️ qap_start_work=
-    # 🔴 qap_status_paused -> Paused
-    ➡️ qap_status_paused=
-    # 🔴 qap_status_unpaused -> Unpaused
-    ➡️ qap_status_unpaused=
-    # 🔴 qap_title_calendar -> Calendar
-    ➡️ qap_title_calendar=
-    # 🔴 qap_title_cases -> Cases
-    ➡️ qap_title_cases=
-    # 🔴 qap_title_clients -> Clients
-    ➡️ qap_title_clients=
-    # 🔴 qap_title_control -> Queue Control
-    ➡️ qap_title_control=
-    # 🔴 qap_title_interactions -> Interactions
-    ➡️ qap_title_interactions=
-    # 🔴 qap_title_note -> New Note
-    ➡️ qap_title_note=
-    # 🔴 qap_title_notes_done -> Done
-    ➡️ qap_title_notes_done=
-    # 🔴 qap_title_notes_pending -> Pending
-    ➡️ qap_title_notes_pending=
-    # 🔴 qap_title_outcomes -> Outcome and Feature Codes
-    ➡️ qap_title_outcomes=
-    # 🔴 qap_title_overview -> Overview
-    ➡️ qap_title_overview=
-    # 🔴 qap_today -> Today
-    ➡️ qap_today=
-    # 🔴 qap_transaction_body -> Comment
-    ➡️ qap_transaction_body=
-    # 🔴 qap_transaction_title -> Title
-    ➡️ qap_transaction_title=
-    # 🔴 qap_unknown_caller -> Unknown Caller
-    ➡️ qap_unknown_caller=
-    # 🔴 qap_user_pref_error -> Error while fetching user preferences.
-    ➡️ qap_user_pref_error=
-    # 🔴 qap_wbt_campaign -> Campaign
-    ➡️ qap_wbt_campaign=
-    # 🔴 qap_wbt_comments -> Comments
-    ➡️ qap_wbt_comments=
-    # 🔴 qap_wbt_date -> Date
-    ➡️ qap_wbt_date=
-    # 🔴 qap_wbt_num -> Number
-    ➡️ qap_wbt_num=
-    # 🔴 qap_wbt_recall -> Recall
-    ➡️ qap_wbt_recall=
-    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
-    ➡️ qap_wbt_title=
-    # 🔴 qap_welcome -> Welcome Back!
-    ➡️ qap_welcome=
-    # 🔴 qap_you_have -> You have
-    ➡️ qap_you_have=
+    # 👽 qap_find_cases -> Find your Cases
+    qap_find_cases=?ابحث عن حالاتك
+    # 👽 qap_find_clients -> Find your Clients
+    qap_find_clients=?ابحث عن عملائك
+    # 👽 qap_form_features -> Feature Codes
+    qap_form_features=?رموز الميزات
+    # 👽 qap_form_outcome -> Outcome
+    qap_form_outcome=?النتيجة
+    # 👽 qap_idle_time -> Idle Time
+    qap_idle_time=?وقت الخمول
+    # 👽 qap_interaction_caller -> Caller
+    qap_interaction_caller=?المتصل
+    # 👽 qap_interaction_case -> Case
+    qap_interaction_case=?الحالة
+    # 👽 qap_interaction_client -> Client
+    qap_interaction_client=?العميل
+    # 👽 qap_interaction_details -> Details
+    qap_interaction_details=?التفاصيل
+    # 👽 qap_interaction_details_title -> Call Details
+    qap_interaction_details_title=?تفاصيل المكالمة
+    # 👽 qap_interaction_duration -> Duration
+    qap_interaction_duration=?المدة
+    # 👽 qap_interaction_outcome -> Outcome
+    qap_interaction_outcome=?النتيجة
+    # 👽 qap_interaction_queue -> Queue
+    qap_interaction_queue=?قائمة الانتظار
+    # 👽 qap_interaction_start -> Start
+    qap_interaction_start=?البداية
+    # 👽 qap_interaction_tag -> Tag
+    qap_interaction_tag=?علامة
+    # 👽 qap_interaction_transfer -> Transfer
+    qap_interaction_transfer=?تحويل
+    # 👽 qap_interaction_url -> URL
+    qap_interaction_url=?عنوان URL
+    # 👽 qap_interaction_variables -> Variables
+    qap_interaction_variables=?المتغيرات
+    # 👽 qap_interaction_waiting -> Waiting
+    qap_interaction_waiting=?الانتظار
+    # 👽 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
+    qap_invalid_outcome=?النتيجة المحددة غير صالحة لواحد أو أكثر من رموز ميزات التفاعل.
+    # 👽 qap_join -> Join
+    qap_join=?انضمام
+    # 👽 qap_label_freetext -> Free Text
+    qap_label_freetext=?نص حر
+    # 👽 qap_leave -> Leave
+    qap_leave=?مغادرة
+    # 👽 qap_loading -> Loading...
+    qap_loading=?جاري التحميل...
+    # 👽 qap_memos -> Memos
+    qap_memos=?المذكرات
+    # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
+    qap_missing_cases_key=?ليس لديك إذن لإنشاء حالات جديدة.
+    # 👽 qap_missing_clients_key -> You don't have permission to create new Clients.
+    qap_missing_clients_key=?ليس لديك إذن لإنشاء عملاء جدد.
+    # 👽 qap_nav_calendar -> Calendar
+    qap_nav_calendar=?التقويم
+    # 👽 qap_nav_cases -> Cases
+    qap_nav_cases=?الحالات
+    # 👽 qap_nav_clients -> Clients
+    qap_nav_clients=?العملاء
+    # 👽 qap_nav_control -> Control
+    qap_nav_control=?التحكم
+    # 👽 qap_nav_debug -> Debug
+    qap_nav_debug=?تصحيح الأخطاء
+    # 👽 qap_nav_dialout -> Dialout
+    qap_nav_dialout=?الاتصال الخارجي
+    # 👽 qap_nav_home -> Home
+    qap_nav_home=?الرئيسية
+    # 👽 qap_nav_interactions -> Interactions
+    qap_nav_interactions=?التفاعلات
+    # 👽 qap_nav_overview -> Overview
+    qap_nav_overview=?نظرة عامة
+    # 👽 qap_nav_qa -> QA
+    qap_nav_qa=?ضمان الجودة
+    # 👽 qap_nav_wallboard -> Wallboard
+    qap_nav_wallboard=?لوحة الحائط
+    # 👽 qap_nav_wombat -> WombatDialer Preview Dialing
+    qap_nav_wombat=?معاينة الاتصال WombatDialer
+    # 👽 qap_new_case -> New Case
+    qap_new_case=?حالة جديدة
+    # 👽 qap_new_client -> New Client
+    qap_new_client=?عميل جديد
+    # 👽 qap_new_memo -> Create linked Memo
+    qap_new_memo=?إنشاء مذكرة مرتبطة
+    # 👽 qap_no_cases -> No Cases found for the current search, please try again.
+    qap_no_cases=?لم يتم العثور على حالات للبحث الحالي، يرجى المحاولة مرة أخرى.
+    # 👽 qap_no_clients -> No Clients found for the current search, please try again.
+    qap_no_clients=?لم يتم العثور على عملاء للبحث الحالي، يرجى المحاولة مرة أخرى.
+    # 👽 qap_none -> None
+    qap_none=?لا شيء
+    # 👽 qap_note_actions -> Actions
+    qap_note_actions=?الإجراءات
+    # 👽 qap_note_complete -> Complete
+    qap_note_complete=?اكتمل
+    # 👽 qap_note_dispute -> Dispute
+    qap_note_dispute=?نزاع
+    # 👽 qap_note_empty -> Empty
+    qap_note_empty=?فارغ
+    # 👽 qap_note_expires -> Expires on
+    qap_note_expires=?ينتهي في
+    # 👽 qap_note_expires_on -> Expires On
+    qap_note_expires_on=?ينتهي في
+    # 👽 qap_note_flag -> Flag
+    qap_note_flag=?علامة
+    # 👽 qap_note_ko_disputed -> Disputed
+    qap_note_ko_disputed=?متنازع عليه
+    # 👽 qap_note_ko_refused -> Refused
+    qap_note_ko_refused=?مرفوض
+    # 👽 qap_note_ko_rejected -> Rejected
+    qap_note_ko_rejected=?مرفوض
+    # 👽 qap_note_meeting -> Meeting
+    qap_note_meeting=?اجتماع
+    # 👽 qap_note_message -> Message
+    qap_note_message=?رسالة
+    # 👽 qap_note_note -> Note
+    qap_note_note=?ملاحظة
+    # 👽 qap_note_notes -> Notes
+    qap_note_notes=?ملاحظات
+    # 👽 qap_note_ok -> OK
+    qap_note_ok=?موافق
+    # 👽 qap_note_qa -> QA
+    qap_note_qa=?ضمان الجودة
+    # 👽 qap_note_recall -> Recall
+    qap_note_recall=?إعادة اتصال
+    # 👽 qap_note_refuse -> Refuse
+    qap_note_refuse=?رفض
+    # 👽 qap_note_reject -> Reject
+    qap_note_reject=?رفض
+    # 👽 qap_note_status -> Status
+    qap_note_status=?الحالة
+    # 👽 qap_note_tbd -> TBD
+    qap_note_tbd=?لم يُحدد بعد
+    # 👽 qap_note_todo -> Todo
+    qap_note_todo=?للقيام به
+    # 👽 qap_note_togroup -> To Group
+    qap_note_togroup=?للمجموعة
+    # 👽 qap_note_touser -> To User
+    qap_note_touser=?للمستخدم
+    # 👽 qap_note_training -> Training
+    qap_note_training=?تدريب
+    # 👽 qap_note_type -> Type
+    qap_note_type=?النوع
+    # 👽 qap_note_valid_from -> Valid From
+    qap_note_valid_from=?صالح من
+    # 👽 qap_notes_type_note -> Note
+    qap_notes_type_note=?ملاحظة
+    # 👽 qap_notifications -> Notifications
+    qap_notifications=?الإشعارات
+    # 👽 qap_notifications_empty -> You currently have no notifications
+    qap_notifications_empty=?لا توجد لديك إشعارات حاليًا
+    # 👽 qap_overview_daily -> Daily
+    qap_overview_daily=?يومي
+    # 👽 qap_overview_stats -> Stats
+    qap_overview_stats=?الإحصائيات
+    # 👽 qap_overview_weekly -> Weekly
+    qap_overview_weekly=?أسبوعي
+    # 👽 qap_pause_time -> Pause Time
+    qap_pause_time=?وقت التوقف المؤقت
+    # 👽 qap_platform_action_error -> Error while performing platform action.
+    qap_platform_action_error=?خطأ أثناء إجراء إجراء النظام الأساسي.
+    # 👽 qap_process_note_error -> Error while processing a Note.
+    qap_process_note_error=?خطأ أثناء معالجة ملاحظة.
+    # 👽 qap_run -> Run
+    qap_run=?تشغيل
+    # 👽 qap_save_case_error -> Error while saving Case.
+    qap_save_case_error=?خطأ أثناء حفظ الحالة.
+    # 👽 qap_save_client_error -> Error while saving Client.
+    qap_save_client_error=?خطأ أثناء حفظ العميل.
+    # 👽 qap_search_cases_error -> Error searching for the requested Cases.
+    qap_search_cases_error=?خطأ أثناء البحث عن الحالات المطلوبة.
+    # 👽 qap_search_clients_error -> Error searching for the requested Clients.
+    qap_search_clients_error=?خطأ أثناء البحث عن العملاء المطلوبين.
+    # 👽 qap_server -> Server
+    qap_server=?الخادم
+    # 👽 qap_session_time -> Session Time
+    qap_session_time=?وقت الجلسة
+    # 👽 qap_signout -> Sign out
+    qap_signout=?تسجيل الخروج
+    # 👽 qap_softphone -> Phone
+    qap_softphone=?الهاتف
+    # 👽 qap_softphone_debug -> Softphone
+    qap_softphone_debug=?الهاتف البرمجي
+    # 👽 qap_start_work -> Start Work
+    qap_start_work=?بدء العمل
+    # 👽 qap_status_paused -> Paused
+    qap_status_paused=?متوقف مؤقتًا
+    # 👽 qap_status_unpaused -> Unpaused
+    qap_status_unpaused=?غير متوقف مؤقتًا
+    # 👽 qap_title_calendar -> Calendar
+    qap_title_calendar=?التقويم
+    # 👽 qap_title_cases -> Cases
+    qap_title_cases=?الحالات
+    # 👽 qap_title_clients -> Clients
+    qap_title_clients=?العملاء
+    # 👽 qap_title_control -> Queue Control
+    qap_title_control=?التحكم في قائمة الانتظار
+    # 👽 qap_title_interactions -> Interactions
+    qap_title_interactions=?التفاعلات
+    # 👽 qap_title_note -> New Note
+    qap_title_note=?ملاحظة جديدة
+    # 👽 qap_title_notes_done -> Done
+    qap_title_notes_done=?تم
+    # 👽 qap_title_notes_pending -> Pending
+    qap_title_notes_pending=?معلق
+    # 👽 qap_title_outcomes -> Outcome and Feature Codes
+    qap_title_outcomes=?النتائج ورموز الميزات
+    # 👽 qap_title_overview -> Overview
+    qap_title_overview=?نظرة عامة
+    # 👽 qap_today -> Today
+    qap_today=?اليوم
+    # 👽 qap_transaction_body -> Comment
+    qap_transaction_body=?تعليق
+    # 👽 qap_transaction_title -> Title
+    qap_transaction_title=?العنوان
+    # 👽 qap_unknown_caller -> Unknown Caller
+    qap_unknown_caller=?متصل غير معروف
+    # 👽 qap_user_pref_error -> Error while fetching user preferences.
+    qap_user_pref_error=?خطأ أثناء جلب تفضيلات المستخدم.
+    # 👽 qap_wbt_campaign -> Campaign
+    qap_wbt_campaign=?الحملة
+    # 👽 qap_wbt_comments -> Comments
+    qap_wbt_comments=?تعليقات
+    # 👽 qap_wbt_date -> Date
+    qap_wbt_date=?التاريخ
+    # 👽 qap_wbt_num -> Number
+    qap_wbt_num=?الرقم
+    # 👽 qap_wbt_recall -> Recall
+    qap_wbt_recall=?إعادة الاتصال
+    # 👽 qap_wbt_title -> Schedule WombatDialer Recall
+    qap_wbt_title=?جدولة إعادة الاتصال بـ WombatDialer
+    # 👽 qap_welcome -> Welcome Back!
+    qap_welcome=?مرحبًا بك مرة أخرى!
+    # 👽 qap_you_have -> You have
+    qap_you_have=?لديك
     qatarget_agentgroup=مجموعة وكيل
     qatarget_allcalls=جميع المكالمات
     qatarget_individual_agents=وكيل
@@ -4474,12 +4474,12 @@ Other items
     realtime_tooltip_features=ميزة
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=متغير
-    # 🔴 recallstate_needs_further -> Needs further recall
-    ➡️ recallstate_needs_further=
-    # 🔴 recallstate_not_recalled -> Not yet recalled
-    ➡️ recallstate_not_recalled=
-    # 🔴 recallstate_recalled -> Recalled
-    ➡️ recallstate_recalled=
+    # 👽 recallstate_needs_further -> Needs further recall
+    recallstate_needs_further=?يحتاج إلى إعادة اتصال إضافية
+    # 👽 recallstate_not_recalled -> Not yet recalled
+    recallstate_not_recalled=?لم يتم إعادة الاتصال بعد
+    # 👽 recallstate_recalled -> Recalled
+    recallstate_recalled=?تم إعادة الاتصال
     record_tag_inserttag_button=إضافة علامة
     record_tag_inserttag_title=إدراج علامة جديدة
     record_tags_color=اللون
@@ -4489,8 +4489,8 @@ Other items
     record_tags_color_set=وضع علامة اللون
     record_tags_duration=مدة
     record_tags_duration_s=مدة (ثانية)
-    # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
-    ➡️ record_tags_erroradd=
+    # 👽 record_tags_erroradd -> Error adding marker. Please retry.
+    record_tags_erroradd=?خطأ في إضافة علامة. يرجى إعادة المحاولة.
     record_tags_errordelete=خطأ في حذف العلامة. الرجاء اعادة المحاولة
     record_tags_file=ملف تسجيل
     record_tags_numtag=العلامات متاحة
@@ -4501,57 +4501,57 @@ Other items
     record_tags_wrongduration=يرجى إدخال تنسيق مدة صالح
     record_tags_wrongnote=يرجى إدخال ملاحظة
     record_tags_wrongtime=يرجى إدخال تنسيق وقت صالح
-    # 🔴 recstat_closed -> Closed
-    ➡️ recstat_closed=
-    # 🔴 recstat_merged -> Merged
-    ➡️ recstat_merged=
-    # 🔴 recstat_open -> Open
-    ➡️ recstat_open=
+    # 👽 recstat_closed -> Closed
+    recstat_closed=?مغلق
+    # 👽 recstat_merged -> Merged
+    recstat_merged=?مدمج
+    # 👽 recstat_open -> Open
+    recstat_open=?مفتوح
     report_filter_noncont_time=بين
     report_input_error=القيمة غير مقاسة
     reports_add_datablocks=اضافة DataBlocks
     reports_add_filter=اضافة فلتر
     reports_add_filter_button=اضافة فلتر
     reports_adddatablock_onhover_message=اضافة DataBlock
-    # 🔴 reports_apply -> Apply
-    ➡️ reports_apply=
-    # 🔴 reports_at_caller -> Caller:
-    ➡️ reports_at_caller=
-    # 🔴 reports_at_collapse -> Collapse.
-    ➡️ reports_at_collapse=
-    # 🔴 reports_at_duration -> Duration:
-    ➡️ reports_at_duration=
-    # 🔴 reports_at_expand -> See more details.
-    ➡️ reports_at_expand=
-    # 🔴 reports_at_idle -> Idle Time:
-    ➡️ reports_at_idle=
-    # 🔴 reports_at_info -> Session information for
-    ➡️ reports_at_info=
+    # 👽 reports_apply -> Apply
+    reports_apply=?تطبيق
+    # 👽 reports_at_caller -> Caller:
+    reports_at_caller=?المتصل:
+    # 👽 reports_at_collapse -> Collapse.
+    reports_at_collapse=?طي.
+    # 👽 reports_at_duration -> Duration:
+    reports_at_duration=?المدة:
+    # 👽 reports_at_expand -> See more details.
+    reports_at_expand=?انظر المزيد من التفاصيل.
+    # 👽 reports_at_idle -> Idle Time:
+    reports_at_idle=?وقت الخمول:
+    # 👽 reports_at_info -> Session information for
+    reports_at_info=?معلومات الجلسة لـ
     reports_at_least_one_queue=يجب اختيار صف واحد على الأقل
-    # 🔴 reports_at_lostatt -> Lost Attempts:
-    ➡️ reports_at_lostatt=
-    # 🔴 reports_at_pause -> Pause Code:
-    ➡️ reports_at_pause=
-    # 🔴 reports_at_queue -> Queue:
-    ➡️ reports_at_queue=
-    # 🔴 reports_at_queues -> Queues:
-    ➡️ reports_at_queues=
-    # 🔴 reports_at_taken -> Taken Calls:
-    ➡️ reports_at_taken=
-    # 🔴 reports_at_talk -> Talk Time:
-    ➡️ reports_at_talk=
-    # 🔴 reports_at_wait -> Wait:
-    ➡️ reports_at_wait=
+    # 👽 reports_at_lostatt -> Lost Attempts:
+    reports_at_lostatt=?المحاولات الفائتة:
+    # 👽 reports_at_pause -> Pause Code:
+    reports_at_pause=?رمز التوقف المؤقت:
+    # 👽 reports_at_queue -> Queue:
+    reports_at_queue=?قائمة الانتظار:
+    # 👽 reports_at_queues -> Queues:
+    reports_at_queues=?قوائم الانتظار:
+    # 👽 reports_at_taken -> Taken Calls:
+    reports_at_taken=?المكالمات الملتقطة:
+    # 👽 reports_at_talk -> Talk Time:
+    reports_at_talk=?وقت التحدث:
+    # 👽 reports_at_wait -> Wait:
+    reports_at_wait=?الانتظار:
     reports_atomic_filters=فلتر التعبير
     reports_autosave_toggle=حفظ تلقائي
     reports_change_report_confirm=يوجد لديك تعديل غير محفوظة، اختيار تقرير آخر سوف يلغي تلك التعديلات، هل تريد تغيير التقرير
     reports_chart_avgdur=متأسف المدة
     reports_chart_delta=الفرق
-    # 🔴 reports_chart_error -> Invalid Chart Configuration.
-    ➡️ reports_chart_error=
+    # 👽 reports_chart_error -> Invalid Chart Configuration.
+    reports_chart_error=?تكوين مخطط غير صالح.
     reports_chart_numcalls=عدد المكالمات
-    # 🔴 reports_chart_others -> Others
-    ➡️ reports_chart_others=
+    # 👽 reports_chart_others -> Others
+    reports_chart_others=?أخرى
     reports_chart_sla=SLA
     reports_clone=نسخ تقرير
     reports_close_btn=اغلاق
@@ -4562,20 +4562,20 @@ Other items
     reports_create_successful=تم انشاء التقرير بنجاح
     reports_datablock_chart=مخطط
     reports_datablock_columns_customization=أعمدة مخصصة
-    # 🔴 reports_datablock_columns_short -> Columns
-    ➡️ reports_datablock_columns_short=
-    # 🔴 reports_datablock_errormsg -> Error Message
-    ➡️ reports_datablock_errormsg=
-    # 🔴 reports_datablock_label_subtititle -> Subtitle
-    ➡️ reports_datablock_label_subtititle=
+    # 👽 reports_datablock_columns_short -> Columns
+    reports_datablock_columns_short=?أعمدة
+    # 👽 reports_datablock_errormsg -> Error Message
+    reports_datablock_errormsg=?رسالة خطأ
+    # 👽 reports_datablock_label_subtititle -> Subtitle
+    reports_datablock_label_subtititle=?عنوان فرعي
     reports_datablock_label_subtitle=ملاحظات DataBlock
     reports_datablock_label_title=عنوان DataBlock
-    # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
-    ➡️ reports_datablock_order_customization=
-    # 🔴 reports_datablock_order_short -> DataBlocks
-    ➡️ reports_datablock_order_short=
-    # 🔴 reports_datablock_status -> Status
-    ➡️ reports_datablock_status=
+    # 👽 reports_datablock_order_customization -> Customize DataBlock Order
+    reports_datablock_order_customization=?تخصيص ترتيب كتل البيانات
+    # 👽 reports_datablock_order_short -> DataBlocks
+    reports_datablock_order_short=?كتل البيانات
+    # 👽 reports_datablock_status -> Status
+    reports_datablock_status=?الحالة
     reports_datablockview_added=تم اضافة DataBlock
     reports_datablockview_order=عرض طلب DataBlock
     reports_datablockview_parameters=محددات
@@ -4587,24 +4587,24 @@ Other items
     reports_delete_current_page_confirm=حذف الصفحة الحالية؟
     reports_delete_current_report_confirm=حذف التقرير الحالي؟
     reports_delete_datablockview=حذف عرض DataBlock
-    # 🔴 reports_delete_datablockview_short -> Delete
-    ➡️ reports_delete_datablockview_short=
-    # 🔴 reports_delete_filter -> Delete Filter
-    ➡️ reports_delete_filter=
+    # 👽 reports_delete_datablockview_short -> Delete
+    reports_delete_datablockview_short=?حذف
+    # 👽 reports_delete_filter -> Delete Filter
+    reports_delete_filter=?حذف الفلتر
     reports_delete_page=حذف صفحة
     reports_delete_successful=تم حذف التقرير بنجاح
-    # 🔴 reports_drag_info -> Drag the elements to order them.
-    ➡️ reports_drag_info=
-    # 🔴 reports_edit -> Edit
-    ➡️ reports_edit=
+    # 👽 reports_drag_info -> Drag the elements to order them.
+    reports_drag_info=?اسحب العناصر لترتيبها.
+    # 👽 reports_edit -> Edit
+    reports_edit=?تعديل
     reports_edit_datablocks=DataBlocks
     reports_edit_datablockview=تعديل DataBlock
     reports_edit_datablockview_complete=تأكيد
-    # 🔴 reports_edit_datablockview_short -> Edit
-    ➡️ reports_edit_datablockview_short=
+    # 👽 reports_edit_datablockview_short -> Edit
+    reports_edit_datablockview_short=?تعديل
     reports_edit_disabled=هذا التقرير للقراءة فقط، لأنك غير مصرح لك بتعديل التقرير
-    # 🔴 reports_edit_filter -> Edit Filter
-    ➡️ reports_edit_filter=
+    # 👽 reports_edit_filter -> Edit Filter
+    reports_edit_filter=?تعديل الفلتر
     reports_edit_filters=فلاتر
     reports_edit_name=تعديل اسم التقرير
     reports_edit_page=تعديل الصفحة
@@ -4619,17 +4619,17 @@ Other items
     reports_export_mode_landscape=أفقي
     reports_export_mode_pdf=تصدير إلى PDF
     reports_export_mode_portrait=صورة
-    # 🔴 reports_export_pdf_short -> PDF
-    ➡️ reports_export_pdf_short=
-    # 🔴 reports_export_schema -> Export Report Schema
-    ➡️ reports_export_schema=
-    # 🔴 reports_export_schema_error -> The Report Schema could not be exported.
-    ➡️ reports_export_schema_error=
+    # 👽 reports_export_pdf_short -> PDF
+    reports_export_pdf_short=?PDF
+    # 👽 reports_export_schema -> Export Report Schema
+    reports_export_schema=?تصدير مخطط التقرير
+    # 👽 reports_export_schema_error -> The Report Schema could not be exported.
+    reports_export_schema_error=?تعذر تصدير مخطط التقرير.
     reports_export_test_icon=تشغيل الآن
-    # 🔴 reports_export_xls_short -> XLS
-    ➡️ reports_export_xls_short=
-    # 🔴 reports_fetch_error -> Error fetching DataBlock
-    ➡️ reports_fetch_error=
+    # 👽 reports_export_xls_short -> XLS
+    reports_export_xls_short=?XLS
+    # 👽 reports_fetch_error -> Error fetching DataBlock
+    reports_fetch_error=?خطأ في جلب كتلة البيانات
     reports_filter_agent=وكيل
     reports_filter_agentgroup=مجموعة وكيل
     reports_filter_asteriskid=Unique ID
@@ -4641,10 +4641,10 @@ Other items
     reports_filter_caller=المتصل
     reports_filter_callskills=مهارات مكالمة
     reports_filter_calltags=اشارة مكالمة
-    # 🔴 reports_filter_case -> Case
-    ➡️ reports_filter_case=
-    # 🔴 reports_filter_client -> Client
-    ➡️ reports_filter_client=
+    # 👽 reports_filter_case -> Case
+    reports_filter_case=?الحالة
+    # 👽 reports_filter_client -> Client
+    reports_filter_client=?العميل
     reports_filter_date_from=من
     reports_filter_date_to=إلى
     reports_filter_disconnection=سبب الانقطاع
@@ -4656,8 +4656,8 @@ Other items
     reports_filter_input_error=ادخال خاطئ
     reports_filter_ivr=IVR
     reports_filter_location=موقع
-    # 🔴 reports_filter_none -> None
-    ➡️ reports_filter_none=
+    # 👽 reports_filter_none -> None
+    reports_filter_none=?لا شيء
     reports_filter_noncont_time=بين
     reports_filter_noncontdays=أيام
     reports_filter_noncontr1from=وقت ١ منذ
@@ -4670,52 +4670,52 @@ Other items
     reports_filter_shortcallattempt=أدنى وقت محاولة "مكالمة قصيرة"
     reports_filter_shortcalltalk=أدنى وقت كلام "مكالمة قصيرة"
     reports_filter_shortcallwait=أدنى وقت انتظار "مكالمة قصيرة"
-    # 🔴 reports_filter_timerange -> Select time range
-    ➡️ reports_filter_timerange=
-    # 🔴 reports_filter_variable_name -> Variable Name
-    ➡️ reports_filter_variable_name=
-    # 🔴 reports_filter_variable_value -> Variable Value
-    ➡️ reports_filter_variable_value=
+    # 👽 reports_filter_timerange -> Select time range
+    reports_filter_timerange=?حدد النطاق الزمني
+    # 👽 reports_filter_variable_name -> Variable Name
+    reports_filter_variable_name=?اسم المتغير
+    # 👽 reports_filter_variable_value -> Variable Value
+    reports_filter_variable_value=?قيمة المتغير
     reports_filter_variables=متغيرات
     reports_filter_waitmax=أقصى وقت انتظار
     reports_filter_waitmin=أدنى وقت انتظار
-    # 🔴 reports_filters -> Show/Hide Filters
-    ➡️ reports_filters=
+    # 👽 reports_filters -> Show/Hide Filters
+    reports_filters=?إظهار/إخفاء الفلاتر
     reports_goto_page=أذهب إلى
-    # 🔴 reports_grouping_title -> Call Grouping
-    ➡️ reports_grouping_title=
-    # 🔴 reports_import_schema -> Import Report Schema
-    ➡️ reports_import_schema=
-    # 🔴 reports_import_schema_error -> Error while importing Report Schema.
-    ➡️ reports_import_schema_error=
-    # 🔴 reports_import_schema_success -> Report Schema Imported Successfully.
-    ➡️ reports_import_schema_success=
+    # 👽 reports_grouping_title -> Call Grouping
+    reports_grouping_title=?تجميع المكالمات
+    # 👽 reports_import_schema -> Import Report Schema
+    reports_import_schema=?استيراد مخطط التقرير
+    # 👽 reports_import_schema_error -> Error while importing Report Schema.
+    reports_import_schema_error=?خطأ أثناء استيراد مخطط التقرير.
+    # 👽 reports_import_schema_success -> Report Schema Imported Successfully.
+    reports_import_schema_success=?تم استيراد مخطط التقرير بنجاح.
     reports_invalid_input=لقد ادخلت قيمة غير مسموح بها
     reports_link_copy_successful=تم نسخ رابط التقرير إلى Clipboard
-    # 🔴 reports_lost_calls -> Lost Calls
-    ➡️ reports_lost_calls=
+    # 👽 reports_lost_calls -> Lost Calls
+    reports_lost_calls=?المكالمات الفائتة
     reports_modify_report_name=تعديل اسم التقرير
     reports_multistint=نمط Multi-Stint
     reports_new_page_shorttitle=جديد
     reports_new_page_title=صفحة جديدة
     reports_new_report=تقرير جديد
     reports_next_datablock=التالي
-    # 🔴 reports_no_available_queues -> The current user cannot access any queue.
-    ➡️ reports_no_available_queues=
-    # 🔴 reports_no_filters -> Add Filters
-    ➡️ reports_no_filters=
+    # 👽 reports_no_available_queues -> The current user cannot access any queue.
+    reports_no_available_queues=?لا يمكن للمستخدم الحالي الوصول إلى أي قائمة انتظار.
+    # 👽 reports_no_filters -> Add Filters
+    reports_no_filters=?أضف فلاتر
     reports_no_queue_selected=لم يتم اختيار صف
     reports_noncont_days_filter=أيام الأسبوع
     reports_noncont_time_filter=فلتر مدة زمنية
-    # 🔴 reports_not_filter -> Negate this filter
-    ➡️ reports_not_filter=
+    # 👽 reports_not_filter -> Negate this filter
+    reports_not_filter=?نفي هذا الفلتر
     reports_operator_and=و
     reports_operator_nor=ولا
     reports_operator_or=أو
-    # 🔴 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
-    ➡️ reports_optilock_exception=
-    # 🔴 reports_owned_by -> Owned by
-    ➡️ reports_owned_by=
+    # 👽 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
+    reports_optilock_exception=?التقرير الذي تحاول تعديله تم تعديله بواسطة شخص آخر ولا يمكن حفظه.
+    # 👽 reports_owned_by -> Owned by
+    reports_owned_by=?مملوك لـ
     reports_page_create_successful=تم انشاء الصفحة بنجاح
     reports_page_delete=حذف الصفحة
     reports_page_delete_successful=تم حذف الصفحة بنجاح
@@ -4723,39 +4723,39 @@ Other items
     reports_page_visibilitykey=مفتاح الرؤية
     reports_pagination_gotopage=أذهب إلى الصفحة
     reports_pagination_loading=تحميل ... 
-    # 🔴 reports_pagination_next -> Next page
-    ➡️ reports_pagination_next=
+    # 👽 reports_pagination_next -> Next page
+    reports_pagination_next=?الصفحة التالية
     reports_pagination_of=من
     reports_pagination_page=صفحة
-    # 🔴 reports_pagination_prev -> Previous page
-    ➡️ reports_pagination_prev=
+    # 👽 reports_pagination_prev -> Previous page
+    reports_pagination_prev=?الصفحة السابقة
     reports_pagination_show=عرض
     reports_pagination_showing=عرض
-    # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
-    ➡️ reports_period_too_long=
+    # 👽 reports_period_too_long -> This report covers a longer period than you are allowed to run.
+    reports_period_too_long=?يغطي هذا التقرير فترة أطول مما يُسمح لك بتشغيله.
     reports_prev_datablock=سابقة
     reports_preview_switch=عرض
-    # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
-    ➡️ reports_print_notification=
+    # 👽 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
+    reports_print_notification=?جاري الخروج من وضع الطباعة. يرجى الانتظار حتى يتم إعادة تحميل التقرير. قد يستغرق هذا بعض الوقت، خاصة إذا كنت تقوم بطباعة جداول كبيرة.
     reports_public=عام
-    # 🔴 reports_qa_agent -> Agent
-    ➡️ reports_qa_agent=
-    # 🔴 reports_qa_agentgroup -> Agent group
-    ➡️ reports_qa_agentgroup=
-    # 🔴 reports_qa_caller -> Caller
-    ➡️ reports_qa_caller=
-    # 🔴 reports_qa_code -> Code
-    ➡️ reports_qa_code=
-    # 🔴 reports_qa_deletenotes -> Delete All
-    ➡️ reports_qa_deletenotes=
-    # 🔴 reports_qa_description -> Description
-    ➡️ reports_qa_description=
-    # 🔴 reports_qa_error_add_note -> Error Adding Note
-    ➡️ reports_qa_error_add_note=
-    # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
-    ➡️ reports_qa_error_commit_form=
-    # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
-    ➡️ reports_qa_error_delete_form=
+    # 👽 reports_qa_agent -> Agent
+    reports_qa_agent=?الوكيل
+    # 👽 reports_qa_agentgroup -> Agent group
+    reports_qa_agentgroup=?مجموعة الوكلاء
+    # 👽 reports_qa_caller -> Caller
+    reports_qa_caller=?المتصل
+    # 👽 reports_qa_code -> Code
+    reports_qa_code=?الرمز
+    # 👽 reports_qa_deletenotes -> Delete All
+    reports_qa_deletenotes=?حذف الكل
+    # 👽 reports_qa_description -> Description
+    reports_qa_description=?الوصف
+    # 👽 reports_qa_error_add_note -> Error Adding Note
+    reports_qa_error_add_note=?خطأ في إضافة ملاحظة
+    # 👽 reports_qa_error_commit_form -> Error Committing QA Form
+    reports_qa_error_commit_form=?خطأ في إرسال نموذج ضمان الجودة
+    # 👽 reports_qa_error_delete_form -> Error Deleting QA Form
+    reports_qa_error_delete_form=?خطأ في حذف نموذج ضمان الجودة
     # 🔴 reports_qa_error_delete_note -> Error Deleting Note
     ➡️ reports_qa_error_delete_note=
     # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
