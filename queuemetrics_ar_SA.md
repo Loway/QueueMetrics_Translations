@@ -4227,8 +4227,8 @@ Other items
     qap_filters_type=?النوع
     # 👽 qap_filters_unk -> Unknown
     qap_filters_unk=?غير معروف
-    # 🔴 qap_filters_wrap -> Wrap
-    ➡️ qap_filters_wrap=
+    # 👽 qap_filters_wrap -> Wrap
+    qap_filters_wrap=?إنهاء
     # 👽 qap_find_cases -> Find your Cases
     qap_find_cases=?ابحث عن حالاتك
     # 👽 qap_find_clients -> Find your Clients
@@ -4756,55 +4756,55 @@ Other items
     reports_qa_error_commit_form=?خطأ في إرسال نموذج ضمان الجودة
     # 👽 reports_qa_error_delete_form -> Error Deleting QA Form
     reports_qa_error_delete_form=?خطأ في حذف نموذج ضمان الجودة
-    # 🔴 reports_qa_error_delete_note -> Error Deleting Note
-    ➡️ reports_qa_error_delete_note=
-    # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
-    ➡️ reports_qa_error_download_forms=
-    # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
-    ➡️ reports_qa_error_edit_form=
-    # 🔴 reports_qa_error_update_form -> Error Updating QA Form
-    ➡️ reports_qa_error_update_form=
-    # 🔴 reports_qa_items -> Items
-    ➡️ reports_qa_items=
-    # 🔴 reports_qa_level -> Level
-    ➡️ reports_qa_level=
-    # 🔴 reports_qa_na -> N/A
-    ➡️ reports_qa_na=
-    # 🔴 reports_qa_newnote -> New Note
-    ➡️ reports_qa_newnote=
-    # 🔴 reports_qa_noteform_placeholder -> Write your comment here
-    ➡️ reports_qa_noteform_placeholder=
-    # 🔴 reports_qa_noteform_title -> Add Note
-    ➡️ reports_qa_noteform_title=
-    # 🔴 reports_qa_notes -> Notes
-    ➡️ reports_qa_notes=
-    # 🔴 reports_qa_performance_avg -> Avg.
-    ➡️ reports_qa_performance_avg=
-    # 🔴 reports_qa_performance_title -> Performance
-    ➡️ reports_qa_performance_title=
-    # 🔴 reports_qa_performance_total -> Total score
-    ➡️ reports_qa_performance_total=
-    # 🔴 reports_qa_queue -> Queue
-    ➡️ reports_qa_queue=
-    # 🔴 reports_qa_range -> Range
-    ➡️ reports_qa_range=
-    # 🔴 reports_qa_recap_heading -> Call Details
-    ➡️ reports_qa_recap_heading=
-    # 🔴 reports_qa_select_form -> Select Form
-    ➡️ reports_qa_select_form=
-    # 🔴 reports_qa_start -> Start Time
-    ➡️ reports_qa_start=
-    # 🔴 reports_qa_status -> Status
-    ➡️ reports_qa_status=
-    # 🔴 reports_qa_uid -> Unique Id
-    ➡️ reports_qa_uid=
-    # 🔴 reports_qa_value -> Value
-    ➡️ reports_qa_value=
-    # 🔴 reports_qa_print -> Print
-    ➡️ reports_qa_print=
+    # 👽 reports_qa_error_delete_note -> Error Deleting Note
+    reports_qa_error_delete_note=?خطأ في حذف الملاحظة
+    # 👽 reports_qa_error_download_forms -> Error Downloading QA Forms
+    reports_qa_error_download_forms=?خطأ في تنزيل نماذج ضمان الجودة
+    # 👽 reports_qa_error_edit_form -> Error Editing QA Form
+    reports_qa_error_edit_form=?خطأ في تعديل نموذج ضمان الجودة
+    # 👽 reports_qa_error_update_form -> Error Updating QA Form
+    reports_qa_error_update_form=?خطأ في تحديث نموذج ضمان الجودة
+    # 👽 reports_qa_items -> Items
+    reports_qa_items=?العناصر
+    # 👽 reports_qa_level -> Level
+    reports_qa_level=?المستوى
+    # 👽 reports_qa_na -> N/A
+    reports_qa_na=?غير متوفر
+    # 👽 reports_qa_newnote -> New Note
+    reports_qa_newnote=?ملاحظة جديدة
+    # 👽 reports_qa_noteform_placeholder -> Write your comment here
+    reports_qa_noteform_placeholder=?اكتب تعليقك هنا
+    # 👽 reports_qa_noteform_title -> Add Note
+    reports_qa_noteform_title=?إضافة ملاحظة
+    # 👽 reports_qa_notes -> Notes
+    reports_qa_notes=?ملاحظات
+    # 👽 reports_qa_performance_avg -> Avg.
+    reports_qa_performance_avg=?المتوسط
+    # 👽 reports_qa_performance_title -> Performance
+    reports_qa_performance_title=?الأداء
+    # 👽 reports_qa_performance_total -> Total score
+    reports_qa_performance_total=?النتيجة الإجمالية
+    # 👽 reports_qa_queue -> Queue
+    reports_qa_queue=?قائمة الانتظار
+    # 👽 reports_qa_range -> Range
+    reports_qa_range=?المدى
+    # 👽 reports_qa_recap_heading -> Call Details
+    reports_qa_recap_heading=?تفاصيل المكالمة
+    # 👽 reports_qa_select_form -> Select Form
+    reports_qa_select_form=?تحديد النموذج
+    # 👽 reports_qa_start -> Start Time
+    reports_qa_start=?وقت البدء
+    # 👽 reports_qa_status -> Status
+    reports_qa_status=?الحالة
+    # 👽 reports_qa_uid -> Unique Id
+    reports_qa_uid=?معرف فريد
+    # 👽 reports_qa_value -> Value
+    reports_qa_value=?القيمة
+    # 👽 reports_qa_print -> Print
+    reports_qa_print=?طباعة
     reports_query_loading=تحميل
-    # 🔴 reports_ratio -> Ratio
-    ➡️ reports_ratio=
+    # 👽 reports_ratio -> Ratio
+    reports_ratio=?النسبة
     reports_recap_no_filters=اضغط لاضافة فلاتر جديدة
     reports_recap_queues=صفوف
     reports_recap_report=تقرير
@@ -4817,14 +4817,14 @@ Other items
     reports_save_report_confirm_message=حفظ التقرير الحالي أو انشاء نسخة بالتعديلات الجديدة
     reports_save_report_confirm_title=احفظ التقرير
     reports_save_successful=تم حفظ التقرير بنجاح
-    # 🔴 reports_search_placeholder -> Search Filter
-    ➡️ reports_search_placeholder=
+    # 👽 reports_search_placeholder -> Search Filter
+    reports_search_placeholder=?فلتر البحث
     reports_select_report=اختر تقرير
     reports_settings=اعدادات
     reports_settings_areacode=رمز المنطقة
     reports_settings_datablock=DataBlock
-    # 🔴 reports_settings_default -> Reset to System Default
-    ➡️ reports_settings_default=
+    # 👽 reports_settings_default -> Reset to System Default
+    reports_settings_default=?إعادة تعيين إلى الافتراضي
     reports_settings_hourlyslot=المساقات الساعية
     reports_settings_report=تقرير
     reports_settings_shortcallattemptwaitlimit=حد انتظار المحاولة للمكالمات القصيرة
@@ -4836,14 +4836,14 @@ Other items
     reports_settings_slamaxinitialdelay=SLA أقصى تأخير انشاء
     reports_settings_slamaxmonitoreddelay=SLA أقصى تأخير مراقب
     reports_shortcalls_no=لا
-    # 🔴 reports_skill_level -> Skill Level
-    ➡️ reports_skill_level=
+    # 👽 reports_skill_level -> Skill Level
+    reports_skill_level=?مستوى المهارة
     reports_ssaragents=تقرير الوكلاء للخدمة الذاتية
     reports_supervised=يتم الاشراف عليه
     reports_tab_editor=تعديل ترتيب البوابات
     reports_tab_page_list=صفحة التقارير المتاحة
-    # 🔴 reports_taken_calls -> Taken Calls
-    ➡️ reports_taken_calls=
+    # 👽 reports_taken_calls -> Taken Calls
+    reports_taken_calls=?المكالمات الملتقطة
     reports_throwaway_report_new=تقرير غير محفوظ
     reports_time=الوقت
     reports_time_mode=تعديل نمط اختيار الوقت
@@ -4853,12 +4853,12 @@ Other items
     reports_time_preset_last1hour=آخر ساعة
     reports_time_preset_last24hours=آخر ٢٤ ساعة
     reports_time_preset_last2days=آخر يومين
-    # 🔴 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
-    ➡️ reports_time_preset_last2days_midnight=
+    # 👽 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
+    reports_time_preset_last2days_midnight=?آخر يومين (منذ منتصف الليل)
     reports_time_preset_last2years=آخر سنتين
     reports_time_preset_last30days=آخر ٣٠ يوم
-    # 🔴 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
-    ➡️ reports_time_preset_last30days_midnight=
+    # 👽 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
+    reports_time_preset_last30days_midnight=?آخر 30 يومًا (منذ منتصف الليل)
     reports_time_preset_last30minutes=آخر ٣٠ دقيقة
     reports_time_preset_last3hours=آخر ٣ ساعات
     reports_time_preset_last5minutes=آخر ٥ دقائق
@@ -4866,11 +4866,11 @@ Other items
     reports_time_preset_last6hours=آخر ٦ سنوات
     reports_time_preset_last6months=آخر ٦ أشهر
     reports_time_preset_last7days=آخر ٧ أيام
-    # 🔴 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
-    ➡️ reports_time_preset_last7days_midnight=
+    # 👽 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
+    reports_time_preset_last7days_midnight=?آخر 7 أيام (منذ منتصف الليل)
     reports_time_preset_last90days=آخر ٩٠ بوم
-    # 🔴 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
-    ➡️ reports_time_preset_last90days_midnight=
+    # 👽 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
+    reports_time_preset_last90days_midnight=?آخر 90 يومًا (منذ منتصف الليل)
     reports_time_preset_lastyear=آخر سنة
     reports_time_preset_previousmonth=الشهر الماضي
     reports_time_preset_previousweek=الأسبوع الماضي
@@ -4889,14 +4889,14 @@ Other items
     reports_topbar_icon_export_PDF__open_hover_tooltip=تصدير PDF
     reports_topbar_icon_export_excel__open_hover_tooltip=تصدير XLS
     reports_topbar_icon_filter_open_hover_tooltip=فلاتر
-    # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
-    ➡️ reports_topbar_icon_print_hover_tooltip=
+    # 👽 reports_topbar_icon_print_hover_tooltip -> Print
+    reports_topbar_icon_print_hover_tooltip=?طباعة
     reports_topbar_icon_run_report_hover_tooltip=اجراء طلب
     reports_topbar_icon_save_report_hover_tooltip=حفظ تقرير
     reports_topbar_icon_settings_open_hover_tooltip=اعدادات
     reports_topbar_icon_share_open_hover_tooltip=مشاركة رابط
-    # 🔴 reports_total_calls -> Total Calls
-    ➡️ reports_total_calls=
+    # 👽 reports_total_calls -> Total Calls
+    reports_total_calls=?إجمالي المكالمات
     reports_trash=اسحب إلى هنا للحذف
     reports_unsaved=غير محفوظ
     reports_visibilitykey=مفتاح الرؤية
@@ -4913,8 +4913,8 @@ Other items
     rt_all_queues=عرض كافة قوائم الانتظار
     rt_all_selected=كل مختارة
     rt_bsy=مشغول
-    # 🔴 rt_busysince -> Busy Since
-    ➡️ rt_busysince=
+    # 👽 rt_busysince -> Busy Since
+    rt_busysince=?مشغول منذ
     rt_caller_nbsp=المتصل
     rt_callid=استدعاء معرف
     rt_calls_being_processed=المكالمات التي يتم معالجتها
@@ -4991,8 +4991,8 @@ Other items
     rt_pauseagent=توقف مؤقت لوكيل
     rt_pauseagent_tt=توقف مؤقت لوكيل
     rt_paused_for=ايقاف مؤقت لـ
-    # 🔴 rt_pausedsince -> Paused Since
-    ➡️ rt_pausedsince=
+    # 👽 rt_pausedsince -> Paused Since
+    rt_pausedsince=?متوقف مؤقتًا منذ
     rt_pop_agent_code=رمز الوكيل: 
     rt_pop_agent_extension=اكستنشن الوكيل: 
     rt_pop_agent_logon_extension=اكستنشن تسجيل الدخول للوكيل
@@ -5140,18 +5140,18 @@ Other items
     sync2_agent_filter=فلتر الوكيل
     sync2_agent_id=معرف الوكيل
     sync2_agent_im=IM
-    # 🔴 sync2_agent_info -> Agent Information
-    ➡️ sync2_agent_info=
-    # 🔴 sync2_agent_misc -> Misc
-    ➡️ sync2_agent_misc=
+    # 👽 sync2_agent_info -> Agent Information
+    sync2_agent_info=?معلومات الوكيل
+    # 👽 sync2_agent_misc -> Misc
+    sync2_agent_misc=?متنوع
     sync2_agent_sip_pass=WebRTC كلمة مرور
     sync2_agent_sip_realm=WebRTC Realm
     sync2_agent_sip_uri= WebRTC SIP Uri
     sync2_agent_sip_user=WebRTC مستخدم
     sync2_agent_user_password=كلمة مرور المستخدم
     sync2_agent_vnc=VNC
-    # 🔴 sync2_agent_webrtc -> WebRTC
-    ➡️ sync2_agent_webrtc=
+    # 👽 sync2_agent_webrtc -> WebRTC
+    sync2_agent_webrtc=?WebRTC
     sync2_agents_placeholder=وكلاء
     sync2_ami_host=AMI Host
     sync2_ami_pass=AMI كلمة مرور
@@ -5160,22 +5160,22 @@ Other items
     sync2_apply=تطبيق الاعدادات
     sync2_choose_pbx=بدالة
     sync2_choose_source=اختيار المصدر
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=
+    # 👽 sync2_chunker_uploading -> Data Upload
+    sync2_chunker_uploading=?تحميل البيانات
+    # 👽 sync2_chunker_progress -> Uploaded chunks
+    sync2_chunker_progress=?القطع التي تم تحميلها
+    # 👽 sync2_chunker_actions -> Actions left
+    sync2_chunker_actions=?الإجراءات المتبقية
+    # 👽 sync2_chunker_chunks -> Uploading configuration
+    sync2_chunker_chunks=?تحميل التكوين
+    # 👽 sync2_chunker_sending -> Applying actions
+    sync2_chunker_sending=?تطبيق الإجراءات
+    # 👽 sync2_chunker_waiting -> Waiting...
+    sync2_chunker_waiting=?انتظار...
     sync2_cluster=اعدادات Cluster
     sync2_cluster_info=Cluster معلومات
-    # 🔴 sync2_collapse -> Collapse
-    ➡️ sync2_collapse=
+    # 👽 sync2_collapse -> Collapse
+    sync2_collapse=?طي
     sync2_configuration_applied=تم تطبيق الاعدادات الجديدة بنجاح
     sync2_configuration_export=تنزيل الاعدادات الخاصة بك
     sync2_configuration_import=تحميل الاعدادات الخاصة بك
@@ -5184,8 +5184,8 @@ Other items
     sync2_delete=تفعيل حذف أفعال
     sync2_delete_agents_confirm=هل أنت متأكد من انك تريد حذف كل الوكلاء؟
     sync2_delete_queues_confirm=هل أنت متأكد من انك تريد حذف كل الصفوف؟
-    # 🔴 sync2_delete_selected -> Delete
-    ➡️ sync2_delete_selected=
+    # 👽 sync2_delete_selected -> Delete
+    sync2_delete_selected=?حذف
     sync2_deleteall_agent=حذف كل الوكلاء
     sync2_deleteall_queues=حذف كل الصفوف
     sync2_drop_or_upload=اسحب الملف او اضغط لفتح المتصفح
@@ -5196,8 +5196,8 @@ Other items
     sync2_error_comparing_configuration=خطأ مقارنة الاعدادات
     sync2_error_invalid_input=اعدادات JSON التي قمت بتوريدها صالحة ولكن واحد أو اكثر من حقول المعلومات يحتوي نمط بيانات خاطئ، يرجى التحقق من ملف الاعدادات
     sync2_error_read_configuration=المصدر الذي تم اختياره لا يوفر اعدادات متاحة
-    # 🔴 sync2_expand -> Expand
-    ➡️ sync2_expand=
+    # 👽 sync2_expand -> Expand
+    sync2_expand=?توسيع
     sync2_export=تصدير الاعدادات
     sync2_export_filename=اسم الملف
     sync2_file=ملف اعدادات JSON
@@ -5215,8 +5215,8 @@ Other items
     sync2_import=توريد اعدادات
     sync2_import_confirm=لديك اعدادات غير محفوظة، اذا قمت بتوريد اعدادات جديدة سوف تخسر تلك التعديلات هل تريد المتابعة؟
     sync2_inbound=وارد
-    # 🔴 sync2_mode_configuration -> Synchronizer Configuration
-    ➡️ sync2_mode_configuration=
+    # 👽 sync2_mode_configuration -> Synchronizer Configuration
+    sync2_mode_configuration=?تكوين المزامنة
     sync2_new_pbx=بدالة جديدة
     sync2_outbound=صادر
     sync2_pbx_id=اسم البدالة
@@ -5231,17 +5231,17 @@ Other items
     sync2_queue_composition=تكوين
     sync2_queue_created=تم انشاء الصف بنجاح
     sync2_queue_filter=فلتر الصف
-    # 🔴 sync2_queue_info -> Queue Information
-    ➡️ sync2_queue_info=
+    # 👽 sync2_queue_info -> Queue Information
+    sync2_queue_info=?معلومات قائمة الانتظار
     sync2_queue_name=الاسم
     sync2_queues_placeholder=الصفوف
     sync2_read=اقرأ
     sync2_reset=اعادة تعيين
     sync2_save=حفظ
-    # 🔴 sync2_selectall_agents -> Select All Agents
-    ➡️ sync2_selectall_agents=
-    # 🔴 sync2_selectall_queues -> Select All Queues
-    ➡️ sync2_selectall_queues=
+    # 👽 sync2_selectall_agents -> Select All Agents
+    sync2_selectall_agents=?تحديد جميع الوكلاء
+    # 👽 sync2_selectall_queues -> Select All Queues
+    sync2_selectall_queues=?تحديد جميع قوائم الانتظار
     sync2_show_mode_selectors=عرض نمط الاختيارات
     sync2_success_read_configuration=الاعدادات التي تم اختيارها تم توريدها بنجاح
     sync2_trash=حذف
@@ -5250,62 +5250,62 @@ Other items
     sync2_url_input=URL
     t3_circle_lost_calls=المكالمات الفائتة
     t3_live_agent_info=بيانات الوكيل المباشر
-    # 🔴 timeline_avg -> Avg.
-    ➡️ timeline_avg=
-    # 🔴 timeline_close -> Return to Report
-    ➡️ timeline_close=
-    # 🔴 timeline_debug -> Download Debug Info
-    ➡️ timeline_debug=
-    # 🔴 timeline_download_recording -> Download Recording
-    ➡️ timeline_download_recording=
-    # 🔴 timeline_event -> Event
-    ➡️ timeline_event=
-    # 🔴 timeline_events -> Timeline Events
-    ➡️ timeline_events=
-    # 🔴 timeline_interaction_calltot -> Total:
-    ➡️ timeline_interaction_calltot=
-    # 🔴 timeline_marker_add -> Marker
-    ➡️ timeline_marker_add=
-    # 🔴 timeline_marker_delete -> Delete Marker
-    ➡️ timeline_marker_delete=
-    # 🔴 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
-    ➡️ timeline_marker_delete_confirm=
-    # 🔴 timeline_marker_duration -> Duration
-    ➡️ timeline_marker_duration=
-    # 🔴 timeline_marker_editor_title -> Create a Marker
-    ➡️ timeline_marker_editor_title=
-    # 🔴 timeline_marker_list -> Markers
-    ➡️ timeline_marker_list=
-    # 🔴 timeline_marker_message -> Message
-    ➡️ timeline_marker_message=
-    # 🔴 timeline_marker_play -> Go to Marker
-    ➡️ timeline_marker_play=
-    # 🔴 timeline_marker_time -> Time
-    ➡️ timeline_marker_time=
-    # 🔴 timeline_markers_hide -> Hide Markers
-    ➡️ timeline_markers_hide=
-    # 🔴 timeline_markers_show -> Show Markers
-    ➡️ timeline_markers_show=
-    # 🔴 timeline_max -> Max.
-    ➡️ timeline_max=
-    # 🔴 timeline_min -> Min.
-    ➡️ timeline_min=
-    # 🔴 timeline_no_recordings -> No Recordings
-    ➡️ timeline_no_recordings=
-    # 🔴 timeline_number -> Number
-    ➡️ timeline_number=
-    # 🔴 timeline_stint_end -> Stint End
-    ➡️ timeline_stint_end=
-    # 🔴 timeline_stint_start -> Stint Start
-    ➡️ timeline_stint_start=
-    # 🔴 timeline_tab_details -> Details
-    ➡️ timeline_tab_details=
-    # 🔴 timeline_tab_qa -> QA/Recordings
-    ➡️ timeline_tab_qa=
-    # 🔴 timeline_tab_recordings -> Recordings
-    ➡️ timeline_tab_recordings=
-    # 🔴 timeline_totdur -> Tot. Dur.
-    ➡️ timeline_totdur=
+    # 👽 timeline_avg -> Avg.
+    timeline_avg=?المتوسط
+    # 👽 timeline_close -> Return to Report
+    timeline_close=?العودة إلى التقرير
+    # 👽 timeline_debug -> Download Debug Info
+    timeline_debug=?تنزيل معلومات التصحيح
+    # 👽 timeline_download_recording -> Download Recording
+    timeline_download_recording=?تنزيل التسجيل
+    # 👽 timeline_event -> Event
+    timeline_event=?حدث
+    # 👽 timeline_events -> Timeline Events
+    timeline_events=?أحداث المخطط الزمني
+    # 👽 timeline_interaction_calltot -> Total:
+    timeline_interaction_calltot=?الإجمالي:
+    # 👽 timeline_marker_add -> Marker
+    timeline_marker_add=?علامة
+    # 👽 timeline_marker_delete -> Delete Marker
+    timeline_marker_delete=?حذف علامة
+    # 👽 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
+    timeline_marker_delete_confirm=?سيتم حذف العلامة المحددة. متابعة؟
+    # 👽 timeline_marker_duration -> Duration
+    timeline_marker_duration=?المدة
+    # 👽 timeline_marker_editor_title -> Create a Marker
+    timeline_marker_editor_title=?إنشاء علامة
+    # 👽 timeline_marker_list -> Markers
+    timeline_marker_list=?العلامات
+    # 👽 timeline_marker_message -> Message
+    timeline_marker_message=?رسالة
+    # 👽 timeline_marker_play -> Go to Marker
+    timeline_marker_play=?انتقال إلى علامة
+    # 👽 timeline_marker_time -> Time
+    timeline_marker_time=?الوقت
+    # 👽 timeline_markers_hide -> Hide Markers
+    timeline_markers_hide=?إخفاء العلامات
+    # 👽 timeline_markers_show -> Show Markers
+    timeline_markers_show=?إظهار العلامات
+    # 👽 timeline_max -> Max.
+    timeline_max=?الحد الأقصى
+    # 👽 timeline_min -> Min.
+    timeline_min=?الحد الأدنى
+    # 👽 timeline_no_recordings -> No Recordings
+    timeline_no_recordings=?لا توجد تسجيلات
+    # 👽 timeline_number -> Number
+    timeline_number=?الرقم
+    # 👽 timeline_stint_end -> Stint End
+    timeline_stint_end=?نهاية المدة
+    # 👽 timeline_stint_start -> Stint Start
+    timeline_stint_start=?بداية المدة
+    # 👽 timeline_tab_details -> Details
+    timeline_tab_details=?التفاصيل
+    # 👽 timeline_tab_qa -> QA/Recordings
+    timeline_tab_qa=?ضمان الجودة/التسجيلات
+    # 👽 timeline_tab_recordings -> Recordings
+    timeline_tab_recordings=?التسجيلات
+    # 👽 timeline_totdur -> Tot. Dur.
+    timeline_totdur=?إجمالي المدة
     ts_agawrep_invalidlocation=يرجى تحديد موقع صالح
     userpage_change_button=غيرها
     userpage_change_password=تغيير كلمة المرور
