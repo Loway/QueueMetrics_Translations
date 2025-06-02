@@ -192,8 +192,8 @@ Do not change the items below:
     td_oh_-1_hour=1 ሰዓት
     td_oh_-20_hours= 20 ሰዓታት
     td_oh_-21_hours=22 ሰዓታት
-    # 🔴 td_oh_-22_hours -> -22 hours
-    ➡️ td_oh_-22_hours=
+    # 👽 td_oh_-22_hours -> -22 hours
+    td_oh_-22_hours=?-22 ሰዓታት
     td_oh_-23_hours=23 ሰዓታት
     td_oh_-24_hours= 24 ሰዓታት
     td_oh_-2_hours= 2ሰዓታት
@@ -226,414 +226,414 @@ Do not change the items below:
 ## AOUT
 
 
-    # 🔴 aout_act_billable -> Billable activities
-    ➡️ aout_act_billable=
-    # 🔴 aout_act_notbillable -> Non billable activities
-    ➡️ aout_act_notbillable=
-    # 🔴 aout_activity -> Activity
-    ➡️ aout_activity=
-    # 🔴 aout_agent -> Agent name
-    ➡️ aout_agent=
-    # 🔴 aout_agent_report -> Detailed agent report
-    ➡️ aout_agent_report=
-    # 🔴 aout_available_s -> Avail.
-    ➡️ aout_available_s=
-    # 🔴 aout_available_time -> Total agent available time:
-    ➡️ aout_available_time=
-    # 🔴 aout_avg_sec -> Avg.
-    ➡️ aout_avg_sec=
-    # 🔴 aout_avg_talk_time -> Avg. Talk
-    ➡️ aout_avg_talk_time=
-    # 🔴 aout_avg_wait_time -> Avg. Wait
-    ➡️ aout_avg_wait_time=
-    # 🔴 aout_billable_s -> Bill.
-    ➡️ aout_billable_s=
-    # 🔴 aout_billable_time -> Total agent billable activities:
-    ➡️ aout_billable_time=
-    # 🔴 aout_call_res_by_feature -> Call results, by feature code
-    ➡️ aout_call_res_by_feature=
-    # 🔴 aout_call_res_by_outcome -> Call results, by outcomes
-    ➡️ aout_call_res_by_outcome=
-    # 🔴 aout_call_res_by_tag -> Call results, by tag
-    ➡️ aout_call_res_by_tag=
-    # 🔴 aout_calltag -> Tag
-    ➡️ aout_calltag=
-    # 🔴 aout_case_distribution -> Case Distribution
-    ➡️ aout_case_distribution=
-    # 🔴 aout_chart -> ~
-    ➡️ aout_chart=
-    # 🔴 aout_client_distribution -> Client Distribution
-    ➡️ aout_client_distribution=
-    # 🔴 aout_contacts_n -> Cont.
-    ➡️ aout_contacts_n=
-    # 🔴 aout_convratio -> CONV
-    ➡️ aout_convratio=
-    # 🔴 aout_cph -> CPH
-    ➡️ aout_cph=
-    # 🔴 aout_fcr_avg_duration -> Avg. Duration
-    ➡️ aout_fcr_avg_duration=
-    # 🔴 aout_fcr_caller_avg_calls -> Average calls per caller-id
-    ➡️ aout_fcr_caller_avg_calls=
-    # 🔴 aout_fcr_caller_empty -> Empty Caller-Ids
-    ➡️ aout_fcr_caller_empty=
-    # 🔴 aout_fcr_caller_fcrs -> FCRs
-    ➡️ aout_fcr_caller_fcrs=
-    # 🔴 aout_fcr_caller_two_more -> Two or more calls
-    ➡️ aout_fcr_caller_two_more=
-    # 🔴 aout_fcr_customer_attempts -> Customer Attempts
-    ➡️ aout_fcr_customer_attempts=
-    # 🔴 aout_fcr_detail_first -> First calls
-    ➡️ aout_fcr_detail_first=
-    # 🔴 aout_fcr_detail_last -> End of last call
-    ➡️ aout_fcr_detail_last=
-    # 🔴 aout_fcr_detail_lost -> Lost calls
-    ➡️ aout_fcr_detail_lost=
-    # 🔴 aout_fcr_detail_n_attempts -> N attempts
-    ➡️ aout_fcr_detail_n_attempts=
-    # 🔴 aout_fcr_detail_number -> Number
-    ➡️ aout_fcr_detail_number=
-    # 🔴 aout_fcr_detail_taken -> Taken calls
-    ➡️ aout_fcr_detail_taken=
-    # 🔴 aout_fcr_n_calls -> N. of Calls
-    ➡️ aout_fcr_n_calls=
-    # 🔴 aout_fcr_n_long_calls -> Long Calls
-    ➡️ aout_fcr_n_long_calls=
-    # 🔴 aout_fcr_n_lost_calls -> Lost Calls
-    ➡️ aout_fcr_n_lost_calls=
-    # 🔴 aout_fcr_n_short_calls -> Short Calls
-    ➡️ aout_fcr_n_short_calls=
-    # 🔴 aout_fcr_n_taken_calls -> Taken Calls
-    ➡️ aout_fcr_n_taken_calls=
-    # 🔴 aout_fcr_number -> Number
-    ➡️ aout_fcr_number=
-    # 🔴 aout_fcr_perc_taken -> % of Taken Calls
-    ➡️ aout_fcr_perc_taken=
-    # 🔴 aout_fcr_recalls_clusters -> Clusters
-    ➡️ aout_fcr_recalls_clusters=
-    # 🔴 aout_fcr_recalls_delta -> Delta
-    ➡️ aout_fcr_recalls_delta=
-    # 🔴 aout_fcr_recalls_percentage -> %
-    ➡️ aout_fcr_recalls_percentage=
-    # 🔴 aout_fcr_recalls_tot_calls -> Total calls
-    ➡️ aout_fcr_recalls_tot_calls=
-    # 🔴 aout_fcr_recalls_tot_prc -> Total %
-    ➡️ aout_fcr_recalls_tot_prc=
-    # 🔴 aout_fcr_recalls_type -> Type
-    ➡️ aout_fcr_recalls_type=
-    # 🔴 aout_fcr_recalls_up_to_attempts -> Up to attempts:
-    ➡️ aout_fcr_recalls_up_to_attempts=
-    # 🔴 aout_fcr_tot_duration -> Total Duration
-    ➡️ aout_fcr_tot_duration=
-    # 🔴 aout_fcr_total_attempts -> Total Attempts
-    ➡️ aout_fcr_total_attempts=
-    # 🔴 aout_feature -> Feature
-    ➡️ aout_feature=
-    # 🔴 aout_feature_isgoal -> Goal
-    ➡️ aout_feature_isgoal=
-    # 🔴 aout_ftrconv -> Ftr. Conv.
-    ➡️ aout_ftrconv=
-    # 🔴 aout_general_outcomes -> General outcomes
-    ➡️ aout_general_outcomes=
-    # 🔴 aout_index_conv -> Conversion index:
-    ➡️ aout_index_conv=
-    # 🔴 aout_index_cph -> Contacts per Hour (CPH):
-    ➡️ aout_index_cph=
-    # 🔴 aout_index_qconv -> Qualified conversion index:
-    ➡️ aout_index_qconv=
-    # 🔴 aout_index_qcph -> Qualified Contacts per Hour (QCPH):
-    ➡️ aout_index_qcph=
-    # 🔴 aout_index_sph -> Sales per Hour (SPH):
-    ➡️ aout_index_sph=
-    # 🔴 aout_inforec -> IVR
-    ➡️ aout_inforec=
-    # 🔴 aout_ivr_attrition -> Attrition rate
-    ➡️ aout_ivr_attrition=
-    # 🔴 aout_ivr_avgTime -> Average time
-    ➡️ aout_ivr_avgTime=
-    # 🔴 aout_ivr_digit -> Selection
-    ➡️ aout_ivr_digit=
-    # 🔴 aout_ivr_goals -> IVR goal report
-    ➡️ aout_ivr_goals=
-    # 🔴 aout_ivr_hangups -> Hangups
-    ➡️ aout_ivr_hangups=
-    # 🔴 aout_ivr_hits -> N. calls
-    ➡️ aout_ivr_hits=
-    # 🔴 aout_ivr_maxTime -> Maximum time
-    ➡️ aout_ivr_maxTime=
-    # 🔴 aout_ivr_minTime -> Minimum time
-    ➡️ aout_ivr_minTime=
-    # 🔴 aout_ivr_path -> IVR path
-    ➡️ aout_ivr_path=
-    # 🔴 aout_ivr_report -> IVR traversal
-    ➡️ aout_ivr_report=
-    # 🔴 aout_ivr_success -> Success rate
-    ➡️ aout_ivr_success=
-    # 🔴 aout_ivr_timing -> IVR timing
-    ➡️ aout_ivr_timing=
-    # 🔴 aout_ivr_totTime -> Total time
-    ➡️ aout_ivr_totTime=
-    # 🔴 aout_lost -> Lost
-    ➡️ aout_lost=
-    # 🔴 aout_max_sec -> Max.
-    ➡️ aout_max_sec=
-    # 🔴 aout_min_sec -> Min.
-    ➡️ aout_min_sec=
-    # 🔴 aout_n_pauses -> N. Times
-    ➡️ aout_n_pauses=
-    # 🔴 aout_nonbillable_s -> NonB.
-    ➡️ aout_nonbillable_s=
-    # 🔴 aout_outcome -> Call outcome
-    ➡️ aout_outcome=
-    # 🔴 aout_outcomes -> Outcomes
-    ➡️ aout_outcomes=
-    # 🔴 aout_outcomes_per_agent -> Outcomes per agent
-    ➡️ aout_outcomes_per_agent=
-    # 🔴 aout_percent -> %
-    ➡️ aout_percent=
-    # 🔴 aout_percent_taken -> % taken
-    ➡️ aout_percent_taken=
-    # 🔴 aout_qcont -> QC
-    ➡️ aout_qcont=
-    # 🔴 aout_qconvratio -> QCONV
-    ➡️ aout_qconvratio=
-    # 🔴 aout_qcph -> QCPH
-    ➡️ aout_qcph=
-    # 🔴 aout_qual_contacts_n -> QC.
-    ➡️ aout_qual_contacts_n=
-    # 🔴 aout_sales_n -> Sales
-    ➡️ aout_sales_n=
-    # 🔴 aout_sph -> SPH
-    ➡️ aout_sph=
-    # 🔴 aout_sum -> Total
-    ➡️ aout_sum=
-    # 🔴 aout_taken -> Taken
-    ➡️ aout_taken=
-    # 🔴 aout_tot_billable_time -> Total billable time:
-    ➡️ aout_tot_billable_time=
-    # 🔴 aout_tot_contacts -> Number of Contacts:
-    ➡️ aout_tot_contacts=
-    # 🔴 aout_tot_nonbillable_time -> Total nonbillable time:
-    ➡️ aout_tot_nonbillable_time=
-    # 🔴 aout_tot_qualified_contacts -> Number of Qualified Contacts:
-    ➡️ aout_tot_qualified_contacts=
-    # 🔴 aout_tot_sales -> Number of Sales:
-    ➡️ aout_tot_sales=
-    # 🔴 aout_tot_sec -> Tot. Time
-    ➡️ aout_tot_sec=
-    # 🔴 aout_type -> Type
-    ➡️ aout_type=
+    # 👽 aout_act_billable -> Billable activities
+    aout_act_billable=?የሚከፈልባቸው እንቅስቃሴዎች
+    # 👽 aout_act_notbillable -> Non billable activities
+    aout_act_notbillable=?የማይከፈልባቸው እንቅስቃሴዎች
+    # 👽 aout_activity -> Activity
+    aout_activity=?እንቅስቃሴ
+    # 👽 aout_agent -> Agent name
+    aout_agent=?የወኪል ስም
+    # 👽 aout_agent_report -> Detailed agent report
+    aout_agent_report=?ዝርዝር የወኪል ሪፖርት
+    # 👽 aout_available_s -> Avail.
+    aout_available_s=?ይገኛል።
+    # 👽 aout_available_time -> Total agent available time:
+    aout_available_time=?ጠቅላላ የወኪል የሚገኝበት ጊዜ፡
+    # 👽 aout_avg_sec -> Avg.
+    aout_avg_sec=?አማካይ
+    # 👽 aout_avg_talk_time -> Avg. Talk
+    aout_avg_talk_time=?አማካይ ወሬ
+    # 👽 aout_avg_wait_time -> Avg. Wait
+    aout_avg_wait_time=?አማካይ መጠበቂያ
+    # 👽 aout_billable_s -> Bill.
+    aout_billable_s=?ክፍያ
+    # 👽 aout_billable_time -> Total agent billable activities:
+    aout_billable_time=?ጠቅላላ የወኪል የሚከፈልባቸው እንቅስቃሴዎች፡
+    # 👽 aout_call_res_by_feature -> Call results, by feature code
+    aout_call_res_by_feature=?የጥሪ ውጤቶች፣ በባህሪ ኮድ
+    # 👽 aout_call_res_by_outcome -> Call results, by outcomes
+    aout_call_res_by_outcome=?የጥሪ ውጤቶች፣ በውጤቶች
+    # 👽 aout_call_res_by_tag -> Call results, by tag
+    aout_call_res_by_tag=?የጥሪ ውጤቶች፣ በመለያ
+    # 👽 aout_calltag -> Tag
+    aout_calltag=?መለያ
+    # 👽 aout_case_distribution -> Case Distribution
+    aout_case_distribution=?የጉዳይ ስርጭት
+    # 👽 aout_chart -> ~
+    aout_chart=?~
+    # 👽 aout_client_distribution -> Client Distribution
+    aout_client_distribution=?የደንበኛ ስርጭት
+    # 👽 aout_contacts_n -> Cont.
+    aout_contacts_n=?ተገናኝ
+    # 👽 aout_convratio -> CONV
+    aout_convratio=?CONV
+    # 👽 aout_cph -> CPH
+    aout_cph=?CPH
+    # 👽 aout_fcr_avg_duration -> Avg. Duration
+    aout_fcr_avg_duration=?አማካይ ቆይታ
+    # 👽 aout_fcr_caller_avg_calls -> Average calls per caller-id
+    aout_fcr_caller_avg_calls=?በደዋይ መታወቂያ በአማካይ የሚደረጉ ጥሪዎች
+    # 👽 aout_fcr_caller_empty -> Empty Caller-Ids
+    aout_fcr_caller_empty=?ባዶ የደዋይ መታወቂያዎች
+    # 👽 aout_fcr_caller_fcrs -> FCRs
+    aout_fcr_caller_fcrs=?FCRs
+    # 👽 aout_fcr_caller_two_more -> Two or more calls
+    aout_fcr_caller_two_more=?ሁለት ወይም ከዚያ በላይ ጥሪዎች
+    # 👽 aout_fcr_customer_attempts -> Customer Attempts
+    aout_fcr_customer_attempts=?የደንበኛ ሙከራዎች
+    # 👽 aout_fcr_detail_first -> First calls
+    aout_fcr_detail_first=?የመጀመሪያ ጥሪዎች
+    # 👽 aout_fcr_detail_last -> End of last call
+    aout_fcr_detail_last=?የመጨረሻው ጥሪ መጨረሻ
+    # 👽 aout_fcr_detail_lost -> Lost calls
+    aout_fcr_detail_lost=?የጠፉ ጥሪዎች
+    # 👽 aout_fcr_detail_n_attempts -> N attempts
+    aout_fcr_detail_n_attempts=?N ሙከራዎች
+    # 👽 aout_fcr_detail_number -> Number
+    aout_fcr_detail_number=?ቁጥር
+    # 👽 aout_fcr_detail_taken -> Taken calls
+    aout_fcr_detail_taken=?የተወሰዱ ጥሪዎች
+    # 👽 aout_fcr_n_calls -> N. of Calls
+    aout_fcr_n_calls=?የጥሪዎች ብዛት
+    # 👽 aout_fcr_n_long_calls -> Long Calls
+    aout_fcr_n_long_calls=?ረጅም ጥሪዎች
+    # 👽 aout_fcr_n_lost_calls -> Lost Calls
+    aout_fcr_n_lost_calls=?የጠፉ ጥሪዎች
+    # 👽 aout_fcr_n_short_calls -> Short Calls
+    aout_fcr_n_short_calls=?አጭር ጥሪዎች
+    # 👽 aout_fcr_n_taken_calls -> Taken Calls
+    aout_fcr_n_taken_calls=?የተወሰዱ ጥሪዎች
+    # 👽 aout_fcr_number -> Number
+    aout_fcr_number=?ቁጥር
+    # 👽 aout_fcr_perc_taken -> % of Taken Calls
+    aout_fcr_perc_taken=?% የተወሰዱ ጥሪዎች
+    # 👽 aout_fcr_recalls_clusters -> Clusters
+    aout_fcr_recalls_clusters=?ክላስተሮች
+    # 👽 aout_fcr_recalls_delta -> Delta
+    aout_fcr_recalls_delta=?ዴልታ
+    # 👽 aout_fcr_recalls_percentage -> %
+    aout_fcr_recalls_percentage=?%
+    # 👽 aout_fcr_recalls_tot_calls -> Total calls
+    aout_fcr_recalls_tot_calls=?ጠቅላላ ጥሪዎች
+    # 👽 aout_fcr_recalls_tot_prc -> Total %
+    aout_fcr_recalls_tot_prc=?ጠቅላላ %
+    # 👽 aout_fcr_recalls_type -> Type
+    aout_fcr_recalls_type=?ዓይነት
+    # 👽 aout_fcr_recalls_up_to_attempts -> Up to attempts:
+    aout_fcr_recalls_up_to_attempts=?እስከ ሙከራዎች፡
+    # 👽 aout_fcr_tot_duration -> Total Duration
+    aout_fcr_tot_duration=?ጠቅላላ ቆይታ
+    # 👽 aout_fcr_total_attempts -> Total Attempts
+    aout_fcr_total_attempts=?ጠቅላላ ሙከራዎች
+    # 👽 aout_feature -> Feature
+    aout_feature=?ባህሪ
+    # 👽 aout_feature_isgoal -> Goal
+    aout_feature_isgoal=?ግብ
+    # 👽 aout_ftrconv -> Ftr. Conv.
+    aout_ftrconv=?Ftr. Conv.
+    # 👽 aout_general_outcomes -> General outcomes
+    aout_general_outcomes=?አጠቃላይ ውጤቶች
+    # 👽 aout_index_conv -> Conversion index:
+    aout_index_conv=?የልወጣ መረጃ ጠቋሚ፡
+    # 👽 aout_index_cph -> Contacts per Hour (CPH):
+    aout_index_cph=?በሰዓት የሚደረጉ ግንኙነቶች (CPH)፡
+    # 👽 aout_index_qconv -> Qualified conversion index:
+    aout_index_qconv=?የተረጋገጠ ልወጣ መረጃ ጠቋሚ፡
+    # 👽 aout_index_qcph -> Qualified Contacts per Hour (QCPH):
+    aout_index_qcph=?በሰዓት የሚደረጉ ብቁ ግንኙነቶች (QCPH)፡
+    # 👽 aout_index_sph -> Sales per Hour (SPH):
+    aout_index_sph=?በሰዓት የሚደረጉ ሽያጮች (SPH)፡
+    # 👽 aout_inforec -> IVR
+    aout_inforec=?IVR
+    # 👽 aout_ivr_attrition -> Attrition rate
+    aout_ivr_attrition=?የድካም መጠን
+    # 👽 aout_ivr_avgTime -> Average time
+    aout_ivr_avgTime=?አማካይ ጊዜ
+    # 👽 aout_ivr_digit -> Selection
+    aout_ivr_digit=?ምርጫ
+    # 👽 aout_ivr_goals -> IVR goal report
+    aout_ivr_goals=?IVR የግብ ሪፖርት
+    # 👽 aout_ivr_hangups -> Hangups
+    aout_ivr_hangups=?ስልኩን መዝጋት
+    # 👽 aout_ivr_hits -> N. calls
+    aout_ivr_hits=?የጥሪዎች ብዛት
+    # 👽 aout_ivr_maxTime -> Maximum time
+    aout_ivr_maxTime=?ከፍተኛ ጊዜ
+    # 👽 aout_ivr_minTime -> Minimum time
+    aout_ivr_minTime=?ዝቅተኛ ጊዜ
+    # 👽 aout_ivr_path -> IVR path
+    aout_ivr_path=?IVR መንገድ
+    # 👽 aout_ivr_report -> IVR traversal
+    aout_ivr_report=?IVR መሻገር
+    # 👽 aout_ivr_success -> Success rate
+    aout_ivr_success=?የስኬት መጠን
+    # 👽 aout_ivr_timing -> IVR timing
+    aout_ivr_timing=?IVR ጊዜ
+    # 👽 aout_ivr_totTime -> Total time
+    aout_ivr_totTime=?ጠቅላላ ጊዜ
+    # 👽 aout_lost -> Lost
+    aout_lost=?ጠፋ
+    # 👽 aout_max_sec -> Max.
+    aout_max_sec=?ከፍተኛ።
+    # 👽 aout_min_sec -> Min.
+    aout_min_sec=?ትንሹ።
+    # 👽 aout_n_pauses -> N. Times
+    aout_n_pauses=?የጊዜ ብዛት
+    # 👽 aout_nonbillable_s -> NonB.
+    aout_nonbillable_s=?NonB.
+    # 👽 aout_outcome -> Call outcome
+    aout_outcome=?የጥሪ ውጤት
+    # 👽 aout_outcomes -> Outcomes
+    aout_outcomes=?ውጤቶች
+    # 👽 aout_outcomes_per_agent -> Outcomes per agent
+    aout_outcomes_per_agent=?በወኪል የሚገኙ ውጤቶች
+    # 👽 aout_percent -> %
+    aout_percent=?%
+    # 👽 aout_percent_taken -> % taken
+    aout_percent_taken=?% ተወስዷል
+    # 👽 aout_qcont -> QC
+    aout_qcont=?QC
+    # 👽 aout_qconvratio -> QCONV
+    aout_qconvratio=?QCONV
+    # 👽 aout_qcph -> QCPH
+    aout_qcph=?QCPH
+    # 👽 aout_qual_contacts_n -> QC.
+    aout_qual_contacts_n=?QC.
+    # 👽 aout_sales_n -> Sales
+    aout_sales_n=?ሽያጮች
+    # 👽 aout_sph -> SPH
+    aout_sph=?SPH
+    # 👽 aout_sum -> Total
+    aout_sum=?ድምር
+    # 👽 aout_taken -> Taken
+    aout_taken=?ተወስዷል
+    # 👽 aout_tot_billable_time -> Total billable time:
+    aout_tot_billable_time=?ጠቅላላ የሚከፈልበት ጊዜ፡
+    # 👽 aout_tot_contacts -> Number of Contacts:
+    aout_tot_contacts=?የእውቂያዎች ብዛት፡
+    # 👽 aout_tot_nonbillable_time -> Total nonbillable time:
+    aout_tot_nonbillable_time=?ጠቅላላ የማይከፈልበት ጊዜ፡
+    # 👽 aout_tot_qualified_contacts -> Number of Qualified Contacts:
+    aout_tot_qualified_contacts=?የተረጋገጡ እውቂያዎች ብዛት፡
+    # 👽 aout_tot_sales -> Number of Sales:
+    aout_tot_sales=?የሽያጮች ብዛት፡
+    # 👽 aout_tot_sec -> Tot. Time
+    aout_tot_sec=?ጠቅላላ ጊዜ
+    # 👽 aout_type -> Type
+    aout_type=?ዓይነት
 
 ## ART?
 
 
 
-    # 🔴 art_active_polling_error -> The property "realtime.useActivePolling" is not set correctly, it must be set "true".
-    ➡️ art_active_polling_error=
-    # 🔴 art_agentCode -> Agent code
-    ➡️ art_agentCode=
-    # 🔴 art_btnAmendPause -> Amend
-    ➡️ art_btnAmendPause=
-    # 🔴 art_btnCancel -> Cancel
-    ➡️ art_btnCancel=
-    # 🔴 art_btnChangePause -> Change
-    ➡️ art_btnChangePause=
-    # 🔴 art_btnPause -> Pause
-    ➡️ art_btnPause=
-    # 🔴 art_btnUnpause -> Unpause
-    ➡️ art_btnUnpause=
-    # 🔴 art_callCallerId -> Caller
-    ➡️ art_callCallerId=
-    # 🔴 art_callOutcome -> Outcome
-    ➡️ art_callOutcome=
-    # 🔴 art_callQueue -> Queue
-    ➡️ art_callQueue=
-    # 🔴 art_callStart -> Start of call
-    ➡️ art_callStart=
-    # 🔴 art_callTag -> Tag
-    ➡️ art_callTag=
-    # 🔴 art_callTalking -> Talking
-    ➡️ art_callTalking=
-    # 🔴 art_callTransfer -> Transfer to
-    ➡️ art_callTransfer=
-    # 🔴 art_callURL -> URL
-    ➡️ art_callURL=
-    # 🔴 art_callWaiting -> Waiting
-    ➡️ art_callWaiting=
-    # 🔴 art_configuration_error -> Configuration Error.
-    ➡️ art_configuration_error=
-    # 🔴 art_connectivity_problem -> Server Connectivity Problem.
-    ➡️ art_connectivity_problem=
-    # 🔴 art_copied_to_clipboard -> Copied To Clipboard.
-    ➡️ art_copied_to_clipboard=
-    # 🔴 art_currentExtension -> Current extension
-    ➡️ art_currentExtension=
-    # 🔴 art_endCall -> End Call
-    ➡️ art_endCall=
-    # 🔴 art_exitfullscreen -> Click here to return from the fullscreen mode
-    ➡️ art_exitfullscreen=
-    # 🔴 art_extInUse -> The requested extension is currently used by another agent.
-    ➡️ art_extInUse=
-    # 🔴 art_featureAddBtn -> Add
-    ➡️ art_featureAddBtn=
-    # 🔴 art_featureDelBtn -> Remove
-    ➡️ art_featureDelBtn=
-    # 🔴 art_forcedLogin -> Forced?
-    ➡️ art_forcedLogin=
-    # 🔴 art_hold -> Hold
-    ➡️ art_hold=
-    # 🔴 art_incompatible_feature_code -> The selected outcome is not compatible with the selected feature codes. Incompatible features:
-    ➡️ art_incompatible_feature_code=
-    # 🔴 art_invalid_qlog_error -> The property "default.queue_log" is not set correctly, it must start with "sql:" or "cluster:" (if in cluster mode).
-    ➡️ art_invalid_qlog_error=
-    # 🔴 art_lblAgentStatus -> Agent Status
-    ➡️ art_lblAgentStatus=
-    # 🔴 art_lblAvailableQueues -> Available Queues
-    ➡️ art_lblAvailableQueues=
-    # 🔴 art_lblCallStatus -> Call Status
-    ➡️ art_lblCallStatus=
-    # 🔴 art_lblCurrPause -> Pause code
-    ➡️ art_lblCurrPause=
-    # 🔴 art_lblLoggedInQueues -> Queues Logged In
-    ➡️ art_lblLoggedInQueues=
-    # 🔴 art_lblMessages -> Messages
-    ➡️ art_lblMessages=
-    # 🔴 art_lblOutcome -> Outcome
-    ➡️ art_lblOutcome=
-    # 🔴 art_lblQAForm -> QA Form
-    ➡️ art_lblQAForm=
-    # 🔴 art_lblWbRecallPanel -> Recall Scheduler
-    ➡️ art_lblWbRecallPanel=
-    # 🔴 art_lblagentlogon -> Agent Logon
-    ➡️ art_lblagentlogon=
-    # 🔴 art_lblcalllist -> Call List
-    ➡️ art_lblcalllist=
-    # 🔴 art_lbldialout -> Dialout
-    ➡️ art_lbldialout=
-    # 🔴 art_lbldisconnect -> Log Off
-    ➡️ art_lbldisconnect=
-    # 🔴 art_lblhomepage -> Home Page
-    ➡️ art_lblhomepage=
-    # 🔴 art_lbliframepanel -> Web Panel
-    ➡️ art_lbliframepanel=
-    # 🔴 art_lblpauses -> Pauses
-    ➡️ art_lblpauses=
-    # 🔴 art_lblresetwinpos -> Reset Windows Position
-    ➡️ art_lblresetwinpos=
-    # 🔴 art_lblsoftphone -> Soft Phone
-    ➡️ art_lblsoftphone=
-    # 🔴 art_localExtension -> Ext.
-    ➡️ art_localExtension=
-    # 🔴 art_lvlMain -> Main
-    ➡️ art_lvlMain=
-    # 🔴 art_lvlSpill -> Spill
-    ➡️ art_lvlSpill=
-    # 🔴 art_lvlWrap -> Wrap
-    ➡️ art_lvlWrap=
-    # 🔴 art_nOfQueues -> Queues
-    ➡️ art_nOfQueues=
-    # 🔴 art_outboundCampaign -> Campaign
-    ➡️ art_outboundCampaign=
-    # 🔴 art_outboundDial -> Dial >>>
-    ➡️ art_outboundDial=
-    # 🔴 art_outboundNumber -> Number
-    ➡️ art_outboundNumber=
-    # 🔴 art_outcomeFor -> Set outcome for call
-    ➡️ art_outcomeFor=
-    # 🔴 art_outcomePanelCallInfo -> Call:
-    ➡️ art_outcomePanelCallInfo=
-    # 🔴 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
-    ➡️ art_pauseNoExtWarning=
-    # 🔴 art_row_cache_error -> The property "realtime.useRowCache" is not set correctly, it must be set "true".
-    ➡️ art_row_cache_error=
-    # 🔴 art_runAction -> Run
-    ➡️ art_runAction=
-    # 🔴 art_scheduleAction -> Schedule
-    ➡️ art_scheduleAction=
-    # 🔴 art_selectPause -> Select pause code
-    ➡️ art_selectPause=
-    # 🔴 art_server -> Server
-    ➡️ art_server=
-    # 🔴 art_server_selection -> Choose a Server.
-    ➡️ art_server_selection=
-    # 🔴 art_session_problem -> Session Problem, Please Log-In Again.
-    ➡️ art_session_problem=
-    # 🔴 art_setFeatureCode -> Feature codes:
-    ➡️ art_setFeatureCode=
-    # 🔴 art_setOutcome -> Call outcome:
-    ➡️ art_setOutcome=
-    # 🔴 art_startCall -> Start Call
-    ➡️ art_startCall=
-    # 🔴 art_timeLoggedIn -> Logged
-    ➡️ art_timeLoggedIn=
-    # 🔴 art_timePaused -> Paused
-    ➡️ art_timePaused=
-    # 🔴 art_titleBtnAllLogin -> Login on all queues
-    ➡️ art_titleBtnAllLogin=
-    # 🔴 art_titleBtnAllLogout -> Logout from all queues
-    ➡️ art_titleBtnAllLogout=
-    # 🔴 art_titleBtnLogin -> Login on selected queues
-    ➡️ art_titleBtnLogin=
-    # 🔴 art_titleBtnLogout -> Logout from selected queues
-    ➡️ art_titleBtnLogout=
-    # 🔴 art_titleBtnRegLogin -> Login on all assigned queues
-    ➡️ art_titleBtnRegLogin=
-    # 🔴 art_titleBtnRegLogout -> Logout from all assigned queues
-    ➡️ art_titleBtnRegLogout=
-    # 🔴 art_today -> Today
-    ➡️ art_today=
-    # 🔴 art_unHold -> Unhold
-    ➡️ art_unHold=
-    # 🔴 art_vars -> Variables
-    ➡️ art_vars=
-    # 🔴 art_wbRedialAgentCode -> Current Agent Code:
-    ➡️ art_wbRedialAgentCode=
-    # 🔴 art_wbRedialCampaign -> Select Campaign:
-    ➡️ art_wbRedialCampaign=
-    # 🔴 art_wbRedialComment -> Notes:
-    ➡️ art_wbRedialComment=
-    # 🔴 art_wbRedialNumber -> Number to dial:
-    ➡️ art_wbRedialNumber=
-    # 🔴 art_wbRedialResultOk -> Scheduling completed.
-    ➡️ art_wbRedialResultOk=
-    # 🔴 art_wbRedialServerError -> Scheduling failed.
-    ➡️ art_wbRedialServerError=
-    # 🔴 art_wbRedialTimeSchedule -> Schedule Time:
-    ➡️ art_wbRedialTimeSchedule=
+    # 👽 art_active_polling_error -> The property "realtime.useActivePolling" is not set correctly, it must be set "true".
+    art_active_polling_error=?ባሕሪው "realtime.useActivePolling" በትክክል አልተዋቀረም፣ "true" ተብሎ መዋቀር አለበት።
+    # 👽 art_agentCode -> Agent code
+    art_agentCode=?የወኪል ኮድ
+    # 👽 art_btnAmendPause -> Amend
+    art_btnAmendPause=?አሻሽል
+    # 👽 art_btnCancel -> Cancel
+    art_btnCancel=?ሰርዝ
+    # 👽 art_btnChangePause -> Change
+    art_btnChangePause=?ቀይር
+    # 👽 art_btnPause -> Pause
+    art_btnPause=?ለአፍታ አቁም
+    # 👽 art_btnUnpause -> Unpause
+    art_btnUnpause=?ከአፍታ ቆይታ አንሳ
+    # 👽 art_callCallerId -> Caller
+    art_callCallerId=?ደዋይ
+    # 👽 art_callOutcome -> Outcome
+    art_callOutcome=?ውጤት
+    # 👽 art_callQueue -> Queue
+    art_callQueue=?ወረፋ
+    # 👽 art_callStart -> Start of call
+    art_callStart=?የጥሪ ጅምር
+    # 👽 art_callTag -> Tag
+    art_callTag=?መለያ
+    # 👽 art_callTalking -> Talking
+    art_callTalking=?እየተነጋገረ
+    # 👽 art_callTransfer -> Transfer to
+    art_callTransfer=?ወደ ማስተላለፍ
+    # 👽 art_callURL -> URL
+    art_callURL=?URL
+    # 👽 art_callWaiting -> Waiting
+    art_callWaiting=?በመጠበቅ ላይ
+    # 👽 art_configuration_error -> Configuration Error.
+    art_configuration_error=?የማዋቀር ስህተት።
+    # 👽 art_connectivity_problem -> Server Connectivity Problem.
+    art_connectivity_problem=?የአገልጋይ ግንኙነት ችግር።
+    # 👽 art_copied_to_clipboard -> Copied To Clipboard.
+    art_copied_to_clipboard=?ወደ ቅንጥብ ሰሌዳ ተገልብጧል።
+    # 👽 art_currentExtension -> Current extension
+    art_currentExtension=?የአሁኑ ቅጥያ
+    # 👽 art_endCall -> End Call
+    art_endCall=?ጥሪውን ጨርስ
+    # 👽 art_exitfullscreen -> Click here to return from the fullscreen mode
+    art_exitfullscreen=?ከሙሉ ስክሪን ሁነታ ለመመለስ እዚህ ጠቅ ያድርጉ
+    # 👽 art_extInUse -> The requested extension is currently used by another agent.
+    art_extInUse=?የተጠየቀው ቅጥያ በአሁኑ ጊዜ በሌላ ወኪል ጥቅም ላይ ውሏል።
+    # 👽 art_featureAddBtn -> Add
+    art_featureAddBtn=?አክል
+    # 👽 art_featureDelBtn -> Remove
+    art_featureDelBtn=?አስወግድ
+    # 👽 art_forcedLogin -> Forced?
+    art_forcedLogin=?ተገድዷል?
+    # 👽 art_hold -> Hold
+    art_hold=?ያዝ
+    # 👽 art_incompatible_feature_code -> The selected outcome is not compatible with the selected feature codes. Incompatible features:
+    art_incompatible_feature_code=?የተመረጠው ውጤት ከተመረጡት የባህሪ ኮዶች ጋር ተኳሃኝ አይደለም። የማይጣጣሙ ባህሪያት፡
+    # 👽 art_invalid_qlog_error -> The property "default.queue_log" is not set correctly, it must start with "sql:" or "cluster:" (if in cluster mode).
+    art_invalid_qlog_error=?ባሕሪው "default.queue_log" በትክክል አልተዋቀረም፣ በ"sql:" ወይም "cluster:" መጀመር አለበት (በክላስተር ሁነታ ላይ ከሆነ)።
+    # 👽 art_lblAgentStatus -> Agent Status
+    art_lblAgentStatus=?የወኪል ሁኔታ
+    # 👽 art_lblAvailableQueues -> Available Queues
+    art_lblAvailableQueues=?የሚገኙ ወረፋዎች
+    # 👽 art_lblCallStatus -> Call Status
+    art_lblCallStatus=?የጥሪ ሁኔታ
+    # 👽 art_lblCurrPause -> Pause code
+    art_lblCurrPause=?የ ለአፍታ ቆይታ ኮድ
+    # 👽 art_lblLoggedInQueues -> Queues Logged In
+    art_lblLoggedInQueues=?የገቡባቸው ወረፋዎች
+    # 👽 art_lblMessages -> Messages
+    art_lblMessages=?መልዕክቶች
+    # 👽 art_lblOutcome -> Outcome
+    art_lblOutcome=?ውጤት
+    # 👽 art_lblQAForm -> QA Form
+    art_lblQAForm=?QA ቅጽ
+    # 👽 art_lblWbRecallPanel -> Recall Scheduler
+    art_lblWbRecallPanel=?የማስታዎሻ መርሐግብር አስያዥ
+    # 👽 art_lblagentlogon -> Agent Logon
+    art_lblagentlogon=?የወኪል መግቢያ
+    # 👽 art_lblcalllist -> Call List
+    art_lblcalllist=?የጥሪ ዝርዝር
+    # 👽 art_lbldialout -> Dialout
+    art_lbldialout=?ደውል
+    # 👽 art_lbldisconnect -> Log Off
+    art_lbldisconnect=?ውጣ
+    # 👽 art_lblhomepage -> Home Page
+    art_lblhomepage=?መነሻ ገጽ
+    # 👽 art_lbliframepanel -> Web Panel
+    art_lbliframepanel=?የድር ፓነል
+    # 👽 art_lblpauses -> Pauses
+    art_lblpauses=?ለአፍታ ቆይታዎች
+    # 👽 art_lblresetwinpos -> Reset Windows Position
+    art_lblresetwinpos=?የዊንዶውስን አቀማመጥ ዳግም አስጀምር
+    # 👽 art_lblsoftphone -> Soft Phone
+    art_lblsoftphone=?ሶፍት ስልክ
+    # 👽 art_localExtension -> Ext.
+    art_localExtension=?Ext.
+    # 👽 art_lvlMain -> Main
+    art_lvlMain=?ዋና
+    # 👽 art_lvlSpill -> Spill
+    art_lvlSpill=?ፈሳሽ
+    # 👽 art_lvlWrap -> Wrap
+    art_lvlWrap=?ጠቅልል
+    # 👽 art_nOfQueues -> Queues
+    art_nOfQueues=?ወረፋዎች
+    # 👽 art_outboundCampaign -> Campaign
+    art_outboundCampaign=?ዘመቻ
+    # 👽 art_outboundDial -> Dial >>>
+    art_outboundDial=?ደውል >>>
+    # 👽 art_outboundNumber -> Number
+    art_outboundNumber=?ቁጥር
+    # 👽 art_outcomeFor -> Set outcome for call
+    art_outcomeFor=?ለጥሪ ውጤት አዘጋጅ
+    # 👽 art_outcomePanelCallInfo -> Call:
+    art_outcomePanelCallInfo=?ጥሪ፡
+    # 👽 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
+    art_pauseNoExtWarning=?ወኪሉ ትክክለኛ ቅጥያ ስለሌለው ለአፍታ ቆይታ ትዕዛዝ ላይሰራ ይችላል፣ ምንም እንኳን የሆት ዴስኪንግ ሁነታ ንቁ ቢሆንም።
+    # 👽 art_row_cache_error -> The property "realtime.useRowCache" is not set correctly, it must be set "true".
+    art_row_cache_error=?ባሕሪው "realtime.useRowCache" በትክክል አልተዋቀረም፣ "true" ተብሎ መዋቀር አለበት።
+    # 👽 art_runAction -> Run
+    art_runAction=?አስኬድ
+    # 👽 art_scheduleAction -> Schedule
+    art_scheduleAction=?መርሐግብር
+    # 👽 art_selectPause -> Select pause code
+    art_selectPause=?የ ለአፍታ ቆይታ ኮድ ይምረጡ
+    # 👽 art_server -> Server
+    art_server=?አገልጋይ
+    # 👽 art_server_selection -> Choose a Server.
+    art_server_selection=?አገልጋይ ይምረጡ።
+    # 👽 art_session_problem -> Session Problem, Please Log-In Again.
+    art_session_problem=?የክፍለ ጊዜ ችግር፣ እባክዎ እንደገና ይግቡ።
+    # 👽 art_setFeatureCode -> Feature codes:
+    art_setFeatureCode=?የባህሪ ኮዶች፡
+    # 👽 art_setOutcome -> Call outcome:
+    art_setOutcome=?የጥሪ ውጤት፡
+    # 👽 art_startCall -> Start Call
+    art_startCall=?ጥሪ ጀምር
+    # 👽 art_timeLoggedIn -> Logged
+    art_timeLoggedIn=?የገባ
+    # 👽 art_timePaused -> Paused
+    art_timePaused=?ለአፍታ ቆሟል
+    # 👽 art_titleBtnAllLogin -> Login on all queues
+    art_titleBtnAllLogin=?በሁሉም ወረፋዎች ላይ ይግቡ
+    # 👽 art_titleBtnAllLogout -> Logout from all queues
+    art_titleBtnAllLogout=?ከሁሉም ወረፋዎች ይውጡ
+    # 👽 art_titleBtnLogin -> Login on selected queues
+    art_titleBtnLogin=?በተመረጡ ወረፋዎች ላይ ይግቡ
+    # 👽 art_titleBtnLogout -> Logout from selected queues
+    art_titleBtnLogout=?ከተመረጡ ወረፋዎች ይውጡ
+    # 👽 art_titleBtnRegLogin -> Login on all assigned queues
+    art_titleBtnRegLogin=?በሁሉም የተመደቡ ወረፋዎች ላይ ይግቡ
+    # 👽 art_titleBtnRegLogout -> Logout from all assigned queues
+    art_titleBtnRegLogout=?ከሁሉም የተመደቡ ወረፋዎች ይውጡ
+    # 👽 art_today -> Today
+    art_today=?ዛሬ
+    # 👽 art_unHold -> Unhold
+    art_unHold=?ከመያዝ አንሳ
+    # 👽 art_vars -> Variables
+    art_vars=?ተለዋዋጮች
+    # 👽 art_wbRedialAgentCode -> Current Agent Code:
+    art_wbRedialAgentCode=?የአሁኑ የወኪል ኮድ፡
+    # 👽 art_wbRedialCampaign -> Select Campaign:
+    art_wbRedialCampaign=?ዘመቻ ምረጥ፡
+    # 👽 art_wbRedialComment -> Notes:
+    art_wbRedialComment=?ማስታወሻዎች፡
+    # 👽 art_wbRedialNumber -> Number to dial:
+    art_wbRedialNumber=?የሚደወል ቁጥር፡
+    # 👽 art_wbRedialResultOk -> Scheduling completed.
+    art_wbRedialResultOk=?መርሐግብር ማስያዝ ተጠናቋል።
+    # 👽 art_wbRedialServerError -> Scheduling failed.
+    art_wbRedialServerError=?መርሐግብር ማስያዝ አልተሳካም።
+    # 👽 art_wbRedialTimeSchedule -> Schedule Time:
+    art_wbRedialTimeSchedule=?የመርሐግብር ጊዜ፡
 
 ## Agent page
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=
-    # 🔴 clage_%_of_queue -> % of queue
-    ➡️ clage_%_of_queue=
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=
-    # 🔴 clage_acd_available -> Avail.
-    ➡️ clage_acd_available=
-    # 🔴 clage_acd_avg_dur -> Avg dur
-    ➡️ clage_acd_avg_dur=
-    # 🔴 clage_acd_avg_in -> Avg in
-    ➡️ clage_acd_avg_in=
-    # 🔴 clage_acd_avg_out -> Avg out
-    ➡️ clage_acd_avg_out=
-    # 🔴 clage_acd_calls_in -> Calls in
-    ➡️ clage_acd_calls_in=
-    # 🔴 clage_acd_calls_out -> Calls out
-    ➡️ clage_acd_calls_out=
-    # 🔴 clage_acd_duration -> Dur.
-    ➡️ clage_acd_duration=
-    # 🔴 clage_acd_login -> Login
-    ➡️ clage_acd_login=
-    # 🔴 clage_acd_logoff -> Logoff
-    ➡️ clage_acd_logoff=
-    # 🔴 clage_acd_on_call_in -> On call in
-    ➡️ clage_acd_on_call_in=
-    # 🔴 clage_acd_on_call_out -> On call out
-    ➡️ clage_acd_on_call_out=
-    # 🔴 clage_acd_pau_bill -> Pau Bill
-    ➡️ clage_acd_pau_bill=
+    # 👽 clage_%_of_pause_time -> % of pause time
+    clage_%_of_pause_time=?% የ ለአፍታ ቆይታ ጊዜ
+    # 👽 clage_%_of_queue -> % of queue
+    clage_%_of_queue=?% የወረፋ
+    # 👽 clage_%_of_session_time -> % of session time
+    clage_%_of_session_time=?% የክፍለ ጊዜ ጊዜ
+    # 👽 clage_acd_available -> Avail.
+    clage_acd_available=?ይገኛል።
+    # 👽 clage_acd_avg_dur -> Avg dur
+    clage_acd_avg_dur=?አማካይ ቆይታ
+    # 👽 clage_acd_avg_in -> Avg in
+    clage_acd_avg_in=?አማካይ ገቢ
+    # 👽 clage_acd_avg_out -> Avg out
+    clage_acd_avg_out=?አማካይ ወጪ
+    # 👽 clage_acd_calls_in -> Calls in
+    clage_acd_calls_in=?ገቢ ጥሪዎች
+    # 👽 clage_acd_calls_out -> Calls out
+    clage_acd_calls_out=?ወጪ ጥሪዎች
+    # 👽 clage_acd_duration -> Dur.
+    clage_acd_duration=?ቆይታ
+    # 👽 clage_acd_login -> Login
+    clage_acd_login=?ግባ
+    # 👽 clage_acd_logoff -> Logoff
+    clage_acd_logoff=?ውጣ
+    # 👽 clage_acd_on_call_in -> On call in
+    clage_acd_on_call_in=?ጥሪ ላይ ገቢ
+    # 👽 clage_acd_on_call_out -> On call out
+    clage_acd_on_call_out=?ጥሪ ላይ ወጪ
+    # 👽 clage_acd_pau_bill -> Pau Bill
+    clage_acd_pau_bill=?Pau Bill
     # 🔴 clage_acd_pau_unbill -> Pau N/Bill
     ➡️ clage_acd_pau_unbill=
     # 🔴 clage_acd_tot_calls -> Tot calls

@@ -419,11 +419,11 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=
+    # 👽 clage_%_of_pause_time -> % of pause time
+    clage_%_of_pause_time=?일시 중지 시간의 %
     clage_%_of_queue=대기큐(Queue)%
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=
+    # 👽 clage_%_of_session_time -> % of session time
+    clage_%_of_session_time=?세션 시간의 %
     clage_acd_available=비어있는
     clage_acd_avg_dur=평균 기간
     clage_acd_avg_in=평균 착신
@@ -448,8 +448,8 @@ Do not change the items below:
     clage_agent_performance_acd_group=상담원 실적(ACD그룹별)
     clage_agent_ptimebyhour=상담원 유급시간(시간대별)
     clage_agent_session_detail=상담원 상세 세션정보
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview=
+    # 👽 clage_agent_session_overview -> Agent Session Overview
+    clage_agent_session_overview=?상담원 세션 개요
     clage_agent_sessionreport=상담원 세션보기
     clage_agent_sessions=상담원 세션
     clage_agent_stimebyhour=상담원 세션시간(시간대별)
@@ -511,8 +511,8 @@ Do not change the items below:
     clage_overlaps=겹침
     clage_pause=일시중지
     clage_pause_%=일시중지%
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=
+    # 👽 clage_pause_type_stats -> Details of pause types
+    clage_pause_type_stats=?일시 중지 유형 정보
     clage_pauses=일시중지
     clage_pauses_per_session=세션당 일시중지
     clage_pausetype=일시중지 타입
@@ -528,25 +528,25 @@ Do not change the items below:
     clage_session_and_pause_durations=세션과 일시중지 기간
     clage_session_byquetagftrreport=누적 세션 수(대기큐, 태그, Feature별)
     clage_session_byquetagreport=누적 세션 수(대기큐, 태그별)
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=
+    # 👽 clage_session_calls -> N. calls
+    clage_session_calls=?통화 수
     clage_session_details=세션 상세
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=
+    # 👽 clage_session_end -> Segment end
+    clage_session_end=?세그먼트 종료
+    # 👽 clage_session_idle -> Idle time
+    clage_session_idle=?대기 시간
+    # 👽 clage_session_lostatt -> Lost attempts
+    clage_session_lostatt=?실패 횟수
+    # 👽 clage_session_pause -> Pause
+    clage_session_pause=?일시 중지
+    # 👽 clage_session_queues -> Queues
+    clage_session_queues=?대기열
+    # 👽 clage_session_start -> Segment start
+    clage_session_start=?세션 시작
+    # 👽 clage_session_talk -> Talk time
+    clage_session_talk=?통화 시간
+    # 👽 clage_session_type -> Session type
+    clage_session_type=?세션 유형
     clage_sessions=세션
     clage_tag_sessionreport=태그 세션 뷰(View)
     clage_takenshort=T
@@ -601,8 +601,8 @@ Do not change the items below:
     clacd_lost_calls=미수신 통화
     clacd_max_attempts=최대 시도수
     clacd_min_attempts=최소 시도수
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=
+    # 👽 clacd_last_acd_attempts -> Last ACD attempts
+    clacd_last_acd_attempts=?최근 ACD 시도
     clacd_n_lost=미수신 통화수
     clacd_n_taken=수신 통화 수
     clacd_queue=대기큐(Queue)
@@ -638,10 +638,10 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=상담원 세션 상세(원본)
     cld_detail_of_answered_calls=수신 통화 상세
     cld_detail_of_unanswered_calls=미수신 통화 상세
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=
+    # 👽 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    cld_detail_of_unanswered_calls_afp=?응답 없는 통화 상세 정보
+    # 👽 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    cld_detail_of_unanswered_calls_raw=?응답 없는 통화 원시 상세 정보
     cld_detail_summary=상세 요약(시간대별)
     cld_detail_summary_dom=상세 요약(날짜별)
     cld_detail_summary_dow=상세 요약(요일별)
@@ -720,10 +720,10 @@ Do not change the items below:
     cld_queue=대기큐(Queue)
     cld_queue_batch_export=내보내기 할 통화내역 추가
     cld_queue_detail=대기큐(Queue) 상세
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=
+    # 👽 cld_queue_detail_afp -> Queue detail
+    cld_queue_detail_afp=?대기열 상세 정보
+    # 👽 cld_queue_detail_raw -> Raw queue detail
+    cld_queue_detail_raw=?대기열 원시 상세 정보
     cld_return=돌아가기
     cld_server=서버
     cld_session_agent_detail=세션 상담원 상세
@@ -939,12 +939,12 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=미수신콜-길이별 분포
     clko_unanswered_outbound=미수신콜(발신)-상담원별
     clko_within_x_seconds=##초 : 
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-    ➡️ clko_unanswered_calls_prc=
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
-    ➡️ clko_unanswered_with_atts=
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
-    ➡️ clko_unanswered_no_atts=
+    # 👽 clko_unanswered_calls_prc -> Unans. %
+    clko_unanswered_calls_prc=?응답 없음 %
+    # 👽 clko_unanswered_with_atts -> Unans. with att.
+    clko_unanswered_with_atts=?Att.이 있는 응답 없음
+    # 👽 clko_unanswered_no_atts -> Unans no att.
+    clko_unanswered_no_atts=?응답 없음 (Att. 없음)
 
 
 ## Report headers
@@ -1068,32 +1068,32 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=
-    # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=
-    # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=
-    # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=
-    # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=
-    # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=
-    # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=
-    # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=
-    # 🔴 clok_effective_prc -> Effective %
-    ➡️ clok_effective_prc=
-    # 🔴 clok_avg_wait -> Avg wait
-    ➡️ clok_avg_wait=
-    # 🔴 clok_max_wait -> Max wait
-    ➡️ clok_max_wait=
+    # 👽 clok_overview_by_agent -> Overview by Agent
+    clok_overview_by_agent=?상담원별 개요
+    # 👽 clok_overview_by_queue -> Overview by Queue
+    clok_overview_by_queue=?대기열별 개요
+    # 👽 clok_offered_n -> Offered
+    clok_offered_n=?제공됨
+    # 👽 clok_answered_calls_prc -> Ans %
+    clok_answered_calls_prc=?응답률(%)
+    # 👽 clok_lost_attempts -> Lost att.
+    clok_lost_attempts=?실패 횟수
+    # 👽 clok_lost_attempts_prc -> Lst att %
+    clok_lost_attempts_prc=?실패율(%)
+    # 👽 clok_outbound -> Outbound
+    clok_outbound=?아웃바운드
+    # 👽 clok_outbound_prc -> Outb.%
+    clok_outbound_prc=?아웃바운드(%)
+    # 👽 clok_asa -> ASA
+    clok_asa=?ASA
+    # 👽 clok_answered_sla_prc -> Ans in SLA %
+    clok_answered_sla_prc=?SLA 내 응답률(%)
+    # 👽 clok_effective_prc -> Effective %
+    clok_effective_prc=?유효율(%)
+    # 👽 clok_avg_wait -> Avg wait
+    clok_avg_wait=?평균 대기
+    # 👽 clok_max_wait -> Max wait
+    clok_max_wait=?최대 대기
         
     
 ## Call events
@@ -1130,8 +1130,8 @@ Used for data blocks Overview by Agent/Queue
     evt_phone_end_session=Phone Session End
     evt_phone_fail_session=Phone Session Fail
     evt_phone_start_session=Phone Session Start
-    # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel=
+    # 👽 evt_ringcancel -> Ring Cancel
+    evt_ringcancel=?벨 취소
     evt_ringing=Ringing
     evt_ringnoanswer=Ring no answer
     evt_setvar=설정된 변수
@@ -1143,27 +1143,27 @@ Used for data blocks Overview by Agent/Queue
     evt_skillreq=요구 스킬(Skill)
     evt_teams_end_session=MS Teams Session End
     evt_teams_fail_session=Teams Session Fail
-    # 🔴 evt_teams_start_session -> MS Teams Session Start
-    ➡️ evt_teams_start_session=
-    # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer=
-    # 🔴 evt_unanswered_yet -> Unanswered Yet
-    ➡️ evt_unanswered_yet=
+    # 👽 evt_teams_start_session -> MS Teams Session Start
+    evt_teams_start_session=?MS Teams 세션 시작
+    # 👽 evt_transfer -> Transfer
+    evt_transfer=?전송
+    # 👽 evt_unanswered_yet -> Unanswered Yet
+    evt_unanswered_yet=?아직 응답 없음
     evt_web_end_session=웹 세션 종료
     evt_web_fail_session=웹 세션 실패
     evt_web_start_session=웹 세션 시작
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=
+    # 👽 evt_var_group -> Variables
+    evt_var_group=?변수
+    # 👽 evt_custom_prev_stint -> Previous Stint
+    evt_custom_prev_stint=?이전 근무 시간
+    # 👽 evt_custom_next_stint -> Next Stint
+    evt_custom_next_stint=?다음 근무 시간
+    # 👽 evt_custom_n_stint -> N. Stints
+    evt_custom_n_stint=?N. 근무 시간
+    # 👽 evt_custom_direct_to -> Direct call to
+    evt_custom_direct_to=?직통 전화
+    # 👽 evt_custom_quality -> Call quality
+    evt_custom_quality=?통화 품질
 
 ## Headers
 
@@ -1175,8 +1175,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_agents_det_title=상담원 세션 및 일시중지 상세
     hdr_agents_title=상담원과 세션
     hdr_all=전체
-    # 🔴 hdr_amo -> AMO
-    ➡️ hdr_amo=
+    # 👽 hdr_amo -> AMO
+    hdr_amo=?AMO
     hdr_answered=응대콜
     hdr_answered_details=응대콜 상세
     hdr_answered_details_title=응대콜 상세정보
@@ -1184,16 +1184,16 @@ Used for data blocks Overview by Agent/Queue
     hdr_area_title=지역번호별 분석
     hdr_attempts=콜시도
     hdr_broadcast=Broadcast
-    # 🔴 hdr_calls -> Calls
-    ➡️ hdr_calls=
-    # 🔴 hdr_calls_title -> Call Details
-    ➡️ hdr_calls_title=
-    # 🔴 hdr_casedo -> Cases
-    ➡️ hdr_casedo=
-    # 🔴 hdr_casedo_title -> Cases and Clients
-    ➡️ hdr_casedo_title=
-    # 🔴 hdr_cases -> Cases
-    ➡️ hdr_cases=
+    # 👽 hdr_calls -> Calls
+    hdr_calls=?통화
+    # 👽 hdr_calls_title -> Call Details
+    hdr_calls_title=?통화 정보
+    # 👽 hdr_casedo -> Cases
+    hdr_casedo=?사례
+    # 👽 hdr_casedo_title -> Cases and Clients
+    hdr_casedo_title=?사례 및 고객
+    # 👽 hdr_cases -> Cases
+    hdr_cases=?사례
     hdr_cbt=CBTs
     hdr_clients=고객명
     hdr_cronjobs=예정된 작업
@@ -1275,85 +1275,85 @@ Used for data blocks Overview by Agent/Queue
     edit_ac_supervisor=감독자(Supervisor)
     edit_ac_term=종료
     edit_ac_title=상담원 환경설정
-    # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute=
+    # 👽 edit_amo_attribute -> Attribute
+    edit_amo_attribute=?속성
 
 ### AMO
 
-    # 🔴 edit_amo_attributes -> Attributes
-    ➡️ edit_amo_attributes=
-    # 🔴 edit_amo_campaign -> Campaign
-    ➡️ edit_amo_campaign=
-    # 🔴 edit_amo_last_pull -> Last Pull
-    ➡️ edit_amo_last_pull=
-    # 🔴 edit_amo_list_dialer_state -> Dialer State
-    ➡️ edit_amo_list_dialer_state=
-    # 🔴 edit_amo_list_id -> List ID
-    ➡️ edit_amo_list_id=
-    # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=
-    # 🔴 edit_amo_list_n_added -> N. added
-    ➡️ edit_amo_list_n_added=
-    # 🔴 edit_amo_list_n_completed -> N. completed
-    ➡️ edit_amo_list_n_completed=
-    # 🔴 edit_amo_list_n_pulled -> N. pulled
-    ➡️ edit_amo_list_n_pulled=
-    # 🔴 edit_amo_list_name -> Name
-    ➡️ edit_amo_list_name=
-    # 🔴 edit_amo_list_numbers -> Edit Numbers
-    ➡️ edit_amo_list_numbers=
-    # 🔴 edit_amo_list_pull_by -> Pulled by
-    ➡️ edit_amo_list_pull_by=
-    # 🔴 edit_amo_list_state -> List State
-    ➡️ edit_amo_list_state=
-    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-    ➡️ edit_amo_list_upload_numbers=
-    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-    ➡️ edit_amo_list_upload_text=
-    # 🔴 edit_amo_list_weight -> Weight
-    ➡️ edit_amo_list_weight=
-    # 🔴 edit_amo_lists_list -> AMO Lists
-    ➡️ edit_amo_lists_list=
-    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
-    ➡️ edit_amo_lists_name_present=
-    # 🔴 edit_amo_lists_title -> Edit AMO List
-    ➡️ edit_amo_lists_title=
-    # 🔴 edit_amo_n_added -> N. added
-    ➡️ edit_amo_n_added=
-    # 🔴 edit_amo_n_completed -> N. completed
-    ➡️ edit_amo_n_completed=
-    # 🔴 edit_amo_n_lists -> N. of Lists
-    ➡️ edit_amo_n_lists=
-    # 🔴 edit_amo_name -> Name
-    ➡️ edit_amo_name=
-    # 🔴 edit_amo_notes -> Notes
-    ➡️ edit_amo_notes=
-    # 🔴 edit_amo_number -> Number
-    ➡️ edit_amo_number=
-    # 🔴 edit_amo_number_id -> Number ID
-    ➡️ edit_amo_number_id=
-    # 🔴 edit_amo_numbers_current_uid -> Current UID
-    ➡️ edit_amo_numbers_current_uid=
-    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
-    ➡️ edit_amo_numbers_edit=
-    # 🔴 edit_amo_numbers_list -> AMO Numbers
-    ➡️ edit_amo_numbers_list=
-    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-    ➡️ edit_amo_numbers_previous_retries=
-    # 🔴 edit_amo_numbers_retry_no -> Retry Number
-    ➡️ edit_amo_numbers_retry_no=
-    # 🔴 edit_amo_queue_id -> Queue ID
-    ➡️ edit_amo_queue_id=
-    # 🔴 edit_amo_retry_no -> N. of retries
-    ➡️ edit_amo_retry_no=
-    # 🔴 edit_amo_state -> State
-    ➡️ edit_amo_state=
-    # 🔴 edit_amo_valid_attribute -> Attribute
-    ➡️ edit_amo_valid_attribute=
-    # 🔴 edit_amo_valid_from -> Valid from
-    ➡️ edit_amo_valid_from=
-    # 🔴 edit_amo_valid_value -> Value
-    ➡️ edit_amo_valid_value=
+    # 👽 edit_amo_attributes -> Attributes
+    edit_amo_attributes=?속성
+    # 👽 edit_amo_campaign -> Campaign
+    edit_amo_campaign=?캠페인
+    # 👽 edit_amo_last_pull -> Last Pull
+    edit_amo_last_pull=?마지막 가져오기
+    # 👽 edit_amo_list_dialer_state -> Dialer State
+    edit_amo_list_dialer_state=?다이얼러 상태
+    # 👽 edit_amo_list_id -> List ID
+    edit_amo_list_id=?목록 ID
+    # 👽 edit_amo_list_last_pull -> Last Pull
+    edit_amo_list_last_pull=?마지막 가져오기
+    # 👽 edit_amo_list_n_added -> N. added
+    edit_amo_list_n_added=?N. 추가됨
+    # 👽 edit_amo_list_n_completed -> N. completed
+    edit_amo_list_n_completed=?N. 완료됨
+    # 👽 edit_amo_list_n_pulled -> N. pulled
+    edit_amo_list_n_pulled=?N. 가져옴
+    # 👽 edit_amo_list_name -> Name
+    edit_amo_list_name=?이름
+    # 👽 edit_amo_list_numbers -> Edit Numbers
+    edit_amo_list_numbers=?번호 편집
+    # 👽 edit_amo_list_pull_by -> Pulled by
+    edit_amo_list_pull_by=?가져온 사람
+    # 👽 edit_amo_list_state -> List State
+    edit_amo_list_state=?목록 상태
+    # 👽 edit_amo_list_upload_numbers -> Upload Numbers
+    edit_amo_list_upload_numbers=?번호 업로드
+    # 👽 edit_amo_list_upload_text -> Drop csv files or browse
+    edit_amo_list_upload_text=?CSV 파일 드롭 또는 찾아보기
+    # 👽 edit_amo_list_weight -> Weight
+    edit_amo_list_weight=?가중치
+    # 👽 edit_amo_lists_list -> AMO Lists
+    edit_amo_lists_list=?AMO 목록
+    # 👽 edit_amo_lists_name_present -> The selected list name already exists
+    edit_amo_lists_name_present=?선택한 목록 이름이 이미 존재합니다
+    # 👽 edit_amo_lists_title -> Edit AMO List
+    edit_amo_lists_title=?AMO 목록 편집
+    # 👽 edit_amo_n_added -> N. added
+    edit_amo_n_added=?N. 추가됨
+    # 👽 edit_amo_n_completed -> N. completed
+    edit_amo_n_completed=?N. 완료됨
+    # 👽 edit_amo_n_lists -> N. of Lists
+    edit_amo_n_lists=?N. of Lists
+    # 👽 edit_amo_name -> Name
+    edit_amo_name=?이름
+    # 👽 edit_amo_notes -> Notes
+    edit_amo_notes=?메모
+    # 👽 edit_amo_number -> Number
+    edit_amo_number=?번호
+    # 👽 edit_amo_number_id -> Number ID
+    edit_amo_number_id=?번호 ID
+    # 👽 edit_amo_numbers_current_uid -> Current UID
+    edit_amo_numbers_current_uid=?현재 UID
+    # 👽 edit_amo_numbers_edit -> Edit AMO Number
+    edit_amo_numbers_edit=?AMO 번호 편집
+    # 👽 edit_amo_numbers_list -> AMO Numbers
+    edit_amo_numbers_list=?AMO 번호
+    # 👽 edit_amo_numbers_previous_retries -> Previous Retries
+    edit_amo_numbers_previous_retries=?이전 재시도
+    # 👽 edit_amo_numbers_retry_no -> Retry Number
+    edit_amo_numbers_retry_no=?재시도 횟수
+    # 👽 edit_amo_queue_id -> Queue ID
+    edit_amo_queue_id=?대기열 ID
+    # 👽 edit_amo_retry_no -> N. of retries
+    edit_amo_retry_no=?재시도 횟수
+    # 👽 edit_amo_state -> State
+    edit_amo_state=?상태
+    # 👽 edit_amo_valid_attribute -> Attribute
+    edit_amo_valid_attribute=?속성
+    # 👽 edit_amo_valid_from -> Valid from
+    edit_amo_valid_from=?유효 시작일
+    # 👽 edit_amo_valid_value -> Value
+    edit_amo_valid_value=?값
 
 ### Cases
 
@@ -1728,26 +1728,26 @@ Used for data blocks Overview by Agent/Queue
     edit_record_queue_agentspaused=일시중지 중인 상담원 수 : 
     edit_record_queue_agentswaiting=콜 대기중인 상담원 수 : 
     edit_record_queue_alias=대기큐(Queue) 별명 : 
-    # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo=
-    # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled=
-    # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential=
-    # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed=
-    # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear=
-    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes=
-    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts=
-    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec=
-    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping=
-    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes=
+    # 👽 edit_record_queue_amo -> AMO Settings
+    edit_record_queue_amo=?AMO 설정
+    # 👽 edit_record_queue_amo_enabled -> Enabled
+    edit_record_queue_amo_enabled=?사용
+    # 👽 edit_record_queue_amo_exponential -> Exponential
+    edit_record_queue_amo_exponential=?지수적
+    # 👽 edit_record_queue_amo_fixed -> Fixed
+    edit_record_queue_amo_fixed=?고정
+    # 👽 edit_record_queue_amo_linear -> Linear
+    edit_record_queue_amo_linear=?선형
+    # 👽 edit_record_queue_amo_recall_attributes -> Recall attributes
+    edit_record_queue_amo_recall_attributes=?재호출 속성
+    # 👽 edit_record_queue_amo_recall_max_attempts -> Max. attempts
+    edit_record_queue_amo_recall_max_attempts=?최대 시도 횟수
+    # 👽 edit_record_queue_amo_recall_sec -> Seconds before recall
+    edit_record_queue_amo_recall_sec=?재호출 전 시간(초)
+    # 👽 edit_record_queue_amo_recall_stepping -> Recall stepping
+    edit_record_queue_amo_recall_stepping=?재호출 단계
+    # 👽 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
+    edit_record_queue_amo_recall_valid_outcomes=?유효한 결과
     edit_record_queue_attention=Attention 레벨
     edit_record_queue_callsinqueue=대기큐(Queue)의 통화 수 : 
     edit_record_queue_chat=Chat 그룹 : 
@@ -1862,8 +1862,8 @@ Used for data blocks Overview by Agent/Queue
 
     qa_agent=상담원
     qa_agent_groups=상담원 그룹
-    # 🔴 qa_agent_groups_icon -> Icon
-    ➡️ qa_agent_groups_icon=
+    # 👽 qa_agent_groups_icon -> Icon
+    qa_agent_groups_icon=?아이콘
     qa_all_calls=모든 통화
     qa_analyst=품질평가 분석
     qa_astclid=AstClid
@@ -2045,8 +2045,8 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_print=출력
     qa_prc_act=%
     qa_prc_min=% needed
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=
+    # 👽 qa_print_report -> Print QA Report
+    qa_print_report=?QA 보고서 인쇄
     qa_queryfilterwarn=Only one agent filter selection at time is supported
     qa_queue=대기큐(Queue)
     qa_range=범위
@@ -2135,8 +2135,8 @@ Used for data blocks Overview by Agent/Queue
     filter_idAgentGroup=상담원 그룹
     filter_idLocation=위치(Location)
     filter_ivr=IVR
-    # 🔴 filter_lostAttemptFor -> Lost Attempt For
-    ➡️ filter_lostAttemptFor=
+    # 👽 filter_lostAttemptFor -> Lost Attempt For
+    filter_lostAttemptFor=?실패 시도 대상
     filter_noncont_days=날짜
     filter_noncont_r1_from=Time from
     filter_noncont_r1_to=Time to
@@ -2164,8 +2164,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_actions_whisper=Whisper
     rt3_add=새 위젯 추가
     rt3_add_box=페이지네 새로운 박스 추가
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    # 👽 rt3_add_queue -> Select Queue
+    rt3_add_queue=?대기열 선택
     rt3_add_view=새로운 뷰 추가
     rt3_advanced=Advanced
     rt3_ag_calls_alm_red=Agents Busy Red Alarm
@@ -2186,37 +2186,37 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_action_title=상담원 Action 선택
     rt3_agent_actions=상담원 Actions
     rt3_agent_addmember=대기큐(Queue)에 상담원 추가할당
-    # 🔴 rt3_agent_changepause -> Change Pause
-    ➡️ rt3_agent_changepause=
+    # 👽 rt3_agent_changepause -> Change Pause
+    rt3_agent_changepause=?일시 중지 변경
     rt3_agent_code=상담원 코드
     rt3_agent_extension=상담원 내선번호
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=
+    # 👽 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    rt3_agent_extension_regex_error=?상담원 내선 번호 형식이 올바르지 않습니다.
+    # 👽 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    rt3_agent_code_regex_error=?상담원 코드 형식이 올바르지 않습니다.
+    # 👽 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    rt3_agent_extension_min_1_char_error=?상담원 내선 번호는 최소 1자 이상이어야 합니다.
+    # 👽 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    rt3_agent_code_min_1_char_error=?상담원 코드는 최소 1자 이상이어야 합니다.
     rt3_agent_info=상담원 정보
     rt3_agent_login=로그인(모든 대기큐에)
     rt3_agent_logon=상담원 로그인
     rt3_agent_logout=로그아웃(모든 대기큐로부터)
     rt3_agent_pause=상담원 일시중지
     rt3_agent_removemember=대기큐로부터 상담원 제거하기
-    # 🔴 rt3_agent_select -> Please select an Agent...
-    ➡️ rt3_agent_select=
+    # 👽 rt3_agent_select -> Please select an Agent...
+    rt3_agent_select=?상담원을 선택하십시오...
     rt3_agent_status=상태
     rt3_agent_unpause=상담원 일시중지 해제
     rt3_agents=상담원
     rt3_agents_on_inbound=Agents on Inbound
     rt3_agents_on_outbound=Agents on Outbound
-    # 🔴 rt3_alarm_cell_value -> Cell Value
-    ➡️ rt3_alarm_cell_value=
-    # 🔴 rt3_alarm_column_title -> Column
-    ➡️ rt3_alarm_column_title=
-    # 🔴 rt3_all_agents -> All Agents
-    ➡️ rt3_all_agents=
+    # 👽 rt3_alarm_cell_value -> Cell Value
+    rt3_alarm_cell_value=?셀 값
+    # 👽 rt3_alarm_column_title -> Column
+    rt3_alarm_column_title=?열
+    # 👽 rt3_all_agents -> All Agents
+    rt3_all_agents=?모든 상담원
     rt3_all_columns=All Columns
     rt3_all_queues=All Queues
     rt3_answer=Answer
@@ -2234,30 +2234,30 @@ Used for data blocks Overview by Agent/Queue
     rt3_call=Call
     rt3_call_action_title=Select an action for a call
     rt3_call_actions=Call Actions
-    # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
-    ➡️ rt3_call_actions_subtitle=
+    # 👽 rt3_call_actions_subtitle -> Click on a call to select it
+    rt3_call_actions_subtitle=?통화를 클릭하여 선택하십시오
     rt3_call_agent=Agent
     rt3_call_alarm_red=Call Red Alarm
     rt3_call_alarm_yel=Call Yellow Alarm
     rt3_call_close=Close Call
-    # 🔴 rt3_call_failed -> The call has failed.
-    ➡️ rt3_call_failed=
+    # 👽 rt3_call_failed -> The call has failed.
+    rt3_call_failed=?통화 실패
     rt3_call_hangup=Hangup Call
     rt3_call_id=Call Id
     rt3_call_in_progress=Call in progress
     rt3_call_localextension=Local Extension
     rt3_call_monitor=Monitor Call
     rt3_call_number=Caller
-    # 🔴 rt3_call_offhold -> The call was taken off hold.
-    ➡️ rt3_call_offhold=
-    # 🔴 rt3_call_onhold -> The call was put on hold.
-    ➡️ rt3_call_onhold=
+    # 👽 rt3_call_offhold -> The call was taken off hold.
+    rt3_call_offhold=?통화 보류 해제
+    # 👽 rt3_call_onhold -> The call was put on hold.
+    rt3_call_onhold=?통화 보류
     rt3_call_qa=Grade Call
     rt3_call_queue=Queue
     rt3_call_started=통화가 시작되었습니다.
     rt3_call_status=Status
-    # 🔴 rt3_call_terminated -> The call was terminated.
-    ➡️ rt3_call_terminated=
+    # 👽 rt3_call_terminated -> The call was terminated.
+    rt3_call_terminated=?통화 종료
     rt3_call_transfer=Transfer Call
     rt3_call_transferextension=Transfer to (ext.)
     rt3_caller=Caller
@@ -2275,10 +2275,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_multiitem=Composite Items
     rt3_category_table=Tables
     rt3_category_various=Various
-    # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
-    ➡️ rt3_change_queue_confirm=
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
+    rt3_change_queue_confirm=?대기열을 변경하면 저장되지 않은 변경 사항이 손실됩니다. 확인하시겠습니까?
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?페이지를 나가면 저장되지 않은 변경 사항이 손실됩니다. 확인하시겠습니까?
     rt3_choose_action=Choose Action
     rt3_choose_monitor_mode=Monitoring Mode
     rt3_choose_queue=Choose Queue
@@ -2302,8 +2302,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_comment=Comment
     rt3_configure_phone=Softphone Configuration
     rt3_connection_error=서버와 연결 오류
-    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
-    ➡️ rt3_connection_valid=
+    # 👽 rt3_connection_valid -> The connection to the server is working correctly.
+    rt3_connection_valid=?서버 연결이 올바르게 작동합니다.
     rt3_cont=Cont.
     rt3_contph=CPH
     rt3_conversation=Conversation
@@ -2315,19 +2315,19 @@ Used for data blocks Overview by Agent/Queue
     rt3_current_agent=현 상담원 : 
     rt3_current_call=Current Call
     rt3_current_props=Current props:
-    # 🔴 rt3_data_block -> Data Block
-    ➡️ rt3_data_block=
-    # 🔴 rt3_data_block_chart -> Chart
-    ➡️ rt3_data_block_chart=
-    # 🔴 rt3_database -> Database
-    ➡️ rt3_database=
-    # 🔴 rt3_datablock -> Data Block
-    ➡️ rt3_datablock=
+    # 👽 rt3_data_block -> Data Block
+    rt3_data_block=?데이터 블록
+    # 👽 rt3_data_block_chart -> Chart
+    rt3_data_block_chart=?차트
+    # 👽 rt3_database -> Database
+    rt3_database=?데이터베이스
+    # 👽 rt3_datablock -> Data Block
+    rt3_datablock=?데이터 블록
     rt3_del=Delete view
-    # 🔴 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
-    ➡️ rt3_delete_current_wallboard_confirm=
-    # 🔴 rt3_delete_wallboard -> Delete
-    ➡️ rt3_delete_wallboard=
+    # 👽 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
+    rt3_delete_current_wallboard_confirm=?현재 월보드가 삭제됩니다. 계속하시겠습니까?
+    # 👽 rt3_delete_wallboard -> Delete
+    rt3_delete_wallboard=?삭제
     rt3_direction=Direction
     rt3_display_size=Display Size
     rt3_dummy_wlbd=Dummy wallboard
@@ -2338,15 +2338,15 @@ Used for data blocks Overview by Agent/Queue
     rt3_edit_wallboard_cfg=Edit the current wallboard and view
     rt3_editwdg_title=Edit Widget
     rt3_empty_wlbd=Empty wallboard
-    # 🔴 rt3_enter_title -> Enter Title
-    ➡️ rt3_enter_title=
+    # 👽 rt3_enter_title -> Enter Title
+    rt3_enter_title=?제목 입력
     rt3_error_prefs_fetch=The user preferences could not be retrieved
     rt3_error_saving=Error saving wallboard
     rt3_error_saving_prefs=The user preferences could not be saved
     rt3_error_saving_public_wb=User cannot save a public wallboard
     rt3_error_saving_wb_missing_key=현황판을 저장할 수 없습니다. 사용자 권한키 WALLBOARD_ADD가 없어서...
-    # 🔴 rt3_export_schema -> Export
-    ➡️ rt3_export_schema=
+    # 👽 rt3_export_schema -> Export
+    rt3_export_schema=?내보내기
     rt3_extension=내선번호
     rt3_extension_info=Logged in as:
     rt3_extra_value=Some of the selected values are not available
@@ -2356,18 +2356,18 @@ Used for data blocks Overview by Agent/Queue
     rt3_green=green
     rt3_hangup=Hangup
     rt3_hold=Hold
-    # 🔴 rt3_html -> HTML Page
-    ➡️ rt3_html=
+    # 👽 rt3_html -> HTML Page
+    rt3_html=?HTML 페이지
     rt3_idle=Idle
     rt3_idle_alarm_red=Idle Red Alarm
     rt3_idle_alarm_yel=Idle Yellow Alarm
-    # 🔴 rt3_import_schema -> Import
-    ➡️ rt3_import_schema=
+    # 👽 rt3_import_schema -> Import
+    rt3_import_schema=?가져오기
     rt3_in_ivr=IVR
-    # 🔴 rt3_incoming_call_from -> Incoming call from
-    ➡️ rt3_incoming_call_from=
-    # 🔴 rt3_insert_valid_value -> Please insert a valid value
-    ➡️ rt3_insert_valid_value=
+    # 👽 rt3_incoming_call_from -> Incoming call from
+    rt3_incoming_call_from=?수신 전화 발신자
+    # 👽 rt3_insert_valid_value -> Please insert a valid value
+    rt3_insert_valid_value=?유효한 값을 입력하십시오
     rt3_ispublic=Public?
     rt3_ivr_time=IVR
     rt3_kill=Remove this widget from view
@@ -2385,12 +2385,12 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=Longest Wait
     rt3_lost_attempts=Lost Att.
     rt3_lost_prc=Lost
-    # 🔴 rt3_menu_delete -> Delete
-    ➡️ rt3_menu_delete=
-    # 🔴 rt3_menu_edit -> Edit
-    ➡️ rt3_menu_edit=
-    # 🔴 rt3_menu_share -> Share
-    ➡️ rt3_menu_share=
+    # 👽 rt3_menu_delete -> Delete
+    rt3_menu_delete=?삭제
+    # 👽 rt3_menu_edit -> Edit
+    rt3_menu_edit=?편집
+    # 👽 rt3_menu_share -> Share
+    rt3_menu_share=?공유
     rt3_missing_wdg=Missing Wdg
     rt3_n_agents=N. Of Agents
     rt3_n_calls_answered=Answered Calls
@@ -2456,10 +2456,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_secondary_color=Secondary Color
     rt3_seconds=seconds
     rt3_security_key=조회권한 키
-    # 🔴 rt3_select_chart -> Select a Chart...
-    ➡️ rt3_select_chart=
-    # 🔴 rt3_select_db -> Select a DataBlock...
-    ➡️ rt3_select_db=
+    # 👽 rt3_select_chart -> Select a Chart...
+    rt3_select_chart=?차트 선택...
+    # 👽 rt3_select_db -> Select a DataBlock...
+    rt3_select_db=?데이터 블록 선택...
     rt3_select_wallboard=표시할 현황판을 선택하세요.
     rt3_send_command=Ok
     rt3_session_invalid_reconnecting=QueueMetrics와 연결 이슈로 재연결중입니다.
@@ -2486,8 +2486,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agent And Outcome
     rt3_table_aggrbyqueue=Aggregated By Queue
     rt3_table_aggrbytag=Aggregated By Tag
-    # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=
+    # 👽 rt3_table_lastattempts -> Last attempts
+    rt3_table_lastattempts=?마지막 시도
     rt3_table_live_agents=Live Agents
     rt3_table_live_calls=Live Calls
     rt3_table_live_queues=Live Queues
@@ -2500,8 +2500,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_talk_yellow_alarm=Talk Yellow Alarm
     rt3_talking=Talk
     rt3_text=Text
-    # 🔴 rt3_text_area_placeholder -> Insert text here
-    ➡️ rt3_text_area_placeholder=
+    # 👽 rt3_text_area_placeholder -> Insert text here
+    rt3_text_area_placeholder=?여기에 텍스트 입력
     rt3_title=Title
     rt3_tot_talk=Tot. Talk
     rt3_total=Total
@@ -2514,8 +2514,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_unregister_txt=Unregister
     rt3_unregistered=Unregistered
     rt3_up=Move up
-    # 🔴 rt3_url -> Url
-    ➡️ rt3_url=
+    # 👽 rt3_url -> Url
+    rt3_url=?URL
     rt3_url_copied=공유용 URL이 클립보드에 복사되었습니다.
     rt3_user_prefs_saved=The user preferences have been saved
     rt3_user_session_invalid=사용자 세션정보가 유효하지 않습니다. 다시 로그인 바랍니다.
@@ -2674,8 +2674,8 @@ Used for data blocks Overview by Agent/Queue
 
 Description of configuration properties
 
-    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
-    ➡️ propedit_agent_max_qap_calls_desc=
+    # 👽 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
+    propedit_agent_max_qap_calls_desc=?상담원에게 표시되는 최대 일일 통화 수
     propedit_category_agentpage=상담원 페이지
     propedit_category_engine=Calculation engine
     propedit_category_misc=Uncategorized
@@ -2687,14 +2687,14 @@ Description of configuration properties
     propedit_category_synchronizer=Synchronizer
     propedit_edit_label=편집
     propedit_explore_label=탐색기(Explore)
-    # 🔴 propedit_feature_agent_amo -> AMO
-    ➡️ propedit_feature_agent_amo=
+    # 👽 propedit_feature_agent_amo -> AMO
+    propedit_feature_agent_amo=?AMO
     propedit_feature_ap_backg=Optional backgrounds
     propedit_feature_ap_login_out=로그인/로그아웃(Login and logout)
     propedit_feature_ap_other=Uncategorized
     propedit_feature_autoopenurl=Background refresh
-    # 🔴 propedit_feature_engine_audit -> Auditing
-    ➡️ propedit_feature_engine_audit=
+    # 👽 propedit_feature_engine_audit -> Auditing
+    propedit_feature_engine_audit=?감사
     propedit_feature_engine_other=Uncategorized
     propedit_feature_engine_shortcalls=Short Calls
     propedit_feature_engine_sla=SLA
@@ -2709,8 +2709,8 @@ Description of configuration properties
     propedit_feature_platformdialer_settings=General Settings
     propedit_feature_rtmisc=Other realtime parameters
     propedit_feature_rtpanels=Realtime panels
-    # 🔴 propedit_feature_softphone_defaults -> SoftPhone Global Defaults
-    ➡️ propedit_feature_softphone_defaults=
+    # 👽 propedit_feature_softphone_defaults -> SoftPhone Global Defaults
+    propedit_feature_softphone_defaults=?소프트폰 글로벌 기본값
     propedit_feature_softphone_settings=Agent Page Softphone Settings
     propedit_feature_synchronizer_settings=Synchronizer Settings
     propedit_feature_wallboard=현황판(Wallboard)
@@ -2718,35 +2718,35 @@ Description of configuration properties
     propedit_key_agent_background_desc=URL of the agent page background.
     propedit_key_agent_outcome_size=Maximum height of outcome selection list
     propedit_key_agent_pause_dialout=Disable agents dial out when they are on pause
-    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
-    ➡️ propedit_key_agent_qap_cached_for_ms_desc=
-    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    ➡️ propedit_key_amo_placed_call_timeout=
-    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
-    ➡️ propedit_key_answer_src=
-    # 🔴 propedit_key_atxfer -> Attended Transfer Feature Code
-    ➡️ propedit_key_atxfer=
-    # 🔴 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
-    ➡️ propedit_key_atxferabort=
-    # 🔴 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
-    ➡️ propedit_key_atxfercomplete=
-    # 🔴 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
-    ➡️ propedit_key_atxferswap=
-    # 🔴 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
-    ➡️ propedit_key_atxferthreeway=
+    # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
+    propedit_key_agent_qap_cached_for_ms_desc=?상담원 페이지의 최대 허용 캐시 시간
+    # 👽 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
+    propedit_key_amo_placed_call_timeout=?AMO 재활용 시간 초과
+    # 👽 propedit_key_answer_src -> The Softphone's answer tone (URL)
+    propedit_key_answer_src=?소프트폰 응답 톤 (URL)
+    # 👽 propedit_key_atxfer -> Attended Transfer Feature Code
+    propedit_key_atxfer=?참여 전송 기능 코드
+    # 👽 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
+    propedit_key_atxferabort=?참여 전송 중단 기능 코드
+    # 👽 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
+    propedit_key_atxfercomplete=?참여 전송 완료 기능 코드
+    # 👽 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
+    propedit_key_atxferswap=?참여 전송 스왑 기능 코드
+    # 👽 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
+    propedit_key_atxferthreeway=?참여 전송 3자 통화 기능 코드
     propedit_key_audio_html5player_desc=Use the HTML5 audio player
     propedit_key_audit_log_days=How many days of logs to preserve during an Audit Log Cleanup
-    # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
-    ➡️ propedit_key_audit_max_report_time=
-    # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
-    ➡️ propedit_key_audit_max_rows_fetched=
-    # 🔴 propedit_key_blindxfer -> Blind Transfer Feature Code
-    ➡️ propedit_key_blindxfer=
+    # 👽 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
+    propedit_key_audit_max_report_time=?감사가 필요하지 않은 최대 보고서 기간
+    # 👽 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
+    propedit_key_audit_max_rows_fetched=?감사가 필요하지 않은 최대 행 스캔 수
+    # 👽 propedit_key_blindxfer -> Blind Transfer Feature Code
+    propedit_key_blindxfer=?블라인드 전송 기능 코드
     propedit_key_cronjobs_localwebapp=Base Url for Scheduled Jobs Execution
-    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
-    ➡️ propedit_key_decodeknownnumbers=
-    # 🔴 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
-    ➡️ propedit_key_default_agentcanamendpause_desc=
+    # 👽 propedit_key_decodeknownnumbers -> Decode known numbers
+    propedit_key_decodeknownnumbers=?알려진 번호 디코딩
+    # 👽 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
+    propedit_key_default_agentcanamendpause_desc=?이 속성이 "예"로 설정되면 상담원은 현재 일시 중지 코드를 수정하여 소급 적용할 수 있습니다 (현재 일시 중지에 대해 이전 코드 대신 새 일시 중지 코드가 보고서에 표시됨). "아니요"로 설정하면 상담원이 일시 중지 코드를 변경할 때 현재 일시 중지가 자동으로 종료되고 새 코드로 새 일시 중지가 시작됩니다.
     propedit_key_default_alwaysLogonUnpaused_desc=When an agent logs on, he will always be unpaused
     propedit_key_default_areacode_digits_desc=How many digits to consider as a default area code
     propedit_key_default_callstatustimeout_desc=Time window (in seconds) within which the agent can set a call outcome (defaults to 30 min).
@@ -2755,8 +2755,8 @@ Description of configuration properties
     propedit_key_default_crmapp_desc=URL (can have dynamic tags, see user's manual)
     propedit_key_default_crmlabel_desc=Label shown in the Icon page menu
     propedit_key_default_decimalDigits_desc= Number of digits to display for floating-point numbers
-    # 🔴 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
-    ➡️ propedit_key_default_effectiveCallThresold_desc=
+    # 👽 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
+    propedit_key_default_effectiveCallThresold_desc=?유효한 통화로 간주되는 최소 통화 길이
     propedit_key_default_export_orientation_desc=PDF direct exported reports orientation
     propedit_key_default_export_orientation_landscape_desc=Landscape
     propedit_key_default_export_orientation_portrait_desc=Portrait
@@ -2768,10 +2768,10 @@ Description of configuration properties
     propedit_key_default_lockedAgentPopupCode_desc=Can users change their code in the login/logoff/pause popups?
     propedit_key_default_maxOngoingTalkTime_desc=If an ongoing call has a talk time that exceeds this value, drop it. 0: ignore
     propedit_key_default_maxOngoingWaitTime_desc=If an ongoing call has a wait time that exceeds this value, drop it. 0: ignore
-    # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
-    ➡️ propedit_key_default_maxrowspdf_desc=
-    # 🔴 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
-    ➡️ propedit_key_default_maxrowsxls_desc=
+    # 👽 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
+    propedit_key_default_maxrowspdf_desc=?PDF 형식으로 보고서를 내보낼 때 테이블당 최대 행 수입니다.
+    # 👽 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
+    propedit_key_default_maxrowsxls_desc=?XLS 형식으로 보고서를 내보낼 때 테이블당 최대 행 수입니다. XLS 페이지의 최대 행 수는 65435를 초과할 수 없습니다.
     propedit_key_default_openUrlInPopup_desc=Open CRM in a separate window (do not embed in Icon)
     propedit_key_default_pausecoderequired_desc=If set to true, agents are required to provide a valid pause reason
     propedit_key_default_queue_desc= Internal numerical id of the preselected default queue, leave blank for no default queue.
@@ -2795,19 +2795,19 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Tech Info and DBTest visibility
     propedit_key_default_webloaderpbx_desc=Activate WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Enable wombat's agent recall service
-    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
-    ➡️ propedit_key_dialtone_src=
+    # 👽 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
+    propedit_key_dialtone_src=?소프트폰 발신음 (URL)
     propedit_key_directami_agent_desc=The way an agent channel is supposed to be
     propedit_key_directami_cmdseparator_desc=The separator used for parameters in your Asterisk version. 
     propedit_key_directami_extension_desc=The way an agent extension channel is supposed to be
     propedit_key_directami_localext_desc=The channel used for chanspy
-    # 🔴 propedit_key_directami_optimizedagentchannel_desc -> Is the format of the agent channel when it is live and you want to spy on it. If blank, uses the same physical agent channel, based on the agent code or the extension code  depening on whether you are in hotdesking mode or not. Defaults to blank.
-    ➡️ propedit_key_directami_optimizedagentchannel_desc=
+    # 👽 propedit_key_directami_optimizedagentchannel_desc -> Is the format of the agent channel when it is live and you want to spy on it. If blank, uses the same physical agent channel, based on the agent code or the extension code  depening on whether you are in hotdesking mode or not. Defaults to blank.
+    propedit_key_directami_optimizedagentchannel_desc=?실시간 스파이 활동을 할 때 상담원 채널의 형식입니다. 비어 있는 경우 핫 데스킹 모드인지 여부에 따라 상담원 코드 또는 내선 코드를 기반으로 동일한 물리적 상담원 채널을 사용합니다. 기본값은 공백입니다.
     propedit_key_directami_outboundenabled_desc=Whether outbound dialing is enabled
     propedit_key_directami_outboundstanza_desc=the point in the dialplan that should be called when doing outbound
     propedit_key_directami_spyoptions_desc=The options you want to use for the Asterisk application ChanSpy when listening to calls. By changing these options, you can have whispers or barge instead of plain spy.
-    # 🔴 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
-    ➡️ propedit_key_directami_stateinterface_desc=
+    # 👽 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
+    propedit_key_directami_stateinterface_desc=?상담원용 StateInterface입니다. 공백이면 추가되지 않습니다.
     propedit_key_directami_trackerdialout_desc=The extension and context we connect to when dialing out
     propedit_key_directami_transfer_desc=The transfer destination, in the form ext@context
     propedit_key_directami_usetracker_desc=Do we use the Uniloader Tracker for outbound?
@@ -2818,180 +2818,180 @@ Description of configuration properties
     propedit_key_enswitch_httplogin_desc=An API user log-in
     propedit_key_enswitch_httppassword_desc=An API user password
     propedit_key_enswitch_lookback_desc=For how long a recently-closed call should be searched on CDRs (default: 7200 seconds)
-    # 🔴 propedit_key_enswitch_qpmain_desc -> The queue priority for an agent being logged in with priority MAIN (default: 8)
-    ➡️ propedit_key_enswitch_qpmain_desc=
-    # 🔴 propedit_key_enswitch_qpspill_desc -> The queue priority for an agent being logged in with priority SPILL (default: 4)
-    ➡️ propedit_key_enswitch_qpspill_desc=
-    # 🔴 propedit_key_enswitch_qpwrap_desc -> The queue priority for an agent being logged in with priority WRAP (default: 6)
-    ➡️ propedit_key_enswitch_qpwrap_desc=
-    # 🔴 propedit_key_enswitch_spyprefix_desc -> The default prefix to use to initiate a chanspy (Default: *91)
-    ➡️ propedit_key_enswitch_spyprefix_desc=
-    # 🔴 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
-    ➡️ propedit_key_enswitch_verbose_desc=
-    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
-    ➡️ propedit_key_extrabody=
-    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
-    ➡️ propedit_key_hangup_src=
-    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    ➡️ propedit_key_hiddennumberpolicy=
+    # 👽 propedit_key_enswitch_qpmain_desc -> The queue priority for an agent being logged in with priority MAIN (default: 8)
+    propedit_key_enswitch_qpmain_desc=?우선 순위 MAIN으로 로그인된 상담원의 대기열 우선 순위(기본값: 8)
+    # 👽 propedit_key_enswitch_qpspill_desc -> The queue priority for an agent being logged in with priority SPILL (default: 4)
+    propedit_key_enswitch_qpspill_desc=?우선 순위 SPILL로 로그인된 상담원의 대기열 우선 순위(기본값: 4)
+    # 👽 propedit_key_enswitch_qpwrap_desc -> The queue priority for an agent being logged in with priority WRAP (default: 6)
+    propedit_key_enswitch_qpwrap_desc=?우선 순위 WRAP으로 로그인된 상담원의 대기열 우선 순위(기본값: 6)
+    # 👽 propedit_key_enswitch_spyprefix_desc -> The default prefix to use to initiate a chanspy (Default: *91)
+    propedit_key_enswitch_spyprefix_desc=?찬스파이 시작에 사용할 기본 접두사(기본값: *91)
+    # 👽 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
+    propedit_key_enswitch_verbose_desc=?모든 Enswitch 상호 작용을 표준 로그에 전체적으로 기록할지 여부(기본값: false)
+    # 👽 propedit_key_extrabody -> Extra text in e-mail bodies.
+    propedit_key_extrabody=?이메일 본문의 추가 텍스트입니다.
+    # 👽 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
+    propedit_key_hangup_src=?소프트폰 끊기 톤 (URL)
+    # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
+    propedit_key_hiddennumberpolicy=?번호 숨기기 정책
     propedit_key_layout_logo_desc=회사 로고이미지 (전체 또는 상대위치) 크기는 200x72
-    # 🔴 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
-    ➡️ propedit_key_noans_timeout=
-    # 🔴 propedit_key_phone_iceservers -> List of ICE Servers to use.
-    ➡️ propedit_key_phone_iceservers=
-    # 🔴 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
-    ➡️ propedit_key_phone_maxsessions=
-    # 🔴 propedit_key_phone_websocketurl -> Web Socket URL for the connection.
-    ➡️ propedit_key_phone_websocketurl=
-    # 🔴 propedit_key_platform_dialer_desc -> Choose the type of dialer to be used
-    ➡️ propedit_key_platform_dialer_desc=
-    # 🔴 propedit_key_platform_jsonapi_enabled -> A comma-separated list of actions to offer
-    ➡️ propedit_key_platform_jsonapi_enabled=
-    # 🔴 propedit_key_platform_jsonapi_method -> Which HTTP method to use
-    ➡️ propedit_key_platform_jsonapi_method=
-    # 🔴 propedit_key_platform_jsonapi_token -> An identification token for this QM system
-    ➡️ propedit_key_platform_jsonapi_token=
-    # 🔴 propedit_key_platform_jsonapi_url -> The HTTP/S URL to send commands to
-    ➡️ propedit_key_platform_jsonapi_url=
-    # 🔴 propedit_key_platform_jsonapi_verbose -> Verbose logging
-    ➡️ propedit_key_platform_jsonapi_verbose=
-    # 🔴 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
-    ➡️ propedit_key_platform_pbx_desc=
-    # 🔴 propedit_key_realtime_absolutePauseTimes_desc -> Show absolute agent logon times on the RT page?
-    ➡️ propedit_key_realtime_absolutePauseTimes_desc=
+    # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
+    propedit_key_noans_timeout=?수신 전화를 받지 않은 경우 거부되는 시간(초)입니다. 기본값은 60입니다.
+    # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
+    propedit_key_phone_iceservers=?사용할 ICE 서버 목록입니다.
+    # 👽 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
+    propedit_key_phone_maxsessions=?상담원 페이지 소프트폰의 최대 세션 수
+    # 👽 propedit_key_phone_websocketurl -> Web Socket URL for the connection.
+    propedit_key_phone_websocketurl=?연결을 위한 웹 소켓 URL입니다.
+    # 👽 propedit_key_platform_dialer_desc -> Choose the type of dialer to be used
+    propedit_key_platform_dialer_desc=?사용할 다이얼러 유형을 선택하십시오
+    # 👽 propedit_key_platform_jsonapi_enabled -> A comma-separated list of actions to offer
+    propedit_key_platform_jsonapi_enabled=?제공할 작업의 쉼표로 구분된 목록입니다.
+    # 👽 propedit_key_platform_jsonapi_method -> Which HTTP method to use
+    propedit_key_platform_jsonapi_method=?사용할 HTTP 메서드
+    # 👽 propedit_key_platform_jsonapi_token -> An identification token for this QM system
+    propedit_key_platform_jsonapi_token=?이 QM 시스템의 식별 토큰
+    # 👽 propedit_key_platform_jsonapi_url -> The HTTP/S URL to send commands to
+    propedit_key_platform_jsonapi_url=?명령을 보낼 HTTP/S URL
+    # 👽 propedit_key_platform_jsonapi_verbose -> Verbose logging
+    propedit_key_platform_jsonapi_verbose=?자세한 로깅
+    # 👽 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
+    propedit_key_platform_pbx_desc=?사용할 PBX 플랫폼 유형을 선택하십시오.
+    # 👽 propedit_key_realtime_absolutePauseTimes_desc -> Show absolute agent logon times on the RT page?
+    propedit_key_realtime_absolutePauseTimes_desc=?실시간 페이지에 절대 상담원 로그온 시간을 표시하시겠습니까?
     propedit_key_realtime_absolutePauseTimes_fase_desc=Relative times
     propedit_key_realtime_absolutePauseTimes_true_desc=Absolute times
     propedit_key_realtime_agentPausedOnLogin_desc=로그인 시 다음 코드로 업무 일시중지함
-    # 🔴 propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc -> Agent and outcome selector status
-    ➡️ propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc=
-    # 🔴 propedit_key_realtime_agent_and_outcome_invisible_desc -> Agent and outcome panel selector visibility
-    ➡️ propedit_key_realtime_agent_and_outcome_invisible_desc=
-    # 🔴 propedit_key_realtime_agent_autoopenurl_desc -> Open an URL each new taken call
-    ➡️ propedit_key_realtime_agent_autoopenurl_desc=
-    # 🔴 propedit_key_realtime_agent_show_agaw_desc -> Show AGAW information on the (old) realtime agent page
-    ➡️ propedit_key_realtime_agent_show_agaw_desc=
-    # 🔴 propedit_key_realtime_agent_web1_label -> Label 1 shown in the Icon page menu
-    ➡️ propedit_key_realtime_agent_web1_label=
-    # 🔴 propedit_key_realtime_agent_web1_url -> URL 1  (can have dynamic tags, see user's manual)
-    ➡️ propedit_key_realtime_agent_web1_url=
-    # 🔴 propedit_key_realtime_agent_web2_label -> Label 2 shown in the Icon page menu
-    ➡️ propedit_key_realtime_agent_web2_label=
-    # 🔴 propedit_key_realtime_agent_web2_url -> URL 2 (can have dynamic tags, see user's manual)
-    ➡️ propedit_key_realtime_agent_web2_url=
-    # 🔴 propedit_key_realtime_agents_invisible_buttonEnabled_desc -> Agents panel button status
-    ➡️ propedit_key_realtime_agents_invisible_buttonEnabled_desc=
-    # 🔴 propedit_key_realtime_agents_invisible_desc -> Agents panel default visibility
-    ➡️ propedit_key_realtime_agents_invisible_desc=
-    # 🔴 propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc -> Aggregated by queue selector status
-    ➡️ propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc=
-    # 🔴 propedit_key_realtime_aggr_by_queue_invisible_desc -> Aggregated by queue panel selector visibility
-    ➡️ propedit_key_realtime_aggr_by_queue_invisible_desc=
-    # 🔴 propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc -> Aggregated by tag selector status
-    ➡️ propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc=
-    # 🔴 propedit_key_realtime_aggr_by_tag_invisible_desc -> Aggregated by tag panel selector visibility
-    ➡️ propedit_key_realtime_aggr_by_tag_invisible_desc=
-    # 🔴 propedit_key_realtime_ajaxPollingDelay_desc -> Refresh time (in seconds)
-    ➡️ propedit_key_realtime_ajaxPollingDelay_desc=
-    # 🔴 propedit_key_realtime_all_includes_current_logins_desc -> When logging off from ALL QUEUES, should we include any other Q logged in as well?
-    ➡️ propedit_key_realtime_all_includes_current_logins_desc=
-    # 🔴 propedit_key_realtime_all_subqueues_buttonEnabled_desc -> Subqueue button status
-    ➡️ propedit_key_realtime_all_subqueues_buttonEnabled_desc=
-    # 🔴 propedit_key_realtime_all_subqueues_desc -> Show of all subqueues
-    ➡️ propedit_key_realtime_all_subqueues_desc=
-    # 🔴 propedit_key_realtime_assertExtensionNotInUse_desc -> When logging (in hotdesking mode) makes sure the extension is not already in use
-    ➡️ propedit_key_realtime_assertExtensionNotInUse_desc=
-    # 🔴 propedit_key_realtime_assignedLocationsOnly_desc -> Will the user able to monitor without a given location?
-    ➡️ propedit_key_realtime_assignedLocationsOnly_desc=
+    # 👽 propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc -> Agent and outcome selector status
+    propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc=?상담원 및 결과 선택기 상태
+    # 👽 propedit_key_realtime_agent_and_outcome_invisible_desc -> Agent and outcome panel selector visibility
+    propedit_key_realtime_agent_and_outcome_invisible_desc=?상담원 및 결과 패널 선택기 가시성
+    # 👽 propedit_key_realtime_agent_autoopenurl_desc -> Open an URL each new taken call
+    propedit_key_realtime_agent_autoopenurl_desc=?새로 수신된 통화마다 URL 열기
+    # 👽 propedit_key_realtime_agent_show_agaw_desc -> Show AGAW information on the (old) realtime agent page
+    propedit_key_realtime_agent_show_agaw_desc=?(구형) 실시간 상담원 페이지에 AGAW 정보 표시
+    # 👽 propedit_key_realtime_agent_web1_label -> Label 1 shown in the Icon page menu
+    propedit_key_realtime_agent_web1_label=?아이콘 페이지 메뉴에 표시되는 레이블 1
+    # 👽 propedit_key_realtime_agent_web1_url -> URL 1  (can have dynamic tags, see user's manual)
+    propedit_key_realtime_agent_web1_url=?URL 1(동적 태그 포함 가능, 사용자 설명서 참조)
+    # 👽 propedit_key_realtime_agent_web2_label -> Label 2 shown in the Icon page menu
+    propedit_key_realtime_agent_web2_label=?아이콘 페이지 메뉴에 표시되는 레이블 2
+    # 👽 propedit_key_realtime_agent_web2_url -> URL 2 (can have dynamic tags, see user's manual)
+    propedit_key_realtime_agent_web2_url=?URL 2(동적 태그 포함 가능, 사용자 설명서 참조)
+    # 👽 propedit_key_realtime_agents_invisible_buttonEnabled_desc -> Agents panel button status
+    propedit_key_realtime_agents_invisible_buttonEnabled_desc=?상담원 패널 버튼 상태
+    # 👽 propedit_key_realtime_agents_invisible_desc -> Agents panel default visibility
+    propedit_key_realtime_agents_invisible_desc=?상담원 패널 기본 가시성
+    # 👽 propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc -> Aggregated by queue selector status
+    propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc=?대기열별 집계 선택기 상태
+    # 👽 propedit_key_realtime_aggr_by_queue_invisible_desc -> Aggregated by queue panel selector visibility
+    propedit_key_realtime_aggr_by_queue_invisible_desc=?대기열별 집계 패널 선택기 가시성
+    # 👽 propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc -> Aggregated by tag selector status
+    propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc=?태그별 집계 선택기 상태
+    # 👽 propedit_key_realtime_aggr_by_tag_invisible_desc -> Aggregated by tag panel selector visibility
+    propedit_key_realtime_aggr_by_tag_invisible_desc=?태그별 집계 패널 선택기 가시성
+    # 👽 propedit_key_realtime_ajaxPollingDelay_desc -> Refresh time (in seconds)
+    propedit_key_realtime_ajaxPollingDelay_desc=?새로 고침 시간(초)
+    # 👽 propedit_key_realtime_all_includes_current_logins_desc -> When logging off from ALL QUEUES, should we include any other Q logged in as well?
+    propedit_key_realtime_all_includes_current_logins_desc=?모든 대기열에서 로그오프할 때 다른 Q 로그인도 포함해야 합니까?
+    # 👽 propedit_key_realtime_all_subqueues_buttonEnabled_desc -> Subqueue button status
+    propedit_key_realtime_all_subqueues_buttonEnabled_desc=?하위 대기열 버튼 상태
+    # 👽 propedit_key_realtime_all_subqueues_desc -> Show of all subqueues
+    propedit_key_realtime_all_subqueues_desc=?모든 하위 대기열 표시
+    # 👽 propedit_key_realtime_assertExtensionNotInUse_desc -> When logging (in hotdesking mode) makes sure the extension is not already in use
+    propedit_key_realtime_assertExtensionNotInUse_desc=?로그인할 때 (핫 데스킹 모드) 내선 번호가 이미 사용 중인지 확인합니다.
+    # 👽 propedit_key_realtime_assignedLocationsOnly_desc -> Will the user able to monitor without a given location?
+    propedit_key_realtime_assignedLocationsOnly_desc=?사용자가 특정 위치 없이 모니터링할 수 있습니까?
     propedit_key_realtime_autopauseCodeLogin_desc=Auto login pause code
-    # 🔴 propedit_key_realtime_calls_invisible_buttonEnabled_desc -> Calls panel selector status
-    ➡️ propedit_key_realtime_calls_invisible_buttonEnabled_desc=
-    # 🔴 propedit_key_realtime_calls_invisible_desc -> Calls panel selector visibility
-    ➡️ propedit_key_realtime_calls_invisible_desc=
-    # 🔴 propedit_key_realtime_dynamicLoginQueues_desc -> Queues the agent can select when logging on
-    ➡️ propedit_key_realtime_dynamicLoginQueues_desc=
-    # 🔴 propedit_key_realtime_hideExportButtons_desc -> Export buttons visibility on the Realtime page
-    ➡️ propedit_key_realtime_hideExportButtons_desc=
-    # 🔴 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
-    ➡️ propedit_key_realtime_max_bytes_agent_desc=
-    # 🔴 propedit_key_realtime_members_only_buttonEnabledd_desc -> 'known' member status
-    ➡️ propedit_key_realtime_members_only_buttonEnabledd_desc=
-    # 🔴 propedit_key_realtime_members_only_desc -> Show only 'known' member for the queue
-    ➡️ propedit_key_realtime_members_only_desc=
-    # 🔴 propedit_key_realtime_preventLoggedAgentInfoChanges_desc -> Can users change their code and extension if logged on at least one queue?
-    ➡️ propedit_key_realtime_preventLoggedAgentInfoChanges_desc=
-    # 🔴 propedit_key_realtime_refresh_time_desc -> Page refresh time
-    ➡️ propedit_key_realtime_refresh_time_desc=
+    # 👽 propedit_key_realtime_calls_invisible_buttonEnabled_desc -> Calls panel selector status
+    propedit_key_realtime_calls_invisible_buttonEnabled_desc=?통화 패널 선택기 상태
+    # 👽 propedit_key_realtime_calls_invisible_desc -> Calls panel selector visibility
+    propedit_key_realtime_calls_invisible_desc=?통화 패널 선택기 가시성
+    # 👽 propedit_key_realtime_dynamicLoginQueues_desc -> Queues the agent can select when logging on
+    propedit_key_realtime_dynamicLoginQueues_desc=?상담원이 로그인할 때 선택할 수 있는 대기열
+    # 👽 propedit_key_realtime_hideExportButtons_desc -> Export buttons visibility on the Realtime page
+    propedit_key_realtime_hideExportButtons_desc=?실시간 페이지에서 내보내기 버튼 가시성
+    # 👽 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
+    propedit_key_realtime_max_bytes_agent_desc=?실시간 계산 시 최대 N초까지 과거 데이터 읽기
+    # 👽 propedit_key_realtime_members_only_buttonEnabledd_desc -> 'known' member status
+    propedit_key_realtime_members_only_buttonEnabledd_desc=?"'알려진' 구성원 상태"
+    # 👽 propedit_key_realtime_members_only_desc -> Show only 'known' member for the queue
+    propedit_key_realtime_members_only_desc=?대기열에 대해 '알려진' 구성원만 표시
+    # 👽 propedit_key_realtime_preventLoggedAgentInfoChanges_desc -> Can users change their code and extension if logged on at least one queue?
+    propedit_key_realtime_preventLoggedAgentInfoChanges_desc=?사용자가 하나 이상의 대기열에 로그인한 경우 코드 및 내선 번호를 변경할 수 있습니까?
+    # 👽 propedit_key_realtime_refresh_time_desc -> Page refresh time
+    propedit_key_realtime_refresh_time_desc=?페이지 새로 고침 시간
     propedit_key_realtime_relative_pause_time=Show ongoing pause times.
-    # 🔴 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
-    ➡️ propedit_key_realtime_rememberLastExtension_desc=
-    # 🔴 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
-    ➡️ propedit_key_realtime_showAgentPriorityReports_desc=
-    # 🔴 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
-    ➡️ propedit_key_realtime_showAgentPriority_desc=
-    # 🔴 propedit_key_realtime_show_incorrect_queue_sets_desc -> Should differences to the expected queue work set be shown?
-    ➡️ propedit_key_realtime_show_incorrect_queue_sets_desc=
-    # 🔴 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
-    ➡️ propedit_key_realtime_use_new_wb=
-    # 🔴 propedit_key_realtime_waitAlarmOnLiveCalls_desc -> Check for alarms on the wait time of ongoing conversations
-    ➡️ propedit_key_realtime_waitAlarmOnLiveCalls_desc=
-    # 🔴 propedit_key_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
-    ➡️ propedit_key_recovery_max=
-    # 🔴 propedit_key_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
-    ➡️ propedit_key_recovery_min=
-    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
-    ➡️ propedit_key_ringtone_src=
-    # 🔴 propedit_key_sla_initial_interval_desc -> Interval for the initial part of the SLA
-    ➡️ propedit_key_sla_initial_interval_desc=
-    # 🔴 propedit_key_sla_interval_desc -> How big are time intervals for the SLA graph
-    ➡️ propedit_key_sla_interval_desc=
-    # 🔴 propedit_key_sla_max_initial_delay_desc -> Initial timeband for SLA calculation
-    ➡️ propedit_key_sla_max_initial_delay_desc=
-    # 🔴 propedit_key_sla_max_monitored_delay_desc -> Max delay shown in the SLA graph
-    ➡️ propedit_key_sla_max_monitored_delay_desc=
-    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    ➡️ propedit_key_smtpsubjectprefix=
-    # 🔴 propedit_key_synchronizer_agents_file -> Default agents.conf File
-    ➡️ propedit_key_synchronizer_agents_file=
-    # 🔴 propedit_key_synchronizer_queuelog_file -> Default Queue Log File
-    ➡️ propedit_key_synchronizer_queuelog_file=
-    # 🔴 propedit_key_synchronizer_queues_file -> Default queues.conf File
-    ➡️ propedit_key_synchronizer_queues_file=
-    # 🔴 propedit_key_synchronizer_url_source -> Url to fetch Synchronizer JSON configuration file with URL Reader
-    ➡️ propedit_key_synchronizer_url_source=
-    # 🔴 propedit_key_synchronizer_users_file -> Default users.conf File
-    ➡️ propedit_key_synchronizer_users_file=
-    # 🔴 propedit_key_wallboard_kiosk_user -> The default user for the Wallboard Kiosk URL
-    ➡️ propedit_key_wallboard_kiosk_user=
-    # 🔴 propedit_key_wb_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
-    ➡️ propedit_key_wb_noans_timeout=
-    # 🔴 propedit_key_wb_phone_autoanswer -> Enable Auto Answer by default in the Wallboard SoftPhone
-    ➡️ propedit_key_wb_phone_autoanswer=
-    # 🔴 propedit_key_wb_phone_displayname -> Descriptive name (String) to be shown to the called party when calling.
-    ➡️ propedit_key_wb_phone_displayname=
-    # 🔴 propedit_key_wb_phone_iceservers -> List of ICE Servers to use.
-    ➡️ propedit_key_wb_phone_iceservers=
-    # 🔴 propedit_key_wb_phone_maxsessions -> Max Num. of sessions for the Wallboard SoftPhone
-    ➡️ propedit_key_wb_phone_maxsessions=
-    # 🔴 propedit_key_wb_phone_password -> SIP Authentication password (String).
-    ➡️ propedit_key_wb_phone_password=
-    # 🔴 propedit_key_wb_phone_register -> Indicates if the sofphone should register to the PBX.
-    ➡️ propedit_key_wb_phone_register=
-    # 🔴 propedit_key_wb_phone_server -> The PBX Server the phone is connected to.
-    ➡️ propedit_key_wb_phone_server=
-    # 🔴 propedit_key_wb_phone_username -> SIP Authentication username (String).
-    ➡️ propedit_key_wb_phone_username=
-    # 🔴 propedit_key_wb_phone_websocketurl -> Web Socket URL for the connection.
-    ➡️ propedit_key_wb_phone_websocketurl=
-    # 🔴 propedit_key_wb_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
-    ➡️ propedit_key_wb_recovery_max=
-    # 🔴 propedit_key_wb_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
-    ➡️ propedit_key_wb_recovery_min=
-    # 🔴 propedit_key_wombat_password_desc -> WombatDialer password
-    ➡️ propedit_key_wombat_password_desc=
-    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
-    ➡️ propedit_key_wombat_prevdial_desc=
-    # 🔴 propedit_key_wombat_url_desc -> WombatDialer's main URL
-    ➡️ propedit_key_wombat_url_desc=
+    # 👽 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
+    propedit_key_realtime_rememberLastExtension_desc=?마지막 상담원 내선 번호 기억
+    # 👽 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
+    propedit_key_realtime_showAgentPriorityReports_desc=?보고서에 상담원 우선 순위 수준을 표시합니다.
+    # 👽 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
+    propedit_key_realtime_showAgentPriority_desc=?"대기열 로그온 패널"의 대기열에서 상담원 우선 순위를 표시합니다.
+    # 👽 propedit_key_realtime_show_incorrect_queue_sets_desc -> Should differences to the expected queue work set be shown?
+    propedit_key_realtime_show_incorrect_queue_sets_desc=?예상 대기열 작업 집합과의 차이점을 표시해야 합니까?
+    # 👽 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
+    propedit_key_realtime_use_new_wb=?사용자 구성 가능 월보드를 실행하시겠습니까?
+    # 👽 propedit_key_realtime_waitAlarmOnLiveCalls_desc -> Check for alarms on the wait time of ongoing conversations
+    propedit_key_realtime_waitAlarmOnLiveCalls_desc=?진행 중인 대화의 대기 시간에 대한 알람 확인
+    # 👽 propedit_key_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
+    propedit_key_recovery_max=?웹 소켓 재연결 시도 간 최대 간격(초)입니다. 기본값은 30입니다.
+    # 👽 propedit_key_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
+    propedit_key_recovery_min=?웹 소켓 재연결 시도 간 최소 간격(초)입니다. 기본값은 2입니다.
+    # 👽 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
+    propedit_key_ringtone_src=?소프트폰 벨소리 (URL)
+    # 👽 propedit_key_sla_initial_interval_desc -> Interval for the initial part of the SLA
+    propedit_key_sla_initial_interval_desc=?SLA 초기 부분의 간격
+    # 👽 propedit_key_sla_interval_desc -> How big are time intervals for the SLA graph
+    propedit_key_sla_interval_desc=?SLA 그래프의 시간 간격 크기
+    # 👽 propedit_key_sla_max_initial_delay_desc -> Initial timeband for SLA calculation
+    propedit_key_sla_max_initial_delay_desc=?SLA 계산을 위한 초기 시간대
+    # 👽 propedit_key_sla_max_monitored_delay_desc -> Max delay shown in the SLA graph
+    propedit_key_sla_max_monitored_delay_desc=?SLA 그래프에 표시되는 최대 지연 시간
+    # 👽 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
+    propedit_key_smtpsubjectprefix=?이메일 제목 접두사
+    # 👽 propedit_key_synchronizer_agents_file -> Default agents.conf File
+    propedit_key_synchronizer_agents_file=?기본 agents.conf 파일
+    # 👽 propedit_key_synchronizer_queuelog_file -> Default Queue Log File
+    propedit_key_synchronizer_queuelog_file=?기본 Queue Log 파일
+    # 👽 propedit_key_synchronizer_queues_file -> Default queues.conf File
+    propedit_key_synchronizer_queues_file=?기본 queues.conf 파일
+    # 👽 propedit_key_synchronizer_url_source -> Url to fetch Synchronizer JSON configuration file with URL Reader
+    propedit_key_synchronizer_url_source=?URL Reader로 동기화 JSON 구성 파일을 가져올 URL
+    # 👽 propedit_key_synchronizer_users_file -> Default users.conf File
+    propedit_key_synchronizer_users_file=?기본 users.conf 파일
+    # 👽 propedit_key_wallboard_kiosk_user -> The default user for the Wallboard Kiosk URL
+    propedit_key_wallboard_kiosk_user=?월보드 키오스크 URL의 기본 사용자
+    # 👽 propedit_key_wb_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
+    propedit_key_wb_noans_timeout=?수신 통화가 응답되지 않으면 거부되는 시간 (초). 기본값은 60입니다.
+    # 👽 propedit_key_wb_phone_autoanswer -> Enable Auto Answer by default in the Wallboard SoftPhone
+    propedit_key_wb_phone_autoanswer=?월보드 소프트폰에서 기본적으로 자동 응답 사용
+    # 👽 propedit_key_wb_phone_displayname -> Descriptive name (String) to be shown to the called party when calling.
+    propedit_key_wb_phone_displayname=?통화 시 상대방에게 표시될 설명 이름 (문자열)입니다.
+    # 👽 propedit_key_wb_phone_iceservers -> List of ICE Servers to use.
+    propedit_key_wb_phone_iceservers=?사용할 ICE 서버 목록입니다.
+    # 👽 propedit_key_wb_phone_maxsessions -> Max Num. of sessions for the Wallboard SoftPhone
+    propedit_key_wb_phone_maxsessions=?월보드 소프트폰의 최대 세션 수
+    # 👽 propedit_key_wb_phone_password -> SIP Authentication password (String).
+    propedit_key_wb_phone_password=?SIP 인증 비밀번호(문자열)입니다.
+    # 👽 propedit_key_wb_phone_register -> Indicates if the sofphone should register to the PBX.
+    propedit_key_wb_phone_register=?소프트폰이 PBX에 등록되어야 하는지 여부를 나타냅니다.
+    # 👽 propedit_key_wb_phone_server -> The PBX Server the phone is connected to.
+    propedit_key_wb_phone_server=?전화가 연결된 PBX 서버입니다.
+    # 👽 propedit_key_wb_phone_username -> SIP Authentication username (String).
+    propedit_key_wb_phone_username=?SIP 인증 사용자 이름(문자열)입니다.
+    # 👽 propedit_key_wb_phone_websocketurl -> Web Socket URL for the connection.
+    propedit_key_wb_phone_websocketurl=?연결을 위한 웹 소켓 URL입니다.
+    # 👽 propedit_key_wb_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
+    propedit_key_wb_recovery_max=?WebSocket 재연결 시도 간의 최대 간격 (초)입니다. 기본값은 30입니다.
+    # 👽 propedit_key_wb_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
+    propedit_key_wb_recovery_min=?WebSocket 재연결 시도 간의 최소 간격 (초)입니다. 기본값은 2입니다.
+    # 👽 propedit_key_wombat_password_desc -> WombatDialer password
+    propedit_key_wombat_password_desc=?WombatDialer 비밀번호
+    # 👽 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
+    propedit_key_wombat_prevdial_desc=?WombatDialer의 미리 보기 다이얼링 페이지 URL입니다.
+    # 👽 propedit_key_wombat_url_desc -> WombatDialer's main URL
+    propedit_key_wombat_url_desc=?WombatDialer의 메인 URL
     propedit_key_wombat_username_desc=WombatDialer 사용자명
     propedit_option_barge=Barge
     propedit_option_classic=Classic
@@ -3004,17 +3004,17 @@ Description of configuration properties
     propedit_option_false=False
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch-Live
-    # 🔴 propedit_option_hash -> hash
-    ➡️ propedit_option_hash=
-    # 🔴 propedit_option_hide -> hide
-    ➡️ propedit_option_hide=
-    # 🔴 propedit_option_hide3 -> hide3
-    ➡️ propedit_option_hide3=
-    # 🔴 propedit_option_hide5 -> hide5
-    ➡️ propedit_option_hide5=
+    # 👽 propedit_option_hash -> hash
+    propedit_option_hash=?hash
+    # 👽 propedit_option_hide -> hide
+    propedit_option_hide=?hide
+    # 👽 propedit_option_hide3 -> hide3
+    propedit_option_hide3=?hide3
+    # 👽 propedit_option_hide5 -> hide5
+    propedit_option_hide5=?hide5
     propedit_option_jsonapi=JSON API
-    # 🔴 propedit_option_mirtapbx -> MirtaPBX
-    ➡️ propedit_option_mirtapbx=
+    # 👽 propedit_option_mirtapbx -> MirtaPBX
+    propedit_option_mirtapbx=?MirtaPBX
     propedit_option_no=No
     propedit_option_none=None
     propedit_option_notvisible=Not Visible
@@ -3025,8 +3025,8 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Only assigned queues with cherry pick
     propedit_option_realtime_dynamicLoginQueues_registered_label=Registered
     propedit_option_spy=Spy
-    # 🔴 propedit_option_stars -> stars
-    ➡️ propedit_option_stars=
+    # 👽 propedit_option_stars -> stars
+    propedit_option_stars=?stars
     propedit_option_sync_mode_c=Create Only
     propedit_option_sync_mode_c_d=Create, Delete
     propedit_option_sync_mode_c_d_usr=Create, Delete, Create Users
@@ -3086,8 +3086,8 @@ Description of security keys:
     keydesc_closecalls=실시간 또는 Historical 통계 페이지에서 현재 통화중인 콜을 종료할 수 있습니다.
     keydesc_config=자동 환경설정 마법사(Synchronizer)를 시작할 수 있습니다.
     keydesc_edit_cfg=configuration.properties 파일을 편집할 수 있습니다.
-    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
-    ➡️ keydesc_hidenumbers=
+    # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
+    keydesc_hidenumbers=?모든 전화 번호/발신자 ID가 숨겨져 있습니다
     keydesc_keyupdate=새로운 QueueMetrics 활성화 라이선스 키를 설치할 수 있습니다.
     keydesc_mon_audio=실시간 통화내용을 모니터링 할 수 있습니다.
     keydesc_mon_barge=실시간 통화에 끼어들 수 있습니다.
@@ -3128,8 +3128,8 @@ Description of security keys:
     keydesc_user=이 Key는 적정한 사용자에게 주어져야 합니다.
     keydesc_usr_agent=사용자른 상담원 정보를 편집할 수 있습니다.
     keydesc_usr_agroups=사용자는 상담원 그룹을 편집할 수 있습니다.
-    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
-    ➡️ keydesc_usr_amo_edit=
+    # 👽 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
+    keydesc_usr_amo_edit=?사용자가 Assisted Manual Outbound (AMO) 캠페인을 편집할 수 있습니다
     keydesc_usr_calltag=사용자는 콜 태그를 편집할 수 있습니다.
     keydesc_usr_cases_edit=Case를 편집할 수 있습니다.
     keydesc_usr_cbts=사용자는 알려진 CBT목룍을 편집할 수 있습니다.
@@ -3172,8 +3172,8 @@ Description of security keys:
     tsk_detail_history=Task History
     tsk_detail_info=Task info
     tsk_detail_lastUpdated=최종 수정일
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=
+    # 👽 tsk_detail_message -> Message
+    tsk_detail_message=?메시지
     tsk_detail_notes=Notes
     tsk_detail_pfield=Process Field
     tsk_detail_process=Process
@@ -3187,15 +3187,15 @@ Description of security keys:
     tsk_disputed_qamsg=Disputed QA Form
     tsk_icon_detail=View details
     tsk_list_pfield=Process Field
-    # 🔴 tsk_list_tbl_agroup -> Group
-    ➡️ tsk_list_tbl_agroup=
+    # 👽 tsk_list_tbl_agroup -> Group
+    tsk_list_tbl_agroup=?그룹
     tsk_list_tbl_desc=설명
     tsk_list_tbl_expdate=Due date
     tsk_list_tbl_from=From
     tsk_list_tbl_id=Task Id
     tsk_list_tbl_status=Status
-    # 🔴 tsk_list_tbl_ticon -> Task
-    ➡️ tsk_list_tbl_ticon=
+    # 👽 tsk_list_tbl_ticon -> Task
+    tsk_list_tbl_ticon=?작업
     tsk_lists_dueend_date=Due date end period
     tsk_lists_duestart_date=Due date start period
     tsk_lists_extendedsearch=확장 검색 옵션
@@ -3282,82 +3282,82 @@ Description of security keys:
     phone_basic_settings=기본 설정
     phone_blind=Blind Transfer
     phone_blind_transfer=Blind Transfer
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    # 🔴 phone_cancel -> Cancel
-    ➡️ phone_cancel=
-    # 🔴 phone_close -> Close
-    ➡️ phone_close=
-    # 🔴 phone_confirm -> Confirm
-    ➡️ phone_confirm=
-    # 🔴 phone_connectionrecoverymax -> Conn. Recovery Max.
-    ➡️ phone_connectionrecoverymax=
-    # 🔴 phone_connectionrecoverymin -> Conn. Recovery Min.
-    ➡️ phone_connectionrecoverymin=
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
-    # 🔴 phone_dial -> Dial
-    ➡️ phone_dial=
-    # 🔴 phone_dialing -> Dialing...
-    ➡️ phone_dialing=
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    # 🔴 phone_displayname -> Display Name
-    ➡️ phone_displayname=
-    # 🔴 phone_hangup -> Hangup
-    ➡️ phone_hangup=
+    # 👽 phone_call -> Call
+    phone_call=?통화
+    # 👽 phone_calling -> Calling...
+    phone_calling=?전화 거는 중...
+    # 👽 phone_cancel -> Cancel
+    phone_cancel=?취소
+    # 👽 phone_close -> Close
+    phone_close=?닫기
+    # 👽 phone_confirm -> Confirm
+    phone_confirm=?확인
+    # 👽 phone_connectionrecoverymax -> Conn. Recovery Max.
+    phone_connectionrecoverymax=?연결 복구 최대
+    # 👽 phone_connectionrecoverymin -> Conn. Recovery Min.
+    phone_connectionrecoverymin=?연결 복구 최소
+    # 👽 phone_debug -> Click to print debug information in the browser console.
+    phone_debug=?브라우저 콘솔에 디버그 정보를 인쇄하려면 클릭하십시오.
+    # 👽 phone_dial -> Dial
+    phone_dial=?전화 걸기
+    # 👽 phone_dialing -> Dialing...
+    phone_dialing=?전화 거는 중...
+    # 👽 phone_dialling -> Dialling...
+    phone_dialling=?전화 거는 중...
+    # 👽 phone_displayname -> Display Name
+    phone_displayname=?표시 이름
+    # 👽 phone_hangup -> Hangup
+    phone_hangup=?전화 끊기
     phone_http_error=WebRTC 에러
     phone_http_error_body=WebRTC 소프트폰을 정상적으로 사용하기위해서는 QueueMetrics 가 HTTPS를 통해 연결되어야 합니다.
     phone_iceservers=Ice Servers
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    # 🔴 phone_input_error -> Input Error
-    ➡️ phone_input_error=
-    # 🔴 phone_join -> Join
-    ➡️ phone_join=
+    # 👽 phone_incoming_call -> Incoming call...
+    phone_incoming_call=?수신 전화 중...
+    # 👽 phone_input_error -> Input Error
+    phone_input_error=?입력 오류
+    # 👽 phone_join -> Join
+    phone_join=?참여
     phone_maxsessions=최대 세션
     phone_mute=소리끔
     phone_no_https=소프트폰의 정상 동작을 위해 HTTPS로 연결되어야 합니다.
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    # 🔴 phone_noanswertimeout -> No Answer Timeout
-    ➡️ phone_noanswertimeout=
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
+    # 👽 phone_no_queue -> No Queue
+    phone_no_queue=?큐 없음
+    # 👽 phone_noanswertimeout -> No Answer Timeout
+    phone_noanswertimeout=?응답 시간 초과 없음
+    # 👽 phone_not_avaialable -> Softphone Not Available.
+    phone_not_avaialable=?소프트폰을 사용할 수 없습니다.
+    # 👽 phone_not_available -> Softphone not available.
+    phone_not_available=?소프트폰을 사용할 수 없습니다.
     phone_password=비밀번호
-    # 🔴 phone_register -> Register
-    ➡️ phone_register=
-    # 🔴 phone_registered -> Registered
-    ➡️ phone_registered=
-    # 🔴 phone_registering -> Registering
-    ➡️ phone_registering=
-    # 🔴 phone_returntophone -> Return to Phone
-    ➡️ phone_returntophone=
-    # 🔴 phone_server -> Server
-    ➡️ phone_server=
+    # 👽 phone_register -> Register
+    phone_register=?등록
+    # 👽 phone_registered -> Registered
+    phone_registered=?등록됨
+    # 👽 phone_registering -> Registering
+    phone_registering=?등록 중
+    # 👽 phone_returntophone -> Return to Phone
+    phone_returntophone=?전화로 돌아가기
+    # 👽 phone_server -> Server
+    phone_server=?서버
     phone_settings=설정
-    # 🔴 phone_swap -> Swap
-    ➡️ phone_swap=
-    # 🔴 phone_toggle_hold -> Hold/Unhold
-    ➡️ phone_toggle_hold=
-    # 🔴 phone_toggle_transfer -> Transfer
-    ➡️ phone_toggle_transfer=
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    # 🔴 phone_unmute -> Unmute
-    ➡️ phone_unmute=
-    # 🔴 phone_unregistered -> Unregistered
-    ➡️ phone_unregistered=
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    # 🔴 phone_username -> Username
-    ➡️ phone_username=
-    # 🔴 phone_websocketurl -> Websocket URL
-    ➡️ phone_websocketurl=
+    # 👽 phone_swap -> Swap
+    phone_swap=?교환
+    # 👽 phone_toggle_hold -> Hold/Unhold
+    phone_toggle_hold=?보류/보류 해제
+    # 👽 phone_toggle_transfer -> Transfer
+    phone_toggle_transfer=?전송
+    # 👽 phone_transfer -> Transfer
+    phone_transfer=?전송
+    # 👽 phone_unmute -> Unmute
+    phone_unmute=?음소거 해제
+    # 👽 phone_unregistered -> Unregistered
+    phone_unregistered=?등록 취소됨
+    # 👽 phone_update_settings -> Update Settings
+    phone_update_settings=?설정 업데이트
+    # 👽 phone_username -> Username
+    phone_username=?사용자 이름
+    # 👽 phone_websocketurl -> Websocket URL
+    phone_websocketurl=?웹소켓 URL
 
 ## Homepage
 
@@ -3400,8 +3400,8 @@ Description of security keys:
     home_icon_title=Icon
     home_infobox_close=닫기
     home_infobox_preview=미리보기
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
+    # 👽 home_infobox_private -> Private
+    home_infobox_private=?개인 정보
     home_infobox_quicklinks=Quicklinks
     home_news_subtitle=QueueMetrics 최신뉴스
     home_news_title=뉴스
@@ -3446,32 +3446,32 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=QueueMetrics 시스템 파라미터값 편집
     cfgprops_title_wizard=QueueMetrics 시스템 파라미터값 조회 및 편집
     cfgprops_notice=파라미터 값을 적용하기 위해서는 파일 저장 후에 로그오프 하고 다시 로그인 바랍니다.
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    # 👽 cfgprops_n_items -> N. Properties found
+    cfgprops_n_items=?속성 수
+    # 👽 cfgprops_input -> Enter one or more properties to set, one per line
+    cfgprops_input=?설정할 속성을 한 줄에 하나씩 입력하십시오
+    # 👽 cfgprops_comment -> Reason for this change
+    cfgprops_comment=?이 변경에 대한 사유
+    # 👽 cfgprops_sort_by -> Sort by
+    cfgprops_sort_by=?정렬 기준
+    # 👽 cfgprops_sort_bydate -> Last update
+    cfgprops_sort_bydate=?최근 업데이트
+    # 👽 cfgprops_sort_byname -> Name
+    cfgprops_sort_byname=?이름
+    # 👽 cfgprops_col_name -> Property name
+    cfgprops_col_name=?속성 이름
+    # 👽 cfgprops_col_value -> Current value
+    cfgprops_col_value=?현재 값
+    # 👽 cfgprops_col_comment -> Reason
+    cfgprops_col_comment=?사유
+    # 👽 cfgprops_history_date -> Date
+    cfgprops_history_date=?날짜
+    # 👽 cfgprops_history_user -> User
+    cfgprops_history_user=?사용자
+    # 👽 cfgprops_history_value -> Value
+    cfgprops_history_value=?값
+    # 👽 cfgprops_history_previous -> Previous entries
+    cfgprops_history_previous=?이전 항목
     
 
 These are obsolete:
@@ -3491,50 +3491,50 @@ Other items
     agt_history_cbt=Sent CBT:
     agt_history_groupchange=그룹
     agt_history_mtn=Sent Coaching:
-    # 🔴 amo_close_info -> Close AMO Information
-    ➡️ amo_close_info=
-    # 🔴 amo_dialer_state_completed -> Completed
-    ➡️ amo_dialer_state_completed=
-    # 🔴 amo_dialer_state_open -> Open
-    ➡️ amo_dialer_state_open=
-    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    ➡️ amo_import_error_nonumber=
-    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
-    ➡️ amo_import_error_norecords=
-    # 🔴 amo_last_info -> AMO Call Information
-    ➡️ amo_last_info=
-    # 🔴 amo_list_state_open -> Open
-    ➡️ amo_list_state_open=
-    # 🔴 amo_list_state_paused -> Paused
-    ➡️ amo_list_state_paused=
-    # 🔴 amo_number_state_blklist -> Blacklisted
-    ➡️ amo_number_state_blklist=
-    # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=
-    # 🔴 amo_number_state_ko -> KO
-    ➡️ amo_number_state_ko=
-    # 🔴 amo_number_state_ok -> OK
-    ➡️ amo_number_state_ok=
-    # 🔴 amo_number_state_placed -> Placed
-    ➡️ amo_number_state_placed=
-    # 🔴 amo_number_state_reserved -> Reserved
-    ➡️ amo_number_state_reserved=
-    # 🔴 amo_number_state_todo -> To do
-    ➡️ amo_number_state_todo=
-    # 🔴 amo_numbers_asteriskid -> Asterisk ID
-    ➡️ amo_numbers_asteriskid=
-    # 🔴 amo_numbers_callstatus -> Status Code
-    ➡️ amo_numbers_callstatus=
-    # 🔴 amo_numbers_date -> Date
-    ➡️ amo_numbers_date=
-    # 🔴 amo_numbers_reason -> Reason
-    ➡️ amo_numbers_reason=
-    # 🔴 amo_numbers_user -> User
-    ➡️ amo_numbers_user=
-    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
-    ➡️ amo_upload_numbers_error=
-    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
-    ➡️ amo_upload_numbers_success=
+    # 👽 amo_close_info -> Close AMO Information
+    amo_close_info=?AMO 정보 닫기
+    # 👽 amo_dialer_state_completed -> Completed
+    amo_dialer_state_completed=?완료됨
+    # 👽 amo_dialer_state_open -> Open
+    amo_dialer_state_open=?열림
+    # 👽 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
+    amo_import_error_nonumber=?'번호' 필드는 모든 레코드에 필수입니다.
+    # 👽 amo_import_error_norecords -> Please include at least one record in the CSV file.
+    amo_import_error_norecords=?CSV 파일에 하나 이상의 레코드를 포함하십시오.
+    # 👽 amo_last_info -> AMO Call Information
+    amo_last_info=?AMO 통화 정보
+    # 👽 amo_list_state_open -> Open
+    amo_list_state_open=?열림
+    # 👽 amo_list_state_paused -> Paused
+    amo_list_state_paused=?일시 중지됨
+    # 👽 amo_number_state_blklist -> Blacklisted
+    amo_number_state_blklist=?블랙리스트
+    # 👽 amo_number_state_dialed -> Dialed
+    amo_number_state_dialed=?다이얼됨
+    # 👽 amo_number_state_ko -> KO
+    amo_number_state_ko=?KO
+    # 👽 amo_number_state_ok -> OK
+    amo_number_state_ok=?OK
+    # 👽 amo_number_state_placed -> Placed
+    amo_number_state_placed=?배치됨
+    # 👽 amo_number_state_reserved -> Reserved
+    amo_number_state_reserved=?예약됨
+    # 👽 amo_number_state_todo -> To do
+    amo_number_state_todo=?할 일
+    # 👽 amo_numbers_asteriskid -> Asterisk ID
+    amo_numbers_asteriskid=?Asterisk ID
+    # 👽 amo_numbers_callstatus -> Status Code
+    amo_numbers_callstatus=?상태 코드
+    # 👽 amo_numbers_date -> Date
+    amo_numbers_date=?날짜
+    # 👽 amo_numbers_reason -> Reason
+    amo_numbers_reason=?사유
+    # 👽 amo_numbers_user -> User
+    amo_numbers_user=?사용자
+    # 👽 amo_upload_numbers_error -> Error while uploading AMO numbers
+    amo_upload_numbers_error=?AMO 번호 업로드 중 오류 발생
+    # 👽 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
+    amo_upload_numbers_success=?AMO 번호가 성공적으로 업로드되었습니다.
     at_invalid_agent=잘못된 상담원
     avg_time_decor_days=d
     bdcmsg_ForAgent=상담원
@@ -3564,20 +3564,20 @@ Other items
     decorator_agentpaused=일시중지
     decorator_queue_sla=SLA
     default.show_agent_priority_reports= Show agent priority level in reports.
-    # 🔴 dlr_last_pull -> Last Pull
-    ➡️ dlr_last_pull=
-    # 🔴 dlr_last_pull_user -> Pull User
-    ➡️ dlr_last_pull_user=
-    # 🔴 dlr_list_state -> List State
-    ➡️ dlr_list_state=
-    # 🔴 dlr_numbers_added -> Numbers Added
-    ➡️ dlr_numbers_added=
-    # 🔴 dlr_numbers_completed -> Numbers Completed
-    ➡️ dlr_numbers_completed=
-    # 🔴 dlr_numbers_pulled -> Numbers Pulled
-    ➡️ dlr_numbers_pulled=
-    # 🔴 dlr_state -> Number State
-    ➡️ dlr_state=
+    # 👽 dlr_last_pull -> Last Pull
+    dlr_last_pull=?최근 가져오기
+    # 👽 dlr_last_pull_user -> Pull User
+    dlr_last_pull_user=?가져온 사용자
+    # 👽 dlr_list_state -> List State
+    dlr_list_state=?목록 상태
+    # 👽 dlr_numbers_added -> Numbers Added
+    dlr_numbers_added=?추가된 번호
+    # 👽 dlr_numbers_completed -> Numbers Completed
+    dlr_numbers_completed=?완료된 번호
+    # 👽 dlr_numbers_pulled -> Numbers Pulled
+    dlr_numbers_pulled=?가져온 번호
+    # 👽 dlr_state -> Number State
+    dlr_state=?번호 상태
     editor_all_reports=모든 보고서
     editor_back=뒤로
     editor_clone=복제본 생성
@@ -3613,28 +3613,28 @@ Other items
     export_to_pdf=PDF
     export_xml=XML 파일로 내보내기
     grp_ivr=IVR Events
-    # 🔴 grp_ivr_calls -> IVR calls
-    ➡️ grp_ivr_calls=
+    # 👽 grp_ivr_calls -> IVR calls
+    grp_ivr_calls=?IVR 통화
     grp_ivr_short=IVR
     grp_lost_calls=Lost Calls
     grp_lost_short=Lost
-    # 🔴 grp_taken_calls -> Taken Calls
-    ➡️ grp_taken_calls=
-    # 🔴 grp_taken_short -> Taken
-    ➡️ grp_taken_short=
-    # 🔴 gui_fileuploader_msg -> Drop file or Browse
-    ➡️ gui_fileuploader_msg=
+    # 👽 grp_taken_calls -> Taken Calls
+    grp_taken_calls=?받은 통화
+    # 👽 grp_taken_short -> Taken
+    grp_taken_short=?받음
+    # 👽 gui_fileuploader_msg -> Drop file or Browse
+    gui_fileuploader_msg=?파일을 드롭하거나 찾아보기
     gui_fileuploader_types=지원되는 파일 형식
     gui_fileuploader_upload=Upload files
     gui_fileuploader_uploaded=업로드된 파일
-    # 🔴 gui_form_back -> Back
-    ➡️ gui_form_back=
-    # 🔴 gui_form_cancel -> Cancel
-    ➡️ gui_form_cancel=
-    # 🔴 gui_form_next -> Next
-    ➡️ gui_form_next=
-    # 🔴 gui_form_ok -> OK
-    ➡️ gui_form_ok=
+    # 👽 gui_form_back -> Back
+    gui_form_back=?뒤로
+    # 👽 gui_form_cancel -> Cancel
+    gui_form_cancel=?취소
+    # 👽 gui_form_next -> Next
+    gui_form_next=?다음
+    # 👽 gui_form_ok -> OK
+    gui_form_ok=?확인
     jump_to_main_content=Jump to the main content
     keyinstall_err_nokey=사용자는 권한키 'KEYUPDATE'를 가지고 있지않아 계속 진행할 수 없습니다.
     keyinstall_err_noscript=재시작 스크립트(restart script)가 없음.
@@ -3677,8 +3677,8 @@ Other items
     licence_show_eula=사용자 라이선스 합의서(agreement) 보기
     licence_software_release=소프트웨어 릴리즈 : 
     licence_website=공식 QueueMetrics 웹사이트 주소 : 
-    # 🔴 list_amo_title -> AMO Campaigns
-    ➡️ list_amo_title=
+    # 👽 list_amo_title -> AMO Campaigns
+    list_amo_title=?AMO 캠페인
     logon_ErrAlreadyPresent=이 로그인 정보가 이미 데이터베이스에 존재합니다.
     logon_ErrClassNotFound=클래스가 발견되지 않음.(Class not found)
     logon_ErrHidden=로그인 실패
@@ -3702,102 +3702,102 @@ Other items
     lstcall_calllen=지속시간
     lstcall_ivr=IVR
     lstcall_waitlen=대기
-    # 🔴 memo_add_new -> Create Memo
-    ➡️ memo_add_new=
-    # 🔴 memo_category -> Filter by category
-    ➡️ memo_category=
-    # 🔴 memo_details_caller -> Caller
-    ➡️ memo_details_caller=
-    # 🔴 memo_details_create -> Create Memo
-    ➡️ memo_details_create=
-    # 🔴 memo_details_expireson -> Expires on
-    ➡️ memo_details_expireson=
-    # 🔴 memo_details_form -> Form
-    ➡️ memo_details_form=
-    # 🔴 memo_details_from -> FROM
-    ➡️ memo_details_from=
-    # 🔴 memo_details_goback -> Back
-    ➡️ memo_details_goback=
-    # 🔴 memo_details_info -> Memo Info
-    ➡️ memo_details_info=
-    # 🔴 memo_details_queue -> Queue
-    ➡️ memo_details_queue=
-    # 🔴 memo_details_save -> Save
-    ➡️ memo_details_save=
-    # 🔴 memo_details_title -> Title
-    ➡️ memo_details_title=
-    # 🔴 memo_details_to -> TO
-    ➡️ memo_details_to=
-    # 🔴 memo_details_type -> Type
-    ➡️ memo_details_type=
-    # 🔴 memo_details_user_from -> From
-    ➡️ memo_details_user_from=
-    # 🔴 memo_details_user_to -> To
-    ➡️ memo_details_user_to=
-    # 🔴 memo_details_validfrom -> Valid from
-    ➡️ memo_details_validfrom=
-    # 🔴 memo_due -> Due Date
-    ➡️ memo_due=
-    # 🔴 memo_filter_all -> All Memos
-    ➡️ memo_filter_all=
-    # 🔴 memo_filter_alldone -> All Memos done
-    ➡️ memo_filter_alldone=
-    # 🔴 memo_filter_alltbd -> All Memos to be done
-    ➡️ memo_filter_alltbd=
-    # 🔴 memo_filter_completed -> Memos I completed
-    ➡️ memo_filter_completed=
-    # 🔴 memo_filter_error -> Error filtering Memos
-    ➡️ memo_filter_error=
-    # 🔴 memo_filter_mygroup -> My group
-    ➡️ memo_filter_mygroup=
-    # 🔴 memo_filter_sent -> Memos I sent
-    ➡️ memo_filter_sent=
-    # 🔴 memo_filter_status -> Status
-    ➡️ memo_filter_status=
-    # 🔴 memo_filter_tbd -> Memos to be done
-    ➡️ memo_filter_tbd=
-    # 🔴 memo_from -> From
-    ➡️ memo_from=
-    # 🔴 memo_group -> Group
-    ➡️ memo_group=
-    # 🔴 memo_id -> Id
-    ➡️ memo_id=
-    # 🔴 memo_items_found -> items found
-    ➡️ memo_items_found=
-    # 🔴 memo_list -> Memo List
-    ➡️ memo_list=
-    # 🔴 memo_list_norecords -> No Records
-    ➡️ memo_list_norecords=
-    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
-    ➡️ memo_loadbyid_error=
-    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
-    ➡️ memo_loadbyid_missing=
-    # 🔴 memo_manager -> Manager
-    ➡️ memo_manager=
-    # 🔴 memo_message -> Message
-    ➡️ memo_message=
-    # 🔴 memo_related_to -> Related to
-    ➡️ memo_related_to=
-    # 🔴 memo_status -> Status
-    ➡️ memo_status=
-    # 🔴 memo_tree_empty -> Empty
-    ➡️ memo_tree_empty=
-    # 🔴 memo_tree_title -> Linked memos
-    ➡️ memo_tree_title=
-    # 🔴 memo_type -> Type
-    ➡️ memo_type=
+    # 👽 memo_add_new -> Create Memo
+    memo_add_new=?메모 만들기
+    # 👽 memo_category -> Filter by category
+    memo_category=?카테고리별 필터링
+    # 👽 memo_details_caller -> Caller
+    memo_details_caller=?발신자
+    # 👽 memo_details_create -> Create Memo
+    memo_details_create=?메모 만들기
+    # 👽 memo_details_expireson -> Expires on
+    memo_details_expireson=?만료일
+    # 👽 memo_details_form -> Form
+    memo_details_form=?양식
+    # 👽 memo_details_from -> FROM
+    memo_details_from=?보낸 사람
+    # 👽 memo_details_goback -> Back
+    memo_details_goback=?뒤로
+    # 👽 memo_details_info -> Memo Info
+    memo_details_info=?메모 정보
+    # 👽 memo_details_queue -> Queue
+    memo_details_queue=?대기열
+    # 👽 memo_details_save -> Save
+    memo_details_save=?저장
+    # 👽 memo_details_title -> Title
+    memo_details_title=?제목
+    # 👽 memo_details_to -> TO
+    memo_details_to=?받는 사람
+    # 👽 memo_details_type -> Type
+    memo_details_type=?유형
+    # 👽 memo_details_user_from -> From
+    memo_details_user_from=?보낸 사람
+    # 👽 memo_details_user_to -> To
+    memo_details_user_to=?받는 사람
+    # 👽 memo_details_validfrom -> Valid from
+    memo_details_validfrom=?유효 시작일
+    # 👽 memo_due -> Due Date
+    memo_due=?마감일
+    # 👽 memo_filter_all -> All Memos
+    memo_filter_all=?모든 메모
+    # 👽 memo_filter_alldone -> All Memos done
+    memo_filter_alldone=?완료된 모든 메모
+    # 👽 memo_filter_alltbd -> All Memos to be done
+    memo_filter_alltbd=?해야 할 모든 메모
+    # 👽 memo_filter_completed -> Memos I completed
+    memo_filter_completed=?내가 완료한 메모
+    # 👽 memo_filter_error -> Error filtering Memos
+    memo_filter_error=?메모 필터링 오류
+    # 👽 memo_filter_mygroup -> My group
+    memo_filter_mygroup=?내 그룹
+    # 👽 memo_filter_sent -> Memos I sent
+    memo_filter_sent=?내가 보낸 메모
+    # 👽 memo_filter_status -> Status
+    memo_filter_status=?상태
+    # 👽 memo_filter_tbd -> Memos to be done
+    memo_filter_tbd=?해야 할 메모
+    # 👽 memo_from -> From
+    memo_from=?보낸 사람
+    # 👽 memo_group -> Group
+    memo_group=?그룹
+    # 👽 memo_id -> Id
+    memo_id=?ID
+    # 👽 memo_items_found -> items found
+    memo_items_found=?개의 항목이 발견됨
+    # 👽 memo_list -> Memo List
+    memo_list=?메모 목록
+    # 👽 memo_list_norecords -> No Records
+    memo_list_norecords=?레코드가 없습니다
+    # 👽 memo_loadbyid_error -> There was an error loading the Memo by ID
+    memo_loadbyid_error=?ID로 메모를 로드하는 동안 오류가 발생했습니다
+    # 👽 memo_loadbyid_missing -> There seems to be no Memo with ID
+    memo_loadbyid_missing=?해당 ID의 메모가 없는 것 같습니다
+    # 👽 memo_manager -> Manager
+    memo_manager=?관리자
+    # 👽 memo_message -> Message
+    memo_message=?메시지
+    # 👽 memo_related_to -> Related to
+    memo_related_to=?관련 항목
+    # 👽 memo_status -> Status
+    memo_status=?상태
+    # 👽 memo_tree_empty -> Empty
+    memo_tree_empty=?비어 있음
+    # 👽 memo_tree_title -> Linked memos
+    memo_tree_title=?연결된 메모
+    # 👽 memo_type -> Type
+    memo_type=?유형
     menu_licence_page=라이선스 페이지
     menu_user_page=사용자 정보
-    # 🔴 modal_cancel -> Cancel
-    ➡️ modal_cancel=
-    # 🔴 modal_ok -> Ok
-    ➡️ modal_ok=
+    # 👽 modal_cancel -> Cancel
+    modal_cancel=?취소
+    # 👽 modal_ok -> Ok
+    modal_ok=?확인
     notification_error=오류
     notification_info=Info
     notification_success=성공
     notification_warning=Warning
-    # 🔴 numberformat_defaultdigits -> 1
-    ➡️ numberformat_defaultdigits=
+    # 👽 numberformat_defaultdigits -> 1
+    numberformat_defaultdigits=?1
     open_addremoveinfobox_menu=InfoBox를 추가,제거하시려면 InfoBox 메뉴를 Open 하세요.
     open_settings_menu=Open settings menu
     pager_current_page=현재 페이지 : 
@@ -3898,23 +3898,23 @@ Other items
     prl_time_start_time_check=입력한 시작시간을 체크 하세요.
     prl_time_wrong_period=선택한 기간이 유효하지 않습니다. 종료시간은 시작시간보다 커야합니다.
     prl_total_duration=전체 지속시간
-    # 🔴 pwres_change -> Set new password
-    ➡️ pwres_change=
-    # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
-    ➡️ pwres_changed_successfully=
-    # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
-    ➡️ pwres_expired_link=
-    # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
-    ➡️ pwres_no_resettable_user=
-    # 🔴 pwres_pass -> New password
-    ➡️ pwres_pass=
+    # 👽 pwres_change -> Set new password
+    pwres_change=?새 비밀번호 설정
+    # 👽 pwres_changed_successfully -> The password was reset successfully. Please log on now.
+    pwres_changed_successfully=?비밀번호가 성공적으로 재설정되었습니다. 지금 로그인하십시오.
+    # 👽 pwres_expired_link -> The link you used has expired. Please ask for a new one.
+    pwres_expired_link=?사용한 링크가 만료되었습니다. 새 링크를 요청하십시오.
+    # 👽 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
+    pwres_no_resettable_user=?비밀번호 재설정 링크가 유효하지 않거나 이미 한 번 사용되었습니다.
+    # 👽 pwres_pass -> New password
+    pwres_pass=?새 비밀번호
     pwres_passwords_dont_match=비밀번호가 일치하지 않습니다. 
-    # 🔴 pwres_repeat_pass -> Repeat new password
-    ➡️ pwres_repeat_pass=
-    # 🔴 pwres_reset_password -> Reset the password of
-    ➡️ pwres_reset_password=
-    # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
-    ➡️ pwres_unknown_link=
+    # 👽 pwres_repeat_pass -> Repeat new password
+    pwres_repeat_pass=?새 비밀번호 재입력
+    # 👽 pwres_reset_password -> Reset the password of
+    pwres_reset_password=?비밀번호 재설정 대상
+    # 👽 pwres_unknown_link -> The provided password reset link is invalid.
+    pwres_unknown_link=?제공된 비밀번호 재설정 링크가 유효하지 않습니다.
     qagrader_addedbygrtype=Added by
     qagrader_agent=상담원
     qagrader_audio=Audio
@@ -3930,509 +3930,509 @@ Other items
     qagrader_time=시간
     qagrader_wait=대기
     qagrader_wrongurl=URL 이 유효하지 않습니다. 체크 후 재시도하세요
-    # 🔴 qap_action_case -> Assign to Case
-    ➡️ qap_action_case=
-    # 🔴 qap_action_clicktodial -> Click to dial
-    ➡️ qap_action_clicktodial=
-    # 🔴 qap_action_client -> Assign to Client
-    ➡️ qap_action_client=
-    # 🔴 qap_action_crm -> Open CRM
-    ➡️ qap_action_crm=
-    # 🔴 qap_action_flag -> Flag Interaction
-    ➡️ qap_action_flag=
-    # 🔴 qap_action_hangup -> Hangup Call
-    ➡️ qap_action_hangup=
-    # 🔴 qap_action_label -> Label Interaction
-    ➡️ qap_action_label=
-    # 🔴 qap_action_monitor -> Monitor Call
-    ➡️ qap_action_monitor=
-    # 🔴 qap_action_qa -> QA Forms
-    ➡️ qap_action_qa=
-    # 🔴 qap_action_recall -> New Recall Memo
-    ➡️ qap_action_recall=
-    # 🔴 qap_action_transfer -> Transfer Call
-    ➡️ qap_action_transfer=
-    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall=
-    # 🔴 qap_addmember_selected -> Join selected queues.
-    ➡️ qap_addmember_selected=
-    # 🔴 qap_agent_code -> Agent Code
-    ➡️ qap_agent_code=
-    # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
-    ➡️ qap_agent_dialout_error=
-    # 🔴 qap_agent_extension -> Agent Extension
-    ➡️ qap_agent_extension=
-    # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
-    ➡️ qap_agent_notifications_error=
-    # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
-    ➡️ qap_agent_settings_error=
-    # 🔴 qap_agent_status_error -> Error while fetching agent status.
-    ➡️ qap_agent_status_error=
-    # 🔴 qap_amo -> AMO
-    ➡️ qap_amo=
-    # 🔴 qap_amo_attributes -> Attributes
-    ➡️ qap_amo_attributes=
-    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
-    ➡️ qap_amo_cannot=
-    # 🔴 qap_amo_error -> Error reserving AMO call:
-    ➡️ qap_amo_error=
-    # 🔴 qap_amo_list -> List Name
-    ➡️ qap_amo_list=
-    # 🔴 qap_amo_number -> Number
-    ➡️ qap_amo_number=
-    # 🔴 qap_amo_queue -> Queue Name
-    ➡️ qap_amo_queue=
-    # 🔴 qap_amo_recall -> Recall
-    ➡️ qap_amo_recall=
-    # 🔴 qap_amo_request -> Request AMO Call
-    ➡️ qap_amo_request=
-    # 🔴 qap_amo_reserved -> Call successfully Reserved.
-    ➡️ qap_amo_reserved=
-    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
-    ➡️ qap_amo_terminated=
-    # 🔴 qap_assign_case -> Assign Interaction to Case
-    ➡️ qap_assign_case=
-    # 🔴 qap_assign_client -> Assign Interaction to Client
-    ➡️ qap_assign_client=
-    # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
-    ➡️ qap_assign_interaction_error=
-    # 🔴 qap_calendar_add -> Add New
-    ➡️ qap_calendar_add=
-    # 🔴 qap_call_associated_to_case -> Call was associated to case
-    ➡️ qap_call_associated_to_case=
-    # 🔴 qap_case -> Case
-    ➡️ qap_case=
-    # 🔴 qap_case_add -> Add New Case
-    ➡️ qap_case_add=
-    # 🔴 qap_case_calls -> ALL CALLS
-    ➡️ qap_case_calls=
-    # 🔴 qap_case_closed -> Closed
-    ➡️ qap_case_closed=
-    # 🔴 qap_case_comments -> Comments
-    ➡️ qap_case_comments=
-    # 🔴 qap_case_contact -> Contact
-    ➡️ qap_case_contact=
-    # 🔴 qap_case_details -> Case Details
-    ➡️ qap_case_details=
-    # 🔴 qap_case_email -> Email
-    ➡️ qap_case_email=
-    # 🔴 qap_case_merged -> Merged
-    ➡️ qap_case_merged=
-    # 🔴 qap_case_notes -> Notes
-    ➡️ qap_case_notes=
-    # 🔴 qap_case_open -> Open
-    ➡️ qap_case_open=
-    # 🔴 qap_case_title -> Title
-    ➡️ qap_case_title=
-    # 🔴 qap_case_unconfirmed -> Unconfirmed
-    ➡️ qap_case_unconfirmed=
-    # 🔴 qap_case_xref -> XREF
-    ➡️ qap_case_xref=
-    # 🔴 qap_cases_placeholder_search -> Search for any Case here
-    ➡️ qap_cases_placeholder_search=
-    # 🔴 qap_choose_server_title -> Choose a Server
-    ➡️ qap_choose_server_title=
-    # 🔴 qap_client -> Client
-    ➡️ qap_client=
-    # 🔴 qap_client_contact -> Contact
-    ➡️ qap_client_contact=
-    # 🔴 qap_client_email -> Email
-    ➡️ qap_client_email=
-    # 🔴 qap_client_externalRef -> External Reference
-    ➡️ qap_client_externalRef=
-    # 🔴 qap_client_key -> Visibility Key
-    ➡️ qap_client_key=
-    # 🔴 qap_client_name -> Name
-    ➡️ qap_client_name=
-    # 🔴 qap_client_notes -> Notes
-    ➡️ qap_client_notes=
-    # 🔴 qap_client_xref -> XREF
-    ➡️ qap_client_xref=
-    # 🔴 qap_clients_add -> Add New Client
-    ➡️ qap_clients_add=
-    # 🔴 qap_clients_placeholder_search -> Search for any Client here
-    ➡️ qap_clients_placeholder_search=
-    # 🔴 qap_control_addall -> Join selected
-    ➡️ qap_control_addall=
-    # 🔴 qap_control_add -> Join
-    ➡️ qap_control_add=
-    # 🔴 qap_control_remove -> Leave
-    ➡️ qap_control_remove=
-    # 🔴 qap_control_all -> All
-    ➡️ qap_control_all=
-    # 🔴 qap_control_amend -> Amend
-    ➡️ qap_control_amend=
-    # 🔴 qap_control_assigned -> Assigned
-    ➡️ qap_control_assigned=
-    # 🔴 qap_control_change -> Change
-    ➡️ qap_control_change=
-    # 🔴 qap_control_composition -> Composition
-    ➡️ qap_control_composition=
-    # 🔴 qap_control_name -> Name
-    ➡️ qap_control_name=
-    # 🔴 qap_control_pause -> Pause
-    ➡️ qap_control_pause=
-    # 🔴 qap_control_priority -> Priority
-    ➡️ qap_control_priority=
-    # 🔴 qap_control_removeall -> Leave selected
-    ➡️ qap_control_removeall=
-    # 🔴 qap_control_selectall -> Select all
-    ➡️ qap_control_selectall=
-    # 🔴 qap_control_timer -> Timer
-    ➡️ qap_control_timer=
-    # 🔴 qap_control_unpause -> Unpause
-    ➡️ qap_control_unpause=
-    # 🔴 qap_create_note_error -> Error while creating a new Note.
-    ➡️ qap_create_note_error=
-    # 🔴 qap_crm_links -> CRM Popup Links
-    ➡️ qap_crm_links=
-    # 🔴 qap_daily_idle -> Idle time
-    ➡️ qap_daily_idle=
-    # 🔴 qap_daily_lost -> Lost Calls
-    ➡️ qap_daily_lost=
-    # 🔴 qap_daily_lostatt -> Lost Attempts
-    ➡️ qap_daily_lostatt=
-    # 🔴 qap_daily_pause -> Pause time
-    ➡️ qap_daily_pause=
-    # 🔴 qap_daily_stats -> Daily Stats
-    ➡️ qap_daily_stats=
-    # 🔴 qap_daily_taken -> Taken Calls
-    ➡️ qap_daily_taken=
-    # 🔴 qap_daily_talk -> Talk time
-    ➡️ qap_daily_talk=
-    # 🔴 qap_debug_api -> API
-    ➡️ qap_debug_api=
-    # 🔴 qap_debug_context -> Context
-    ➡️ qap_debug_context=
-    # 🔴 qap_debug_title -> Debug
-    ➡️ qap_debug_title=
-    # 🔴 qap_details_attempts -> Attempts
-    ➡️ qap_details_attempts=
-    # 🔴 qap_details_caller -> Caller
-    ➡️ qap_details_caller=
-    # 🔴 qap_details_direction -> Direction
-    ➡️ qap_details_direction=
-    # 🔴 qap_details_dnis -> Dnis
-    ➡️ qap_details_dnis=
-    # 🔴 qap_details_entered -> Entered
-    ➡️ qap_details_entered=
-    # 🔴 qap_details_features -> Features
-    ➡️ qap_details_features=
-    # 🔴 qap_details_ivrpath -> IVR Path
-    ➡️ qap_details_ivrpath=
-    # 🔴 qap_details_outcome -> Outcome
-    ➡️ qap_details_outcome=
-    # 🔴 qap_details_position -> Position
-    ➡️ qap_details_position=
-    # 🔴 qap_details_queue -> Queue
-    ➡️ qap_details_queue=
-    # 🔴 qap_details_started -> Started
-    ➡️ qap_details_started=
-    # 🔴 qap_details_tag -> Tag
-    ➡️ qap_details_tag=
-    # 🔴 qap_details_talk -> Talk Time
-    ➡️ qap_details_talk=
-    # 🔴 qap_details_terminated -> Terminated
-    ➡️ qap_details_terminated=
-    # 🔴 qap_details_transferto -> Transfer To
-    ➡️ qap_details_transferto=
-    # 🔴 qap_details_uniqueid -> Unique ID
-    ➡️ qap_details_uniqueid=
-    # 🔴 qap_details_url -> URL
-    ➡️ qap_details_url=
-    # 🔴 qap_details_variables -> Variables
-    ➡️ qap_details_variables=
-    # 🔴 qap_details_wait -> Wait Time
-    ➡️ qap_details_wait=
-    # 🔴 qap_dial -> Dial
-    ➡️ qap_dial=
-    # 🔴 qap_diff_join -> Queues joined
-    ➡️ qap_diff_join=
-    # 🔴 qap_diff_leave -> Queues left
-    ➡️ qap_diff_leave=
-    # 🔴 qap_diff_paused -> Agent Paused
-    ➡️ qap_diff_paused=
-    # 🔴 qap_edit_cases -> Edit Case
-    ➡️ qap_edit_cases=
-    # 🔴 qap_edit_client -> Edit Client
-    ➡️ qap_edit_client=
-    # 🔴 qap_edit_note -> Edit Note
-    ➡️ qap_edit_note=
-    # 🔴 qap_empty_note -> This note is empty.
-    ➡️ qap_empty_note=
+    # 👽 qap_action_case -> Assign to Case
+    qap_action_case=?사례에 할당
+    # 👽 qap_action_clicktodial -> Click to dial
+    qap_action_clicktodial=?클릭하여 전화 걸기
+    # 👽 qap_action_client -> Assign to Client
+    qap_action_client=?클라이언트에 할당
+    # 👽 qap_action_crm -> Open CRM
+    qap_action_crm=?CRM 열기
+    # 👽 qap_action_flag -> Flag Interaction
+    qap_action_flag=?상호 작용에 플래그 지정
+    # 👽 qap_action_hangup -> Hangup Call
+    qap_action_hangup=?통화 끊기
+    # 👽 qap_action_label -> Label Interaction
+    qap_action_label=?상호 작용에 레이블 지정
+    # 👽 qap_action_monitor -> Monitor Call
+    qap_action_monitor=?통화 모니터링
+    # 👽 qap_action_qa -> QA Forms
+    qap_action_qa=?QA 양식
+    # 👽 qap_action_recall -> New Recall Memo
+    qap_action_recall=?새로운 회수 메모
+    # 👽 qap_action_transfer -> Transfer Call
+    qap_action_transfer=?통화 전송
+    # 👽 qap_action_wbtrecall -> Recall with WombatDialer
+    qap_action_wbtrecall=?WombatDialer로 회수
+    # 👽 qap_addmember_selected -> Join selected queues.
+    qap_addmember_selected=?선택한 큐에 가입하십시오.
+    # 👽 qap_agent_code -> Agent Code
+    qap_agent_code=?상담원 코드
+    # 👽 qap_agent_dialout_error -> Error while performing Agent Dialout.
+    qap_agent_dialout_error=?상담원 다이얼 아웃을 수행하는 동안 오류가 발생했습니다.
+    # 👽 qap_agent_extension -> Agent Extension
+    qap_agent_extension=?상담원 내선 번호
+    # 👽 qap_agent_notifications_error -> Error while fetching agent notifications.
+    qap_agent_notifications_error=?상담원 알림을 가져오는 동안 오류가 발생했습니다.
+    # 👽 qap_agent_settings_error -> Error while fetching agent settings.
+    qap_agent_settings_error=?상담원 설정을 가져오는 동안 오류가 발생했습니다.
+    # 👽 qap_agent_status_error -> Error while fetching agent status.
+    qap_agent_status_error=?상담원 상태를 가져오는 동안 오류가 발생했습니다.
+    # 👽 qap_amo -> AMO
+    qap_amo=?AMO
+    # 👽 qap_amo_attributes -> Attributes
+    qap_amo_attributes=?속성
+    # 👽 qap_amo_cannot -> Cannot reserve a call at this time.
+    qap_amo_cannot=?지금은 통화를 예약할 수 없습니다.
+    # 👽 qap_amo_error -> Error reserving AMO call:
+    qap_amo_error=?AMO 통화 예약 오류:
+    # 👽 qap_amo_list -> List Name
+    qap_amo_list=?목록 이름
+    # 👽 qap_amo_number -> Number
+    qap_amo_number=?번호
+    # 👽 qap_amo_queue -> Queue Name
+    qap_amo_queue=?대기열 이름
+    # 👽 qap_amo_recall -> Recall
+    qap_amo_recall=?재호출
+    # 👽 qap_amo_request -> Request AMO Call
+    qap_amo_request=?AMO 통화 요청
+    # 👽 qap_amo_reserved -> Call successfully Reserved.
+    qap_amo_reserved=?통화가 성공적으로 예약되었습니다.
+    # 👽 qap_amo_terminated -> There are no more available AMO calls.
+    qap_amo_terminated=?더 이상 사용 가능한 AMO 통화가 없습니다.
+    # 👽 qap_assign_case -> Assign Interaction to Case
+    qap_assign_case=?사례에 상호 작용 할당
+    # 👽 qap_assign_client -> Assign Interaction to Client
+    qap_assign_client=?클라이언트에 상호 작용 할당
+    # 👽 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
+    qap_assign_interaction_error=?이 상호 작용에 관계를 할당하는 동안 오류가 발생했습니다.
+    # 👽 qap_calendar_add -> Add New
+    qap_calendar_add=?새로 추가
+    # 👽 qap_call_associated_to_case -> Call was associated to case
+    qap_call_associated_to_case=?통화가 사례와 연결되었습니다
+    # 👽 qap_case -> Case
+    qap_case=?사례
+    # 👽 qap_case_add -> Add New Case
+    qap_case_add=?새로운 케이스 추가
+    # 👽 qap_case_calls -> ALL CALLS
+    qap_case_calls=?모든 통화
+    # 👽 qap_case_closed -> Closed
+    qap_case_closed=?닫힘
+    # 👽 qap_case_comments -> Comments
+    qap_case_comments=?댓글
+    # 👽 qap_case_contact -> Contact
+    qap_case_contact=?연락처
+    # 👽 qap_case_details -> Case Details
+    qap_case_details=?사례 정보
+    # 👽 qap_case_email -> Email
+    qap_case_email=?이메일
+    # 👽 qap_case_merged -> Merged
+    qap_case_merged=?병합됨
+    # 👽 qap_case_notes -> Notes
+    qap_case_notes=?노트
+    # 👽 qap_case_open -> Open
+    qap_case_open=?열림
+    # 👽 qap_case_title -> Title
+    qap_case_title=?제목
+    # 👽 qap_case_unconfirmed -> Unconfirmed
+    qap_case_unconfirmed=?확인되지 않음
+    # 👽 qap_case_xref -> XREF
+    qap_case_xref=?XREF
+    # 👽 qap_cases_placeholder_search -> Search for any Case here
+    qap_cases_placeholder_search=?여기에서 사례 검색
+    # 👽 qap_choose_server_title -> Choose a Server
+    qap_choose_server_title=?서버 선택
+    # 👽 qap_client -> Client
+    qap_client=?고객
+    # 👽 qap_client_contact -> Contact
+    qap_client_contact=?연락처
+    # 👽 qap_client_email -> Email
+    qap_client_email=?이메일
+    # 👽 qap_client_externalRef -> External Reference
+    qap_client_externalRef=?외부 참조
+    # 👽 qap_client_key -> Visibility Key
+    qap_client_key=?가시성 키
+    # 👽 qap_client_name -> Name
+    qap_client_name=?이름
+    # 👽 qap_client_notes -> Notes
+    qap_client_notes=?노트
+    # 👽 qap_client_xref -> XREF
+    qap_client_xref=?XREF
+    # 👽 qap_clients_add -> Add New Client
+    qap_clients_add=?새 고객 추가
+    # 👽 qap_clients_placeholder_search -> Search for any Client here
+    qap_clients_placeholder_search=?여기에서 고객 검색
+    # 👽 qap_control_addall -> Join selected
+    qap_control_addall=?선택된 항목 가입
+    # 👽 qap_control_add -> Join
+    qap_control_add=?가입
+    # 👽 qap_control_remove -> Leave
+    qap_control_remove=?나가기
+    # 👽 qap_control_all -> All
+    qap_control_all=?전체
+    # 👽 qap_control_amend -> Amend
+    qap_control_amend=?수정
+    # 👽 qap_control_assigned -> Assigned
+    qap_control_assigned=?할당됨
+    # 👽 qap_control_change -> Change
+    qap_control_change=?변경
+    # 👽 qap_control_composition -> Composition
+    qap_control_composition=?구성
+    # 👽 qap_control_name -> Name
+    qap_control_name=?이름
+    # 👽 qap_control_pause -> Pause
+    qap_control_pause=?일시 중지
+    # 👽 qap_control_priority -> Priority
+    qap_control_priority=?우선 순위
+    # 👽 qap_control_removeall -> Leave selected
+    qap_control_removeall=?선택된 항목 남기기
+    # 👽 qap_control_selectall -> Select all
+    qap_control_selectall=?모두 선택
+    # 👽 qap_control_timer -> Timer
+    qap_control_timer=?타이머
+    # 👽 qap_control_unpause -> Unpause
+    qap_control_unpause=?일시 중지 해제
+    # 👽 qap_create_note_error -> Error while creating a new Note.
+    qap_create_note_error=?새 메모를 작성하는 동안 오류가 발생했습니다.
+    # 👽 qap_crm_links -> CRM Popup Links
+    qap_crm_links=?CRM 팝업 링크
+    # 👽 qap_daily_idle -> Idle time
+    qap_daily_idle=?유휴 시간
+    # 👽 qap_daily_lost -> Lost Calls
+    qap_daily_lost=?수신 실패 콜
+    # 👽 qap_daily_lostatt -> Lost Attempts
+    qap_daily_lostatt=?실패 시도
+    # 👽 qap_daily_pause -> Pause time
+    qap_daily_pause=?일시 중지 시간
+    # 👽 qap_daily_stats -> Daily Stats
+    qap_daily_stats=?일일 통계
+    # 👽 qap_daily_taken -> Taken Calls
+    qap_daily_taken=?받은 통화
+    # 👽 qap_daily_talk -> Talk time
+    qap_daily_talk=?통화 시간
+    # 👽 qap_debug_api -> API
+    qap_debug_api=?API
+    # 👽 qap_debug_context -> Context
+    qap_debug_context=?문맥
+    # 👽 qap_debug_title -> Debug
+    qap_debug_title=?디버그
+    # 👽 qap_details_attempts -> Attempts
+    qap_details_attempts=?시도
+    # 👽 qap_details_caller -> Caller
+    qap_details_caller=?발신자
+    # 👽 qap_details_direction -> Direction
+    qap_details_direction=?방향
+    # 👽 qap_details_dnis -> Dnis
+    qap_details_dnis=?Dnis
+    # 👽 qap_details_entered -> Entered
+    qap_details_entered=?입력됨
+    # 👽 qap_details_features -> Features
+    qap_details_features=?기능
+    # 👽 qap_details_ivrpath -> IVR Path
+    qap_details_ivrpath=?IVR 경로
+    # 👽 qap_details_outcome -> Outcome
+    qap_details_outcome=?결과
+    # 👽 qap_details_position -> Position
+    qap_details_position=?위치
+    # 👽 qap_details_queue -> Queue
+    qap_details_queue=?대기열
+    # 👽 qap_details_started -> Started
+    qap_details_started=?시작됨
+    # 👽 qap_details_tag -> Tag
+    qap_details_tag=?꼬리표
+    # 👽 qap_details_talk -> Talk Time
+    qap_details_talk=?통화 시간
+    # 👽 qap_details_terminated -> Terminated
+    qap_details_terminated=?종료됨
+    # 👽 qap_details_transferto -> Transfer To
+    qap_details_transferto=?전송 대상
+    # 👽 qap_details_uniqueid -> Unique ID
+    qap_details_uniqueid=?고유 ID
+    # 👽 qap_details_url -> URL
+    qap_details_url=?URL
+    # 👽 qap_details_variables -> Variables
+    qap_details_variables=?변수
+    # 👽 qap_details_wait -> Wait Time
+    qap_details_wait=?대기 시간
+    # 👽 qap_dial -> Dial
+    qap_dial=?전화 걸기
+    # 👽 qap_diff_join -> Queues joined
+    qap_diff_join=?대기열 가입
+    # 👽 qap_diff_leave -> Queues left
+    qap_diff_leave=?대기열 떠남
+    # 👽 qap_diff_paused -> Agent Paused
+    qap_diff_paused=?상담원 일시 중지됨
+    # 👽 qap_edit_cases -> Edit Case
+    qap_edit_cases=?사례 편집
+    # 👽 qap_edit_client -> Edit Client
+    qap_edit_client=?고객 편집
+    # 👽 qap_edit_note -> Edit Note
+    qap_edit_note=?메모 편집
+    # 👽 qap_empty_note -> This note is empty.
+    qap_empty_note=?이 메모는 비어 있습니다.
     qap_end_work=업무 종료하기
-    # 🔴 qap_entity_placeholder -> Type to search...
-    ➡️ qap_entity_placeholder=
-    # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
-    ➡️ qap_fetch_notifications_error=
-    # 🔴 qap_filters_main -> Main
-    ➡️ qap_filters_main=
-    # 🔴 qap_filters_priority -> Priority
-    ➡️ qap_filters_priority=
-    # 🔴 qap_filters_queue -> Queue
-    ➡️ qap_filters_queue=
-    # 🔴 qap_filters_spill -> Spill
-    ➡️ qap_filters_spill=
-    # 🔴 qap_filters_status -> Status
-    ➡️ qap_filters_status=
-    # 🔴 qap_filters_type -> Type
-    ➡️ qap_filters_type=
-    # 🔴 qap_filters_unk -> Unknown
-    ➡️ qap_filters_unk=
-    # 🔴 qap_filters_wrap -> Wrap
-    ➡️ qap_filters_wrap=
-    # 🔴 qap_find_cases -> Find your Cases
-    ➡️ qap_find_cases=
-    # 🔴 qap_find_clients -> Find your Clients
-    ➡️ qap_find_clients=
-    # 🔴 qap_form_features -> Feature Codes
-    ➡️ qap_form_features=
-    # 🔴 qap_form_outcome -> Outcome
-    ➡️ qap_form_outcome=
-    # 🔴 qap_idle_time -> Idle Time
-    ➡️ qap_idle_time=
-    # 🔴 qap_interaction_caller -> Caller
-    ➡️ qap_interaction_caller=
-    # 🔴 qap_interaction_case -> Case
-    ➡️ qap_interaction_case=
-    # 🔴 qap_interaction_client -> Client
-    ➡️ qap_interaction_client=
-    # 🔴 qap_interaction_details -> Details
-    ➡️ qap_interaction_details=
-    # 🔴 qap_interaction_details_title -> Call Details
-    ➡️ qap_interaction_details_title=
-    # 🔴 qap_interaction_duration -> Duration
-    ➡️ qap_interaction_duration=
-    # 🔴 qap_interaction_outcome -> Outcome
-    ➡️ qap_interaction_outcome=
-    # 🔴 qap_interaction_queue -> Queue
-    ➡️ qap_interaction_queue=
-    # 🔴 qap_interaction_start -> Start
-    ➡️ qap_interaction_start=
-    # 🔴 qap_interaction_tag -> Tag
-    ➡️ qap_interaction_tag=
-    # 🔴 qap_interaction_transfer -> Transfer
-    ➡️ qap_interaction_transfer=
-    # 🔴 qap_interaction_url -> URL
-    ➡️ qap_interaction_url=
-    # 🔴 qap_interaction_variables -> Variables
-    ➡️ qap_interaction_variables=
-    # 🔴 qap_interaction_waiting -> Waiting
-    ➡️ qap_interaction_waiting=
-    # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
-    ➡️ qap_invalid_outcome=
-    # 🔴 qap_join -> Join
-    ➡️ qap_join=
-    # 🔴 qap_label_freetext -> Free Text
-    ➡️ qap_label_freetext=
-    # 🔴 qap_leave -> Leave
-    ➡️ qap_leave=
-    # 🔴 qap_loading -> Loading...
-    ➡️ qap_loading=
-    # 🔴 qap_memos -> Memos
-    ➡️ qap_memos=
-    # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
-    ➡️ qap_missing_cases_key=
-    # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
-    ➡️ qap_missing_clients_key=
-    # 🔴 qap_nav_calendar -> Calendar
-    ➡️ qap_nav_calendar=
-    # 🔴 qap_nav_cases -> Cases
-    ➡️ qap_nav_cases=
-    # 🔴 qap_nav_clients -> Clients
-    ➡️ qap_nav_clients=
-    # 🔴 qap_nav_control -> Control
-    ➡️ qap_nav_control=
-    # 🔴 qap_nav_debug -> Debug
-    ➡️ qap_nav_debug=
-    # 🔴 qap_nav_dialout -> Dialout
-    ➡️ qap_nav_dialout=
-    # 🔴 qap_nav_home -> Home
-    ➡️ qap_nav_home=
-    # 🔴 qap_nav_interactions -> Interactions
-    ➡️ qap_nav_interactions=
-    # 🔴 qap_nav_overview -> Overview
-    ➡️ qap_nav_overview=
-    # 🔴 qap_nav_qa -> QA
-    ➡️ qap_nav_qa=
-    # 🔴 qap_nav_wallboard -> Wallboard
-    ➡️ qap_nav_wallboard=
-    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
-    ➡️ qap_nav_wombat=
-    # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=
-    # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=
-    # 🔴 qap_new_memo -> Create linked Memo
-    ➡️ qap_new_memo=
-    # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
-    ➡️ qap_no_cases=
-    # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
-    ➡️ qap_no_clients=
-    # 🔴 qap_none -> None
-    ➡️ qap_none=
-    # 🔴 qap_note_actions -> Actions
-    ➡️ qap_note_actions=
-    # 🔴 qap_note_complete -> Complete
-    ➡️ qap_note_complete=
-    # 🔴 qap_note_dispute -> Dispute
-    ➡️ qap_note_dispute=
-    # 🔴 qap_note_empty -> Empty
-    ➡️ qap_note_empty=
-    # 🔴 qap_note_expires -> Expires on
-    ➡️ qap_note_expires=
-    # 🔴 qap_note_expires_on -> Expires On
-    ➡️ qap_note_expires_on=
-    # 🔴 qap_note_flag -> Flag
-    ➡️ qap_note_flag=
-    # 🔴 qap_note_ko_disputed -> Disputed
-    ➡️ qap_note_ko_disputed=
-    # 🔴 qap_note_ko_refused -> Refused
-    ➡️ qap_note_ko_refused=
-    # 🔴 qap_note_ko_rejected -> Rejected
-    ➡️ qap_note_ko_rejected=
-    # 🔴 qap_note_meeting -> Meeting
-    ➡️ qap_note_meeting=
-    # 🔴 qap_note_message -> Message
-    ➡️ qap_note_message=
-    # 🔴 qap_note_note -> Note
-    ➡️ qap_note_note=
-    # 🔴 qap_note_notes -> Notes
-    ➡️ qap_note_notes=
-    # 🔴 qap_note_ok -> OK
-    ➡️ qap_note_ok=
-    # 🔴 qap_note_qa -> QA
-    ➡️ qap_note_qa=
-    # 🔴 qap_note_recall -> Recall
-    ➡️ qap_note_recall=
-    # 🔴 qap_note_refuse -> Refuse
-    ➡️ qap_note_refuse=
-    # 🔴 qap_note_reject -> Reject
-    ➡️ qap_note_reject=
-    # 🔴 qap_note_status -> Status
-    ➡️ qap_note_status=
-    # 🔴 qap_note_tbd -> TBD
-    ➡️ qap_note_tbd=
-    # 🔴 qap_note_todo -> Todo
-    ➡️ qap_note_todo=
-    # 🔴 qap_note_togroup -> To Group
-    ➡️ qap_note_togroup=
-    # 🔴 qap_note_touser -> To User
-    ➡️ qap_note_touser=
-    # 🔴 qap_note_training -> Training
-    ➡️ qap_note_training=
-    # 🔴 qap_note_type -> Type
-    ➡️ qap_note_type=
-    # 🔴 qap_note_valid_from -> Valid From
-    ➡️ qap_note_valid_from=
-    # 🔴 qap_notes_type_note -> Note
-    ➡️ qap_notes_type_note=
-    # 🔴 qap_notifications -> Notifications
-    ➡️ qap_notifications=
-    # 🔴 qap_notifications_empty -> You currently have no notifications
-    ➡️ qap_notifications_empty=
-    # 🔴 qap_overview_daily -> Daily
-    ➡️ qap_overview_daily=
-    # 🔴 qap_overview_stats -> Stats
-    ➡️ qap_overview_stats=
-    # 🔴 qap_overview_weekly -> Weekly
-    ➡️ qap_overview_weekly=
-    # 🔴 qap_pause_time -> Pause Time
-    ➡️ qap_pause_time=
-    # 🔴 qap_platform_action_error -> Error while performing platform action.
-    ➡️ qap_platform_action_error=
-    # 🔴 qap_process_note_error -> Error while processing a Note.
-    ➡️ qap_process_note_error=
-    # 🔴 qap_run -> Run
-    ➡️ qap_run=
-    # 🔴 qap_save_case_error -> Error while saving Case.
-    ➡️ qap_save_case_error=
-    # 🔴 qap_save_client_error -> Error while saving Client.
-    ➡️ qap_save_client_error=
-    # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
-    ➡️ qap_search_cases_error=
-    # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
-    ➡️ qap_search_clients_error=
-    # 🔴 qap_server -> Server
-    ➡️ qap_server=
-    # 🔴 qap_session_time -> Session Time
-    ➡️ qap_session_time=
-    # 🔴 qap_signout -> Sign out
-    ➡️ qap_signout=
-    # 🔴 qap_softphone -> Phone
-    ➡️ qap_softphone=
-    # 🔴 qap_softphone_debug -> Softphone
-    ➡️ qap_softphone_debug=
+    # 👽 qap_entity_placeholder -> Type to search...
+    qap_entity_placeholder=?검색하려면 입력하세요...
+    # 👽 qap_fetch_notifications_error -> Error while fetching User's notifications.
+    qap_fetch_notifications_error=?사용자 알림을 가져오는 중 오류가 발생했습니다.
+    # 👽 qap_filters_main -> Main
+    qap_filters_main=?주요
+    # 👽 qap_filters_priority -> Priority
+    qap_filters_priority=?우선 순위
+    # 👽 qap_filters_queue -> Queue
+    qap_filters_queue=?대기열
+    # 👽 qap_filters_spill -> Spill
+    qap_filters_spill=?넘침
+    # 👽 qap_filters_status -> Status
+    qap_filters_status=?상태
+    # 👽 qap_filters_type -> Type
+    qap_filters_type=?유형
+    # 👽 qap_filters_unk -> Unknown
+    qap_filters_unk=?알 수 없음
+    # 👽 qap_filters_wrap -> Wrap
+    qap_filters_wrap=?마무리
+    # 👽 qap_find_cases -> Find your Cases
+    qap_find_cases=?사례 찾기
+    # 👽 qap_find_clients -> Find your Clients
+    qap_find_clients=?고객 찾기
+    # 👽 qap_form_features -> Feature Codes
+    qap_form_features=?기능 코드
+    # 👽 qap_form_outcome -> Outcome
+    qap_form_outcome=?결과
+    # 👽 qap_idle_time -> Idle Time
+    qap_idle_time=?유휴 시간
+    # 👽 qap_interaction_caller -> Caller
+    qap_interaction_caller=?발신자
+    # 👽 qap_interaction_case -> Case
+    qap_interaction_case=?사례
+    # 👽 qap_interaction_client -> Client
+    qap_interaction_client=?고객
+    # 👽 qap_interaction_details -> Details
+    qap_interaction_details=?세부 정보
+    # 👽 qap_interaction_details_title -> Call Details
+    qap_interaction_details_title=?통화 정보
+    # 👽 qap_interaction_duration -> Duration
+    qap_interaction_duration=?지속
+    # 👽 qap_interaction_outcome -> Outcome
+    qap_interaction_outcome=?결과
+    # 👽 qap_interaction_queue -> Queue
+    qap_interaction_queue=?대기열
+    # 👽 qap_interaction_start -> Start
+    qap_interaction_start=?시작
+    # 👽 qap_interaction_tag -> Tag
+    qap_interaction_tag=?꼬리표
+    # 👽 qap_interaction_transfer -> Transfer
+    qap_interaction_transfer=?전송
+    # 👽 qap_interaction_url -> URL
+    qap_interaction_url=?URL
+    # 👽 qap_interaction_variables -> Variables
+    qap_interaction_variables=?변수
+    # 👽 qap_interaction_waiting -> Waiting
+    qap_interaction_waiting=?대기 중
+    # 👽 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
+    qap_invalid_outcome=?선택한 결과는 하나 이상의 상호 작용 기능 코드에 유효하지 않습니다.
+    # 👽 qap_join -> Join
+    qap_join=?가입
+    # 👽 qap_label_freetext -> Free Text
+    qap_label_freetext=?자유 텍스트
+    # 👽 qap_leave -> Leave
+    qap_leave=?나가기
+    # 👽 qap_loading -> Loading...
+    qap_loading=?로드 중...
+    # 👽 qap_memos -> Memos
+    qap_memos=?메모
+    # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
+    qap_missing_cases_key=?새로운 사례를 만들 수 있는 권한이 없습니다.
+    # 👽 qap_missing_clients_key -> You don't have permission to create new Clients.
+    qap_missing_clients_key=?새로운 고객을 만들 수 있는 권한이 없습니다.
+    # 👽 qap_nav_calendar -> Calendar
+    qap_nav_calendar=?달력
+    # 👽 qap_nav_cases -> Cases
+    qap_nav_cases=?사례
+    # 👽 qap_nav_clients -> Clients
+    qap_nav_clients=?클라이언트
+    # 👽 qap_nav_control -> Control
+    qap_nav_control=?제어
+    # 👽 qap_nav_debug -> Debug
+    qap_nav_debug=?디버그
+    # 👽 qap_nav_dialout -> Dialout
+    qap_nav_dialout=?다이얼 아웃
+    # 👽 qap_nav_home -> Home
+    qap_nav_home=?홈
+    # 👽 qap_nav_interactions -> Interactions
+    qap_nav_interactions=?상호 작용
+    # 👽 qap_nav_overview -> Overview
+    qap_nav_overview=?개요
+    # 👽 qap_nav_qa -> QA
+    qap_nav_qa=?QA
+    # 👽 qap_nav_wallboard -> Wallboard
+    qap_nav_wallboard=?월보드
+    # 👽 qap_nav_wombat -> WombatDialer Preview Dialing
+    qap_nav_wombat=?WombatDialer 미리보기 다이얼링
+    # 👽 qap_new_case -> New Case
+    qap_new_case=?새로운 케이스
+    # 👽 qap_new_client -> New Client
+    qap_new_client=?새 고객
+    # 👽 qap_new_memo -> Create linked Memo
+    qap_new_memo=?링크된 메모 만들기
+    # 👽 qap_no_cases -> No Cases found for the current search, please try again.
+    qap_no_cases=?현재 검색에 대한 사례를 찾을 수 없습니다. 다시 시도하십시오.
+    # 👽 qap_no_clients -> No Clients found for the current search, please try again.
+    qap_no_clients=?현재 검색에 대한 고객을 찾을 수 없습니다. 다시 시도하십시오.
+    # 👽 qap_none -> None
+    qap_none=?없음
+    # 👽 qap_note_actions -> Actions
+    qap_note_actions=?행동
+    # 👽 qap_note_complete -> Complete
+    qap_note_complete=?완료
+    # 👽 qap_note_dispute -> Dispute
+    qap_note_dispute=?논쟁
+    # 👽 qap_note_empty -> Empty
+    qap_note_empty=?비어 있음
+    # 👽 qap_note_expires -> Expires on
+    qap_note_expires=?만료일
+    # 👽 qap_note_expires_on -> Expires On
+    qap_note_expires_on=?만료일
+    # 👽 qap_note_flag -> Flag
+    qap_note_flag=?깃발
+    # 👽 qap_note_ko_disputed -> Disputed
+    qap_note_ko_disputed=?논쟁됨
+    # 👽 qap_note_ko_refused -> Refused
+    qap_note_ko_refused=?거부됨
+    # 👽 qap_note_ko_rejected -> Rejected
+    qap_note_ko_rejected=?거절됨
+    # 👽 qap_note_meeting -> Meeting
+    qap_note_meeting=?회의
+    # 👽 qap_note_message -> Message
+    qap_note_message=?메시지
+    # 👽 qap_note_note -> Note
+    qap_note_note=?노트
+    # 👽 qap_note_notes -> Notes
+    qap_note_notes=?노트
+    # 👽 qap_note_ok -> OK
+    qap_note_ok=?확인
+    # 👽 qap_note_qa -> QA
+    qap_note_qa=?QA
+    # 👽 qap_note_recall -> Recall
+    qap_note_recall=?재호출
+    # 👽 qap_note_refuse -> Refuse
+    qap_note_refuse=?거부
+    # 👽 qap_note_reject -> Reject
+    qap_note_reject=?거절
+    # 👽 qap_note_status -> Status
+    qap_note_status=?상태
+    # 👽 qap_note_tbd -> TBD
+    qap_note_tbd=?미정
+    # 👽 qap_note_todo -> Todo
+    qap_note_todo=?할 일
+    # 👽 qap_note_togroup -> To Group
+    qap_note_togroup=?그룹에
+    # 👽 qap_note_touser -> To User
+    qap_note_touser=?사용자에게
+    # 👽 qap_note_training -> Training
+    qap_note_training=?훈련
+    # 👽 qap_note_type -> Type
+    qap_note_type=?유형
+    # 👽 qap_note_valid_from -> Valid From
+    qap_note_valid_from=?유효 기간
+    # 👽 qap_notes_type_note -> Note
+    qap_notes_type_note=?노트
+    # 👽 qap_notifications -> Notifications
+    qap_notifications=?알림
+    # 👽 qap_notifications_empty -> You currently have no notifications
+    qap_notifications_empty=?현재 알림이 없습니다
+    # 👽 qap_overview_daily -> Daily
+    qap_overview_daily=?매일
+    # 👽 qap_overview_stats -> Stats
+    qap_overview_stats=?통계
+    # 👽 qap_overview_weekly -> Weekly
+    qap_overview_weekly=?매주
+    # 👽 qap_pause_time -> Pause Time
+    qap_pause_time=?일시 중지 시간
+    # 👽 qap_platform_action_error -> Error while performing platform action.
+    qap_platform_action_error=?플랫폼 작업을 수행하는 동안 오류가 발생했습니다.
+    # 👽 qap_process_note_error -> Error while processing a Note.
+    qap_process_note_error=?메모를 처리하는 동안 오류가 발생했습니다.
+    # 👽 qap_run -> Run
+    qap_run=?실행
+    # 👽 qap_save_case_error -> Error while saving Case.
+    qap_save_case_error=?사례를 저장하는 동안 오류가 발생했습니다.
+    # 👽 qap_save_client_error -> Error while saving Client.
+    qap_save_client_error=?고객을 저장하는 동안 오류가 발생했습니다.
+    # 👽 qap_search_cases_error -> Error searching for the requested Cases.
+    qap_search_cases_error=?요청된 사례를 검색하는 동안 오류가 발생했습니다.
+    # 👽 qap_search_clients_error -> Error searching for the requested Clients.
+    qap_search_clients_error=?요청된 고객을 검색하는 동안 오류가 발생했습니다.
+    # 👽 qap_server -> Server
+    qap_server=?서버
+    # 👽 qap_session_time -> Session Time
+    qap_session_time=?세션 시간
+    # 👽 qap_signout -> Sign out
+    qap_signout=?로그아웃
+    # 👽 qap_softphone -> Phone
+    qap_softphone=?전화
+    # 👽 qap_softphone_debug -> Softphone
+    qap_softphone_debug=?소프트폰
     qap_start_work=업무 시작하기
-    # 🔴 qap_status_paused -> Paused
-    ➡️ qap_status_paused=
-    # 🔴 qap_status_unpaused -> Unpaused
-    ➡️ qap_status_unpaused=
-    # 🔴 qap_title_calendar -> Calendar
-    ➡️ qap_title_calendar=
-    # 🔴 qap_title_cases -> Cases
-    ➡️ qap_title_cases=
-    # 🔴 qap_title_clients -> Clients
-    ➡️ qap_title_clients=
-    # 🔴 qap_title_control -> Queue Control
-    ➡️ qap_title_control=
-    # 🔴 qap_title_interactions -> Interactions
-    ➡️ qap_title_interactions=
-    # 🔴 qap_title_note -> New Note
-    ➡️ qap_title_note=
-    # 🔴 qap_title_notes_done -> Done
-    ➡️ qap_title_notes_done=
-    # 🔴 qap_title_notes_pending -> Pending
-    ➡️ qap_title_notes_pending=
-    # 🔴 qap_title_outcomes -> Outcome and Feature Codes
-    ➡️ qap_title_outcomes=
-    # 🔴 qap_title_overview -> Overview
-    ➡️ qap_title_overview=
-    # 🔴 qap_today -> Today
-    ➡️ qap_today=
-    # 🔴 qap_transaction_body -> Comment
-    ➡️ qap_transaction_body=
-    # 🔴 qap_transaction_title -> Title
-    ➡️ qap_transaction_title=
-    # 🔴 qap_unknown_caller -> Unknown Caller
-    ➡️ qap_unknown_caller=
-    # 🔴 qap_user_pref_error -> Error while fetching user preferences.
-    ➡️ qap_user_pref_error=
-    # 🔴 qap_wbt_campaign -> Campaign
-    ➡️ qap_wbt_campaign=
-    # 🔴 qap_wbt_comments -> Comments
-    ➡️ qap_wbt_comments=
-    # 🔴 qap_wbt_date -> Date
-    ➡️ qap_wbt_date=
-    # 🔴 qap_wbt_num -> Number
-    ➡️ qap_wbt_num=
-    # 🔴 qap_wbt_recall -> Recall
-    ➡️ qap_wbt_recall=
-    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
-    ➡️ qap_wbt_title=
-    # 🔴 qap_welcome -> Welcome Back!
-    ➡️ qap_welcome=
-    # 🔴 qap_you_have -> You have
-    ➡️ qap_you_have=
+    # 👽 qap_status_paused -> Paused
+    qap_status_paused=?일시 중지됨
+    # 👽 qap_status_unpaused -> Unpaused
+    qap_status_unpaused=?일시 중지 해제됨
+    # 👽 qap_title_calendar -> Calendar
+    qap_title_calendar=?달력
+    # 👽 qap_title_cases -> Cases
+    qap_title_cases=?사례
+    # 👽 qap_title_clients -> Clients
+    qap_title_clients=?클라이언트
+    # 👽 qap_title_control -> Queue Control
+    qap_title_control=?대기열 제어
+    # 👽 qap_title_interactions -> Interactions
+    qap_title_interactions=?상호 작용
+    # 👽 qap_title_note -> New Note
+    qap_title_note=?새 메모
+    # 👽 qap_title_notes_done -> Done
+    qap_title_notes_done=?완료
+    # 👽 qap_title_notes_pending -> Pending
+    qap_title_notes_pending=?보류 중
+    # 👽 qap_title_outcomes -> Outcome and Feature Codes
+    qap_title_outcomes=?결과 및 기능 코드
+    # 👽 qap_title_overview -> Overview
+    qap_title_overview=?개요
+    # 👽 qap_today -> Today
+    qap_today=?오늘
+    # 👽 qap_transaction_body -> Comment
+    qap_transaction_body=?주석
+    # 👽 qap_transaction_title -> Title
+    qap_transaction_title=?제목
+    # 👽 qap_unknown_caller -> Unknown Caller
+    qap_unknown_caller=?알 수 없는 발신자
+    # 👽 qap_user_pref_error -> Error while fetching user preferences.
+    qap_user_pref_error=?사용자 환경 설정을 가져오는 중 오류가 발생했습니다.
+    # 👽 qap_wbt_campaign -> Campaign
+    qap_wbt_campaign=?캠페인
+    # 👽 qap_wbt_comments -> Comments
+    qap_wbt_comments=?의견
+    # 👽 qap_wbt_date -> Date
+    qap_wbt_date=?날짜
+    # 👽 qap_wbt_num -> Number
+    qap_wbt_num=?번호
+    # 👽 qap_wbt_recall -> Recall
+    qap_wbt_recall=?재호출
+    # 👽 qap_wbt_title -> Schedule WombatDialer Recall
+    qap_wbt_title=?WombatDialer 재호출 예약
+    # 👽 qap_welcome -> Welcome Back!
+    qap_welcome=?다시 오신 것을 환영합니다!
+    # 👽 qap_you_have -> You have
+    qap_you_have=?당신은 가지고 있습니다
     qatarget_agentgroup=상담원 그룹
     qatarget_allcalls=전체 통화
     qatarget_individual_agents=상담원
     qatarget_outcomes=통화결과
-    # 🔴 react_report_table_sort_asc -> Sort in Ascending order
-    ➡️ react_report_table_sort_asc=
-    # 🔴 react_report_table_sort_desc -> Sort in Descending order
-    ➡️ react_report_table_sort_desc=
+    # 👽 react_report_table_sort_asc -> Sort in Ascending order
+    react_report_table_sort_asc=?오름차순으로 정렬
+    # 👽 react_report_table_sort_desc -> Sort in Descending order
+    react_report_table_sort_desc=?내림차순으로 정렬
     realtime_missing_queues=Not present on expected queues
     realtime_tooltip_calltags=태그(Tag)
     realtime_tooltip_features=Ftr
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=Var
-    # 🔴 recallstate_needs_further -> Needs further recall
-    ➡️ recallstate_needs_further=
-    # 🔴 recallstate_not_recalled -> Not yet recalled
-    ➡️ recallstate_not_recalled=
-    # 🔴 recallstate_recalled -> Recalled
-    ➡️ recallstate_recalled=
+    # 👽 recallstate_needs_further -> Needs further recall
+    recallstate_needs_further=?추가 재호출 필요
+    # 👽 recallstate_not_recalled -> Not yet recalled
+    recallstate_not_recalled=?아직 재호출되지 않음
+    # 👽 recallstate_recalled -> Recalled
+    recallstate_recalled=?재호출됨
     record_tag_inserttag_button=마커(Marker) 추가
     record_tag_inserttag_title=새로운 마커(Marker) 삽입
     record_tags_color=Color
@@ -4442,8 +4442,8 @@ Other items
     record_tags_color_set=마커(marker) 색깔 설정
     record_tags_duration=Duration
     record_tags_duration_s=Duration (초)
-    # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
-    ➡️ record_tags_erroradd=
+    # 👽 record_tags_erroradd -> Error adding marker. Please retry.
+    record_tags_erroradd=?마커 추가 오류. 다시 시도하십시오.
     record_tags_errordelete=마커(Marker) 삭제 에러. 재시도하세요.
     record_tags_file=Recording file
     record_tags_numtag=markers available
@@ -4454,166 +4454,166 @@ Other items
     record_tags_wrongduration=Please enter a valid duration format
     record_tags_wrongnote=Please enter a note
     record_tags_wrongtime=Please enter a valid time format
-    # 🔴 recstat_closed -> Closed
-    ➡️ recstat_closed=
-    # 🔴 recstat_merged -> Merged
-    ➡️ recstat_merged=
-    # 🔴 recstat_open -> Open
-    ➡️ recstat_open=
-    # 🔴 report_filter_noncont_time -> Between
-    ➡️ report_filter_noncont_time=
-    # 🔴 report_input_error -> This value is not admissibile
-    ➡️ report_input_error=
-    # 🔴 reports_add_datablocks -> Add DataBlocks
-    ➡️ reports_add_datablocks=
-    # 🔴 reports_add_filter -> Add Filter
-    ➡️ reports_add_filter=
-    # 🔴 reports_add_filter_button -> Add Filter
-    ➡️ reports_add_filter_button=
-    # 🔴 reports_adddatablock_onhover_message -> Add DataBlock
-    ➡️ reports_adddatablock_onhover_message=
-    # 🔴 reports_apply -> Apply
-    ➡️ reports_apply=
-    # 🔴 reports_at_caller -> Caller:
-    ➡️ reports_at_caller=
-    # 🔴 reports_at_collapse -> Collapse.
-    ➡️ reports_at_collapse=
-    # 🔴 reports_at_duration -> Duration:
-    ➡️ reports_at_duration=
-    # 🔴 reports_at_expand -> See more details.
-    ➡️ reports_at_expand=
-    # 🔴 reports_at_idle -> Idle Time:
-    ➡️ reports_at_idle=
-    # 🔴 reports_at_info -> Session information for
-    ➡️ reports_at_info=
-    # 🔴 reports_at_least_one_queue -> You must select at least one queue
-    ➡️ reports_at_least_one_queue=
-    # 🔴 reports_at_lostatt -> Lost Attempts:
-    ➡️ reports_at_lostatt=
-    # 🔴 reports_at_pause -> Pause Code:
-    ➡️ reports_at_pause=
-    # 🔴 reports_at_queue -> Queue:
-    ➡️ reports_at_queue=
-    # 🔴 reports_at_queues -> Queues:
-    ➡️ reports_at_queues=
-    # 🔴 reports_at_taken -> Taken Calls:
-    ➡️ reports_at_taken=
-    # 🔴 reports_at_talk -> Talk Time:
-    ➡️ reports_at_talk=
-    # 🔴 reports_at_wait -> Wait:
-    ➡️ reports_at_wait=
-    # 🔴 reports_atomic_filters -> Expression Filters
-    ➡️ reports_atomic_filters=
-    # 🔴 reports_autosave_toggle -> Auto Save
-    ➡️ reports_autosave_toggle=
-    # 🔴 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
-    ➡️ reports_change_report_confirm=
-    # 🔴 reports_chart_avgdur -> Avg. Duration
-    ➡️ reports_chart_avgdur=
-    # 🔴 reports_chart_delta -> Delta
-    ➡️ reports_chart_delta=
-    # 🔴 reports_chart_error -> Invalid Chart Configuration.
-    ➡️ reports_chart_error=
-    # 🔴 reports_chart_numcalls -> Num. of Calls
-    ➡️ reports_chart_numcalls=
-    # 🔴 reports_chart_others -> Others
-    ➡️ reports_chart_others=
-    # 🔴 reports_chart_sla -> SLA
-    ➡️ reports_chart_sla=
-    # 🔴 reports_clone -> Clone Report
-    ➡️ reports_clone=
-    # 🔴 reports_close_btn -> Close
-    ➡️ reports_close_btn=
-    # 🔴 reports_confirm -> Confirm
-    ➡️ reports_confirm=
-    # 🔴 reports_create -> Create New Report
-    ➡️ reports_create=
-    # 🔴 reports_create_page -> Create page
-    ➡️ reports_create_page=
-    # 🔴 reports_create_page_confirm -> You have unsaved changes, creating a new page will undo those changes. Do you want to create a new page?
-    ➡️ reports_create_page_confirm=
-    # 🔴 reports_create_successful -> Report created successfully
-    ➡️ reports_create_successful=
-    # 🔴 reports_datablock_chart -> Chart
-    ➡️ reports_datablock_chart=
-    # 🔴 reports_datablock_columns_customization -> Customize Columns
-    ➡️ reports_datablock_columns_customization=
-    # 🔴 reports_datablock_columns_short -> Columns
-    ➡️ reports_datablock_columns_short=
-    # 🔴 reports_datablock_errormsg -> Error Message
-    ➡️ reports_datablock_errormsg=
-    # 🔴 reports_datablock_label_subtititle -> Subtitle
-    ➡️ reports_datablock_label_subtititle=
-    # 🔴 reports_datablock_label_subtitle -> DataBlock notes
-    ➡️ reports_datablock_label_subtitle=
-    # 🔴 reports_datablock_label_title -> Title
-    ➡️ reports_datablock_label_title=
-    # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
-    ➡️ reports_datablock_order_customization=
-    # 🔴 reports_datablock_order_short -> DataBlocks
-    ➡️ reports_datablock_order_short=
-    # 🔴 reports_datablock_status -> Status
-    ➡️ reports_datablock_status=
-    # 🔴 reports_datablockview_added -> DataBlock Added
-    ➡️ reports_datablockview_added=
-    # 🔴 reports_datablockview_order -> DataBlock View Order
-    ➡️ reports_datablockview_order=
-    # 🔴 reports_datablockview_parameters -> Parameters
-    ➡️ reports_datablockview_parameters=
-    # 🔴 reports_datablockview_search -> Search
-    ➡️ reports_datablockview_search=
-    # 🔴 reports_datablockview_search_placeholder -> Search for a DataBlock View
-    ➡️ reports_datablockview_search_placeholder=
-    # 🔴 reports_datablockview_visibilitykey -> Visibility Key
-    ➡️ reports_datablockview_visibilitykey=
-    # 🔴 reports_datasource -> Data Source
-    ➡️ reports_datasource=
-    # 🔴 reports_delete -> Delete Report
-    ➡️ reports_delete=
-    # 🔴 reports_delete_current_page_confirm -> Delete the current page?
-    ➡️ reports_delete_current_page_confirm=
-    # 🔴 reports_delete_current_report_confirm -> Delete the current report?
-    ➡️ reports_delete_current_report_confirm=
-    # 🔴 reports_delete_datablockview -> Delete DataBlock View
-    ➡️ reports_delete_datablockview=
-    # 🔴 reports_delete_datablockview_short -> Delete
-    ➡️ reports_delete_datablockview_short=
-    # 🔴 reports_delete_filter -> Delete Filter
-    ➡️ reports_delete_filter=
-    # 🔴 reports_delete_page -> Delete Page
-    ➡️ reports_delete_page=
-    # 🔴 reports_delete_successful -> Report deleted successfully
-    ➡️ reports_delete_successful=
-    # 🔴 reports_drag_info -> Drag the elements to order them.
-    ➡️ reports_drag_info=
-    # 🔴 reports_edit -> Edit
-    ➡️ reports_edit=
-    # 🔴 reports_edit_datablocks -> DataBlocks
-    ➡️ reports_edit_datablocks=
-    # 🔴 reports_edit_datablockview -> Edit DataBlock
-    ➡️ reports_edit_datablockview=
-    # 🔴 reports_edit_datablockview_complete -> Confirm
-    ➡️ reports_edit_datablockview_complete=
-    # 🔴 reports_edit_datablockview_short -> Edit
-    ➡️ reports_edit_datablockview_short=
-    # 🔴 reports_edit_disabled -> This report is Read Only, because you are not authorized to edit it.
-    ➡️ reports_edit_disabled=
-    # 🔴 reports_edit_filter -> Edit Filter
-    ➡️ reports_edit_filter=
-    # 🔴 reports_edit_filters -> Filters
-    ➡️ reports_edit_filters=
-    # 🔴 reports_edit_name -> Edit Report Name
-    ➡️ reports_edit_name=
-    # 🔴 reports_edit_page -> Edit Page
-    ➡️ reports_edit_page=
-    # 🔴 reports_edit_page_complete -> Confirm changes
-    ➡️ reports_edit_page_complete=
-    # 🔴 reports_edit_report -> Edit Report
-    ➡️ reports_edit_report=
-    # 🔴 reports_editingkey -> Editing Key
-    ➡️ reports_editingkey=
-    # 🔴 reports_enter_title -> Enter the new Report title
-    ➡️ reports_enter_title=
+    # 👽 recstat_closed -> Closed
+    recstat_closed=?닫힘
+    # 👽 recstat_merged -> Merged
+    recstat_merged=?병합됨
+    # 👽 recstat_open -> Open
+    recstat_open=?열림
+    # 👽 report_filter_noncont_time -> Between
+    report_filter_noncont_time=?사이
+    # 👽 report_input_error -> This value is not admissibile
+    report_input_error=?이 값은 허용되지 않습니다.
+    # 👽 reports_add_datablocks -> Add DataBlocks
+    reports_add_datablocks=?데이터 블록 추가
+    # 👽 reports_add_filter -> Add Filter
+    reports_add_filter=?필터 추가
+    # 👽 reports_add_filter_button -> Add Filter
+    reports_add_filter_button=?필터 추가
+    # 👽 reports_adddatablock_onhover_message -> Add DataBlock
+    reports_adddatablock_onhover_message=?데이터 블록 추가
+    # 👽 reports_apply -> Apply
+    reports_apply=?적용
+    # 👽 reports_at_caller -> Caller:
+    reports_at_caller=?발신자:
+    # 👽 reports_at_collapse -> Collapse.
+    reports_at_collapse=?축소.
+    # 👽 reports_at_duration -> Duration:
+    reports_at_duration=?기간:
+    # 👽 reports_at_expand -> See more details.
+    reports_at_expand=?자세한 내용을 보려면 클릭하세요.
+    # 👽 reports_at_idle -> Idle Time:
+    reports_at_idle=?유휴 시간:
+    # 👽 reports_at_info -> Session information for
+    reports_at_info=?세션 정보
+    # 👽 reports_at_least_one_queue -> You must select at least one queue
+    reports_at_least_one_queue=?최소한 하나의 대기열을 선택해야 합니다.
+    # 👽 reports_at_lostatt -> Lost Attempts:
+    reports_at_lostatt=?실패한 시도:
+    # 👽 reports_at_pause -> Pause Code:
+    reports_at_pause=?일시 중지 코드:
+    # 👽 reports_at_queue -> Queue:
+    reports_at_queue=?대기열:
+    # 👽 reports_at_queues -> Queues:
+    reports_at_queues=?대기열:
+    # 👽 reports_at_taken -> Taken Calls:
+    reports_at_taken=?받은 통화:
+    # 👽 reports_at_talk -> Talk Time:
+    reports_at_talk=?통화 시간:
+    # 👽 reports_at_wait -> Wait:
+    reports_at_wait=?대기:
+    # 👽 reports_atomic_filters -> Expression Filters
+    reports_atomic_filters=?표현식 필터
+    # 👽 reports_autosave_toggle -> Auto Save
+    reports_autosave_toggle=?자동 저장
+    # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
+    reports_change_report_confirm=?저장하지 않은 변경 사항이 있습니다. 다른 보고서를 선택하면 해당 변경 사항이 취소됩니다. 보고서를 변경하시겠습니까?
+    # 👽 reports_chart_avgdur -> Avg. Duration
+    reports_chart_avgdur=?평균 기간
+    # 👽 reports_chart_delta -> Delta
+    reports_chart_delta=?델타
+    # 👽 reports_chart_error -> Invalid Chart Configuration.
+    reports_chart_error=?잘못된 차트 구성입니다.
+    # 👽 reports_chart_numcalls -> Num. of Calls
+    reports_chart_numcalls=?통화 수
+    # 👽 reports_chart_others -> Others
+    reports_chart_others=?기타
+    # 👽 reports_chart_sla -> SLA
+    reports_chart_sla=?SLA
+    # 👽 reports_clone -> Clone Report
+    reports_clone=?보고서 복제
+    # 👽 reports_close_btn -> Close
+    reports_close_btn=?닫기
+    # 👽 reports_confirm -> Confirm
+    reports_confirm=?확인
+    # 👽 reports_create -> Create New Report
+    reports_create=?새 보고서 만들기
+    # 👽 reports_create_page -> Create page
+    reports_create_page=?페이지 만들기
+    # 👽 reports_create_page_confirm -> You have unsaved changes, creating a new page will undo those changes. Do you want to create a new page?
+    reports_create_page_confirm=?저장하지 않은 변경 사항이 있습니다. 새 페이지를 만들면 해당 변경 사항이 취소됩니다. 새 페이지를 만드시겠습니까?
+    # 👽 reports_create_successful -> Report created successfully
+    reports_create_successful=?보고서가 성공적으로 생성되었습니다.
+    # 👽 reports_datablock_chart -> Chart
+    reports_datablock_chart=?차트
+    # 👽 reports_datablock_columns_customization -> Customize Columns
+    reports_datablock_columns_customization=?열 사용자 정의
+    # 👽 reports_datablock_columns_short -> Columns
+    reports_datablock_columns_short=?열
+    # 👽 reports_datablock_errormsg -> Error Message
+    reports_datablock_errormsg=?오류 메시지
+    # 👽 reports_datablock_label_subtititle -> Subtitle
+    reports_datablock_label_subtititle=?부제
+    # 👽 reports_datablock_label_subtitle -> DataBlock notes
+    reports_datablock_label_subtitle=?데이터 블록 노트
+    # 👽 reports_datablock_label_title -> Title
+    reports_datablock_label_title=?제목
+    # 👽 reports_datablock_order_customization -> Customize DataBlock Order
+    reports_datablock_order_customization=?데이터 블록 순서 사용자 정의
+    # 👽 reports_datablock_order_short -> DataBlocks
+    reports_datablock_order_short=?데이터 블록
+    # 👽 reports_datablock_status -> Status
+    reports_datablock_status=?상태
+    # 👽 reports_datablockview_added -> DataBlock Added
+    reports_datablockview_added=?데이터 블록 추가됨
+    # 👽 reports_datablockview_order -> DataBlock View Order
+    reports_datablockview_order=?데이터 블록 보기 순서
+    # 👽 reports_datablockview_parameters -> Parameters
+    reports_datablockview_parameters=?매개 변수
+    # 👽 reports_datablockview_search -> Search
+    reports_datablockview_search=?검색
+    # 👽 reports_datablockview_search_placeholder -> Search for a DataBlock View
+    reports_datablockview_search_placeholder=?데이터 블록 보기 검색
+    # 👽 reports_datablockview_visibilitykey -> Visibility Key
+    reports_datablockview_visibilitykey=?가시성 키
+    # 👽 reports_datasource -> Data Source
+    reports_datasource=?데이터 소스
+    # 👽 reports_delete -> Delete Report
+    reports_delete=?보고서 삭제
+    # 👽 reports_delete_current_page_confirm -> Delete the current page?
+    reports_delete_current_page_confirm=?현재 페이지를 삭제하시겠습니까?
+    # 👽 reports_delete_current_report_confirm -> Delete the current report?
+    reports_delete_current_report_confirm=?현재 보고서를 삭제하시겠습니까?
+    # 👽 reports_delete_datablockview -> Delete DataBlock View
+    reports_delete_datablockview=?데이터 블록 보기 삭제
+    # 👽 reports_delete_datablockview_short -> Delete
+    reports_delete_datablockview_short=?삭제
+    # 👽 reports_delete_filter -> Delete Filter
+    reports_delete_filter=?필터 삭제
+    # 👽 reports_delete_page -> Delete Page
+    reports_delete_page=?페이지 삭제
+    # 👽 reports_delete_successful -> Report deleted successfully
+    reports_delete_successful=?보고서가 성공적으로 삭제되었습니다.
+    # 👽 reports_drag_info -> Drag the elements to order them.
+    reports_drag_info=?요소를 드래그하여 정렬하십시오.
+    # 👽 reports_edit -> Edit
+    reports_edit=?편집
+    # 👽 reports_edit_datablocks -> DataBlocks
+    reports_edit_datablocks=?데이터 블록
+    # 👽 reports_edit_datablockview -> Edit DataBlock
+    reports_edit_datablockview=?데이터 블록 편집
+    # 👽 reports_edit_datablockview_complete -> Confirm
+    reports_edit_datablockview_complete=?확인
+    # 👽 reports_edit_datablockview_short -> Edit
+    reports_edit_datablockview_short=?편집
+    # 👽 reports_edit_disabled -> This report is Read Only, because you are not authorized to edit it.
+    reports_edit_disabled=?이 보고서는 편집할 권한이 없으므로 읽기 전용입니다.
+    # 👽 reports_edit_filter -> Edit Filter
+    reports_edit_filter=?필터 편집
+    # 👽 reports_edit_filters -> Filters
+    reports_edit_filters=?필터
+    # 👽 reports_edit_name -> Edit Report Name
+    reports_edit_name=?보고서 이름 편집
+    # 👽 reports_edit_page -> Edit Page
+    reports_edit_page=?페이지 편집
+    # 👽 reports_edit_page_complete -> Confirm changes
+    reports_edit_page_complete=?변경 사항 확인
+    # 👽 reports_edit_report -> Edit Report
+    reports_edit_report=?보고서 편집
+    # 👽 reports_editingkey -> Editing Key
+    reports_editingkey=?편집 키
+    # 👽 reports_enter_title -> Enter the new Report title
+    reports_enter_title=?새 보고서 제목을 입력하십시오.
     reports_export_email_body=QueueMetrics results for export report named
     reports_export_email_subject=[QueueMetrics] Report
     reports_export_footerline_text=Produced by QueueMetrics
@@ -4621,429 +4621,429 @@ Other items
     reports_export_mode_landscape=가로(Landscape)
     reports_export_mode_pdf=PDF로 내보내기
     reports_export_mode_portrait=세로(Portrait)
-    # 🔴 reports_export_pdf_short -> PDF
-    ➡️ reports_export_pdf_short=
-    # 🔴 reports_export_schema -> Export Report Schema
-    ➡️ reports_export_schema=
-    # 🔴 reports_export_schema_error -> The Report Schema could not be exported.
-    ➡️ reports_export_schema_error=
+    # 👽 reports_export_pdf_short -> PDF
+    reports_export_pdf_short=?PDF
+    # 👽 reports_export_schema -> Export Report Schema
+    reports_export_schema=?보고서 스키마 내보내기
+    # 👽 reports_export_schema_error -> The Report Schema could not be exported.
+    reports_export_schema_error=?보고서 스키마를 내보낼 수 없습니다.
     reports_export_test_icon=지금 실행
-    # 🔴 reports_export_xls_short -> XLS
-    ➡️ reports_export_xls_short=
-    # 🔴 reports_fetch_error -> Error fetching DataBlock
-    ➡️ reports_fetch_error=
-    # 🔴 reports_filter_agent -> Agent
-    ➡️ reports_filter_agent=
-    # 🔴 reports_filter_agentgroup -> Agent Group
-    ➡️ reports_filter_agentgroup=
-    # 🔴 reports_filter_asteriskid -> Unique Id
-    ➡️ reports_filter_asteriskid=
-    # 🔴 reports_filter_atomicqueuefilter -> Queue
-    ➡️ reports_filter_atomicqueuefilter=
-    # 🔴 reports_filter_attemptsmax -> Max Attempts
-    ➡️ reports_filter_attemptsmax=
-    # 🔴 reports_filter_attemptsmin -> Min. Attempts
-    ➡️ reports_filter_attemptsmin=
-    # 🔴 reports_filter_calldurmax -> Max. Call Duration
-    ➡️ reports_filter_calldurmax=
-    # 🔴 reports_filter_calldurmin -> Min. Call Duration
-    ➡️ reports_filter_calldurmin=
-    # 🔴 reports_filter_caller -> Caller
-    ➡️ reports_filter_caller=
-    # 🔴 reports_filter_callskills -> Call Skill
-    ➡️ reports_filter_callskills=
-    # 🔴 reports_filter_calltags -> Call Tag
-    ➡️ reports_filter_calltags=
-    # 🔴 reports_filter_case -> Case
-    ➡️ reports_filter_case=
-    # 🔴 reports_filter_client -> Client
-    ➡️ reports_filter_client=
-    # 🔴 reports_filter_date_from -> From
-    ➡️ reports_filter_date_from=
-    # 🔴 reports_filter_date_to -> To
-    ➡️ reports_filter_date_to=
-    # 🔴 reports_filter_disconnection -> Disconnection Cause
-    ➡️ reports_filter_disconnection=
-    # 🔴 reports_filter_dnis -> DNIS
-    ➡️ reports_filter_dnis=
-    # 🔴 reports_filter_enterposmax -> Max Enter Position
-    ➡️ reports_filter_enterposmax=
-    # 🔴 reports_filter_enterposmin -> Min. Enter Position
-    ➡️ reports_filter_enterposmin=
-    # 🔴 reports_filter_features -> Feature Code
-    ➡️ reports_filter_features=
-    # 🔴 reports_filter_group_delete -> Delete Filter Group
-    ➡️ reports_filter_group_delete=
-    # 🔴 reports_filter_input_error -> Input Error
-    ➡️ reports_filter_input_error=
-    # 🔴 reports_filter_ivr -> IVR
-    ➡️ reports_filter_ivr=
-    # 🔴 reports_filter_location -> Location
-    ➡️ reports_filter_location=
-    # 🔴 reports_filter_none -> None
-    ➡️ reports_filter_none=
-    # 🔴 reports_filter_noncont_time -> Between
-    ➡️ reports_filter_noncont_time=
-    # 🔴 reports_filter_noncontdays -> Days
-    ➡️ reports_filter_noncontdays=
-    # 🔴 reports_filter_noncontr1from -> Time 1 from
-    ➡️ reports_filter_noncontr1from=
-    # 🔴 reports_filter_noncontr1to -> Time 1 to
-    ➡️ reports_filter_noncontr1to=
-    # 🔴 reports_filter_nrmcaller -> Normalized Caller
-    ➡️ reports_filter_nrmcaller=
-    # 🔴 reports_filter_operator -> Operator
-    ➡️ reports_filter_operator=
-    # 🔴 reports_filter_outcome -> Outcome
-    ➡️ reports_filter_outcome=
-    # 🔴 reports_filter_selected_queues -> Queues
-    ➡️ reports_filter_selected_queues=
-    # 🔴 reports_filter_server -> Server
-    ➡️ reports_filter_server=
-    # 🔴 reports_filter_shortcallattempt -> Min. Attempt Time (short calls)
-    ➡️ reports_filter_shortcallattempt=
-    # 🔴 reports_filter_shortcalltalk -> Min. Talk Time (short calls)
-    ➡️ reports_filter_shortcalltalk=
-    # 🔴 reports_filter_shortcallwait -> Min. Wait Time (short calls)
-    ➡️ reports_filter_shortcallwait=
-    # 🔴 reports_filter_timerange -> Select time range
-    ➡️ reports_filter_timerange=
-    # 🔴 reports_filter_variable_name -> Variable Name
-    ➡️ reports_filter_variable_name=
-    # 🔴 reports_filter_variable_value -> Variable Value
-    ➡️ reports_filter_variable_value=
-    # 🔴 reports_filter_variables -> Variables
-    ➡️ reports_filter_variables=
-    # 🔴 reports_filter_waitmax -> Max. Wait Time
-    ➡️ reports_filter_waitmax=
-    # 🔴 reports_filter_waitmin -> Min. Wait Time
-    ➡️ reports_filter_waitmin=
-    # 🔴 reports_filters -> Show/Hide Filters
-    ➡️ reports_filters=
-    # 🔴 reports_goto_page -> Go to
-    ➡️ reports_goto_page=
-    # 🔴 reports_grouping_title -> Call Grouping
-    ➡️ reports_grouping_title=
-    # 🔴 reports_import_schema -> Import Report Schema
-    ➡️ reports_import_schema=
-    # 🔴 reports_import_schema_error -> Error while importing Report Schema.
-    ➡️ reports_import_schema_error=
-    # 🔴 reports_import_schema_success -> Report Schema Imported Successfully.
-    ➡️ reports_import_schema_success=
-    # 🔴 reports_invalid_input -> The value you have entered is not allowed
-    ➡️ reports_invalid_input=
-    # 🔴 reports_link_copy_successful -> Report URL copied to Clipboard
-    ➡️ reports_link_copy_successful=
-    # 🔴 reports_lost_calls -> Lost Calls
-    ➡️ reports_lost_calls=
-    # 🔴 reports_modify_report_name -> Modify Report name
-    ➡️ reports_modify_report_name=
-    # 🔴 reports_multistint -> Multi-Stint Mode
-    ➡️ reports_multistint=
-    # 🔴 reports_new_page_shorttitle -> New
-    ➡️ reports_new_page_shorttitle=
-    # 🔴 reports_new_page_title -> New Page
-    ➡️ reports_new_page_title=
-    # 🔴 reports_new_report -> New Report
-    ➡️ reports_new_report=
-    # 🔴 reports_next_datablock -> Next
-    ➡️ reports_next_datablock=
-    # 🔴 reports_no_available_queues -> The current user cannot access any queue.
-    ➡️ reports_no_available_queues=
-    # 🔴 reports_no_filters -> Add Filters
-    ➡️ reports_no_filters=
-    # 🔴 reports_no_queue_selected -> No Queue Selected
-    ➡️ reports_no_queue_selected=
-    # 🔴 reports_noncont_days_filter -> Days of the week
-    ➡️ reports_noncont_days_filter=
-    # 🔴 reports_noncont_time_filter -> Time Period Filter
-    ➡️ reports_noncont_time_filter=
-    # 🔴 reports_not_filter -> Negate this filter
-    ➡️ reports_not_filter=
-    # 🔴 reports_operator_and -> And
-    ➡️ reports_operator_and=
-    # 🔴 reports_operator_nor -> Nor
-    ➡️ reports_operator_nor=
-    # 🔴 reports_operator_or -> or
-    ➡️ reports_operator_or=
-    # 🔴 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
-    ➡️ reports_optilock_exception=
-    # 🔴 reports_owned_by -> Owned by
-    ➡️ reports_owned_by=
-    # 🔴 reports_page_create_successful -> Page created successfully
-    ➡️ reports_page_create_successful=
-    # 🔴 reports_page_delete -> Delete Page
-    ➡️ reports_page_delete=
-    # 🔴 reports_page_delete_successful -> Page deleted successfully
-    ➡️ reports_page_delete_successful=
-    # 🔴 reports_page_shorttitle -> Short Title
-    ➡️ reports_page_shorttitle=
-    # 🔴 reports_page_visibilitykey -> Visibility Key
-    ➡️ reports_page_visibilitykey=
-    # 🔴 reports_pagination_gotopage -> Go to page
-    ➡️ reports_pagination_gotopage=
-    # 🔴 reports_pagination_loading -> Loading...
-    ➡️ reports_pagination_loading=
-    # 🔴 reports_pagination_next -> Next page
-    ➡️ reports_pagination_next=
-    # 🔴 reports_pagination_of -> Of
-    ➡️ reports_pagination_of=
-    # 🔴 reports_pagination_page -> Page
-    ➡️ reports_pagination_page=
-    # 🔴 reports_pagination_prev -> Previous page
-    ➡️ reports_pagination_prev=
-    # 🔴 reports_pagination_show -> Show
-    ➡️ reports_pagination_show=
-    # 🔴 reports_pagination_showing -> Showing
-    ➡️ reports_pagination_showing=
-    # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
-    ➡️ reports_period_too_long=
-    # 🔴 reports_prev_datablock -> Prev
-    ➡️ reports_prev_datablock=
-    # 🔴 reports_preview_switch -> Preview
-    ➡️ reports_preview_switch=
-    # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
-    ➡️ reports_print_notification=
-    # 🔴 reports_public -> Public
-    ➡️ reports_public=
-    # 🔴 reports_qa_agent -> Agent
-    ➡️ reports_qa_agent=
-    # 🔴 reports_qa_agentgroup -> Agent group
-    ➡️ reports_qa_agentgroup=
-    # 🔴 reports_qa_caller -> Caller
-    ➡️ reports_qa_caller=
-    # 🔴 reports_qa_code -> Code
-    ➡️ reports_qa_code=
-    # 🔴 reports_qa_deletenotes -> Delete All
-    ➡️ reports_qa_deletenotes=
-    # 🔴 reports_qa_description -> Description
-    ➡️ reports_qa_description=
-    # 🔴 reports_qa_error_add_note -> Error Adding Note
-    ➡️ reports_qa_error_add_note=
-    # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
-    ➡️ reports_qa_error_commit_form=
-    # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
-    ➡️ reports_qa_error_delete_form=
-    # 🔴 reports_qa_error_delete_note -> Error Deleting Note
-    ➡️ reports_qa_error_delete_note=
-    # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
-    ➡️ reports_qa_error_download_forms=
-    # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
-    ➡️ reports_qa_error_edit_form=
-    # 🔴 reports_qa_error_update_form -> Error Updating QA Form
-    ➡️ reports_qa_error_update_form=
-    # 🔴 reports_qa_items -> Items
-    ➡️ reports_qa_items=
-    # 🔴 reports_qa_level -> Level
-    ➡️ reports_qa_level=
-    # 🔴 reports_qa_na -> N/A
-    ➡️ reports_qa_na=
-    # 🔴 reports_qa_newnote -> New Note
-    ➡️ reports_qa_newnote=
-    # 🔴 reports_qa_noteform_placeholder -> Write your comment here
-    ➡️ reports_qa_noteform_placeholder=
-    # 🔴 reports_qa_noteform_title -> Add Note
-    ➡️ reports_qa_noteform_title=
-    # 🔴 reports_qa_notes -> Notes
-    ➡️ reports_qa_notes=
-    # 🔴 reports_qa_performance_avg -> Avg.
-    ➡️ reports_qa_performance_avg=
-    # 🔴 reports_qa_performance_title -> Performance
-    ➡️ reports_qa_performance_title=
-    # 🔴 reports_qa_performance_total -> Total score
-    ➡️ reports_qa_performance_total=
-    # 🔴 reports_qa_queue -> Queue
-    ➡️ reports_qa_queue=
-    # 🔴 reports_qa_range -> Range
-    ➡️ reports_qa_range=
-    # 🔴 reports_qa_recap_heading -> Call Details
-    ➡️ reports_qa_recap_heading=
-    # 🔴 reports_qa_select_form -> Select Form
-    ➡️ reports_qa_select_form=
-    # 🔴 reports_qa_start -> Start Time
-    ➡️ reports_qa_start=
-    # 🔴 reports_qa_status -> Status
-    ➡️ reports_qa_status=
-    # 🔴 reports_qa_uid -> Unique Id
-    ➡️ reports_qa_uid=
-    # 🔴 reports_qa_value -> Value
-    ➡️ reports_qa_value=
-    # 🔴 reports_qa_print -> Print
-    ➡️ reports_qa_print=
-    # 🔴 reports_query_loading -> Loading
-    ➡️ reports_query_loading=
-    # 🔴 reports_ratio -> Ratio
-    ➡️ reports_ratio=
-    # 🔴 reports_recap_no_filters -> Click to add additional filters
-    ➡️ reports_recap_no_filters=
-    # 🔴 reports_recap_queues -> Queues
-    ➡️ reports_recap_queues=
-    # 🔴 reports_recap_report -> Report
-    ➡️ reports_recap_report=
-    # 🔴 reports_reload -> Reload Report (unsaved changes will be lost)
-    ➡️ reports_reload=
-    # 🔴 reports_reset_resizing -> Reset column resizing
-    ➡️ reports_reset_resizing=
-    # 🔴 reports_save -> Save Report
-    ➡️ reports_save=
-    # 🔴 reports_save_report_confirm -> Click OK to edit the current report, Click cancel to create a copy.
-    ➡️ reports_save_report_confirm=
-    # 🔴 reports_save_report_confirm_clone -> Copy & Edit
-    ➡️ reports_save_report_confirm_clone=
-    # 🔴 reports_save_report_confirm_current -> Current
-    ➡️ reports_save_report_confirm_current=
-    # 🔴 reports_save_report_confirm_message -> Edit the current report or create a copy with the new changes?
-    ➡️ reports_save_report_confirm_message=
-    # 🔴 reports_save_report_confirm_title -> Save Report
-    ➡️ reports_save_report_confirm_title=
-    # 🔴 reports_save_successful -> Report saved successfully
-    ➡️ reports_save_successful=
-    # 🔴 reports_search_placeholder -> Search Filter
-    ➡️ reports_search_placeholder=
-    # 🔴 reports_select_report -> Choose a Report
-    ➡️ reports_select_report=
-    # 🔴 reports_settings -> Settings
-    ➡️ reports_settings=
-    # 🔴 reports_settings_areacode -> Area Code
-    ➡️ reports_settings_areacode=
-    # 🔴 reports_settings_datablock -> DataBlock
-    ➡️ reports_settings_datablock=
-    # 🔴 reports_settings_default -> Reset to System Default
-    ➡️ reports_settings_default=
-    # 🔴 reports_settings_hourlyslot -> Hourly Slot
-    ➡️ reports_settings_hourlyslot=
-    # 🔴 reports_settings_report -> Report
-    ➡️ reports_settings_report=
-    # 🔴 reports_settings_shortcallattemptwaitlimit -> Short Call Attempt Wait Limit
-    ➡️ reports_settings_shortcallattemptwaitlimit=
-    # 🔴 reports_settings_shortcalls -> Short Calls
-    ➡️ reports_settings_shortcalls=
-    # 🔴 reports_settings_shortcalltalklimit -> Short Call Talk Limit
-    ➡️ reports_settings_shortcalltalklimit=
-    # 🔴 reports_settings_shortcallwaitlimit -> Short Call Wait Limit
-    ➡️ reports_settings_shortcallwaitlimit=
-    # 🔴 reports_settings_slainitialinterval -> SLA Initial Interval
-    ➡️ reports_settings_slainitialinterval=
-    # 🔴 reports_settings_slainterval -> SLA Interval
-    ➡️ reports_settings_slainterval=
-    # 🔴 reports_settings_slamaxinitialdelay -> SLA Max. Initial Delay
-    ➡️ reports_settings_slamaxinitialdelay=
-    # 🔴 reports_settings_slamaxmonitoreddelay -> SLA Max. Monitored Delay
-    ➡️ reports_settings_slamaxmonitoreddelay=
-    # 🔴 reports_shortcalls_no -> No
-    ➡️ reports_shortcalls_no=
-    # 🔴 reports_skill_level -> Skill Level
-    ➡️ reports_skill_level=
-    # 🔴 reports_ssaragents -> Self Service Report Agents
-    ➡️ reports_ssaragents=
-    # 🔴 reports_supervised -> Supervised
-    ➡️ reports_supervised=
-    # 🔴 reports_tab_editor -> Edit Tabs Order
-    ➡️ reports_tab_editor=
-    # 🔴 reports_tab_page_list -> Available Report pages
-    ➡️ reports_tab_page_list=
-    # 🔴 reports_taken_calls -> Taken Calls
-    ➡️ reports_taken_calls=
-    # 🔴 reports_throwaway_report_new -> Unsaved Report
-    ➡️ reports_throwaway_report_new=
-    # 🔴 reports_time -> Time
-    ➡️ reports_time=
-    # 🔴 reports_time_mode -> Change Time Period selection mode
-    ➡️ reports_time_mode=
-    # 🔴 reports_time_preset_daybeforeyesterday -> Day before yesterday
-    ➡️ reports_time_preset_daybeforeyesterday=
-    # 🔴 reports_time_preset_last12hours -> Last 12 hours
-    ➡️ reports_time_preset_last12hours=
-    # 🔴 reports_time_preset_last15minutes -> Last 15 minutes
-    ➡️ reports_time_preset_last15minutes=
-    # 🔴 reports_time_preset_last1hour -> Last 1 hour
-    ➡️ reports_time_preset_last1hour=
-    # 🔴 reports_time_preset_last24hours -> Last 24 hours
-    ➡️ reports_time_preset_last24hours=
-    # 🔴 reports_time_preset_last2days -> Last 2 Days (Since Current Time)
-    ➡️ reports_time_preset_last2days=
-    # 🔴 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
-    ➡️ reports_time_preset_last2days_midnight=
-    # 🔴 reports_time_preset_last2years -> Last 2 years
-    ➡️ reports_time_preset_last2years=
-    # 🔴 reports_time_preset_last30days -> Last 30 Days (Since Current Time)
-    ➡️ reports_time_preset_last30days=
-    # 🔴 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
-    ➡️ reports_time_preset_last30days_midnight=
-    # 🔴 reports_time_preset_last30minutes -> Last 30 minutes
-    ➡️ reports_time_preset_last30minutes=
-    # 🔴 reports_time_preset_last3hours -> Last 3 hours
-    ➡️ reports_time_preset_last3hours=
-    # 🔴 reports_time_preset_last5minutes -> Last 5 minutes
-    ➡️ reports_time_preset_last5minutes=
-    # 🔴 reports_time_preset_last5years -> Last 5 years
-    ➡️ reports_time_preset_last5years=
-    # 🔴 reports_time_preset_last6hours -> Last 6 hours
-    ➡️ reports_time_preset_last6hours=
-    # 🔴 reports_time_preset_last6months -> Last 6 months
-    ➡️ reports_time_preset_last6months=
-    # 🔴 reports_time_preset_last7days -> Last 7 Days (Since Current Time)
-    ➡️ reports_time_preset_last7days=
-    # 🔴 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
-    ➡️ reports_time_preset_last7days_midnight=
-    # 🔴 reports_time_preset_last90days -> Last 90 Days (Since Current Time)
-    ➡️ reports_time_preset_last90days=
-    # 🔴 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
-    ➡️ reports_time_preset_last90days_midnight=
-    # 🔴 reports_time_preset_lastyear -> Last year
-    ➡️ reports_time_preset_lastyear=
-    # 🔴 reports_time_preset_previousmonth -> Previous month
-    ➡️ reports_time_preset_previousmonth=
-    # 🔴 reports_time_preset_previousweek -> Previous week
-    ➡️ reports_time_preset_previousweek=
-    # 🔴 reports_time_preset_previousyear -> Previous year
-    ➡️ reports_time_preset_previousyear=
-    # 🔴 reports_time_preset_thisdaylastweek -> This day last week
-    ➡️ reports_time_preset_thisdaylastweek=
-    # 🔴 reports_time_preset_thismonth -> This month
-    ➡️ reports_time_preset_thismonth=
-    # 🔴 reports_time_preset_thismonthsofar -> This month so far
-    ➡️ reports_time_preset_thismonthsofar=
-    # 🔴 reports_time_preset_thisweek -> This week
-    ➡️ reports_time_preset_thisweek=
-    # 🔴 reports_time_preset_thisweeksofar -> This week so far
-    ➡️ reports_time_preset_thisweeksofar=
-    # 🔴 reports_time_preset_thisyear -> This year
-    ➡️ reports_time_preset_thisyear=
-    # 🔴 reports_time_preset_thisyearsofar -> This year so far
-    ➡️ reports_time_preset_thisyearsofar=
-    # 🔴 reports_time_preset_today -> Today
-    ➡️ reports_time_preset_today=
-    # 🔴 reports_time_preset_todaysofar -> Today so far
-    ➡️ reports_time_preset_todaysofar=
-    # 🔴 reports_time_preset_yesterday -> Yesterday
-    ➡️ reports_time_preset_yesterday=
-    # 🔴 reports_topbar_icon_datablock_open_hover_tooltip -> Open DataBlocks menu
-    ➡️ reports_topbar_icon_datablock_open_hover_tooltip=
-    # 🔴 reports_topbar_icon_export_PDF__open_hover_tooltip -> Export PDF
-    ➡️ reports_topbar_icon_export_PDF__open_hover_tooltip=
-    # 🔴 reports_topbar_icon_export_excel__open_hover_tooltip -> Export XLS
-    ➡️ reports_topbar_icon_export_excel__open_hover_tooltip=
-    # 🔴 reports_topbar_icon_filter_open_hover_tooltip -> Filters
-    ➡️ reports_topbar_icon_filter_open_hover_tooltip=
-    # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
-    ➡️ reports_topbar_icon_print_hover_tooltip=
-    # 🔴 reports_topbar_icon_run_report_hover_tooltip -> Process Query
-    ➡️ reports_topbar_icon_run_report_hover_tooltip=
-    # 🔴 reports_topbar_icon_save_report_hover_tooltip -> Save Report
-    ➡️ reports_topbar_icon_save_report_hover_tooltip=
-    # 🔴 reports_topbar_icon_settings_open_hover_tooltip -> Settings
-    ➡️ reports_topbar_icon_settings_open_hover_tooltip=
-    # 🔴 reports_topbar_icon_share_open_hover_tooltip -> Share URL
-    ➡️ reports_topbar_icon_share_open_hover_tooltip=
-    # 🔴 reports_total_calls -> Total Calls
-    ➡️ reports_total_calls=
-    # 🔴 reports_trash -> Drag here to delete
-    ➡️ reports_trash=
-    # 🔴 reports_unsaved -> Unsaved
-    ➡️ reports_unsaved=
-    # 🔴 reports_visibilitykey -> Visibility Key
-    ➡️ reports_visibilitykey=
+    # 👽 reports_export_xls_short -> XLS
+    reports_export_xls_short=?XLS
+    # 👽 reports_fetch_error -> Error fetching DataBlock
+    reports_fetch_error=?데이터 블록 가져오기 오류
+    # 👽 reports_filter_agent -> Agent
+    reports_filter_agent=?상담원
+    # 👽 reports_filter_agentgroup -> Agent Group
+    reports_filter_agentgroup=?상담원 그룹
+    # 👽 reports_filter_asteriskid -> Unique Id
+    reports_filter_asteriskid=?고유 ID
+    # 👽 reports_filter_atomicqueuefilter -> Queue
+    reports_filter_atomicqueuefilter=?대기열
+    # 👽 reports_filter_attemptsmax -> Max Attempts
+    reports_filter_attemptsmax=?최대 시도 횟수
+    # 👽 reports_filter_attemptsmin -> Min. Attempts
+    reports_filter_attemptsmin=?최소 시도 횟수
+    # 👽 reports_filter_calldurmax -> Max. Call Duration
+    reports_filter_calldurmax=?최대 통화 시간
+    # 👽 reports_filter_calldurmin -> Min. Call Duration
+    reports_filter_calldurmin=?최소 통화 시간
+    # 👽 reports_filter_caller -> Caller
+    reports_filter_caller=?발신자
+    # 👽 reports_filter_callskills -> Call Skill
+    reports_filter_callskills=?통화 기술
+    # 👽 reports_filter_calltags -> Call Tag
+    reports_filter_calltags=?통화 태그
+    # 👽 reports_filter_case -> Case
+    reports_filter_case=?사례
+    # 👽 reports_filter_client -> Client
+    reports_filter_client=?고객
+    # 👽 reports_filter_date_from -> From
+    reports_filter_date_from=?부터
+    # 👽 reports_filter_date_to -> To
+    reports_filter_date_to=?까지
+    # 👽 reports_filter_disconnection -> Disconnection Cause
+    reports_filter_disconnection=?연결 해제 원인
+    # 👽 reports_filter_dnis -> DNIS
+    reports_filter_dnis=?DNIS
+    # 👽 reports_filter_enterposmax -> Max Enter Position
+    reports_filter_enterposmax=?최대 진입 위치
+    # 👽 reports_filter_enterposmin -> Min. Enter Position
+    reports_filter_enterposmin=?최소 진입 위치
+    # 👽 reports_filter_features -> Feature Code
+    reports_filter_features=?기능 코드
+    # 👽 reports_filter_group_delete -> Delete Filter Group
+    reports_filter_group_delete=?필터 그룹 삭제
+    # 👽 reports_filter_input_error -> Input Error
+    reports_filter_input_error=?입력 오류
+    # 👽 reports_filter_ivr -> IVR
+    reports_filter_ivr=?IVR
+    # 👽 reports_filter_location -> Location
+    reports_filter_location=?위치
+    # 👽 reports_filter_none -> None
+    reports_filter_none=?없음
+    # 👽 reports_filter_noncont_time -> Between
+    reports_filter_noncont_time=?사이
+    # 👽 reports_filter_noncontdays -> Days
+    reports_filter_noncontdays=?요일
+    # 👽 reports_filter_noncontr1from -> Time 1 from
+    reports_filter_noncontr1from=?시간 1 부터
+    # 👽 reports_filter_noncontr1to -> Time 1 to
+    reports_filter_noncontr1to=?시간 1 까지
+    # 👽 reports_filter_nrmcaller -> Normalized Caller
+    reports_filter_nrmcaller=?정규화된 발신자
+    # 👽 reports_filter_operator -> Operator
+    reports_filter_operator=?운영자
+    # 👽 reports_filter_outcome -> Outcome
+    reports_filter_outcome=?결과
+    # 👽 reports_filter_selected_queues -> Queues
+    reports_filter_selected_queues=?대기열
+    # 👽 reports_filter_server -> Server
+    reports_filter_server=?서버
+    # 👽 reports_filter_shortcallattempt -> Min. Attempt Time (short calls)
+    reports_filter_shortcallattempt=?최소 시도 시간 (짧은 통화)
+    # 👽 reports_filter_shortcalltalk -> Min. Talk Time (short calls)
+    reports_filter_shortcalltalk=?최소 통화 시간 (짧은 통화)
+    # 👽 reports_filter_shortcallwait -> Min. Wait Time (short calls)
+    reports_filter_shortcallwait=?최소 대기 시간 (짧은 통화)
+    # 👽 reports_filter_timerange -> Select time range
+    reports_filter_timerange=?시간 범위 선택
+    # 👽 reports_filter_variable_name -> Variable Name
+    reports_filter_variable_name=?변수 이름
+    # 👽 reports_filter_variable_value -> Variable Value
+    reports_filter_variable_value=?변수 값
+    # 👽 reports_filter_variables -> Variables
+    reports_filter_variables=?변수
+    # 👽 reports_filter_waitmax -> Max. Wait Time
+    reports_filter_waitmax=?최대 대기 시간
+    # 👽 reports_filter_waitmin -> Min. Wait Time
+    reports_filter_waitmin=?최소 대기 시간
+    # 👽 reports_filters -> Show/Hide Filters
+    reports_filters=?필터 표시/숨기기
+    # 👽 reports_goto_page -> Go to
+    reports_goto_page=?이동
+    # 👽 reports_grouping_title -> Call Grouping
+    reports_grouping_title=?통화 그룹화
+    # 👽 reports_import_schema -> Import Report Schema
+    reports_import_schema=?보고서 스키마 가져오기
+    # 👽 reports_import_schema_error -> Error while importing Report Schema.
+    reports_import_schema_error=?보고서 스키마를 가져오는 중 오류가 발생했습니다.
+    # 👽 reports_import_schema_success -> Report Schema Imported Successfully.
+    reports_import_schema_success=?보고서 스키마가 성공적으로 가져왔습니다.
+    # 👽 reports_invalid_input -> The value you have entered is not allowed
+    reports_invalid_input=?입력한 값은 허용되지 않습니다.
+    # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
+    reports_link_copy_successful=?보고서 URL이 클립보드에 복사되었습니다.
+    # 👽 reports_lost_calls -> Lost Calls
+    reports_lost_calls=?손실된 통화
+    # 👽 reports_modify_report_name -> Modify Report name
+    reports_modify_report_name=?보고서 이름 수정
+    # 👽 reports_multistint -> Multi-Stint Mode
+    reports_multistint=?다중 스틴트 모드
+    # 👽 reports_new_page_shorttitle -> New
+    reports_new_page_shorttitle=?새로 만들기
+    # 👽 reports_new_page_title -> New Page
+    reports_new_page_title=?새 페이지
+    # 👽 reports_new_report -> New Report
+    reports_new_report=?새 보고서
+    # 👽 reports_next_datablock -> Next
+    reports_next_datablock=?다음
+    # 👽 reports_no_available_queues -> The current user cannot access any queue.
+    reports_no_available_queues=?현재 사용자는 대기열에 액세스할 수 없습니다.
+    # 👽 reports_no_filters -> Add Filters
+    reports_no_filters=?필터 추가
+    # 👽 reports_no_queue_selected -> No Queue Selected
+    reports_no_queue_selected=?선택된 대기열이 없습니다.
+    # 👽 reports_noncont_days_filter -> Days of the week
+    reports_noncont_days_filter=?요일
+    # 👽 reports_noncont_time_filter -> Time Period Filter
+    reports_noncont_time_filter=?시간대 필터
+    # 👽 reports_not_filter -> Negate this filter
+    reports_not_filter=?이 필터 부정
+    # 👽 reports_operator_and -> And
+    reports_operator_and=?그리고
+    # 👽 reports_operator_nor -> Nor
+    reports_operator_nor=?그리고 아님
+    # 👽 reports_operator_or -> or
+    reports_operator_or=?또는
+    # 👽 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
+    reports_optilock_exception=?편집하려는 보고서가 다른 사용자에 의해 수정되어 저장할 수 없습니다.
+    # 👽 reports_owned_by -> Owned by
+    reports_owned_by=?소유자
+    # 👽 reports_page_create_successful -> Page created successfully
+    reports_page_create_successful=?페이지가 성공적으로 생성되었습니다.
+    # 👽 reports_page_delete -> Delete Page
+    reports_page_delete=?페이지 삭제
+    # 👽 reports_page_delete_successful -> Page deleted successfully
+    reports_page_delete_successful=?페이지가 성공적으로 삭제되었습니다.
+    # 👽 reports_page_shorttitle -> Short Title
+    reports_page_shorttitle=?약식 제목
+    # 👽 reports_page_visibilitykey -> Visibility Key
+    reports_page_visibilitykey=?가시성 키
+    # 👽 reports_pagination_gotopage -> Go to page
+    reports_pagination_gotopage=?페이지로 이동
+    # 👽 reports_pagination_loading -> Loading...
+    reports_pagination_loading=?로딩 중...
+    # 👽 reports_pagination_next -> Next page
+    reports_pagination_next=?다음 페이지
+    # 👽 reports_pagination_of -> Of
+    reports_pagination_of=?의
+    # 👽 reports_pagination_page -> Page
+    reports_pagination_page=?페이지
+    # 👽 reports_pagination_prev -> Previous page
+    reports_pagination_prev=?이전 페이지
+    # 👽 reports_pagination_show -> Show
+    reports_pagination_show=?표시
+    # 👽 reports_pagination_showing -> Showing
+    reports_pagination_showing=?표시 중
+    # 👽 reports_period_too_long -> This report covers a longer period than you are allowed to run.
+    reports_period_too_long=?이 보고서는 실행할 수 있는 기간보다 깁니다.
+    # 👽 reports_prev_datablock -> Prev
+    reports_prev_datablock=?이전
+    # 👽 reports_preview_switch -> Preview
+    reports_preview_switch=?미리보기
+    # 👽 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
+    reports_print_notification=?인쇄 모드를 종료합니다. 보고서가 다시 로드될 때까지 기다려 주십시오. 특히 큰 테이블을 인쇄하는 경우 시간이 오래 걸릴 수 있습니다.
+    # 👽 reports_public -> Public
+    reports_public=?공개
+    # 👽 reports_qa_agent -> Agent
+    reports_qa_agent=?상담원
+    # 👽 reports_qa_agentgroup -> Agent group
+    reports_qa_agentgroup=?상담원 그룹
+    # 👽 reports_qa_caller -> Caller
+    reports_qa_caller=?발신자
+    # 👽 reports_qa_code -> Code
+    reports_qa_code=?코드
+    # 👽 reports_qa_deletenotes -> Delete All
+    reports_qa_deletenotes=?모든 메모 삭제
+    # 👽 reports_qa_description -> Description
+    reports_qa_description=?설명
+    # 👽 reports_qa_error_add_note -> Error Adding Note
+    reports_qa_error_add_note=?노트 추가 오류
+    # 👽 reports_qa_error_commit_form -> Error Committing QA Form
+    reports_qa_error_commit_form=?QA 양식 커밋 오류
+    # 👽 reports_qa_error_delete_form -> Error Deleting QA Form
+    reports_qa_error_delete_form=?QA 양식 삭제 오류
+    # 👽 reports_qa_error_delete_note -> Error Deleting Note
+    reports_qa_error_delete_note=?노트 삭제 오류
+    # 👽 reports_qa_error_download_forms -> Error Downloading QA Forms
+    reports_qa_error_download_forms=?QA 양식 다운로드 오류
+    # 👽 reports_qa_error_edit_form -> Error Editing QA Form
+    reports_qa_error_edit_form=?QA 양식 편집 오류
+    # 👽 reports_qa_error_update_form -> Error Updating QA Form
+    reports_qa_error_update_form=?QA 양식 업데이트 오류
+    # 👽 reports_qa_items -> Items
+    reports_qa_items=?항목
+    # 👽 reports_qa_level -> Level
+    reports_qa_level=?레벨
+    # 👽 reports_qa_na -> N/A
+    reports_qa_na=?해당 없음
+    # 👽 reports_qa_newnote -> New Note
+    reports_qa_newnote=?새 노트
+    # 👽 reports_qa_noteform_placeholder -> Write your comment here
+    reports_qa_noteform_placeholder=?여기에 댓글을 작성하세요
+    # 👽 reports_qa_noteform_title -> Add Note
+    reports_qa_noteform_title=?노트 추가
+    # 👽 reports_qa_notes -> Notes
+    reports_qa_notes=?노트
+    # 👽 reports_qa_performance_avg -> Avg.
+    reports_qa_performance_avg=?평균
+    # 👽 reports_qa_performance_title -> Performance
+    reports_qa_performance_title=?성능
+    # 👽 reports_qa_performance_total -> Total score
+    reports_qa_performance_total=?총점
+    # 👽 reports_qa_queue -> Queue
+    reports_qa_queue=?대기열
+    # 👽 reports_qa_range -> Range
+    reports_qa_range=?범위
+    # 👽 reports_qa_recap_heading -> Call Details
+    reports_qa_recap_heading=?통화 상세 정보
+    # 👽 reports_qa_select_form -> Select Form
+    reports_qa_select_form=?양식 선택
+    # 👽 reports_qa_start -> Start Time
+    reports_qa_start=?시작 시간
+    # 👽 reports_qa_status -> Status
+    reports_qa_status=?상태
+    # 👽 reports_qa_uid -> Unique Id
+    reports_qa_uid=?고유 ID
+    # 👽 reports_qa_value -> Value
+    reports_qa_value=?값
+    # 👽 reports_qa_print -> Print
+    reports_qa_print=?인쇄
+    # 👽 reports_query_loading -> Loading
+    reports_query_loading=?로드 중
+    # 👽 reports_ratio -> Ratio
+    reports_ratio=?비율
+    # 👽 reports_recap_no_filters -> Click to add additional filters
+    reports_recap_no_filters=?필터를 추가하려면 클릭하세요
+    # 👽 reports_recap_queues -> Queues
+    reports_recap_queues=?대기열
+    # 👽 reports_recap_report -> Report
+    reports_recap_report=?보고서
+    # 👽 reports_reload -> Reload Report (unsaved changes will be lost)
+    reports_reload=?보고서 다시 로드 (저장되지 않은 변경 사항은 손실됩니다)
+    # 👽 reports_reset_resizing -> Reset column resizing
+    reports_reset_resizing=?열 크기 조정 재설정
+    # 👽 reports_save -> Save Report
+    reports_save=?보고서 저장
+    # 👽 reports_save_report_confirm -> Click OK to edit the current report, Click cancel to create a copy.
+    reports_save_report_confirm=?현재 보고서를 편집하려면 OK를 클릭하고, 사본을 생성하려면 취소를 클릭하세요.
+    # 👽 reports_save_report_confirm_clone -> Copy & Edit
+    reports_save_report_confirm_clone=?사본 & 편집
+    # 👽 reports_save_report_confirm_current -> Current
+    reports_save_report_confirm_current=?현재
+    # 👽 reports_save_report_confirm_message -> Edit the current report or create a copy with the new changes?
+    reports_save_report_confirm_message=?현재 보고서를 편집하시겠습니까, 아니면 새 변경 사항으로 사본을 만드시겠습니까?
+    # 👽 reports_save_report_confirm_title -> Save Report
+    reports_save_report_confirm_title=?보고서 저장
+    # 👽 reports_save_successful -> Report saved successfully
+    reports_save_successful=?보고서가 성공적으로 저장되었습니다
+    # 👽 reports_search_placeholder -> Search Filter
+    reports_search_placeholder=?검색 필터
+    # 👽 reports_select_report -> Choose a Report
+    reports_select_report=?보고서 선택
+    # 👽 reports_settings -> Settings
+    reports_settings=?설정
+    # 👽 reports_settings_areacode -> Area Code
+    reports_settings_areacode=?지역 번호
+    # 👽 reports_settings_datablock -> DataBlock
+    reports_settings_datablock=?DataBlock
+    # 👽 reports_settings_default -> Reset to System Default
+    reports_settings_default=?시스템 기본값으로 재설정
+    # 👽 reports_settings_hourlyslot -> Hourly Slot
+    reports_settings_hourlyslot=?시간별 슬롯
+    # 👽 reports_settings_report -> Report
+    reports_settings_report=?보고서
+    # 👽 reports_settings_shortcallattemptwaitlimit -> Short Call Attempt Wait Limit
+    reports_settings_shortcallattemptwaitlimit=?짧은 통화 시도 대기 제한
+    # 👽 reports_settings_shortcalls -> Short Calls
+    reports_settings_shortcalls=?짧은 통화
+    # 👽 reports_settings_shortcalltalklimit -> Short Call Talk Limit
+    reports_settings_shortcalltalklimit=?짧은 통화 시간 제한
+    # 👽 reports_settings_shortcallwaitlimit -> Short Call Wait Limit
+    reports_settings_shortcallwaitlimit=?짧은 통화 대기 시간 제한
+    # 👽 reports_settings_slainitialinterval -> SLA Initial Interval
+    reports_settings_slainitialinterval=?SLA 초기 간격
+    # 👽 reports_settings_slainterval -> SLA Interval
+    reports_settings_slainterval=?SLA 간격
+    # 👽 reports_settings_slamaxinitialdelay -> SLA Max. Initial Delay
+    reports_settings_slamaxinitialdelay=?SLA 최대 초기 지연
+    # 👽 reports_settings_slamaxmonitoreddelay -> SLA Max. Monitored Delay
+    reports_settings_slamaxmonitoreddelay=?SLA 최대 모니터링 지연
+    # 👽 reports_shortcalls_no -> No
+    reports_shortcalls_no=?아니요
+    # 👽 reports_skill_level -> Skill Level
+    reports_skill_level=?숙련도
+    # 👽 reports_ssaragents -> Self Service Report Agents
+    reports_ssaragents=?셀프 서비스 보고서 상담원
+    # 👽 reports_supervised -> Supervised
+    reports_supervised=?감독됨
+    # 👽 reports_tab_editor -> Edit Tabs Order
+    reports_tab_editor=?탭 순서 편집
+    # 👽 reports_tab_page_list -> Available Report pages
+    reports_tab_page_list=?사용 가능한 보고서 페이지
+    # 👽 reports_taken_calls -> Taken Calls
+    reports_taken_calls=?받은 통화
+    # 👽 reports_throwaway_report_new -> Unsaved Report
+    reports_throwaway_report_new=?저장되지 않은 보고서
+    # 👽 reports_time -> Time
+    reports_time=?시간
+    # 👽 reports_time_mode -> Change Time Period selection mode
+    reports_time_mode=?시간대 선택 모드 변경
+    # 👽 reports_time_preset_daybeforeyesterday -> Day before yesterday
+    reports_time_preset_daybeforeyesterday=?그저께
+    # 👽 reports_time_preset_last12hours -> Last 12 hours
+    reports_time_preset_last12hours=?지난 12시간
+    # 👽 reports_time_preset_last15minutes -> Last 15 minutes
+    reports_time_preset_last15minutes=?지난 15분
+    # 👽 reports_time_preset_last1hour -> Last 1 hour
+    reports_time_preset_last1hour=?지난 1시간
+    # 👽 reports_time_preset_last24hours -> Last 24 hours
+    reports_time_preset_last24hours=?지난 24시간
+    # 👽 reports_time_preset_last2days -> Last 2 Days (Since Current Time)
+    reports_time_preset_last2days=?지난 2일(현재 시간 기준)
+    # 👽 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
+    reports_time_preset_last2days_midnight=?지난 2일(자정 기준)
+    # 👽 reports_time_preset_last2years -> Last 2 years
+    reports_time_preset_last2years=?지난 2년
+    # 👽 reports_time_preset_last30days -> Last 30 Days (Since Current Time)
+    reports_time_preset_last30days=?지난 30일(현재 시간 기준)
+    # 👽 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
+    reports_time_preset_last30days_midnight=?지난 30일(자정 기준)
+    # 👽 reports_time_preset_last30minutes -> Last 30 minutes
+    reports_time_preset_last30minutes=?지난 30분
+    # 👽 reports_time_preset_last3hours -> Last 3 hours
+    reports_time_preset_last3hours=?지난 3시간
+    # 👽 reports_time_preset_last5minutes -> Last 5 minutes
+    reports_time_preset_last5minutes=?지난 5분
+    # 👽 reports_time_preset_last5years -> Last 5 years
+    reports_time_preset_last5years=?지난 5년
+    # 👽 reports_time_preset_last6hours -> Last 6 hours
+    reports_time_preset_last6hours=?지난 6시간
+    # 👽 reports_time_preset_last6months -> Last 6 months
+    reports_time_preset_last6months=?지난 6개월
+    # 👽 reports_time_preset_last7days -> Last 7 Days (Since Current Time)
+    reports_time_preset_last7days=?지난 7일(현재 시간 기준)
+    # 👽 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
+    reports_time_preset_last7days_midnight=?지난 7일(자정 기준)
+    # 👽 reports_time_preset_last90days -> Last 90 Days (Since Current Time)
+    reports_time_preset_last90days=?지난 90일(현재 시간 기준)
+    # 👽 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
+    reports_time_preset_last90days_midnight=?지난 90일(자정 기준)
+    # 👽 reports_time_preset_lastyear -> Last year
+    reports_time_preset_lastyear=?작년
+    # 👽 reports_time_preset_previousmonth -> Previous month
+    reports_time_preset_previousmonth=?지난달
+    # 👽 reports_time_preset_previousweek -> Previous week
+    reports_time_preset_previousweek=?지난주
+    # 👽 reports_time_preset_previousyear -> Previous year
+    reports_time_preset_previousyear=?작년
+    # 👽 reports_time_preset_thisdaylastweek -> This day last week
+    reports_time_preset_thisdaylastweek=?지난주 오늘
+    # 👽 reports_time_preset_thismonth -> This month
+    reports_time_preset_thismonth=?이번 달
+    # 👽 reports_time_preset_thismonthsofar -> This month so far
+    reports_time_preset_thismonthsofar=?이번 달 현재까지
+    # 👽 reports_time_preset_thisweek -> This week
+    reports_time_preset_thisweek=?이번 주
+    # 👽 reports_time_preset_thisweeksofar -> This week so far
+    reports_time_preset_thisweeksofar=?이번 주 현재까지
+    # 👽 reports_time_preset_thisyear -> This year
+    reports_time_preset_thisyear=?올해
+    # 👽 reports_time_preset_thisyearsofar -> This year so far
+    reports_time_preset_thisyearsofar=?올해 현재까지
+    # 👽 reports_time_preset_today -> Today
+    reports_time_preset_today=?오늘
+    # 👽 reports_time_preset_todaysofar -> Today so far
+    reports_time_preset_todaysofar=?오늘 현재까지
+    # 👽 reports_time_preset_yesterday -> Yesterday
+    reports_time_preset_yesterday=?어제
+    # 👽 reports_topbar_icon_datablock_open_hover_tooltip -> Open DataBlocks menu
+    reports_topbar_icon_datablock_open_hover_tooltip=?DataBlocks 메뉴 열기
+    # 👽 reports_topbar_icon_export_PDF__open_hover_tooltip -> Export PDF
+    reports_topbar_icon_export_PDF__open_hover_tooltip=?PDF 내보내기
+    # 👽 reports_topbar_icon_export_excel__open_hover_tooltip -> Export XLS
+    reports_topbar_icon_export_excel__open_hover_tooltip=?XLS 내보내기
+    # 👽 reports_topbar_icon_filter_open_hover_tooltip -> Filters
+    reports_topbar_icon_filter_open_hover_tooltip=?필터
+    # 👽 reports_topbar_icon_print_hover_tooltip -> Print
+    reports_topbar_icon_print_hover_tooltip=?인쇄
+    # 👽 reports_topbar_icon_run_report_hover_tooltip -> Process Query
+    reports_topbar_icon_run_report_hover_tooltip=?쿼리 처리
+    # 👽 reports_topbar_icon_save_report_hover_tooltip -> Save Report
+    reports_topbar_icon_save_report_hover_tooltip=?보고서 저장
+    # 👽 reports_topbar_icon_settings_open_hover_tooltip -> Settings
+    reports_topbar_icon_settings_open_hover_tooltip=?설정
+    # 👽 reports_topbar_icon_share_open_hover_tooltip -> Share URL
+    reports_topbar_icon_share_open_hover_tooltip=?URL 공유
+    # 👽 reports_total_calls -> Total Calls
+    reports_total_calls=?총 통화
+    # 👽 reports_trash -> Drag here to delete
+    reports_trash=?삭제하려면 여기로 드래그하세요
+    # 👽 reports_unsaved -> Unsaved
+    reports_unsaved=?저장되지 않음
+    # 👽 reports_visibilitykey -> Visibility Key
+    reports_visibilitykey=?가시성 키
     rt_active_queues=Show active queues
     rt_addmember=멤버 추가
     rt_agent_nbsp=상담원
@@ -5057,8 +5057,8 @@ Other items
     rt_all_queues=모든 대기큐 보기
     rt_all_selected=All selected
     rt_bsy=Bsy
-    # 🔴 rt_busysince -> Busy Since
-    ➡️ rt_busysince=
+    # 👽 rt_busysince -> Busy Since
+    rt_busysince=?통화 중 시작 시간
     rt_caller_nbsp=발신자
     rt_callid=통화ID
     rt_calls_being_processed=처리(통화) 중인 콜 : 
@@ -5130,14 +5130,14 @@ Other items
     rt_on_phone_inbound=인입콜 통화중
     rt_on_phone_outbound=발신 통화중
     rt_onqueue=On queue
-    # 🔴 rt_open -> click for relevant  action
-    ➡️ rt_open=
+    # 👽 rt_open -> click for relevant  action
+    rt_open=?관련 작업 클릭
     rt_outbound=발신
     rt_pauseagent=일시중지
     rt_pauseagent_tt=일시중지
     rt_paused_for=Paused for
-    # 🔴 rt_pausedsince -> Paused Since
-    ➡️ rt_pausedsince=
+    # 👽 rt_pausedsince -> Paused Since
+    rt_pausedsince=?일시 중지 시작 시간
     rt_pop_agent_code=상담원 코드 : 
     rt_pop_agent_extension=상담원 내선번호 : 
     rt_pop_agent_logon_extension=상담원 로그온 내선번호 : 
@@ -5274,251 +5274,251 @@ Other items
     savedq_save=Save this query:
     savedq_seqKey=Visibility Key:
     savedq_type=Type
-    # 🔴 sync2_add_agent -> Add Agent
-    ➡️ sync2_add_agent=
-    # 🔴 sync2_add_queue -> Add Queue
-    ➡️ sync2_add_queue=
-    # 🔴 sync2_agent_aliases -> Aliases
-    ➡️ sync2_agent_aliases=
-    # 🔴 sync2_agent_already_exists -> The agent already exists
-    ➡️ sync2_agent_already_exists=
-    # 🔴 sync2_agent_created -> The agent was created successfully
-    ➡️ sync2_agent_created=
-    # 🔴 sync2_agent_description -> Description
-    ➡️ sync2_agent_description=
-    # 🔴 sync2_agent_extension -> Extension
-    ➡️ sync2_agent_extension=
-    # 🔴 sync2_agent_external_reference -> External Reference
-    ➡️ sync2_agent_external_reference=
-    # 🔴 sync2_agent_filter -> Agent Filter
-    ➡️ sync2_agent_filter=
-    # 🔴 sync2_agent_id -> Agent ID
-    ➡️ sync2_agent_id=
-    # 🔴 sync2_agent_im -> IM
-    ➡️ sync2_agent_im=
-    # 🔴 sync2_agent_info -> Agent Information
-    ➡️ sync2_agent_info=
-    # 🔴 sync2_agent_misc -> Misc
-    ➡️ sync2_agent_misc=
-    # 🔴 sync2_agent_sip_pass -> WebRTC Password
-    ➡️ sync2_agent_sip_pass=
-    # 🔴 sync2_agent_sip_realm -> WebRTC Realm
-    ➡️ sync2_agent_sip_realm=
-    # 🔴 sync2_agent_sip_uri -> WebRTC SIP Uri
-    ➡️ sync2_agent_sip_uri=
-    # 🔴 sync2_agent_sip_user -> WebRTC User
-    ➡️ sync2_agent_sip_user=
-    # 🔴 sync2_agent_user_password -> User Password
-    ➡️ sync2_agent_user_password=
-    # 🔴 sync2_agent_vnc -> Vnc
-    ➡️ sync2_agent_vnc=
-    # 🔴 sync2_agent_webrtc -> WebRTC
-    ➡️ sync2_agent_webrtc=
-    # 🔴 sync2_agents_placeholder -> Agents
-    ➡️ sync2_agents_placeholder=
-    # 🔴 sync2_ami_host -> AMI Host
-    ➡️ sync2_ami_host=
-    # 🔴 sync2_ami_pass -> AMI Password
-    ➡️ sync2_ami_pass=
-    # 🔴 sync2_ami_port -> AMI Port
-    ➡️ sync2_ami_port=
-    # 🔴 sync2_ami_user -> AMI User
-    ➡️ sync2_ami_user=
-    # 🔴 sync2_apply -> Apply
-    ➡️ sync2_apply=
-    # 🔴 sync2_choose_pbx -> PBX
-    ➡️ sync2_choose_pbx=
-    # 🔴 sync2_choose_source -> Select Source
-    ➡️ sync2_choose_source=
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=
-    # 🔴 sync2_cluster -> Cluster Settings
-    ➡️ sync2_cluster=
-    # 🔴 sync2_cluster_info -> Cluster Information
-    ➡️ sync2_cluster_info=
-    # 🔴 sync2_collapse -> Collapse
-    ➡️ sync2_collapse=
-    # 🔴 sync2_configuration_applied -> The new configuration was applied successfully
-    ➡️ sync2_configuration_applied=
-    # 🔴 sync2_configuration_export -> Download your configuration
-    ➡️ sync2_configuration_export=
-    # 🔴 sync2_configuration_import -> Upload your configuration
-    ➡️ sync2_configuration_import=
-    # 🔴 sync2_create -> Enable Create actions
-    ➡️ sync2_create=
-    # 🔴 sync2_create_users -> Enable User creation
-    ➡️ sync2_create_users=
-    # 🔴 sync2_delete -> Enable Delete actions
-    ➡️ sync2_delete=
-    # 🔴 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
-    ➡️ sync2_delete_agents_confirm=
-    # 🔴 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
-    ➡️ sync2_delete_queues_confirm=
-    # 🔴 sync2_delete_selected -> Delete
-    ➡️ sync2_delete_selected=
-    # 🔴 sync2_deleteall_agent -> Delete all agents
-    ➡️ sync2_deleteall_agent=
-    # 🔴 sync2_deleteall_queues -> Delete all queues
-    ➡️ sync2_deleteall_queues=
-    # 🔴 sync2_drop_or_upload -> Drop file or click to open file explorer
-    ➡️ sync2_drop_or_upload=
-    # 🔴 sync2_edit_agents -> Edit Agent
-    ➡️ sync2_edit_agents=
-    # 🔴 sync2_edit_clusters -> Edit Cluster
-    ➡️ sync2_edit_clusters=
+    # 👽 sync2_add_agent -> Add Agent
+    sync2_add_agent=?상담원 추가
+    # 👽 sync2_add_queue -> Add Queue
+    sync2_add_queue=?대기열 추가
+    # 👽 sync2_agent_aliases -> Aliases
+    sync2_agent_aliases=?별칭
+    # 👽 sync2_agent_already_exists -> The agent already exists
+    sync2_agent_already_exists=?상담원이 이미 존재합니다
+    # 👽 sync2_agent_created -> The agent was created successfully
+    sync2_agent_created=?상담원이 성공적으로 생성되었습니다
+    # 👽 sync2_agent_description -> Description
+    sync2_agent_description=?설명
+    # 👽 sync2_agent_extension -> Extension
+    sync2_agent_extension=?내선 번호
+    # 👽 sync2_agent_external_reference -> External Reference
+    sync2_agent_external_reference=?외부 참조
+    # 👽 sync2_agent_filter -> Agent Filter
+    sync2_agent_filter=?상담원 필터
+    # 👽 sync2_agent_id -> Agent ID
+    sync2_agent_id=?상담원 ID
+    # 👽 sync2_agent_im -> IM
+    sync2_agent_im=?IM
+    # 👽 sync2_agent_info -> Agent Information
+    sync2_agent_info=?상담원 정보
+    # 👽 sync2_agent_misc -> Misc
+    sync2_agent_misc=?기타
+    # 👽 sync2_agent_sip_pass -> WebRTC Password
+    sync2_agent_sip_pass=?WebRTC 비밀번호
+    # 👽 sync2_agent_sip_realm -> WebRTC Realm
+    sync2_agent_sip_realm=?WebRTC 영역
+    # 👽 sync2_agent_sip_uri -> WebRTC SIP Uri
+    sync2_agent_sip_uri=?WebRTC SIP Uri
+    # 👽 sync2_agent_sip_user -> WebRTC User
+    sync2_agent_sip_user=?WebRTC 사용자
+    # 👽 sync2_agent_user_password -> User Password
+    sync2_agent_user_password=?사용자 비밀번호
+    # 👽 sync2_agent_vnc -> Vnc
+    sync2_agent_vnc=?Vnc
+    # 👽 sync2_agent_webrtc -> WebRTC
+    sync2_agent_webrtc=?WebRTC
+    # 👽 sync2_agents_placeholder -> Agents
+    sync2_agents_placeholder=?상담원
+    # 👽 sync2_ami_host -> AMI Host
+    sync2_ami_host=?AMI 호스트
+    # 👽 sync2_ami_pass -> AMI Password
+    sync2_ami_pass=?AMI 비밀번호
+    # 👽 sync2_ami_port -> AMI Port
+    sync2_ami_port=?AMI 포트
+    # 👽 sync2_ami_user -> AMI User
+    sync2_ami_user=?AMI 사용자
+    # 👽 sync2_apply -> Apply
+    sync2_apply=?적용
+    # 👽 sync2_choose_pbx -> PBX
+    sync2_choose_pbx=?PBX 선택
+    # 👽 sync2_choose_source -> Select Source
+    sync2_choose_source=?소스 선택
+    # 👽 sync2_chunker_uploading -> Data Upload
+    sync2_chunker_uploading=?데이터 업로드
+    # 👽 sync2_chunker_progress -> Uploaded chunks
+    sync2_chunker_progress=?업로드된 청크
+    # 👽 sync2_chunker_actions -> Actions left
+    sync2_chunker_actions=?남은 작업
+    # 👽 sync2_chunker_chunks -> Uploading configuration
+    sync2_chunker_chunks=?구성 업로드 중
+    # 👽 sync2_chunker_sending -> Applying actions
+    sync2_chunker_sending=?작업 적용 중
+    # 👽 sync2_chunker_waiting -> Waiting...
+    sync2_chunker_waiting=?기다리는 중...
+    # 👽 sync2_cluster -> Cluster Settings
+    sync2_cluster=?클러스터 설정
+    # 👽 sync2_cluster_info -> Cluster Information
+    sync2_cluster_info=?클러스터 정보
+    # 👽 sync2_collapse -> Collapse
+    sync2_collapse=?축소
+    # 👽 sync2_configuration_applied -> The new configuration was applied successfully
+    sync2_configuration_applied=?새 구성이 성공적으로 적용되었습니다
+    # 👽 sync2_configuration_export -> Download your configuration
+    sync2_configuration_export=?구성 다운로드
+    # 👽 sync2_configuration_import -> Upload your configuration
+    sync2_configuration_import=?구성 업로드
+    # 👽 sync2_create -> Enable Create actions
+    sync2_create=?생성 작업 사용
+    # 👽 sync2_create_users -> Enable User creation
+    sync2_create_users=?사용자 생성 활성화
+    # 👽 sync2_delete -> Enable Delete actions
+    sync2_delete=?삭제 작업 사용
+    # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
+    sync2_delete_agents_confirm=?모든 상담원을 삭제하시겠습니까?
+    # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
+    sync2_delete_queues_confirm=?모든 대기열을 삭제하시겠습니까?
+    # 👽 sync2_delete_selected -> Delete
+    sync2_delete_selected=?삭제
+    # 👽 sync2_deleteall_agent -> Delete all agents
+    sync2_deleteall_agent=?모든 상담원 삭제
+    # 👽 sync2_deleteall_queues -> Delete all queues
+    sync2_deleteall_queues=?모든 대기열 삭제
+    # 👽 sync2_drop_or_upload -> Drop file or click to open file explorer
+    sync2_drop_or_upload=?파일을 놓거나 클릭하여 파일 탐색기 열기
+    # 👽 sync2_edit_agents -> Edit Agent
+    sync2_edit_agents=?상담원 편집
+    # 👽 sync2_edit_clusters -> Edit Cluster
+    sync2_edit_clusters=?클러스터 편집
     sync2_edit_queues=큐(queue) 편집
     sync2_error_applying_configuration=새로운 설정 값은 적용하는 중에 에러가 발생하였습니다.
-    # 🔴 sync2_error_comparing_configuration -> Error comparing configuration
-    ➡️ sync2_error_comparing_configuration=
-    # 🔴 sync2_error_invalid_input -> The JSON configuration that was imported is a valid JSON file, but one or more data fields are of the wrong data type. Please check the configuration file.
-    ➡️ sync2_error_invalid_input=
-    # 🔴 sync2_error_read_configuration -> The selected source did not provide a valid configuration.
-    ➡️ sync2_error_read_configuration=
-    # 🔴 sync2_expand -> Expand
-    ➡️ sync2_expand=
-    # 🔴 sync2_export -> Export configuration
-    ➡️ sync2_export=
-    # 🔴 sync2_export_filename -> File Name
-    ➡️ sync2_export_filename=
-    # 🔴 sync2_file -> JSON Configuration File
-    ➡️ sync2_file=
-    # 🔴 sync2_general_actions -> General Actions
-    ➡️ sync2_general_actions=
-    # 🔴 sync2_general_addalias -> Add an Alias to all agents
-    ➡️ sync2_general_addalias=
-    # 🔴 sync2_general_agent -> Agent
-    ➡️ sync2_general_agent=
-    # 🔴 sync2_general_linkagent_allqueues -> Link an agent to all queues
-    ➡️ sync2_general_linkagent_allqueues=
-    # 🔴 sync2_general_linkallagents_allqueues -> Link all agents to all queues
-    ➡️ sync2_general_linkallagents_allqueues=
-    # 🔴 sync2_general_linkallagents_queue -> Link all agents to selected queue
-    ➡️ sync2_general_linkallagents_queue=
-    # 🔴 sync2_general_queue -> Queue
-    ➡️ sync2_general_queue=
-    # 🔴 sync2_general_unlinkagent_allqueues -> Unlink an agent from all queues
-    ➡️ sync2_general_unlinkagent_allqueues=
-    # 🔴 sync2_general_unlinkallagents_allqueues -> Unlink all agents from all queues
-    ➡️ sync2_general_unlinkallagents_allqueues=
-    # 🔴 sync2_general_unlinkallagents_queue -> Unlink all agents from selected queue
-    ➡️ sync2_general_unlinkallagents_queue=
-    # 🔴 sync2_home -> Home
-    ➡️ sync2_home=
-    # 🔴 sync2_import -> Import configuration
-    ➡️ sync2_import=
-    # 🔴 sync2_import_confirm -> You have unsaved changes, if you import a new configuration they will be lost. Do you wish to proceed?
-    ➡️ sync2_import_confirm=
-    # 🔴 sync2_inbound -> Inbound
-    ➡️ sync2_inbound=
-    # 🔴 sync2_mode_configuration -> Synchronizer Configuration
-    ➡️ sync2_mode_configuration=
-    # 🔴 sync2_new_pbx -> New PBX
-    ➡️ sync2_new_pbx=
+    # 👽 sync2_error_comparing_configuration -> Error comparing configuration
+    sync2_error_comparing_configuration=?구성 비교 오류
+    # 👽 sync2_error_invalid_input -> The JSON configuration that was imported is a valid JSON file, but one or more data fields are of the wrong data type. Please check the configuration file.
+    sync2_error_invalid_input=?가져온 JSON 구성은 유효한 JSON 파일이지만 하나 이상의 데이터 필드가 잘못된 데이터 유형입니다. 구성 파일을 확인하십시오.
+    # 👽 sync2_error_read_configuration -> The selected source did not provide a valid configuration.
+    sync2_error_read_configuration=?선택한 소스에서 유효한 구성을 제공하지 않았습니다.
+    # 👽 sync2_expand -> Expand
+    sync2_expand=?확장
+    # 👽 sync2_export -> Export configuration
+    sync2_export=?구성 내보내기
+    # 👽 sync2_export_filename -> File Name
+    sync2_export_filename=?파일 이름
+    # 👽 sync2_file -> JSON Configuration File
+    sync2_file=?JSON 구성 파일
+    # 👽 sync2_general_actions -> General Actions
+    sync2_general_actions=?일반 작업
+    # 👽 sync2_general_addalias -> Add an Alias to all agents
+    sync2_general_addalias=?모든 상담원에 별칭 추가
+    # 👽 sync2_general_agent -> Agent
+    sync2_general_agent=?상담원
+    # 👽 sync2_general_linkagent_allqueues -> Link an agent to all queues
+    sync2_general_linkagent_allqueues=?상담원을 모든 대기열에 연결
+    # 👽 sync2_general_linkallagents_allqueues -> Link all agents to all queues
+    sync2_general_linkallagents_allqueues=?모든 상담원을 모든 대기열에 연결
+    # 👽 sync2_general_linkallagents_queue -> Link all agents to selected queue
+    sync2_general_linkallagents_queue=?모든 상담원을 선택한 대기열에 연결
+    # 👽 sync2_general_queue -> Queue
+    sync2_general_queue=?대기열
+    # 👽 sync2_general_unlinkagent_allqueues -> Unlink an agent from all queues
+    sync2_general_unlinkagent_allqueues=?상담원을 모든 대기열에서 연결 해제
+    # 👽 sync2_general_unlinkallagents_allqueues -> Unlink all agents from all queues
+    sync2_general_unlinkallagents_allqueues=?모든 상담원을 모든 대기열에서 연결 해제
+    # 👽 sync2_general_unlinkallagents_queue -> Unlink all agents from selected queue
+    sync2_general_unlinkallagents_queue=?모든 상담원을 선택한 대기열에서 연결 해제
+    # 👽 sync2_home -> Home
+    sync2_home=?홈
+    # 👽 sync2_import -> Import configuration
+    sync2_import=?구성 가져오기
+    # 👽 sync2_import_confirm -> You have unsaved changes, if you import a new configuration they will be lost. Do you wish to proceed?
+    sync2_import_confirm=?저장되지 않은 변경 사항이 있습니다. 새 구성을 가져오면 손실됩니다. 계속하시겠습니까?
+    # 👽 sync2_inbound -> Inbound
+    sync2_inbound=?수신
+    # 👽 sync2_mode_configuration -> Synchronizer Configuration
+    sync2_mode_configuration=?동기화 프로그램 구성
+    # 👽 sync2_new_pbx -> New PBX
+    sync2_new_pbx=?새 PBX
     sync2_outbound=아웃바운드
     sync2_pbx_id=PBX 명
-    # 🔴 sync2_protected_from_delete -> Protected from Deletion.
-    ➡️ sync2_protected_from_delete=
+    # 👽 sync2_protected_from_delete -> Protected from Deletion.
+    sync2_protected_from_delete=?삭제로부터 보호됨
     sync2_protected_from_delete_warn=삭제되지 않도록 보호되어있는 오브젝트입니다.
-    # 🔴 sync2_protected_from_update -> Protected From Updating
-    ➡️ sync2_protected_from_update=
+    # 👽 sync2_protected_from_update -> Protected From Updating
+    sync2_protected_from_update=?업데이트로부터 보호됨
     sync2_protected_from_update_warn=수정되지 않도록 보호되어 있는 오브젝트입니다.
-    # 🔴 sync2_qlog_db -> QueueLog Database Table
-    ➡️ sync2_qlog_db=
-    # 🔴 sync2_qlog_input -> queue_log file
-    ➡️ sync2_qlog_input=
-    # 🔴 sync2_qloq_file -> QueueLog File
-    ➡️ sync2_qloq_file=
+    # 👽 sync2_qlog_db -> QueueLog Database Table
+    sync2_qlog_db=?QueueLog 데이터베이스 테이블
+    # 👽 sync2_qlog_input -> queue_log file
+    sync2_qlog_input=?queue_log 파일
+    # 👽 sync2_qloq_file -> QueueLog File
+    sync2_qloq_file=?QueueLog 파일
     sync2_queue_already_exists=이미 존재하는 큐(queue)입니다.
-    # 🔴 sync2_queue_composition -> Composition
-    ➡️ sync2_queue_composition=
+    # 👽 sync2_queue_composition -> Composition
+    sync2_queue_composition=?구성
     sync2_queue_created=큐(queue)생성 성공
-    # 🔴 sync2_queue_filter -> Queue Filter
-    ➡️ sync2_queue_filter=
+    # 👽 sync2_queue_filter -> Queue Filter
+    sync2_queue_filter=?대기열 필터
     sync2_queue_info=큐(queue) 정보
-    # 🔴 sync2_queue_name -> Name
-    ➡️ sync2_queue_name=
-    # 🔴 sync2_queues_placeholder -> Queues
-    ➡️ sync2_queues_placeholder=
-    # 🔴 sync2_read -> Read
-    ➡️ sync2_read=
-    # 🔴 sync2_reset -> Reset
-    ➡️ sync2_reset=
-    # 🔴 sync2_save -> Save
-    ➡️ sync2_save=
-    # 🔴 sync2_selectall_agents -> Select All Agents
-    ➡️ sync2_selectall_agents=
-    # 🔴 sync2_selectall_queues -> Select All Queues
-    ➡️ sync2_selectall_queues=
-    # 🔴 sync2_show_mode_selectors -> Show Mode Selectors
-    ➡️ sync2_show_mode_selectors=
-    # 🔴 sync2_success_read_configuration -> The selected configuration has been imported correctly.
-    ➡️ sync2_success_read_configuration=
-    # 🔴 sync2_trash -> Delete
-    ➡️ sync2_trash=
-    # 🔴 sync2_update -> Enable Update actions
-    ➡️ sync2_update=
-    # 🔴 sync2_url -> Url
-    ➡️ sync2_url=
-    # 🔴 sync2_url_input -> Url
-    ➡️ sync2_url_input=
+    # 👽 sync2_queue_name -> Name
+    sync2_queue_name=?이름
+    # 👽 sync2_queues_placeholder -> Queues
+    sync2_queues_placeholder=?대기열
+    # 👽 sync2_read -> Read
+    sync2_read=?읽기
+    # 👽 sync2_reset -> Reset
+    sync2_reset=?재설정
+    # 👽 sync2_save -> Save
+    sync2_save=?저장
+    # 👽 sync2_selectall_agents -> Select All Agents
+    sync2_selectall_agents=?모든 상담원 선택
+    # 👽 sync2_selectall_queues -> Select All Queues
+    sync2_selectall_queues=?모든 큐 선택
+    # 👽 sync2_show_mode_selectors -> Show Mode Selectors
+    sync2_show_mode_selectors=?모드 선택기 표시
+    # 👽 sync2_success_read_configuration -> The selected configuration has been imported correctly.
+    sync2_success_read_configuration=?선택한 구성이 올바르게 가져왔습니다.
+    # 👽 sync2_trash -> Delete
+    sync2_trash=?삭제
+    # 👽 sync2_update -> Enable Update actions
+    sync2_update=?업데이트 작업 사용
+    # 👽 sync2_url -> Url
+    sync2_url=?URL
+    # 👽 sync2_url_input -> Url
+    sync2_url_input=?URL
     t3_circle_lost_calls=Lost Calls
     t3_live_agent_info=Live agent info
-    # 🔴 timeline_avg -> Avg.
-    ➡️ timeline_avg=
+    # 👽 timeline_avg -> Avg.
+    timeline_avg=?평균
     timeline_close=돌아가기
     timeline_debug=디버그 정보 다운로드
     timeline_download_recording=녹음 다운로드
     timeline_event=이벤트
     timeline_events=타임라인 이벤트
-    # 🔴 timeline_interaction_calltot -> Total:
-    ➡️ timeline_interaction_calltot=
-    # 🔴 timeline_marker_add -> Marker
-    ➡️ timeline_marker_add=
+    # 👽 timeline_interaction_calltot -> Total:
+    timeline_interaction_calltot=?총:
+    # 👽 timeline_marker_add -> Marker
+    timeline_marker_add=?마커
     timeline_marker_delete=마커 삭제
     timeline_marker_delete_confirm=선택된 마커가 삭제됩니다. 계속할까요?
-    # 🔴 timeline_marker_duration -> Duration
-    ➡️ timeline_marker_duration=
+    # 👽 timeline_marker_duration -> Duration
+    timeline_marker_duration=?지속 시간
     timeline_marker_editor_title=마커 생성
-    # 🔴 timeline_marker_list -> Markers
-    ➡️ timeline_marker_list=
-    # 🔴 timeline_marker_message -> Message
-    ➡️ timeline_marker_message=
-    # 🔴 timeline_marker_play -> Go to Marker
-    ➡️ timeline_marker_play=
-    # 🔴 timeline_marker_time -> Time
-    ➡️ timeline_marker_time=
+    # 👽 timeline_marker_list -> Markers
+    timeline_marker_list=?마커
+    # 👽 timeline_marker_message -> Message
+    timeline_marker_message=?메시지
+    # 👽 timeline_marker_play -> Go to Marker
+    timeline_marker_play=?마커로 이동
+    # 👽 timeline_marker_time -> Time
+    timeline_marker_time=?시간
     timeline_markers_hide=마커 숨김
     timeline_markers_show=마커 보임
-    # 🔴 timeline_max -> Max.
-    ➡️ timeline_max=
-    # 🔴 timeline_min -> Min.
-    ➡️ timeline_min=
-    # 🔴 timeline_no_recordings -> No Recordings
-    ➡️ timeline_no_recordings=
-    # 🔴 timeline_number -> Number
-    ➡️ timeline_number=
-    # 🔴 timeline_stint_end -> Stint End
-    ➡️ timeline_stint_end=
-    # 🔴 timeline_stint_start -> Stint Start
-    ➡️ timeline_stint_start=
-    # 🔴 timeline_tab_details -> Details
-    ➡️ timeline_tab_details=
-    # 🔴 timeline_tab_qa -> QA/Recordings
-    ➡️ timeline_tab_qa=
-    # 🔴 timeline_tab_recordings -> Recordings
-    ➡️ timeline_tab_recordings=
-    # 🔴 timeline_totdur -> Tot. Dur.
-    ➡️ timeline_totdur=
+    # 👽 timeline_max -> Max.
+    timeline_max=?최대
+    # 👽 timeline_min -> Min.
+    timeline_min=?최소
+    # 👽 timeline_no_recordings -> No Recordings
+    timeline_no_recordings=?녹음 없음
+    # 👽 timeline_number -> Number
+    timeline_number=?번호
+    # 👽 timeline_stint_end -> Stint End
+    timeline_stint_end=?근무 시간 종료
+    # 👽 timeline_stint_start -> Stint Start
+    timeline_stint_start=?근무 시간 시작
+    # 👽 timeline_tab_details -> Details
+    timeline_tab_details=?세부 정보
+    # 👽 timeline_tab_qa -> QA/Recordings
+    timeline_tab_qa=?QA/녹음
+    # 👽 timeline_tab_recordings -> Recordings
+    timeline_tab_recordings=?녹음
+    # 👽 timeline_totdur -> Tot. Dur.
+    timeline_totdur=?총 시간
     ts_agawrep_invalidlocation=Please specify a valid location
     userpage_change_button=변경
     userpage_change_password=비밀번호 변경
