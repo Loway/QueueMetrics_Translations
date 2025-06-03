@@ -2165,8 +2165,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Tablas
     rt3_category_various=Varios
     rt3_change_queue_confirm=Hay cambios no guardados que se perderán al cambiar de cola. ¿Proceder?
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?Tiene cambios no guardados que se perderán si sale de la página. ¿Confirmar?
     rt3_choose_action=Seleccionar Acción
     rt3_choose_monitor_mode=Modalidad de Monitoreo
     rt3_choose_queue=Seleccionar Cola
@@ -4021,8 +4021,8 @@ Other items
     reports_qa_performance_title=Resultados
     reports_qa_performance_total=Total
     reports_qa_queue=Cola
-    # 🔴 reports_qa_range -> Range
-    ➡️ reports_qa_range=
+    # 👽 reports_qa_range -> Range
+    reports_qa_range=?Rango
     reports_qa_recap_heading=Detalle Llamada
     reports_qa_select_form=Seleccionar un Formulario
     reports_qa_start=Inicio
