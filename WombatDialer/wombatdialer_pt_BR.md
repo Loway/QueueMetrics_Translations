@@ -58,10 +58,10 @@ This is the page where statistics are displayed.
     rcp_totalwaitafter=Tempo total de espera posterior
     rcp_totalwaitpre=Tempo total de espera anterior
     rcp_unselectall=Deselecionar Todas
-    # 🔴 rcp_recalls -> Recall Stats
-    ➡️ rcp_recalls=
-    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
-    ➡️ rcp_recalls_by_retry=
+    # 👽 rcp_recalls -> Recall Stats
+    rcp_recalls=?Estatísticas de Recall
+    # 👽 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    rcp_recalls_by_retry=?Status de Chamadas por Número de Tentativa
 
 
 
@@ -129,8 +129,8 @@ Other items
     cbo_email_all=Na mudança de estado
     cbo_email_finish=No encerramento
     cbo_email_no=Não
-    # 🔴 cbo_ep_api -> API-driven Queue
-    ➡️ cbo_ep_api=
+    # 👽 cbo_ep_api -> API-driven Queue
+    cbo_ep_api=?Fila baseada em API
     cbo_ep_phone=Telefone
     cbo_ep_queue=Fila
     cbo_predmod_adaptive=Adaptativo
@@ -384,8 +384,8 @@ Other items
     dsp_e_email_list=Endereço de E-Mail
     dsp_e_expires_on=A Lista Negra expira em
     dsp_e_list=Nome da lista
-    # 🔴 dsp_e_onextst -> On ext status
-    ➡️ dsp_e_onextst=
+    # 👽 dsp_e_onextst -> On ext status
+    dsp_e_onextst=?No status da extensão
     dsp_e_onstatus=No estado
     dsp_e_reschedule_on=Chamada reagendada para
     dsp_e_set_attributes=Definir atributos
@@ -403,8 +403,8 @@ Other items
     dsp_err_url=Por favor, digite uma URL HTTP ou HTTPS
     dsp_fulltitle=Estado do Discador
     dsp_p_action=Ação
-    # 🔴 dsp_p_onextst -> On ext.
-    ➡️ dsp_p_onextst=
+    # 👽 dsp_p_onextst -> On ext.
+    dsp_p_onextst=?Na ext.
     dsp_p_parms=Parâmetros
     dsp_p_rule=Regra
     dsp_p_status=No status
@@ -561,20 +561,20 @@ Other items
     realtime_completionrate=Taxa de Completamento
     realtime_connect=Conexão
     realtime_connectedat=Conectado às
-    # 🔴 realtime_currenthw -> Current h/w
-    ➡️ realtime_currenthw=
+    # 👽 realtime_currenthw -> Current h/w
+    realtime_currenthw=?H/w atual
     realtime_currentlyrunning=Atualmente em Execução
     realtime_currentsortorder=Classificação atual
     realtime_dialerstate=Status do Discador
-    # 🔴 realtime_down -> Down
-    ➡️ realtime_down=
+    # 👽 realtime_down -> Down
+    realtime_down=?Inativo
     realtime_endpoint=Terminação
     realtime_endpoints=Terminações
     realtime_estimatedremaining=Restante estimado
     realtime_estremainingcalls=Est. Chamadas Restantes
     realtime_filtersbutton=Filtros
-    # 🔴 realtime_fulltitle -> Live
-    ➡️ realtime_fulltitle=
+    # 👽 realtime_fulltitle -> Live
+    realtime_fulltitle=?Ao Vivo
     realtime_hidesparklinebutton=Ocultar Indicadores
     realtime_irreversibleoperation=Atenção!. Operação irreversível
     realtime_lastupdate=Última Atualização
@@ -617,8 +617,8 @@ Other items
     realtime_trunksbystatus=Troncos por Status
     realtime_unpause=Reiniciar
     realtime_up=Ativo
-    # 🔴 realtime_wombatid -> Wombat-ID
-    ➡️ realtime_wombatid=
+    # 👽 realtime_wombatid -> Wombat-ID
+    realtime_wombatid=?Wombat-ID
     realtime_yesremoveit=Sim - Remover
     rmcht_remove=Removida
     rmhct_completed=Completada
@@ -715,8 +715,8 @@ Other items
     tpf_users_e_name=Nome Real
     tpf_users_e_nlogon=Logado em
     tpf_users_e_pass=Senha
-    # 🔴 tpf_users_e_token -> Token
-    ➡️ tpf_users_e_token=
+    # 👽 tpf_users_e_token -> Token
+    tpf_users_e_token=?Token
     tpf_users_e_userkeys=Chaves do usuário
     tpf_users_err_class=Por favor, selecione uma classe
     tpf_users_err_confirmpassw=As senhas fornecidas não são iguais.
@@ -754,8 +754,8 @@ Other items
     wcb_att=Tent.
     wcb_campaign=Campanha
     wcb_dialer=Discador
-    # 🔴 wcb_down -> Down
-    ➡️ wcb_down=
+    # 👽 wcb_down -> Down
+    wcb_down=?Inativo
     wcb_endpoint=Terminal
     wcb_ep_agent=Agentes
     wcb_ep_c_agent=Conectar

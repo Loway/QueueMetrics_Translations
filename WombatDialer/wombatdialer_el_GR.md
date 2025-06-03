@@ -58,10 +58,10 @@ This is the page where statistics are displayed.
     rcp_totalwaitafter=Συνολική αναμονή μετά
     rcp_totalwaitpre=Συνολική αναμονή πριν
     rcp_unselectall=Αποεπιλογή όλων
-    # 🔴 rcp_recalls -> Recall Stats
-    ➡️ rcp_recalls=
-    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
-    ➡️ rcp_recalls_by_retry=
+    # 👽 rcp_recalls -> Recall Stats
+    rcp_recalls=?Στατιστικά Επαναλήψεων
+    # 👽 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    rcp_recalls_by_retry=?Κατάσταση Κλήσεων ανά Αριθμό Επανάληψης
 
 
 
@@ -129,8 +129,8 @@ Other items
     cbo_email_all=Με την αλλαγή της κατάστασης
     cbo_email_finish=Με τον τερματισμό
     cbo_email_no=Όχι
-    # 🔴 cbo_ep_api -> API-driven Queue
-    ➡️ cbo_ep_api=
+    # 👽 cbo_ep_api -> API-driven Queue
+    cbo_ep_api=?Ουρά που καθοδηγείται από API
     cbo_ep_phone=Τηλέφωνο
     cbo_ep_queue=Ουρά αναμονής
     cbo_predmod_adaptive=Προσαρμοζόμενο
@@ -486,8 +486,8 @@ Other items
     hst_rs_timeout=Χρονικό όριο RS
     hst_scheduled=Προγραμματισμένο
     hst_terminated=Τερματισμένες
-    # 🔴 hst_transferred -> Transferred
-    ➡️ hst_transferred=
+    # 👽 hst_transferred -> Transferred
+    hst_transferred=?Μεταφέρθηκε
     hst_unknown=Άγνωστο
     mdi_login=Σύνδεση
     mdi_login_short=Σύνδεση
@@ -808,31 +808,31 @@ Other items
     wlp_tablevalidfrom=Ισχύει από
     wlp_totallicenses=Συνολικός αριθμός καναλιών με άδεια χρήσης
     wlp_tpfversion=Loway TPF Build
-    # 🔴 wpp_changepass -> Change Password
-    ➡️ wpp_changepass=
-    # 🔴 wpp_confirm_error -> The Passwords in the New Password and in the Confirm Password field do not match.
-    ➡️ wpp_confirm_error=
-    # 🔴 wpp_confirm_missing_error -> Please confirm the new password.
-    ➡️ wpp_confirm_missing_error=
-    # 🔴 wpp_confirmpass -> Confirm Password
-    ➡️ wpp_confirmpass=
-    # 🔴 wpp_fulltitle -> Edit Current Password
-    ➡️ wpp_fulltitle=
-    # 🔴 wpp_newpass -> New Password
-    ➡️ wpp_newpass=
-    # 🔴 wpp_oldpass -> Old Password
-    ➡️ wpp_oldpass=
-    # 🔴 wpp_oldpass_error -> The Old Password that was inputted by the user is not correct.
-    ➡️ wpp_oldpass_error=
-    # 🔴 wpp_oldpass_missing_error -> Please input the old password.
-    ➡️ wpp_oldpass_missing_error=
-    # 🔴 wpp_password_missing_error -> Please input a new password.
-    ➡️ wpp_password_missing_error=
-    # 🔴 wpp_server_error -> The password could not be updated. Please ask your System Admininistrator to check the system logs to retrieve the specific error.
-    ➡️ wpp_server_error=
-    # 🔴 wpp_shorttitle -> Password
-    ➡️ wpp_shorttitle=
-    # 🔴 wpp_success -> The Password was updated succesfully.
-    ➡️ wpp_success=
+    # 👽 wpp_changepass -> Change Password
+    wpp_changepass=?Αλλαγή Κωδικού Πρόσβασης
+    # 👽 wpp_confirm_error -> The Passwords in the New Password and in the Confirm Password field do not match.
+    wpp_confirm_error=?Οι κωδικοί πρόσβασης στο Νέο Κωδικό Πρόσβασης και στο πεδίο Επιβεβαίωση κωδικού πρόσβασης δεν ταιριάζουν.
+    # 👽 wpp_confirm_missing_error -> Please confirm the new password.
+    wpp_confirm_missing_error=?Επιβεβαιώστε τον νέο κωδικό πρόσβασης.
+    # 👽 wpp_confirmpass -> Confirm Password
+    wpp_confirmpass=?Επιβεβαίωση Κωδικού Πρόσβασης
+    # 👽 wpp_fulltitle -> Edit Current Password
+    wpp_fulltitle=?Επεξεργασία Τρέχοντος Κωδικού Πρόσβασης
+    # 👽 wpp_newpass -> New Password
+    wpp_newpass=?Νέος Κωδικός Πρόσβασης
+    # 👽 wpp_oldpass -> Old Password
+    wpp_oldpass=?Παλιός Κωδικός Πρόσβασης
+    # 👽 wpp_oldpass_error -> The Old Password that was inputted by the user is not correct.
+    wpp_oldpass_error=?Ο Παλιός Κωδικός Πρόσβασης που εισήχθη από τον χρήστη δεν είναι σωστός.
+    # 👽 wpp_oldpass_missing_error -> Please input the old password.
+    wpp_oldpass_missing_error=?Εισαγάγετε τον παλιό κωδικό πρόσβασης.
+    # 👽 wpp_password_missing_error -> Please input a new password.
+    wpp_password_missing_error=?Εισαγάγετε έναν νέο κωδικό πρόσβασης.
+    # 👽 wpp_server_error -> The password could not be updated. Please ask your System Admininistrator to check the system logs to retrieve the specific error.
+    wpp_server_error=?Δεν ήταν δυνατή η ενημέρωση του κωδικού πρόσβασης. Ζητήστε από τον διαχειριστή του συστήματός σας να ελέγξει τα αρχεία καταγραφής του συστήματος για να ανακτήσει το συγκεκριμένο σφάλμα.
+    # 👽 wpp_shorttitle -> Password
+    wpp_shorttitle=?Κωδικός πρόσβασης
+    # 👽 wpp_success -> The Password was updated succesfully.
+    wpp_success=?Ο κωδικός πρόσβασης ενημερώθηκε με επιτυχία.
 
 

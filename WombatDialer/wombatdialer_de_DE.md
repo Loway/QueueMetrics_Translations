@@ -27,8 +27,8 @@ Do not translate the entries in this area.
 
 This is the page where statistics are displayed.
 
-    # 🔴 rcp_anewlistwillbe -> A new list will be created with all the numbers included that are in a terminal state with one of the states included.
-    ➡️ rcp_anewlistwillbe=
+    # 👽 rcp_anewlistwillbe -> A new list will be created with all the numbers included that are in a terminal state with one of the states included.
+    rcp_anewlistwillbe=?Eine neue Liste wird mit allen Nummern erstellt, die sich in einem Endzustand mit einem der enthaltenen Zustände befinden.
     rcp_availablecallstates=Verfügbare Anrufstati
     rcp_calloutcomes=Anrufergebnisse
     rcp_callspertrunk=Anrufe per Amt
@@ -59,10 +59,10 @@ This is the page where statistics are displayed.
     rcp_totalwaitafter=Gesamte Wartezeit nachher
     rcp_totalwaitpre=Gesamte Wartezeit bevor
     rcp_unselectall=Auswahl aufheben
-    # 🔴 rcp_recalls -> Recall Stats
-    ➡️ rcp_recalls=
-    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
-    ➡️ rcp_recalls_by_retry=
+    # 👽 rcp_recalls -> Recall Stats
+    rcp_recalls=?Recall-Statistiken
+    # 👽 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    rcp_recalls_by_retry=?Status der Anrufe nach Wiederholungsnummer
 
 
 
@@ -70,10 +70,10 @@ This is the page where statistics are displayed.
 
 Other items
 
-    # 🔴 ami_head_asterisk -> Asterisk AMI
-    ➡️ ami_head_asterisk=
-    # 🔴 ami_head_fake -> Fake Server
-    ➡️ ami_head_fake=
+    # 👽 ami_head_asterisk -> Asterisk AMI
+    ami_head_asterisk=?Asterisk AMI
+    # 👽 ami_head_fake -> Fake Server
+    ami_head_fake=?Fake Server
     asd_e_amiport=AMI Port
     asd_e_login=Anmeldung
     asd_e_maxmsg=Max. Nachricht / Stk.
@@ -81,16 +81,16 @@ Other items
     asd_e_securitykey=Sicherheitsschlüssel
     asd_e_serveraddress=Server Adress
     asd_e_serverdesc=Server Bezeichnung
-    # 🔴 asd_e_servertype -> Server Type
-    ➡️ asd_e_servertype=
+    # 👽 asd_e_servertype -> Server Type
+    asd_e_servertype=?Servertyp
     asd_e_unitlength=Längeneinheit (ms)
     asd_p_address=Adresse
     asd_p_description=Beschreibung
     asd_p_editsrv=Asterisk server bearbeiten
     asd_p_login=Login
     asd_p_maxmsg=Max. Nachrichten
-    # 🔴 asd_p_mps -> Messages per Second
-    ➡️ asd_p_mps=
+    # 👽 asd_p_mps -> Messages per Second
+    asd_p_mps=?Nachrichten pro Sekunde
     asd_p_port=Port
     asdto_asteriskport=Bitte geben Sie eine gültige Asterisk-Port-Nummer ein
     asdto_enterdesc=Bitte geben Sie eine Beschreibung ein
@@ -134,50 +134,50 @@ Other items
     cbo_email_all=Auf Zustandsänderung
     cbo_email_finish=Wenn beendet
     cbo_email_no=Nein
-    # 🔴 cbo_ep_api -> API-driven Queue
-    ➡️ cbo_ep_api=
+    # 👽 cbo_ep_api -> API-driven Queue
+    cbo_ep_api=?API-gesteuerte Warteschlange
     cbo_ep_phone=Telefon
     cbo_ep_queue=Warteschlange
-    # 🔴 cbo_predmod_adaptive -> Adaptive
-    ➡️ cbo_predmod_adaptive=
+    # 👽 cbo_predmod_adaptive -> Adaptive
+    cbo_predmod_adaptive=?Adaptiv
     cbo_predmod_off=Aus
     cbo_rmode_closed=Geschlossen
     cbo_rmode_error=In Fehler
     cbo_rmode_hidden=Versteckt
     cbo_rmode_runnable=Ausführbar
-    # 🔴 cdd_back -> Back
-    ➡️ cdd_back=
-    # 🔴 cdd_comment -> Comment
-    ➡️ cdd_comment=
+    # 👽 cdd_back -> Back
+    cdd_back=?Zurück
+    # 👽 cdd_comment -> Comment
+    cdd_comment=?Kommentar
     cdd_csvinstructions=Die CSV-Datei muss formatiert werden, so dass die erste Zeile alle Labels und die erste Spalte die Zahlen zum Anrufen enthält.
     cdd_dragdrop=CSV-Datei einfügen
     cdd_drophere=Ziehen Sie hier die CSV-Datei herein
-    # 🔴 cdd_editfields -> Edit Fields
-    ➡️ cdd_editfields=
-    # 🔴 cdd_editfieldstitle -> Edit Fields
-    ➡️ cdd_editfieldstitle=
+    # 👽 cdd_editfields -> Edit Fields
+    cdd_editfields=?Felder bearbeiten
+    # 👽 cdd_editfieldstitle -> Edit Fields
+    cdd_editfieldstitle=?Felder bearbeiten
     cdd_fieldseparator=Trennzeichen
-    # 🔴 cdd_invalidmainnumber -> Invalid Main Number
-    ➡️ cdd_invalidmainnumber=
-    # 🔴 cdd_mainfield -> Main Field
-    ➡️ cdd_mainfield=
-    # 🔴 cdd_mainnumber -> Main Number
-    ➡️ cdd_mainnumber=
+    # 👽 cdd_invalidmainnumber -> Invalid Main Number
+    cdd_invalidmainnumber=?Ungültige Hauptnummer
+    # 👽 cdd_mainfield -> Main Field
+    cdd_mainfield=?Hauptfeld
+    # 👽 cdd_mainnumber -> Main Number
+    cdd_mainnumber=?Hauptnummer
     cdd_maxsize=Maximale Größe erlaubt
-    # 🔴 cdd_namefield -> Name
-    ➡️ cdd_namefield=
-    # 🔴 cdd_newnamefield -> New Name
-    ➡️ cdd_newnamefield=
-    # 🔴 cdd_next -> Next
-    ➡️ cdd_next=
+    # 👽 cdd_namefield -> Name
+    cdd_namefield=?Name
+    # 👽 cdd_newnamefield -> New Name
+    cdd_newnamefield=?Neuer Name
+    # 👽 cdd_next -> Next
+    cdd_next=?Weiter
     cdd_processing=... wird bearbeitet ...
     cdd_review=Hochgeladenen Daten bewerten
     cdd_stringwrapper=String wrapper
     cdd_toolarge=Datei ist zu groß
     cdd_totalrows=Anzahl Datensätze geladen
     cdd_uploadbutton=Upload
-    # 🔴 cdd_uploadcheckbox -> Upload
-    ➡️ cdd_uploadcheckbox=
+    # 👽 cdd_uploadcheckbox -> Upload
+    cdd_uploadcheckbox=?Hochladen
     cdp_account=Konto
     cdp_activeperiod=Aktiver Zeitraum
     cdp_additionallogging=Zusätzliche Protokollierung
@@ -201,8 +201,8 @@ Other items
     cdp_campaign_vars=Kampagnenvariablen
     cdp_campaignname=Kampagnenname
     cdp_campaignstatus=Kampagnenstatus
-    # 🔴 cdp_campaignvarsinfo -> Example "A1:v1,A2:v2,..."
-    ➡️ cdp_campaignvarsinfo=
+    # 👽 cdp_campaignvarsinfo -> Example "A1:v1,A2:v2,..."
+    cdp_campaignvarsinfo=?Beispiel "A1:v1,A2:v2,..."
     cdp_clid=Anruferkennung
     cdp_clonecampaign=Kampagne duplizieren
     cdp_clonedispositions=Dispositionsregeln dublizieren
@@ -226,12 +226,12 @@ Other items
     cdp_infieldsmarked=Bei Sternchen markierten Feldern, kann man Anruf Attribute erweiten, z.B mit '${num}' oder '${id}'.
     cdp_itemstobecloned=Zu klonende Elemente
     cdp_logging=Protokollierung
-    # 🔴 cdp_loggingqmvars -> Attributes to be logged as QM variables
-    ➡️ cdp_loggingqmvars=
-    # 🔴 cdp_loggingqmvars_info -> Separate multiple attributes with a space
-    ➡️ cdp_loggingqmvars_info=
-    # 🔴 cdp_loggingqmvars_infoattr -> ATTR: Var - $ATTR: Ftr - !ATTR: Ivr
-    ➡️ cdp_loggingqmvars_infoattr=
+    # 👽 cdp_loggingqmvars -> Attributes to be logged as QM variables
+    cdp_loggingqmvars=?Attribute, die als QM-Variablen protokolliert werden sollen
+    # 👽 cdp_loggingqmvars_info -> Separate multiple attributes with a space
+    cdp_loggingqmvars_info=?Trennen Sie mehrere Attribute durch ein Leerzeichen
+    # 👽 cdp_loggingqmvars_infoattr -> ATTR: Var - $ATTR: Ftr - !ATTR: Ivr
+    cdp_loggingqmvars_infoattr=?ATTR: Var - $ATTR: Ftr - !ATTR: Ivr
     cdp_nameofnewcampaign=Name der neuen Kampagne
     cdp_pace=Geschwindigkeit
     cdp_presentation=Präsentation
@@ -295,112 +295,112 @@ Other items
     clpe_list=Liste
     clpe_pos=Pos.
     clpe_type=Typ
-    # 🔴 cmpinfo_attempts -> Attempts
-    ➡️ cmpinfo_attempts=
-    # 🔴 cmpinfo_retries -> Retries
-    ➡️ cmpinfo_retries=
-    # 🔴 cmprun_result_calls_placed -> Calls placed
-    ➡️ cmprun_result_calls_placed=
-    # 🔴 cmprun_result_dialer_crashed -> The dialer has crashed
-    ➡️ cmprun_result_dialer_crashed=
-    # 🔴 cmprun_result_dialer_started -> The dialer was started
-    ➡️ cmprun_result_dialer_started=
-    # 🔴 cmprun_result_dialer_stopped -> The dialer was stopped
-    ➡️ cmprun_result_dialer_stopped=
-    # 🔴 cmprun_result_limited_ep -> The dialer was limited by the endpoint size
-    ➡️ cmprun_result_limited_ep=
-    # 🔴 cmprun_result_limited_fetch -> The dialer was limited by the actual fetch
-    ➡️ cmprun_result_limited_fetch=
-    # 🔴 cmprun_result_limited_lic -> The dialer was limited by the number of licensed channels
-    ➡️ cmprun_result_limited_lic=
-    # 🔴 cmprun_result_limited_trunk -> The dialer was limited by the trunk rate
-    ➡️ cmprun_result_limited_trunk=
-    # 🔴 cmprun_result_no_calls_fetched -> No calls have been fetched
-    ➡️ cmprun_result_no_calls_fetched=
-    # 🔴 cmprun_result_no_calls_needed -> No calls are needed
-    ➡️ cmprun_result_no_calls_needed=
-    # 🔴 cmprun_result_no_endpoints -> No available endpoints for this run
-    ➡️ cmprun_result_no_endpoints=
-    # 🔴 cmprun_result_no_ep_channels -> There are no free channels on the selected endpoints
-    ➡️ cmprun_result_no_ep_channels=
-    # 🔴 cmprun_result_no_lic_channels -> All the licensed channels are being utilized
-    ➡️ cmprun_result_no_lic_channels=
-    # 🔴 cmprun_result_no_licenses -> No Licenses
-    ➡️ cmprun_result_no_licenses=
-    # 🔴 cmprun_result_no_trunk_channels -> No Available channels on the selected trunk
-    ➡️ cmprun_result_no_trunk_channels=
-    # 🔴 cmprun_result_no_trunks -> No Available trunks for this run
-    ➡️ cmprun_result_no_trunks=
-    # 🔴 cpycmp_add -> Add As Call List
-    ➡️ cpycmp_add=
-    # 🔴 cpycmp_addblcklst -> Add As Black List
-    ➡️ cpycmp_addblcklst=
-    # 🔴 cpycmp_calllists -> Call Lists
-    ➡️ cpycmp_calllists=
-    # 🔴 cpycmp_campaignsettings -> Campaign Settings
-    ➡️ cpycmp_campaignsettings=
-    # 🔴 cpycmp_create -> Create
-    ➡️ cpycmp_create=
-    # 🔴 cpycmp_createandrun -> Create And Run
-    ➡️ cpycmp_createandrun=
-    # 🔴 cpycmp_description -> Create a new Campaign based on an existing one
-    ➡️ cpycmp_description=
-    # 🔴 cpycmp_dnis -> DNIS
-    ➡️ cpycmp_dnis=
-    # 🔴 cpycmp_email -> Email
-    ➡️ cpycmp_email=
-    # 🔴 cpycmp_fulltitle -> Copy Campaign
-    ➡️ cpycmp_fulltitle=
-    # 🔴 cpycmp_invalidnamealert -> The inserted name is already taken
-    ➡️ cpycmp_invalidnamealert=
-    # 🔴 cpycmp_listname -> Name
-    ➡️ cpycmp_listname=
-    # 🔴 cpycmp_name -> Name
-    ➡️ cpycmp_name=
-    # 🔴 cpycmp_namealreadytaken -> This name is already taken
-    ➡️ cpycmp_namealreadytaken=
-    # 🔴 cpycmp_newlist -> New List
-    ➡️ cpycmp_newlist=
-    # 🔴 cpycmp_nonamealert -> Please choose a name for the new Campaign
-    ➡️ cpycmp_nonamealert=
-    # 🔴 cpycmp_notemplatealert -> Please select a template
-    ➡️ cpycmp_notemplatealert=
-    # 🔴 cpycmp_remove -> Remove
-    ➡️ cpycmp_remove=
-    # 🔴 cpycmp_selectedlists -> Selected Lists
-    ➡️ cpycmp_selectedlists=
-    # 🔴 cpycmp_shorttitle -> Copy
-    ➡️ cpycmp_shorttitle=
-    # 🔴 cpycmp_template -> Template
-    ➡️ cpycmp_template=
+    # 👽 cmpinfo_attempts -> Attempts
+    cmpinfo_attempts=?Versuche
+    # 👽 cmpinfo_retries -> Retries
+    cmpinfo_retries=?Wiederholungen
+    # 👽 cmprun_result_calls_placed -> Calls placed
+    cmprun_result_calls_placed=?Anrufe getätigt
+    # 👽 cmprun_result_dialer_crashed -> The dialer has crashed
+    cmprun_result_dialer_crashed=?Der Dialer ist abgestürzt
+    # 👽 cmprun_result_dialer_started -> The dialer was started
+    cmprun_result_dialer_started=?Der Dialer wurde gestartet
+    # 👽 cmprun_result_dialer_stopped -> The dialer was stopped
+    cmprun_result_dialer_stopped=?Der Dialer wurde gestoppt
+    # 👽 cmprun_result_limited_ep -> The dialer was limited by the endpoint size
+    cmprun_result_limited_ep=?Der Dialer war durch die Endpunktgröße begrenzt
+    # 👽 cmprun_result_limited_fetch -> The dialer was limited by the actual fetch
+    cmprun_result_limited_fetch=?Der Dialer war durch den tatsächlichen Fetch begrenzt
+    # 👽 cmprun_result_limited_lic -> The dialer was limited by the number of licensed channels
+    cmprun_result_limited_lic=?Der Dialer war durch die Anzahl der lizenzierten Kanäle begrenzt
+    # 👽 cmprun_result_limited_trunk -> The dialer was limited by the trunk rate
+    cmprun_result_limited_trunk=?Der Dialer war durch die Trunk-Rate begrenzt
+    # 👽 cmprun_result_no_calls_fetched -> No calls have been fetched
+    cmprun_result_no_calls_fetched=?Es wurden keine Anrufe abgerufen
+    # 👽 cmprun_result_no_calls_needed -> No calls are needed
+    cmprun_result_no_calls_needed=?Es werden keine Anrufe benötigt
+    # 👽 cmprun_result_no_endpoints -> No available endpoints for this run
+    cmprun_result_no_endpoints=?Keine verfügbaren Endpunkte für diesen Durchlauf
+    # 👽 cmprun_result_no_ep_channels -> There are no free channels on the selected endpoints
+    cmprun_result_no_ep_channels=?Es gibt keine freien Kanäle auf den ausgewählten Endpunkten
+    # 👽 cmprun_result_no_lic_channels -> All the licensed channels are being utilized
+    cmprun_result_no_lic_channels=?Alle lizenzierten Kanäle werden genutzt
+    # 👽 cmprun_result_no_licenses -> No Licenses
+    cmprun_result_no_licenses=?Keine Lizenzen
+    # 👽 cmprun_result_no_trunk_channels -> No Available channels on the selected trunk
+    cmprun_result_no_trunk_channels=?Keine verfügbaren Kanäle auf dem ausgewählten Trunk
+    # 👽 cmprun_result_no_trunks -> No Available trunks for this run
+    cmprun_result_no_trunks=?Keine verfügbaren Trunks für diesen Durchlauf
+    # 👽 cpycmp_add -> Add As Call List
+    cpycmp_add=?Als Anrufliste hinzufügen
+    # 👽 cpycmp_addblcklst -> Add As Black List
+    cpycmp_addblcklst=?Als Sperrliste hinzufügen
+    # 👽 cpycmp_calllists -> Call Lists
+    cpycmp_calllists=?Anruflisten
+    # 👽 cpycmp_campaignsettings -> Campaign Settings
+    cpycmp_campaignsettings=?Kampagneneinstellungen
+    # 👽 cpycmp_create -> Create
+    cpycmp_create=?Erstellen
+    # 👽 cpycmp_createandrun -> Create And Run
+    cpycmp_createandrun=?Erstellen und Ausführen
+    # 👽 cpycmp_description -> Create a new Campaign based on an existing one
+    cpycmp_description=?Erstellen Sie eine neue Kampagne basierend auf einer bestehenden
+    # 👽 cpycmp_dnis -> DNIS
+    cpycmp_dnis=?DNIS
+    # 👽 cpycmp_email -> Email
+    cpycmp_email=?E-Mail
+    # 👽 cpycmp_fulltitle -> Copy Campaign
+    cpycmp_fulltitle=?Kampagne kopieren
+    # 👽 cpycmp_invalidnamealert -> The inserted name is already taken
+    cpycmp_invalidnamealert=?Der eingegebene Name ist bereits vergeben
+    # 👽 cpycmp_listname -> Name
+    cpycmp_listname=?Name
+    # 👽 cpycmp_name -> Name
+    cpycmp_name=?Name
+    # 👽 cpycmp_namealreadytaken -> This name is already taken
+    cpycmp_namealreadytaken=?Dieser Name ist bereits vergeben
+    # 👽 cpycmp_newlist -> New List
+    cpycmp_newlist=?Neue Liste
+    # 👽 cpycmp_nonamealert -> Please choose a name for the new Campaign
+    cpycmp_nonamealert=?Bitte wählen Sie einen Namen für die neue Kampagne
+    # 👽 cpycmp_notemplatealert -> Please select a template
+    cpycmp_notemplatealert=?Bitte wählen Sie eine Vorlage aus
+    # 👽 cpycmp_remove -> Remove
+    cpycmp_remove=?Entfernen
+    # 👽 cpycmp_selectedlists -> Selected Lists
+    cpycmp_selectedlists=?Ausgewählte Listen
+    # 👽 cpycmp_shorttitle -> Copy
+    cpycmp_shorttitle=?Kopieren
+    # 👽 cpycmp_template -> Template
+    cpycmp_template=?Vorlage
     crpe_attributes=Attribut
     crpe_edit=Editiere Anrufeintrag
     crpe_note=Hinweis: Eingabeattribute fließen von WombatDialer zu Asterisk. Ausgabeattribute fließen von Asterisk zu WombatDialer.
     crpe_number=Nummer
-    # 🔴 crtblcklst_title -> Create Black List
-    ➡️ crtblcklst_title=
-    # 🔴 crtlst_choosename -> Enter a name for the new list
-    ➡️ crtlst_choosename=
-    # 🔴 crtlst_invalidname -> This name is altready taken, please choose a valid name
-    ➡️ crtlst_invalidname=
-    # 🔴 crtlst_okbutton -> OK
-    ➡️ crtlst_okbutton=
-    # 🔴 crtlst_title -> Create List
-    ➡️ crtlst_title=
+    # 👽 crtblcklst_title -> Create Black List
+    crtblcklst_title=?Sperrliste erstellen
+    # 👽 crtlst_choosename -> Enter a name for the new list
+    crtlst_choosename=?Geben Sie einen Namen für die neue Liste ein
+    # 👽 crtlst_invalidname -> This name is altready taken, please choose a valid name
+    crtlst_invalidname=?Dieser Name ist bereits vergeben, bitte wählen Sie einen gültigen Namen
+    # 👽 crtlst_okbutton -> OK
+    crtlst_okbutton=?OK
+    # 👽 crtlst_title -> Create List
+    crtlst_title=?Liste erstellen
     csp_campaigns=Kampagnen
     csp_dsprules=Anruf Dispositionregeln
     csp_endpoints=Endpunkt
     csp_fulltitle=Kampagneneinstellungen
     csp_lists=Listen
-    # 🔴 csp_newblacklistbutton -> New Black List
-    ➡️ csp_newblacklistbutton=
-    # 🔴 csp_newlistbutton -> New List
-    ➡️ csp_newlistbutton=
+    # 👽 csp_newblacklistbutton -> New Black List
+    csp_newblacklistbutton=?Neue Sperrliste
+    # 👽 csp_newlistbutton -> New List
+    csp_newlistbutton=?Neue Liste
     csp_ohrules=Öffnungszeiten Regeln
-    # 🔴 csp_ohrules_test -> Test Opening Hours
-    ➡️ csp_ohrules_test=
-    # 🔴 csp_ohrules_title -> When is this campaign open?
-    ➡️ csp_ohrules_title=
+    # 👽 csp_ohrules_test -> Test Opening Hours
+    csp_ohrules_test=?Öffnungszeiten testen
+    # 👽 csp_ohrules_title -> When is this campaign open?
+    csp_ohrules_title=?Wann ist diese Kampagne geöffnet?
     csp_resrules=Reschedule Regeln
     csp_rulename=Regelname
     csp_shorttitle=Kampagnen
@@ -433,34 +433,34 @@ Other items
     date_dowsh_5=Fr
     date_dowsh_6=Sa
     date_dowsh_7=So
-    # 🔴 dsp_agent -> Agent:
-    ➡️ dsp_agent=
-    # 🔴 dsp_agentstate -> State:
-    ➡️ dsp_agentstate=
-    # 🔴 dsp_amidebug -> AMI Debug
-    ➡️ dsp_amidebug=
-    # 🔴 dsp_asteriskname -> Name:
-    ➡️ dsp_asteriskname=
-    # 🔴 dsp_asteriskservers -> Asterisk Servers
-    ➡️ dsp_asteriskservers=
-    # 🔴 dsp_asteriskstate -> State:
-    ➡️ dsp_asteriskstate=
-    # 🔴 dsp_callid -> Call ID:
-    ➡️ dsp_callid=
-    # 🔴 dsp_campaignatt -> Att:
-    ➡️ dsp_campaignatt=
-    # 🔴 dsp_campaignname -> Campaign:
-    ➡️ dsp_campaignname=
-    # 🔴 dsp_campaignrtr -> Rtr:
-    ➡️ dsp_campaignrtr=
-    # 🔴 dsp_campaignrun -> Run:
-    ➡️ dsp_campaignrun=
-    # 🔴 dsp_campaigns -> Campaigns
-    ➡️ dsp_campaigns=
-    # 🔴 dsp_campaignstate -> State:
-    ➡️ dsp_campaignstate=
-    # 🔴 dsp_dialerstate -> Dialer State
-    ➡️ dsp_dialerstate=
+    # 👽 dsp_agent -> Agent:
+    dsp_agent=?Agent:
+    # 👽 dsp_agentstate -> State:
+    dsp_agentstate=?Status:
+    # 👽 dsp_amidebug -> AMI Debug
+    dsp_amidebug=?AMI-Debug
+    # 👽 dsp_asteriskname -> Name:
+    dsp_asteriskname=?Name:
+    # 👽 dsp_asteriskservers -> Asterisk Servers
+    dsp_asteriskservers=?Asterisk-Server
+    # 👽 dsp_asteriskstate -> State:
+    dsp_asteriskstate=?Status:
+    # 👽 dsp_callid -> Call ID:
+    dsp_callid=?Anruf-ID:
+    # 👽 dsp_campaignatt -> Att:
+    dsp_campaignatt=?Att:
+    # 👽 dsp_campaignname -> Campaign:
+    dsp_campaignname=?Kampagne:
+    # 👽 dsp_campaignrtr -> Rtr:
+    dsp_campaignrtr=?Rtr:
+    # 👽 dsp_campaignrun -> Run:
+    dsp_campaignrun=?Lauf:
+    # 👽 dsp_campaigns -> Campaigns
+    dsp_campaigns=?Kampagnen
+    # 👽 dsp_campaignstate -> State:
+    dsp_campaignstate=?Status:
+    # 👽 dsp_dialerstate -> Dialer State
+    dsp_dialerstate=?Dialer-Status
     dsp_e_campaign=Kampagnenname
     dsp_e_copy_attributes=Eigenschäfte Kopieren
     dsp_e_email_body=E-Mail Text
@@ -474,39 +474,39 @@ Other items
     dsp_e_url=HTTP URL
     dsp_e_url_data=Daten
     dsp_e_verb=Aktion durchführen
-    # 🔴 dsp_endpointname -> Name:
-    ➡️ dsp_endpointname=
-    # 🔴 dsp_endpoints -> Endpoints
-    ➡️ dsp_endpoints=
-    # 🔴 dsp_endpointstate -> Endpoint State
-    ➡️ dsp_endpointstate=
-    # 🔴 dsp_endpointtype -> Type:
-    ➡️ dsp_endpointtype=
+    # 👽 dsp_endpointname -> Name:
+    dsp_endpointname=?Name:
+    # 👽 dsp_endpoints -> Endpoints
+    dsp_endpoints=?Endpunkte
+    # 👽 dsp_endpointstate -> Endpoint State
+    dsp_endpointstate=?Endpunktstatus
+    # 👽 dsp_endpointtype -> Type:
+    dsp_endpointtype=?Typ:
     dsp_err_camp=Bitte gebe Sie einen Kampagenname ein
     dsp_err_email_addr=Bitte geben Sie einen oder meheren E-Mail Adressen ein
     dsp_err_email_body=Bitte geben Sie Ihre E-Mail Text ein
     dsp_err_list=Bitte geben Sie eine Listenname ein
     dsp_err_url=Bitte tragen Sie eine HTTP bzw. HTTPS URL ein
-    # 🔴 dsp_fulltitle -> Dialer State
-    ➡️ dsp_fulltitle=
+    # 👽 dsp_fulltitle -> Dialer State
+    dsp_fulltitle=?Dialer-Status
     dsp_p_action=Aktion
     dsp_p_onextst=Auf Ext.
     dsp_p_parms=Parameter
     dsp_p_rule=Regeln
     dsp_p_status=Ein Status
     dsp_p_title=Anruf Dispositioregeln bearbeiten
-    # 🔴 dsp_search -> Search
-    ➡️ dsp_search=
-    # 🔴 dsp_shorttitle -> State
-    ➡️ dsp_shorttitle=
-    # 🔴 dsp_trunkfreechannels -> Free Channels:
-    ➡️ dsp_trunkfreechannels=
-    # 🔴 dsp_trunkname -> Name:
-    ➡️ dsp_trunkname=
-    # 🔴 dsp_trunks -> Trunks
-    ➡️ dsp_trunks=
-    # 🔴 dsp_uptime -> Uptime
-    ➡️ dsp_uptime=
+    # 👽 dsp_search -> Search
+    dsp_search=?Suchen
+    # 👽 dsp_shorttitle -> State
+    dsp_shorttitle=?Status
+    # 👽 dsp_trunkfreechannels -> Free Channels:
+    dsp_trunkfreechannels=?Freie Kanäle:
+    # 👽 dsp_trunkname -> Name:
+    dsp_trunkname=?Name:
+    # 👽 dsp_trunks -> Trunks
+    dsp_trunks=?Trunks
+    # 👽 dsp_uptime -> Uptime
+    dsp_uptime=?Betriebszeit
     ect_awgt=Durchschnittliche Zeit
     ect_awgw=Durchschnittliche Wartezeit
     elp_calllists=Anrufe Liste
@@ -556,54 +556,54 @@ Other items
     epdto_pleaseselect=Bitte wählen Sie einen Asterisk Server aus
     epdto_youmust=Sie müssen mindestens einen Kanal eingeben
     fp_made=Proudly made in Switzerland.
-    # 🔴 hst_a_err -> Error
-    ➡️ hst_a_err=
-    # 🔴 hst_a_idle -> Idle
-    ➡️ hst_a_idle=
-    # 🔴 hst_a_paused -> Paused
-    ➡️ hst_a_paused=
-    # 🔴 hst_a_ringing -> Ringing
-    ➡️ hst_a_ringing=
-    # 🔴 hst_a_talking -> Talking
-    ➡️ hst_a_talking=
+    # 👽 hst_a_err -> Error
+    hst_a_err=?Fehler
+    # 👽 hst_a_idle -> Idle
+    hst_a_idle=?Leerlauf
+    # 👽 hst_a_paused -> Paused
+    hst_a_paused=?Pausiert
+    # 👽 hst_a_ringing -> Ringing
+    hst_a_ringing=?Klingelt
+    # 👽 hst_a_talking -> Talking
+    hst_a_talking=?Spricht
     hst_agent=Agent
     hst_connected=Verbunden
     hst_dialling=Wählt
-    # 🔴 hst_in_hopper -> In Hopper
-    ➡️ hst_in_hopper=
-    # 🔴 hst_rd_scheduled -> RD Scheduled
-    ➡️ hst_rd_scheduled=
+    # 👽 hst_in_hopper -> In Hopper
+    hst_in_hopper=?Im Hopper
+    # 👽 hst_rd_scheduled -> RD Scheduled
+    hst_rd_scheduled=?RD geplant
     hst_requested=Angefragt
     hst_reserved=Reserviert
-    # 🔴 hst_rs_agent -> RS Agent
-    ➡️ hst_rs_agent=
-    # 🔴 hst_rs_agentskip -> RS Agent Skip
-    ➡️ hst_rs_agentskip=
-    # 🔴 hst_rs_blacklist -> RS Blacklist
-    ➡️ hst_rs_blacklist=
-    # 🔴 hst_rs_busy -> RS Busy
-    ➡️ hst_rs_busy=
-    # 🔴 hst_rs_error -> RS Error
-    ➡️ hst_rs_error=
-    # 🔴 hst_rs_lost -> RS Lost
-    ➡️ hst_rs_lost=
-    # 🔴 hst_rs_noagent -> RS No Agent
-    ➡️ hst_rs_noagent=
-    # 🔴 hst_rs_noanswer -> RS No Answer
-    ➡️ hst_rs_noanswer=
-    # 🔴 hst_rs_number -> RS Number
-    ➡️ hst_rs_number=
-    # 🔴 hst_rs_rejected -> RS Rejected
-    ➡️ hst_rs_rejected=
-    # 🔴 hst_rs_timeout -> RS Timeout
-    ➡️ hst_rs_timeout=
-    # 🔴 hst_scheduled -> Scheduled
-    ➡️ hst_scheduled=
+    # 👽 hst_rs_agent -> RS Agent
+    hst_rs_agent=?RS-Agent
+    # 👽 hst_rs_agentskip -> RS Agent Skip
+    hst_rs_agentskip=?RS-Agent übersprungen
+    # 👽 hst_rs_blacklist -> RS Blacklist
+    hst_rs_blacklist=?RS-Sperrliste
+    # 👽 hst_rs_busy -> RS Busy
+    hst_rs_busy=?RS Besetzt
+    # 👽 hst_rs_error -> RS Error
+    hst_rs_error=?RS-Fehler
+    # 👽 hst_rs_lost -> RS Lost
+    hst_rs_lost=?RS Verloren
+    # 👽 hst_rs_noagent -> RS No Agent
+    hst_rs_noagent=?RS Kein Agent
+    # 👽 hst_rs_noanswer -> RS No Answer
+    hst_rs_noanswer=?RS Keine Antwort
+    # 👽 hst_rs_number -> RS Number
+    hst_rs_number=?RS Nummer
+    # 👽 hst_rs_rejected -> RS Rejected
+    hst_rs_rejected=?RS Abgelehnt
+    # 👽 hst_rs_timeout -> RS Timeout
+    hst_rs_timeout=?RS-Timeout
+    # 👽 hst_scheduled -> Scheduled
+    hst_scheduled=?Geplant
     hst_terminated=Beendet
-    # 🔴 hst_transferred -> Transferred
-    ➡️ hst_transferred=
-    # 🔴 hst_unknown -> Unknown
-    ➡️ hst_unknown=
+    # 👽 hst_transferred -> Transferred
+    hst_transferred=?Übertragen
+    # 👽 hst_unknown -> Unknown
+    hst_unknown=?Unbekannt
     mdi_login=Anmeldung
     mdi_login_short=Anmeldung
     mdu_listuploaded=Liste hochgeladen
@@ -635,23 +635,23 @@ Other items
     ohp_p_seckey=Sicherheitsschlüssel
     ohp_shorttitle=Zeitplan
     product_name=WombatDialer
-    # 🔴 pscmp_pausebutton -> Pause Campaigns
-    ➡️ pscmp_pausebutton=
-    # 🔴 pscmp_title -> Pause Campaigns
-    ➡️ pscmp_title=
+    # 👽 pscmp_pausebutton -> Pause Campaigns
+    pscmp_pausebutton=?Kampagnen pausieren
+    # 👽 pscmp_title -> Pause Campaigns
+    pscmp_title=?Kampagnen pausieren
     realtime_actioncannot=Die Aktion kann nicht duchgeführt werden: der Dialer ist nicht bereit.
     realtime_activelists=Aktive Liste
     realtime_activeruns=Aktive Aktionen
     realtime_addedlist=Hinzugefügte Liste
     realtime_agent=Agent
-    # 🔴 realtime_allfilter -> Show All
-    ➡️ realtime_allfilter=
-    # 🔴 realtime_allfiltercampaigns -> Show All Campaigns
-    ➡️ realtime_allfiltercampaigns=
-    # 🔴 realtime_allfilterendpoints -> Show All Endpoints
-    ➡️ realtime_allfilterendpoints=
-    # 🔴 realtime_allfiltertrunks -> Show All Trunks
-    ➡️ realtime_allfiltertrunks=
+    # 👽 realtime_allfilter -> Show All
+    realtime_allfilter=?Alle anzeigen
+    # 👽 realtime_allfiltercampaigns -> Show All Campaigns
+    realtime_allfiltercampaigns=?Alle Kampagnen anzeigen
+    # 👽 realtime_allfilterendpoints -> Show All Endpoints
+    realtime_allfilterendpoints=?Alle Endpunkte anzeigen
+    # 👽 realtime_allfiltertrunks -> Show All Trunks
+    realtime_allfiltertrunks=?Alle Trunks anzeigen
     realtime_asteriskid=Asterisk-ID
     realtime_asteriskservers=Asterisk-Servers
     realtime_availablecampaigns=Verfügbare Kampagnen
@@ -669,8 +669,8 @@ Other items
     realtime_campaignpaused=Kampagne pausiert
     realtime_campaignreloaded=Kampagne erneut gestartet
     realtime_campaignremoved=Kampagne gelöscht
-    # 🔴 realtime_campaignrun -> Campaign Run
-    ➡️ realtime_campaignrun=
+    # 👽 realtime_campaignrun -> Campaign Run
+    realtime_campaignrun=?Kampagnenlauf
     realtime_campaigns=Kampagnen
     realtime_campaignstarted=Kampagne gestartet
     realtime_campaignstatus=Kampagnenstatus
@@ -691,18 +691,18 @@ Other items
     realtime_endpoints=Endpunkte
     realtime_estimatedremaining=Geschätzt verblieben
     realtime_estremainingcalls=Geschätzte verbliebene Anrufe
-    # 🔴 realtime_filtersbutton -> Filters
-    ➡️ realtime_filtersbutton=
+    # 👽 realtime_filtersbutton -> Filters
+    realtime_filtersbutton=?Filter
     realtime_fulltitle=Live
-    # 🔴 realtime_hidesparklinebutton -> Hide Sparklines
-    ➡️ realtime_hidesparklinebutton=
+    # 👽 realtime_hidesparklinebutton -> Hide Sparklines
+    realtime_hidesparklinebutton=?Sparklines ausblenden
     realtime_irreversibleoperation=Achtung! Aktion nicht wiederherstellbar!
     realtime_lastupdate=Letztes Update
     realtime_list_activelists=Aktive Kampagnenliste
     realtime_list_add=Hinzufügen
     realtime_list_addlist=Neue Liste hinzufügen
-    # 🔴 realtime_list_hidecompleted -> Hide Completed
-    ➡️ realtime_list_hidecompleted=
+    # 👽 realtime_list_hidecompleted -> Hide Completed
+    realtime_list_hidecompleted=?Abgeschlossene ausblenden
     realtime_list_refresh=Aktualisieren
     realtime_listname=Listenname
     realtime_lists=Listen
@@ -713,8 +713,8 @@ Other items
     realtime_originate=Start
     realtime_originatedat=Gestartet am
     realtime_pause=Pausieren
-    # 🔴 realtime_pausecampaignsbutton -> Pause Campaigns
-    ➡️ realtime_pausecampaignsbutton=
+    # 👽 realtime_pausecampaignsbutton -> Pause Campaigns
+    realtime_pausecampaignsbutton=?Kampagnen pausieren
     realtime_paused=Pausiert
     realtime_pausedlist=Pausierte Liste
     realtime_recentlyclosedruns=Kürzlich geschlossene Aktionen
@@ -724,17 +724,17 @@ Other items
     realtime_retry=Nummer wiederholen
     realtime_run=Ausführen
     realtime_running=Wird ausgeführt
-    # 🔴 realtime_search -> Search
-    ➡️ realtime_search=
+    # 👽 realtime_search -> Search
+    realtime_search=?Suchen
     realtime_server=Server
     realtime_servername=Server Name
     realtime_shorttitle=Live
-    # 🔴 realtime_showingresults1 -> Showing
-    ➡️ realtime_showingresults1=
-    # 🔴 realtime_showingresults2 -> Results out of
-    ➡️ realtime_showingresults2=
-    # 🔴 realtime_showsparklinebutton -> Show Sparklines
-    ➡️ realtime_showsparklinebutton=
+    # 👽 realtime_showingresults1 -> Showing
+    realtime_showingresults1=?Zeige
+    # 👽 realtime_showingresults2 -> Results out of
+    realtime_showingresults2=?Ergebnisse von
+    # 👽 realtime_showsparklinebutton -> Show Sparklines
+    realtime_showsparklinebutton=?Sparklines anzeigen
     realtime_start=Start
     realtime_startedlist=Gestartete Liste
     realtime_state=Status
@@ -776,32 +776,32 @@ Other items
     tdp_e_use=Verwende '${num}' als Platzhalter für die zu wählende Nummer
     tdp_p_asteriskserver=Asterisk-Server
     tdp_p_capacity=Kapazität
-    # 🔴 tdp_p_cps -> Calls per Second
-    ➡️ tdp_p_cps=
+    # 👽 tdp_p_cps -> Calls per Second
+    tdp_p_cps=?Anrufe pro Sekunde
     tdp_p_dialstring=Dial-String
     tdp_p_edittrunk=Amt bearbeiten
-    # 🔴 tdp_p_maxmsg -> Max. calls per period
-    ➡️ tdp_p_maxmsg=
-    # 🔴 tdp_p_msgevery -> Period Length
-    ➡️ tdp_p_msgevery=
+    # 👽 tdp_p_maxmsg -> Max. calls per period
+    tdp_p_maxmsg=?Max. Anrufe pro Zeitraum
+    # 👽 tdp_p_msgevery -> Period Length
+    tdp_p_msgevery=?Zeitraumslänge
     tdp_p_name=Amtbezeichnung
     tdto_pleaseenter=Bitte einen Kapazitätswert eingeben
     tdto_pleaseselect=Bitte einen Asterisk-Server wählen
     tdto_pleaseset=Bitte einen Dial-String setzten
     tdto_thedialstring=Der Dial-String muss ${num} enthalten
     tdto_youmust=Sie müssen einen Namen hinterlegen
-    # 🔴 testpopup_endpoint_msg -> The selected endpoint will receive an audio signal resembling a whistle. If you can hear the whistle, the endpoint is working correctly.
-    ➡️ testpopup_endpoint_msg=
-    # 🔴 testpopup_endpoint_test -> Endpoint Test
-    ➡️ testpopup_endpoint_test=
-    # 🔴 testpopup_server_test -> Server Test
-    ➡️ testpopup_server_test=
-    # 🔴 testpopup_start -> Start
-    ➡️ testpopup_start=
-    # 🔴 testpopup_trunk_msg -> Please insert a valid extension to test this trunk with. The selected extension will receive an audio signal resembling a whistle. If you can hear the whistle, the trunk is working correctly.
-    ➡️ testpopup_trunk_msg=
-    # 🔴 testpopup_trunk_test -> Trunk Test
-    ➡️ testpopup_trunk_test=
+    # 👽 testpopup_endpoint_msg -> The selected endpoint will receive an audio signal resembling a whistle. If you can hear the whistle, the endpoint is working correctly.
+    testpopup_endpoint_msg=?Der ausgewählte Endpunkt empfängt ein Audiosignal, das einem Pfeifton ähnelt. Wenn Sie den Pfeifton hören können, funktioniert der Endpunkt korrekt.
+    # 👽 testpopup_endpoint_test -> Endpoint Test
+    testpopup_endpoint_test=?Endpunkttest
+    # 👽 testpopup_server_test -> Server Test
+    testpopup_server_test=?Servertest
+    # 👽 testpopup_start -> Start
+    testpopup_start=?Starten
+    # 👽 testpopup_trunk_msg -> Please insert a valid extension to test this trunk with. The selected extension will receive an audio signal resembling a whistle. If you can hear the whistle, the trunk is working correctly.
+    testpopup_trunk_msg=?Bitte geben Sie eine gültige Nebenstelle ein, um diesen Trunk zu testen. Die ausgewählte Nebenstelle empfängt ein Audiosignal, das einem Pfeifton ähnelt. Wenn Sie den Pfeifton hören können, funktioniert der Trunk korrekt.
+    # 👽 testpopup_trunk_test -> Trunk Test
+    testpopup_trunk_test=?Trunk-Test
     tpf_add_new=Neu hinzufügen
     tpf_classes_c_descr=Beschreibung
     tpf_classes_c_keys=Schlüssel
@@ -840,8 +840,8 @@ Other items
     tpf_users_c_name=Name
     tpf_users_e_class=Klasse
     tpf_users_e_comment=Kommentar
-    # 🔴 tpf_users_e_confirmpass -> Confirm Password
-    ➡️ tpf_users_e_confirmpass=
+    # 👽 tpf_users_e_confirmpass -> Confirm Password
+    tpf_users_e_confirmpass=?Passwort bestätigen
     tpf_users_e_email=E-Mail
     tpf_users_e_enabled=Aktiviert?
     tpf_users_e_lastlogon=Letzte Anmeldung
@@ -853,8 +853,8 @@ Other items
     tpf_users_e_token=Token
     tpf_users_e_userkeys=Benutzerschlüssel
     tpf_users_err_class=Bitte wählen Sie eine Klasse aus
-    # 🔴 tpf_users_err_confirmpassw -> The passwords you entered do not match
-    ➡️ tpf_users_err_confirmpassw=
+    # 👽 tpf_users_err_confirmpassw -> The passwords you entered do not match
+    tpf_users_err_confirmpassw=?Die eingegebenen Passwörter stimmen nicht überein
     tpf_users_err_login=Bitte geben Sie einen Login ein
     tpf_users_err_passw=Bitte geben Sie ein Passwort ein
     tpf_users_title=Benutzer editieren
@@ -891,32 +891,32 @@ Other items
     wcb_dialer=Dialer
     wcb_down=Runter
     wcb_endpoint=Endpunkt
-    # 🔴 wcb_ep_agent -> Agents
-    ➡️ wcb_ep_agent=
-    # 🔴 wcb_ep_c_agent -> Connect
-    ➡️ wcb_ep_c_agent=
-    # 🔴 wcb_ep_c_dial -> Dial
-    ➡️ wcb_ep_c_dial=
-    # 🔴 wcb_ep_c_pre -> Predial
-    ➡️ wcb_ep_c_pre=
-    # 🔴 wcb_ep_c_queued -> Queued
-    ➡️ wcb_ep_c_queued=
-    # 🔴 wcb_ep_c_talk -> Talk
-    ➡️ wcb_ep_c_talk=
-    # 🔴 wcb_ep_chans -> Chans
-    ➡️ wcb_ep_chans=
-    # 🔴 wcb_ep_free -> Free
-    ➡️ wcb_ep_free=
-    # 🔴 wcb_ep_idle -> Idle
-    ➡️ wcb_ep_idle=
-    # 🔴 wcb_ep_manual -> Manual
-    ➡️ wcb_ep_manual=
-    # 🔴 wcb_ep_overdial -> O/D
-    ➡️ wcb_ep_overdial=
-    # 🔴 wcb_ep_used -> Used
-    ➡️ wcb_ep_used=
-    # 🔴 wcb_ep_wait -> Wait
-    ➡️ wcb_ep_wait=
+    # 👽 wcb_ep_agent -> Agents
+    wcb_ep_agent=?Agenten
+    # 👽 wcb_ep_c_agent -> Connect
+    wcb_ep_c_agent=?Verbinden
+    # 👽 wcb_ep_c_dial -> Dial
+    wcb_ep_c_dial=?Wählen
+    # 👽 wcb_ep_c_pre -> Predial
+    wcb_ep_c_pre=?Vorwahl
+    # 👽 wcb_ep_c_queued -> Queued
+    wcb_ep_c_queued=?In der Warteschlange
+    # 👽 wcb_ep_c_talk -> Talk
+    wcb_ep_c_talk=?Sprechen
+    # 👽 wcb_ep_chans -> Chans
+    wcb_ep_chans=?Kanäle
+    # 👽 wcb_ep_free -> Free
+    wcb_ep_free=?Frei
+    # 👽 wcb_ep_idle -> Idle
+    wcb_ep_idle=?Leerlauf
+    # 👽 wcb_ep_manual -> Manual
+    wcb_ep_manual=?Manuell
+    # 👽 wcb_ep_overdial -> O/D
+    wcb_ep_overdial=?Ü/W
+    # 👽 wcb_ep_used -> Used
+    wcb_ep_used=?Verwendet
+    # 👽 wcb_ep_wait -> Wait
+    wcb_ep_wait=?Warten
     wcb_free=Frei
     wcb_idle=Inaktiv
     wcb_licensedchannels=Lizensierte Känale
@@ -933,11 +933,11 @@ Other items
     whp_administration=Administration
     whp_basic_configuration=Grundeinstellung
     whp_campaign_reports=Kampagnenreport
-    # 🔴 whp_copy_campaign -> Copy Campaign
-    ➡️ whp_copy_campaign=
+    # 👽 whp_copy_campaign -> Copy Campaign
+    whp_copy_campaign=?Kampagne kopieren
     whp_dialer_operation=Dialer Funktionen
-    # 🔴 whp_dialer_state -> Dialer Status
-    ➡️ whp_dialer_state=
+    # 👽 whp_dialer_state -> Dialer Status
+    whp_dialer_state=?Dialer-Status
     whp_dialer_status=Dialerstatus
     whp_edit_basic_settings=Grundeinstellungen editieren
     whp_edit_campaigns=Kampagnen editieren
@@ -964,31 +964,31 @@ Other items
     wlp_tablevalidfrom=Gültig vom
     wlp_totallicenses=Anzahl der lizensierten Kanäle
     wlp_tpfversion=Loway TPF Build
-    # 🔴 wpp_changepass -> Change Password
-    ➡️ wpp_changepass=
-    # 🔴 wpp_confirm_error -> The Passwords in the New Password and in the Confirm Password field do not match.
-    ➡️ wpp_confirm_error=
-    # 🔴 wpp_confirm_missing_error -> Please confirm the new password.
-    ➡️ wpp_confirm_missing_error=
-    # 🔴 wpp_confirmpass -> Confirm Password
-    ➡️ wpp_confirmpass=
-    # 🔴 wpp_fulltitle -> Edit Current Password
-    ➡️ wpp_fulltitle=
-    # 🔴 wpp_newpass -> New Password
-    ➡️ wpp_newpass=
-    # 🔴 wpp_oldpass -> Old Password
-    ➡️ wpp_oldpass=
-    # 🔴 wpp_oldpass_error -> The Old Password that was inputted by the user is not correct.
-    ➡️ wpp_oldpass_error=
-    # 🔴 wpp_oldpass_missing_error -> Please input the old password.
-    ➡️ wpp_oldpass_missing_error=
-    # 🔴 wpp_password_missing_error -> Please input a new password.
-    ➡️ wpp_password_missing_error=
-    # 🔴 wpp_server_error -> The password could not be updated. Please ask your System Admininistrator to check the system logs to retrieve the specific error.
-    ➡️ wpp_server_error=
-    # 🔴 wpp_shorttitle -> Password
-    ➡️ wpp_shorttitle=
-    # 🔴 wpp_success -> The Password was updated succesfully.
-    ➡️ wpp_success=
+    # 👽 wpp_changepass -> Change Password
+    wpp_changepass=?Passwort ändern
+    # 👽 wpp_confirm_error -> The Passwords in the New Password and in the Confirm Password field do not match.
+    wpp_confirm_error=?Die Passwörter im Feld Neues Passwort und im Feld Passwort bestätigen stimmen nicht überein.
+    # 👽 wpp_confirm_missing_error -> Please confirm the new password.
+    wpp_confirm_missing_error=?Bitte bestätigen Sie das neue Passwort.
+    # 👽 wpp_confirmpass -> Confirm Password
+    wpp_confirmpass=?Passwort bestätigen
+    # 👽 wpp_fulltitle -> Edit Current Password
+    wpp_fulltitle=?Aktuelles Passwort bearbeiten
+    # 👽 wpp_newpass -> New Password
+    wpp_newpass=?Neues Passwort
+    # 👽 wpp_oldpass -> Old Password
+    wpp_oldpass=?Altes Passwort
+    # 👽 wpp_oldpass_error -> The Old Password that was inputted by the user is not correct.
+    wpp_oldpass_error=?Das vom Benutzer eingegebene alte Passwort ist nicht korrekt.
+    # 👽 wpp_oldpass_missing_error -> Please input the old password.
+    wpp_oldpass_missing_error=?Bitte geben Sie das alte Passwort ein.
+    # 👽 wpp_password_missing_error -> Please input a new password.
+    wpp_password_missing_error=?Bitte geben Sie ein neues Passwort ein.
+    # 👽 wpp_server_error -> The password could not be updated. Please ask your System Admininistrator to check the system logs to retrieve the specific error.
+    wpp_server_error=?Das Passwort konnte nicht aktualisiert werden. Bitten Sie Ihren Systemadministrator, die Systemprotokolle zu überprüfen, um den spezifischen Fehler abzurufen.
+    # 👽 wpp_shorttitle -> Password
+    wpp_shorttitle=?Passwort
+    # 👽 wpp_success -> The Password was updated succesfully.
+    wpp_success=?Das Passwort wurde erfolgreich aktualisiert.
 
 

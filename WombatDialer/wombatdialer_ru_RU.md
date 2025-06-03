@@ -58,10 +58,10 @@ This is the page where statistics are displayed.
     rcp_totalwaitafter=Общее ожидание после
     rcp_totalwaitpre=Общее ожидание до
     rcp_unselectall=Очистить все
-    # 🔴 rcp_recalls -> Recall Stats
-    ➡️ rcp_recalls=
-    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
-    ➡️ rcp_recalls_by_retry=
+    # 👽 rcp_recalls -> Recall Stats
+    rcp_recalls=?Статистика Перезвонов
+    # 👽 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    rcp_recalls_by_retry=?Статус вызовов по номеру попытки
 
 
 

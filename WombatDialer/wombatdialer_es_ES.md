@@ -58,10 +58,10 @@ This is the page where statistics are displayed.
     rcp_totalwaitafter=Total espera conectado
     rcp_totalwaitpre=Total espera pre-conexión
     rcp_unselectall=De-seleccionar todas
-    # 🔴 rcp_recalls -> Recall Stats
-    ➡️ rcp_recalls=
-    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
-    ➡️ rcp_recalls_by_retry=
+    # 👽 rcp_recalls -> Recall Stats
+    rcp_recalls=?Estadísticas de rellamadas
+    # 👽 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    rcp_recalls_by_retry=?Estado de las llamadas por número de reintento
 
 
 
@@ -73,8 +73,8 @@ Other items
     ami_head_fake=Falso Servidor
     asd_e_amiport=Puerto AMI
     asd_e_login=Login
-    # 🔴 asd_e_maxmsg -> Max msg. per unit
-    ➡️ asd_e_maxmsg=
+    # 👽 asd_e_maxmsg -> Max msg. per unit
+    asd_e_maxmsg=?Máx. msj. por unidad
     asd_e_password=Clave
     asd_e_securitykey=Clave de seguridad
     asd_e_serveraddress=Dirección del servidor
