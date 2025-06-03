@@ -4248,6 +4248,8 @@ Description of security keys:
     keydesc_mon_whisper=?De gebruiker kan fluisteren in een realtime gesprek
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?Schakelt de nieuwe Icon Agent-pagina in
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?Gebruiker mag geen uitgaande gesprekken voeren
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?Gebruiker kan de loonlijstpagina bekijken
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

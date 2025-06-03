@@ -2848,6 +2848,8 @@ Description of security keys:
     keydesc_mon_vnc=El usuario puede monitorear la pantalla de un agente con VNC
     keydesc_mon_whisper=El usuario puede hablar al agente en una llamada
     keydesc_newagentpage=Activar la nueva interfaz agente ICON
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?El usuario no tiene permitido realizar llamadas salientes
     keydesc_payroll=El usuario puede verificar la nómina de pagos
     keydesc_payroll_removenote=El usuario puede eliminar una nota en la página de nómina
     keydesc_pbxapi=El usuario puede acceder a los servicios a nivel PBX

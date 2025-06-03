@@ -3222,6 +3222,8 @@ Description of security keys:
     keydesc_mon_vnc=L'usuari pot supervidar la pantalla d'un agent via VNC
     keydesc_mon_whisper=L'usuari pot xiuxiuejar en una trucada en temps real
     keydesc_newagentpage=Activar la nova pàgina Icon Agent
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?L'usuari no té permís per fer trucades sortints
     keydesc_payroll=L'usuari pot verificar la nòmina de pagaments
     keydesc_payroll_removenote=L'usuari pot esborrar una nota a la pàgina de nòmina
     keydesc_pbxapi=L'usuari pot accedir als serveis de nivell PBX

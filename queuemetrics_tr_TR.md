@@ -3107,6 +3107,8 @@ Description of security keys:
     keydesc_mon_vnc=Kullanıcı VNC üzerinden bir müşteri temsilcisi \ u2019s ekranını izleyebilir
     keydesc_mon_whisper=Kullanıcı VNC üzerinden bir müşteri temsilcisi \ u2019s ekranını izleyebilir
     keydesc_newagentpage=Yeni Icon Müşteri temsilcisi sayfasını açar
+    # 🔴 keydesc_nodialout -> User is not allowed to make outbound calls
+    ➡️ keydesc_nodialout=
     keydesc_payroll=Kullanıcı bordro sayfasını kontrol edebilir
     keydesc_payroll_removenote=Kullanıcı bordro sayfasındaki bir notu kaldırabilir
     keydesc_pbxapi=Kullanıcı PBX seviyesinde servislere erişebilir

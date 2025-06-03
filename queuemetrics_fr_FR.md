@@ -2843,6 +2843,8 @@ Description of security keys:
     keydesc_mon_vnc=L'utilisateur peut suivre un agent via VNC
     keydesc_mon_whisper=L'utilisateur peut susurer sur un appel en cours
     keydesc_newagentpage=Activer la nouvelle page Icône de l'Agent
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?L'utilisateur n'est pas autorisé à effectuer des appels sortants
     keydesc_payroll=L'utilisateur peut vérifier la page "Paye"
     keydesc_payroll_removenote=L'utilisateur peut supprimer une note dans la page "Paye"
     keydesc_pbxapi=L'utilisateur peut accéder aux services de niveau PBX

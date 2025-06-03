@@ -4998,6 +4998,8 @@ Description of security keys:
     keydesc_mon_whisper=?A felhasználó súghat egy valós idejű hívásban
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?Bekapcsolja az új Ikon Ügynök oldalt
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?A felhasználó nem kezdeményezhet kimenő hívásokat
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?A felhasználó ellenőrizheti a bérszámfejtési oldalt
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

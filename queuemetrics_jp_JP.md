@@ -4781,6 +4781,8 @@ Description of security keys:
     keydesc_mon_whisper=?ユーザーはリアルタイム通話でささやくことができます
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?新しいアイコンエージェントページをオンにします
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?ユーザーはアウトバウンドコールを発信できません
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?ユーザーは給与ページを確認できます
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

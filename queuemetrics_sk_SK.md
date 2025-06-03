@@ -4559,6 +4559,8 @@ Description of security keys:
     keydesc_mon_whisper=?Používateľ môže šepkať pri hovore v reálnom čase
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?Zapne novú stránku agenta s ikonami
+    # 🔴 keydesc_nodialout -> User is not allowed to make outbound calls
+    ➡️ keydesc_nodialout=
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?Používateľ si môže pozrieť stránku miezd
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

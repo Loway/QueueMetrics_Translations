@@ -3730,6 +3730,8 @@ Description of security keys:
     # 👽 keydesc_mon_whisper -> The user can whisper on a real-time call
     keydesc_mon_whisper=?用户可以在实时呼叫中耳语
     keydesc_newagentpage=打开新坐席页面
+    # 🔴 keydesc_nodialout -> User is not allowed to make outbound calls
+    ➡️ keydesc_nodialout=
     keydesc_payroll=用户可以检查工资单页面
     keydesc_payroll_removenote=用户可以删除工资单的笔记
     keydesc_pbxapi=用户可以访问pbx级别服务

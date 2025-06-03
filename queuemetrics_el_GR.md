@@ -2851,6 +2851,8 @@ Description of security keys:
     keydesc_mon_vnc=Ο χρήστης μπορεί να παρακολουθήσει την οθόνη ενός agent μέσω VNC
     keydesc_mon_whisper=Ο χρήστης μπορεί να επέμβει (whisper) σε μια κλήση σε πραγματικό χρόνο
     keydesc_newagentpage=Ενεργοποιεί την νέα σελίδα Icon Agent
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?Ο χρήστης δεν επιτρέπεται να πραγματοποιεί εξερχόμενες κλήσεις
     keydesc_payroll=Ο χρήστης μπορεί να ελέγξει τη σελίδα μισθοδοσίας
     keydesc_payroll_removenote=Ο χρήστης μπορεί να αφαιρέσει κάποια σημείωση από τη σελίδα μισθοδοσίας
     keydesc_pbxapi=Ο χρήστης μπορεί να έχει πρόσβαση σε υπηρεσίες επιπέδου Τηλ. Κέντρου

@@ -5358,6 +5358,8 @@ Description of security keys:
     keydesc_mon_whisper=?ተጠቃሚ በእውነተኛ ጊዜ ጥሪ ላይ ማጉረምረም ይችላል
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?አዲሱን የIcon Agent ገጽን ያበራል።
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?ተጠቃሚ ወደ ውጭ ጥሪዎችን እንዲያደርግ አይፈቀድለትም
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?ተጠቃሚ የደመወዝ ክፍያ ገጹን ማረጋገጥ ይችላል
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

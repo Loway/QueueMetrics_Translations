@@ -4882,6 +4882,8 @@ Description of security keys:
     keydesc_mon_whisper=?El usuario puede hablar al agente en una llamada
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?Activar la nueva interfaz agente ICON
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?El usuario no tiene permitido hacer llamadas salientes
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?El usuario puede verificar la nómina de pagos
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

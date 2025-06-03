@@ -3785,6 +3785,8 @@ Description of security keys:
     keydesc_mon_whisper=?המשתמש יכול ללחוש לשיחה בזמן אמת
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?מפעיל את דף סוכן הסמל החדש
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?למשתמש אסור לבצע שיחות יוצאות
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?משתמש יכול לבדוק את דף השכר
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

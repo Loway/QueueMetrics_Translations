@@ -4433,6 +4433,8 @@ Description of security keys:
     keydesc_mon_whisper=?ผู้ใช้สามารถกระซิบในการโทรแบบเรียลไทม์
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?เปิดหน้า Icon Agent ใหม่
+    # 🔴 keydesc_nodialout -> User is not allowed to make outbound calls
+    ➡️ keydesc_nodialout=
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?ผู้ใช้สามารถตรวจสอบหน้าเงินเดือนได้
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

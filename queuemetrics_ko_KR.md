@@ -3095,6 +3095,8 @@ Description of security keys:
     keydesc_mon_vnc=사용자는 상담원의 PC화면을 VNC를 통해 모니터링 할 수 있습니다.
     keydesc_mon_whisper=사용자는 실시간 통화에 (상담원에게)속삭임을 할 수 있습니다.
     keydesc_newagentpage=신규 아이콘 상담원 페이지를 켬
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?사용자가 아웃바운드 전화를 걸 수 없습니다.
     keydesc_payroll=사용자는 급여명세(Payroll) 페이지는 체크할 수 있습니다.
     keydesc_payroll_removenote=사용자는 급여명세 페이지에 주석을 제거할 수 있습니다.
     keydesc_pbxapi=사용자는 교환기 레벨(PBX-Level)의 서비스에 접근할 수 있습니다.
