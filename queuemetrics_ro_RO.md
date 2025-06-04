@@ -4355,8 +4355,8 @@ Description of security keys:
     keydesc_mon_whisper=?Utilizatorul poate șopti într-un apel în timp real
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?Activează noua pagină Agent Icon
-    # 🔴 keydesc_nodialout -> User is not allowed to make outbound calls
-    ➡️ keydesc_nodialout=
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?Utilizatorului nu îi este permis să efectueze apeluri outbound
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?Utilizatorul poate verifica pagina de salarizare
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page

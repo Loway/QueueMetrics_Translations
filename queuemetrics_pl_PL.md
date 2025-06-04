@@ -4784,8 +4784,8 @@ Description of security keys:
     keydesc_mon_whisper=?Użytkownik może podsłuchiwać połączenie w czasie rzeczywistym
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
     keydesc_newagentpage=?Włącza nową stronę agenta z ikonami
-    # 🔴 keydesc_nodialout -> User is not allowed to make outbound calls
-    ➡️ keydesc_nodialout=
+    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
+    keydesc_nodialout=?Użytkownik nie może wykonywać połączeń wychodzących
     # 👽 keydesc_payroll -> User can check the payroll page
     keydesc_payroll=?Użytkownik może sprawdzić stronę listy płac
     # 👽 keydesc_payroll_removenote -> User can remove a note in the payroll page
