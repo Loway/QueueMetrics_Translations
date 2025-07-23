@@ -4620,6 +4620,46 @@ Description of security keys:
     phone_username=?Gebruikersnaam
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?Websocket URL
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?Geen microfoon gevonden
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?Audio instellingen
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?Geen audioapparaat gevonden
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?Kies apparaat...
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?Standaard audioapparaat gebruiken
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?HID-apparaat gesloten
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?Fout bij sluiten HID-apparaat
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?HID-apparaat is al open
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?HID-apparaat verbonden
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?HID-apparaat verbroken
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?Selecteer een HID-apparaat
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?Fout bij openen HID-apparaat
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?Geselecteerd audioapparaat
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?Geselecteerd HID-apparaat
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?Geselecteerd microfoon
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?Geselecteerd ringtone-apparaat
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?Audioapparaat gewijzigd
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?Microfoon gewijzigd
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?Fout bij instellen audioapparaat
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?Beltoon
 
 ## Homepage
 

@@ -3354,6 +3354,46 @@ Description of security keys:
     phone_update_settings=?تحديث الإعدادات
     phone_username=اسم المستخدم
     phone_websocketurl=WebSocket URL
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?لم يتم العثور على جهاز ميكروفون
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?إعدادات الصوت
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?لم يتم العثور على جهاز الصوت
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?اختر جهازًا..
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?باستخدام جهاز الصوت الافتراضي
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?تم إغلاق جهاز HID
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?حدث خطأ أثناء إغلاق جهاز HID
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?جهاز HID مفتوح بالفعل
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?تم توصيل جهاز HID
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?تم فصل جهاز HID
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?حدد جهاز HID
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?حدث خطأ أثناء فتح جهاز HID
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?جهاز الصوت المحدد
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?جهاز HID المحدد
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?جهاز الميكروفون المحدد
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?جهاز النغمة المحدد
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?تم تغيير جهاز الصوت
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?تم تغيير جهاز الميكروفون
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?حدث خطأ أثناء تعيين جهاز الصوت
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?النغمة
 
 ## Homepage
 

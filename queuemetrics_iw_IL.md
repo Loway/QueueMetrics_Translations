@@ -4198,6 +4198,46 @@ Description of security keys:
     phone_username=?שם משתמש
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?כתובת URL של Websocket
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?לא נמצא מכשיר מיקרופון
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?הגדרות שמע
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?לא נמצא מכשיר שמע
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?בחר מכשיר..
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?שימוש במכשיר שמע ברירת מחדל
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?מכשיר HID נסגר
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?אירעה שגיאה בעת סגירת מכשיר HID
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?מכשיר HID כבר פתוח
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?מכשיר HID מחובר
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?מכשיר HID מנותק
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?בחר מכשיר HID
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?אירעה שגיאה בעת פתיחת מכשיר HID
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?מכשיר שמע נבחר
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?מכשיר HID נבחר
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?מכשיר מיקרופון נבחר
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?מכשיר צלצול נבחר
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?מכשיר שמע שונה
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?מכשיר מיקרופון שונה
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?אירעה שגיאה בעת הגדרת מכשיר שמע
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?צלצול
 
 ## Homepage
 

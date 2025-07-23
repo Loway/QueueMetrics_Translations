@@ -4076,6 +4076,46 @@ Description of security keys:
     phone_username=?用户名
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?Websocket URL
+    # 🔴 phone_audio_mic_not_found -> No microphone device found
+    ➡️ phone_audio_mic_not_found=
+    # 🔴 phone_audio_settings -> Audio Settings
+    ➡️ phone_audio_settings=
+    # 🔴 phone_audio_device_not_found -> Audio device not found
+    ➡️ phone_audio_device_not_found=
+    # 🔴 phone_choose_device -> Choose device..
+    ➡️ phone_choose_device=
+    # 🔴 phone_default_audio_device -> Using default audio device
+    ➡️ phone_default_audio_device=
+    # 🔴 phone_hid_close_device -> Closed HID device
+    ➡️ phone_hid_close_device=
+    # 🔴 phone_hid_close_device_err -> Error occurred while closing HID device
+    ➡️ phone_hid_close_device_err=
+    # 🔴 phone_hid_device_already_open -> HID device already open
+    ➡️ phone_hid_device_already_open=
+    # 🔴 phone_hid_device_connected -> HID device connected
+    ➡️ phone_hid_device_connected=
+    # 🔴 phone_hid_disconnected_device -> Disconnected HID device
+    ➡️ phone_hid_disconnected_device=
+    # 🔴 phone_hid_open_device -> Select a HID device
+    ➡️ phone_hid_open_device=
+    # 🔴 phone_hid_open_device_err -> Error occurred while opening HID device
+    ➡️ phone_hid_open_device_err=
+    # 🔴 phone_selected_audio_device -> Selected audio device
+    ➡️ phone_selected_audio_device=
+    # 🔴 phone_selected_hid_device -> Selected HID device
+    ➡️ phone_selected_hid_device=
+    # 🔴 phone_selected_mic_device -> Selected microphone device
+    ➡️ phone_selected_mic_device=
+    # 🔴 phone_selected_ringtone_device -> Selected ringtone device
+    ➡️ phone_selected_ringtone_device=
+    # 🔴 phone_set_audio_info -> Changed audio device
+    ➡️ phone_set_audio_info=
+    # 🔴 phone_set_mic_info -> Changed mic device
+    ➡️ phone_set_mic_info=
+    # 🔴 phone_set_audio_err -> Error occurred while setting audio device
+    ➡️ phone_set_audio_err=
+    # 🔴 phone_ringtone -> Ringtone    
+    ➡️ phone_ringtone=
 
 ## Homepage
 

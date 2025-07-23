@@ -3070,6 +3070,46 @@ Description of security keys:
     phone_update_settings=Mise à jour de la configuration
     phone_username=Nom
     phone_websocketurl=URL de WebSocket
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?Aucun microphone détecté
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?Paramètres Audio
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?Périphérique audio non détecté
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?Choisir un périphérique...
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?Utilisation du périphérique audio par défaut
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?Périphérique HID fermé
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?Erreur lors de la fermeture du périphérique HID
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?Périphérique HID déjà ouvert
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?Périphérique HID connecté
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?Périphérique HID déconnecté
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?Sélectionner un périphérique HID
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?Erreur lors de l'ouverture du périphérique HID
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?Périphérique audio sélectionné
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?Périphérique HID sélectionné
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?Microphone sélectionné
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?Sonnerie sélectionnée
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?Périphérique audio modifié
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?Microphone modifié
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?Erreur lors du réglage du périphérique audio
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?Sonnerie
 
 ## Homepage
 

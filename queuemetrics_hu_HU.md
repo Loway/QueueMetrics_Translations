@@ -5437,6 +5437,46 @@ Description of security keys:
     phone_username=?Felhasználónév
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?Websocket URL
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?Nincs mikrofon eszköz található
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?Hangbeállítások
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?Hangeszköz nem található
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?Eszköz kiválasztása..
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?Alapértelmezett hangeszköz használata
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?HID eszköz bezárva
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?Hiba történt a HID eszköz bezárásakor
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?HID eszköz már nyitva
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?HID eszköz csatlakoztatva
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?HID eszköz lecsatlakoztatva
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?HID eszköz kiválasztása
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?Hiba történt a HID eszköz megnyitásakor
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?Kiválasztott hangeszköz
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?Kiválasztott HID eszköz
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?Kiválasztott mikrofon eszköz
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?Kiválasztott csengőhang eszköz
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?Hangeszköz megváltoztatva
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?Mikrofon eszköz megváltoztatva
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?Hiba történt a hangeszköz beállításakor
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?Csengőhang
 
 ## Homepage
 

@@ -3069,6 +3069,46 @@ Description of security keys:
     phone_update_settings=Aggiorna Impostazioni
     phone_username=Nome Utente
     phone_websocketurl=URL WebSocket
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?Nessun microfono rilevato
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?Impostazioni Audio
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?Dispositivo audio non trovato
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?Scegli dispositivo...
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?Usa dispositivo audio predefinito
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?Dispositivo HID chiuso
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?Errore durante la chiusura del dispositivo HID
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?Dispositivo HID già aperto
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?Dispositivo HID connesso
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?Dispositivo HID disconnesso
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?Seleziona un dispositivo HID
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?Errore durante l'apertura del dispositivo HID
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?Dispositivo audio selezionato
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?Dispositivo HID selezionato
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?Microfono selezionato
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?Suoneria selezionata
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?Dispositivo audio modificato
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?Microfono modificato
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?Errore durante la modifica del dispositivo audio
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?Suoneria
 
 ## Homepage
 

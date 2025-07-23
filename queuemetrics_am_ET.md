@@ -5797,6 +5797,46 @@ Description of security keys:
     phone_username=?የተጠቃሚ ስም
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?የድር ሶኬት ዩአርኤል
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?ምንም ማይክሮፎን አልተገኘም።
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?የድምጽ ቅንብሮች
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?የድምጽ መሣሪያ አልተገኘም
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?መሣሪያ ምረጥ...
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?ነባሪ የድምጽ መሣሪያ በመጠቀም ላይ
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?HID መሣሪያ ተዘግቷል።
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?HID መሣሪያን ሲዘጉ ስህተት ተፈጥሯል
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?HID መሣሪያ አስቀድሞ ተከፍቷል።
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?HID መሣሪያ ተገናኝቷል።
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?HID መሣሪያ ተቋርጧል።
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?HID መሣሪያ ይምረጡ
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?HID መሣሪያን ሲከፍቱ ስህተት ተፈጥሯል
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?የተመረጠ የድምጽ መሣሪያ
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?የተመረጠ HID መሣሪያ
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?የተመረጠ ማይክሮፎን መሣሪያ
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?የተመረጠ የስልክ ጥሪ ድምፅ መሣሪያ
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?የድምጽ መሣሪያ ተቀይሯል
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?የማይክ መሣሪያ ተቀይሯል
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?የድምጽ መሣሪያን ሲያቀናብሩ ስህተት ተፈጥሯል
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?የጥሪ ድምፅ
 
 ## Homepage
 

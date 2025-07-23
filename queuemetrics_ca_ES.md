@@ -3460,6 +3460,46 @@ Description of security keys:
     phone_update_settings=Modificar Opcions
     phone_username=Nom d'usuari
     phone_websocketurl=URL de WebSocket
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?No s'ha trobat cap dispositiu de micròfon
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?Configuració d'àudio
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?No s'ha trobat cap dispositiu d'àudio
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?Trieu el dispositiu...
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?S'utilitza el dispositiu d'àudio predeterminat
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?Dispositiu HID tancat
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?S'ha produït un error en tancar el dispositiu HID
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?El dispositiu HID ja està obert
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?Dispositiu HID connectat
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?Dispositiu HID desconnectat
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?Seleccioneu un dispositiu HID
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?S'ha produït un error en obrir el dispositiu HID
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?Dispositiu d'àudio seleccionat
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?Dispositiu HID seleccionat
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?Dispositiu de micròfon seleccionat
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?Dispositiu de to de trucada seleccionat
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?S'ha canviat el dispositiu d'àudio
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?S'ha canviat el dispositiu de micròfon
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?S'ha produït un error en configurar el dispositiu d'àudio
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?To de trucada
 
 ## Homepage
 

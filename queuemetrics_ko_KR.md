@@ -3360,6 +3360,46 @@ Description of security keys:
     phone_username=?사용자 이름
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?웹소켓 URL
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?마이크 장치가 없습니다.
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?오디오 설정
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?오디오 장치를 찾을 수 없습니다.
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?장치 선택..
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?기본 오디오 장치 사용
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?HID 장치가 닫혔습니다.
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?HID 장치를 닫는 중 오류가 발생했습니다.
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?HID 장치가 이미 열려 있습니다.
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?HID 장치가 연결되었습니다.
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?HID 장치가 연결 해제되었습니다.
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?HID 장치를 선택하십시오
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?HID 장치를 여는 중 오류가 발생했습니다.
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?선택된 오디오 장치
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?선택된 HID 장치
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?선택된 마이크 장치
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?선택된 벨소리 장치
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?오디오 장치 변경됨
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?마이크 장치 변경됨
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?오디오 장치 설정 중 오류 발생
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?벨소리
 
 ## Homepage
 

@@ -5220,6 +5220,46 @@ Description of security keys:
     phone_username=?ユーザー名
     # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?Websocket URL
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?マイクデバイスが見つかりません
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?オーディオ設定
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?オーディオデバイスが見つかりません
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?デバイスを選択..
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?デフォルトのオーディオデバイスを使用
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?HIDデバイスを閉じました
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?HIDデバイスのクローズ中にエラーが発生しました
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?HIDデバイスはすでに開いています
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?HIDデバイスが接続されました
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?HIDデバイスが切断されました
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?HIDデバイスを選択
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?HIDデバイスのオープン中にエラーが発生しました
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?選択したオーディオデバイス
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?選択されたHIDデバイス
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?選択したマイクデバイス
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?選択された着信音デバイス
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?オーディオデバイスを変更しました
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?マイクデバイスを変更しました
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?オーディオデバイスの設定中にエラーが発生しました
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?着信音
 
 ## Homepage
 

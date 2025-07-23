@@ -3078,6 +3078,46 @@ Description of security keys:
     phone_update_settings=Ενημέρωση Ρυθμίσεων
     phone_username=Όνομα χρήστη
     phone_websocketurl=Websocket URL
+    # 👽 phone_audio_mic_not_found -> No microphone device found
+    phone_audio_mic_not_found=?Δεν βρέθηκε συσκευή μικροφώνου
+    # 👽 phone_audio_settings -> Audio Settings
+    phone_audio_settings=?Ρυθμίσεις ήχου
+    # 👽 phone_audio_device_not_found -> Audio device not found
+    phone_audio_device_not_found=?Δεν βρέθηκε συσκευή ήχου
+    # 👽 phone_choose_device -> Choose device..
+    phone_choose_device=?Επιλέξτε συσκευή..
+    # 👽 phone_default_audio_device -> Using default audio device
+    phone_default_audio_device=?Χρήση προεπιλεγμένης συσκευής ήχου
+    # 👽 phone_hid_close_device -> Closed HID device
+    phone_hid_close_device=?Η συσκευή HID έκλεισε
+    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
+    phone_hid_close_device_err=?Παρουσιάστηκε σφάλμα κατά το κλείσιμο της συσκευής HID
+    # 👽 phone_hid_device_already_open -> HID device already open
+    phone_hid_device_already_open=?Η συσκευή HID είναι ήδη ανοιχτή
+    # 👽 phone_hid_device_connected -> HID device connected
+    phone_hid_device_connected=?Η συσκευή HID συνδέθηκε
+    # 👽 phone_hid_disconnected_device -> Disconnected HID device
+    phone_hid_disconnected_device=?Η συσκευή HID αποσυνδέθηκε
+    # 👽 phone_hid_open_device -> Select a HID device
+    phone_hid_open_device=?Επιλέξτε μια συσκευή HID
+    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
+    phone_hid_open_device_err=?Παρουσιάστηκε σφάλμα κατά το άνοιγμα της συσκευής HID
+    # 👽 phone_selected_audio_device -> Selected audio device
+    phone_selected_audio_device=?Επιλεγμένη συσκευή ήχου
+    # 👽 phone_selected_hid_device -> Selected HID device
+    phone_selected_hid_device=?Επιλεγμένη συσκευή HID
+    # 👽 phone_selected_mic_device -> Selected microphone device
+    phone_selected_mic_device=?Επιλεγμένη συσκευή μικροφώνου
+    # 👽 phone_selected_ringtone_device -> Selected ringtone device
+    phone_selected_ringtone_device=?Επιλεγμένη συσκευή ήχου κλήσης
+    # 👽 phone_set_audio_info -> Changed audio device
+    phone_set_audio_info=?Αλλαγή συσκευής ήχου
+    # 👽 phone_set_mic_info -> Changed mic device
+    phone_set_mic_info=?Αλλαγή συσκευής μικροφώνου
+    # 👽 phone_set_audio_err -> Error occurred while setting audio device
+    phone_set_audio_err=?Παρουσιάστηκε σφάλμα κατά τον ορισμό της συσκευής ήχου
+    # 👽 phone_ringtone -> Ringtone    
+    phone_ringtone=?Ήχος κλήσης
 
 ## Homepage
 
