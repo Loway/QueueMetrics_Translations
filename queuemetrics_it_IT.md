@@ -3079,6 +3079,8 @@ Description of security keys:
     phone_choose_device=?Scegli dispositivo...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Usa dispositivo audio predefinito
+    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    phone_hid_disconnect_device=?Disconnetti dispositivo HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Dispositivo HID chiuso
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device

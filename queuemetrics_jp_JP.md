@@ -5230,6 +5230,8 @@ Description of security keys:
     phone_choose_device=?デバイスを選択..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?デフォルトのオーディオデバイスを使用
+    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    phone_hid_disconnect_device=?HIDデバイスを切断
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HIDデバイスを閉じました
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device

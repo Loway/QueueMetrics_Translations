@@ -4941,6 +4941,8 @@ Description of security keys:
     phone_choose_device=?Vyberte zariadenie..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Používa sa predvolené zvukové zariadenie
+    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    ➡️ phone_hid_disconnect_device=
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Zatvorené HID zariadenie
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device

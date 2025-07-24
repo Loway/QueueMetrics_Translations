@@ -3364,6 +3364,8 @@ Description of security keys:
     phone_choose_device=?اختر جهازًا..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?باستخدام جهاز الصوت الافتراضي
+    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    phone_hid_disconnect_device=?افصل جهاز HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?تم إغلاق جهاز HID
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device

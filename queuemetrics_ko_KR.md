@@ -3370,6 +3370,8 @@ Description of security keys:
     phone_choose_device=?장치 선택..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?기본 오디오 장치 사용
+    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    phone_hid_disconnect_device=?HID 장치 연결 해제
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HID 장치가 닫혔습니다.
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
