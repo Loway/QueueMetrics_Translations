@@ -3072,6 +3072,7 @@ Description of security keys:
     phone_audio_device_not_found=Audio device not found
     phone_choose_device=Choose device..
     phone_default_audio_device=Using default audio device
+    phone_hid_disconnect_device=Disconnect HID device
     phone_hid_close_device=Closed HID device
     phone_hid_close_device_err=Error occurred while closing HID device
     phone_hid_device_already_open=HID device already open
