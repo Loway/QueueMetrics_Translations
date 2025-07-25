@@ -4087,7 +4087,7 @@ Description of security keys:
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?使用默认音频设备
     # 🔴 phone_hid_disconnect_device -> Disconnect HID device
-    ➡️ phone_hid_disconnect_device=
+    phone_hid_disconnect_device=?断开HID设备
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?已关闭HID设备
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device

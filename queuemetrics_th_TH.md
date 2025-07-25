@@ -4875,7 +4875,7 @@ Description of security keys:
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?ใช้อุปกรณ์เสียงเริ่มต้น
     # 🔴 phone_hid_disconnect_device -> Disconnect HID device
-    ➡️ phone_hid_disconnect_device=
+    phone_hid_disconnect_device=?ยกเลิกการเชื่อมต่ออุปกรณ์ HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?ปิดอุปกรณ์ HID แล้ว
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device

@@ -4738,7 +4738,7 @@ Description of security keys:
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Folosind dispozitivul audio implicit
     # 🔴 phone_hid_disconnect_device -> Disconnect HID device
-    ➡️ phone_hid_disconnect_device=
+    phone_hid_disconnect_device=?Deconectare dispozitiv HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Dispozitiv HID închis
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
