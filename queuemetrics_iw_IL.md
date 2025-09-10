@@ -3359,7 +3359,7 @@ Description of configuration properties
     # 👽 propedit_key_default_showSecondsOnTotalCalls_desc -> Show summary report call time in hhmmss format instead of hours
     propedit_key_default_showSecondsOnTotalCalls_desc=?הצג זמן שיחה בדוח סיכום בפורמט hhmmss במקום שעות
     # 👽 propedit_key_default_ssarMaxReportPeriod_desc -> Maximum period allowed for a Self Service Agent Report
-    propedit_key_default_ssarMaxReportPeriod_desc=?תקופה מקסימלית מותרת לדוח סוכן בשירות עצמי
+    propedit_key_default_ssarMaxReportPeriod_desc=?תקופה מקסימלית מותרת לדוח נציג בשירות עצמי
     # 👽 propedit_key_default_stripChannelNames_desc -> Do we want to strip channel names after the "-"?
     propedit_key_default_stripChannelNames_desc=?האם להסיר שמות ערוצים אחרי ה-"-"?
     # 👽 propedit_key_default_sync_mode_desc -> Choose default synchronizer mode
@@ -3367,11 +3367,11 @@ Description of configuration properties
     # 👽 propedit_key_default_sync_reader_desc -> Synchronizer Default Source Reader
     propedit_key_default_sync_reader_desc=?קורא מקור ברירת מחדל של סנכרון
     # 👽 propedit_key_default_useRawAgentSessions_desc -> Agent Sessions
-    propedit_key_default_useRawAgentSessions_desc=?הפעלות סוכן
+    propedit_key_default_useRawAgentSessions_desc=?הפעלות נציג
     # 👽 propedit_key_default_useRawAgentSessions_false_desc -> Show only agent sessions with at least one call
-    propedit_key_default_useRawAgentSessions_false_desc=?הצג רק הפעלות סוכן עם שיחה אחת לפחות
+    propedit_key_default_useRawAgentSessions_false_desc=?הצג רק הפעלות נציג עם שיחה אחת לפחות
     # 👽 propedit_key_default_useRawAgentSessions_true_desc -> Show all agent sessions
-    propedit_key_default_useRawAgentSessions_true_desc=?הצג את כל הפעלות הסוכן
+    propedit_key_default_useRawAgentSessions_true_desc=?הצג את כל הפעלות הנציג
     # 👽 propedit_key_default_viewTechInfo_desc -> Tech Info and DBTest visibility
     propedit_key_default_viewTechInfo_desc=?נראות מידע טכני ובדיקת מסד נתונים
     # 👽 propedit_key_default_webloaderpbx_desc -> Activate WebLoaderPBX (UniLoader)
@@ -3381,15 +3381,15 @@ Description of configuration properties
     # 👽 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
     propedit_key_dialtone_src=?צליל חיוג של הטלפון הרך (URL)
     # 👽 propedit_key_directami_agent_desc -> The way an agent channel is supposed to be
-    propedit_key_directami_agent_desc=?איך ערוץ סוכן אמור להיות
+    propedit_key_directami_agent_desc=?איך ערוץ נציג אמור להיות
     # 👽 propedit_key_directami_cmdseparator_desc -> The separator used for parameters in your Asterisk version. Defaults to comma (",") and should be changed to pipe ("|") for very old Asterisk systems (pre-1.8)
     propedit_key_directami_cmdseparator_desc=?המפריד המשמש לפרמטרים בגרסת Asterisk שלך. ברירת המחדל היא פסיק (",") ויש לשנות ל-pipe ("|") עבור מערכות Asterisk ישנות מאוד (לפני 1.8)
     # 👽 propedit_key_directami_extension_desc -> The way an agent extension channel is supposed to be
-    propedit_key_directami_extension_desc=?איך ערוץ שלוחת סוכן אמור להיות
+    propedit_key_directami_extension_desc=?איך ערוץ שלוחת נציג אמור להיות
     # 👽 propedit_key_directami_localext_desc -> The channel used for chanspy
     propedit_key_directami_localext_desc=?הערוץ המשמש ל-chanspy
     # 👽 propedit_key_directami_optimizedagentchannel_desc -> Is the format of the agent channel when it is live and you want to spy on it. If blank, uses the same physical agent channel, based on the agent code or the extension code  depening on whether you are in hotdesking mode or not. Defaults to blank.
-    propedit_key_directami_optimizedagentchannel_desc=?פורמט ערוץ סוכן כשהוא פעיל וברצונך לצותת לו. אם ריק, משתמש באותו ערוץ סוכן פיזי, מבוסס על קוד הסוכן או קוד השלוחה, תלוי אם אתה במצב HotDesking או לא. ברירת המחדל ריקה.
+    propedit_key_directami_optimizedagentchannel_desc=?פורמט ערוץ נציג כשהוא פעיל וברצונך לצותת לו. אם ריק, משתמש באותו ערוץ נציג פיזי, מבוסס על קוד הנציג או קוד השלוחה, תלוי אם אתה במצב HotDesking או לא. ברירת המחדל ריקה.
     # 👽 propedit_key_directami_outboundenabled_desc -> Whether outbound dialing is enabled
     propedit_key_directami_outboundenabled_desc=?האם חיוג יוצא מופעל
     # 👽 propedit_key_directami_outboundstanza_desc -> the point in the dialplan that should be called when doing outbound
@@ -3397,7 +3397,7 @@ Description of configuration properties
     # 👽 propedit_key_directami_spyoptions_desc -> The options you want to use for the Asterisk application ChanSpy when listening to calls. By changing these options, you can have whispers or barge instead of plain spy.
     propedit_key_directami_spyoptions_desc=?האפשרויות שברצונך להשתמש בהן עבור יישום Asterisk ChanSpy בעת האזנה לשיחות. על ידי שינוי אפשרויות אלו, ניתן ללחוש או לפרוץ במקום ציתות רגיל.
     # 👽 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
-    propedit_key_directami_stateinterface_desc=?ממשק מצב עבור הסוכן שלנו. אם ריק, לא מתווסף.
+    propedit_key_directami_stateinterface_desc=?ממשק מצב עבור הנציג שלנו. אם ריק, לא מתווסף.
     # 👽 propedit_key_directami_trackerdialout_desc -> The extension and context we connect to when dialing out
     propedit_key_directami_trackerdialout_desc=?השלוחה וההקשר שאנו מתחברים אליהם בעת חיוג יוצא
     # 👽 propedit_key_directami_transfer_desc -> The transfer destination, in the form ext@context
@@ -3419,11 +3419,11 @@ Description of configuration properties
     # 👽 propedit_key_enswitch_lookback_desc -> For how long a recently-closed call should be searched on CDRs (default: 7200 seconds)
     propedit_key_enswitch_lookback_desc=?כמה זמן יש לחפש שיחה שנסגרה לאחרונה ב-CDRs (ברירת מחדל: 7200 שניות)
     # 👽 propedit_key_enswitch_qpmain_desc -> The queue priority for an agent being logged in with priority MAIN (default: 8)
-    propedit_key_enswitch_qpmain_desc=?עדיפות תור עבור סוכן מחובר בעדיפות MAIN (ברירת מחדל: 8)
+    propedit_key_enswitch_qpmain_desc=?עדיפות תור עבור נציג מחובר בעדיפות MAIN (ברירת מחדל: 8)
     # 👽 propedit_key_enswitch_qpspill_desc -> The queue priority for an agent being logged in with priority SPILL (default: 4)
-    propedit_key_enswitch_qpspill_desc=?עדיפות תור עבור סוכן מחובר בעדיפות SPILL (ברירת מחדל: 4)
+    propedit_key_enswitch_qpspill_desc=?עדיפות תור עבור נציג מחובר בעדיפות SPILL (ברירת מחדל: 4)
     # 👽 propedit_key_enswitch_qpwrap_desc -> The queue priority for an agent being logged in with priority WRAP (default: 6)
-    propedit_key_enswitch_qpwrap_desc=?עדיפות תור עבור סוכן מחובר בעדיפות WRAP (ברירת מחדל: 6)
+    propedit_key_enswitch_qpwrap_desc=?עדיפות תור עבור נציג מחובר בעדיפות WRAP (ברירת מחדל: 6)
     # 👽 propedit_key_enswitch_spyprefix_desc -> The default prefix to use to initiate a chanspy (Default: *91)
     propedit_key_enswitch_spyprefix_desc=?קידומת ברירת המחדל לשימוש ליזום chanspy (ברירת מחדל: *91)
     # 👽 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
@@ -3441,7 +3441,7 @@ Description of configuration properties
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
     propedit_key_phone_iceservers=?רשימת שרתי ICE לשימוש.
     # 👽 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
-    propedit_key_phone_maxsessions=?מספר מקס. של הפעלות עבור טלפון רך בדף סוכן
+    propedit_key_phone_maxsessions=?מספר מקס. של הפעלות עבור טלפון רך בדף נציג
     # 👽 propedit_key_phone_websocketurl -> Web Socket URL for the connection.
     propedit_key_phone_websocketurl=?כתובת URL של Web Socket לחיבור.
     # 👽 propedit_key_platform_dialer_desc -> Choose the type of dialer to be used
@@ -3459,7 +3459,7 @@ Description of configuration properties
     # 👽 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
     propedit_key_platform_pbx_desc=?בחר את סוג פלטפורמת ה-PBX לשימוש.
     # 👽 propedit_key_realtime_absolutePauseTimes_desc -> Show absolute agent logon times on the RT page?
-    propedit_key_realtime_absolutePauseTimes_desc=?הצג זמני התחברות סוכנים מוחלטים בדף זמן אמת?
+    propedit_key_realtime_absolutePauseTimes_desc=?הצג זמני התחברות נציגים מוחלטים בדף זמן אמת?
     # 👽 propedit_key_realtime_absolutePauseTimes_fase_desc -> Relative times
     propedit_key_realtime_absolutePauseTimes_fase_desc=?זמנים יחסיים
     # 👽 propedit_key_realtime_absolutePauseTimes_true_desc -> Absolute times
@@ -3467,13 +3467,13 @@ Description of configuration properties
     # 👽 propedit_key_realtime_agentPausedOnLogin_desc -> When logging, pause with the following code
     propedit_key_realtime_agentPausedOnLogin_desc=?בעת כניסה, השהה עם הקוד הבא
     # 👽 propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc -> Agent and outcome selector status
-    propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc=?מצב בורר סוכן ותוצאה
+    propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc=?מצב בורר נציג ותוצאה
     # 👽 propedit_key_realtime_agent_and_outcome_invisible_desc -> Agent and outcome panel selector visibility
-    propedit_key_realtime_agent_and_outcome_invisible_desc=?נראות בורר לוח סוכן ותוצאה
+    propedit_key_realtime_agent_and_outcome_invisible_desc=?נראות בורר לוח נציג ותוצאה
     # 👽 propedit_key_realtime_agent_autoopenurl_desc -> Open an URL each new taken call
     propedit_key_realtime_agent_autoopenurl_desc=?פתח כתובת URL בכל שיחה נכנסת חדשה
     # 👽 propedit_key_realtime_agent_show_agaw_desc -> Show AGAW information on the (old) realtime agent page
-    propedit_key_realtime_agent_show_agaw_desc=?הצג מידע AGAW בדף הסוכן (הישן) בזמן אמת
+    propedit_key_realtime_agent_show_agaw_desc=?הצג מידע AGAW בדף הנציג (הישן) בזמן אמת
     # 👽 propedit_key_realtime_agent_web1_label -> Label 1 shown in the Icon page menu
     propedit_key_realtime_agent_web1_label=?תווית 1 המוצגת בתפריט דף הסמל
     # 👽 propedit_key_realtime_agent_web1_url -> URL 1  (can have dynamic tags, see user's manual)
@@ -3483,9 +3483,9 @@ Description of configuration properties
     # 👽 propedit_key_realtime_agent_web2_url -> URL 2 (can have dynamic tags, see user's manual)
     propedit_key_realtime_agent_web2_url=?כתובת URL 2 (יכול לכלול תגיות דינמיות, ראה מדריך למשתמש)
     # 👽 propedit_key_realtime_agents_invisible_buttonEnabled_desc -> Agents panel button status
-    propedit_key_realtime_agents_invisible_buttonEnabled_desc=?מצב כפתור לוח סוכנים
+    propedit_key_realtime_agents_invisible_buttonEnabled_desc=?מצב כפתור לוח נציגים
     # 👽 propedit_key_realtime_agents_invisible_desc -> Agents panel default visibility
-    propedit_key_realtime_agents_invisible_desc=?נראות ברירת מחדל של לוח סוכנים
+    propedit_key_realtime_agents_invisible_desc=?נראות ברירת מחדל של לוח נציגים
     # 👽 propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc -> Aggregated by queue selector status
     propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc=?מצב בורר מקובץ לפי תור
     # 👽 propedit_key_realtime_aggr_by_queue_invisible_desc -> Aggregated by queue panel selector visibility
@@ -3513,7 +3513,7 @@ Description of configuration properties
     # 👽 propedit_key_realtime_calls_invisible_desc -> Calls panel selector visibility
     propedit_key_realtime_calls_invisible_desc=?נראות בורר לוח שיחות
     # 👽 propedit_key_realtime_dynamicLoginQueues_desc -> Queues the agent can select when logging on
-    propedit_key_realtime_dynamicLoginQueues_desc=?תורים שהסוכן יכול לבחור בעת כניסה
+    propedit_key_realtime_dynamicLoginQueues_desc=?תורים שהנציג יכול לבחור בעת כניסה
     # 👽 propedit_key_realtime_hideExportButtons_desc -> Export buttons visibility on the Realtime page
     propedit_key_realtime_hideExportButtons_desc=?נראות כפתורי ייצוא בדף זמן אמת
     # 👽 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
@@ -3529,11 +3529,11 @@ Description of configuration properties
     # 👽 propedit_key_realtime_relative_pause_time -> Show ongoing pause times.
     propedit_key_realtime_relative_pause_time=?הצג זמני השהיה מתמשכים.
     # 👽 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
-    propedit_key_realtime_rememberLastExtension_desc=?זכור שלוחה אחרונה של סוכן
+    propedit_key_realtime_rememberLastExtension_desc=?זכור שלוחה אחרונה של נציג
     # 👽 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
-    propedit_key_realtime_showAgentPriorityReports_desc=?הצג רמת עדיפות סוכן בדוחות.
+    propedit_key_realtime_showAgentPriorityReports_desc=?הצג רמת עדיפות נציג בדוחות.
     # 👽 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
-    propedit_key_realtime_showAgentPriority_desc=?הצג את עדיפות הסוכן בתורים ב"פאנל התחברות לתור".
+    propedit_key_realtime_showAgentPriority_desc=?הצג את עדיפות הנציג בתורים ב"פאנל התחברות לתור".
     # 👽 propedit_key_realtime_show_incorrect_queue_sets_desc -> Should differences to the expected queue work set be shown?
     propedit_key_realtime_show_incorrect_queue_sets_desc=?האם להציג הבדלים למערך העבודה הצפוי בתור?
     # 👽 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
@@ -3714,15 +3714,15 @@ Description of configuration properties
 Description of security keys:
 
     # 👽 keydesc_agaw -> User can access AGAW facades (for agents).
-    keydesc_agaw=?משתמש יכול לגשת לחזיתות AGAW (לסוכנים).
+    keydesc_agaw=?משתמש יכול לגשת לחזיתות AGAW (לנציגים).
     # 👽 keydesc_agaw_adm -> User can access the AGAW administration screens
     keydesc_agaw_adm=?משתמש יכול לגשת למסכי ניהול AGAW
     # 👽 keydesc_agaw_rep -> User can access the AGAW supervisor screen
     keydesc_agaw_rep=?משתמש יכול לגשת למסך מנהל AGAW
     # 👽 keydesc_agent -> User is an agent and sees agent page
-    keydesc_agent=?משתמש הוא סוכן ורואה דף סוכן
+    keydesc_agent=?משתמש הוא נציג ורואה דף נציג
     # 👽 keydesc_agrep -> User can filter reports by agent
-    keydesc_agrep=?משתמש יכול לסנן דוחות לפי סוכן
+    keydesc_agrep=?משתמש יכול לסנן דוחות לפי נציג
     # 👽 keydesc_autoanswer_phone -> User can toggle Auto Answer on the softphone
     keydesc_autoanswer_phone=?משתמש יכול להחליף מצב מענה אוטומטי בטלפון הרך
     # 👽 keydesc_batch_add -> Can add calls to an open batch
@@ -3734,7 +3734,7 @@ Description of security keys:
     # 👽 keydesc_batch_view -> User can see audio export batches
     keydesc_batch_view=?משתמש יכול לראות קבוצות ייצוא אודיו
     # 👽 keydesc_bro_msg -> User can send broadcast messages to agents
-    keydesc_bro_msg=?משתמש יכול לשלוח הודעות שידור לסוכנים
+    keydesc_bro_msg=?משתמש יכול לשלוח הודעות שידור לנציגים
     # 👽 keydesc_callmonitor -> User can listen to a recorded call
     keydesc_callmonitor=?משתמש יכול להאזין לשיחה מוקלטת
     # 👽 keydesc_callmonitor_addtags -> User can add markers to recorded calls
@@ -3778,13 +3778,13 @@ Description of security keys:
     # 👽 keydesc_mon_barge -> The user can barge-in on a real-time call
     keydesc_mon_barge=?המשתמש יכול להתפרץ לשיחה בזמן אמת
     # 👽 keydesc_mon_im -> User can start an IM chat to an agent
-    keydesc_mon_im=?משתמש יכול להתחיל צ'אט IM לסוכן
+    keydesc_mon_im=?משתמש יכול להתחיל צ'אט IM לנציג
     # 👽 keydesc_mon_vnc -> The user can monitor an agent’s screen via VNC
-    keydesc_mon_vnc=?המשתמש יכול לנטר את מסך הסוכן באמצעות VNC
+    keydesc_mon_vnc=?המשתמש יכול לנטר את מסך הנציג באמצעות VNC
     # 👽 keydesc_mon_whisper -> The user can whisper on a real-time call
     keydesc_mon_whisper=?המשתמש יכול ללחוש לשיחה בזמן אמת
     # 👽 keydesc_newagentpage -> Turns on the new Icon Agent page
-    keydesc_newagentpage=?מפעיל את דף סוכן הסמל החדש
+    keydesc_newagentpage=?מפעיל את דף נציג הסמל החדש
     # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
     keydesc_nodialout=?למשתמש אסור לבצע שיחות יוצאות
     # 👽 keydesc_payroll -> User can check the payroll page
@@ -3798,9 +3798,9 @@ Description of security keys:
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?מאפשר גישה לדף הבודק ולסטטיסטיקות קשורות
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
-    keydesc_qa_perf_rules=?משתמש יכול להגדיר כללים למעקב ביצועי סוכן
+    keydesc_qa_perf_rules=?משתמש יכול להגדיר כללים למעקב ביצועי נציג
     # 👽 keydesc_qa_perf_track -> Can run Agent Performance Tracking
-    keydesc_qa_perf_track=?יכול להפעיל מעקב ביצועי סוכן
+    keydesc_qa_perf_track=?יכול להפעיל מעקב ביצועי נציג
     # 👽 keydesc_qa_remove -> User can delete Quality Assessment reports
     keydesc_qa_remove=?משתמש יכול למחוק דוחות הערכת איכות
     # 👽 keydesc_qa_replace -> User can edit an already submitted Quality Assessment data
@@ -3818,25 +3818,25 @@ Description of security keys:
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
     keydesc_robot=?משתמש רשאי להפעיל עסקאות ROBOT.
     # 👽 keydesc_rt_addmember -> User can add agents to a queue from the realtime page
-    keydesc_rt_addmember=?משתמש יכול להוסיף סוכנים לתור מדף זמן אמת
+    keydesc_rt_addmember=?משתמש יכול להוסיף נציגים לתור מדף זמן אמת
     # 👽 keydesc_rt_hangupcall -> User can hangup a live call from the realtime page
     keydesc_rt_hangupcall=?משתמש יכול לנתק שיחה פעילה מדף זמן אמת
     # 👽 keydesc_rt_pauseagent -> User can pause agents from the realtime page
-    keydesc_rt_pauseagent=?משתמש יכול להשהות סוכנים מדף זמן אמת
+    keydesc_rt_pauseagent=?משתמש יכול להשהות נציגים מדף זמן אמת
     # 👽 keydesc_rt_removemember -> User can remove agents from a queue from the realtime page
-    keydesc_rt_removemember=?משתמש יכול להסיר סוכנים מתור מדף זמן אמת
+    keydesc_rt_removemember=?משתמש יכול להסיר נציגים מתור מדף זמן אמת
     # 👽 keydesc_rt_sendtextagent -> User can send a SMS to the agent’s phone from the realtime agent
-    keydesc_rt_sendtextagent=?משתמש יכול לשלוח SMS לטלפון הסוכן מדף סוכן זמן אמת
+    keydesc_rt_sendtextagent=?משתמש יכול לשלוח SMS לטלפון הנציג מדף נציג זמן אמת
     # 👽 keydesc_rt_transfercall -> User can transfer a call to a specific extension from the realtime page
     keydesc_rt_transfercall=?משתמש יכול להעביר שיחה לשלוחה ספציפית מדף זמן אמת
     # 👽 keydesc_rt_unpauseagent -> User can unpause agents from the realtime page
-    keydesc_rt_unpauseagent=?משתמש יכול לבטל השהיה לסוכנים מדף זמן אמת
+    keydesc_rt_unpauseagent=?משתמש יכול לבטל השהיה לנציגים מדף זמן אמת
     # 👽 keydesc_squery_add -> User can save reports as homepage links
     keydesc_squery_add=?משתמש יכול לשמור דוחות כקישורי דף הבית
     # 👽 keydesc_squery_forall -> User can save public reports
     keydesc_squery_forall=?משתמש יכול לשמור דוחות ציבוריים
     # 👽 keydesc_ssareport -> Enable Self Service reporting for an Agent
-    keydesc_ssareport=?אפשר דיווח בשירות עצמי לסוכן
+    keydesc_ssareport=?אפשר דיווח בשירות עצמי לנציג
     # 👽 keydesc_supervisor -> User is a supervisor and can run the supervisor’s report
     keydesc_supervisor=?משתמש הוא מפקח ויכול להפעיל את דוח המפקח
     # 👽 keydesc_tasks -> User can see/edit tasks he sent and he received
@@ -3850,9 +3850,9 @@ Description of security keys:
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?מפתח זה חייב להיות מוחזק על ידי כל משתמש חוקי
     # 👽 keydesc_usr_agent -> User can edit agents
-    keydesc_usr_agent=?משתמש יכול לערוך סוכנים
+    keydesc_usr_agent=?משתמש יכול לערוך נציגים
     # 👽 keydesc_usr_agroups -> User can edit custom agent groups
-    keydesc_usr_agroups=?משתמש יכול לערוך קבוצות סוכנים מותאמות אישית
+    keydesc_usr_agroups=?משתמש יכול לערוך קבוצות נציגים מותאמות אישית
     # 👽 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
     keydesc_usr_amo_edit=?משתמש יכול לערוך קמפיינים של AMO
     # 👽 keydesc_usr_calltag -> User can edit call tags
@@ -3900,7 +3900,7 @@ Description of security keys:
     # 👽 keydesc_usr_rtlive -> User can access the Live stats
     keydesc_usr_rtlive=?משתמש יכול לגשת לסטטיסטיקות חיות
     # 👽 keydesc_usr_skills -> User can edit agent skills
-    keydesc_usr_skills=?משתמש יכול לערוך מיומנויות סוכן
+    keydesc_usr_skills=?משתמש יכול לערוך מיומנויות נציג
     # 👽 keydesc_usr_syslog -> User can view the system’s audit log
     keydesc_usr_syslog=?משתמש יכול לצפות ביומן הביקורת של המערכת
     # 👽 keydesc_usradmin -> User can edit other users and classes
@@ -4038,11 +4038,11 @@ Description of security keys:
 
 
     # 👽 tsk_traincoach_agent -> Agent
-    tsk_traincoach_agent=?סוכן
+    tsk_traincoach_agent=?נציג
     # 👽 tsk_traincoach_agentcode -> Agent Code
-    tsk_traincoach_agentcode=?קוד סוכן
+    tsk_traincoach_agentcode=?קוד נציג
     # 👽 tsk_traincoach_agentgroup -> Agent Group
-    tsk_traincoach_agentgroup=?קבוצת סוכנים
+    tsk_traincoach_agentgroup=?קבוצת נציגים
     # 👽 tsk_traincoach_agentname -> Name
     tsk_traincoach_agentname=?שם
     # 👽 tsk_traincoach_cbt_button -> Send CBT
@@ -4062,13 +4062,13 @@ Description of security keys:
     # 👽 tsk_traincoach_chc_title -> Title
     tsk_traincoach_chc_title=?כותרת
     # 👽 tsk_traincoach_comment -> Note for agent
-    tsk_traincoach_comment=?הערה לסוכן
+    tsk_traincoach_comment=?הערה לנציג
     # 👽 tsk_traincoach_end_date -> Expires on
     tsk_traincoach_end_date=?תוקף ב-
     # 👽 tsk_traincoach_filteragent -> Search Agent by
-    tsk_traincoach_filteragent=?חפש סוכן לפי
+    tsk_traincoach_filteragent=?חפש נציג לפי
     # 👽 tsk_traincoach_help -> Select the agents then complete the form on the right side
-    tsk_traincoach_help=?בחר סוכנים ולאחר מכן מלא את הטופס בצד ימין
+    tsk_traincoach_help=?בחר נציגים ולאחר מכן מלא את הטופס בצד ימין
     # 👽 tsk_traincoach_location -> Location
     tsk_traincoach_location=?מיקום
     # 👽 tsk_traincoach_metsent -> Num of Coaching Sent
@@ -4095,7 +4095,7 @@ Description of security keys:
     # 👽 phone_advanced_settings -> Advanced Settings
     phone_advanced_settings=?הגדרות מתקדמות
     # 👽 phone_agent -> Agent
-    phone_agent=?סוכן
+    phone_agent=?נציג
     # 👽 phone_anonymous -> Anonymous
     phone_anonymous=?אנונימי
     # 👽 phone_answer -> Answer
@@ -4246,7 +4246,7 @@ Description of security keys:
     # 👽 home_add_infobox -> Add InfoBox
     home_add_infobox=?הוסף תיבת מידע
     # 👽 home_configuration_agents -> Agents
-    home_configuration_agents=?סוכנים
+    home_configuration_agents=?נציגים
     # 👽 home_configuration_cases -> Cases
     home_configuration_cases=?מקרים
     # 👽 home_configuration_cbt -> CBTs
@@ -4262,7 +4262,7 @@ Description of security keys:
     # 👽 home_configuration_features -> Call Features
     home_configuration_features=?תכונות שיחות
     # 👽 home_configuration_groups -> Agent Groups
-    home_configuration_groups=?קבוצות סוכנים
+    home_configuration_groups=?קבוצות נציגים
     # 👽 home_configuration_ivr -> IVR Selections
     home_configuration_ivr=?בחירות IVR
     # 👽 home_configuration_known_numbers -> Known Numbers
@@ -4282,7 +4282,7 @@ Description of security keys:
     # 👽 home_configuration_scheduled_jobs -> Edit Scheduled Jobs
     home_configuration_scheduled_jobs=?ערוך משימות מתוזמנות
     # 👽 home_configuration_skills -> Agent Skills
-    home_configuration_skills=?מיומנויות סוכן
+    home_configuration_skills=?מיומנויות נציג
     # 👽 home_configuration_subtitle -> Edit QueueMetrics Configuration Objects
     home_configuration_subtitle=?ערוך אובייקטי תצורה של QueueMetrics
     # 👽 home_configuration_tags -> Call Tags
@@ -4314,7 +4314,7 @@ Description of security keys:
     # 👽 home_error_save_prefs -> Error Saving InfoBox Data
     home_error_save_prefs=?שגיאה בשמירת נתוני תיבת מידע
     # 👽 home_icon_subtitle -> Icon Agent Page
-    home_icon_subtitle=?דף סוכן אייקון
+    home_icon_subtitle=?דף נציג אייקון
     # 👽 home_icon_title -> Icon
     home_icon_title=?אייקון
     # 👽 home_infobox_close -> Close
@@ -4338,9 +4338,9 @@ Description of security keys:
     # 👽 home_qa_title -> QA Reports
     home_qa_title=?דוחות QA
     # 👽 home_qap_subtitle -> Queuemetrics Agent Interface
-    home_qap_subtitle=?ממשק סוכן של Queuemetrics
+    home_qap_subtitle=?ממשק נציג של Queuemetrics
     # 👽 home_qap_title -> Agent Page
-    home_qap_title=?דף סוכן
+    home_qap_title=?דף נציג
     # 👽 home_realtime_subtitle -> Comprehensive view of Live calls
     home_realtime_subtitle=?תצוגה מקיפה של שיחות חיות
     # 👽 home_realtime_title -> Realtime
@@ -4356,7 +4356,7 @@ Description of security keys:
     # 👽 home_select_infobox -> Check the InfoBox you want to see in the Home Page
     home_select_infobox=?סמן את תיבת המידע שברצונך לראות בדף הבית
     # 👽 home_ssar_subtitle -> Self Service Agent Reports
-    home_ssar_subtitle=?דוחות סוכן בשירות עצמי
+    home_ssar_subtitle=?דוחות נציג בשירות עצמי
     # 👽 home_ssar_title -> SSAR
     home_ssar_title=?SSAR
     # 👽 home_synchronizer_subtitle -> QueueMetrics Automatic Setup
@@ -4364,7 +4364,7 @@ Description of security keys:
     # 👽 home_synchronizer_title -> Synchronizer
     home_synchronizer_title=?סנכרון
     # 👽 home_sysadmin_agaw -> Agent Awareness Manager
-    home_sysadmin_agaw=?מנהל מודעות סוכן
+    home_sysadmin_agaw=?מנהל מודעות נציג
     # 👽 home_sysadmin_audit -> View Audit Logs
     home_sysadmin_audit=?הצג יומני ביקורת
     # 👽 home_sysadmin_diagnostic_tools -> System diagnostic tools
@@ -4490,7 +4490,7 @@ Other items
     # 👽 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
     amo_upload_numbers_success=?מספרי AMO הועלו בהצלחה.
     # 👽 at_invalid_agent -> Invalid Agent
-    at_invalid_agent=?סוכן לא חוקי
+    at_invalid_agent=?נציג לא חוקי
     avg_time_decor_days=ימים
     bdcmsg_ForAgent=נציג
     bdcmsg_Group=קבוצה
@@ -4527,7 +4527,7 @@ Other items
     decorator_agentpaused=בהפסקה
     decorator_queue_sla=SLA
     # 👽 default.show_agent_priority_reports -> Show agent priority level in reports.
-    default.show_agent_priority_reports=?הצג רמת עדיפות סוכן בדוחות.
+    default.show_agent_priority_reports=?הצג רמת עדיפות נציג בדוחות.
     # 👽 dlr_last_pull -> Last Pull
     dlr_last_pull=?משיכה אחרונה
     # 👽 dlr_last_pull_user -> Pull User
@@ -4583,9 +4583,9 @@ Other items
     # 👽 editor_show_users -> Show Users
     editor_show_users=?הצג משתמשים
     # 👽 err_super_multiple -> You cannot filter by  agent or location when running Supervisor reports
-    err_super_multiple=?לא ניתן לסנן לפי סוכן או מיקום בעת הפעלת דוחות מנהל
+    err_super_multiple=?לא ניתן לסנן לפי נציג או מיקום בעת הפעלת דוחות מנהל
     # 👽 err_super_noagents -> Current user supervises no agents.
-    err_super_noagents=?למשתמש הנוכחי אין סוכנים בפיקוח.
+    err_super_noagents=?למשתמש הנוכחי אין נציגים בפיקוח.
     # 👽 expc_exportcallist -> Call List
     expc_exportcallist=?רשימת שיחות
     # 👽 expc_exportcalls -> Job
@@ -4681,7 +4681,7 @@ Other items
     # 👽 ko_sho_t -> Short.Lst.
     ko_sho_t=?קצרות.אחרון.
     # 👽 ko_succ_a -> Agent
-    ko_succ_a=?סוכן
+    ko_succ_a=?נציג
     # 👽 ko_succ_n -> Successful
     ko_succ_n=?מוצלחות
     # 👽 ko_succ_q -> Succ.Q.
@@ -4717,7 +4717,7 @@ Other items
     # 👽 licence_licenced_to -> Licenced to:
     licence_licenced_to=?ברישיון ל:
     # 👽 licence_maximum_licenced_agents -> Maximum licenced agents:
-    licence_maximum_licenced_agents=?מקסימום סוכנים ברישיון:
+    licence_maximum_licenced_agents=?מקסימום נציגים ברישיון:
     # 👽 licence_show_eula -> Show end-user licence agreement
     licence_show_eula=?הצג הסכם רישיון למשתמש קצה
     # 👽 licence_software_release -> Software release:
@@ -4893,9 +4893,9 @@ Other items
     # 👽 prl_addcomment -> Add
     prl_addcomment=?הוסף
     # 👽 prl_agent_name -> Agent name
-    prl_agent_name=?שם סוכן
+    prl_agent_name=?שם נציג
     # 👽 prl_agentgroup -> Agent group:
-    prl_agentgroup=?קבוצת סוכן:
+    prl_agentgroup=?קבוצת נציג:
     # 👽 prl_change -> Change
     prl_change=?שנה
     # 👽 prl_delcomment -> Delete this note
@@ -4921,15 +4921,15 @@ Other items
     # 👽 prl_export_now -> Export now
     prl_export_now=?ייצא עכשיו
     # 👽 prl_header_agentcode -> Agent code
-    prl_header_agentcode=?קוד סוכן
+    prl_header_agentcode=?קוד נציג
     # 👽 prl_header_agentdetail -> Agent:
-    prl_header_agentdetail=?סוכן:
+    prl_header_agentdetail=?נציג:
     # 👽 prl_header_agentgroup -> Agent group
-    prl_header_agentgroup=?קבוצת סוכן
+    prl_header_agentgroup=?קבוצת נציג
     # 👽 prl_header_agentlocation -> Agent location
-    prl_header_agentlocation=?מיקום סוכן
+    prl_header_agentlocation=?מיקום נציג
     # 👽 prl_header_agentname -> Agent name
-    prl_header_agentname=?שם סוכן
+    prl_header_agentname=?שם נציג
     # 👽 prl_header_endperiod -> Period to:
     prl_header_endperiod=?תקופה עד:
     # 👽 prl_header_filteredby -> Filtered by:
@@ -4971,9 +4971,9 @@ Other items
     # 👽 prl_notabletochangepause -> You're not allowed to change a not billable pause to a billable pause.
     prl_notabletochangepause=?אינך רשאי לשנות הפסקה שאינה ניתנת לחיוב להפסקה ניתנת לחיוב.
     # 👽 prl_notabletogrow -> You're not allowed to grow an agent session.
-    prl_notabletogrow=?אינך רשאי להאריך סשן סוכן.
+    prl_notabletogrow=?אינך רשאי להאריך סשן נציג.
     # 👽 prl_notabletogrowpause -> You're not allowed to grow a billable agent pause.
-    prl_notabletogrowpause=?אינך רשאי להאריך הפסקת סוכן ניתנת לחיוב.
+    prl_notabletogrowpause=?אינך רשאי להאריך הפסקת נציג ניתנת לחיוב.
     # 👽 prl_note_date -> Date
     prl_note_date=?תאריך
     # 👽 prl_note_feedback -> Notes
@@ -5001,7 +5001,7 @@ Other items
     # 👽 prl_pauseeditorpage_pausecode_title -> Change pause code
     prl_pauseeditorpage_pausecode_title=?שנה קוד הפסקה
     # 👽 prl_pauseeditorpage_title -> Agent pause editor
-    prl_pauseeditorpage_title=?עורך הפסקות סוכן
+    prl_pauseeditorpage_title=?עורך הפסקות נציג
     # 👽 prl_pauseend -> Current pause end
     prl_pauseend=?סיום הפסקה נוכחית
     # 👽 prl_pausestart -> Current pause start
@@ -5015,7 +5015,7 @@ Other items
     # 👽 prl_searchpage_title -> Payroll extraction
     prl_searchpage_title=?חילוץ שכר
     # 👽 prl_session_available -> Available agents
-    prl_session_available=?סוכנים זמינים
+    prl_session_available=?נציגים זמינים
     # 👽 prl_session_detail -> Session detail
     prl_session_detail=?פרטי סשן
     # 👽 prl_session_duration -> Duration
@@ -5033,7 +5033,7 @@ Other items
     # 👽 prl_sessiondetailpage_title -> Payroll extraction for
     prl_sessiondetailpage_title=?חילוץ שכר עבור
     # 👽 prl_sessioneditorpage_title -> Agent session editor
-    prl_sessioneditorpage_title=?עורך סשני סוכן
+    prl_sessioneditorpage_title=?עורך סשני נציג
     # 👽 prl_sessionend -> Current session end
     prl_sessionend=?סיום סשן נוכחי
     # 👽 prl_sessionstart -> Current session start
@@ -5077,7 +5077,7 @@ Other items
     # 👽 qagrader_addedbygrtype -> Added by
     qagrader_addedbygrtype=?נוסף על ידי
     # 👽 qagrader_agent -> Agent
-    qagrader_agent=?סוכן
+    qagrader_agent=?נציג
     # 👽 qagrader_audio -> Audio
     qagrader_audio=?שמע
     # 👽 qagrader_caller -> Caller
@@ -5131,17 +5131,17 @@ Other items
     # 👽 qap_addmember_selected -> Join selected queues.
     qap_addmember_selected=?הצטרף לתורים שנבחרו.
     # 👽 qap_agent_code -> Agent Code
-    qap_agent_code=?קוד סוכן
+    qap_agent_code=?קוד נציג
     # 👽 qap_agent_dialout_error -> Error while performing Agent Dialout.
-    qap_agent_dialout_error=?שגיאה בביצוע חיוג סוכן.
+    qap_agent_dialout_error=?שגיאה בביצוע חיוג נציג.
     # 👽 qap_agent_extension -> Agent Extension
-    qap_agent_extension=?שלוחת סוכן
+    qap_agent_extension=?שלוחת נציג
     # 👽 qap_agent_notifications_error -> Error while fetching agent notifications.
-    qap_agent_notifications_error=?שגיאה באחזור התראות סוכן.
+    qap_agent_notifications_error=?שגיאה באחזור התראות נציג.
     # 👽 qap_agent_settings_error -> Error while fetching agent settings.
-    qap_agent_settings_error=?שגיאה באחזור הגדרות סוכן.
+    qap_agent_settings_error=?שגיאה באחזור הגדרות נציג.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
-    qap_agent_status_error=?שגיאה באחזור סטטוס סוכן.
+    qap_agent_status_error=?שגיאה באחזור סטטוס נציג.
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5325,7 +5325,7 @@ Other items
     # 👽 qap_diff_leave -> Queues left
     qap_diff_leave=?תורים שעזבו
     # 👽 qap_diff_paused -> Agent Paused
-    qap_diff_paused=?סוכן מושהה
+    qap_diff_paused=?נציג מושהה
     # 👽 qap_edit_cases -> Edit Case
     qap_edit_cases=?ערוך מקרה
     # 👽 qap_edit_client -> Edit Client
@@ -5591,11 +5591,11 @@ Other items
     # 👽 qap_you_have -> You have
     qap_you_have=?יש לך
     # 👽 qatarget_agentgroup -> Agent Group
-    qatarget_agentgroup=?קבוצת סוכן
+    qatarget_agentgroup=?קבוצת נציג
     # 👽 qatarget_allcalls -> All calls
     qatarget_allcalls=?כל השיחות
     # 👽 qatarget_individual_agents -> Agent
-    qatarget_individual_agents=?סוכן
+    qatarget_individual_agents=?נציג
     # 👽 qatarget_outcomes -> Call outcome
     qatarget_outcomes=?תוצאת שיחה
     # 👽 react_report_table_sort_asc -> Sort in Ascending order
@@ -5845,9 +5845,9 @@ Other items
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?שגיאה באחזור DataBlock
     # 👽 reports_filter_agent -> Agent
-    reports_filter_agent=?סוכן
+    reports_filter_agent=?נציג
     # 👽 reports_filter_agentgroup -> Agent Group
-    reports_filter_agentgroup=?קבוצת סוכן
+    reports_filter_agentgroup=?קבוצת נציג
     # 👽 reports_filter_asteriskid -> Unique Id
     reports_filter_asteriskid=?מזהה ייחודי
     # 👽 reports_filter_atomicqueuefilter -> Queue
