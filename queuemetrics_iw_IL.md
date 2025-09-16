@@ -2722,11 +2722,11 @@ Used for data blocks Overview by Agent/Queue
     # 👽 rt3_live_agent -> Agent
     rt3_live_agent=?נציג
     # 👽 rt3_live_agent_counters -> Live Agent Counters
-    rt3_live_agent_counters=?מוני נציג חיים
+    rt3_live_agent_counters=?מוני נציג מחובר
     # 👽 rt3_live_agent_info -> Live Agent Info
-    rt3_live_agent_info=?פרטי נציג חיים
+    rt3_live_agent_info=?פרטי נציג מחובר
     # 👽 rt3_live_queue_info -> Live Queue Info
-    rt3_live_queue_info=?פרטי תור חיים
+    rt3_live_queue_info=?פרטי תור פעיל
     # 👽 rt3_live_status -> Status
     rt3_live_status=?סטטוס
     # 👽 rt3_load -> Load wallboard
@@ -2938,11 +2938,11 @@ Used for data blocks Overview by Agent/Queue
     # 👽 rt3_table_lastattempts -> Last attempts
     rt3_table_lastattempts=?ניסיונות אחרונים
     # 👽 rt3_table_live_agents -> Live Agents
-    rt3_table_live_agents=?נציגים חיים
+    rt3_table_live_agents=?נציגים זמן אמת
     # 👽 rt3_table_live_calls -> Live Calls
-    rt3_table_live_calls=?שיחות חיות
+    rt3_table_live_calls=?שיחות זמן אמת
     # 👽 rt3_table_live_queues -> Live Queues
-    rt3_table_live_queues=?תורים חיים
+    rt3_table_live_queues=?תורים זמן אמת
     # 👽 rt3_table_raw -> Raw Data
     rt3_table_raw=?נתונים גולמיים
     # 👽 rt3_taken -> Taken
@@ -3898,7 +3898,7 @@ Description of security keys:
     # 👽 keydesc_usr_reports_export_edit -> User can edit PDF and XML export jobs
     keydesc_usr_reports_export_edit=?משתמש יכול לערוך משימות ייצוא PDF ו-XML
     # 👽 keydesc_usr_rtlive -> User can access the Live stats
-    keydesc_usr_rtlive=?משתמש יכול לגשת לסטטיסטיקות חיות
+    keydesc_usr_rtlive=?משתמש יכול לגשת לסטטיסטיקות זמן אמת
     # 👽 keydesc_usr_skills -> User can edit agent skills
     keydesc_usr_skills=?משתמש יכול לערוך מיומנויות נציג
     # 👽 keydesc_usr_syslog -> User can view the system’s audit log
@@ -4342,7 +4342,7 @@ Description of security keys:
     # 👽 home_qap_title -> Agent Page
     home_qap_title=?דף נציג
     # 👽 home_realtime_subtitle -> Comprehensive view of Live calls
-    home_realtime_subtitle=?תצוגה מקיפה של שיחות חיות
+    home_realtime_subtitle=?תצוגה מקיפה של שיחות בזמן אמת
     # 👽 home_realtime_title -> Realtime
     home_realtime_title=?זמן אמת
     # 👽 home_reports_subtitle -> Historical reports
@@ -4386,7 +4386,7 @@ Description of security keys:
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?אירעה שגיאת שרת בלתי צפויה
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
-    home_wallboards_subtitle=?לוחות מחוונים ניתנים להתאמה אישית לנתונים חיים
+    home_wallboards_subtitle=?לוחות מחוונים ניתנים להתאמה אישית לנתוני זמן אמת
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?לוחות מחוונים
 
