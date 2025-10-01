@@ -2835,6 +2835,7 @@ Description of security keys:
     keydesc_config=Può far partire il wizard di autoconfigurazione (Synchronizer)
     keydesc_edit_cfg=Può editare le properties di configurazione
     keydesc_hidenumbers=Tutti i numeri di telefono/identità del chiamante sono nascosti
+    keydesc_hid=Abilita i controlli delle cuffie nel softphone
     keydesc_keyupdate=Può installare una nuova chiave di licenza QueueMetrics
     keydesc_mon_audio=Può ascoltare una chiamata in tempo reale
     keydesc_mon_barge=L'utente può entrare in una chiamata

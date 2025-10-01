@@ -2834,6 +2834,7 @@ Description of security keys:
     keydesc_config=User can start the auto configuration wizard (Synchronizer)
     keydesc_edit_cfg=User can edit the local configuration.properties file
     keydesc_hidenumbers=All phone numbers/caller identities are hidden
+    keydesc_hid=Enable Softphone headset controls
     keydesc_keyupdate=User can install a new QueueMetrics activation key
     keydesc_mon_audio=The user can monitor a real-time call
     keydesc_mon_barge=The user can barge-in on a real-time call
