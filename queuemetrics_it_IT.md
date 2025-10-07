@@ -2254,6 +2254,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=Attesa Più Lunga
     rt3_lost_attempts=Tentativi Persi
     rt3_lost_prc=Perse
+    rt3_manual_insert=Inserimento Manuale
     rt3_menu_delete=Elimina
     rt3_menu_edit=Modifica
     rt3_menu_share=Condividi
