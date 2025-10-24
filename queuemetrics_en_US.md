@@ -3048,6 +3048,7 @@ Description of security keys:
     phone_join=Join
     phone_maxsessions=Max. Sessions
     phone_mute=Mute
+    phone_mute_toggle=Toggle Mute
     phone_no_https=QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_queue=No Queue
     phone_noanswertimeout=No Answer Timeout
