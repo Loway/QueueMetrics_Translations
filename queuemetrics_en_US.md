@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -3167,6 +3168,47 @@ Description of security keys:
     home_unexpected_server_error=An unexpected server error has occured
     home_wallboards_subtitle=Customizable wallboards for live data
     home_wallboards_title=Wallboards
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    teams_blk_external_callers=External Callers
+    teams_blk_external_callees=External Callees
+    teams_blk_external_callers_on_all=External Callers on All Calls
+    teams_blk_external_callees_on_all=External Callees on All Calls
+    teams_blk_caller_classification=Caller Classificatiopn
+    teams_blk_callee_classification=Teams Callee Classificatopn
+
+    hdr_teamsdo=TeamsDO
+
+
+These are kinds of calls:
+
+    teams_kind_guest_user=Guest User
+    teams_kind_ext_user=External User
+    teams_kind_phone=Phone
+    teams_kind_other=Other
+
+These are localization labels for data blocks:
+
+    teams_caller_domain=Caller domain
+    teams_n_calls=N. Calls
+    teams_avg_wait=Avg Wait
+    teams_avg_talk=Avg Talk
+    teams_tot_talk=Tot Talk
+    teams_all_calls=All Calls
+    teams_guest_n_calls=Guest N Calls
+    teams_guest_avg_wait=Guest Avg Wait
+    teams_guest_avg_talk=Guest Avg Talk
+    teams_guest_tot_talk=Guest Tot Talk
+    teams_ext_n_calls=Ext N Calls
+    teams_ext_avg_wait=Ext Avg Wait
+    teams_ext_avg_talk=Ext Avg Talk
+    teams_ext_tot_talk=Ext Tot Talk
+
 
 
 ## System configuration
