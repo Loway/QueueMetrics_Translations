@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -2507,6 +2508,8 @@ Used for data blocks Overview by Agent/Queue
     # 👽 rt3_lost_attempts -> Lost Att.
     rt3_lost_attempts=?Intents perduts
     rt3_lost_prc=Perdudes
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Inserció manual
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Eliminar
     # 👽 rt3_menu_edit -> Edit
@@ -3215,6 +3218,8 @@ Description of security keys:
     keydesc_edit_cfg=L'usuari pot editar les propietats de l'arxiu de configuració local
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?S'amaguen tots els números de telèfon/identitats de trucadors
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Activar els controls de l'auricular del Softphone
     keydesc_keyupdate=L'usuari pot instal·lar una nova clau d'activació de Queuemetrics
     keydesc_mon_audio=L'usuari pot supervisar una trucada en temps real
     keydesc_mon_barge=L'usuari pot entrar en una trucada en temps real
@@ -3437,6 +3442,8 @@ Description of security keys:
     phone_join=Unificar
     phone_maxsessions=Sessions Màximes
     phone_mute=Mute
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Commutar el silenci
     phone_no_https=Queuemetrics ha de funcionar amb HTTPS perquè el telèfon funcioni correctament
     # 👽 phone_no_queue -> No Queue
     phone_no_queue=?Sense cua
@@ -3470,7 +3477,7 @@ Description of security keys:
     phone_choose_device=?Trieu el dispositiu...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?S'utilitza el dispositiu d'àudio predeterminat
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?Desconnecta el dispositiu HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Dispositiu HID tancat
@@ -3587,6 +3594,72 @@ Description of security keys:
     home_unexpected_server_error=S'ha produït un error inesperat del servidor
     home_wallboards_subtitle=Taulers personalitzats per dades en temps real
     home_wallboards_title=Taulers
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Trucades externes
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Trucades externes
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Trucades externes (a totes les trucades)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Trucades externes (a totes les trucades)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Classificació de trucades de Teams
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Classificació de trucades de Teams
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Usuari convidat
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Usuari extern
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telèfon
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Altres
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Domini de trucada
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?N. Trucades
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Mitjana d'espera
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Mitjana de conversa
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Total de conversa
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Totes les trucades
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Trucades de convidat N
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Mitjana d'espera de convidat
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Mitjana de conversa de convidat
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Total de conversa de convidat
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Trucades ext N
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Mitjana d'espera ext
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Mitjana de conversa ext
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Total de conversa ext
+
 
 
 ## System configuration

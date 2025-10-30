@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -3694,6 +3695,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=?Utrac. próby
     # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=?Utracone
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Wstawianie ręczne
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Usuń
     # 👽 rt3_menu_edit -> Edit
@@ -4770,6 +4773,8 @@ Description of security keys:
     keydesc_edit_cfg=?Użytkownik może edytować lokalny plik configuration.properties
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?Wszystkie numery telefonów/tożsamości dzwoniącego są ukryte
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Włącz kontrolę zestawu słuchawkowego Softphone
     # 👽 keydesc_keyupdate -> User can install a new QueueMetrics activation key
     keydesc_keyupdate=?Użytkownik może zainstalować nowy klucz aktywacyjny QueueMetrics
     # 👽 keydesc_mon_audio -> The user can monitor a real-time call
@@ -5181,6 +5186,8 @@ Description of security keys:
     phone_maxsessions=?Maks. sesji
     # 👽 phone_mute -> Mute
     phone_mute=?Wycisz
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Przełącz wyciszenie
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?QueueMetrics musi być obsługiwane przez HTTPS, aby SoftPhone działał poprawnie.
     # 👽 phone_no_queue -> No Queue
@@ -5233,7 +5240,7 @@ Description of security keys:
     phone_choose_device=?Wybierz urządzenie...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Używanie domyślnego urządzenia audio
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?Odłącz urządzenie HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Zamknięto urządzenie HID
@@ -5414,6 +5421,72 @@ Description of security keys:
     home_wallboards_subtitle=?Konfigurowalne tablice informacyjne dla danych na żywo
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Tablice informacyjne
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Dzwoniący z zewnątrz
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Odbiorcy z zewnątrz
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Dzwoniący z zewnątrz (na wszystkich połączeniach)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Odbiorcy z zewnątrz (na wszystkich połączeniach)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Klasyfikacja dzwoniących Teams
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Klasyfikacja odbiorców Teams
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Użytkownik gość
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Użytkownik zewnętrzny
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telefon
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Inne
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Domena dzwoniącego
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Liczba połączeń
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Średni czas oczekiwania
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Średni czas rozmowy
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Całkowity czas rozmowy
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Wszystkie połączenia
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Liczba połączeń gości
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Średni czas oczekiwania gości
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Średni czas rozmowy gości
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Całkowity czas rozmowy gości
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Liczba połączeń zewn.
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Średni czas oczekiwania zewn.
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Średni czas rozmowy zewn.
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Całkowity czas rozmowy zewn.
+
 
 
 ## System configuration

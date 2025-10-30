@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -2487,6 +2488,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=En uzun bekleme
     rt3_lost_attempts=Top kullanılmayan
     rt3_lost_prc=Kayıp
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Manuel ekleme
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Sil
     # 👽 rt3_menu_edit -> Edit
@@ -3100,6 +3103,8 @@ Description of security keys:
     keydesc_edit_cfg=Kullanıcı, local configuration.properties dosyasını düzenleyebilir
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?Tüm telefon numaraları/arayan kimlikleri gizlenir
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Softphone kulaklık kontrollerini etkinleştir
     keydesc_keyupdate=Kullanıcı yeni bir QueueMetrics aktivasyon anahtarı yükleyebilir
     keydesc_mon_audio=Kullanıcı gerçek zamanlı bir çağrıyı izleyebilir
     keydesc_mon_barge=Kullanıcı gerçek zamanlı bir çağrıyı izleyebilir
@@ -3329,6 +3334,8 @@ Description of security keys:
     phone_join=Katıl
     phone_maxsessions=Max Oturum Sayısı
     phone_mute=Sessiz
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Sesi Kapat/Aç
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?SoftPhone'un doğru çalışması için QueueMetrics'in HTTPS üzerinden sunulması gerekir.
     # 👽 phone_no_queue -> No Queue
@@ -3366,7 +3373,7 @@ Description of security keys:
     phone_choose_device=?Cihaz seçin..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Varsayılan ses cihazı kullanılıyor
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?HID cihazının bağlantısını kes
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HID cihazı kapatıldı
@@ -3484,6 +3491,72 @@ Description of security keys:
     home_unexpected_server_error=Beklenmeyen bir sunucu hatası oluştu
     home_wallboards_subtitle=Duvarpanoları için özelleştirilebilir canlı veriler
     home_wallboards_title=Duvar Panoları
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Harici Arayanlar
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Harici Arananlar
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Harici Arayanlar (Tüm Çağrılarda)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Harici Arananlar (Tüm Çağrılarda)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Teams Arayan Sınıflandırması
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Teams Aranan Sınıflandırması
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Misafir Kullanıcı
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Harici Kullanıcı
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telefon
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Diğer
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Arayan alanı
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Çağrı Sayısı
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Ort. Bekleme
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Ort. Konuşma
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Toplam Konuşma
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Tüm Çağrılar
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Misafir Çağrı Sayısı
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Misafir Ort. Bekleme
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Misafir Ort. Konuşma
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Misafir Toplam Konuşma
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Harici Çağrı Sayısı
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Harici Ort. Bekleme
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Harici Ort. Konuşma
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Harici Toplam Konuşma
+
 
 
 ## System configuration

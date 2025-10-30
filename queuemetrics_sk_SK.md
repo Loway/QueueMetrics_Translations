@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -3491,6 +3492,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=?Stratené pokusy
     # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=?Stratené
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Manuálne vloženie
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Odstrániť
     # 👽 rt3_menu_edit -> Edit
@@ -4545,6 +4548,8 @@ Description of security keys:
     keydesc_edit_cfg=?Používateľ môže upraviť lokálny súbor configuration.properties
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?Všetky telefónne čísla / identity volajúceho sú skryté
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Povoliť ovládanie náhlavnej súpravy Softphone
     # 👽 keydesc_keyupdate -> User can install a new QueueMetrics activation key
     keydesc_keyupdate=?Používateľ môže nainštalovať nový aktivačný kľúč QueueMetrics
     # 👽 keydesc_mon_audio -> The user can monitor a real-time call
@@ -4889,6 +4894,8 @@ Description of security keys:
     phone_maxsessions=?Max. Počet relácií
     # 👽 phone_mute -> Mute
     phone_mute=?Stlmiť
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Prepnúť stlmenie
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?QueueMetrics musí byť obsluhovaný cez HTTPS, aby SoftPhone správne fungoval.
     # 👽 phone_no_queue -> No Queue
@@ -4941,7 +4948,7 @@ Description of security keys:
     phone_choose_device=?Vyberte zariadenie..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Používa sa predvolené zvukové zariadenie
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?Odpojiť HID zariadenie
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Zatvorené HID zariadenie
@@ -5122,6 +5129,72 @@ Description of security keys:
     home_wallboards_subtitle=?Prispôsobiteľné informačné panely pre živé dáta
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Wallboards
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Externí volajúci
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Externí volaní
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Externí volajúci (vo všetkých hovoroch)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Externí volaní (vo všetkých hovoroch)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Klasifikácia volajúcich v Temas
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Klasifikácia volaných v Temas
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Hosťovský používateľ
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Externý používateľ
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telefón
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Iné
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Doména volajúceho
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Počet hovorov
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Priem. čakanie
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Priem. hovor
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Celk. hovor
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Všetky hovory
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Počet hovorov pre hostí
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Priem. čakanie pre hostí
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Priem. hovor pre hostí
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Celk. hovor pre hostí
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Počet ext. hovorov
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Priem. čakanie pre ext.
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Priem. hovor pre ext.
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Celk. hovor pre ext.
+
 
 
 ## System configuration

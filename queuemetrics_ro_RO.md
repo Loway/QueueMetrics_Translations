@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -3287,6 +3288,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=?Încerc. pierdute
     # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=?Pierdute
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Inserare manuală
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Șterge
     # 👽 rt3_menu_edit -> Edit
@@ -4341,6 +4344,8 @@ Description of security keys:
     keydesc_edit_cfg=?Utilizatorul poate edita fișierul local configuration.properties
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?Toate numerele de telefon/identitățile apelanților sunt ascunse
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Activează controlul căștilor Softphone
     # 👽 keydesc_keyupdate -> User can install a new QueueMetrics activation key
     keydesc_keyupdate=?Utilizatorul poate instala o nouă cheie de activare QueueMetrics
     # 👽 keydesc_mon_audio -> The user can monitor a real-time call
@@ -4685,6 +4690,8 @@ Description of security keys:
     phone_maxsessions=?Nr. max. de sesiuni
     # 👽 phone_mute -> Mute
     phone_mute=?Fără sunet
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Comută Modul Silențios
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?QueueMetrics trebuie să fie accesat prin HTTPS pentru ca SoftPhone-ul să funcționeze corect.
     # 👽 phone_no_queue -> No Queue
@@ -4737,7 +4744,7 @@ Description of security keys:
     phone_choose_device=?Alege dispozitivul...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Folosind dispozitivul audio implicit
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?Deconectare dispozitiv HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Dispozitiv HID închis
@@ -4918,6 +4925,72 @@ Description of security keys:
     home_wallboards_subtitle=?Wallboard-uri personalizabile pentru date live
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Wallboard-uri
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Apelanți Externi
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Apelați Externi
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Apelanți Externi (în toate Apelurile)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Apelați Externi (în toate Apelurile)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Clasificare Apelant Teams
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Clasificare Apelat Teams
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Utilizator Oaspete
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Utilizator Extern
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telefon
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Altele
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Domeniul apelantului
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Nr. Apeluri
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Așteptare Medie
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Durată Medie
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Durată Totală
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Toate Apelurile
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Nr. Apeluri Oaspete
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Așteptare Medie Oaspete
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Durată Medie Oaspete
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Durată Totală Oaspete
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Nr. Apeluri Ext
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Așteptare Medie Ext
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Durată Medie Ext
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Durată Totală Ext
+
 
 
 ## System configuration

@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -3383,6 +3384,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=รอสายนานที่สุด
     rt3_lost_attempts=จำนวนครั้งที่ไม่รับสาย
     rt3_lost_prc=ไม่ได้รับสาย
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?ใส่ด้วยตนเอง
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?ลบ
     # 👽 rt3_menu_edit -> Edit
@@ -4419,6 +4422,8 @@ Description of security keys:
     keydesc_edit_cfg=?ผู้ใช้สามารถแก้ไขไฟล์ configuration.properties ในเครื่อง
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?หมายเลขโทรศัพท์/ข้อมูลประจำตัวผู้โทรทั้งหมดถูกซ่อนไว้
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?เปิดใช้งานการควบคุมชุดหูฟัง Softphone
     # 👽 keydesc_keyupdate -> User can install a new QueueMetrics activation key
     keydesc_keyupdate=?ผู้ใช้สามารถติดตั้งคีย์เปิดใช้งาน QueueMetrics ใหม่
     # 👽 keydesc_mon_audio -> The user can monitor a real-time call
@@ -4822,6 +4827,8 @@ Description of security keys:
     phone_maxsessions=?จำนวนเซสชันสูงสุด
     # 👽 phone_mute -> Mute
     phone_mute=?ปิดเสียง
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?สลับปิด/เปิดเสียง
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?QueueMetrics ต้องให้บริการผ่าน HTTPS เพื่อให้ SoftPhone ทำงานได้อย่างถูกต้อง
     # 👽 phone_no_queue -> No Queue
@@ -4874,7 +4881,7 @@ Description of security keys:
     phone_choose_device=?เลือกอุปกรณ์..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?ใช้อุปกรณ์เสียงเริ่มต้น
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?ยกเลิกการเชื่อมต่ออุปกรณ์ HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?ปิดอุปกรณ์ HID แล้ว
@@ -5055,6 +5062,72 @@ Description of security keys:
     home_wallboards_subtitle=?Wallboard ที่ปรับแต่งได้สำหรับข้อมูลสด
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Wallboards
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?ผู้โทรภายนอก
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?ผู้รับสายภายนอก
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?ผู้โทรภายนอก (ในการโทรทั้งหมด)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?ผู้รับสายภายนอก (ในการโทรทั้งหมด)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?การจัดประเภทผู้โทรของ Teams
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?การจัดประเภทผู้รับสายของ Teams
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?ผู้ใช้ที่เป็น Guest
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?ผู้ใช้ภายนอก
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?โทรศัพท์
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?อื่นๆ
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?โดเมนผู้โทร
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?จำนวนสาย
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?รอเฉลี่ย
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?พูดคุยเฉลี่ย
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?พูดคุยทั้งหมด
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?สายทั้งหมด
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?จำนวนสายของ Guest
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?รอเฉลี่ยของ Guest
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?พูดคุยเฉลี่ยของ Guest
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?พูดคุยทั้งหมดของ Guest
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?จำนวนสายภายนอก
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?รอเฉลี่ยภายนอก
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?พูดคุยเฉลี่ยภายนอก
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?พูดคุยทั้งหมดภายนอก
+
 
 
 ## System configuration

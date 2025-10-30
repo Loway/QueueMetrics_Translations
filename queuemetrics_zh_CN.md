@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -2725,6 +2726,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=?丢失的尝试
     # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=?丢失
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?手动插入
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?删除
     # 👽 rt3_menu_edit -> Edit
@@ -3721,6 +3724,8 @@ Description of security keys:
     keydesc_edit_cfg=用户可以编辑本地configuration.properties文件
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?所有电话号码/来电者身份均已隐藏
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?启用软电话耳机控制
     keydesc_keyupdate=用户可以安装新激活key
     keydesc_mon_audio=用户可以查看实时通话
     # 👽 keydesc_mon_barge -> The user can barge-in on a real-time call
@@ -4034,6 +4039,8 @@ Description of security keys:
     phone_maxsessions=?最大会话数
     # 👽 phone_mute -> Mute
     phone_mute=?静音
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?切换静音
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?QueueMetrics 需要通过 HTTPS 提供服务，软电话才能正常工作。
     # 👽 phone_no_queue -> No Queue
@@ -4086,7 +4093,7 @@ Description of security keys:
     phone_choose_device=?选择设备...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?使用默认音频设备
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?断开HID设备
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?已关闭HID设备
@@ -4245,6 +4252,72 @@ Description of security keys:
     home_wallboards_subtitle=?用于实时数据的可自定义的监控板
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?监控板
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?外部呼叫者
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?外部被呼叫者
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?外部呼叫者（在所有呼叫中）
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?外部被呼叫者（在所有呼叫中）
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Teams 呼叫者分类
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Teams 被呼叫者分类
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?访客用户
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?外部用户
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?电话
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?其他
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?呼叫者域
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?呼叫次数
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?平均等待时间
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?平均通话时间
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?总通话时间
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?所有呼叫
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?访客呼叫次数
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?访客平均等待时间
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?访客平均通话时间
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?访客总通话时间
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?外部呼叫次数
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?外部平均等待时间
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?外部平均通话时间
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?外部总通话时间
+
 
 
 ## System configuration

@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -2254,6 +2255,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=Längste Wartezeit
     rt3_lost_attempts=Verlorene Versuche
     rt3_lost_prc=Verloren
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Manuelles Einfügen
     rt3_menu_delete=Löschen
     rt3_menu_edit=Bearbeiten
     rt3_menu_share=Teilen
@@ -2835,6 +2838,8 @@ Description of security keys:
     keydesc_config=Der Benutzer kann den automatischen Konfigurationsassistenten (Synchronizer) starten.
     keydesc_edit_cfg=Der Benutzer kann die lokale Datei configuration. Properties bearbeiten
     keydesc_hidenumbers= Alle Telefonnummern/Anrufer Identität sind versteckt.
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Softphone Headset-Steuerung aktivieren
     keydesc_keyupdate=Der Benutzer kann einen neuen QueueMetrics-Aktivierungsschlüssel installieren
     keydesc_mon_audio=Der Benutzer kann einen Anruf in Echtzeit überwachen
     keydesc_mon_barge=Der Benutzer kann sich in ein Echtzeitgespräch einklinken
@@ -3048,6 +3053,8 @@ Description of security keys:
     phone_join=Beitreten
     phone_maxsessions=Max. Sitzungen
     phone_mute=Stummschalten
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Stummschaltung umschalten
     phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
     phone_no_queue=keine Warteschlange
     phone_noanswertimeout=Zeitlimit für keine Antwort
@@ -3079,7 +3086,7 @@ Description of security keys:
     phone_choose_device=?Gerät auswählen...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Standardaudiogerät verwenden
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?Trennen Sie das HID-Gerät
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HID-Gerät geschlossen
@@ -3187,6 +3194,72 @@ Description of security keys:
     home_unexpected_server_error=Es ist ein unerwarteter Serverfehler aufgetreten
     home_wallboards_subtitle=Anpassbare Wallboards für Live-Daten
     home_wallboards_title=Wallboards
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Externe Anrufer
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Externe Angerufene
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Externe Anrufer (bei allen Anrufen)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Externe Angerufene (bei allen Anrufen)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Teams Anruferklassifizierung
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Teams Angerufenklassifizierung
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Gastbenutzer
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Externer Benutzer
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telefon
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Andere
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Anruferdomain
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Anzahl Anrufe
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Durchschn. Wartezeit
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Durchschn. Gesprächsdauer
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Ges. Gesprächsdauer
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Alle Anrufe
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Gast Anzahl Anrufe
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Gast Durchschn. Wartezeit
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Gast Durchschn. Gesprächsdauer
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Gast Ges. Gesprächsdauer
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Ext Anzahl Anrufe
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Ext Durchschn. Wartezeit
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Ext Durchschn. Gesprächsdauer
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Ext Ges. Gesprächsdauer
+
 
 
 ## System configuration

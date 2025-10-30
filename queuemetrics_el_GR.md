@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -2258,6 +2259,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=Μέγιστη Αναμονή
     rt3_lost_attempts=Χαμένες Προσπάθειες
     rt3_lost_prc=Χαμένες
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Εισαγωγή χειροκίνητα
     rt3_menu_delete=Διαγραφή
     rt3_menu_edit=Επεξεργασία
     rt3_menu_share=Κοινοποίηση
@@ -2843,6 +2846,8 @@ Description of security keys:
     keydesc_config=Ο χρήστης μπορεί να ξεκινήσει τον οδηγό αυτόματης παραμετροποίησης (attended and unattended mode)
     keydesc_edit_cfg=Ο χρήστης μπορεί να επεξεργαστεί το τοπικό αρχείο configuration.properties
     keydesc_hidenumbers=Όλοι οι αριθμοί τηλεφώνου/ταυτότητες καλούντων είναι κρυφοί
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Ενεργοποίηση ελέγχου ακουστικών Softphone
     keydesc_keyupdate=Ο χρήστης μπορεί να εγκαταστήσει ένα νέο κλειδί ενεργοποίησης QueueMetrics
     keydesc_mon_audio=Ο χρήστης μπορεί να παρακολουθήσει μια κλήση σε πραγματικό χρόνο
     # 👽 keydesc_mon_barge -> The user can barge-in on a real-time call
@@ -3057,6 +3062,8 @@ Description of security keys:
     phone_join=Συμμετοχή
     phone_maxsessions=Μέγ. αρ. Συνεδριών
     phone_mute=Σιγαση
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Εναλλαγή Σίγασης
     phone_no_https=Η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS για να λειτουργεί σωστά το SoftPhone.
     phone_no_queue=Καμία Ουρά Αναμονής
     phone_noanswertimeout=Χρόνος χωρίς απόκριση
@@ -3088,7 +3095,7 @@ Description of security keys:
     phone_choose_device=?Επιλέξτε συσκευή..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Χρήση προεπιλεγμένης συσκευής ήχου
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?Αποσύνδεση συσκευής HID
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?Η συσκευή HID έκλεισε
@@ -3196,6 +3203,72 @@ Description of security keys:
     home_unexpected_server_error=Παρουσιάστηκε μη αναμενόμενο σφάλμα διακομιστή
     home_wallboards_subtitle=Προσαρμόσιμα Wallboards για ζωντανά δεδομένα
     home_wallboards_title=Wallboards
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Εξωτερικοί Καλούντες
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Εξωτερικοί Καλούμενοι
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Εξωτερικοί Καλούντες (σε όλες τις κλήσεις)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Εξωτερικοί Καλούμενοι (σε όλες τις κλήσεις)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Ταξινόμηση Καλούντος Teams
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Ταξινόμηση Καλούμενου Teams
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Επισκέπτης Χρήστης
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Εξωτερικός Χρήστης
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Τηλέφωνο
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Άλλο
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Τομέας καλούντος
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Αρ. Κλήσεων
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Μέσος Χρόνος Αναμονής
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Μέσος Χρόνος Ομιλίας
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Συν. Χρόνος Ομιλίας
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Όλες οι Κλήσεις
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Αρ. Κλήσεων Επισκέπτη
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Μέσος Χρόνος Αναμονής Επισκέπτη
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Μέσος Χρόνος Ομιλίας Επισκέπτη
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Συν. Χρόνος Ομιλίας Επισκέπτη
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Αρ. Κλήσεων Εξωτερικού
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Μέσος Χρόνος Αναμονής Εξωτερικού
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Μέσος Χρόνος Ομιλίας Εξωτερικού
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Συν. Χρόνος Ομιλίας Εξωτερικού
+
 
 
 ## System configuration

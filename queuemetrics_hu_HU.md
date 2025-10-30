@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -3897,6 +3898,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=?Elveszett kísérletek
     # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=?Elveszett
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?Manuális beszúrás
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Törlés
     # 👽 rt3_menu_edit -> Edit
@@ -4984,6 +4987,8 @@ Description of security keys:
     keydesc_edit_cfg=?A felhasználó szerkesztheti a helyi configuration.properties fájlt
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?Minden telefonszám/hívóazonosító el van rejtve
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?Softphone headset vezérlők engedélyezése
     # 👽 keydesc_keyupdate -> User can install a new QueueMetrics activation key
     keydesc_keyupdate=?A felhasználó új QueueMetrics aktivációs kulcsot telepíthet
     # 👽 keydesc_mon_audio -> The user can monitor a real-time call
@@ -5395,6 +5400,8 @@ Description of security keys:
     phone_maxsessions=?Max. munkamenetek
     # 👽 phone_mute -> Mute
     phone_mute=?Némítás
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?Némítás váltása
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?A QueueMetrics-nek HTTPS-en keresztül kell futnia ahhoz, hogy a SoftPhone megfelelően működjön.
     # 👽 phone_no_queue -> No Queue
@@ -5447,7 +5454,7 @@ Description of security keys:
     phone_choose_device=?Eszköz kiválasztása..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?Alapértelmezett hangeszköz használata
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?HID eszköz leválasztása
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HID eszköz bezárva
@@ -5628,6 +5635,72 @@ Description of security keys:
     home_wallboards_subtitle=?Testreszabható kijelzők élő adatokhoz
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Kijelzők
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?Külső hívók
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?Külső hívottak
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?Külső hívók (minden hívásban)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?Külső hívottak (minden hívásban)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Teams Hívó Osztályozás
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Teams Hívott Osztályozás
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?Vendég felhasználó
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?Külső felhasználó
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?Telefon
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?Egyéb
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?Hívó domain
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?Hívások sz.
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?Átl. várakozás
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?Átl. beszélgetés
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?Össz. beszélgetés
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?Összes hívás
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?Vendég Hívások sz.
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?Vendég Átl. várakozás
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?Vendég Átl. beszélgetés
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?Vendég Össz. beszélgetés
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?Külső Hívások sz.
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?Külső Átl. várakozás
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?Külső Átl. beszélgetés
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?Külső Össz. beszélgetés
+
 
 
 ## System configuration

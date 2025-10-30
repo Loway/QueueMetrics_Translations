@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -2385,6 +2386,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=Longest Wait
     rt3_lost_attempts=Lost Att.
     rt3_lost_prc=Lost
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?수동 삽입
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?삭제
     # 👽 rt3_menu_edit -> Edit
@@ -3088,6 +3091,8 @@ Description of security keys:
     keydesc_edit_cfg=configuration.properties 파일을 편집할 수 있습니다.
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?모든 전화 번호/발신자 ID가 숨겨져 있습니다
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?소프트폰 헤드셋 컨트롤 활성화
     keydesc_keyupdate=새로운 QueueMetrics 활성화 라이선스 키를 설치할 수 있습니다.
     keydesc_mon_audio=실시간 통화내용을 모니터링 할 수 있습니다.
     keydesc_mon_barge=실시간 통화에 끼어들 수 있습니다.
@@ -3321,6 +3326,8 @@ Description of security keys:
     phone_join=?참여
     phone_maxsessions=최대 세션
     phone_mute=소리끔
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?음소거 전환
     phone_no_https=소프트폰의 정상 동작을 위해 HTTPS로 연결되어야 합니다.
     # 👽 phone_no_queue -> No Queue
     phone_no_queue=?큐 없음
@@ -3370,7 +3377,7 @@ Description of security keys:
     phone_choose_device=?장치 선택..
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?기본 오디오 장치 사용
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?HID 장치 연결 해제
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HID 장치가 닫혔습니다.
@@ -3479,6 +3486,72 @@ Description of security keys:
     home_unexpected_server_error=예상치 못한 서버 오류가 발생하였습니다.
     home_wallboards_subtitle=Customizable wallboards for live data
     home_wallboards_title=Wallboards
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?외부 발신자
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?외부 수신자
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?외부 발신자 (모든 통화에서)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?외부 수신자 (모든 통화에서)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?Teams 발신자 분류
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?Teams 수신자 분류
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?게스트 사용자
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?외부 사용자
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?전화
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?기타
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?발신자 도메인
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?통화 수
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?평균 대기
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?평균 통화
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?총 통화
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?모든 통화
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?게스트 통화 수
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?게스트 평균 대기
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?게스트 평균 통화
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?게스트 총 통화
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?외부 통화 수
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?외부 평균 대기
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?외부 평균 통화
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?외부 총 통화
+
 
 
 ## System configuration

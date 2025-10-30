@@ -3,6 +3,7 @@
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
+- When talking about Teams, we are referring to MS Teams, so the name Temas should be left unaltered
 
 
 ## Language pack
@@ -4198,6 +4199,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=?ያመለጡ ሙከራዎች
     # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=?ጠፋ
+    # 👽 rt3_manual_insert -> Manual insert
+    rt3_manual_insert=?በእጅ አስገባ
     # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?ሰርዝ
     # 👽 rt3_menu_edit -> Edit
@@ -5344,6 +5347,8 @@ Description of security keys:
     keydesc_edit_cfg=?ተጠቃሚ የአካባቢውን configuration.properties ፋይል ማርትዕ ይችላል
     # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     keydesc_hidenumbers=?ሁሉም የስልክ ቁጥሮች/የደዋይ ማንነቶች ተደብቀዋል
+    # 👽 keydesc_hid -> Enable Softphone headset controls
+    keydesc_hid=?የሶፍት ፎን የጆሮ ማዳመጫ መቆጣጠሪያዎችን አንቃ
     # 👽 keydesc_keyupdate -> User can install a new QueueMetrics activation key
     keydesc_keyupdate=?ተጠቃሚ አዲስ የQueueMetrics ማስጀመሪያ ቁልፍ መጫን ይችላል።
     # 👽 keydesc_mon_audio -> The user can monitor a real-time call
@@ -5755,6 +5760,8 @@ Description of security keys:
     phone_maxsessions=?ከፍተኛ ክፍለ ጊዜዎች
     # 👽 phone_mute -> Mute
     phone_mute=?ድምጸ-ከል አድርግ
+    # 👽 phone_mute_toggle -> Toggle Mute
+    phone_mute_toggle=?ድምጸ-ከል ቀያይር
     # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?SoftPhone በትክክል እንዲሰራ QueueMetrics በHTTPS በኩል መቅረብ አለበት።
     # 👽 phone_no_queue -> No Queue
@@ -5807,7 +5814,7 @@ Description of security keys:
     phone_choose_device=?መሣሪያ ምረጥ...
     # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=?ነባሪ የድምጽ መሣሪያ በመጠቀም ላይ
-    # 🔴 phone_hid_disconnect_device -> Disconnect HID device
+    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=?የHID መሣሪያውን ያላቅቁ
     # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=?HID መሣሪያ ተዘግቷል።
@@ -5988,6 +5995,72 @@ Description of security keys:
     home_wallboards_subtitle=?ለቀጥታ መረጃ ሊበጁ የሚችሉ የግድግዳ ሰሌዳዎች
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?የግድግዳ ሰሌዳዎች
+
+## Microsoft Teams
+
+
+
+These are the titles of data blocks:
+
+    # 👽 teams_blk_external_callers -> External Callers
+    teams_blk_external_callers=?ውጫዊ ደዋዮች
+    # 👽 teams_blk_external_callees -> External Callees
+    teams_blk_external_callees=?ውጫዊ ተደዋዮች
+    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
+    teams_blk_external_callers_on_all=?ውጫዊ ደዋዮች (በሁሉም ጥሪዎች ላይ)
+    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
+    teams_blk_external_callees_on_all=?ውጫዊ ተደዋዮች (በሁሉም ጥሪዎች ላይ)
+    # 👽 teams_blk_caller_classification -> Teams Caller Classification
+    teams_blk_caller_classification=?የቡድኖች ደዋይ ምደባ
+    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    teams_blk_callee_classification=?የቡድኖች ተደዋይ ምደባ
+
+    # 👽 hdr_teamsdo -> TeamsDO
+    hdr_teamsdo=?TeamsDO
+
+
+These are kinds of calls:
+
+    # 👽 teams_kind_guest_user -> Guest User
+    teams_kind_guest_user=?የእንግዳ ተጠቃሚ
+    # 👽 teams_kind_ext_user -> External User
+    teams_kind_ext_user=?ውጫዊ ተጠቃሚ
+    # 👽 teams_kind_phone -> Phone
+    teams_kind_phone=?ስልክ
+    # 👽 teams_kind_other -> Other
+    teams_kind_other=?ሌላ
+
+These are localization labels for data blocks:
+
+    # 👽 teams_caller_domain -> Caller domain
+    teams_caller_domain=?የደዋይ ጎራ
+    # 👽 teams_n_calls -> N. Calls
+    teams_n_calls=?ቁጥር ጥሪዎች
+    # 👽 teams_avg_wait -> Avg Wait
+    teams_avg_wait=?አማካይ ቆይታ
+    # 👽 teams_avg_talk -> Avg Talk
+    teams_avg_talk=?አማካይ ንግግር
+    # 👽 teams_tot_talk -> Tot Talk
+    teams_tot_talk=?ጠቅላላ ንግግር
+    # 👽 teams_all_calls -> All Calls
+    teams_all_calls=?ሁሉም ጥሪዎች
+    # 👽 teams_guest_n_calls -> Guest N Calls
+    teams_guest_n_calls=?የእንግዳ ቁጥር ጥሪዎች
+    # 👽 teams_guest_avg_wait -> Guest Avg Wait
+    teams_guest_avg_wait=?የእንግዳ አማካይ ቆይታ
+    # 👽 teams_guest_avg_talk -> Guest Avg Talk
+    teams_guest_avg_talk=?የእንግዳ አማካይ ንግግር
+    # 👽 teams_guest_tot_talk -> Guest Tot Talk
+    teams_guest_tot_talk=?የእንግዳ ጠቅላላ ንግግር
+    # 👽 teams_ext_n_calls -> Ext N Calls
+    teams_ext_n_calls=?ውጫዊ ቁጥር ጥሪዎች
+    # 👽 teams_ext_avg_wait -> Ext Avg Wait
+    teams_ext_avg_wait=?ውጫዊ አማካይ ቆይታ
+    # 👽 teams_ext_avg_talk -> Ext Avg Talk
+    teams_ext_avg_talk=?ውጫዊ አማካይ ንግግር
+    # 👽 teams_ext_tot_talk -> Ext Tot Talk
+    teams_ext_tot_talk=?ውጫዊ ጠቅላላ ንግግር
+
 
 
 ## System configuration
