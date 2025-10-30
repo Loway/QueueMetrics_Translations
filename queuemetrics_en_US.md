@@ -4541,6 +4541,7 @@ Other items
     title_do_calldistrdo=Call Distribution
     title_do_calltagdo=Call Tags
     title_do_casedo=Cases
+    title_do_customblkdo=Custom DataBlock
     title_do_detailsdo=Details
     title_do_distrdo=Attempts
     title_do_extsourcedo=External Source

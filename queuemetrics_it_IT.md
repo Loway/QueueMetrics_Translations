@@ -4522,6 +4522,7 @@ Other items
     title_do_calldistrdo=Distribuzione delle Chiamate
     title_do_calltagdo=Tag delle Chiamate
     title_do_casedo=Casi
+    title_do_customblkdo=DataBlock Personalizzati
     title_do_detailsdo=Dettagli
     title_do_distrdo=Tentativi
     title_do_extsourcedo=Fonte Esterna
