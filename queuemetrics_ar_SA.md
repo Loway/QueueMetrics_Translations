@@ -5423,6 +5423,38 @@ Other items
     timeline_tab_recordings=?التسجيلات
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?إجمالي المدة
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?جلسات و وقفات العملاء
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?رموز المنطقة
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?توزيع المكالمات
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?علامات المكالمات
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?الحالات
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?كتلة البيانات المخصصة
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?التفاصيل
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?محاولات
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?مصدر خارجي
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?حل المكالمة الأولى
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?تجميع المكالمات
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?مكالمات IVR
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?المكالمات التي لم يتم الرد عليها
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?المكالمات المستلمة
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?مكالمة مع النتائج
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=يرجى تحديد موقع صالح
     userpage_change_button=غيرها
     userpage_change_password=تغيير كلمة المرور

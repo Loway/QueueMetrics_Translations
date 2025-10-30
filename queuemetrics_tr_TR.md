@@ -5426,6 +5426,38 @@ Other items
     timeline_tab_recordings=?Kayıtlar
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Toplam Süre
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Acente Oturumları ve Duraklamalar
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Alan kodları
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Çağrı Dağıtımı
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Çağrı Etiketleri
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Vakalar
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Özel Veri Bloğu
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Detaylar
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Girişimler
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Harici Kaynak
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?İlk Çağrı Çözümü
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Çağrı Gruplandırması
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVR Çağrıları
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Cevapsız Çağrılar
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Alınan Çağrılar
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Sonuçlu Çağrılar
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Lütfen geçerli bir konum belirtiniz
     userpage_change_button=Değiştir
     userpage_change_password=Şifre değiştir

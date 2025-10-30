@@ -4606,6 +4606,38 @@ Other items
     timeline_tab_qa=QA/Aufzeichnungen
     timeline_tab_recordings=Aufzeichnungen
     timeline_totdur=Gesamtdauer
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Agenten-Sitzungen und Pausen
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Vorwahlbereiche
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Anrufverteilung
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Anruf-Tags
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Fälle
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Benutzerdefinierter Datenblock
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Details
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Versuche
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Externe Quelle
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Erste Anrufauflösung
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Anruf Gruppierung
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVR Anrufe
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Unbeantwortete Anrufe
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Angenommene Anrufe
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Anruf mit Ergebnissen
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Bitte geben Sie einen gültigen Standort an
     userpage_change_button=Ändern
     userpage_change_password=Passwort ändern

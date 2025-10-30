@@ -8694,6 +8694,38 @@ Other items
     timeline_tab_recordings=?ቅጂዎች
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?ጠቅላላ ቆይታ.
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?የወኪሎች ክፍለ ጊዜዎች እና ቆምታዎች
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?የአካባቢ ኮዶች
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?የጥሪ ስርጭት
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?የጥሪ መለያዎች
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?ጉዳዮች
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?ብጁ የውሂብ ማገጃ
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?ዝርዝሮች
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?ሙከራዎች
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?ውጫዊ ምንጭ
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?የመጀመሪያ ጥሪ መፍትሄ
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?የጥሪዎች ምድብ
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Ivr ጥሪዎች
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?ያልተመለሱ ጥሪዎች
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?የተወሰዱ ጥሪዎች
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?ውጤቶች ያላቸው ጥሪ
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?ቡድኖች
     # 👽 ts_agawrep_invalidlocation -> Please specify a valid location
     ts_agawrep_invalidlocation=?እባክዎ ትክክለኛ ቦታ ይግለጹ
     # 👽 userpage_change_button -> Change it

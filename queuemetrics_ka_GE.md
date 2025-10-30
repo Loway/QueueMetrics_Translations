@@ -6080,6 +6080,38 @@ Other items
     timeline_tab_recordings=?ჩანაწერები
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?სულ ხანგრ.
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?აგენტების სესიები და შეჩერებები
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?რეგიონალური კოდები
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?ზარების განაწილება
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?ზარის ტეგები
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?ქეისები
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?მორგებული მონაცემთა ბლოკი
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?დეტალები
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?მცდელობები
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?გარე წყარო
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?პირველი ზარის გადაწყვეტა
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?ზარების დაჯგუფება
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVR ზარები
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?უპასუხო ზარები
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?მიღებული ზარები
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?ზარი შედეგებით
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Temas
     ts_agawrep_invalidlocation=მიუთითეთ სწორი მდებარეობა
     userpage_change_button=რედაქტირება
     userpage_change_password=პაროლის ცვლილება

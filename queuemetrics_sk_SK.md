@@ -7458,6 +7458,38 @@ Other items
     timeline_tab_recordings=?Nahrávky
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Celk. Trv.
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Relácie a prestávky agentov
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Predvoľby
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Distribúcia hovorov
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Značky hovorov
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Prípady
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Vlastný DataBlock
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Podrobnosti
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Pokusy
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Externý zdroj
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Vyriešenie pri prvom hovore
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Zoskupovanie hovorov
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Hovory IVR
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Nezodpovedané hovory
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Prijaté hovory
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Hovory s výsledkami
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Prosím zadajte správnu lokalitu
     userpage_change_button=Zmeniť
     userpage_change_password=Zmena hesla

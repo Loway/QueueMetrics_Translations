@@ -5636,6 +5636,38 @@ Other items
     timeline_tab_recordings=?녹음
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?총 시간
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?상담원 세션 및 일시 중지
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?지역 번호
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?통화 분배
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?통화 태그
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?사례
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?사용자 정의 데이터 블록
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?세부 정보
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?시도
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?외부 소스
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?첫 번째 통화 해결
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?통화 그룹화
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVR 통화
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?응답 없는 통화
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?받은 통화
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?결과가 있는 통화
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?팀
     ts_agawrep_invalidlocation=Please specify a valid location
     userpage_change_button=변경
     userpage_change_password=비밀번호 변경

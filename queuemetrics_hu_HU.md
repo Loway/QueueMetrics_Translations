@@ -8196,6 +8196,38 @@ Other items
     timeline_tab_recordings=?Felvételek
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Telj. Tart.
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Ügynöki munkamenetek és szünetek
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Területi számok
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Híváselosztás
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Hívás címkék
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Esetek
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Egyedi DataBlock
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Részletek
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Kísérletek
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Külső forrás
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Első hívásra megoldva
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Hívások csoportosítása
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVR hívások
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Válaszolatlan hívások
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Fogadott hívások
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Hívás kimenetekkel
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Irjon be érvényes területet
     userpage_change_button=Változtass
     userpage_change_password=Jelszó megváltoztatása

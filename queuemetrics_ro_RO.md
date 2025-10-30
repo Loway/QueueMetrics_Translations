@@ -7246,6 +7246,38 @@ Other items
     timeline_tab_recordings=?Înregistrări
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Dur. totală
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Sesiuni Agenti și Pauze
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Prefixe telefonice
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Distribuția Apelurilor
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Etichete Apeluri
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Cazuri
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Bloc Date Personalizat
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Detalii
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Încercări
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Sursă Externă
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Rezolvare la Prima Apelare
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Grupare Apeluri
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Apeluri Ivr
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Apeluri Fără Răspuns
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Apeluri Preluare
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Apeluri cu Rezultate
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Va rugam sa specificati o locatie valida
     userpage_change_button=Schimba
     userpage_change_password=Schimbare parola

@@ -4690,6 +4690,38 @@ Other items
     timeline_tab_qa=QA/Gravações
     timeline_tab_recordings=Gravações
     timeline_totdur=Dur. Total
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Sessões e Pausas de Agentes
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Códigos de Área
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Distribuição de Chamadas
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Tags de Chamadas
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Casos
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?DataBlock Customizado
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Detalhes
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Tentativas
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Fonte Externa
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Resolução na Primeira Chamada
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Agrupamento de Chamadas
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Chamadas de IVR
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Chamadas Não Atendidas
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Chamadas Atendidas
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Chamadas com Resultados
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Por favor especifique uma localização válida
     userpage_change_button=Alterar
     userpage_change_password=Alterar a senha

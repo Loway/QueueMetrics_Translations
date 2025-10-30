@@ -5786,6 +5786,38 @@ Other items
     timeline_tab_recordings=?Gravacions
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Dur. Tot.
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Sessions i pauses dels agents
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Prefixos telefònics
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Distribució de trucades
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Etiquetes de trucada
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Casos
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Bloc de dades personalitzat
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Detalls
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Intents
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Font externa
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Resolució a la primera trucada
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Agrupació de trucades
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Trucades Ivr
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Trucades sense resposta
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Trucades ateses
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Trucada amb resultats
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Si us plau especifiqueu una localització vàlida
     userpage_change_button=Canviar
     userpage_change_password=Canviar contrasenya

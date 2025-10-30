@@ -7132,6 +7132,38 @@ Other items
     timeline_tab_recordings=?Opnamen
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Tot. duur.
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Agent Sessies en Pauzes
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Netnummers
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Gespreksverdeling
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Gesprekslabels
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Cases
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Aangepast DataBlock
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Details
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Pogingen
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Externe Bron
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Eerste Gesprek Oplossing
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Groepering van gesprekken
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVR Gesprekken
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Onbeantwoorde Gesprekken
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Aangenomen Gesprekken
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Gesprek met Resultaten
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=Specificeer een geldige lokatie
     userpage_change_button=Verander wachtwoord
     userpage_change_password=Verander wachtwoord

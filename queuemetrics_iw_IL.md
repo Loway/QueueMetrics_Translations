@@ -7024,6 +7024,38 @@ Other items
     timeline_tab_recordings=?הקלטות
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?משך כולל
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?סשנים של סוכנים והפסקות
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?קידומות טלפון
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?חלוקת שיחות
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?תגי שיחה
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?מקרים
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Custom DataBlock
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?פרטים
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?ניסיונות
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?מקור חיצוני
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?פתרון שיחה ראשונה
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?קיבוץ שיחות
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?שיחות IVR
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?שיחות שלא נענו
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?שיחות שנענו
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?שיחות עם תוצאות
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=נא ציין מיקום חוקי
     userpage_change_button=שנה 
     userpage_change_password=שנה סיסמא

@@ -4597,6 +4597,38 @@ Other items
     timeline_tab_qa=QA/Ηχογραφήσεις
     timeline_tab_recordings=Ηχογραφήσεις
     timeline_totdur=Συνολική Διάρκεια
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?Συνεδρίες & Παύσεις Πρακτόρων
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?Κωδικοί περιοχής
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?Διανομή Κλήσεων
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?Ετικέτες Κλήσεων
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?Υποθέσεις
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?Προσαρμοσμένο DataBlock
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?Λεπτομέρειες
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?Προσπάθειες
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?Εξωτερική Πηγή
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?Επίλυση Πρώτης Κλήσης
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?Ομαδοποίηση Κλήσεων
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Κλήσεις IVR
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?Αναπάντητες Κλήσεις
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?Απαντημένες Κλήσεις
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?Κλήσεις με Αποτελέσματα
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Ομάδες
     ts_agawrep_invalidlocation=Παρακαλώ ορίστε έγκυρη τοποθεσία
     userpage_change_button=Αλλαγή
     userpage_change_password=Αλλαγή κωδικού πρόσβασης

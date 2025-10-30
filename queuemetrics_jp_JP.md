@@ -7886,6 +7886,38 @@ Other items
     timeline_tab_recordings=?録音
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?合計時間
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?エージェントのセッションと休憩
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?市外局番
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?コール分配
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?コールのタグ
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?ケース
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?カスタムデータブロック
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?詳細
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?試行
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?外部ソース
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?初回コール解決率
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?コールのグループ化
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?IVRコール
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?応答なしコール
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?応答済みコール
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?結果が出たコール
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=有効な拠点を指定してください
     userpage_change_button=変更する
     userpage_change_password=パスワードの変更

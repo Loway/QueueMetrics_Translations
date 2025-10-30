@@ -6554,6 +6554,38 @@ Other items
     timeline_tab_recordings=?录音
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?总持续时间
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?座席会话和暂停
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?区号
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?呼叫分配
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?呼叫标签
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?案例
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?自定义数据块
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?详情
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?尝试
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?外部来源
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?首次呼叫解决
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?呼叫分组
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?Ivr 呼叫
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?未接电话
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?已接电话
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?有结果的呼叫
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=请指定一个有效地点
     userpage_change_button=改变
     userpage_change_password=更改密码
