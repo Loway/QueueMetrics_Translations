@@ -4269,7 +4269,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?外部被呼叫者（在所有呼叫中）
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Teams 呼叫者分类
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Teams 被呼叫者分类
 
     # 👽 hdr_teamsdo -> TeamsDO

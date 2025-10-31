@@ -5527,7 +5527,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Destinatarios externos (en todas las llamadas)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Clasificación de llamadas de Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Clasificación de llamadas de Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

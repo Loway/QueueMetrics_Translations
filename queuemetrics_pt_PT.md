@@ -3653,7 +3653,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Interlocutores Externos Chamados (em todas as Chamadas)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Classificação de Chamadores Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Classificação de Chamados Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

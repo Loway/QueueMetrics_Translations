@@ -4942,7 +4942,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Apelați Externi (în toate Apelurile)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Clasificare Apelant Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Clasificare Apelat Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

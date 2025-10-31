@@ -3404,7 +3404,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Внешние вызываемые абоненты (во всех вызовах)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Классификация вызывающих абонентов Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Классификация вызываемых абонентов Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

@@ -3180,7 +3180,7 @@ These are the titles of data blocks:
     teams_blk_external_callers_on_all=External Callers (on all Calls)
     teams_blk_external_callees_on_all=External Callees (on all Calls)
     teams_blk_caller_classification=Teams Caller Classification
-    teams_blk_callee_classification=Teams Callee Classificatopn
+    teams_blk_callee_classification=Teams Callee Classification
 
     hdr_teamsdo=TeamsDO
 

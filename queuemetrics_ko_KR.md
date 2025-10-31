@@ -3503,7 +3503,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?외부 수신자 (모든 통화에서)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Teams 발신자 분류
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Teams 수신자 분류
 
     # 👽 hdr_teamsdo -> TeamsDO

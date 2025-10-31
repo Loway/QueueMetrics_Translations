@@ -3506,7 +3506,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?الجهات المتصل بها الخارجية (في جميع المكالمات)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?تصنيف المتصلين في Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?تصنيف الجهات المتصل بها في Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

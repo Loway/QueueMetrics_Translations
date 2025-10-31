@@ -3220,7 +3220,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Εξωτερικοί Καλούμενοι (σε όλες τις κλήσεις)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Ταξινόμηση Καλούντος Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Ταξινόμηση Καλούμενου Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

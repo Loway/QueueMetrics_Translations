@@ -6012,7 +6012,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?ውጫዊ ተደዋዮች (በሁሉም ጥሪዎች ላይ)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?የቡድኖች ደዋይ ምደባ
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?የቡድኖች ተደዋይ ምደባ
 
     # 👽 hdr_teamsdo -> TeamsDO

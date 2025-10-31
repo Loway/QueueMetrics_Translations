@@ -3212,7 +3212,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Appelés externes (sur tous les appels)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Classification des appelants Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Classification des appelés Teams
 
     # 👽 hdr_teamsdo -> TeamsDO

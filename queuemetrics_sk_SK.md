@@ -5146,7 +5146,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Externí volaní (vo všetkých hovoroch)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Klasifikácia volajúcich v Temas
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Klasifikácia volaných v Temas
 
     # 👽 hdr_teamsdo -> TeamsDO

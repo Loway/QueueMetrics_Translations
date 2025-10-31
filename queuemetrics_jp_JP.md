@@ -5435,7 +5435,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?外部の着信者（すべての通話）
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Teams 発信者分類
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Teams 着信者分類
 
     # 👽 hdr_teamsdo -> TeamsDO

@@ -3870,7 +3870,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?გარე გამავალი ზარები (ყველა ზარზე)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Teams აბონენტის კლასიფიკაცია
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Teams გამავალი ზარის კლასიფიკაცია
 
     # 👽 hdr_teamsdo -> TeamsDO

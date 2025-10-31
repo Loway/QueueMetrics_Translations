@@ -3508,7 +3508,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Harici Arananlar (Tüm Çağrılarda)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Teams Arayan Sınıflandırması
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Teams Aranan Sınıflandırması
 
     # 👽 hdr_teamsdo -> TeamsDO

@@ -5652,7 +5652,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?Külső hívottak (minden hívásban)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?Teams Hívó Osztályozás
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?Teams Hívott Osztályozás
 
     # 👽 hdr_teamsdo -> TeamsDO

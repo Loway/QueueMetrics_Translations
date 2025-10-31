@@ -5079,7 +5079,7 @@ These are the titles of data blocks:
     teams_blk_external_callees_on_all=?ผู้รับสายภายนอก (ในการโทรทั้งหมด)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=?การจัดประเภทผู้โทรของ Teams
-    # 👽 teams_blk_callee_classification -> Teams Callee Classificatopn
+    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=?การจัดประเภทผู้รับสายของ Teams
 
     # 👽 hdr_teamsdo -> TeamsDO
