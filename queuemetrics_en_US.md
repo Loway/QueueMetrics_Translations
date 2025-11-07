@@ -3330,6 +3330,7 @@ Other items
     editor_search=Search
     editor_show_classes=Show Classes
     editor_show_users=Show Users
+    err_not_blank=Input cannot be left blank.
     err_super_multiple=You cannot filter by  agent or location when running Supervisor reports
     err_super_noagents=Current user supervises no agents.
     expc_exportcallist=Call List
@@ -3969,6 +3970,11 @@ Other items
     reports_export_schema_error=The Report Schema could not be exported.
     reports_export_test_icon=Run now
     reports_export_xls_short=XLS
+    reports_exportjob_create = Create New Export Job
+    reports_exportjob_create_successful=Export job created successfully
+    reports_exportjob_error_create=Error Creating Export Job:
+    reports_exportjob_title=Existing jobs for this report
+    reports_export_job=Export
     reports_fetch_error=Error fetching DataBlock
     reports_filter_agent=Agent
     reports_filter_agentgroup=Agent Group
@@ -4103,6 +4109,7 @@ Other items
     reports_save_report_confirm_message=Edit the current report or create a copy with the new changes?
     reports_save_report_confirm_title=Save Report
     reports_save_successful=Report saved successfully
+    reports_scheduled_job=Scheduled
     reports_search_placeholder=Search Filter
     reports_select_report=Choose a Report
     reports_settings=Settings
