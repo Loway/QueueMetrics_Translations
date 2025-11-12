@@ -4014,7 +4014,7 @@ Other items
     reports_filter_pausenmin=Min. N Pause
     reports_filter_sessiondurmax=Max. Session Duration
     reports_filter_sessiondurmin=Min. Session Duration
-    reports_filter_sessionext=Session extension
+    reports_filter_sessionext=Session Ext.
     reports_filter_selected_queues=Queues
     reports_filter_server=Server
     reports_filter_shortcallattempt=Min. Attempt Time (short calls)
