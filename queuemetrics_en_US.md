@@ -4008,6 +4008,13 @@ Other items
     reports_filter_nrmcaller=Normalized Caller
     reports_filter_operator=Operator
     reports_filter_outcome=Outcome
+    reports_filter_pausedurmax=Max. Pause Duration
+    reports_filter_pausedurmin=Min. Pause Duration
+    reports_filter_pausenmax=Max. N Pause
+    reports_filter_pausenmin=Min. N Pause
+    reports_filter_sessiondurmax=Max. Session Duration
+    reports_filter_sessiondurmin=Min. Session Duration
+    reports_filter_sessionext=Session extension
     reports_filter_selected_queues=Queues
     reports_filter_server=Server
     reports_filter_shortcallattempt=Min. Attempt Time (short calls)
