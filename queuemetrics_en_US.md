@@ -3970,7 +3970,7 @@ Other items
     reports_export_schema_error=The Report Schema could not be exported.
     reports_export_test_icon=Run now
     reports_export_xls_short=XLS
-    reports_exportjob_create = Create New Export Job
+    reports_exportjob_create =Create New Export Job
     reports_exportjob_create_successful=Export job created successfully
     reports_exportjob_error_create=Error Creating Export Job:
     reports_exportjob_title=Existing jobs for this report
