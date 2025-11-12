@@ -3345,6 +3345,16 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Export as XML
+    graph_position=Graph Position
+    graph_position_top=Top
+    graph_position_bottom=Bottom
+    graph_position_left=Left
+    graph_position_right=Right
+    graph_size=Graph Size
+    graph_size_big=Big
+    graph_size_normal=Normal
+    graph_size_small=Small
+    graph_size_extra_small=Extra Small
     grp_ivr=Ivr Events
     grp_ivr_calls=IVR calls
     grp_ivr_short=Ivr
