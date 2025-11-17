@@ -4125,6 +4125,7 @@ Other items
     reports_save_report_confirm_current=Current
     reports_save_report_confirm_message=Edit the current report or create a copy with the new changes?
     reports_save_report_confirm_title=Save Report
+    reports_save_report_title_exception=A report with the same name already exists. Please select a different name.
     reports_save_successful=Report saved successfully
     reports_scheduled_job=Scheduled
     reports_search_placeholder=Search Filter
