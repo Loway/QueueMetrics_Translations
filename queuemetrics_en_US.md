@@ -3914,6 +3914,7 @@ Other items
     reports_at_wait=Wait:
     reports_atomic_filters=Expression Filters
     reports_autosave_toggle=Auto Save
+    reports_filter_empty_hour_toggle=Hide empty hour slots
     reports_change_report_confirm=You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_chart_avgdur=Avg. Duration
     reports_chart_delta=Delta

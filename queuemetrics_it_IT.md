@@ -3952,6 +3952,7 @@ Other items
     reports_at_wait=Attesa:
     reports_atomic_filters=Filtri componibili
     reports_autosave_toggle=Salvataggio Automatico
+    reports_filter_empty_hour_toggle=Nascondi slot orari vuoti
     reports_change_report_confirm=Sono presenti alcune modifiche non salvate. Cambiare report annullerà queste modifiche, sei sicuro di volerlo fare?
     reports_chart_avgdur=Durata media
     reports_chart_delta=Delta
