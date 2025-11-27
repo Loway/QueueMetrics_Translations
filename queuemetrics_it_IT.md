@@ -3160,6 +3160,7 @@ Description of security keys:
     home_infobox_preview=Anteprima
     home_infobox_private=Privato
     home_infobox_quicklinks=Link rapidi
+    home_master_key_error=Masterkey abilitato — uso consigliato solo per test
     home_news_subtitle=Ultime notizie riguardanti QueueMetrics
     home_news_title=Notizie
     home_payroll_subtitle=Esegui un report Payroll

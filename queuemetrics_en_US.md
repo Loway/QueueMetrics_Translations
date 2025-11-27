@@ -3136,6 +3136,7 @@ Description of security keys:
     home_infobox_preview=Preview
     home_infobox_private=Private
     home_infobox_quicklinks=Quicklinks
+    home_master_key_error=Masterkey enabled — recommended use for testing only
     home_news_subtitle=QueueMetrics Latest News
     home_news_title=News
     home_payroll_subtitle=Start a Payroll Report
