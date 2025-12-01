@@ -2574,6 +2574,7 @@ Description of configuration properties
     propedit_feature_wallboard=Wallboard
     propedit_feature_wbsoftphone_settings=Wallboard Softphone Settings
     propedit_key_agent_background_desc=URL of the agent page background.
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=Agents will be automatically logged off from all queues at logout
     propedit_key_agent_outcome_size=Maximum height of outcome selection list
     propedit_key_agent_pause_dialout=Disable agents dial out when they are on pause
     propedit_key_agent_qap_cached_for_ms_desc=Maximum allowed cache time for the agent's page
@@ -3762,6 +3763,7 @@ Other items
     qap_label_freetext=Free Text
     qap_leave=Leave
     qap_loading=Loading...
+    qap_logout_message=Logging out from all queues
     qap_memos=Memos
     qap_missing_cases_key=You don't have permission to create new Cases.
     qap_missing_clients_key=You don't have permission to create new Clients.
