@@ -3763,7 +3763,7 @@ Other items
     qap_label_freetext=Free Text
     qap_leave=Leave
     qap_loading=Loading...
-    qap_logout_message=Logging out from all queues
+    qap_logout_message=Logging you out from all queues
     qap_memos=Memos
     qap_missing_cases_key=You don't have permission to create new Cases.
     qap_missing_clients_key=You don't have permission to create new Clients.
