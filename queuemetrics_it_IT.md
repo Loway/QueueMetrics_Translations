@@ -589,8 +589,10 @@ Do not change the items below:
     clacd_max_attempts=Squilli massimi:
     clacd_min_attempts=Squilli minimi:
     clacd_last_acd_attempts=Ultimi attempts
+    clacd_n_all_lost=Totale perse
     clacd_n_lost=N. perse
     clacd_n_taken=N. Prese
+    clacd_n_zero=N. zero
     clacd_queue=Coda
     clacd_ring_s=Squillo
     clacd_taken_calls=Chiamate prese
