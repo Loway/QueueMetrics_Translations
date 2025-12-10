@@ -3786,6 +3786,7 @@ Other items
     qap_new_memo=Create linked Memo
     qap_no_cases=No Cases found for the current search, please try again.
     qap_no_clients=No Clients found for the current search, please try again.
+    qap_agent_not_present_on_queue=Agent is not present on selected outbound queue.
     qap_none=None
     qap_note_actions=Actions
     qap_note_complete=Complete
