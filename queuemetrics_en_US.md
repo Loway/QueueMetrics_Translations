@@ -1576,6 +1576,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=No agents belonging to this group.
     edit_record_groups_title=Edit agent group details
     edit_record_icon=Icon
+    edit_record_id=Id
     edit_record_ivr_code=IVR code:
     edit_record_ivr_title=Edit IVR details
     edit_record_lastupdate=Last Update
