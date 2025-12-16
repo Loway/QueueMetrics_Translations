@@ -3684,6 +3684,8 @@ Other items
     qap_amo_request=Richiedi chiamata AMO
     qap_amo_reserved=Chiamata riservata con successo.
     qap_amo_terminated=Non ci sono più chiamate AMO disponibili.
+    qap_apply_feature_error=Errore durante l'applicazione della caratteristica all'interazione
+    qap_apply_outcome_error=Errore durante l'applicazione del risulato all'interazione 
     qap_assign_case=Assegna l'interazione a un caso
     qap_assign_client=Assegna l'interazione a un cliente
     qap_assign_interaction_error=Errore nell'assegnare una relazione a questa interazione

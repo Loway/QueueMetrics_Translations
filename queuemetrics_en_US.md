@@ -3646,6 +3646,8 @@ Other items
     qap_amo_request=Request AMO Call
     qap_amo_reserved=Call successfully Reserved.
     qap_amo_terminated=There are no more available AMO calls.
+    qap_apply_feature_error=Error while applying feature to interaction
+    qap_apply_outcome_error=Error while applying outcome to interaction
     qap_assign_case=Assign Interaction to Case
     qap_assign_client=Assign Interaction to Client
     qap_assign_interaction_error=Error while assigning a relationship to this Interaction.
