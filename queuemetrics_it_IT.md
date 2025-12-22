@@ -2227,6 +2227,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=Estensione
     rt3_extension_info=Registrato come:
     rt3_extra_value=Alcuni dei valori selezionati non sono disponibili
+    rt3_filters=Mostra/Nascondi filtri
     rt3_go=Vai
     rt3_gohome=Home
     rt3_goto_login=Vai al Login
