@@ -348,7 +348,7 @@ Do not change the items below:
     art_connectivity_problem=Server Connectivity Problem.
     art_copied_to_clipboard=Copied To Clipboard.
     art_currentExtension=Current extension
-    art_deprecated_page=Notice: A new Agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the new page
+    art_deprecated_page=Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
     art_endCall=End Call
     art_exitfullscreen=Click here to return from the fullscreen mode
     art_extInUse=The requested extension is currently used by another agent.
