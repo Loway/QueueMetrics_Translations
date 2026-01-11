@@ -349,8 +349,8 @@ Do not change the items below:
     art_connectivity_problem=Problème de connexion au Serveur.
     art_copied_to_clipboard=Copié dans le Presse-Papier.
     art_currentExtension=Extension courante
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?Avis : Une nouvelle page agent est maintenant disponible. Celle que vous utilisez actuellement sera supprimée dans la prochaine version. Veuillez demander à votre administrateur de vous migrer vers la page agent mise à jour.
     art_endCall=Fin d'appel
     art_exitfullscreen=Cliquer ici pour quitter le mode plein écran
     art_extInUse=L'extension demandée est actuellement utilisée par un autre agent
@@ -592,12 +592,12 @@ Do not change the items below:
     clacd_max_attempts=Nb. maximal de tentatives:
     clacd_min_attempts=Nb. minimal de tentatives:
     clacd_last_acd_attempts=Dernières tentatives ACD
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?Tous perdus
     clacd_n_lost=Nb. non-répondus
     clacd_n_taken=Nb. répondus
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?N. Zéro
     clacd_queue=File
     clacd_ring_s=Sonneries (s)
     clacd_taken_calls=Appels répondus
@@ -1581,8 +1581,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Aucun Agents n'appartient à ce groupe.
     edit_record_groups_title=Editer les détails de ce Groupe d'Agents
     edit_record_icon=Icône
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?Id
     edit_record_ivr_code=Code SVI:
     edit_record_ivr_title=Editer les détails du SVI
     edit_record_lastupdate=Dernière Mise à Jour
@@ -2233,8 +2233,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=Extension
     rt3_extension_info=Se logguer comme :
     rt3_extra_value=Quelques valeurs sélectionnées ne sont pas disponibles
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?Afficher/Masquer Filtres
     rt3_go=Entrer
     rt3_gohome=Accueil
     rt3_goto_login=S'authentifier
@@ -2587,8 +2587,8 @@ Description of configuration properties
     propedit_feature_wallboard=Tableau de Bord
     propedit_feature_wbsoftphone_settings=Configuration du Softphone du Tableau
     propedit_key_agent_background_desc=URL de la page de l'agent
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?Les agents seront automatiquement déconnectés de toutes les files d'attente à la déconnexion
     propedit_key_agent_outcome_size=Nombre maximum d'éléments dans la liste de sélection
     propedit_key_agent_pause_dialout=Désactiver les Agents quand ils sont en Pause
     propedit_key_agent_qap_cached_for_ms_desc=Temps de cache maximum autorisé pour la page de l'agent
@@ -3175,8 +3175,8 @@ Description of security keys:
     home_infobox_preview=Aperçu
     home_infobox_private=Privé
     home_infobox_quicklinks=Raccourcis
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?Masterkey activée — utilisation recommandée pour les tests uniquement
     home_news_subtitle=Dernières Nouvelles QueueMetrics
     home_news_title=Nouvelles
     home_payroll_subtitle=Démarrer un Rapport de Paye
@@ -3396,8 +3396,8 @@ Other items
     editor_search=Chercher
     editor_show_classes=Afficher les Classes
     editor_show_users=Afficher les utilisateurs
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?La saisie ne peut pas être laissée vide.
     err_super_multiple=Vous ne pouvez pas filtrer par agent ou par lieu dans un rapport de Superviseur
     err_super_noagents=L'utilisateur actuel ne supervisionne pas d'opérateurs
     expc_exportcallist=List des appels
@@ -3412,26 +3412,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Exporter comme XLS
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?Position Graphique
+    # 👽 graph_position_top -> Top
+    graph_position_top=?Haut
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?Bas
+    # 👽 graph_position_left -> Left
+    graph_position_left=?Gauche
+    # 👽 graph_position_right -> Right
+    graph_position_right=?Droite
+    # 👽 graph_size -> Graph Size
+    graph_size=?Taille Graphique
+    # 👽 graph_size_big -> Big
+    graph_size_big=?Grande
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?Normale
+    # 👽 graph_size_small -> Small
+    graph_size_small=?Petite
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?Très Petite
     grp_ivr=Evènements SVI
     grp_ivr_calls=Appels SVI
     grp_ivr_short=SVI
@@ -3718,10 +3718,10 @@ Other items
     qap_amo_request=Demande d'appel AMO
     qap_amo_reserved=Appel réservé avec succès.
     qap_amo_terminated=Aucun autre appel AMO disponible.
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?Erreur lors de l'application de la fonctionnalité à l'interaction
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?Erreur lors de l'application du résultat à l'interaction
     qap_assign_case=Attribuer une interaction à une requête
     qap_assign_client=Attribuer une interaction à un client
     qap_assign_interaction_error=Erreur lors de l'attribution d'une relation à cette interaction.
@@ -3842,8 +3842,8 @@ Other items
     qap_label_freetext=Texte libre
     qap_leave=Quitter
     qap_loading=Chargement....
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?Déconnexion de toutes les files d'attente
     qap_memos=Mémos
     qap_missing_cases_key=Vous n'êtes pas autorisé à créer de nouveaux cas.
     qap_missing_clients_key=Vous n'êtes pas autorisé à créer de nouveaux clients.
@@ -3864,8 +3864,8 @@ Other items
     qap_new_memo=Créer un mémo lié
     qap_no_cases=Aucun cas ouvert
     qap_no_clients=Aucun client trouvé.
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?L'agent n'est pas présent sur la file d'attente sortante sélectionnée.
     qap_none=Aucun
     qap_note_actions=Actions
     qap_note_complete=Complet
@@ -3999,8 +3999,8 @@ Other items
     reports_at_wait=Attente:
     reports_atomic_filters=Filtre d'expressions
     reports_autosave_toggle=Sauvegarde automatique
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?Masquer les créneaux horaires vides
     reports_change_report_confirm=Vous avez des modifications non enregistrées, la sélection d'un autre rapport annulera ces modifications. Voulez-vous modifier le rapport?
     reports_chart_avgdur=Durée moyenne
     reports_chart_delta=Delta
@@ -4067,16 +4067,16 @@ Other items
     reports_export_schema_error=Le rapport de schéma ne peut être exporté.
     reports_export_test_icon=Exécuter
     reports_export_xls_short=XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?Créer Nouveau Travail Export
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?Travail d'export créé avec succès
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?Erreur Création Travail Export :
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?Travaux existants pour ce rapport
+    # 👽 reports_export_job -> Export
+    reports_export_job=?Export
     reports_fetch_error=Erreur en récupérant le bloc de données
     reports_filter_agent=Agent
     reports_filter_agentgroup=Groupe d'Agents
@@ -4110,20 +4110,20 @@ Other items
     reports_filter_nrmcaller=Appelant Normalisé
     reports_filter_operator=Opérateur
     reports_filter_outcome=Résultats
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?Durée Pause Max.
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?Durée Pause Min.
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?N Pause Max.
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?N Pause Min.
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?Durée Session Max.
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?Durée Session Min.
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?Ext. Session
     reports_filter_selected_queues=Files sélectionnées
     reports_filter_server=Serveur
     reports_filter_shortcallattempt=Min. Temps de Tentatives (Appels courts)
@@ -4224,11 +4224,11 @@ Other items
     reports_save_report_confirm_current=Courant
     reports_save_report_confirm_message=Modifier le rapport actuel ou créer une copie avec les nouvelles modifications?
     reports_save_report_confirm_title=Sauvegarder le Rapport
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?Un rapport avec le même nom existe déjà. Veuillez sélectionner un nom différent.
     reports_save_successful=Rapport sauvegardé avec Succès
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?Planifié
     reports_search_placeholder=Filtre de recherche
     reports_select_report=Choisir un Rapport
     reports_settings=Paramétrages

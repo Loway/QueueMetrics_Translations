@@ -510,8 +510,8 @@ Do not change the items below:
     art_connectivity_problem=พบปัญหาการเชื่อมต่อกับเซิร์ฟเวอร์
     art_copied_to_clipboard=คัดลอกไปยัง Clipboard
     art_currentExtension=หมายเลข extension
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?หมายเหตุ: หน้าเอเจนต์ใหม่พร้อมใช้งานแล้ว หน้าที่คุณกำลังใช้จะถูกลบในรุ่นถัดไป กรุณาขอให้ผู้ดูแลระบบย้ายคุณไปยังหน้าเอเจนต์ที่อัปเดตแล้ว
     art_endCall=วางสาย
     art_exitfullscreen=คลิกที่นี่เพื่อออกจากโหมดเต็มหน้าจอ
     art_extInUse=หมายเลข extension นี้มี agent อื่นกำลังใช้งานอยู่
@@ -775,12 +775,12 @@ Do not change the items below:
     clacd_min_attempts=จำนวนครั้งน้อยสุด:
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?ความพยายาม ACD ล่าสุด
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?สูญหายทั้งหมด
     clacd_n_lost=จำนวนสายที่ไม่ได้รับ
     clacd_n_taken=จำนวนสายที่ได้รับ
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?จำนวนศูนย์
     clacd_queue=Queue
     clacd_ring_s=Ring (s)
     clacd_taken_calls=รับสาย
@@ -2121,8 +2121,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_title=?Edit agent group details=แก้ไขรายละเอียดกลุ่มเอเจนต์
     # 👽 edit_record_icon -> Icon
     edit_record_icon=?Icon=ไอคอน
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?รหัส
     # 👽 edit_record_ivr_code -> IVR code:
     edit_record_ivr_code=?IVR code:=รหัส IVR:
     # 👽 edit_record_ivr_title -> Edit IVR details
@@ -3341,8 +3341,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension_info=?เข้าสู่ระบบในชื่อ:
     # 👽 rt3_extra_value -> Some of the selected values are not available
     rt3_extra_value=?ค่าที่เลือกบางส่วนไม่พร้อมใช้งาน
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?แสดง/ซ่อนตัวกรอง
     # 👽 rt3_go -> Go
     rt3_go=?ไป
     rt3_gohome=หน้าหลัก
@@ -3913,8 +3913,8 @@ Description of configuration properties
     propedit_feature_wbsoftphone_settings=?การตั้งค่า Softphone ของ Wallboard
     # 👽 propedit_key_agent_background_desc -> URL of the agent page background.
     propedit_key_agent_background_desc=?URL ของพื้นหลังหน้า Agent
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?เอเจนต์จะออกจากคิวทั้งหมดโดยอัตโนมัติเมื่อออกจากระบบ
     # 👽 propedit_key_agent_outcome_size -> Maximum height of outcome selection list
     propedit_key_agent_outcome_size=?ความสูงสูงสุดของรายการเลือกผลลัพธ์
     # 👽 propedit_key_agent_pause_dialout -> Disable agents dial out when they are on pause
@@ -5010,8 +5010,8 @@ Description of security keys:
     home_infobox_private=?ส่วนตัว
     # 👽 home_infobox_quicklinks -> Quicklinks
     home_infobox_quicklinks=?ลิงก์ด่วน
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?Masterkey เปิดใช้งาน — แนะนำให้ใช้สำหรับทดสอบเท่านั้น
     # 👽 home_news_subtitle -> QueueMetrics Latest News
     home_news_subtitle=?ข่าวสารล่าสุดของ QueueMetrics
     # 👽 home_news_title -> News
@@ -5333,8 +5333,8 @@ Other items
     editor_show_classes=?แสดงคลาส
     # 👽 editor_show_users -> Show Users
     editor_show_users=?แสดงผู้ใช้
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?ช่องข้อมูลไม่สามารถว่างเปล่าได้
     # 👽 err_super_multiple -> You cannot filter by  agent or location when running Supervisor reports
     err_super_multiple=?คุณไม่สามารถกรองตามตัวแทนหรือสถานที่เมื่อเรียกใช้รายงานหัวหน้างาน
     # 👽 err_super_noagents -> Current user supervises no agents.
@@ -5363,26 +5363,26 @@ Other items
     export_to_pdf=?PDF
     # 👽 export_xml -> Export as XML
     export_xml=?ส่งออกเป็น XML
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?ตำแหน่งกราฟ
+    # 👽 graph_position_top -> Top
+    graph_position_top=?บน
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?ล่าง
+    # 👽 graph_position_left -> Left
+    graph_position_left=?ซ้าย
+    # 👽 graph_position_right -> Right
+    graph_position_right=?ขวา
+    # 👽 graph_size -> Graph Size
+    graph_size=?ขนาดกราฟ
+    # 👽 graph_size_big -> Big
+    graph_size_big=?ใหญ่
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?ปกติ
+    # 👽 graph_size_small -> Small
+    graph_size_small=?เล็ก
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?เล็กพิเศษ
     # 👽 grp_ivr -> Ivr Events
     grp_ivr=?เหตุการณ์ Ivr
     # 👽 grp_ivr_calls -> IVR calls
@@ -5935,10 +5935,10 @@ Other items
     qap_amo_reserved=?จองการโทรสำเร็จแล้ว
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?ไม่มีการโทร AMO ที่พร้อมใช้งานอีกต่อไป
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?เกิดข้อผิดพลาดขณะใช้ฟีเจอร์กับการโต้ตอบ
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?เกิดข้อผิดพลาดขณะใช้ผลลัพธ์กับการโต้ตอบ
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?กำหนดการโต้ตอบให้กับเคส
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -6179,8 +6179,8 @@ Other items
     qap_leave=?ออก
     # 👽 qap_loading -> Loading...
     qap_loading=?กำลังโหลด...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?กำลังออกจากคิวทั้งหมด
     # 👽 qap_memos -> Memos
     qap_memos=?บันทึกช่วยจำ
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -6221,8 +6221,8 @@ Other items
     qap_no_cases=?ไม่พบเคสสำหรับในการค้นหาปัจจุบัน โปรดลองอีกครั้ง
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?ไม่พบลูกค้าในการค้นหาปัจจุบัน โปรดลองอีกครั้ง
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?เอเจนต์ไม่ได้อยู่ในคิวขาออกที่เลือก
     # 👽 qap_none -> None
     qap_none=?ไม่มี
     # 👽 qap_note_actions -> Actions
@@ -6489,8 +6489,8 @@ Other items
     reports_atomic_filters=?ตัวกรองนิพจน์
     # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?บันทึกอัตโนมัติ
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?ซ่อนช่วงเวลาที่ว่าง
     # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?คุณมีการเปลี่ยนแปลงที่ไม่ได้บันทึก การเลือกรายงานอื่นจะยกเลิกการเปลี่ยนแปลงเหล่านั้น คุณต้องการเปลี่ยนรายงานหรือไม่
     # 👽 reports_chart_avgdur -> Avg. Duration
@@ -6623,16 +6623,16 @@ Other items
     reports_export_test_icon=?เรียกใช้ทันที
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?สร้างงานส่งออกใหม่
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?สร้างงานส่งออกสำเร็จ
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?เกิดข้อผิดพลาดในการสร้างงานส่งออก:
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?งานที่มีอยู่สำหรับรายงานนี้
+    # 👽 reports_export_job -> Export
+    reports_export_job=?ส่งออก
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?ข้อผิดพลาดในการดึงข้อมูล DataBlock
     # 👽 reports_filter_agent -> Agent
@@ -6699,20 +6699,20 @@ Other items
     reports_filter_operator=?ผู้ปฏิบัติงาน
     # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?ผลลัพธ์
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?ระยะเวลาหยุดสูงสุด
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?ระยะเวลาหยุดต่ำสุด
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?จำนวนหยุดสูงสุด
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?จำนวนหยุดต่ำสุด
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?ระยะเวลาเซสชันสูงสุด
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?ระยะเวลาเซสชันต่ำสุด
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?เบอร์ภายในเซสชัน
     # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?คิว
     # 👽 reports_filter_server -> Server
@@ -6913,12 +6913,12 @@ Other items
     reports_save_report_confirm_message=?แก้ไขรายงานปัจจุบันหรือสร้างสำเนาด้วยการเปลี่ยนแปลงใหม่
     # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?บันทึกรายงาน
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?มีรายงานชื่อเดียวกันอยู่แล้ว กรุณาเลือกชื่ออื่น
     # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?บันทึกรายงานสำเร็จแล้ว
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?กำหนดเวลา
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?ตัวกรองการค้นหา
     # 👽 reports_select_report -> Choose a Report
@@ -7678,38 +7678,38 @@ Other items
     timeline_tab_recordings=?การบันทึก
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?รวมระยะเวลา
-    # 🔴 title_do_agentsdo -> Agents Sessions and Pauses
-    ➡️ title_do_agentsdo=
-    # 🔴 title_do_areaando -> Area codes
-    ➡️ title_do_areaando=
-    # 🔴 title_do_calldistrdo -> Call Distribution
-    ➡️ title_do_calldistrdo=
-    # 🔴 title_do_calltagdo -> Call Tags
-    ➡️ title_do_calltagdo=
-    # 🔴 title_do_casedo -> Cases
-    ➡️ title_do_casedo=
-    # 🔴 title_do_customblkdo -> Custom DataBlock
-    ➡️ title_do_customblkdo=
-    # 🔴 title_do_detailsdo -> Details
-    ➡️ title_do_detailsdo=
-    # 🔴 title_do_distrdo -> Attempts
-    ➡️ title_do_distrdo=
-    # 🔴 title_do_extsourcedo -> External Source
-    ➡️ title_do_extsourcedo=
-    # 🔴 title_do_fcrdo -> First Call Resolution
-    ➡️ title_do_fcrdo=
-    # 🔴 title_do_groupingsdo -> Calls Grouping
-    ➡️ title_do_groupingsdo=
-    # 🔴 title_do_ivrdo -> Ivr Calls
-    ➡️ title_do_ivrdo=
-    # 🔴 title_do_kodo -> Unanswered Calls
-    ➡️ title_do_kodo=
-    # 🔴 title_do_okdo -> Taken Calls
-    ➡️ title_do_okdo=
-    # 🔴 title_do_outcomesdo -> Call with Outcomes
-    ➡️ title_do_outcomesdo=
-    # 🔴 title_do_teamsdo -> Teams
-    ➡️ title_do_teamsdo=
+    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
+    title_do_agentsdo=?เซสชันและการหยุดของเอเจนต์
+    # 👽 title_do_areaando -> Area codes
+    title_do_areaando=?รหัสพื้นที่
+    # 👽 title_do_calldistrdo -> Call Distribution
+    title_do_calldistrdo=?การกระจายสาย
+    # 👽 title_do_calltagdo -> Call Tags
+    title_do_calltagdo=?แท็กสาย
+    # 👽 title_do_casedo -> Cases
+    title_do_casedo=?เคส
+    # 👽 title_do_customblkdo -> Custom DataBlock
+    title_do_customblkdo=?บล็อกข้อมูลกำหนดเอง
+    # 👽 title_do_detailsdo -> Details
+    title_do_detailsdo=?รายละเอียด
+    # 👽 title_do_distrdo -> Attempts
+    title_do_distrdo=?ความพยายาม
+    # 👽 title_do_extsourcedo -> External Source
+    title_do_extsourcedo=?แหล่งภายนอก
+    # 👽 title_do_fcrdo -> First Call Resolution
+    title_do_fcrdo=?การแก้ไขสายแรก
+    # 👽 title_do_groupingsdo -> Calls Grouping
+    title_do_groupingsdo=?การจัดกลุ่มสาย
+    # 👽 title_do_ivrdo -> Ivr Calls
+    title_do_ivrdo=?สาย Ivr
+    # 👽 title_do_kodo -> Unanswered Calls
+    title_do_kodo=?สายไม่ตอบ
+    # 👽 title_do_okdo -> Taken Calls
+    title_do_okdo=?สายที่รับ
+    # 👽 title_do_outcomesdo -> Call with Outcomes
+    title_do_outcomesdo=?สายที่มีผลลัพธ์
+    # 👽 title_do_teamsdo -> Teams
+    title_do_teamsdo=?Teams
     ts_agawrep_invalidlocation=กรุณาเลือก location
     # 👽 userpage_change_button -> Change it
     userpage_change_button=?เปลี่ยน

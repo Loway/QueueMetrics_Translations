@@ -372,8 +372,8 @@ Do not change the items below:
     art_connectivity_problem=服务器连接问题
     art_copied_to_clipboard=复制到剪切板
     art_currentExtension=当前分机
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?注意：现在有新的座席页面可用。您当前使用的页面将在下个版本中删除。请要求管理员将您迁移到更新的座席页面。
     art_endCall=结束通话
     art_exitfullscreen=退出全屏
     art_extInUse=当前分机已被占用
@@ -630,12 +630,12 @@ Do not change the items below:
     clacd_min_attempts=最小试呼次数
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?上次ACD尝试
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?全部丢失
     clacd_n_lost=丢失数量
     clacd_n_taken=接听数量
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?零次数
     clacd_queue=队列
     clacd_ring_s=呼叫次数
     clacd_taken_calls=已接通话
@@ -1798,8 +1798,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=当前组坐席为空
     edit_record_groups_title=编辑坐席组明细
     edit_record_icon=图标
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?编号
     edit_record_ivr_code=IVR代码
     edit_record_ivr_title=编辑IVR明细
     edit_record_lastupdate=最近更新
@@ -2672,8 +2672,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension_info=?登录为：
     # 👽 rt3_extra_value -> Some of the selected values are not available
     rt3_extra_value=?某些选定的值不可用
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?显示/隐藏筛选器
     # 👽 rt3_go -> Go
     rt3_go=?开始
     # 👽 rt3_gohome -> Home
@@ -3242,8 +3242,8 @@ Description of configuration properties
     propedit_feature_wbsoftphone_settings=?墙板软电话设置
     # 👽 propedit_key_agent_background_desc -> URL of the agent page background.
     propedit_key_agent_background_desc=?座席页面背景的 URL。
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?座席在登出时将自动从所有队列中退出
     # 👽 propedit_key_agent_outcome_size -> Maximum height of outcome selection list
     propedit_key_agent_outcome_size=?结果选择列表的最大高度
     # 👽 propedit_key_agent_pause_dialout -> Disable agents dial out when they are on pause
@@ -4200,8 +4200,8 @@ Description of security keys:
     home_infobox_private=?私有
     # 👽 home_infobox_quicklinks -> Quicklinks
     home_infobox_quicklinks=?快速链接
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?主密钥已启用 — 建议仅用于测试
     # 👽 home_news_subtitle -> QueueMetrics Latest News
     home_news_subtitle=?QueueMetrics 最新消息
     # 👽 home_news_title -> News
@@ -4504,8 +4504,8 @@ Other items
     editor_search=搜索
     editor_show_classes=显示权限
     editor_show_users=显示用户
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?输入不能为空。
     err_super_multiple=你不能在监督报告中过滤客服或地点
     err_super_noagents=当前用户没有监督任何客服
     expc_exportcallist=通话一览表
@@ -4520,26 +4520,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=导出XML
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?图表位置
+    # 👽 graph_position_top -> Top
+    graph_position_top=?顶部
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?底部
+    # 👽 graph_position_left -> Left
+    graph_position_left=?左侧
+    # 👽 graph_position_right -> Right
+    graph_position_right=?右侧
+    # 👽 graph_size -> Graph Size
+    graph_size=?图表大小
+    # 👽 graph_size_big -> Big
+    graph_size_big=?大
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?正常
+    # 👽 graph_size_small -> Small
+    graph_size_small=?小
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?特小
     # 👽 grp_ivr -> Ivr Events
     grp_ivr=?IVR 事件
     # 👽 grp_ivr_calls -> IVR calls
@@ -4962,10 +4962,10 @@ Other items
     qap_amo_reserved=?呼叫已成功预留。
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?没有更多可用的AMO呼叫。
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?向交互应用功能时出错
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?向交互应用结果时出错
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?将交互分配给案件
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -5206,8 +5206,8 @@ Other items
     qap_leave=?离开
     # 👽 qap_loading -> Loading...
     qap_loading=?正在加载...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?正在从所有队列中登出
     # 👽 qap_memos -> Memos
     qap_memos=?备忘录
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -5248,8 +5248,8 @@ Other items
     qap_no_cases=?未找到当前搜索的案件，请重试。
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?未找到当前搜索的客户，请重试。
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?座席不在所选外呼队列中。
     # 👽 qap_none -> None
     qap_none=?无
     # 👽 qap_note_actions -> Actions
@@ -5493,8 +5493,8 @@ Other items
     reports_atomic_filters=?表达式过滤器
     # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?自动保存
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?隐藏空时间段
     # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?您有未保存的更改，选择不同的报表将撤消这些更改。您要更改报表吗？
     # 👽 reports_chart_avgdur -> Avg. Duration
@@ -5627,16 +5627,16 @@ Other items
     reports_export_test_icon=?立即运行
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?创建新导出任务
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?导出任务创建成功
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?创建导出任务错误：
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?此报告的现有任务
+    # 👽 reports_export_job -> Export
+    reports_export_job=?导出
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?提取数据块时出错
     # 👽 reports_filter_agent -> Agent
@@ -5703,20 +5703,20 @@ Other items
     reports_filter_operator=?操作员
     # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?结果
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?最大暂停时长
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?最小暂停时长
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?最大暂停次数
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?最小暂停次数
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?最大会话时长
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?最小会话时长
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?会话分机
     # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?队列
     # 👽 reports_filter_server -> Server
@@ -5917,12 +5917,12 @@ Other items
     reports_save_report_confirm_message=?编辑当前报告还是创建具有新更改的副本？
     # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?保存报告
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?已存在同名报告。请选择不同的名称。
     # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?报告保存成功
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?已计划
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?搜索过滤器
     # 👽 reports_select_report -> Choose a Report

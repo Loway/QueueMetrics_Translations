@@ -349,8 +349,8 @@ Do not change the items below:
     art_connectivity_problem=서버 연결 문제
     art_copied_to_clipboard=클립보드에 복사됨
     art_currentExtension=현 내선번호
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?알림: 새로운 상담원 페이지가 사용 가능합니다. 현재 사용하는 페이지는 다음 릴리스에서 제거됩니다. 관리자에게 업데이트된 상담원 페이지로 이전을 요청하세요.
     art_endCall=종료된 통화
     art_exitfullscreen=전체화면모드로 돌아가려면 여기를 클릭하세요
     art_extInUse=선택한 내선번호는 현재 다른 상담원이 사용중입니다
@@ -606,12 +606,12 @@ Do not change the items below:
     clacd_min_attempts=최소 시도수
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?최근 ACD 시도
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?모든 손실
     clacd_n_lost=미수신 통화수
     clacd_n_taken=수신 통화 수
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?N. 제로
     clacd_queue=대기큐(Queue)
     clacd_ring_s=Ring(s)
     clacd_taken_calls=수신된 통화
@@ -1669,8 +1669,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=이 그룹에 속한 상담원이 없습니다.
     edit_record_groups_title=상담원 그룹 상세정보 편집
     edit_record_icon=아이콘
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?Id
     edit_record_ivr_code=IVR코드 : 
     edit_record_ivr_title=IVR 상세정보 편집
     edit_record_lastupdate=최종 수정일
@@ -2359,8 +2359,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=내선번호
     rt3_extension_info=Logged in as:
     rt3_extra_value=Some of the selected values are not available
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?필터 보기/숨기기
     rt3_go=Go
     rt3_gohome=홈(Home)
     rt3_goto_login=로그인으로 가기
@@ -2729,8 +2729,8 @@ Description of configuration properties
     propedit_feature_wallboard=현황판(Wallboard)
     propedit_feature_wbsoftphone_settings=Wallboard Softphone Settings
     propedit_key_agent_background_desc=URL of the agent page background.
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?로그아웃 시 모든 큐에서 상담원이 자동으로 로그오프됩니다
     propedit_key_agent_outcome_size=Maximum height of outcome selection list
     propedit_key_agent_pause_dialout=Disable agents dial out when they are on pause
     # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
@@ -3466,8 +3466,8 @@ Description of security keys:
     # 👽 home_infobox_private -> Private
     home_infobox_private=?개인 정보
     home_infobox_quicklinks=Quicklinks
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?마스터키 활성화 — 테스트 용도로만 권장
     home_news_subtitle=QueueMetrics 최신뉴스
     home_news_title=뉴스
     home_payroll_subtitle=Payroll Report 생성
@@ -3729,8 +3729,8 @@ Other items
     editor_search=검색
     editor_show_classes=클래스(Class) 조회,편집
     editor_show_users=사용자 정보 조회,편집
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?입력 항목을 공백으로 둘 수 없습니다.
     err_super_multiple=감독자(Superviser)보고서를 수행할 때 상담원이나 위치(Location)로 필터링 할 수 없습니다.
     err_super_noagents=현재 사용자는 감독하는 상담원이 없습니다.
     expc_exportcallist=콜 목록
@@ -3745,26 +3745,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=XML 파일로 내보내기
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?그래프 위치
+    # 👽 graph_position_top -> Top
+    graph_position_top=?위
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?아래
+    # 👽 graph_position_left -> Left
+    graph_position_left=?왼쪽
+    # 👽 graph_position_right -> Right
+    graph_position_right=?오른쪽
+    # 👽 graph_size -> Graph Size
+    graph_size=?그래프 크기
+    # 👽 graph_size_big -> Big
+    graph_size_big=?크게
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?보통
+    # 👽 graph_size_small -> Small
+    graph_size_small=?작게
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?매우 작게
     grp_ivr=IVR Events
     # 👽 grp_ivr_calls -> IVR calls
     grp_ivr_calls=?IVR 통화
@@ -4143,10 +4143,10 @@ Other items
     qap_amo_reserved=?통화가 성공적으로 예약되었습니다.
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?더 이상 사용 가능한 AMO 통화가 없습니다.
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?상호작용에 기능 적용 중 오류
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?상호작용에 결과 적용 중 오류
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?사례에 상호 작용 할당
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -4386,8 +4386,8 @@ Other items
     qap_leave=?나가기
     # 👽 qap_loading -> Loading...
     qap_loading=?로드 중...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?모든 큐에서 로그아웃 중
     # 👽 qap_memos -> Memos
     qap_memos=?메모
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -4428,8 +4428,8 @@ Other items
     qap_no_cases=?현재 검색에 대한 사례를 찾을 수 없습니다. 다시 시도하십시오.
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?현재 검색에 대한 고객을 찾을 수 없습니다. 다시 시도하십시오.
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?선택한 아웃바운드 큐에 상담원이 없습니다.
     # 👽 qap_none -> None
     qap_none=?없음
     # 👽 qap_note_actions -> Actions
@@ -4667,8 +4667,8 @@ Other items
     reports_atomic_filters=?표현식 필터
     # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?자동 저장
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?빈 시간대 숨기기
     # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?저장하지 않은 변경 사항이 있습니다. 다른 보고서를 선택하면 해당 변경 사항이 취소됩니다. 보고서를 변경하시겠습니까?
     # 👽 reports_chart_avgdur -> Avg. Duration
@@ -4793,16 +4793,16 @@ Other items
     reports_export_test_icon=지금 실행
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?새 내보내기 작업 생성
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?내보내기 작업이 성공적으로 생성됨
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?내보내기 작업 생성 오류:
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?이 보고서의 기존 작업
+    # 👽 reports_export_job -> Export
+    reports_export_job=?내보내기
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?데이터 블록 가져오기 오류
     # 👽 reports_filter_agent -> Agent
@@ -4869,20 +4869,20 @@ Other items
     reports_filter_operator=?운영자
     # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?결과
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?최대 일시정지 시간
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?최소 일시정지 시간
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?최대 N 일시정지
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?최소 N 일시정지
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?최대 세션 시간
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?최소 세션 시간
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?세션 내선번호
     # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?대기열
     # 👽 reports_filter_server -> Server
@@ -5083,12 +5083,12 @@ Other items
     reports_save_report_confirm_message=?현재 보고서를 편집하시겠습니까, 아니면 새 변경 사항으로 사본을 만드시겠습니까?
     # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?보고서 저장
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?같은 이름의 보고서가 이미 존재합니다. 다른 이름을 선택하세요.
     # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?보고서가 성공적으로 저장되었습니다
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?예약됨
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?검색 필터
     # 👽 reports_select_report -> Choose a Report

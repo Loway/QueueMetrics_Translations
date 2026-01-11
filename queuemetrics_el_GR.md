@@ -349,8 +349,8 @@ Do not change the items below:
     art_connectivity_problem=Πρόβλημα Συνδεσιμότητας με Εξυπηρετητή
     art_copied_to_clipboard=Έγινε Αντιγραφή στο Πρόχειρο
     art_currentExtension=Τρέχον εσωτερικό
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?Ειδοποίηση: Μια νέα σελίδα πράκτορα είναι τώρα διαθέσιμη. Αυτή που χρησιμοποιείτε θα αφαιρεθεί στην επόμενη έκδοση. Ζητήστε από τον διαχειριστή να σας μεταφέρει στη νέα σελίδα.
     art_endCall=Τέλος κλήσης
     art_exitfullscreen=Κάνετε κλίκ εδώ για κλείσιμο πλήρους οθόνης 
     art_extInUse=Το εσωτερικό που ζητήθηκε χρησιμοποιέιται ήδη απο άλλο χρήστη.
@@ -592,12 +592,12 @@ Do not change the items below:
     clacd_max_attempts=Μέγιστος αριθμός προσπαθειών
     clacd_min_attempts=Ελάχιστος αριθμός προσπαθειών
     clacd_last_acd_attempts=Χαμένες ACD προσπάθειες
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?Όλες χαμένες
     clacd_n_lost=Αρ. χαμένων κλ.
     clacd_n_taken=Αρ. δεχθέντων κλ.
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?Αρ. Μηδέν
     clacd_queue=Ουρά αναμονής
     clacd_ring_s=Κουδουνισμός (δευτ.)
     clacd_taken_calls=Ληφθείσες κλήσεις
@@ -1583,8 +1583,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Δεν υπάρχουν χρήστες να ανήκουν σε αυτή την ομάδα χρηστών
     edit_record_groups_title=Επεξεργασία λεπτομερειών της ομάδας χρηστών
     edit_record_icon=Εικονίδιο
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?Id
     edit_record_ivr_code=Κωδικός IVR
     edit_record_ivr_title=Επεξεργασία λεπτομερειών IVR
     edit_record_lastupdate=Τελευταία Ενημέρωση
@@ -2236,8 +2236,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=Επέκταση
     rt3_extension_info=Συνδεδεμένος ως:
     rt3_extra_value=Μερικές από τις επιλεγμένες τιμές δεν είναι διαθέσιμες
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?Εμφάνιση/Απόκρυψη Φίλτρων
     rt3_go=Εκτέλεση
     rt3_gohome=Αρχική
     rt3_goto_login=Πηγαίνετε στη σύνδεση
@@ -2593,8 +2593,8 @@ Description of configuration properties
     propedit_feature_wallboard=Οθόνη
     propedit_feature_wbsoftphone_settings=Ρυθμίσεις του softphone της οθόνης
     propedit_key_agent_background_desc=URL του φόντου της σελίδας του χρήστη.
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?Οι πράκτορες θα αποσυνδεθούν αυτόματα από όλες τις ουρές κατά την αποσύνδεση
     propedit_key_agent_outcome_size=Μέγιστο ύψος του καταλόγου επιλογής αποτελεσμάτων
     propedit_key_agent_pause_dialout=Απενεργοποίση δυνατότητας κλήσης χρηστών όταν αυτοί είναι σε παύση
     propedit_key_agent_qap_cached_for_ms_desc=Μέγιστος χρόνος αποθήκευσης της σελίδας του χρήστη στην κρυφή μνήμη
@@ -3183,8 +3183,8 @@ Description of security keys:
     home_infobox_preview=Προεπισκόπηση
     home_infobox_private=Ιδιωτικό
     home_infobox_quicklinks=Quicklinks
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?Masterkey ενεργό — συνιστάται χρήση μόνο για δοκιμές
     home_news_subtitle=Τελευταία νέα QueueMetrics
     home_news_title=Νέα
     home_payroll_subtitle=Εκκίνηση Αναφοράς Μισθοδοσίας
@@ -3404,8 +3404,8 @@ Other items
     editor_search=Αναζήτηση
     editor_show_classes=Εμφάνιση κατηγοριών
     editor_show_users=Εμφάνιση χρηστών
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?Το πεδίο δεν μπορεί να μείνει κενό.
     err_super_multiple=Δεν είναι δυνατό το φιλτράρισμα ανά χρήστη ή ανά τοποθεσία όταν τρέχουν αναφορές του Επιβλέποντα
     err_super_noagents=Ο τρέχων χρήστης δεν επιβλέπει κανένα άλλο χρήστη
     expc_exportcallist=Λίστα κλήσεων
@@ -3420,26 +3420,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Εξαγωγή σε διαμόρφωση XML
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?Θέση Γραφήματος
+    # 👽 graph_position_top -> Top
+    graph_position_top=?Πάνω
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?Κάτω
+    # 👽 graph_position_left -> Left
+    graph_position_left=?Αριστερά
+    # 👽 graph_position_right -> Right
+    graph_position_right=?Δεξιά
+    # 👽 graph_size -> Graph Size
+    graph_size=?Μέγεθος Γραφήματος
+    # 👽 graph_size_big -> Big
+    graph_size_big=?Μεγάλο
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?Κανονικό
+    # 👽 graph_size_small -> Small
+    graph_size_small=?Μικρό
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?Πολύ Μικρό
     grp_ivr=Γεγονότα IVR
     grp_ivr_calls=Κλήσεις IVR
     grp_ivr_short=IVR
@@ -3726,10 +3726,10 @@ Other items
     qap_amo_request=Αίτημα για Κλήση AMO
     qap_amo_reserved=Η Κλήση δεσμεύτηκα Επιτυχώς
     qap_amo_terminated=Δεν Υπάρχουν Πλέον Διαθέσιμες Κλήσεις AMO
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?Σφάλμα κατά την εφαρμογή χαρακτηριστικού στην αλληλεπίδραση
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?Σφάλμα κατά την εφαρμογή αποτελέσματος στην αλληλεπίδραση
     qap_assign_case=Ανάθεση Αλληλεπίδρασης σε Υπόθεση
     qap_assign_client=Ανάθεση Αλληλεπίδρασης στον Πελάτη
     qap_assign_interaction_error=Σφάλμα κατά την ανάθεση σχέσης σε αυτή την Αλληλεπίδραση
@@ -3850,8 +3850,8 @@ Other items
     qap_label_freetext=Ελεύθερο Κείμενο
     qap_leave=Αποχώρηση
     qap_loading=Φόρτωση...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?Αποσύνδεση από όλες τις ουρές
     qap_memos=Σημειώσεις
     qap_missing_cases_key=Δεν έχετε άδεια να δημιουργήσετε νέες Υποθέσεις.
     qap_missing_clients_key=Δεν έχετε άδεια να δημιουργήσετε νέους Πελάτες.
@@ -3872,8 +3872,8 @@ Other items
     qap_new_memo=Δημιουργία Συνδεδεμένης Σημείωσης
     qap_no_cases=Δεν βρέθηκαν Υποθέσεις για την τρέχουσα αναζήτηση, παρακαλώ προσπαθήστε ξανά.
     qap_no_clients=Δεν βρέθηκαν Πελάτες για την τρέχουσα αναζήτηση, παρακαλώ προσπαθήστε ξανά.
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?Ο πράκτορας δεν είναι παρών στην επιλεγμένη εξερχόμενη ουρά.
     qap_none=Κανένα
     qap_note_actions=Ενέργειες
     qap_note_complete=Ολοκλήρωση
@@ -4007,8 +4007,8 @@ Other items
     reports_at_wait=Αναμονή:
     reports_atomic_filters=Φίλτρα Εκφράσεων
     reports_autosave_toggle=Αυτόματη Αποθήκευση
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?Απόκρυψη κενών ωριαίων θέσεων
     reports_change_report_confirm=Έχετε αποθηκευμένες αλλαγές, η επιλογή διαφορετικής αναφοράς θα αναιρέσει αυτές τις αλλαγές. Θέλετε να αλλάξετε αναφορά;
     reports_chart_avgdur=Μ.Ο. Διάρκειας
     reports_chart_delta=Διαφορά
@@ -4075,16 +4075,16 @@ Other items
     reports_export_schema_error=Το Σχήμα Αναφοράς δεν μπόρεσε να εξαχθεί.
     reports_export_test_icon=Εκτέλεση τώρα
     reports_export_xls_short=XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?Δημιουργία Νέας Εργασίας Εξαγωγής
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?Η εργασία εξαγωγής δημιουργήθηκε επιτυχώς
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?Σφάλμα Δημιουργίας Εργασίας Εξαγωγής:
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?Υπάρχουσες εργασίες για αυτή την αναφορά
+    # 👽 reports_export_job -> Export
+    reports_export_job=?Εξαγωγή
     reports_fetch_error=Σφάλμα κατά την ανάκτηση DataBlock
     reports_filter_agent=Πράκτορας
     reports_filter_agentgroup=Ομάδα Πράκτορα
@@ -4118,20 +4118,20 @@ Other items
     reports_filter_nrmcaller=Κανονικοποιημένος Καλών
     reports_filter_operator=Λειτουργός
     reports_filter_outcome=Αποτέλεσμα
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?Μέγ. Διάρκεια Παύσης
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?Ελάχ. Διάρκεια Παύσης
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?Μέγ. Αρ. Παύσης
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?Ελάχ. Αρ. Παύσης
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?Μέγ. Διάρκεια Συνεδρίας
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?Ελάχ. Διάρκεια Συνεδρίας
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?Εσωτ. Συνεδρίας
     reports_filter_selected_queues=Ουρές Αναμονής
     reports_filter_server=Διακομιστής
     reports_filter_shortcallattempt=Ελάχιστος Χρόνος Ομιλίας (σύντομες κλήσεις)
@@ -4232,11 +4232,11 @@ Other items
     reports_save_report_confirm_current=Τρέχουσα
     reports_save_report_confirm_message=Επεξεργασία της τρέχουσας αναφοράς ή δημιουργία αντιγράφου με τις νέες αλλαγές;
     reports_save_report_confirm_title=Αποθήκευση Αναφοράς
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?Υπάρχει ήδη αναφορά με το ίδιο όνομα. Επιλέξτε διαφορετικό όνομα.
     reports_save_successful=Η αναφορά αποθηκεύτηκε με επιτυχία
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?Προγραμματισμένη
     reports_search_placeholder=Φίλτρο Αναζήτησης
     reports_select_report=Επιλέξτε Αναφορά
     reports_settings=Ρυθμίσεις

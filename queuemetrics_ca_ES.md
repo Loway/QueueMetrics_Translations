@@ -351,8 +351,8 @@ Do not change the items below:
     art_connectivity_problem=Problema de conectivitat amb el servidor
     art_copied_to_clipboard=copiat al porta-retalls
     art_currentExtension=Extensió actual
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?Avís: Hi ha una nova pàgina d'agent disponible. La que esteu utilitzant s'eliminarà en la propera versió. Demaneu al vostre administrador que us migri a la pàgina d'agent actualitzada.
     art_endCall=Fi de trucada
     art_exitfullscreen=Clica aquí per sortir del mode de pantalla complerta
     art_extInUse=L'extensió indicada està en ús per un altre agent
@@ -608,12 +608,12 @@ Do not change the items below:
     clacd_min_attempts=Nombre mínim d'intents
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?Últims intents d'ACD
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?Tot perdut
     clacd_n_lost=Perdudes
     clacd_n_taken=Nombre d'ateses
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?N. Zero
     clacd_queue=Cua
     clacd_ring_s=Ring (s)
     clacd_taken_calls=Trucades Ateses
@@ -1725,8 +1725,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Cap Agent pertany a aquest grup
     edit_record_groups_title=Editar els detalls del grup d'agents
     edit_record_icon=Icona
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?Id
     edit_record_ivr_code=Codi IVR
     edit_record_ivr_title=Editar els detalls de l'IVR
     edit_record_lastupdate=Última actualització
@@ -2474,8 +2474,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension_info=?Sessió iniciada com a:
     # 👽 rt3_extra_value -> Some of the selected values are not available
     rt3_extra_value=?Alguns dels valors seleccionats no estan disponibles
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?Mostrar/Ocultar Filtres
     rt3_go=Anar
     rt3_gohome=Home
     rt3_goto_login=Anar a l'ingrés
@@ -2904,8 +2904,8 @@ Description of configuration properties
     propedit_feature_wallboard=Taulell
     propedit_feature_wbsoftphone_settings=Configuració del SoftPhone en el tauler
     propedit_key_agent_background_desc=URL del fons de pantalla de l'agent
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?Els agents es desconnectaran automàticament de totes les cues en sortir
     propedit_key_agent_outcome_size=Alçada màxima de la llista de selecció de resultats
     propedit_key_agent_pause_dialout=Desactiva la trucada als Agents quan estan en pausa
     # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
@@ -3572,8 +3572,8 @@ Description of security keys:
     # 👽 home_infobox_private -> Private
     home_infobox_private=?Privat
     home_infobox_quicklinks=Enllaços Ràpids
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?Masterkey activat — ús recomanat només per proves
     home_news_subtitle=Últimes notícies de QueueMetrics
     home_news_title=Notícies
     home_payroll_subtitle=Iniciar un informe de nòmina
@@ -3841,8 +3841,8 @@ Other items
     editor_search=Cerca
     editor_show_classes=Mostra les Classes
     editor_show_users=Mostra els Usuaris
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?L'entrada no pot quedar en blanc.
     err_super_multiple=No es pot filtrar per agent o ubicació executant l'informe de Supervisor 
     err_super_noagents=L'usuari no te agents per supervisar
     expc_exportcallist=Llista de trucadas
@@ -3857,26 +3857,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Exportar en format XML
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?Posició del Gràfic
+    # 👽 graph_position_top -> Top
+    graph_position_top=?Superior
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?Inferior
+    # 👽 graph_position_left -> Left
+    graph_position_left=?Esquerra
+    # 👽 graph_position_right -> Right
+    graph_position_right=?Dreta
+    # 👽 graph_size -> Graph Size
+    graph_size=?Mida del Gràfic
+    # 👽 graph_size_big -> Big
+    graph_size_big=?Gran
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?Normal
+    # 👽 graph_size_small -> Small
+    graph_size_small=?Petit
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?Molt Petit
     grp_ivr=Events IVR
     # 👽 grp_ivr_calls -> IVR calls
     grp_ivr_calls=?Trucades IVR
@@ -4266,10 +4266,10 @@ Other items
     qap_amo_reserved=?Trucada reservada correctament.
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?No hi ha més trucades AMO disponibles.
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?Error en aplicar funcionalitat a la interacció
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?Error en aplicar resultat a la interacció
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?Assignar la interacció a un cas
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -4510,8 +4510,8 @@ Other items
     qap_leave=?Marxa
     # 👽 qap_loading -> Loading...
     qap_loading=?S'està carregant...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?Desconnectant-vos de totes les cues
     # 👽 qap_memos -> Memos
     qap_memos=?Memos
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -4552,8 +4552,8 @@ Other items
     qap_no_cases=?No s'han trobat casos per a la cerca actual, torneu-ho a provar.
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?No s'han trobat clients per a la cerca actual, torneu-ho a provar.
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?L'agent no està present a la cua sortint seleccionada.
     # 👽 qap_none -> None
     qap_none=?Cap
     # 👽 qap_note_actions -> Actions
@@ -4792,8 +4792,8 @@ Other items
     reports_atomic_filters=?Filtres d'expressió
     # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?Desa automàticament
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?Ocultar franges horàries buides
     # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?Teniu canvis sense desar, si seleccioneu un informe diferent, es desfarà aquests canvis. Voleu canviar d'informe?
     # 👽 reports_chart_avgdur -> Avg. Duration
@@ -4918,16 +4918,16 @@ Other items
     reports_export_test_icon=Executar ara
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?Crear Nova Tasca d'Exportació
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?Tasca d'exportació creada correctament
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?Error Creant Tasca d'Exportació:
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?Tasques existents per aquest informe
+    # 👽 reports_export_job -> Export
+    reports_export_job=?Exportar
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?Error en obtenir DataBlock
     # 👽 reports_filter_agent -> Agent
@@ -4994,20 +4994,20 @@ Other items
     reports_filter_operator=?Operador
     # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?Resultat
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?Durada Pausa Màx.
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?Durada Pausa Mín.
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?N Pauses Màx.
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?N Pauses Mín.
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?Durada Sessió Màx.
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?Durada Sessió Mín.
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?Ext. Sessió
     # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?Cues
     # 👽 reports_filter_server -> Server
@@ -5208,12 +5208,12 @@ Other items
     reports_save_report_confirm_message=?Editar l'informe actual o crear una còpia amb els canvis nous?
     # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?Desa l'informe
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?Ja existeix un informe amb el mateix nom. Seleccioneu un nom diferent.
     # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?Informe desat correctament
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?Programat
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?Cerca filtre
     # 👽 reports_select_report -> Choose a Report

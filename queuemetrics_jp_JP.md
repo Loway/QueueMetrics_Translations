@@ -445,8 +445,8 @@ Do not change the items below:
     art_copied_to_clipboard=?クリップボードにコピーしました。
     # 👽 art_currentExtension -> Current extension
     art_currentExtension=?現在の内線
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?注意: 新しいエージェントページが利用可能です。現在使用中のページは次回リリースで削除されます。管理者に新しいエージェントページへの移行を依頼してください。
     # 👽 art_endCall -> End Call
     art_endCall=?コールの終了
     # 👽 art_exitfullscreen -> Click here to return from the fullscreen mode
@@ -843,12 +843,12 @@ Do not change the items below:
     clacd_min_attempts=最小試行
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?最終ACD試行
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?全て失効
     clacd_n_lost=N. 捨て呼
     clacd_n_taken=N. 取られた
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?N. ゼロ
     clacd_queue=キュー
     clacd_ring_s=呼び出し
     clacd_taken_calls=応答コール
@@ -2464,8 +2464,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_title=?エージェントグループの詳細を編集
     # 👽 edit_record_icon -> Icon
     edit_record_icon=?アイコン
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?Id
     # 👽 edit_record_ivr_code -> IVR code:
     edit_record_ivr_code=?IVRコード:
     # 👽 edit_record_ivr_title -> Edit IVR details
@@ -3638,8 +3638,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension_info=?ログイン：
     # 👽 rt3_extra_value -> Some of the selected values are not available
     rt3_extra_value=?選択された値の一部は利用できません
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?フィルター表示/非表示
     # 👽 rt3_go -> Go
     rt3_go=?実行
     # 👽 rt3_gohome -> Home
@@ -4261,8 +4261,8 @@ Description of configuration properties
     propedit_feature_wbsoftphone_settings=?ウォールボードソフトフォンの設定
     # 👽 propedit_key_agent_background_desc -> URL of the agent page background.
     propedit_key_agent_background_desc=?エージェントページの背景のURL。
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?エージェントはログアウト時に全キューから自動的にログオフされます
     # 👽 propedit_key_agent_outcome_size -> Maximum height of outcome selection list
     propedit_key_agent_outcome_size=?結果選択リストの最大高さ
     # 👽 propedit_key_agent_pause_dialout -> Disable agents dial out when they are on pause
@@ -5366,8 +5366,8 @@ Description of security keys:
     home_infobox_private=?プライベート
     # 👽 home_infobox_quicklinks -> Quicklinks
     home_infobox_quicklinks=?クイックリンク
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?マスターキー有効 — テスト用途のみ推奨
     # 👽 home_news_subtitle -> QueueMetrics Latest News
     home_news_subtitle=?QueueMetricsの最新ニュース
     # 👽 home_news_title -> News
@@ -5715,8 +5715,8 @@ Other items
     editor_show_classes=?クラスを表示
     # 👽 editor_show_users -> Show Users
     editor_show_users=?ユーザーを表示
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?入力は空白にできません。
     err_super_multiple=管理者レポートの作成中にエージェントや拠点によってフィルタリングすることはできません。
     err_super_noagents=現在のユーザーはエージェントを監督しません。
     # 👽 expc_exportcallist -> Call List
@@ -5741,26 +5741,26 @@ Other items
     export_to_pdf=?PDF
     # 👽 export_xml -> Export as XML
     export_xml=?XMLとしてエクスポート
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?グラフ位置
+    # 👽 graph_position_top -> Top
+    graph_position_top=?上
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?下
+    # 👽 graph_position_left -> Left
+    graph_position_left=?左
+    # 👽 graph_position_right -> Right
+    graph_position_right=?右
+    # 👽 graph_size -> Graph Size
+    graph_size=?グラフサイズ
+    # 👽 graph_size_big -> Big
+    graph_size_big=?大
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?標準
+    # 👽 graph_size_small -> Small
+    graph_size_small=?小
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?極小
     # 👽 grp_ivr -> Ivr Events
     grp_ivr=?IVRイベント
     # 👽 grp_ivr_calls -> IVR calls
@@ -6242,10 +6242,10 @@ Other items
     qap_amo_reserved=?通話は正常に予約されました。
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?利用可能なAMO通話はもうありません。
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?インタラクションへの機能適用エラー
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?インタラクションへの結果適用エラー
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?インタラクションをケースに割り当て
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -6486,8 +6486,8 @@ Other items
     qap_leave=?退出
     # 👽 qap_loading -> Loading...
     qap_loading=?読み込み中...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?全キューからログアウト中
     # 👽 qap_memos -> Memos
     qap_memos=?メモ
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -6528,8 +6528,8 @@ Other items
     qap_no_cases=?現在の検索でケースが見つかりませんでした。もう一度お試しください。
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?現在の検索でクライアントが見つかりませんでした。もう一度お試しください。
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?選択したアウトバウンドキューにエージェントが存在しません。
     # 👽 qap_none -> None
     qap_none=?なし
     # 👽 qap_note_actions -> Actions
@@ -6792,8 +6792,8 @@ Other items
     reports_atomic_filters=?式のフィルター
     # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?自動保存
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?空の時間枠を非表示
     # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?未保存の変更があります。別のレポートを選択すると、これらの変更は元に戻ります。レポートを変更しますか？
     # 👽 reports_chart_avgdur -> Avg. Duration
@@ -6926,16 +6926,16 @@ Other items
     reports_export_test_icon=?今すぐ実行
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?新規エクスポートジョブ作成
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?エクスポートジョブが正常に作成されました
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?エクスポートジョブ作成エラー:
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?このレポートの既存ジョブ
+    # 👽 reports_export_job -> Export
+    reports_export_job=?エクスポート
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?DataBlockの取得エラー
     # 👽 reports_filter_agent -> Agent
@@ -7002,20 +7002,20 @@ Other items
     reports_filter_operator=?オペレーター
     # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?結果
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?最大休止時間
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?最小休止時間
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?最大休止回数
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?最小休止回数
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?最大セッション時間
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?最小セッション時間
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?セッション内線
     # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?キュー
     # 👽 reports_filter_server -> Server
@@ -7216,12 +7216,12 @@ Other items
     reports_save_report_confirm_message=?現在のレポートを編集するか、新しい変更を加えてコピーを作成しますか？
     # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?レポートを保存
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?同名のレポートが既に存在します。別の名前を選択してください。
     # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?レポートが正常に保存されました
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?スケジュール済み
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?フィルターを検索
     # 👽 reports_select_report -> Choose a Report

@@ -349,8 +349,8 @@ Do not change the items below:
     art_connectivity_problem=Проблема связи с сервером
     art_copied_to_clipboard=Скопировано в буфер обмена
     art_currentExtension=Текущий вн. номер
-    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    ➡️ art_deprecated_page=
+    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    art_deprecated_page=?Уведомление: Доступна новая страница агента. Текущая страница будет удалена в следующем релизе. Обратитесь к администратору для перехода на обновленную страницу агента.
     art_endCall=Отбой
     art_exitfullscreen=Нажмите здесь для выхода из полноэкранного режима
     art_extInUse=Запрашиваемый добавочный номер сейчас используется другим агентом
@@ -606,12 +606,12 @@ Do not change the items below:
     clacd_min_attempts=Мин. кол-во попыток:
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?Последние ACD попытки
-    # 🔴 clacd_n_all_lost -> All lost
-    ➡️ clacd_n_all_lost=
+    # 👽 clacd_n_all_lost -> All lost
+    clacd_n_all_lost=?Все потерянные
     clacd_n_lost=Кол-во потерянных
     clacd_n_taken=Кол-во принятых
-    # 🔴 clacd_n_zero -> N. Zero
-    ➡️ clacd_n_zero=
+    # 👽 clacd_n_zero -> N. Zero
+    clacd_n_zero=?N. Ноль
     clacd_queue=Очередь
     clacd_ring_s=Звонки
     clacd_taken_calls=Принятые вызовы
@@ -1698,8 +1698,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Нет агентов в данной группе.
     edit_record_groups_title=Редактировать детали группы агента
     edit_record_icon=Значок
-    # 🔴 edit_record_id -> Id
-    ➡️ edit_record_id=
+    # 👽 edit_record_id -> Id
+    edit_record_id=?Id
     edit_record_ivr_code=Код IVR:
     edit_record_ivr_title=Редактировать детали IVR:
     edit_record_lastupdate=Последнее обновление
@@ -2373,8 +2373,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=Добавочный
     rt3_extension_info=Зарегистрирован как: 
     rt3_extra_value=Некоторые из выбранных значений недоступны
-    # 🔴 rt3_filters -> Show/Hide Filters
-    ➡️ rt3_filters=
+    # 👽 rt3_filters -> Show/Hide Filters
+    rt3_filters=?Показать/Скрыть Фильтры
     rt3_go=Выполнить
     rt3_gohome=Домой
     rt3_goto_login=Перейти ко входу
@@ -2734,8 +2734,8 @@ Description of configuration properties
     propedit_feature_wallboard=Табло
     propedit_feature_wbsoftphone_settings=Настройки софтфона на панели
     propedit_key_agent_background_desc=URL фона страницы агента
-    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
+    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?Агенты будут автоматически отключены от всех очередей при выходе
     propedit_key_agent_outcome_size=Макс. высота списка выбора результатов
     propedit_key_agent_pause_dialout=Отключить набор номера для агентов, когда они на паузе
     # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
@@ -3365,8 +3365,8 @@ Description of security keys:
     # 👽 home_infobox_private -> Private
     home_infobox_private=?Приватный
     home_infobox_quicklinks=Быстрые ссылки
-    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    ➡️ home_master_key_error=
+    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    home_master_key_error=?Masterkey включен — рекомендуется только для тестирования
     home_news_subtitle=Последние новости QueueMetrics
     home_news_title=Новости
     home_payroll_subtitle=Запуск отчета по платежной ведомости
@@ -3630,8 +3630,8 @@ Other items
     editor_search=Поиск
     editor_show_classes=Показать классы
     editor_show_users=Показать пользователей
-    # 🔴 err_not_blank -> Input cannot be left blank.
-    ➡️ err_not_blank=
+    # 👽 err_not_blank -> Input cannot be left blank.
+    err_not_blank=?Поле не может быть пустым.
     err_super_multiple=Вы не можете применить фильтр по агентам или расположению, когда запущены отчеты Супервайзера
     err_super_noagents=Текущий пользователь не контролирует никаких агентов
     expc_exportcallist=Список вызовов
@@ -3646,26 +3646,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Экспорт в XML
-    # 🔴 graph_position -> Graph Position
-    ➡️ graph_position=
-    # 🔴 graph_position_top -> Top
-    ➡️ graph_position_top=
-    # 🔴 graph_position_bottom -> Bottom
-    ➡️ graph_position_bottom=
-    # 🔴 graph_position_left -> Left
-    ➡️ graph_position_left=
-    # 🔴 graph_position_right -> Right
-    ➡️ graph_position_right=
-    # 🔴 graph_size -> Graph Size
-    ➡️ graph_size=
-    # 🔴 graph_size_big -> Big
-    ➡️ graph_size_big=
-    # 🔴 graph_size_normal -> Normal
-    ➡️ graph_size_normal=
-    # 🔴 graph_size_small -> Small
-    ➡️ graph_size_small=
-    # 🔴 graph_size_extra_small -> Extra Small
-    ➡️ graph_size_extra_small=
+    # 👽 graph_position -> Graph Position
+    graph_position=?Позиция Графика
+    # 👽 graph_position_top -> Top
+    graph_position_top=?Сверху
+    # 👽 graph_position_bottom -> Bottom
+    graph_position_bottom=?Снизу
+    # 👽 graph_position_left -> Left
+    graph_position_left=?Слева
+    # 👽 graph_position_right -> Right
+    graph_position_right=?Справа
+    # 👽 graph_size -> Graph Size
+    graph_size=?Размер Графика
+    # 👽 graph_size_big -> Big
+    graph_size_big=?Большой
+    # 👽 graph_size_normal -> Normal
+    graph_size_normal=?Обычный
+    # 👽 graph_size_small -> Small
+    graph_size_small=?Маленький
+    # 👽 graph_size_extra_small -> Extra Small
+    graph_size_extra_small=?Очень Маленький
     grp_ivr=События IVR
     # 👽 grp_ivr_calls -> IVR calls
     grp_ivr_calls=?IVR звонки
@@ -4056,10 +4056,10 @@ Other items
     qap_amo_reserved=?Звонок успешно зарезервирован.
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?Больше нет доступных звонков AMO.
-    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
-    ➡️ qap_apply_feature_error=
-    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
-    ➡️ qap_apply_outcome_error=
+    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
+    qap_apply_feature_error=?Ошибка применения функции к взаимодействию
+    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
+    qap_apply_outcome_error=?Ошибка применения результата к взаимодействию
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?Назначить взаимодействие кейсу
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -4300,8 +4300,8 @@ Other items
     qap_leave=?Покинуть
     # 👽 qap_loading -> Loading...
     qap_loading=?Загрузка...
-    # 🔴 qap_logout_message -> Logging you out from all queues
-    ➡️ qap_logout_message=
+    # 👽 qap_logout_message -> Logging you out from all queues
+    qap_logout_message=?Выход из всех очередей
     # 👽 qap_memos -> Memos
     qap_memos=?Заметки
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -4342,8 +4342,8 @@ Other items
     qap_no_cases=?Кейсы не найдены, попробуйте еще раз.
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?Клиенты не найдены, попробуйте еще раз.
-    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    ➡️ qap_agent_not_present_on_queue=
+    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    qap_agent_not_present_on_queue=?Агент отсутствует в выбранной исходящей очереди.
     # 👽 qap_none -> None
     qap_none=?Нет
     # 👽 qap_note_actions -> Actions
@@ -4556,8 +4556,8 @@ Other items
     reports_at_wait=Ожидание:
     reports_atomic_filters=Фильтры выражений
     reports_autosave_toggle=Автосохранение
-    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    ➡️ reports_filter_empty_hour_toggle=
+    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    reports_filter_empty_hour_toggle=?Скрыть пустые часовые слоты
     reports_change_report_confirm=У вас есть несохраненные изменения, выбор другого отчета отменит эти изменения. Вы хотите изменить отчет?
     reports_chart_avgdur=Сред. продолжительность
     reports_chart_delta=Дельта
@@ -4633,16 +4633,16 @@ Other items
     reports_export_test_icon=Выполнить сейчас
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
-    # 🔴 reports_exportjob_create -> Create New Export Job
-    ➡️ reports_exportjob_create=
-    # 🔴 reports_exportjob_create_successful -> Export job created successfully
-    ➡️ reports_exportjob_create_successful=
-    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
-    ➡️ reports_exportjob_error_create=
-    # 🔴 reports_exportjob_title -> Existing jobs for this report
-    ➡️ reports_exportjob_title=
-    # 🔴 reports_export_job -> Export
-    ➡️ reports_export_job=
+    # 👽 reports_exportjob_create -> Create New Export Job
+    reports_exportjob_create=?Создать Новое Задание Экспорта
+    # 👽 reports_exportjob_create_successful -> Export job created successfully
+    reports_exportjob_create_successful=?Задание экспорта создано успешно
+    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
+    reports_exportjob_error_create=?Ошибка Создания Задания Экспорта:
+    # 👽 reports_exportjob_title -> Existing jobs for this report
+    reports_exportjob_title=?Существующие задания для данного отчета
+    # 👽 reports_export_job -> Export
+    reports_export_job=?Экспорт
     reports_fetch_error=Ошибка получения блока данных
     reports_filter_agent=Агент
     reports_filter_agentgroup=Группа агента
@@ -4679,20 +4679,20 @@ Other items
     reports_filter_nrmcaller=Нормализованный вызывающий
     reports_filter_operator=Оператор
     reports_filter_outcome=Результат
-    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
-    ➡️ reports_filter_pausedurmax=
-    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
-    ➡️ reports_filter_pausedurmin=
-    # 🔴 reports_filter_pausenmax -> Max. N Pause
-    ➡️ reports_filter_pausenmax=
-    # 🔴 reports_filter_pausenmin -> Min. N Pause
-    ➡️ reports_filter_pausenmin=
-    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
-    ➡️ reports_filter_sessiondurmax=
-    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
-    ➡️ reports_filter_sessiondurmin=
-    # 🔴 reports_filter_sessionext -> Session Ext.
-    ➡️ reports_filter_sessionext=
+    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
+    reports_filter_pausedurmax=?Макс. Длительность Паузы
+    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
+    reports_filter_pausedurmin=?Мин. Длительность Паузы
+    # 👽 reports_filter_pausenmax -> Max. N Pause
+    reports_filter_pausenmax=?Макс. N Пауз
+    # 👽 reports_filter_pausenmin -> Min. N Pause
+    reports_filter_pausenmin=?Мин. N Пауз
+    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
+    reports_filter_sessiondurmax=?Макс. Длительность Сессии
+    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
+    reports_filter_sessiondurmin=?Мин. Длительность Сессии
+    # 👽 reports_filter_sessionext -> Session Ext.
+    reports_filter_sessionext=?Внутр. Сессии
     reports_filter_selected_queues=Очереди
     reports_filter_server=Сервер
     reports_filter_shortcallattempt=Мин. время попытки (короткие вызовы)
@@ -4810,11 +4810,11 @@ Other items
     reports_save_report_confirm_current=Текущий
     reports_save_report_confirm_message=Отредактировать текущий отчет или создать копию с новыми изменениями?
     reports_save_report_confirm_title=Сохранить отчет
-    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    ➡️ reports_save_report_title_exception=
+    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    reports_save_report_title_exception=?Отчет с таким именем уже существует. Выберите другое имя.
     reports_save_successful=Отчет успешно сохранен
-    # 🔴 reports_scheduled_job -> Scheduled
-    ➡️ reports_scheduled_job=
+    # 👽 reports_scheduled_job -> Scheduled
+    reports_scheduled_job=?Запланированные
     reports_search_placeholder=Фильтр поиска
     reports_select_report=Выбрать отчет
     reports_settings=Настройки
