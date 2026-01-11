@@ -446,6 +446,8 @@ Do not change the items below:
     art_copied_to_clipboard=?Copiado en la Clipboard
     # 👽 art_currentExtension -> Current extension
     art_currentExtension=?Extensión actual
+    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    ➡️ art_deprecated_page=
     # 👽 art_endCall -> End Call
     art_endCall=?Fin de llamado
     # 👽 art_exitfullscreen -> Click here to return from the fullscreen mode
@@ -840,8 +842,12 @@ Do not change the items below:
     clacd_min_attempts=Num. min intentos:
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?Últimos intentos de ACD
+    # 🔴 clacd_n_all_lost -> All lost
+    ➡️ clacd_n_all_lost=
     clacd_n_lost=N. perdidas
     clacd_n_taken=N. atendidas
+    # 🔴 clacd_n_zero -> N. Zero
+    ➡️ clacd_n_zero=
     clacd_queue=Cola
     clacd_ring_s=Ring(s)
     clacd_taken_calls=Lllamadas atendidas
@@ -2493,6 +2499,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_title=?Editar detalle grupo de agentes
     # 👽 edit_record_icon -> Icon
     edit_record_icon=?Icono
+    # 🔴 edit_record_id -> Id
+    ➡️ edit_record_id=
     # 👽 edit_record_ivr_code -> IVR code:
     edit_record_ivr_code=?Código IVR:
     # 👽 edit_record_ivr_title -> Edit IVR details
@@ -3731,6 +3739,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension_info=?Registrado como:
     # 👽 rt3_extra_value -> Some of the selected values are not available
     rt3_extra_value=?Alguna de los valores seleccionados no son disponibles
+    # 🔴 rt3_filters -> Show/Hide Filters
+    ➡️ rt3_filters=
     # 👽 rt3_go -> Go
     rt3_go=?ir
     # 👽 rt3_gohome -> Home
@@ -4352,6 +4362,8 @@ Description of configuration properties
     propedit_feature_wbsoftphone_settings=?Configuración Softphone de Tablero
     # 👽 propedit_key_agent_background_desc -> URL of the agent page background.
     propedit_key_agent_background_desc=?URL de fondo de pantalla agente.
+    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
     # 👽 propedit_key_agent_outcome_size -> Maximum height of outcome selection list
     propedit_key_agent_outcome_size=?Número maximo de elementos selector códigos
     # 👽 propedit_key_agent_pause_dialout -> Disable agents dial out when they are on pause
@@ -5446,6 +5458,8 @@ Description of security keys:
     home_infobox_private=?Privado
     # 👽 home_infobox_quicklinks -> Quicklinks
     home_infobox_quicklinks=?Enlaces Rápidos
+    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    ➡️ home_master_key_error=
     # 👽 home_news_subtitle -> QueueMetrics Latest News
     home_news_subtitle=?Últimas noticias sobre Queuemetrics
     # 👽 home_news_title -> News
@@ -5791,6 +5805,8 @@ Other items
     editor_show_classes=?Muestra clases
     # 👽 editor_show_users -> Show Users
     editor_show_users=?Muestra Usuarios
+    # 🔴 err_not_blank -> Input cannot be left blank.
+    ➡️ err_not_blank=
     err_super_multiple=No se puede filtrar por agente o localización desde los reportes de Supervisor
     err_super_noagents=El usuario no tiene agentes que supervisar
     # 👽 expc_exportcallist -> Call List
@@ -5817,6 +5833,26 @@ Other items
     export_to_pdf=?PDF
     # 👽 export_xml -> Export as XML
     export_xml=?Exportar en formato XML
+    # 🔴 graph_position -> Graph Position
+    ➡️ graph_position=
+    # 🔴 graph_position_top -> Top
+    ➡️ graph_position_top=
+    # 🔴 graph_position_bottom -> Bottom
+    ➡️ graph_position_bottom=
+    # 🔴 graph_position_left -> Left
+    ➡️ graph_position_left=
+    # 🔴 graph_position_right -> Right
+    ➡️ graph_position_right=
+    # 🔴 graph_size -> Graph Size
+    ➡️ graph_size=
+    # 🔴 graph_size_big -> Big
+    ➡️ graph_size_big=
+    # 🔴 graph_size_normal -> Normal
+    ➡️ graph_size_normal=
+    # 🔴 graph_size_small -> Small
+    ➡️ graph_size_small=
+    # 🔴 graph_size_extra_small -> Extra Small
+    ➡️ graph_size_extra_small=
     # 👽 grp_ivr -> Ivr Events
     grp_ivr=?Eventos IVR
     # 👽 grp_ivr_calls -> IVR calls
@@ -6352,6 +6388,10 @@ Other items
     qap_amo_reserved=?Llamada reservada exitosamente.
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?No hay más llamadas AMO disponibles.
+    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
+    ➡️ qap_apply_feature_error=
+    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
+    ➡️ qap_apply_outcome_error=
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?Asignar una iteracción a un caso
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -6592,6 +6632,8 @@ Other items
     qap_leave=?Abandonar
     # 👽 qap_loading -> Loading...
     qap_loading=?Cargando...
+    # 🔴 qap_logout_message -> Logging you out from all queues
+    ➡️ qap_logout_message=
     # 👽 qap_memos -> Memos
     qap_memos=?Promemoria
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -6632,6 +6674,8 @@ Other items
     qap_no_cases=?No hay casos abiertos
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?No hay Clientes
+    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    ➡️ qap_agent_not_present_on_queue=
     # 👽 qap_none -> None
     qap_none=?Ningúno
     # 👽 qap_note_actions -> Actions
@@ -6898,6 +6942,8 @@ Other items
     reports_atomic_filters=?Filtros de expresión
     # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?Guardar automáticamente
+    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    ➡️ reports_filter_empty_hour_toggle=
     # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?Tiene cambios sin guardar, al seleccionar un informe diferente, se deshacen esos cambios. ¿Quieres cambiar el informe?
     # 👽 reports_chart_avgdur -> Avg. Duration
@@ -7030,6 +7076,16 @@ Other items
     reports_export_test_icon=?Ejecutar ahora
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
+    # 🔴 reports_exportjob_create -> Create New Export Job
+    ➡️ reports_exportjob_create=
+    # 🔴 reports_exportjob_create_successful -> Export job created successfully
+    ➡️ reports_exportjob_create_successful=
+    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
+    ➡️ reports_exportjob_error_create=
+    # 🔴 reports_exportjob_title -> Existing jobs for this report
+    ➡️ reports_exportjob_title=
+    # 🔴 reports_export_job -> Export
+    ➡️ reports_export_job=
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?Error en cargar el DataBlock
     # 👽 reports_filter_agent -> Agent
@@ -7095,6 +7151,20 @@ Other items
     reports_filter_operator=?Operador
     # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?Resultado
+    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
+    ➡️ reports_filter_pausedurmax=
+    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
+    ➡️ reports_filter_pausedurmin=
+    # 🔴 reports_filter_pausenmax -> Max. N Pause
+    ➡️ reports_filter_pausenmax=
+    # 🔴 reports_filter_pausenmin -> Min. N Pause
+    ➡️ reports_filter_pausenmin=
+    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
+    ➡️ reports_filter_sessiondurmax=
+    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
+    ➡️ reports_filter_sessiondurmin=
+    # 🔴 reports_filter_sessionext -> Session Ext.
+    ➡️ reports_filter_sessionext=
     # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?Colas
     # 👽 reports_filter_server -> Server
@@ -7295,8 +7365,12 @@ Other items
     reports_save_report_confirm_message=?¿Editar el informe actual o crear una copia con los nuevos cambios?
     # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?Guardar informe
+    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    ➡️ reports_save_report_title_exception=
     # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?Informe guardado correctamente
+    # 🔴 reports_scheduled_job -> Scheduled
+    ➡️ reports_scheduled_job=
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?Buscar Filtro
     # 👽 reports_select_report -> Choose a Report

@@ -348,6 +348,8 @@ Do not change the items below:
     art_connectivity_problem=Problema di connettività server
     art_copied_to_clipboard=Copiato nella clipboard
     art_currentExtension=Interno corrente
+    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    ➡️ art_deprecated_page=
     art_endCall=Fine chiamata
     art_exitfullscreen=Clicca qui per uscire dalla modalità a schermo intero
     art_extInUse=L'estensione richiesta è già in uso presso un altro agente.
@@ -3385,6 +3387,8 @@ Other items
     editor_search=Cerca
     editor_show_classes=Mostra Classi
     editor_show_users=Mostra Utenti
+    # 🔴 err_not_blank -> Input cannot be left blank.
+    ➡️ err_not_blank=
     err_super_multiple=Non si può applicare il filtro per Agente o Località mentre si effettua un report per Supervisore.
     err_super_noagents=L'utente corrente non supervisiona nessun agente
     expc_exportcallist=Lista chiamate
@@ -3399,6 +3403,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Esporta in formato XML
+    # 🔴 graph_position -> Graph Position
+    ➡️ graph_position=
+    # 🔴 graph_position_top -> Top
+    ➡️ graph_position_top=
+    # 🔴 graph_position_bottom -> Bottom
+    ➡️ graph_position_bottom=
+    # 🔴 graph_position_left -> Left
+    ➡️ graph_position_left=
+    # 🔴 graph_position_right -> Right
+    ➡️ graph_position_right=
+    # 🔴 graph_size -> Graph Size
+    ➡️ graph_size=
+    # 🔴 graph_size_big -> Big
+    ➡️ graph_size_big=
+    # 🔴 graph_size_normal -> Normal
+    ➡️ graph_size_normal=
+    # 🔴 graph_size_small -> Small
+    ➡️ graph_size_small=
+    # 🔴 graph_size_extra_small -> Extra Small
+    ➡️ graph_size_extra_small=
     grp_ivr=Eventi Ivr
     grp_ivr_calls=Chiamate IVR
     grp_ivr_short=Ivr
@@ -3828,6 +3852,8 @@ Other items
     qap_new_memo=Crea Memo collegato
     qap_no_cases=Non ci sono casi aperti.
     qap_no_clients=Non ci sono clienti.
+    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    ➡️ qap_agent_not_present_on_queue=
     qap_none=Nessuno
     qap_note_actions=Azioni
     qap_note_complete=Completa
@@ -4028,6 +4054,16 @@ Other items
     reports_export_schema_error=Impossibile esportare lo schema del report.
     reports_export_test_icon=Vai
     reports_export_xls_short=XLS
+    # 🔴 reports_exportjob_create -> Create New Export Job
+    ➡️ reports_exportjob_create=
+    # 🔴 reports_exportjob_create_successful -> Export job created successfully
+    ➡️ reports_exportjob_create_successful=
+    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
+    ➡️ reports_exportjob_error_create=
+    # 🔴 reports_exportjob_title -> Existing jobs for this report
+    ➡️ reports_exportjob_title=
+    # 🔴 reports_export_job -> Export
+    ➡️ reports_export_job=
     reports_fetch_error=Errore caricamento DataBlock
     reports_filter_agent=Agente
     reports_filter_agentgroup=Gruppo agenti
@@ -4061,6 +4097,20 @@ Other items
     reports_filter_nrmcaller=Chiamante normalizzato
     reports_filter_operator=Operatore
     reports_filter_outcome=Risultato chiamata
+    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
+    ➡️ reports_filter_pausedurmax=
+    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
+    ➡️ reports_filter_pausedurmin=
+    # 🔴 reports_filter_pausenmax -> Max. N Pause
+    ➡️ reports_filter_pausenmax=
+    # 🔴 reports_filter_pausenmin -> Min. N Pause
+    ➡️ reports_filter_pausenmin=
+    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
+    ➡️ reports_filter_sessiondurmax=
+    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
+    ➡️ reports_filter_sessiondurmin=
+    # 🔴 reports_filter_sessionext -> Session Ext.
+    ➡️ reports_filter_sessionext=
     reports_filter_selected_queues=Code
     reports_filter_server=Server
     reports_filter_shortcallattempt=Durata minima tentativo chiamata
@@ -4161,7 +4211,11 @@ Other items
     reports_save_report_confirm_current=Corrente
     reports_save_report_confirm_message=Modificare il Report corrente o creare una copia con le nuove modifiche?
     reports_save_report_confirm_title=Salva Report
+    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    ➡️ reports_save_report_title_exception=
     reports_save_successful=Report salvato con successo
+    # 🔴 reports_scheduled_job -> Scheduled
+    ➡️ reports_scheduled_job=
     reports_search_placeholder=Cerca Filtro
     reports_select_report=Scegli un report
     reports_settings=Impostazioni

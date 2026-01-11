@@ -352,6 +352,8 @@ Do not change the items below:
     art_connectivity_problem=Santral Bağlantı Hatası
     art_copied_to_clipboard=Panoya kopyalandı
     art_currentExtension=Geçerli dahili
+    # 🔴 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
+    ➡️ art_deprecated_page=
     art_endCall=Çağrıyı Bitir
     art_exitfullscreen=Tam ekran modundan dönmek için buraya tıklayın
     art_extInUse=İstenen uzantı şu anda başka bir müşteri temsilcisi tarafından kullanılıyor.
@@ -608,8 +610,12 @@ Do not change the items below:
     clacd_min_attempts=Min girişimler:
     # 👽 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=?Son ACD denemeleri
+    # 🔴 clacd_n_all_lost -> All lost
+    ➡️ clacd_n_all_lost=
     clacd_n_lost=S. Kayıplar
     clacd_n_taken=S. Karşılananlar
+    # 🔴 clacd_n_zero -> N. Zero
+    ➡️ clacd_n_zero=
     clacd_queue=Havuz
     clacd_ring_s=Telefon çalma
     clacd_taken_calls=Alınan çağrılar
@@ -1772,6 +1778,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Bu gruba ait müşteri temsilcileri yok.
     edit_record_groups_title=Müşteri temsilcisi grubu detaylarını düzenle
     edit_record_icon=İkon
+    # 🔴 edit_record_id -> Id
+    ➡️ edit_record_id=
     edit_record_ivr_code=IVR kodu:
     edit_record_ivr_title=IVR detaylarını düzenle
     edit_record_lastupdate=Son Güncelleme
@@ -2454,6 +2462,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=Dahili
     rt3_extension_info=Şu şekilde oturum açıldı:
     rt3_extra_value=Dahili
+    # 🔴 rt3_filters -> Show/Hide Filters
+    ➡️ rt3_filters=
     rt3_go=Git
     rt3_gohome=Ana Sayfa
     rt3_goto_login=Girişe Git
@@ -2820,6 +2830,8 @@ Description of configuration properties
     propedit_feature_wallboard=Duvar panosu
     propedit_feature_wbsoftphone_settings=Duvar Panosu Softphone Ayarları
     propedit_key_agent_background_desc=Duvar panosu
+    # 🔴 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
+    ➡️ propedit_key_agent_leaveAllQueuesOnLogoff_desc=
     propedit_key_agent_outcome_size=Sonuç seçim listesinin maksimum yüksekliği
     propedit_key_agent_pause_dialout=Bekleme yaptıklarında müşteri temsilcilerini devre dışı bırak
     # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
@@ -3457,6 +3469,8 @@ Description of security keys:
     # 👽 home_infobox_private -> Private
     home_infobox_private=?Özel
     home_infobox_quicklinks=Hızlı bağlantı
+    # 🔴 home_master_key_error -> Masterkey enabled — recommended use for testing only
+    ➡️ home_master_key_error=
     home_news_subtitle=QueueMetrics En Son Haberler
     home_news_title=Haberler
     home_payroll_subtitle=Bordro Raporu Başlat
@@ -3729,6 +3743,8 @@ Other items
     editor_search=Ara
     editor_show_classes=Sınıfları Göster
     editor_show_users=Kullanıcıları Göster
+    # 🔴 err_not_blank -> Input cannot be left blank.
+    ➡️ err_not_blank=
     err_super_multiple=Yönetici raporları çalışırken müşteri temsilcisi veya yere göre filtreleyemezsiniz
     err_super_noagents=Geçerli kullanıcı müşteri temsilcilerini denetlemez.
     expc_exportcallist=Çağrı Listesi
@@ -3743,6 +3759,26 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=XML olarak dışa aktar
+    # 🔴 graph_position -> Graph Position
+    ➡️ graph_position=
+    # 🔴 graph_position_top -> Top
+    ➡️ graph_position_top=
+    # 🔴 graph_position_bottom -> Bottom
+    ➡️ graph_position_bottom=
+    # 🔴 graph_position_left -> Left
+    ➡️ graph_position_left=
+    # 🔴 graph_position_right -> Right
+    ➡️ graph_position_right=
+    # 🔴 graph_size -> Graph Size
+    ➡️ graph_size=
+    # 🔴 graph_size_big -> Big
+    ➡️ graph_size_big=
+    # 🔴 graph_size_normal -> Normal
+    ➡️ graph_size_normal=
+    # 🔴 graph_size_small -> Small
+    ➡️ graph_size_small=
+    # 🔴 graph_size_extra_small -> Extra Small
+    ➡️ graph_size_extra_small=
     # 👽 grp_ivr -> Ivr Events
     grp_ivr=?IVR Olayları
     # 👽 grp_ivr_calls -> IVR calls
@@ -4156,6 +4192,10 @@ Other items
     qap_amo_reserved=?Çağrı başarıyla rezerve edildi.
     # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?Daha fazla AMO çağrısı mevcut değil.
+    # 🔴 qap_apply_feature_error -> Error while applying feature to interaction
+    ➡️ qap_apply_feature_error=
+    # 🔴 qap_apply_outcome_error -> Error while applying outcome to interaction
+    ➡️ qap_apply_outcome_error=
     # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?Etkileşimi Vakaya Ata
     # 👽 qap_assign_client -> Assign Interaction to Client
@@ -4396,6 +4436,8 @@ Other items
     qap_leave=?Ayrıl
     # 👽 qap_loading -> Loading...
     qap_loading=?Yükleniyor...
+    # 🔴 qap_logout_message -> Logging you out from all queues
+    ➡️ qap_logout_message=
     # 👽 qap_memos -> Memos
     qap_memos=?Notlar
     # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
@@ -4436,6 +4478,8 @@ Other items
     qap_no_cases=?Mevcut arama için Vaka bulunamadı, lütfen tekrar deneyin.
     # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?Mevcut arama için Müşteri bulunamadı, lütfen tekrar deneyin.
+    # 🔴 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
+    ➡️ qap_agent_not_present_on_queue=
     # 👽 qap_none -> None
     qap_none=?Hiçbiri
     # 👽 qap_note_actions -> Actions
@@ -4663,6 +4707,8 @@ Other items
     reports_at_wait=?Bekleme:
     reports_atomic_filters=İfade Filtreleri
     reports_autosave_toggle=Otomatik Kaydet
+    # 🔴 reports_filter_empty_hour_toggle -> Hide empty hour slots
+    ➡️ reports_filter_empty_hour_toggle=
     reports_change_report_confirm=Kaydedilmemiş değişiklikleriniz var, farklı bir rapor seçmek bu değişiklikleri geri alacaktır. Raporu değiştirmek istiyor musunuz?
     reports_chart_avgdur=Ort. Süre
     reports_chart_delta=Delta
@@ -4747,6 +4793,16 @@ Other items
     reports_export_test_icon=Şimdi çalıştır
     # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
+    # 🔴 reports_exportjob_create -> Create New Export Job
+    ➡️ reports_exportjob_create=
+    # 🔴 reports_exportjob_create_successful -> Export job created successfully
+    ➡️ reports_exportjob_create_successful=
+    # 🔴 reports_exportjob_error_create -> Error Creating Export Job:
+    ➡️ reports_exportjob_error_create=
+    # 🔴 reports_exportjob_title -> Existing jobs for this report
+    ➡️ reports_exportjob_title=
+    # 🔴 reports_export_job -> Export
+    ➡️ reports_export_job=
     # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?Veri Bloğu getirilirken hata oluştu
     reports_filter_agent=Müşteri Temsilcisi
@@ -4784,6 +4840,20 @@ Other items
     reports_filter_nrmcaller=Normalleştirilmiş Arayan
     reports_filter_operator=Operatör
     reports_filter_outcome=Sonuç
+    # 🔴 reports_filter_pausedurmax -> Max. Pause Duration
+    ➡️ reports_filter_pausedurmax=
+    # 🔴 reports_filter_pausedurmin -> Min. Pause Duration
+    ➡️ reports_filter_pausedurmin=
+    # 🔴 reports_filter_pausenmax -> Max. N Pause
+    ➡️ reports_filter_pausenmax=
+    # 🔴 reports_filter_pausenmin -> Min. N Pause
+    ➡️ reports_filter_pausenmin=
+    # 🔴 reports_filter_sessiondurmax -> Max. Session Duration
+    ➡️ reports_filter_sessiondurmax=
+    # 🔴 reports_filter_sessiondurmin -> Min. Session Duration
+    ➡️ reports_filter_sessiondurmin=
+    # 🔴 reports_filter_sessionext -> Session Ext.
+    ➡️ reports_filter_sessionext=
     reports_filter_selected_queues=Havuzlar
     reports_filter_server=Santral
     reports_filter_shortcallattempt=Min. Deneme Süresi (kısa çağrılar)
@@ -4935,7 +5005,11 @@ Other items
     reports_save_report_confirm_current=Geçerli
     reports_save_report_confirm_message=Geçerli rapor düzenlensin mi yoksa yeni değişikliklerle bir kopya oluşturulsun mu?
     reports_save_report_confirm_title=Raporu Kaydet
+    # 🔴 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
+    ➡️ reports_save_report_title_exception=
     reports_save_successful=Rapor başarıyla kaydedildi
+    # 🔴 reports_scheduled_job -> Scheduled
+    ➡️ reports_scheduled_job=
     # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?Arama Filtresi
     reports_select_report=Rapor Seç
