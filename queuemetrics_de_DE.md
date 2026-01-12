@@ -41,12 +41,12 @@ Do not change the items below:
     td_agstatus_agent_is_currently_logged_on_some_queues=Agent ist im Moment in Warteschleifen eingeloggt
     td_agstatus_agent_is_currently_paused=Agent ist z.Z. in der Pause
     td_agstatus_agent_status_cannot_be_determined=Agentenstatus kann nicht ermittelt werden
-    td_ancod_agent_availability_for_all_the_queues=Agentenverfügbarkeit (für alle Warteschlangen
+    td_ancod_agent_availability_for_all_the_queues=Agentenverfügbarkeit für alle Warteschlangen
     td_ancod_agent_sessions_detail=Agentensitzungen: Details
     td_ancod_answered_calls_agents_on_queue=Angenommene Anrufe: Agenten in der Warteschlange
     td_ancod_answered_calls_details=Angenommene Anrufe: Details
     td_ancod_answered_calls_disconnection_causes=Angenommene Anrufe: Gründe für Verbindungsende
-    td_ancod_answered_calls_for_selected_queues=Angenommene Anrufe (für gewählte Warteschlange(n)
+    td_ancod_answered_calls_for_selected_queues=Angenommene Anrufe für gewählte Warteschlange(n)
     td_ancod_answered_calls_sla=Angenommene Anrufe: Qualitätsindex
     td_ancod_call_distribuition_by_day_of_week=Anrufverteilung nach Wochentag
     td_ancod_call_distribuition_by_hour=Anrufverteilung nach Stunde
@@ -125,7 +125,7 @@ Do not change the items below:
     td_dm_december=Dezember
     td_dm_february=Februar
     td_dm_friday=Freitag
-    td_dm_friday_short=Frei.
+    td_dm_friday_short=Fr
     td_dm_january=Januar
     td_dm_july=Juli
     td_dm_june=Juni
@@ -145,7 +145,7 @@ Do not change the items below:
     td_dm_tuesday=Dienstag
     td_dm_tuesday_short=Di
     td_dm_wednesday=Mittwoch
-    td_dm_wednesday_short=Mitt.
+    td_dm_wednesday_short=Mi
     td_imwiz_added_agent=Agent hinzugefügt
     td_imwiz_added_queue=Warteschlange hinzugefügt
     td_imwiz_added_user=Benutzer hinzugefügt
@@ -350,7 +350,7 @@ Do not change the items below:
     art_copied_to_clipboard=In Zwischenablage kopiert.
     art_currentExtension=Aktuelle Nebenstelle
     # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    art_deprecated_page=?Hinweis: Eine neue Agentenseite ist jetzt verfügbar. Die derzeit verwendete wird in der nächsten Version entfernt. Bitten Sie Ihren Administrator, Sie zur aktualisierten Agentenseite zu migrieren.
+    art_deprecated_page=?Hinweis: Neue Agentenseite ist jetzt verfügbar. Die derzeit verwendete wird in der nächsten Version entfernt. Bitten Sie Ihren Administrator, Sie zur aktualisierten Agentenseite zu migrieren.
     art_endCall=Anruf beenden
     art_exitfullscreen=Klicken Sie hier, um aus dem Vollbildmodus zurückzukehren
     art_extInUse=Die angeforderte Durchwahl wird derzeit von einem anderen Agenten verwendet.
@@ -588,7 +588,7 @@ Do not change the items below:
     clacd_average_attempts=Durchschnittliche Anz. Versuche:
     clacd_avg_ring=Durschn. Klingelzeit
     clacd_inbound_acd_call_attempts=Eingehende ACD-Versuche
-    clacd_lost_calls=Verlorene Gesrpäche
+    clacd_lost_calls=Verlorene Gespräche
     clacd_max_attempts=Max. Anz. Versuche:
     clacd_min_attempts=Min. Anz. Versuche:
     clacd_last_acd_attempts=letzte ACD Versuche
@@ -913,8 +913,8 @@ Do not change the items below:
     clko_qpos_ko=Eingabe der Queueposition
     clko_queue=Warteschlange
     clko_report_details_unanswered_calls=Details nicht angenommener Anrufe
-    clko_skills_ko=Erforderliche Fertigkeiten bei verlorenen Anrufen
-    clko_skills_ok_ko=Erforderliche Fertigkeiten für alle Anrufe
+    clko_skills_ko=Erforderliche Fähigkeiten bei verlorenen Anrufen
+    clko_skills_ok_ko=Erforderliche Fähigkeiten für alle Anrufe
     clko_stints_all=Alle Anrufe, nach Zeitperiode
     clko_stints_ko=Unbeantwortete Anrufe, nach Zeitperiode
     clko_threedots=...
@@ -1265,7 +1265,7 @@ Used for data blocks Overview by Agent/Queue
     edit_amo_numbers_current_uid= laufende UID
     edit_amo_numbers_edit= Eingabe AMO Nummer
     edit_amo_numbers_list= AMO Nummern
-    edit_amo_numbers_previous_retries= verherige Wiederholung
+    edit_amo_numbers_previous_retries= vorherige Wiederholung
     edit_amo_numbers_retry_no= Wiederholungs-Nummer
     edit_amo_queue_id= Warteschalngen ID
     edit_amo_retry_no= N. Wiederholungen
@@ -1493,7 +1493,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_cases_for_client= Jüngste Cases von diesem Kunden
     edit_record_cases_handled_by= bearbeitet durch
     edit_record_cases_header= Eingabe Case
-    edit_record_cases_id= Case Id
+    edit_record_cases_id= Case ID
     edit_record_cases_none_found= nicht gefunden
     edit_record_cases_notes= Hinweise
     edit_record_cases_queue= Warteschlange
@@ -1581,8 +1581,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Keine Agenten, die zu dieser Gruppe gehören.
     edit_record_groups_title=Details der Agentengruppe bearbeiten
     edit_record_icon=Ikone
-    # 👽 edit_record_id -> Id
-    edit_record_id=?Id
+    # 👽 edit_record_id -> ID
+    edit_record_id=?ID
     edit_record_ivr_code=Nummer des Sprachdialogs
     edit_record_ivr_title=Sprachdialog-Details editieren
     edit_record_lastupdate=Letztes Update
@@ -1720,7 +1720,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_comment=Kommentar:
     edit_record_users_email=E-mail:
     edit_record_users_enabled=Aktiviert:
-    edit_record_users_id=User Id:
+    edit_record_users_id=User ID:
     edit_record_users_keys=Benutzerkey:
     edit_record_users_lastlogon=Letzte Anmeldung:
     edit_record_users_login=Anmeldung:
@@ -1949,7 +1949,7 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_comments=Anmerkungen
     qa_pop_delcomment=Diese Notiz löschen
     qa_pop_delcomments=Alle löschen
-    qa_pop_delcommentsalert=Um diesen Eintrag endgültig zu löschen, drücken Sie noch einmal auf die Schaltfläche Löschen
+    qa_pop_delcommentsalert=Um diesen Eintrag endgültig zu löschen, drücken Sie noch einmal auf die Schaltfläche "Löschen"
     qa_pop_deleted=Dieses Formular wurde gelöscht
     qa_pop_form=QA
     qa_pop_print=Drucken
@@ -2113,9 +2113,9 @@ Used for data blocks Overview by Agent/Queue
     rt3_agents_on_inbound=Agenten auf Inbound
     rt3_agents_on_outbound=Agenten im Outbound
     rt3_alarm_cell_value=Zellenwert
-    rt3_alarm_column_title=Säule
+    rt3_alarm_column_title=Spalte
     rt3_all_agents=Alle Agenten
-    rt3_all_columns=Alle Kolumnen
+    rt3_all_columns=Alle Spalten
     rt3_all_queues=Alle Warteschlangen
     rt3_answer=Antwort
     rt3_avgTalk=Durchschnittliches Gespräch
@@ -2189,7 +2189,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_close=Schliessen
     rt3_code=Code
     rt3_color=Farbe
-    rt3_columns=Kolumnen
+    rt3_columns=Spalten
     rt3_comment=Kommentar
     rt3_configure_phone=Softphone Konfiguration
     rt3_connection_error=Server-Verbindungsfehler
@@ -2386,7 +2386,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_unknown=Unbekannt
     rt3_unpin=aufheben
     rt3_unregister=Aufheben der Registrierung
-    rt3_unregister_txt=Unregistering
+    rt3_unregister_txt=Unregisteren
     rt3_unregistered=Unregistriert
     rt3_up=Nachrücken
     rt3_url=Url
@@ -3089,7 +3089,7 @@ Description of security keys:
     phone_username=Benutzername
     phone_websocketurl=Websocket URL
     # 👽 phone_audio_mic_not_found -> No microphone device found
-    phone_audio_mic_not_found=?Kein Mikrofongerät gefunden
+    phone_audio_mic_not_found=?Kein Mikrofon gefunden
     # 👽 phone_audio_settings -> Audio Settings
     phone_audio_settings=?Audioeinstellungen
     # 👽 phone_audio_device_not_found -> Audio device not found
@@ -3119,13 +3119,13 @@ Description of security keys:
     # 👽 phone_selected_hid_device -> Selected HID device
     phone_selected_hid_device=?Ausgewähltes HID-Gerät
     # 👽 phone_selected_mic_device -> Selected microphone device
-    phone_selected_mic_device=?Ausgewähltes Mikrofongerät
+    phone_selected_mic_device=?Ausgewähltes Mikrofon
     # 👽 phone_selected_ringtone_device -> Selected ringtone device
-    phone_selected_ringtone_device=?Ausgewähltes Klingelton-Gerät
+    phone_selected_ringtone_device=?Ausgewähltes Gerät für Klingelton
     # 👽 phone_set_audio_info -> Changed audio device
     phone_set_audio_info=?Audiogerät geändert
     # 👽 phone_set_mic_info -> Changed mic device
-    phone_set_mic_info=?Mikrofongerät geändert
+    phone_set_mic_info=?Mikrofon geändert
     # 👽 phone_set_audio_err -> Error occurred while setting audio device
     phone_set_audio_err=?Fehler beim Einstellen des Audiogeräts
     # 👽 phone_ringtone -> Ringtone    
@@ -3344,7 +3344,7 @@ Other items
     bdcmsg_ForAgent=Agent
     bdcmsg_Group=Gruppe
     bdcmsg_Location=Standort
-    bdcmsg_Queue=Warteschleife
+    bdcmsg_Queue=Warteschlange
     bdcmsg_Sender=Gesendet von
     bdcmsg_Text=Nachricht
     bdcmsg_Time=Zeit
@@ -4570,7 +4570,7 @@ Other items
     sync2_choose_pbx=PBX
     sync2_choose_source=Quelle auswählen
     # 👽 sync2_chunker_uploading -> Data Upload
-    sync2_chunker_uploading=?Daten-Upload
+    sync2_chunker_uploading=?Daten-Hochladen
     # 👽 sync2_chunker_progress -> Uploaded chunks
     sync2_chunker_progress=?Hochgeladene Blöcke
     # 👽 sync2_chunker_actions -> Actions left
@@ -4580,7 +4580,7 @@ Other items
     # 👽 sync2_chunker_sending -> Applying actions
     sync2_chunker_sending=?Aktionen werden angewendet
     # 👽 sync2_chunker_waiting -> Waiting...
-    sync2_chunker_waiting=?Wartet...
+    sync2_chunker_waiting=?Warten...
     sync2_cluster=Cluster-Einstellungen
     sync2_cluster_info=Cluster-Informationen
     sync2_collapse=Kollabieren
@@ -4683,13 +4683,13 @@ Other items
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Agenten-Sitzungen und Pausen
     # 👽 title_do_areaando -> Area codes
-    title_do_areaando=?Vorwahlbereiche
+    title_do_areaando=?Vorwahl
     # 👽 title_do_calldistrdo -> Call Distribution
     title_do_calldistrdo=?Anrufverteilung
     # 👽 title_do_calltagdo -> Call Tags
     title_do_calltagdo=?Anruf-Tags
     # 👽 title_do_casedo -> Cases
-    title_do_casedo=?Fälle
+    title_do_casedo=?Cases
     # 👽 title_do_customblkdo -> Custom DataBlock
     title_do_customblkdo=?Benutzerdefinierter Datenblock
     # 👽 title_do_detailsdo -> Details
@@ -4725,7 +4725,7 @@ Other items
     userpage_new_password=Neues Passwort
     userpage_number_logons=Anzahl der Anmeldungen
     userpage_old_password=Altes Passwort
-    userpage_retype=Wiedereingage des neuen Passworts
+    userpage_retype=Wiedereingabe des neuen Passworts
     userpage_theme=Theme
     userpage_title=Information des derzeitigen Benutzers
     xtsrc_err=Fehler beim Zugriff auf eine externe Datenquelle. Bitte sehen Sie sich das Server-Fehlerprotokoll an.
