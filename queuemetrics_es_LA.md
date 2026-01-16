@@ -70,7 +70,7 @@ Do not change the items below:
     td_autoconf_wz_summary_type=Tipo
     td_autoconf_wz_users=Usuarios
     # 👽 td_calloutc_? -> 
-    td_calloutc_?=???
+    td_calloutc_?= 
     td_calloutc_contact=Contacto
     td_calloutc_known=Conocido
     td_calloutc_none=Ninguno
@@ -350,7 +350,7 @@ Do not change the items below:
     art_copied_to_clipboard=Copiado en la Clipboard
     art_currentExtension=Extensión actual
     # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
-    art_deprecated_page=?Aviso: Una nueva página de agente está disponible ahora. La que está utilizando actualmente será eliminada en la próxima versión. Por favor, pida a su administrador que lo migre a la página de agente actualizada.
+    art_deprecated_page=Aviso: Una nueva página de agente está disponible ahora. La que está utilizando actualmente será eliminada en la próxima versión. Por favor, pida a su administrador que lo migre a la página de agente actualizada.
     art_endCall=Fin de llamado
     art_exitfullscreen=Click aquí por salir del modo pantalla completa
     art_extInUse=La extensión indicada es ya utilizada por otro agente
@@ -500,7 +500,7 @@ Do not change the items below:
     clage_n_of_agents_available=N. de agentes disponibles:
     clage_nanswcalls=Atendidas
     # 👽 clage_nbsp -> 
-    clage_nbsp=? 
+    clage_nbsp= 
     clage_nftrs=Característica
     clage_ngoalftrs=Filtro por Metas
     clage_nobillpause=No facturable
@@ -594,11 +594,11 @@ Do not change the items below:
     clacd_min_attempts=Min intentos:
     clacd_last_acd_attempts=Últimos intentos de ACD
     # 👽 clacd_n_all_lost -> All lost
-    clacd_n_all_lost=?Todas perdidas
+    clacd_n_all_lost=Todas las perdidas
     clacd_n_lost=N. perdidas
     clacd_n_taken=atendidas
     # 👽 clacd_n_zero -> N. Zero
-    clacd_n_zero=?N. Cero
+    clacd_n_zero=N. Cero
     clacd_queue=Cola
     clacd_ring_s=Timbrado (s)
     clacd_taken_calls=Llamadas atendidas
@@ -668,7 +668,7 @@ Do not change the items below:
     cld_n_lost=Llamadas Perdidas
     cld_n_taken=Llamadas Atendidas
     # 👽 cld_nbsp -> 
-    cld_nbsp=? 
+    cld_nbsp= 
     cld_nopayable=No Pagable
     cld_opos=Pos.
     cld_pause=Pausa
@@ -776,7 +776,7 @@ Do not change the items below:
     cldst_max=Max.
     cldst_min=Min.
     # 👽 cldst_nbsp -> 
-    cldst_nbsp=? 
+    cldst_nbsp= 
     cldst_noskills=Sin Habilidades
     cldst_num=Num.
     cldst_percent=Porcentaje
@@ -909,7 +909,7 @@ Do not change the items below:
     clko_min_wait_time_before_disconnection=Espera Min antes de desconect.:
     clko_n_calls=N. Llamadas
     # 👽 clko_nbsp -> 
-    clko_nbsp=? 
+    clko_nbsp= 
     clko_nof_unanswered_calls=N. de llamadas no contest.:
     clko_offered=% ofrecido
     clko_percent=Porcentaje
@@ -1031,7 +1031,7 @@ Do not change the items below:
     clok_n_calls_answered_by_operators=N. llamadas contestadas por operador(es):
     clok_n_stints=Cantidad de stints
     # 👽 clok_nbsp -> 
-    clok_nbsp=? 
+    clok_nbsp= 
     clok_offered=% ofrecido
     clok_percent=Porcentaje
     clok_position_enter=Posición a la entrada
@@ -1587,7 +1587,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_title=Editar detalle grupo de agentes
     edit_record_icon=Icono
     # 👽 edit_record_id -> Id
-    edit_record_id=?Id
+    edit_record_id=Id
     edit_record_ivr_code=Código IVR:
     edit_record_ivr_title=Editar Detalles IVR
     edit_record_lastupdate=Última actualización
@@ -2175,7 +2175,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_various=Varios
     rt3_change_queue_confirm=Hay cambios no guardados que se perderán al cambiar de cola. ¿Proceder?
     # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    rt3_exit_confirm=?Tiene cambios no guardados que se perderán si sale de la página. ¿Confirmar?
+    rt3_exit_confirm=Tiene cambios no guardados que se perderán si sale de la página. ¿Confirmar?
     rt3_choose_action=Seleccionar Acción
     rt3_choose_monitor_mode=Modalidad de Monitoreo
     rt3_choose_queue=Seleccionar Cola
@@ -2239,7 +2239,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension_info=Registrado como:
     rt3_extra_value=Alguna de los valores seleccionados no son disponibles
     # 👽 rt3_filters -> Show/Hide Filters
-    rt3_filters=?Mostrar/Ocultar Filtros
+    rt3_filters=Mostrar/Ocultar Filtros
     rt3_go=ir
     rt3_gohome=Home
     rt3_goto_login=Ir al Login
@@ -2272,7 +2272,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_lost_attempts=Intentos Perdidos
     rt3_lost_prc=Perdidas
     # 👽 rt3_manual_insert -> Manual insert
-    rt3_manual_insert=?Insertar manualmente
+    rt3_manual_insert=Insertar manualmente
     rt3_menu_delete=Eliminar
     rt3_menu_edit=Modificar
     rt3_menu_share=Compartir
@@ -2593,7 +2593,7 @@ Description of configuration properties
     propedit_feature_wbsoftphone_settings=Configuración Softphone de Tablero
     propedit_key_agent_background_desc=URL de fondo de pantalla agente.
     # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?Los agentes serán desconectados automáticamente de todas las colas al cerrar sesión
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=Los agentes serán desconectados automáticamente de todas las colas al cerrar sesión
     propedit_key_agent_outcome_size=Número maximo de elementos selector códigos
     propedit_key_agent_pause_dialout=Deshabilita Dialout Agentes si se encuentran en pausa
     propedit_key_agent_qap_cached_for_ms_desc=Duración del caché de analisis por la página Agente
@@ -2857,7 +2857,7 @@ Description of security keys:
     keydesc_edit_cfg=El usuario puede editar el archivo configuration.properties
     keydesc_hidenumbers=Todos los números de teléfono y las identidades de las personas que llaman están ocultos.
     # 👽 keydesc_hid -> Enable Softphone headset controls
-    keydesc_hid=?Habilitar controles de auriculares del softphone
+    keydesc_hid=Habilitar controles de auriculares del softphone
     keydesc_keyupdate=El usuario puede instalar una nueva llave de activación de QueueMetrics
     keydesc_mon_audio=El usuario puede monitorear una llaamda en Tiempo Real
     keydesc_mon_barge=El usuario puede ingresar en una llamada
@@ -2866,7 +2866,7 @@ Description of security keys:
     keydesc_mon_whisper=El usuario puede hablar al agente en una llamada
     keydesc_newagentpage=Activar la nueva interfaz agente ICON
     # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
-    keydesc_nodialout=?El usuario no tiene permitido realizar llamadas salientes
+    keydesc_nodialout=El usuario no tiene permitido realizar llamadas salientes
     keydesc_payroll=El usuario puede verificar la nómina de pagos
     keydesc_payroll_removenote=El usuario puede eliminar una nota en la página de nómina
     keydesc_pbxapi=El usuario puede acceder a los servicios a nivel PBX
@@ -3072,7 +3072,7 @@ Description of security keys:
     phone_maxsessions=Sesiones Máximas
     phone_mute=Mudo
     # 👽 phone_mute_toggle -> Toggle Mute
-    phone_mute_toggle=?Alternar Silencio
+    phone_mute_toggle=Alternar Silencio
     phone_no_https=Queuemetrics debe estar disponible via HTTPS para que el telefono funcione correctamente
     phone_no_queue=Ningúna Cola
     phone_noanswertimeout=Tiempo de espera sin respuesta
@@ -3095,47 +3095,47 @@ Description of security keys:
     phone_username=Nombre de Usuario
     phone_websocketurl=URL WebSocket
     # 👽 phone_audio_mic_not_found -> No microphone device found
-    phone_audio_mic_not_found=?No se encontró ningún dispositivo de micrófono
+    phone_audio_mic_not_found=No se encontró ningún dispositivo de micrófono
     # 👽 phone_audio_settings -> Audio Settings
-    phone_audio_settings=?Ajustes de audio
+    phone_audio_settings=Ajustes de audio
     # 👽 phone_audio_device_not_found -> Audio device not found
-    phone_audio_device_not_found=?No se encontró el dispositivo de audio
+    phone_audio_device_not_found=No se encontró el dispositivo de audio
     # 👽 phone_choose_device -> Choose device..
-    phone_choose_device=?Elegir dispositivo...
+    phone_choose_device=Elegir dispositivo...
     # 👽 phone_default_audio_device -> Using default audio device
-    phone_default_audio_device=?Usando el dispositivo de audio predeterminado
+    phone_default_audio_device=Utilizando el dispositivo de audio predeterminado
     # 👽 phone_hid_disconnect_device -> Disconnect HID device
-    phone_hid_disconnect_device=?Desconectar dispositivo HID
+    phone_hid_disconnect_device=Desconectar dispositivo HID
     # 👽 phone_hid_close_device -> Closed HID device
-    phone_hid_close_device=?Dispositivo HID cerrado
+    phone_hid_close_device=Dispositivo HID cerrado
     # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
-    phone_hid_close_device_err=?Error al cerrar el dispositivo HID
+    phone_hid_close_device_err=Error al cerrar el dispositivo HID
     # 👽 phone_hid_device_already_open -> HID device already open
-    phone_hid_device_already_open=?El dispositivo HID ya está abierto
+    phone_hid_device_already_open=El dispositivo HID ya está abierto
     # 👽 phone_hid_device_connected -> HID device connected
-    phone_hid_device_connected=?Dispositivo HID conectado
+    phone_hid_device_connected=Dispositivo HID conectado
     # 👽 phone_hid_disconnected_device -> Disconnected HID device
-    phone_hid_disconnected_device=?Dispositivo HID desconectado
+    phone_hid_disconnected_device=Dispositivo HID desconectado
     # 👽 phone_hid_open_device -> Select a HID device
-    phone_hid_open_device=?Seleccionar un dispositivo HID
+    phone_hid_open_device=Seleccionar un dispositivo HID
     # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
-    phone_hid_open_device_err=?Error al abrir el dispositivo HID
+    phone_hid_open_device_err=Error al abrir el dispositivo HID
     # 👽 phone_selected_audio_device -> Selected audio device
-    phone_selected_audio_device=?Dispositivo de audio seleccionado
+    phone_selected_audio_device=Dispositivo de audio seleccionado
     # 👽 phone_selected_hid_device -> Selected HID device
-    phone_selected_hid_device=?Dispositivo HID seleccionado
+    phone_selected_hid_device=Dispositivo HID seleccionado
     # 👽 phone_selected_mic_device -> Selected microphone device
-    phone_selected_mic_device=?Dispositivo de micrófono seleccionado
+    phone_selected_mic_device=Dispositivo de micrófono seleccionado
     # 👽 phone_selected_ringtone_device -> Selected ringtone device
-    phone_selected_ringtone_device=?Dispositivo de tono de llamada seleccionado
+    phone_selected_ringtone_device=Dispositivo de timbrado seleccionado
     # 👽 phone_set_audio_info -> Changed audio device
-    phone_set_audio_info=?Dispositivo de audio cambiado
+    phone_set_audio_info=Se ha actualizado el dispositivo de audio
     # 👽 phone_set_mic_info -> Changed mic device
-    phone_set_mic_info=?Dispositivo de micrófono cambiado
+    phone_set_mic_info=Se ha actualizado el dispositivo de micrófono cambiado
     # 👽 phone_set_audio_err -> Error occurred while setting audio device
-    phone_set_audio_err=?Error al configurar el dispositivo de audio
+    phone_set_audio_err=Error al configurar el dispositivo de audio
     # 👽 phone_ringtone -> Ringtone    
-    phone_ringtone=?Tono de llamada
+    phone_ringtone=Tono de llamada
 
 ## Homepage
 
@@ -3181,7 +3181,7 @@ Description of security keys:
     home_infobox_private=Privado
     home_infobox_quicklinks=Enlaces Rápidos
     # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    home_master_key_error=?Masterkey habilitado — uso recomendado solo para pruebas
+    home_master_key_error=Masterkey habilitado — uso recomendado solo para pruebas
     home_news_subtitle=Últimas noticias sobre Queuemetrics
     home_news_title=Noticias
     home_payroll_subtitle=Ejecutar un Informe Payroll
@@ -3222,63 +3222,63 @@ Description of security keys:
 These are the titles of data blocks:
 
     # 👽 teams_blk_external_callers -> External Callers
-    teams_blk_external_callers=?Llamantes Externos
+    teams_blk_external_callers=Llamantes Externos
     # 👽 teams_blk_external_callees -> External Callees
-    teams_blk_external_callees=?Destinatarios Externos
+    teams_blk_external_callees=Destinatarios Externos
     # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
-    teams_blk_external_callers_on_all=?Llamantes Externos (en todas las llamadas)
+    teams_blk_external_callers_on_all=Llamantes Externos (en todas las llamadas)
     # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
-    teams_blk_external_callees_on_all=?Destinatarios Externos (en todas las llamadas)
+    teams_blk_external_callees_on_all=Destinatarios Externos (en todas las llamadas)
     # 👽 teams_blk_caller_classification -> Teams Caller Classification
-    teams_blk_caller_classification=?Clasificación de Llamantes de Teams
+    teams_blk_caller_classification=Clasificación de Llamantes de Teams
     # 👽 teams_blk_callee_classification -> Teams Callee Classification
-    teams_blk_callee_classification=?Clasificación de Destinatarios de Teams
+    teams_blk_callee_classification=Clasificación de Destinatarios de Teams
 
     # 👽 hdr_teamsdo -> TeamsDO
-    hdr_teamsdo=?TeamsDO
+    hdr_teamsdo=TeamsDO
 
 
 These are kinds of calls:
 
     # 👽 teams_kind_guest_user -> Guest User
-    teams_kind_guest_user=?Usuario Invitado
+    teams_kind_guest_user=Usuario Invitado
     # 👽 teams_kind_ext_user -> External User
-    teams_kind_ext_user=?Usuario Externo
+    teams_kind_ext_user=Usuario Externo
     # 👽 teams_kind_phone -> Phone
-    teams_kind_phone=?Teléfono
+    teams_kind_phone=Teléfono
     # 👽 teams_kind_other -> Other
-    teams_kind_other=?Otro
+    teams_kind_other=Otro
 
 These are localization labels for data blocks:
 
     # 👽 teams_caller_domain -> Caller domain
-    teams_caller_domain=?Dominio del Llamante
+    teams_caller_domain=Dominio del Llamante
     # 👽 teams_n_calls -> N. Calls
-    teams_n_calls=?N. Llamadas
+    teams_n_calls=N. Llamadas
     # 👽 teams_avg_wait -> Avg Wait
-    teams_avg_wait=?Prom. Espera
+    teams_avg_wait=Prom. Espera
     # 👽 teams_avg_talk -> Avg Talk
-    teams_avg_talk=?Prom. Conversación
+    teams_avg_talk=Prom. Conversación
     # 👽 teams_tot_talk -> Tot Talk
-    teams_tot_talk=?Total Conversación
+    teams_tot_talk=Total Conversación
     # 👽 teams_all_calls -> All Calls
-    teams_all_calls=?Todas las llamadas
+    teams_all_calls=Todas las llamadas
     # 👽 teams_guest_n_calls -> Guest N Calls
-    teams_guest_n_calls=?Invitado N Llamadas
+    teams_guest_n_calls=Invitado N Llamadas
     # 👽 teams_guest_avg_wait -> Guest Avg Wait
-    teams_guest_avg_wait=?Invitado Prom. Espera
+    teams_guest_avg_wait=Invitado Prom. Espera
     # 👽 teams_guest_avg_talk -> Guest Avg Talk
-    teams_guest_avg_talk=?Invitado Prom. Conversación
+    teams_guest_avg_talk=Invitado Prom. Conversación
     # 👽 teams_guest_tot_talk -> Guest Tot Talk
-    teams_guest_tot_talk=?Invitado Total Conversación
+    teams_guest_tot_talk=Invitado Total Conversación
     # 👽 teams_ext_n_calls -> Ext N Calls
-    teams_ext_n_calls=?Ext N Llamadas
+    teams_ext_n_calls=Ext N Llamadas
     # 👽 teams_ext_avg_wait -> Ext Avg Wait
-    teams_ext_avg_wait=?Ext Prom. Espera
+    teams_ext_avg_wait=Ext Prom. Espera
     # 👽 teams_ext_avg_talk -> Ext Avg Talk
-    teams_ext_avg_talk=?Ext Prom. Conversación
+    teams_ext_avg_talk=Ext Prom. Conversación
     # 👽 teams_ext_tot_talk -> Ext Tot Talk
-    teams_ext_tot_talk=?Ext Total Conversación
+    teams_ext_tot_talk=Ext Total Conversación
 
 
 
@@ -3402,7 +3402,7 @@ Other items
     editor_show_classes=Muestra clases
     editor_show_users=Muestra Usuarios
     # 👽 err_not_blank -> Input cannot be left blank.
-    err_not_blank=?La entrada no puede quedar en blanco.
+    err_not_blank=El campo no puede quedar en blanco.
     err_super_multiple=No se puede filtrar por agente o lugar, desde los Informes de Supervisor
     err_super_noagents=El usuario no tiene agentes que supervisar.
     expc_exportcallist=Lista de llamadas
@@ -3418,25 +3418,25 @@ Other items
     export_to_pdf=PDF
     export_xml=Exportar en formato XML
     # 👽 graph_position -> Graph Position
-    graph_position=?Posición del Gráfico
+    graph_position=Posición del Gráfico
     # 👽 graph_position_top -> Top
-    graph_position_top=?Arriba
+    graph_position_top=Arriba
     # 👽 graph_position_bottom -> Bottom
-    graph_position_bottom=?Abajo
+    graph_position_bottom=Abajo
     # 👽 graph_position_left -> Left
-    graph_position_left=?Izquierda
+    graph_position_left=Izquierda
     # 👽 graph_position_right -> Right
-    graph_position_right=?Derecha
+    graph_position_right=Derecha
     # 👽 graph_size -> Graph Size
-    graph_size=?Tamaño del Gráfico
+    graph_size=Tamaño del Gráfico
     # 👽 graph_size_big -> Big
-    graph_size_big=?Grande
+    graph_size_big=Grande
     # 👽 graph_size_normal -> Normal
-    graph_size_normal=?Normal
+    graph_size_normal=Normal
     # 👽 graph_size_small -> Small
-    graph_size_small=?Pequeño
+    graph_size_small=Pequeño
     # 👽 graph_size_extra_small -> Extra Small
-    graph_size_extra_small=?Extra Pequeño
+    graph_size_extra_small=Extra Pequeño
     grp_ivr=Eventos IVR
     grp_ivr_calls=Llamadas IVR
     grp_ivr_short=IVR
@@ -3724,9 +3724,9 @@ Other items
     qap_amo_reserved=Llamada reservada exitosamente.
     qap_amo_terminated=No hay más llamadas AMO disponibles.
     # 👽 qap_apply_feature_error -> Error while applying feature to interaction
-    qap_apply_feature_error=?Error al aplicar función a la interacción
+    qap_apply_feature_error=Error al aplicar función a la interacción
     # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
-    qap_apply_outcome_error=?Error al aplicar resultado a la interacción
+    qap_apply_outcome_error=Error al aplicar resultado a la interacción
     qap_assign_case=Asignar una iteracción a un caso
     qap_assign_client=Asignar una iteracción a un cliente
     qap_assign_interaction_error=Error en la asignación de una relación a esta iteracción
@@ -3848,7 +3848,7 @@ Other items
     qap_leave=Abandonar
     qap_loading=Cargando...
     # 👽 qap_logout_message -> Logging you out from all queues
-    qap_logout_message=?Desconectándolo de todas las colas
+    qap_logout_message=Desconectando de todas las colas
     qap_memos=Promemoria
     qap_missing_cases_key=No se posee la autorización para crear nuevos casos
     qap_missing_clients_key=No se posee la autorización para crear nuevos clientes
@@ -3870,7 +3870,7 @@ Other items
     qap_no_cases=No hay casos abiertos
     qap_no_clients=No hay Clientes
     # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
-    qap_agent_not_present_on_queue=?El agente no está presente en la cola saliente seleccionada.
+    qap_agent_not_present_on_queue=El agente no está presente en la cola saliente seleccionada.
     qap_none=Ningúno
     qap_note_actions=Acciones
     qap_note_complete=Completa
@@ -4005,7 +4005,7 @@ Other items
     reports_atomic_filters=Filtros de expresión
     reports_autosave_toggle=Guardar automáticamente
     # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
-    reports_filter_empty_hour_toggle=?Ocultar horas vacías
+    reports_filter_empty_hour_toggle=Ocultar rangos horarios vacíos
     reports_change_report_confirm=Tiene cambios sin guardar, al seleccionar un informe diferente, se deshacen esos cambios. ¿Quieres cambiar el informe?
     reports_chart_avgdur=Duración Promedio
     reports_chart_delta=Delta
@@ -4073,15 +4073,15 @@ Other items
     reports_export_test_icon=Ejecutar ahora
     reports_export_xls_short=XLS
     # 👽 reports_exportjob_create -> Create New Export Job
-    reports_exportjob_create=?Crear Nuevo Trabajo de Exportación
+    reports_exportjob_create=Crear Nuevo Trabajo de Exportación
     # 👽 reports_exportjob_create_successful -> Export job created successfully
-    reports_exportjob_create_successful=?Trabajo de exportación creado exitosamente
+    reports_exportjob_create_successful=Trabajo de exportación creado exitosamente
     # 👽 reports_exportjob_error_create -> Error Creating Export Job:
-    reports_exportjob_error_create=?Error Creando Trabajo de Exportación:
+    reports_exportjob_error_create=Error Creando Trabajo de Exportación:
     # 👽 reports_exportjob_title -> Existing jobs for this report
-    reports_exportjob_title=?Trabajos existentes para este reporte
+    reports_exportjob_title=Trabajos existentes para este reporte
     # 👽 reports_export_job -> Export
-    reports_export_job=?Exportar
+    reports_export_job=Exportar
     reports_fetch_error=Error en cargar el DataBlock
     reports_filter_agent=Agente
     reports_filter_agentgroup=Grupo Agentes
@@ -4116,19 +4116,19 @@ Other items
     reports_filter_operator=Operador
     reports_filter_outcome=Resultado
     # 👽 reports_filter_pausedurmax -> Max. Pause Duration
-    reports_filter_pausedurmax=?Duración Máx. de Pausa
+    reports_filter_pausedurmax=Duración Máx. de Pausa
     # 👽 reports_filter_pausedurmin -> Min. Pause Duration
-    reports_filter_pausedurmin=?Duración Mín. de Pausa
+    reports_filter_pausedurmin=Duración Mín. de Pausa
     # 👽 reports_filter_pausenmax -> Max. N Pause
-    reports_filter_pausenmax=?N Máx. de Pausas
+    reports_filter_pausenmax=Cant. Máx. de Pausas
     # 👽 reports_filter_pausenmin -> Min. N Pause
-    reports_filter_pausenmin=?N Mín. de Pausas
+    reports_filter_pausenmin=Cant. Mín. de Pausas
     # 👽 reports_filter_sessiondurmax -> Max. Session Duration
-    reports_filter_sessiondurmax=?Duración Máx. de Sesión
+    reports_filter_sessiondurmax=Duración Máx. de Sesión
     # 👽 reports_filter_sessiondurmin -> Min. Session Duration
-    reports_filter_sessiondurmin=?Duración Mín. de Sesión
+    reports_filter_sessiondurmin=Duración Mín. de Sesión
     # 👽 reports_filter_sessionext -> Session Ext.
-    reports_filter_sessionext=?Ext. de Sesión
+    reports_filter_sessionext=Ext. de Sesión
     reports_filter_selected_queues=Colas
     reports_filter_server=Servidor
     reports_filter_shortcallattempt=Tiempo mínimo de intento (llamadas breves)
@@ -4209,7 +4209,7 @@ Other items
     reports_qa_performance_total=Total
     reports_qa_queue=Cola
     # 👽 reports_qa_range -> Range
-    reports_qa_range=?Rango
+    reports_qa_range=Rango
     reports_qa_recap_heading=Detalle Llamada
     reports_qa_select_form=Seleccionar un Formulario
     reports_qa_start=Inicio
@@ -4231,10 +4231,10 @@ Other items
     reports_save_report_confirm_message=¿Editar el informe actual o crear una copia con los nuevos cambios?
     reports_save_report_confirm_title=Guardar informe
     # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
-    reports_save_report_title_exception=?Ya existe un reporte con el mismo nombre. Por favor, seleccione un nombre diferente.
+    reports_save_report_title_exception=Ya existe un reporte con el mismo nombre. Por favor, seleccione un nombre diferente.
     reports_save_successful=Informe guardado correctamente
     # 👽 reports_scheduled_job -> Scheduled
-    reports_scheduled_job=?Programado
+    reports_scheduled_job=Programado
     reports_search_placeholder=Buscar Filtro
     reports_select_report=Elija un informe
     reports_settings=Configuraciones
@@ -4388,7 +4388,7 @@ Other items
     rt_n_agents=N. agentes
     rt_n_calls_waiting=N. llamadas en espera
     # 👽 rt_nbsp -> 
-    rt_nbsp=? 
+    rt_nbsp= 
     rt_on_pause=En pausa
     rt_on_pause_nbsp=En pausa
     rt_on_phone_inbound=Al teléfono entrante
@@ -4494,7 +4494,7 @@ Other items
     rt_visitor_in_order_to_mantain_session_information=Para mantener la informacion de esta sesion, esta página es actualizada periodicamente
     rt_visitor_n_calls=N. llamadas
     # 👽 rt_visitor_nbsp ->  
-    rt_visitor_nbsp=? 
+    rt_visitor_nbsp= 
     rt_visitor_queue=Cola
     rt_visitor_queue_nbsp=Cola
     rt_visitor_queues=Cola(s):
@@ -4517,7 +4517,7 @@ Other items
     rt_wall_n_agents=Agentes
     rt_wall_n_calls_waiting=Esperando
     # 👽 rt_wall_nbsp ->  
-    rt_wall_nbsp=? 
+    rt_wall_nbsp= 
     rt_wall_on_pause=Pausa
     rt_wall_on_phone_inbound=Entrante
     rt_wall_on_phone_outbound=Saliente
@@ -4672,37 +4672,37 @@ Other items
     timeline_tab_recordings=Grabaciones
     timeline_totdur=Dur. Tot.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
-    title_do_agentsdo=?Sesiones y Pausas de Agentes
+    title_do_agentsdo=Sesiones y Pausas de Agentes
     # 👽 title_do_areaando -> Area codes
-    title_do_areaando=?Códigos de área
+    title_do_areaando=Códigos de área
     # 👽 title_do_calldistrdo -> Call Distribution
-    title_do_calldistrdo=?Distribución de llamadas
+    title_do_calldistrdo=Distribución de llamadas
     # 👽 title_do_calltagdo -> Call Tags
-    title_do_calltagdo=?Etiquetas de llamada
+    title_do_calltagdo=Etiquetas de llamada
     # 👽 title_do_casedo -> Cases
-    title_do_casedo=?Casos
+    title_do_casedo=Casos
     # 👽 title_do_customblkdo -> Custom DataBlock
-    title_do_customblkdo=?Bloque de datos personalizado
+    title_do_customblkdo=Bloque de datos personalizado
     # 👽 title_do_detailsdo -> Details
-    title_do_detailsdo=?Detalles
+    title_do_detailsdo=Detalles
     # 👽 title_do_distrdo -> Attempts
-    title_do_distrdo=?Intentos
+    title_do_distrdo=Intentos
     # 👽 title_do_extsourcedo -> External Source
-    title_do_extsourcedo=?Fuente externa
+    title_do_extsourcedo=Fuente externa
     # 👽 title_do_fcrdo -> First Call Resolution
-    title_do_fcrdo=?Resolución en la primera llamada
+    title_do_fcrdo=Resolución en la primera llamada
     # 👽 title_do_groupingsdo -> Calls Grouping
-    title_do_groupingsdo=?Agrupación de llamadas
+    title_do_groupingsdo=Agrupación de llamadas
     # 👽 title_do_ivrdo -> Ivr Calls
-    title_do_ivrdo=?Llamadas IVR
+    title_do_ivrdo=Llamadas IVR
     # 👽 title_do_kodo -> Unanswered Calls
-    title_do_kodo=?Llamadas sin respuesta
+    title_do_kodo=Llamadas sin respuesta
     # 👽 title_do_okdo -> Taken Calls
-    title_do_okdo=?Llamadas atendidas
+    title_do_okdo=Llamadas atendidas
     # 👽 title_do_outcomesdo -> Call with Outcomes
-    title_do_outcomesdo=?Llamadas con resultados
+    title_do_outcomesdo=Llamadas con resultados
     # 👽 title_do_teamsdo -> Teams
-    title_do_teamsdo=?Teams
+    title_do_teamsdo=Teams
     ts_agawrep_invalidlocation=Indique una ubicación válida
     userpage_change_button=Cambiar
     userpage_change_password=Cambiar contraseña
