@@ -1581,7 +1581,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Keine Agenten, die zu dieser Gruppe gehören.
     edit_record_groups_title=Details der Agentengruppe bearbeiten
     edit_record_icon=Ikone
-    # 👽 edit_record_id -> ID
+    # 👽 edit_record_id -> Id
     edit_record_id=?ID
     edit_record_ivr_code=Nummer des Sprachdialogs
     edit_record_ivr_title=Sprachdialog-Details editieren
