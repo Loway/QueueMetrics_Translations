@@ -595,7 +595,6 @@ Do not change the items below:
     clacd_max_attempts=מקסימום נסיונות
     clacd_min_attempts=מינימום נסיונות
     clacd_last_acd_attempts=ניסיונות ACD אחרונים
-    # 👽 clacd_n_all_lost -> All lost
     clacd_n_all_lost=כל הננטשות
     clacd_n_lost=לא נענו/ננטשו
     clacd_n_taken=נענו
@@ -1820,29 +1819,19 @@ Used for data blocks Overview by Agent/Queue
     qa_form=?טופס
     # 👽 qa_frm_about -> About
     qa_frm_about=?אודות
-    # 👽 qa_frm_addbtn -> Add
     qa_frm_addbtn=הוסף
-    # 👽 qa_frm_addtojob -> Add to job
     qa_frm_addtojob=הוסף למשימה
-    # 👽 qa_frm_calladded -> Call added to the job
     qa_frm_calladded=השיחה נוספה למשימה
-    # 👽 qa_frm_callnotadded -> Call not added to the job
     qa_frm_callnotadded=השיחה לא נוספה למשימה
-    # 👽 qa_frm_cmtdlg_title_about -> About
     qa_frm_cmtdlg_title_about=אודות
-    # 👽 qa_frm_cmtdlg_title_ofform -> of form
     qa_frm_cmtdlg_title_ofform=של טופס
     # 👽 qa_frm_code -> Code
     qa_frm_code=?קוד
     # 👽 qa_frm_commentid -> Id
     qa_frm_commentid=?מזהה
-    # 👽 qa_frm_desc -> Description
     qa_frm_desc=תיאור
-    # 👽 qa_frm_feedback -> Notes
     qa_frm_feedback=הערות
-    # 👽 qa_frm_item -> Form, Question
     qa_frm_item=טופס, שאלה
-    # 👽 qa_frm_itemtype_dropdown -> Multi Value
     qa_frm_itemtype_dropdown=רב ערכים
     # 👽 qa_frm_itemtype_freetype -> Number
     qa_frm_itemtype_freetype=?מספר
@@ -2318,7 +2307,6 @@ Used for data blocks Overview by Agent/Queue
     filter_idLocation=?מיקום
     # 👽 filter_ivr -> IVR
     filter_ivr=?IVR
-    # 👽 filter_lostAttemptFor -> Lost Attempt For
     filter_lostAttemptFor=ניסיון כושל עבור
     # 👽 filter_noncont_days -> Days
     filter_noncont_days=?ימים
@@ -2582,9 +2570,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_circle_answered_perc=?נענו %
     # 👽 rt3_circle_longest_wait -> Longest Wait
     rt3_circle_longest_wait=?המתנה ארוכה ביותר
-    # 👽 rt3_circle_lost_calls -> Lost Calls
     rt3_circle_lost_calls=שיחות ננטשות
-    # 👽 rt3_circle_lost_perc -> Lost %
     rt3_circle_lost_perc=ננטשות %
     # 👽 rt3_circle_offered_calls -> N Offered Calls
     rt3_circle_offered_calls=?מס' שיחות שהוצעו
@@ -2705,11 +2691,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_hold=?המתנה
     # 👽 rt3_html -> HTML Page
     rt3_html=?דף HTML
-    # 👽 rt3_idle -> Idle
     rt3_idle=לא פנוי
-    # 👽 rt3_idle_alarm_red -> Idle Red Alarm
     rt3_idle_alarm_red=לא פנוי - אזעקה אדומה
-    # 👽 rt3_idle_alarm_yel -> Idle Yellow Alarm
     rt3_idle_alarm_yel=לא פנוי - אזעקה צהובה
     # 👽 rt3_import_schema -> Import
     rt3_import_schema=?ייבא
@@ -2748,9 +2731,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_loggedon=?מחובר
     # 👽 rt3_longest_wait -> Longest Wait
     rt3_longest_wait=?המתנה ארוכה ביותר
-    # 👽 rt3_lost_attempts -> Lost Att.
     rt3_lost_attempts=ניסיונות כושלים
-    # 👽 rt3_lost_prc -> Lost
     rt3_lost_prc=נכשלו/ננטשו
     # 👽 rt3_manual_insert -> Manual insert
     rt3_manual_insert=?הוספה ידנית
@@ -2766,7 +2747,6 @@ Used for data blocks Overview by Agent/Queue
     rt3_n_agents=?מס' נציגים
     # 👽 rt3_n_calls_answered -> Answered Calls
     rt3_n_calls_answered=?שיחות נענו
-    # 👽 rt3_n_calls_lost -> Lost Calls
     rt3_n_calls_lost= שיחות ננטשות 
     # 👽 rt3_n_calls_offered -> Offered Calls
     rt3_n_calls_offered=?שיחות שהוצעו
@@ -2784,7 +2764,6 @@ Used for data blocks Overview by Agent/Queue
     rt3_nobillpause=?הפסקה ללא חיוב
     # 👽 rt3_nofcalls_answered -> Answered Calls
     rt3_nofcalls_answered=?שיחות נענו
-    # 👽 rt3_nofcalls_lost -> Lost Calls
     rt3_nofcalls_lost=שיחות ננטשות
     # 👽 rt3_nofcalls_offered -> Offered Calls
     rt3_nofcalls_offered=?שיחות שהוצעו
@@ -3347,7 +3326,6 @@ Description of configuration properties
     propedit_key_default_shortcalls_talk=?כמה שניות דיבור צריכה שיחה לכלול, לפני שתכלל בדוחות. (-1 אומר שכל השיחות נכללות ללא קשר לזמן הדיבור שלהן).
     # 👽 propedit_key_default_shortcalls_wait -> How many seconds of wait time must a call possess, before being included in reports. (-1 means that all calls are included regardless of their wait time).
     propedit_key_default_shortcalls_wait=?כמה שניות המתנה צריכה שיחה לכלול, לפני שתכלל בדוחות. (-1 אומר שכל השיחות נכללות ללא קשר לזמן ההמתנה שלהן).
-    # 👽 propedit_key_default_showLostCallsWhenFiltering_desc -> Lost calls visibility
     propedit_key_default_showLostCallsWhenFiltering_desc=הצגת שיחות שנכשלו
     # 👽 propedit_key_default_showQueueComposition_desc -> Show the queue composition or just the main queue name
     propedit_key_default_showQueueComposition_desc=?הצג הרכב תור או רק שם התור הראשי
@@ -4692,9 +4670,7 @@ Other items
     grp_ivr_calls=?שיחות IVR
     # 👽 grp_ivr_short -> Ivr
     grp_ivr_short=?IVR
-    # 👽 grp_lost_calls -> Lost Calls
     grp_lost_calls=שיחות שנכשלו
-    # 👽 grp_lost_short -> Lost
     grp_lost_short=נכשלו
     # 👽 grp_taken_calls -> Taken Calls
     grp_taken_calls=?שיחות שנענו
@@ -4742,9 +4718,7 @@ Other items
     keyinstall_popup_title=?התקן מפתח QueueMetrics חדש
     # 👽 keyinstall_popup_title_agaw -> AGAW license
     keyinstall_popup_title_agaw=?רישיון AGAW
-    # 👽 ko_lst_n -> N Lost
     ko_lst_n=N נכשלו
-    # 👽 ko_lst_q -> Lost on Q
     ko_lst_q=ננטשו בתור
     # 👽 ko_lst_t -> Last Lost
     ko_lst_t=?הוחמצו לאחרונה
@@ -5340,7 +5314,6 @@ Other items
     qap_create_note_error=?שגיאה ביצירת הערה חדשה.
     # 👽 qap_crm_links -> CRM Popup Links
     qap_crm_links=?קישורי חלון קופץ של CRM
-    # 👽 qap_daily_idle -> Idle time
     qap_daily_idle=זמן פנוי
     # 👽 qap_daily_lost -> Lost Calls
     qap_daily_lost=?שיחות שהוחמצו
@@ -5444,7 +5417,6 @@ Other items
     qap_form_features=?קודי תכונות
     # 👽 qap_form_outcome -> Outcome
     qap_form_outcome=?תוצאה
-    # 👽 qap_idle_time -> Idle Time
     qap_idle_time=זמן פנוי
     # 👽 qap_interaction_caller -> Caller
     qap_interaction_caller=?מתקשר
@@ -5456,29 +5428,23 @@ Other items
     qap_interaction_details=?פרטים
     # 👽 qap_interaction_details_title -> Call Details
     qap_interaction_details_title=?פרטי שיחה
-    # 👽 qap_interaction_duration -> Duration
     qap_interaction_duration=משך זמן
-    # 👽 qap_interaction_outcome -> Outcome
     qap_interaction_outcome=תוצאה
-    # 👽 qap_interaction_queue -> Queue
     qap_interaction_queue=תור
     # 👽 qap_interaction_start -> Start
     qap_interaction_start=?התחלה
     # 👽 qap_interaction_tag -> Tag
     qap_interaction_tag=?תגית
-    # 👽 qap_interaction_transfer -> Transfer
     qap_interaction_transfer=העברה
     # 👽 qap_interaction_url -> URL
     qap_interaction_url=?כתובת אתר
-    # 👽 qap_interaction_variables -> Variables
     qap_interaction_variables=משתנים
-    # 👽 qap_interaction_waiting -> Waiting
-    qap_interaction_waiting=
+    # 🔴 qap_interaction_waiting -> Waiting
+    ➡️ qap_interaction_waiting=
     # 👽 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
     qap_invalid_outcome=?התוצאה שנבחרה אינה חוקית עבור אחד או יותר מקודי התכונות של האינטראקציה.
     # 👽 qap_join -> Join
     qap_join=?הצטרף
-    # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=טקסט חופשי
     # 👽 qap_leave -> Leave
     qap_leave=?עזוב
@@ -5769,7 +5735,6 @@ Other items
     reports_at_duration=?משך:
     # 👽 reports_at_expand -> See more details.
     reports_at_expand=?ראה פרטים נוספים.
-    # 👽 reports_at_idle -> Idle Time:
     reports_at_idle=זמן פנוי:
     # 👽 reports_at_info -> Session information for
     reports_at_info=?מידע סשן עבור
@@ -6674,9 +6639,7 @@ Other items
     rt_wall_nbsp= 
     # 👽 rt_wall_on_pause -> Pau
     rt_wall_on_pause=?השהה
-    # 👽 rt_wall_on_phone_inbound -> In
     rt_wall_on_phone_inbound=בשיחה נכנסות
-    # 👽 rt_wall_on_phone_outbound -> Out
     rt_wall_on_phone_outbound=בשיחה יוצאת
     # 👽 rt_wall_queue_nbsp -> Queue
     rt_wall_queue_nbsp=?תור
