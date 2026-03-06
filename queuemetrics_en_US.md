@@ -3768,6 +3768,7 @@ Other items
     qap_invalid_outcome=The selected outcome is not valid for one or more of the interaction's feature codes.
     qap_join=Join
     qap_label_freetext=Free Text
+    qap_label_freetext_error=Character limit exceeded (maximum 200)
     qap_leave=Leave
     qap_loading=Loading...
     qap_logout_message=Logging you out from all queues
