@@ -3262,7 +3262,7 @@ Other items
     amo_close_info=Cerrar Información AMO
     amo_dialer_state_completed=Completado
     amo_dialer_state_open=Abierto
-    amo_import_error_nonumber=El campo "número" es obligatorio para cada registro
+    amo_import_error_nonumber=El campo 'número' es obligatorio para cada registro
     amo_import_error_norecords=Incluya al menos un registro en el archivo CSV.
     amo_last_info=Información de llamadas de AMO
     amo_list_state_open=Abierto

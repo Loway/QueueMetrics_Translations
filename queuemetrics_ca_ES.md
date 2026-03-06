@@ -3737,7 +3737,7 @@ Other items
     # 👽 amo_dialer_state_open -> Open
     amo_dialer_state_open=?Obert
     # 👽 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    amo_import_error_nonumber=?El camp "número" és obligatori per a cada registre.
+    amo_import_error_nonumber=?El camp 'número' és obligatori per a cada registre.
     # 👽 amo_import_error_norecords -> Please include at least one record in the CSV file.
     amo_import_error_norecords=?Si us plau, incloeu almenys un registre al fitxer CSV.
     # 👽 amo_last_info -> AMO Call Information

@@ -1261,7 +1261,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_distrib_hour=ساعة
     hdr_distrib_hour_title=توزيع المكالمات حسب الساعة
     hdr_distrib_title=توزيع المكالمات
-    hdr_dnis=]آ÷ٍ
+    hdr_dnis=DNIS
     hdr_exports=تصدير
     hdr_fcr_title=FCR
     hdr_fcrdo=اعادة اتصال
@@ -3632,7 +3632,7 @@ Other items
     # 👽 amo_dialer_state_open -> Open
     amo_dialer_state_open=?مفتوح
     # 👽 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    amo_import_error_nonumber=?حقل "الرقم" إلزامي لكل سجل.
+    amo_import_error_nonumber=?حقل 'الرقم' إلزامي لكل سجل.
     # 👽 amo_import_error_norecords -> Please include at least one record in the CSV file.
     amo_import_error_norecords=?الرجاء تضمين سجل واحد على الأقل في ملف CSV.
     # 👽 amo_last_info -> AMO Call Information

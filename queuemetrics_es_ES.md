@@ -5663,7 +5663,7 @@ Other items
     # 👽 amo_dialer_state_open -> Open
     amo_dialer_state_open=?Abierto
     # 👽 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    amo_import_error_nonumber=?El campo "número" es obligatorio para cada registro
+    amo_import_error_nonumber=?El campo 'número' es obligatorio para cada registro
     # 👽 amo_import_error_norecords -> Please include at least one record in the CSV file.
     amo_import_error_norecords=?Incluya al menos un registro en el archivo CSV.
     # 👽 amo_last_info -> AMO Call Information
