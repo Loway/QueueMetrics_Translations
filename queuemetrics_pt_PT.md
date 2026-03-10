@@ -4581,6 +4581,8 @@ Other items
     qap_join=?Ingressar
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Texto livre
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Limite de caracteres excedido (máximo 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Abandonar
     # 👽 qap_loading -> Loading...

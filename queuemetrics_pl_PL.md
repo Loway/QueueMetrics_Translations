@@ -6488,6 +6488,8 @@ Other items
     qap_join=?Dołącz
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Dowolny tekst
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Przekroczono limit znaków (maksimum 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Opuść
     # 👽 qap_loading -> Loading...

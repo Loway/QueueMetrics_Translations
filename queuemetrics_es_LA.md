@@ -3768,6 +3768,8 @@ Other items
     qap_invalid_outcome=El resultado seleccionado no es valido porqué una o más caracteristicas de la iteracción seleccionada.
     qap_join=Ingresar
     qap_label_freetext=Texto libre
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Límite de caracteres excedido (máximo 200)
     qap_leave=Abandonar
     qap_loading=Cargando...
     qap_logout_message=Desconectando de todas las colas

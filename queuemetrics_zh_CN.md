@@ -5202,6 +5202,8 @@ Other items
     qap_join=?加入
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?自由文本
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?字符限制超出（最多200）
     # 👽 qap_leave -> Leave
     qap_leave=?离开
     # 👽 qap_loading -> Loading...

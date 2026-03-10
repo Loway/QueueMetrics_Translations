@@ -7161,6 +7161,8 @@ Other items
     qap_join=?ተቀላቀል
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?ነፃ ጽሑፍ
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?የፊደል ገደብ ተጣውዟል (ከፍተኛ 200)
     # 👽 qap_leave -> Leave
     qap_leave=?ውጣ
     # 👽 qap_loading -> Loading...

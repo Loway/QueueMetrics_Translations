@@ -4296,6 +4296,8 @@ Other items
     qap_join=?Присоединиться
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Свободный текст
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Превышен лимит символов (максимум 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Покинуть
     # 👽 qap_loading -> Loading...

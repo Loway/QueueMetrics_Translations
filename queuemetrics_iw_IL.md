@@ -5440,12 +5440,14 @@ Other items
     qap_interaction_url=?כתובת אתר
     qap_interaction_variables=משתנים
     # 🔴 qap_interaction_waiting -> Waiting
-    ➡️ qap_interaction_waiting=
+    qap_interaction_waiting=?ממתין
     # 👽 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
     qap_invalid_outcome=?התוצאה שנבחרה אינה חוקית עבור אחד או יותר מקודי התכונות של האינטראקציה.
     # 👽 qap_join -> Join
     qap_join=?הצטרף
     qap_label_freetext=טקסט חופשי
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?חריגה ממגבלת התווים (מקסימום 200)
     # 👽 qap_leave -> Leave
     qap_leave=?עזוב
     # 👽 qap_loading -> Loading...

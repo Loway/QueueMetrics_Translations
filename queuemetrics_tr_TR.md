@@ -4432,6 +4432,8 @@ Other items
     qap_join=?Katıl
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Serbest Metin
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Karakter sınırı aşıldı (maksimum 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Ayrıl
     # 👽 qap_loading -> Loading...

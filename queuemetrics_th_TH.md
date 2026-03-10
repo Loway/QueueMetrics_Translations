@@ -6175,6 +6175,8 @@ Other items
     qap_join=?เข้าร่วม
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?ข้อความอิสระ
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?เกินจำนวนตัวอักษรที่กำหนด (สูงสุด 200)
     # 👽 qap_leave -> Leave
     qap_leave=?ออก
     # 👽 qap_loading -> Loading...

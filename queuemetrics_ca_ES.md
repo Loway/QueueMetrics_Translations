@@ -4506,6 +4506,8 @@ Other items
     qap_join=?Uneix-te
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Text lliure
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Límit de caràcters superat (màxim 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Marxa
     # 👽 qap_loading -> Loading...

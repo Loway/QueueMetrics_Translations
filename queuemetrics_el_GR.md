@@ -3848,6 +3848,8 @@ Other items
     qap_invalid_outcome=Το επιλεγμένο αποτέλεσμα δεν είναι έγκυρο για έναν ή περισσότερους από τους κωδικούς χαρακτηριστικών της αλληλεπίδρασης.
     qap_join=Συμμετοχή
     qap_label_freetext=Ελεύθερο Κείμενο
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Υπέρβαση ορίου χαρακτήρων (μέγιστο 200)
     qap_leave=Αποχώρηση
     qap_loading=Φόρτωση...
     # 👽 qap_logout_message -> Logging you out from all queues

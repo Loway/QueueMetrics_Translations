@@ -5907,6 +5907,8 @@ Other items
     qap_join=?Alătură-te
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Text Liber
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Limită de caractere depășită (maximum 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Părăsește
     # 👽 qap_loading -> Loading...

@@ -6116,6 +6116,8 @@ Other items
     qap_join=?Pripojiť
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Voľný text
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Prekročený limit znakov (maximum 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Opustiť
     # 👽 qap_loading -> Loading...

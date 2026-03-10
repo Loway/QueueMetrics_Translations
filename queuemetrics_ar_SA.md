@@ -4430,6 +4430,8 @@ Other items
     qap_join=?انضمام
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?نص حر
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?تم تجاوز حد الأحرف (الحد الأقصى 200)
     # 👽 qap_leave -> Leave
     qap_leave=?مغادرة
     # 👽 qap_loading -> Loading...

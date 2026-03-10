@@ -4382,6 +4382,8 @@ Other items
     qap_join=?가입
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?자유 텍스트
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?문자 제한 초과 (최대 200자)
     # 👽 qap_leave -> Leave
     qap_leave=?나가기
     # 👽 qap_loading -> Loading...

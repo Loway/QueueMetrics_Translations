@@ -3829,6 +3829,8 @@ Other items
     qap_invalid_outcome=Il risultato selezionato non è valido per una o più caratteristiche dell'interazione selezionata.
     qap_join=Unisciti
     qap_label_freetext=Testo libero
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Limite caratteri superato (massimo 200)
     qap_leave=Lascia
     qap_loading=Caricamento...
     qap_logout_message=Disconnessione da tutte le code

@@ -6767,6 +6767,8 @@ Other items
     qap_join=?Csatlakozás
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Szabad szöveg
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Karakterkorlát túllépve (maximum 200)
     # 👽 qap_leave -> Leave
     qap_leave=?Kilépés
     # 👽 qap_loading -> Loading...

@@ -4800,6 +4800,8 @@ Other items
     qap_join=?შეერთება
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?თავისუფალი ტექსტი
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?სიმბოლოების ლიმიტი გადაცილებულია (მაქსიმუმ 200)
     # 👽 qap_leave -> Leave
     qap_leave=?გასვლა
     # 👽 qap_loading -> Loading...

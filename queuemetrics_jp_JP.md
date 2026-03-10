@@ -6482,6 +6482,8 @@ Other items
     qap_join=?参加
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?フリーテキスト
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?文字数制限を超過 (最大200文字)
     # 👽 qap_leave -> Leave
     qap_leave=?退出
     # 👽 qap_loading -> Loading...

@@ -3927,6 +3927,8 @@ Other items
     qap_invalid_outcome=O resultado selecionado não é válido para um ou mais códigos de recurso da interação.
     qap_join=Ingressar
     qap_label_freetext=Texto livre
+    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    qap_label_freetext_error=?Limite de caracteres excedido (máximo 200)
     qap_leave=Abandonar
     qap_loading=Carregando...
     # 👽 qap_logout_message -> Logging you out from all queues
