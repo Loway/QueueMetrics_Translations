@@ -2866,6 +2866,7 @@ Description of security keys:
     keydesc_qa_track=User can enter Quality Assessment data
     keydesc_qlog_edit=User can edit the queue_log records
     keydesc_qlog_lngr=User can edit session data by making it longer
+    keydesc_queue_login_assigned_only=Users can only login to their assigned queues
     keydesc_queue_lst=Allows direct access to the call list (skipping the Reports page)
     keydesc_robot=User may launch ROBOT transactions.
     keydesc_rt_addmember=User can add agents to a queue from the realtime page
