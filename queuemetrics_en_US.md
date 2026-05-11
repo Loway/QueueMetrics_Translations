@@ -3913,6 +3913,9 @@ Other items
     qap_wombat_skip=Skip
     qap_wombat_update=Update
     qap_wombat_update_disable_msg=An extended status must be selected
+    qap_generic_error=Error occured in WombatDialer
+    qap_agent_not_available=Agent not available
+    qap_dial_success=Dial request successful
     rt3_attributes=Ephemeral Attribute
     rt3_display_value=Visualization mode
     rt3_maxvalue=Max value

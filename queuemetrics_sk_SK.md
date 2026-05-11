@@ -6405,6 +6405,12 @@ Other items
     ➡️ qap_wombat_update=
     # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
     ➡️ qap_wombat_update_disable_msg=
+    # 🔴 qap_generic_error -> Error occured in WombatDialer
+    ➡️ qap_generic_error=
+    # 🔴 qap_agent_not_available -> Agent not available
+    ➡️ qap_agent_not_available=
+    # 🔴 qap_dial_success -> Dial request successful
+    ➡️ qap_dial_success=
     # 🔴 rt3_attributes -> Ephemeral Attribute
     ➡️ rt3_attributes=
     # 🔴 rt3_display_value -> Visualization mode
