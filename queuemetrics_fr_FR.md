@@ -1162,6 +1162,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=Voir Database
     hdr_dbtest_ram_cache=Voir Cache
     hdr_dbtest_smtp=Test SMTP
+    hdr_dbtest_ephemeral_attribute_inspector=Voir attr. éphémères
     hdr_distrib=Distribution des appels
     hdr_distrib_day=Journée
     hdr_distrib_day_title=Distribution des appels répondus par jour
@@ -2681,6 +2682,10 @@ Description of configuration properties
     propedit_key_hangup_src=La tonalité de raccrochage du Softphone (URL)
     propedit_key_hiddennumberpolicy=Politique de masquage des numéros
     propedit_key_layout_logo_desc=Le logo de votre entreprise (chemin complet ou relatif) doit être redimensionné à 200 x 72.
+    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    ➡️ propedit_key_maxGatheringTime=
+    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    ➡️ propedit_key_maxPostGatheringTime=
     propedit_key_noans_timeout=Temps (sec) pour rejeter un appel non répondus - Défaut : 60 sec.
     propedit_key_phone_iceservers=Liste des serveurs ICE.
     propedit_key_phone_maxsessions=Nombre Maximum de sessions pour un Agent SoftPhone
@@ -2875,6 +2880,8 @@ Description of security keys:
     keydesc_qa_track=L'utilisateur peut créer des rapports Qualité
     keydesc_qlog_edit=L'utilisateur peut consulter le Queue_Log
     keydesc_qlog_lngr=L'utilisateur peut étendre la durée des sessions
+    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    ➡️ keydesc_queue_login_assigned_only=
     keydesc_queue_lst=Permet un accès direct à la liste des appels
     keydesc_robot=L'utilisateur peut lancer des transactions de type Robot
     keydesc_rt_addmember=L'utilisateur peut ajouter des agents dans une File depuis la page Temps-Réel
@@ -2926,6 +2933,8 @@ Description of security keys:
     keydesc_wallboard_forall=L'utilisateur peut sauvegarder des Tableaux de bord
     keydesc_wallboard_phone=L'utilisateur peut utiliser le softphone du tableau
     keydesc_wqloader=L'utilisateur peut charger les logs via HTTP
+    keydesc_ephemeral_read=Les utilisateurs peuvent lire depuis la table de données éphémères
+    keydesc_ephemeral_write=Les utilisateurs peuvent écrire dans la table de données éphémères
 
 ## Tasks/Memos
 
@@ -3161,6 +3170,7 @@ Description of security keys:
     home_dbtest_ami=Testeur AMI
     home_dbtest_ami_queue=Commandes AMI
     home_dbtest_configuration=Voir la Configuration
+    home_dbtest_ephemeral_attribute_inspector=Inspecteur d'attr. éphémères
     home_dbtest_db_inspector=Inspecteur de Base de Données
     home_dbtest_ram_cache=Cache de RAM
     home_dbtest_smtp=Testeur SMTP
@@ -3211,8 +3221,6 @@ Description of security keys:
     home_wallboards_title=Tableaux de Bord
 
 ## Microsoft Teams
-
-
 
 These are the titles of data blocks:
 
@@ -3308,7 +3316,24 @@ These are obsolete:
     cfgprops_nocontent=Fichier non sauvegardé. Pour votre sécurité, le fichier ne peut être vide
     cfgprops_not_editable=Le fichier de configuration ne peut être édité
     cfgprops_wrong_line=Fichier non sauvegardé - Mauvais format de Ligne
-    
+
+### Viewer of ephemeral attributes
+
+    ephatt_add_attribute_btn=Ajouter un attribut
+    ephatt_attribute_action=Action
+    ephatt_attribute_agent=Agent
+    ephatt_attribute_confirm_delete=Ceci supprimera cet attribut
+    ephatt_attribute_error=Le nom de l'attribut est requis
+    ephatt_attribute_expired=Expiré
+    ephatt_attribute_expiry=Expire le
+    ephatt_attribute_name=Nom de l'attribut
+    ephatt_attribute_queue=File d'attente
+    ephatt_attribute_validity=Validité de l'attribut (sec.)
+    ephatt_attribute_value=Valeur
+    ephatt_qry_refresh=Rafraîchir toutes les (sec.)
+    ephatt_qry_search=Rechercher
+    ephatt_validity_error=La durée de validité doit être un nombre supérieur à 0
+
 
 ## Misc
 
@@ -3840,7 +3865,7 @@ Other items
     qap_invalid_outcome=Le résultat sélectionné n'est pas valide pour une ou plusieurs caractéristiques de l'interaction sélectionnée.
     qap_join=Rejoindre
     qap_label_freetext=Texte libre
-    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    # 👽 qap_label_freetext_error -> Character limit exceeded (maximum 200)
     qap_label_freetext_error=?Limite de caractères dépassée (maximum 200)
     qap_leave=Quitter
     qap_loading=Chargement....
@@ -3941,6 +3966,37 @@ Other items
     qap_wbt_title=Planifier un rappel WombatDialer
     qap_welcome=Bienvenue!
     qap_you_have=Vous avez
+    qap_extended_status=Statut étendu
+    qap_number_dialed=Numéro composé
+    qap_wbt_attempt=Tentative
+    qap_wbt_recall_attempt=Tentatives de rappel
+    qap_wombat_call_history=Historique des appels
+    qap_wombat_dial=Composer
+    qap_wombat_ext_status_success=Statut étendu ajouté avec succès
+    qap_wombat_number_dial=Numéro à composer
+    qap_wombat_out_attribute_success=Attribut ajouté avec succès
+    qap_wombat_reserve=Réserver
+    qap_wombat_rs_agent=Nouvelle tentative demandée
+    qap_wombat_rs_agentskip=Agent ignoré
+    qap_wombat_rs_blacklist=Numéro sur liste noire
+    qap_wombat_rs_busy=Ligne occupée
+    qap_wombat_rs_err=Erreur technique
+    qap_wombat_rs_lost=Appel perdu
+    qap_wombat_rs_noagent=Délai agent dépassé
+    qap_wombat_rs_noanswer=Pas de réponse
+    qap_wombat_rs_number=Numéro invalide
+    qap_wombat_rs_rejected=Rejet réseau
+    qap_wombat_rs_terminated=Appel terminé
+    qap_wombat_rs_timeout=Durée maximale
+    qap_wombat_skip=Passer
+    qap_wombat_update=Mettre à jour
+    qap_wombat_update_disable_msg=Un statut étendu doit être sélectionné
+    rt3_attributes=Attribut éphémère
+    rt3_display_value=Mode de visualisation
+    rt3_maxvalue=Valeur maximale
+    rt3_md_checkbox=Est markdown
+    rt3_normal_number=Normal
+    rt3_normal_perc=Pourcentage
     qatarget_agentgroup=Groupe de l'agent
     qatarget_allcalls=Tous les appels
     qatarget_individual_agents=Agent

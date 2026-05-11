@@ -1158,6 +1158,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=View DB
     hdr_dbtest_ram_cache=View Cache
     hdr_dbtest_smtp=Test SMTP
+    hdr_dbtest_ephemeral_attribute_inspector=View Ephemeral Attrs
     hdr_distrib=Distrib.
     hdr_distrib_day=Day
     hdr_distrib_day_title=Call distribution, by day
@@ -2918,6 +2919,8 @@ Description of security keys:
     keydesc_wallboard_forall=User can save public wallboards
     keydesc_wallboard_phone=User can use the wallboard softphone
     keydesc_wqloader=The user can upload logs over HTTP
+    keydesc_ephemeral_read=Users can read from the ephemeral data table
+    keydesc_ephemeral_write=Users can write to the ephemeral data table
 
 ## Tasks/Memos
 
@@ -3131,6 +3134,7 @@ Description of security keys:
     home_dbtest_ami=AMI tester
     home_dbtest_ami_queue=AMI Commands
     home_dbtest_configuration=View configuration
+    home_dbtest_ephemeral_attribute_inspector=Ephemeral Att. Inspector
     home_dbtest_db_inspector=Database inspector
     home_dbtest_ram_cache=RAM caching
     home_dbtest_smtp=SMTP tester
@@ -3180,8 +3184,6 @@ Description of security keys:
     home_wallboards_title=Wallboards
 
 ## Microsoft Teams
-
-
 
 These are the titles of data blocks:
 
@@ -3252,7 +3254,24 @@ These are obsolete:
     cfgprops_nocontent=File not saved: for your safety, the file cannot be empty or contain HTML tags.
     cfgprops_not_editable=The configuration.properties cannot be edited.
     cfgprops_wrong_line=File not saved - Wrong format for line
-    
+
+### Viewer of ephemeral attributes
+
+    ephatt_add_attribute_btn=Add Attribute
+    ephatt_attribute_action=Action
+    ephatt_attribute_agent=Agent
+    ephatt_attribute_confirm_delete=This will delete this attribute
+    ephatt_attribute_error=Attribute name is required
+    ephatt_attribute_expired=Expired
+    ephatt_attribute_expiry=Expires at
+    ephatt_attribute_name=Attribute name
+    ephatt_attribute_queue=Queue
+    ephatt_attribute_validity=Attribute validity (sec.)
+    ephatt_attribute_value=Value
+    ephatt_qry_refresh=Refresh every (sec.)
+    ephatt_qry_search=Search for
+    ephatt_validity_error=Validity time must be a number greater than 0
+
 
 ## Misc
 
@@ -3869,6 +3888,37 @@ Other items
     qap_wbt_title=Schedule WombatDialer Recall
     qap_welcome=Welcome Back!
     qap_you_have=You have
+    qap_extended_status=Extended status
+    qap_number_dialed=Number dialed
+    qap_wbt_attempt=Attempt
+    qap_wbt_recall_attempt=Recall attempts
+    qap_wombat_call_history=Call history
+    qap_wombat_dial=Dial
+    qap_wombat_ext_status_success=Extended status added successful
+    qap_wombat_number_dial=Number to dial
+    qap_wombat_out_attribute_success=Attribute added successful
+    qap_wombat_reserve=Reserve
+    qap_wombat_rs_agent=Retry Requested
+    qap_wombat_rs_agentskip=Agent Skip
+    qap_wombat_rs_blacklist=Number Blacklisted
+    qap_wombat_rs_busy=Line Busy
+    qap_wombat_rs_err=Technical Error
+    qap_wombat_rs_lost=Call Lost
+    qap_wombat_rs_noagent=Agent Timeout
+    qap_wombat_rs_noanswer=No Answer
+    qap_wombat_rs_number=Invalid Number
+    qap_wombat_rs_rejected=Network Reject
+    qap_wombat_rs_terminated=Call Completed
+    qap_wombat_rs_timeout=Max Duration
+    qap_wombat_skip=Skip
+    qap_wombat_update=Update
+    qap_wombat_update_disable_msg=An extended status must be selected
+    rt3_attributes=Ephemeral Attribute
+    rt3_display_value=Visualization mode
+    rt3_maxvalue=Max value
+    rt3_md_checkbox=Is markdown
+    rt3_normal_number=Normal
+    rt3_normal_perc=Percentage
     qatarget_agentgroup=Agent Group
     qatarget_allcalls=All calls
     qatarget_individual_agents=Agent

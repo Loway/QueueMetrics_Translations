@@ -1286,6 +1286,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_ram_cache=?ქეშის ნახვა
     # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?SMTP-ს ტესტირება
+    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
     hdr_distrib=განაწილება
     hdr_distrib_day=პერიოდის დღეების მიხედვით
     hdr_distrib_day_title=სატელეფონო ზარების განაწილება დღეების მიხედვით
@@ -3161,6 +3163,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?პოლიტიკა ნომრების დამალვისთვის
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?თქვენი კომპანიის ლოგო (სრული ან შეფარდებითი გზა). მაქსიმალური ზომა 200 x 40 px, სასურველი ზომაა 150 x 40 px
+    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    ➡️ propedit_key_maxGatheringTime=
+    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    ➡️ propedit_key_maxPostGatheringTime=
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?დრო (წამებში), რომლის შემდეგაც შემომავალი ზარი უარყოფილია, თუ მას არ უპასუხებენ. ნაგულისხმევი მნიშვნელობა არის 60.
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -3398,6 +3404,8 @@ Description of security keys:
     keydesc_qa_track=მომხმარებელს შეუძლია შეიყვანოს ხარისხის შეფასების მონაცემები
     keydesc_qlog_edit=მომხმარებელს შეუძლია ლოდინის ჟურნალის ჩანაწერების რედაქტირება
     keydesc_qlog_lngr=მომხმარებელს შეუძლია სესიის მონაცემების რედაქტირება, გახადოს ისინი ხანგრძლივი
+    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    ➡️ keydesc_queue_login_assigned_only=
     keydesc_queue_lst=პირდაპირი წვდომის განხორციელება ზარების სიასთან (რეპორტების გვერდის გამოტოვებით)
     keydesc_robot=მომხმარებელს შეუძლია ავტომატური ოპერაციების გაშვება
     keydesc_rt_addmember=მომხმარებელს შეუძლია დაამატოს რიგში აგენტები, რეალური დროის გვერდის გამოყენებით
@@ -3455,6 +3463,10 @@ Description of security keys:
     # 👽 keydesc_wallboard_phone -> User can use the wallboard softphone
     keydesc_wallboard_phone=?მომხმარებელს შეუძლია გამოიყენოს დაფის პროგრამული ტელეფონი
     keydesc_wqloader=მომხმარებელს შეუძლია ატვირთოს ლოგები HTTP-ის მეშვეობით
+    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    ➡️ keydesc_ephemeral_read=
+    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    ➡️ keydesc_ephemeral_write=
 
 ## Tasks/Memos
 
@@ -3773,6 +3785,8 @@ Description of security keys:
     home_dbtest_ami_queue=?AMI ბრძანებები
     # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?კონფიგურაციის ნახვა
+    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    ➡️ home_dbtest_ephemeral_attribute_inspector=
     # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?მონაცემთა ბაზის ინსპექტორი
     # 👽 home_dbtest_ram_cache -> RAM caching
@@ -3869,8 +3883,6 @@ Description of security keys:
     home_wallboards_title=?Wallboards
 
 ## Microsoft Teams
-
-
 
 These are the titles of data blocks:
 
@@ -3980,7 +3992,38 @@ These are obsolete:
     cfgprops_nocontent=?ფაილი არ არის შენახული: თქვენი უსაფრთხოებისთვის ფაილი არ შეიძლება იყოს ცარიელი ან შეიცავდეს HTML ტეგებს.
     cfgprops_not_editable=ფაილი 'configuration.properties' არ რედაქტირდება
     cfgprops_wrong_line=ფაილი არ არის შენახული —  ხაზის ფორმატი არასწორია.
-    
+
+### Viewer of ephemeral attributes
+
+    # 🔴 ephatt_add_attribute_btn -> Add Attribute
+    ➡️ ephatt_add_attribute_btn=
+    # 🔴 ephatt_attribute_action -> Action
+    ➡️ ephatt_attribute_action=
+    # 🔴 ephatt_attribute_agent -> Agent
+    ➡️ ephatt_attribute_agent=
+    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ➡️ ephatt_attribute_confirm_delete=
+    # 🔴 ephatt_attribute_error -> Attribute name is required
+    ➡️ ephatt_attribute_error=
+    # 🔴 ephatt_attribute_expired -> Expired
+    ➡️ ephatt_attribute_expired=
+    # 🔴 ephatt_attribute_expiry -> Expires at
+    ➡️ ephatt_attribute_expiry=
+    # 🔴 ephatt_attribute_name -> Attribute name
+    ➡️ ephatt_attribute_name=
+    # 🔴 ephatt_attribute_queue -> Queue
+    ➡️ ephatt_attribute_queue=
+    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
+    ➡️ ephatt_attribute_validity=
+    # 🔴 ephatt_attribute_value -> Value
+    ➡️ ephatt_attribute_value=
+    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
+    ➡️ ephatt_qry_refresh=
+    # 🔴 ephatt_qry_search -> Search for
+    ➡️ ephatt_qry_search=
+    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
+    ➡️ ephatt_validity_error=
+
 
 ## Misc
 
@@ -4800,7 +4843,7 @@ Other items
     qap_join=?შეერთება
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?თავისუფალი ტექსტი
-    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    # 👽 qap_label_freetext_error -> Character limit exceeded (maximum 200)
     qap_label_freetext_error=?სიმბოლოების ლიმიტი გადაცილებულია (მაქსიმუმ 200)
     # 👽 qap_leave -> Leave
     qap_leave=?გასვლა
@@ -4996,6 +5039,68 @@ Other items
     qap_welcome=?კეთილი იყოს თქვენი დაბრუნება!
     # 👽 qap_you_have -> You have
     qap_you_have=?თქვენ გაქვთ
+    # 🔴 qap_extended_status -> Extended status
+    ➡️ qap_extended_status=
+    # 🔴 qap_number_dialed -> Number dialed
+    ➡️ qap_number_dialed=
+    # 🔴 qap_wbt_attempt -> Attempt
+    ➡️ qap_wbt_attempt=
+    # 🔴 qap_wbt_recall_attempt -> Recall attempts
+    ➡️ qap_wbt_recall_attempt=
+    # 🔴 qap_wombat_call_history -> Call history
+    ➡️ qap_wombat_call_history=
+    # 🔴 qap_wombat_dial -> Dial
+    ➡️ qap_wombat_dial=
+    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
+    ➡️ qap_wombat_ext_status_success=
+    # 🔴 qap_wombat_number_dial -> Number to dial
+    ➡️ qap_wombat_number_dial=
+    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
+    ➡️ qap_wombat_out_attribute_success=
+    # 🔴 qap_wombat_reserve -> Reserve
+    ➡️ qap_wombat_reserve=
+    # 🔴 qap_wombat_rs_agent -> Retry Requested
+    ➡️ qap_wombat_rs_agent=
+    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
+    ➡️ qap_wombat_rs_agentskip=
+    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
+    ➡️ qap_wombat_rs_blacklist=
+    # 🔴 qap_wombat_rs_busy -> Line Busy
+    ➡️ qap_wombat_rs_busy=
+    # 🔴 qap_wombat_rs_err -> Technical Error
+    ➡️ qap_wombat_rs_err=
+    # 🔴 qap_wombat_rs_lost -> Call Lost
+    ➡️ qap_wombat_rs_lost=
+    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
+    ➡️ qap_wombat_rs_noagent=
+    # 🔴 qap_wombat_rs_noanswer -> No Answer
+    ➡️ qap_wombat_rs_noanswer=
+    # 🔴 qap_wombat_rs_number -> Invalid Number
+    ➡️ qap_wombat_rs_number=
+    # 🔴 qap_wombat_rs_rejected -> Network Reject
+    ➡️ qap_wombat_rs_rejected=
+    # 🔴 qap_wombat_rs_terminated -> Call Completed
+    ➡️ qap_wombat_rs_terminated=
+    # 🔴 qap_wombat_rs_timeout -> Max Duration
+    ➡️ qap_wombat_rs_timeout=
+    # 🔴 qap_wombat_skip -> Skip
+    ➡️ qap_wombat_skip=
+    # 🔴 qap_wombat_update -> Update
+    ➡️ qap_wombat_update=
+    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
+    ➡️ qap_wombat_update_disable_msg=
+    # 🔴 rt3_attributes -> Ephemeral Attribute
+    ➡️ rt3_attributes=
+    # 🔴 rt3_display_value -> Visualization mode
+    ➡️ rt3_display_value=
+    # 🔴 rt3_maxvalue -> Max value
+    ➡️ rt3_maxvalue=
+    # 🔴 rt3_md_checkbox -> Is markdown
+    ➡️ rt3_md_checkbox=
+    # 🔴 rt3_normal_number -> Normal
+    ➡️ rt3_normal_number=
+    # 🔴 rt3_normal_perc -> Percentage
+    ➡️ rt3_normal_perc=
     qatarget_agentgroup=აგენტის ჯგუფი
     qatarget_allcalls=ყველა ზარი
     qatarget_individual_agents=აგენტი

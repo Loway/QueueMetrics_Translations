@@ -1212,6 +1212,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=DB 보기
     hdr_dbtest_ram_cache=Cache 보기
     hdr_dbtest_smtp=SMTP 테스트
+    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
     hdr_distrib=콜분배
     hdr_distrib_day=일
     hdr_distrib_day_title=날짜별 콜분배
@@ -2850,6 +2852,10 @@ Description of configuration properties
     # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     propedit_key_hiddennumberpolicy=?번호 숨기기 정책
     propedit_key_layout_logo_desc=회사 로고이미지 (전체 또는 상대위치) 크기는 200x72
+    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    ➡️ propedit_key_maxGatheringTime=
+    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    ➡️ propedit_key_maxPostGatheringTime=
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?수신 전화를 받지 않은 경우 거부되는 시간(초)입니다. 기본값은 60입니다.
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -3127,6 +3133,8 @@ Description of security keys:
     keydesc_qa_track=사용자는 품질평가(Quality Assessment) 데이터를 입력할 수 있습니다.
     keydesc_qlog_edit=사용자는 queue_log 내용을 편집할 수 있습니다.
     keydesc_qlog_lngr=사용자는 세션 데이터를 편집할 수 있습니다.
+    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    ➡️ keydesc_queue_login_assigned_only=
     keydesc_queue_lst=통화 목록에 (보고서 페이지를 통하지 않고)직접 접근 허용
     keydesc_robot=사용자는 ROBOT 작업을 실행할 수도 있습니다.
     keydesc_rt_addmember=사용자는 '실시간' 페이지에서 대기큐에 상담원을 추가할 수 있습니다.
@@ -3179,6 +3187,10 @@ Description of security keys:
     keydesc_wallboard_forall=사용자는 공개 현황판(public wallboard)을 저장할 수 있습니다.
     keydesc_wallboard_phone=사용자는 현황판의 소프트폰을 사용할 수 있습니다.
     keydesc_wqloader=사용자는 HTTP를 통해 로그를 업로드 할 수 있습니다.
+    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    ➡️ keydesc_ephemeral_read=
+    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    ➡️ keydesc_ephemeral_write=
 
 ## Tasks/Memos
 
@@ -3451,6 +3463,8 @@ Description of security keys:
     home_dbtest_ami=AMI 테스터
     home_dbtest_ami_queue=AMI Commands
     home_dbtest_configuration=View configuration
+    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    ➡️ home_dbtest_ephemeral_attribute_inspector=
     home_dbtest_db_inspector=Database inspector
     home_dbtest_ram_cache=RAM caching
     home_dbtest_smtp=SMTP 테스터
@@ -3502,8 +3516,6 @@ Description of security keys:
     home_wallboards_title=Wallboards
 
 ## Microsoft Teams
-
-
 
 These are the titles of data blocks:
 
@@ -3612,7 +3624,38 @@ These are obsolete:
     cfgprops_nocontent=파일이 저장되지 않음
     cfgprops_not_editable=configuration.properties에서 지정한 파일을 편집할 수 없습니다.
     cfgprops_wrong_line=파일 저장 오류 - 잘못된 형식 라인
-    
+
+### Viewer of ephemeral attributes
+
+    # 🔴 ephatt_add_attribute_btn -> Add Attribute
+    ➡️ ephatt_add_attribute_btn=
+    # 🔴 ephatt_attribute_action -> Action
+    ➡️ ephatt_attribute_action=
+    # 🔴 ephatt_attribute_agent -> Agent
+    ➡️ ephatt_attribute_agent=
+    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ➡️ ephatt_attribute_confirm_delete=
+    # 🔴 ephatt_attribute_error -> Attribute name is required
+    ➡️ ephatt_attribute_error=
+    # 🔴 ephatt_attribute_expired -> Expired
+    ➡️ ephatt_attribute_expired=
+    # 🔴 ephatt_attribute_expiry -> Expires at
+    ➡️ ephatt_attribute_expiry=
+    # 🔴 ephatt_attribute_name -> Attribute name
+    ➡️ ephatt_attribute_name=
+    # 🔴 ephatt_attribute_queue -> Queue
+    ➡️ ephatt_attribute_queue=
+    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
+    ➡️ ephatt_attribute_validity=
+    # 🔴 ephatt_attribute_value -> Value
+    ➡️ ephatt_attribute_value=
+    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
+    ➡️ ephatt_qry_refresh=
+    # 🔴 ephatt_qry_search -> Search for
+    ➡️ ephatt_qry_search=
+    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
+    ➡️ ephatt_validity_error=
+
 
 ## Misc
 
@@ -4382,7 +4425,7 @@ Other items
     qap_join=?가입
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?자유 텍스트
-    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    # 👽 qap_label_freetext_error -> Character limit exceeded (maximum 200)
     qap_label_freetext_error=?문자 제한 초과 (최대 200자)
     # 👽 qap_leave -> Leave
     qap_leave=?나가기
@@ -4577,6 +4620,68 @@ Other items
     qap_welcome=?다시 오신 것을 환영합니다!
     # 👽 qap_you_have -> You have
     qap_you_have=?당신은 가지고 있습니다
+    # 🔴 qap_extended_status -> Extended status
+    ➡️ qap_extended_status=
+    # 🔴 qap_number_dialed -> Number dialed
+    ➡️ qap_number_dialed=
+    # 🔴 qap_wbt_attempt -> Attempt
+    ➡️ qap_wbt_attempt=
+    # 🔴 qap_wbt_recall_attempt -> Recall attempts
+    ➡️ qap_wbt_recall_attempt=
+    # 🔴 qap_wombat_call_history -> Call history
+    ➡️ qap_wombat_call_history=
+    # 🔴 qap_wombat_dial -> Dial
+    ➡️ qap_wombat_dial=
+    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
+    ➡️ qap_wombat_ext_status_success=
+    # 🔴 qap_wombat_number_dial -> Number to dial
+    ➡️ qap_wombat_number_dial=
+    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
+    ➡️ qap_wombat_out_attribute_success=
+    # 🔴 qap_wombat_reserve -> Reserve
+    ➡️ qap_wombat_reserve=
+    # 🔴 qap_wombat_rs_agent -> Retry Requested
+    ➡️ qap_wombat_rs_agent=
+    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
+    ➡️ qap_wombat_rs_agentskip=
+    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
+    ➡️ qap_wombat_rs_blacklist=
+    # 🔴 qap_wombat_rs_busy -> Line Busy
+    ➡️ qap_wombat_rs_busy=
+    # 🔴 qap_wombat_rs_err -> Technical Error
+    ➡️ qap_wombat_rs_err=
+    # 🔴 qap_wombat_rs_lost -> Call Lost
+    ➡️ qap_wombat_rs_lost=
+    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
+    ➡️ qap_wombat_rs_noagent=
+    # 🔴 qap_wombat_rs_noanswer -> No Answer
+    ➡️ qap_wombat_rs_noanswer=
+    # 🔴 qap_wombat_rs_number -> Invalid Number
+    ➡️ qap_wombat_rs_number=
+    # 🔴 qap_wombat_rs_rejected -> Network Reject
+    ➡️ qap_wombat_rs_rejected=
+    # 🔴 qap_wombat_rs_terminated -> Call Completed
+    ➡️ qap_wombat_rs_terminated=
+    # 🔴 qap_wombat_rs_timeout -> Max Duration
+    ➡️ qap_wombat_rs_timeout=
+    # 🔴 qap_wombat_skip -> Skip
+    ➡️ qap_wombat_skip=
+    # 🔴 qap_wombat_update -> Update
+    ➡️ qap_wombat_update=
+    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
+    ➡️ qap_wombat_update_disable_msg=
+    # 🔴 rt3_attributes -> Ephemeral Attribute
+    ➡️ rt3_attributes=
+    # 🔴 rt3_display_value -> Visualization mode
+    ➡️ rt3_display_value=
+    # 🔴 rt3_maxvalue -> Max value
+    ➡️ rt3_maxvalue=
+    # 🔴 rt3_md_checkbox -> Is markdown
+    ➡️ rt3_md_checkbox=
+    # 🔴 rt3_normal_number -> Normal
+    ➡️ rt3_normal_number=
+    # 🔴 rt3_normal_perc -> Percentage
+    ➡️ rt3_normal_perc=
     qatarget_agentgroup=상담원 그룹
     qatarget_allcalls=전체 통화
     qatarget_individual_agents=상담원

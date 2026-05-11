@@ -2030,6 +2030,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_ram_cache=?መሸጎጫን ይመልከቱ
     # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?SMTPን ይፈትሹ
+    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
     # 👽 hdr_distrib -> Distrib.
     hdr_distrib=?ስርጭት
     # 👽 hdr_distrib_day -> Day
@@ -5024,6 +5026,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?ቁጥሮችን ለመደበቅ ፖሊሲ
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?የድርጅትዎ አርማ (ሙሉ ወይም አንጻራዊ መንገድ)። ከፍተኛው መጠን 200 x 40 ፒክስል፣ ተመራጭ መጠን 150 x 40 ፒክስል ነው።
+    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    ➡️ propedit_key_maxGatheringTime=
+    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    ➡️ propedit_key_maxPostGatheringTime=
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?ገቢ ጥሪ ካልተመለሰ የሚጣለበት ጊዜ (በሰከንዶች)። ነባሪ እሴት 60 ነው።
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -5403,6 +5409,8 @@ Description of security keys:
     keydesc_qlog_edit=?ተጠቃሚ የ queue_log መዝገቦችን ማርትዕ ይችላል
     # 👽 keydesc_qlog_lngr -> User can edit session data by making it longer
     keydesc_qlog_lngr=?ተጠቃሚ የክፍለ ጊዜ ውሂብን ረዘም በማድረግ ማርትዕ ይችላል
+    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    ➡️ keydesc_queue_login_assigned_only=
     # 👽 keydesc_queue_lst -> Allows direct access to the call list (skipping the Reports page)
     keydesc_queue_lst=?ወደ የጥሪ ዝርዝር ቀጥታ መዳረሻን ይፈቅዳል (የሪፖርቶች ገጽን በመዝለል)
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
@@ -5505,6 +5513,10 @@ Description of security keys:
     keydesc_wallboard_phone=?ተጠቃሚ የግድግዳ ሰሌዳ ሶፍትፎንን መጠቀም ይችላል
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?ተጠቃሚ ምዝግብ ማስታወሻዎችን በ HTTP ላይ መስቀል ይችላል
+    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    ➡️ keydesc_ephemeral_read=
+    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    ➡️ keydesc_ephemeral_write=
 
 ## Tasks/Memos
 
@@ -5915,6 +5927,8 @@ Description of security keys:
     home_dbtest_ami_queue=?AMI ትዕዛዞች
     # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?ውቅሩን ይመልከቱ
+    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    ➡️ home_dbtest_ephemeral_attribute_inspector=
     # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?የውሂብ ጎታ መርማሪ
     # 👽 home_dbtest_ram_cache -> RAM caching
@@ -6011,8 +6025,6 @@ Description of security keys:
     home_wallboards_title=?የግድግዳ ሰሌዳዎች
 
 ## Microsoft Teams
-
-
 
 These are the titles of data blocks:
 
@@ -6129,7 +6141,38 @@ These are obsolete:
     cfgprops_not_editable=?configuration.properties ሊስተካከል አይችልም።
     # 👽 cfgprops_wrong_line -> File not saved - Wrong format for line
     cfgprops_wrong_line=?ፋይል አልተቀመጠም - ለመስመሩ የተሳሳተ ቅርጸት
-    
+
+### Viewer of ephemeral attributes
+
+    # 🔴 ephatt_add_attribute_btn -> Add Attribute
+    ➡️ ephatt_add_attribute_btn=
+    # 🔴 ephatt_attribute_action -> Action
+    ➡️ ephatt_attribute_action=
+    # 🔴 ephatt_attribute_agent -> Agent
+    ➡️ ephatt_attribute_agent=
+    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ➡️ ephatt_attribute_confirm_delete=
+    # 🔴 ephatt_attribute_error -> Attribute name is required
+    ➡️ ephatt_attribute_error=
+    # 🔴 ephatt_attribute_expired -> Expired
+    ➡️ ephatt_attribute_expired=
+    # 🔴 ephatt_attribute_expiry -> Expires at
+    ➡️ ephatt_attribute_expiry=
+    # 🔴 ephatt_attribute_name -> Attribute name
+    ➡️ ephatt_attribute_name=
+    # 🔴 ephatt_attribute_queue -> Queue
+    ➡️ ephatt_attribute_queue=
+    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
+    ➡️ ephatt_attribute_validity=
+    # 🔴 ephatt_attribute_value -> Value
+    ➡️ ephatt_attribute_value=
+    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
+    ➡️ ephatt_qry_refresh=
+    # 🔴 ephatt_qry_search -> Search for
+    ➡️ ephatt_qry_search=
+    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
+    ➡️ ephatt_validity_error=
+
 
 ## Misc
 
@@ -7161,7 +7204,7 @@ Other items
     qap_join=?ተቀላቀል
     # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?ነፃ ጽሑፍ
-    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    # 👽 qap_label_freetext_error -> Character limit exceeded (maximum 200)
     qap_label_freetext_error=?የፊደል ገደብ ተጣውዟል (ከፍተኛ 200)
     # 👽 qap_leave -> Leave
     qap_leave=?ውጣ
@@ -7357,6 +7400,68 @@ Other items
     qap_welcome=?እንኳን ደህና መጡ!
     # 👽 qap_you_have -> You have
     qap_you_have=?አለዎት
+    # 🔴 qap_extended_status -> Extended status
+    ➡️ qap_extended_status=
+    # 🔴 qap_number_dialed -> Number dialed
+    ➡️ qap_number_dialed=
+    # 🔴 qap_wbt_attempt -> Attempt
+    ➡️ qap_wbt_attempt=
+    # 🔴 qap_wbt_recall_attempt -> Recall attempts
+    ➡️ qap_wbt_recall_attempt=
+    # 🔴 qap_wombat_call_history -> Call history
+    ➡️ qap_wombat_call_history=
+    # 🔴 qap_wombat_dial -> Dial
+    ➡️ qap_wombat_dial=
+    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
+    ➡️ qap_wombat_ext_status_success=
+    # 🔴 qap_wombat_number_dial -> Number to dial
+    ➡️ qap_wombat_number_dial=
+    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
+    ➡️ qap_wombat_out_attribute_success=
+    # 🔴 qap_wombat_reserve -> Reserve
+    ➡️ qap_wombat_reserve=
+    # 🔴 qap_wombat_rs_agent -> Retry Requested
+    ➡️ qap_wombat_rs_agent=
+    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
+    ➡️ qap_wombat_rs_agentskip=
+    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
+    ➡️ qap_wombat_rs_blacklist=
+    # 🔴 qap_wombat_rs_busy -> Line Busy
+    ➡️ qap_wombat_rs_busy=
+    # 🔴 qap_wombat_rs_err -> Technical Error
+    ➡️ qap_wombat_rs_err=
+    # 🔴 qap_wombat_rs_lost -> Call Lost
+    ➡️ qap_wombat_rs_lost=
+    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
+    ➡️ qap_wombat_rs_noagent=
+    # 🔴 qap_wombat_rs_noanswer -> No Answer
+    ➡️ qap_wombat_rs_noanswer=
+    # 🔴 qap_wombat_rs_number -> Invalid Number
+    ➡️ qap_wombat_rs_number=
+    # 🔴 qap_wombat_rs_rejected -> Network Reject
+    ➡️ qap_wombat_rs_rejected=
+    # 🔴 qap_wombat_rs_terminated -> Call Completed
+    ➡️ qap_wombat_rs_terminated=
+    # 🔴 qap_wombat_rs_timeout -> Max Duration
+    ➡️ qap_wombat_rs_timeout=
+    # 🔴 qap_wombat_skip -> Skip
+    ➡️ qap_wombat_skip=
+    # 🔴 qap_wombat_update -> Update
+    ➡️ qap_wombat_update=
+    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
+    ➡️ qap_wombat_update_disable_msg=
+    # 🔴 rt3_attributes -> Ephemeral Attribute
+    ➡️ rt3_attributes=
+    # 🔴 rt3_display_value -> Visualization mode
+    ➡️ rt3_display_value=
+    # 🔴 rt3_maxvalue -> Max value
+    ➡️ rt3_maxvalue=
+    # 🔴 rt3_md_checkbox -> Is markdown
+    ➡️ rt3_md_checkbox=
+    # 🔴 rt3_normal_number -> Normal
+    ➡️ rt3_normal_number=
+    # 🔴 rt3_normal_perc -> Percentage
+    ➡️ rt3_normal_perc=
     # 👽 qatarget_agentgroup -> Agent Group
     qatarget_agentgroup=?የወኪል ቡድን
     # 👽 qatarget_allcalls -> All calls

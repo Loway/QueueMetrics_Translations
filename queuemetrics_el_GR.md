@@ -1164,6 +1164,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=Παρουσίαση Βάσης Δεδομένων
     hdr_dbtest_ram_cache=Παρουσίαση Μνήμης Cache
     hdr_dbtest_smtp=Τεστ SMTP
+    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
     hdr_distrib=Διανομ.
     hdr_distrib_day=Ημέρα
     hdr_distrib_day_title=Διανομή κλήσεων ανά ημέρα
@@ -2688,6 +2690,10 @@ Description of configuration properties
     propedit_key_hangup_src=Ο τόνος τερματισμού του Softphone (URL)
     propedit_key_hiddennumberpolicy=Πολιτική απόκρυψης αριθμών
     propedit_key_layout_logo_desc=Το λογότυπο της εταιρείας σας (πλήρης ή σχετική διαδρομή). Θα πρέπει να αλλάξει το μέγεθος σε 200 x 72.
+    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    ➡️ propedit_key_maxGatheringTime=
+    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    ➡️ propedit_key_maxPostGatheringTime=
     propedit_key_noans_timeout=Ώρα (σε δευτερόλεπτα) μετά την οποία μια εισερχόμενη κλήση απορρίπτεται αν δεν απαντηθεί. Η προεπιλεγμένη τιμή είναι 60.
     propedit_key_phone_iceservers=Λίστα διακομιστών ICE που θα χρησιμοποιήσετε
     propedit_key_phone_maxsessions=Μέγ. Αριθμ. συνεδριών της σελίδας Softphone του χρήστη
@@ -2883,6 +2889,8 @@ Description of security keys:
     keydesc_qa_track=Ο χρήστης μπορεί να εισάγει δεδομένα Αξιολόγησης Ποιότητας
     keydesc_qlog_edit=Ο χρήστης μπορεί να επεξεργαστεί τις εγγραφές queue_log
     keydesc_qlog_lngr=Ο χρήστης μπορεί να επεξεργαστεί τα δεδομένα της σύνδεσης επεκτείνοντας την
+    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    ➡️ keydesc_queue_login_assigned_only=
     keydesc_queue_lst=Επιτρέπει την άμεση πρόσβαση στη λίστα κλήσεων (παρακάμπτοντας τη σελίδα Αναφορές)
     keydesc_robot=Ο χρήστης μπορεί να ξεκινήσει συναλλαγές ROBOT.
     keydesc_rt_addmember=Ο χρήστης μπορεί να προσθέσει agent μέσα σε μια Oυρά αναμονής από τη σελίδα απεικόνισης σε πραγματικό χρόνο
@@ -2934,6 +2942,10 @@ Description of security keys:
     keydesc_wallboard_forall=Ο χρήστης μπορεί να αποθηκεύσει δημόσιες προβολές
     keydesc_wallboard_phone=Ο χρήστης μπορεί να χρησιμοποιήσει το softphone στην οθόνη
     keydesc_wqloader=Ο χρήστης μπορεί να ανεβάσει αρχεία καταγραφής μέσω HTTP
+    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    ➡️ keydesc_ephemeral_read=
+    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    ➡️ keydesc_ephemeral_write=
 
 ## Tasks/Memos
 
@@ -3169,6 +3181,8 @@ Description of security keys:
     home_dbtest_ami=Ελεγκτής AMI
     home_dbtest_ami_queue=Εντολές AMI
     home_dbtest_configuration=Προβολή διαμόρφωσης
+    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    ➡️ home_dbtest_ephemeral_attribute_inspector=
     home_dbtest_db_inspector=Επιθεωρητής βάσης δεδομένων
     home_dbtest_ram_cache=Προσωρινή αποθήκευση RAM
     home_dbtest_smtp=Ελεγκτής SMTP
@@ -3219,8 +3233,6 @@ Description of security keys:
     home_wallboards_title=Wallboards
 
 ## Microsoft Teams
-
-
 
 These are the titles of data blocks:
 
@@ -3316,7 +3328,38 @@ These are obsolete:
     cfgprops_nocontent=Το αρχείο δεν αποθηκεύτηκε: για την ασφάλειά σας, το αρχείο δεν μπορεί να είναι άδειο ή να περιέχει ετικέτες HTML
     cfgprops_not_editable= Το αρχείο configuration.properties δεν μπορεί να τροποποιηθεί
     cfgprops_wrong_line=Το αρχείο δεν αποθηκεύεται - Λάθος μορφοποίηση γραμμής
-    
+
+### Viewer of ephemeral attributes
+
+    # 🔴 ephatt_add_attribute_btn -> Add Attribute
+    ➡️ ephatt_add_attribute_btn=
+    # 🔴 ephatt_attribute_action -> Action
+    ➡️ ephatt_attribute_action=
+    # 🔴 ephatt_attribute_agent -> Agent
+    ➡️ ephatt_attribute_agent=
+    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ➡️ ephatt_attribute_confirm_delete=
+    # 🔴 ephatt_attribute_error -> Attribute name is required
+    ➡️ ephatt_attribute_error=
+    # 🔴 ephatt_attribute_expired -> Expired
+    ➡️ ephatt_attribute_expired=
+    # 🔴 ephatt_attribute_expiry -> Expires at
+    ➡️ ephatt_attribute_expiry=
+    # 🔴 ephatt_attribute_name -> Attribute name
+    ➡️ ephatt_attribute_name=
+    # 🔴 ephatt_attribute_queue -> Queue
+    ➡️ ephatt_attribute_queue=
+    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
+    ➡️ ephatt_attribute_validity=
+    # 🔴 ephatt_attribute_value -> Value
+    ➡️ ephatt_attribute_value=
+    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
+    ➡️ ephatt_qry_refresh=
+    # 🔴 ephatt_qry_search -> Search for
+    ➡️ ephatt_qry_search=
+    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
+    ➡️ ephatt_validity_error=
+
 
 ## Misc
 
@@ -3848,7 +3891,7 @@ Other items
     qap_invalid_outcome=Το επιλεγμένο αποτέλεσμα δεν είναι έγκυρο για έναν ή περισσότερους από τους κωδικούς χαρακτηριστικών της αλληλεπίδρασης.
     qap_join=Συμμετοχή
     qap_label_freetext=Ελεύθερο Κείμενο
-    # 🔴 qap_label_freetext_error -> Character limit exceeded (maximum 200)
+    # 👽 qap_label_freetext_error -> Character limit exceeded (maximum 200)
     qap_label_freetext_error=?Υπέρβαση ορίου χαρακτήρων (μέγιστο 200)
     qap_leave=Αποχώρηση
     qap_loading=Φόρτωση...
@@ -3949,6 +3992,68 @@ Other items
     qap_wbt_title=Προγραμματισμός Επανακλήσης WombatDialer
     qap_welcome=Καλώς ήρθατε ξανά!
     qap_you_have=Έχετε
+    # 🔴 qap_extended_status -> Extended status
+    ➡️ qap_extended_status=
+    # 🔴 qap_number_dialed -> Number dialed
+    ➡️ qap_number_dialed=
+    # 🔴 qap_wbt_attempt -> Attempt
+    ➡️ qap_wbt_attempt=
+    # 🔴 qap_wbt_recall_attempt -> Recall attempts
+    ➡️ qap_wbt_recall_attempt=
+    # 🔴 qap_wombat_call_history -> Call history
+    ➡️ qap_wombat_call_history=
+    # 🔴 qap_wombat_dial -> Dial
+    ➡️ qap_wombat_dial=
+    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
+    ➡️ qap_wombat_ext_status_success=
+    # 🔴 qap_wombat_number_dial -> Number to dial
+    ➡️ qap_wombat_number_dial=
+    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
+    ➡️ qap_wombat_out_attribute_success=
+    # 🔴 qap_wombat_reserve -> Reserve
+    ➡️ qap_wombat_reserve=
+    # 🔴 qap_wombat_rs_agent -> Retry Requested
+    ➡️ qap_wombat_rs_agent=
+    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
+    ➡️ qap_wombat_rs_agentskip=
+    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
+    ➡️ qap_wombat_rs_blacklist=
+    # 🔴 qap_wombat_rs_busy -> Line Busy
+    ➡️ qap_wombat_rs_busy=
+    # 🔴 qap_wombat_rs_err -> Technical Error
+    ➡️ qap_wombat_rs_err=
+    # 🔴 qap_wombat_rs_lost -> Call Lost
+    ➡️ qap_wombat_rs_lost=
+    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
+    ➡️ qap_wombat_rs_noagent=
+    # 🔴 qap_wombat_rs_noanswer -> No Answer
+    ➡️ qap_wombat_rs_noanswer=
+    # 🔴 qap_wombat_rs_number -> Invalid Number
+    ➡️ qap_wombat_rs_number=
+    # 🔴 qap_wombat_rs_rejected -> Network Reject
+    ➡️ qap_wombat_rs_rejected=
+    # 🔴 qap_wombat_rs_terminated -> Call Completed
+    ➡️ qap_wombat_rs_terminated=
+    # 🔴 qap_wombat_rs_timeout -> Max Duration
+    ➡️ qap_wombat_rs_timeout=
+    # 🔴 qap_wombat_skip -> Skip
+    ➡️ qap_wombat_skip=
+    # 🔴 qap_wombat_update -> Update
+    ➡️ qap_wombat_update=
+    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
+    ➡️ qap_wombat_update_disable_msg=
+    # 🔴 rt3_attributes -> Ephemeral Attribute
+    ➡️ rt3_attributes=
+    # 🔴 rt3_display_value -> Visualization mode
+    ➡️ rt3_display_value=
+    # 🔴 rt3_maxvalue -> Max value
+    ➡️ rt3_maxvalue=
+    # 🔴 rt3_md_checkbox -> Is markdown
+    ➡️ rt3_md_checkbox=
+    # 🔴 rt3_normal_number -> Normal
+    ➡️ rt3_normal_number=
+    # 🔴 rt3_normal_perc -> Percentage
+    ➡️ rt3_normal_perc=
     qatarget_agentgroup=Ομάδα χρηστών
     qatarget_allcalls=Όλες οι κλήσεις
     qatarget_individual_agents=Χρήστης
