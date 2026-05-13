@@ -3994,6 +3994,15 @@ Other items
     qap_generic_error=Erreur survenue dans WombatDialer
     qap_agent_not_available=Agent non disponible
     qap_dial_success=Demande de composition réussie
+    qap_skip_success=Ignoré
+    qap_no_call_to_reserve=Aucun appel disponible pour la réservation
+    qap_agent=Agent
+    rt3_att_text=Éphémère - Texte
+    rt3_nofstate_unix_wbt=Éphémère - Heure
+    rt3_circle_wbt_reservable=Appels réservables
+    rt3_circle_wbt_incomplete=Appels incomplets
+    rt3_nofstate_wbt=Éphémère - Valeur
+    rt3_wbt_campaign_stats=Statistiques de campagne
     rt3_attributes=Attribut éphémère
     rt3_display_value=Mode de visualisation
     rt3_maxvalue=Valeur maximale

@@ -3915,7 +3915,16 @@ Other items
     qap_wombat_update_disable_msg=An extended status must be selected
     qap_generic_error=Error occured in WombatDialer
     qap_agent_not_available=Agent not available
-    qap_dial_success=Dial request successful
+    qap_dial_success=Dialed
+    qap_skip_success=Skipped
+    qap_no_call_to_reserve=No call available for reservation
+    qap_agent=Agent
+    rt3_att_text=Ephemeral - Text
+    rt3_nofstate_unix_wbt=Ephemeral - Time
+    rt3_circle_wbt_reservable=Reservable calls
+    rt3_circle_wbt_incomplete=Incomplete calls
+    rt3_nofstate_wbt=Ephemeral - Value
+    rt3_wbt_campaign_stats=Campaign stats
     rt3_attributes=Ephemeral Attribute
     rt3_display_value=Visualization mode
     rt3_maxvalue=Max value

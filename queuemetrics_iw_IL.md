@@ -5738,8 +5738,26 @@ Other items
     ➡️ qap_generic_error=
     # 🔴 qap_agent_not_available -> Agent not available
     ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dial request successful
+    # 🔴 qap_dial_success -> Dialed
     ➡️ qap_dial_success=
+    # 🔴 qap_skip_success -> Skipped
+    ➡️ qap_skip_success=
+    # 🔴 qap_no_call_to_reserve -> No call available for reservation
+    ➡️ qap_no_call_to_reserve=
+    # 🔴 qap_agent -> Agent
+    ➡️ qap_agent=
+    # 🔴 rt3_att_text -> Ephemeral - Text
+    ➡️ rt3_att_text=
+    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    ➡️ rt3_nofstate_unix_wbt=
+    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
+    ➡️ rt3_circle_wbt_reservable=
+    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
+    ➡️ rt3_circle_wbt_incomplete=
+    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
+    ➡️ rt3_nofstate_wbt=
+    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
+    ➡️ rt3_wbt_campaign_stats=
     # 🔴 rt3_attributes -> Ephemeral Attribute
     ➡️ rt3_attributes=
     # 🔴 rt3_display_value -> Visualization mode
