@@ -758,23 +758,23 @@ Do not change the items below:
     cldst_answered_call_distribution_per_day_of_week=התפלגות שיחות שנענו לפי יום בשבוע
     cldst_answered_call_distribution_per_dow=התפלגות שיחות שנענו לפי יום בשבוע
     cldst_answered_call_distribution_per_hour=התפלגות שיחות שנענו לפי שעה
-    cldst_answered_call_wait_time_per_day=התפלגות זמן בהמתנה  לפי יום
+    cldst_answered_call_wait_time_per_day=זמן המתנה לשיחות שנענו לפי יום
     cldst_answered_call_wait_time_per_day_of_week=זמן בהמתנה עבור שיחות שנענו לפי יום בשבוע
-    cldst_answered_call_wait_time_per_dow=זמן בהמתנה עבור שיחות שנענו לפי יום בשבוע
-    cldst_answered_call_wait_time_per_hour=זמן בהמתנה עבור שיחות שנענו לפי שעה
+    cldst_answered_call_wait_time_per_dow=זמן המתנה לשיחות שנענו לפי יום בשבוע
+    cldst_answered_call_wait_time_per_hour=זמן המתנה לשיחות שנענו לפי שעה
     cldst_answered_calls=שיחות שנענו
     cldst_avg=ממוצע
     cldst_avg_duration=משך ממוצע
     cldst_avg_wait=המתנה ממוצעת
     cldst_chart=גרף
-    cldst_contacts=קשרים
+    cldst_contacts=פניות
     cldst_conv=המרה
     cldst_coverage=כיסוי
     cldst_day=יום
     cldst_hour=שעה
-    cldst_inclusive_sla_per_day=כולל ליום SLA 
-    cldst_inclusive_sla_per_dow= כולל ליום בשבוע SLA
-    cldst_inclusive_sla_per_hour= כולל לשעה SLA
+    cldst_inclusive_sla_per_day=SLA כולל לפי יום
+    cldst_inclusive_sla_per_dow=SLA כולל לפי יום בשבוע
+    cldst_inclusive_sla_per_hour=SLA כולל לפי שעה
     cldst_max=מקס.
     cldst_min=מינ,
     cldst_nbsp= 
@@ -783,9 +783,9 @@ Do not change the items below:
     cldst_percent=%
     cldst_qconv=QConv.
     cldst_qual_contacts=QCont.
-    cldst_queue_length_per_day=אורך תור ליום
-    cldst_queue_length_per_dow=אורך תור ליום בשבוע
-    cldst_queue_length_per_hour=אורך תור לשעה
+    cldst_queue_length_per_day=אורך תור לפי יום
+    cldst_queue_length_per_dow=אורך תור לפי יום בשבוע
+    cldst_queue_length_per_hour=אורך תור לפי שעה
     cldst_sales=מכירות
     cldst_sales_per_day=מכירות ליום
     cldst_sales_per_dow=מכירות ליום בשבוע
@@ -798,32 +798,32 @@ Do not change the items below:
     cldst_skills_per_hr=כישורים לפי שעה
     cldst_sla=SLA במסגרת
     cldst_steps=מרווחים
-    cldst_ta_ag_max=ממוצע מקס.
-    cldst_ta_ag_min=ממוצע מינ.
-    cldst_ta_avg_ag=Avg ag
-    cldst_ta_avg_ans=ממוצע נענות
+    cldst_ta_ag_max=מקס. ממוצע
+    cldst_ta_ag_min=מינ. ממוצע
+    cldst_ta_avg_ag=ממוצע נציג
+    cldst_ta_avg_ans=ממוצע שנענו
     cldst_ta_avg_out=ממוצע יוצאות
-    cldst_ta_avg_talk=ממוצע דיבור
-    cldst_ta_call_ag=ממוצע/שיחות
+    cldst_ta_avg_talk=זמן שיחה ממוצע
+    cldst_ta_call_ag=שיחות/נציג
     cldst_ta_max_dur=משך מקס.
     cldst_ta_max_dur_out=משך מקס. יוצאת
-    cldst_ta_max_wait_ans=משך המתנה מקס. נענית
-    cldst_ta_max_wait_lost=המתנה מקס. שיחה שננטשה
-    cldst_ta_n_answ=נענית
-    cldst_ta_n_answ_out=נענו יוצאות
-    cldst_ta_n_offered=כבוי
+    cldst_ta_max_wait_ans=המתנה מקס. לשיחה שנענתה
+    cldst_ta_max_wait_lost=המתנה מקס. לשיחה שננטשה
+    cldst_ta_n_answ=מס' שנענו
+    cldst_ta_n_answ_out=מס' יוצאות שנענו
+    cldst_ta_n_offered=מס' שהוצעו
     cldst_ta_out_in=יוצא/נכנס
-    cldst_ta_svclvl=רמת שרות
-    cldst_ta_traffic_analysis_by_period_day=ניתוח תנועה על פי תקופה - ליום
-    cldst_ta_traffic_analysis_by_period_dow=ניתוח תנועה על פי תקופה - יום בשבוע
-    cldst_ta_traffic_analysis_by_period_hr=ניתוח תנועה על פי תקופה - שעה
+    cldst_ta_svclvl=רמת שירות
+    cldst_ta_traffic_analysis_by_period_day=ניתוח תעבורה לפי תקופה - יום
+    cldst_ta_traffic_analysis_by_period_dow=ניתוח תעבורה לפי תקופה - יום בשבוע
+    cldst_ta_traffic_analysis_by_period_hr=ניתוח תעבורה לפי תקופה - שעה
     cldst_ta_unans=לא נענו
-    cldst_ta_unans_short=לא נענו מקוצר
+    cldst_ta_unans_short=לא נענו (קצרות)
     cldst_unans=לא נענו
-    cldst_unanswered_call_wait_time_per_day=זמן המתנה שיחות שלא נענו ליום
-    cldst_unanswered_call_wait_time_per_day_of_week=זמן המתנה שיחות שלא נענו לפי ימי השבוע
-    cldst_unanswered_call_wait_time_per_dow=זמן המתנה שיחות שלא נענו לפי ימי השבוע
-    cldst_unanswered_call_wait_time_per_hour=זמן המתנה שיחות שלא נענו לשעה
+    cldst_unanswered_call_wait_time_per_day=זמן המתנה לשיחות שלא נענו לפי יום
+    cldst_unanswered_call_wait_time_per_day_of_week=זמן המתנה לשיחות שלא נענו לפי יום בשבוע
+    cldst_unanswered_call_wait_time_per_dow=זמן המתנה לשיחות שלא נענו לפי יום בשבוע
+    cldst_unanswered_call_wait_time_per_hour=זמן המתנה לשיחות שלא נענו לפי שעה
     cldst_unanswered_calls=שיחות שלא נענו
 
 ## Custom reports
@@ -941,10 +941,10 @@ Do not change the items below:
 
 
 
-    clhdr_agentgroup=סינון לפי קבוצת משתמש
+    clhdr_agentgroup=סינון לפי קבוצת משתמשים
     clhdr_ans=נענו
     clhdr_asteriskid=סינון לפי מזהה ייחודי
-    clhdr_atomic_queues_considered=Atomic התחשבות בתורות 
+    clhdr_atomic_queues_considered=התחשבות בתורים אטומיים 
     clhdr_attempts=סינון לפי מספר ניסיונות
     clhdr_available_cols=שדות מידע זמינים
     clhdr_call=סינון לפי זמן שיחה
@@ -952,17 +952,17 @@ Do not change the items below:
     clhdr_callfeaturecode=סינון לפי קוד מאפיין 
     clhdr_calltag=סינון לפי תגית שיחה 
     clhdr_dayofweek=ימי השבוע
-    clhdr_disconnection=סינון לפי ניתוקים 
-    clhdr_dnis=DNIS  סינון לפי 
+    clhdr_disconnection=סינון לפי סיבת ניתוק
+    clhdr_dnis=סינון לפי DNIS
     clhdr_enterpos=סינון לפי מיקום כניסה
     clhdr_export_as=ייצא כ
     clhdr_filter=סינון
     clhdr_filtered_for_agent=סנן לפי נציג
-    clhdr_ivr=IVR סנן לפי בחירת 
-    clhdr_location=סנן על פי מיקום
-    clhdr_multistint=צרף שיחות רב שלביות יחדיו
+    clhdr_ivr=סינון לפי בחירת IVR 
+    clhdr_location=סינון לפי מיקום
+    clhdr_multistint=צרף קטעי שיחה יחד
     clhdr_normalizedcaller=מתקשר מנורמל
-    clhdr_outcome=סנן על פי תוצאת שיחה
+    clhdr_outcome=סינון לפי תוצאת שיחה
     clhdr_perc_calls_processed=יחס
     clhdr_period_end_date=זמן סיום תקופה
     clhdr_period_start_date=זמן התחלת תקופה
@@ -972,12 +972,13 @@ Do not change the items below:
     clhdr_search=חיפוש
     clhdr_server=סינון על פי שרת
     clhdr_short_calls=שיחות קצרות
-    clhdr_skill=סינון על פי יכולות
+    clhdr_skill=סינון לפי כישורים
     clhdr_supervised_by=מפוקח על ידי:
     clhdr_timerange=טווח זמן
     clhdr_total_calls_processed=סה"כ שיחות שעובדו
     clhdr_unans=לא נענו
     clhdr_wait=סינון לפי זמן המתנה
+
 
 ## Taken calls
 
@@ -2343,677 +2344,353 @@ Used for data blocks Overview by Agent/Queue
 
 ## Wallboard
 
-
-    # 👽 rt3_Talk -> Talk
-    rt3_Talk=?דיבור
-    # 👽 rt3_action_error -> An error has occured, the command has not been sent.
-    rt3_action_error=?אירעה שגיאה, הפקודה לא נשלחה.
-    # 👽 rt3_action_success -> The command was successfully sent.
-    rt3_action_success=?הפקודה נשלחה בהצלחה.
-    # 👽 rt3_actions_barge -> Barge
-    rt3_actions_barge=?התפרץ
-    # 👽 rt3_actions_chanspy -> Spy
-    rt3_actions_chanspy=?האזן
-    # 👽 rt3_actions_whisper -> Whisper
-    rt3_actions_whisper=?לחש
-    # 👽 rt3_add -> Add New Widget
-    rt3_add=?הוסף ווידג'ט חדש
-    # 👽 rt3_add_box -> Add new widget on page
-    rt3_add_box=?הוסף ווידג'ט חדש לדף
-    # 👽 rt3_add_queue -> Select Queue
-    rt3_add_queue=?בחר תור
-    # 👽 rt3_add_view -> Add new view
-    rt3_add_view=?הוסף תצוגה חדשה
-    # 👽 rt3_advanced -> Advanced
-    rt3_advanced=?מתקדם
-    # 👽 rt3_ag_calls_alm_red -> Agents Busy Red Alarm
-    rt3_ag_calls_alm_red=?נציגים תפוסים - אזעקה אדומה
-    # 👽 rt3_ag_calls_alm_yel -> Agents Busy Yellow Alarm
-    rt3_ag_calls_alm_yel=?נציגים תפוסים - אזעקה צהובה
-    # 👽 rt3_ag_inbound_alm_red -> Inbound Agents Red Alarm
-    rt3_ag_inbound_alm_red=?נציגי נכנסות - אזעקה אדומה
-    # 👽 rt3_ag_inbound_alm_yel -> Inbound Agents Yellow Alarm
-    rt3_ag_inbound_alm_yel=?נציגי נכנסות - אזעקה צהובה
-    # 👽 rt3_ag_onqueue_alm_red -> Agents On Queue Red Alarm
-    rt3_ag_onqueue_alm_red=?נציגים בתור - אזעקה אדומה
-    # 👽 rt3_ag_onqueue_alm_yel -> Agents On Queue Yellow Alarm
-    rt3_ag_onqueue_alm_yel=?נציגים בתור - אזעקה צהובה
-    # 👽 rt3_ag_outbound_alm_red -> Outbound Agents Red Alarm
-    rt3_ag_outbound_alm_red=?נציגי יוצאות - אזעקה אדומה
-    # 👽 rt3_ag_outbound_alm_yel -> Outbound Agents Yellow Alarm
-    rt3_ag_outbound_alm_yel=?נציגי יוצאות - אזעקה צהובה
-    # 👽 rt3_ag_pause_alm_red -> Agents On Pause Red Alarm
-    rt3_ag_pause_alm_red=?נציגים בהפסקה - אזעקה אדומה
-    # 👽 rt3_ag_pause_alm_yel -> Agents On Pause Yellow Alarm
-    rt3_ag_pause_alm_yel=?נציגים בהפסקה - אזעקה צהובה
-    # 👽 rt3_ag_unk_alm_red -> Agents Unknown Red Alarm
-    rt3_ag_unk_alm_red=?נציגים לא ידועים - אזעקה אדומה
-    # 👽 rt3_ag_unk_alm_yel -> Agents Unknown Yellow Alarm
-    rt3_ag_unk_alm_yel=?נציגים לא ידועים - אזעקה צהובה
-    # 👽 rt3_ag_wait_alm_red -> Agents Ready Red Alarm
-    rt3_ag_wait_alm_red=?נציגים פנויים - אזעקה אדומה
-    # 👽 rt3_ag_wait_alm_yel -> Agents Ready Yellow Alarm
-    rt3_ag_wait_alm_yel=?נציגים פנויים - אזעקה צהובה
-    # 👽 rt3_agent -> Agent
-    rt3_agent=?נציג
-    # 👽 rt3_agent_action_title -> Select an action for an agent
-    rt3_agent_action_title=?בחר פעולה עבור נציג
-    # 👽 rt3_agent_actions -> Agent Actions
-    rt3_agent_actions=?פעולות נציג
-    # 👽 rt3_agent_addmember -> Add Member to Queue
-    rt3_agent_addmember=?הוסף חבר לתור
-    # 👽 rt3_agent_changepause -> Change Pause
-    rt3_agent_changepause=?שנה הפסקה
-    # 👽 rt3_agent_code -> Agent Code
-    rt3_agent_code=?קוד נציג
-    # 👽 rt3_agent_extension -> Agent Extension
-    rt3_agent_extension=?שלוחת נציג
-    # 👽 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    rt3_agent_extension_regex_error=?שלוחת הנציג אינה בפורמט תקין.
-    # 👽 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    rt3_agent_code_regex_error=?קוד הנציג אינו בפורמט תקין.
-    # 👽 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    rt3_agent_extension_min_1_char_error=?שלוחת הנציג חייבת להיות באורך של תו אחד לפחות.
-    # 👽 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    rt3_agent_code_min_1_char_error=?קוד הנציג חייב להיות באורך של תו אחד לפחות.
-    # 👽 rt3_agent_info -> Agent Info
-    rt3_agent_info=?פרטי נציג
-    # 👽 rt3_agent_login -> Login (All Queues)
-    rt3_agent_login=?התחבר (כל התורים)
-    # 👽 rt3_agent_logon -> Agent log-on
-    rt3_agent_logon=?התחברות נציג
-    # 👽 rt3_agent_logout -> Logout (All Queues)
-    rt3_agent_logout=?התנתק (כל התורים)
-    # 👽 rt3_agent_pause -> Pause Agent
-    rt3_agent_pause=?הכנס נציג להפסקה
-    # 👽 rt3_agent_removemember -> Remove Member from Queue
-    rt3_agent_removemember=?הסר חבר מהתור
-    # 👽 rt3_agent_select -> Please select an Agent...
-    rt3_agent_select=?אנא בחר נציג...
-    # 👽 rt3_agent_status -> Status
-    rt3_agent_status=?סטטוס
-    # 👽 rt3_agent_unpause -> Unpause Agent
-    rt3_agent_unpause=?הוצא נציג מהפסקה
-    # 👽 rt3_agents -> Agents
-    rt3_agents=?נציגים
-    # 👽 rt3_agents_on_inbound -> Agents on Inbound
-    rt3_agents_on_inbound=?נציגים בשיחות נכנסות
-    # 👽 rt3_agents_on_outbound -> Agents on Outbound
-    rt3_agents_on_outbound=?נציגים בשיחות יוצאות
-    # 👽 rt3_alarm_cell_value -> Cell Value
-    rt3_alarm_cell_value=?ערך תא
-    # 👽 rt3_alarm_column_title -> Column
-    rt3_alarm_column_title=?עמודה
-    # 👽 rt3_all_agents -> All Agents
-    rt3_all_agents=?כל הנציגים
-    # 👽 rt3_all_columns -> All Columns
-    rt3_all_columns=?כל העמודות
-    # 👽 rt3_all_queues -> All Queues
-    rt3_all_queues=?כל התורים
-    # 👽 rt3_answer -> Answer
-    rt3_answer=?ענה
-    # 👽 rt3_avgTalk -> Avg. Talk
-    rt3_avgTalk=?ממוצע דיבור
-    # 👽 rt3_avgWait -> Avg. Wait
-    rt3_avgWait=?ממוצע המתנה
-    # 👽 rt3_avg_queue_info -> Avg. Queue Info
-    rt3_avg_queue_info=?מידע ממוצע תור
-    # 👽 rt3_avg_talk -> Avg. Talk
-    rt3_avg_talk=?ממוצע דיבור
-    # 👽 rt3_avg_wait -> Avg. Wait
-    rt3_avg_wait=?ממוצע המתנה
-    # 👽 rt3_avgtalk_alarm_red -> Avg. Talk Red Alarm
-    rt3_avgtalk_alarm_red=?ממוצע דיבור - אזעקה אדומה
-    # 👽 rt3_avgtalk_alarm_yel -> Avg. Talk Yellow Alarm
-    rt3_avgtalk_alarm_yel=?ממוצע דיבור - אזעקה צהובה
-    # 👽 rt3_bar_sla -> Bar Graph - SLA
-    rt3_bar_sla=?גרף עמודות - SLA
-    # 👽 rt3_billpause -> Pause Bill.
-    rt3_billpause=?הפסקת חיוב
-    # 👽 rt3_blue -> blue
-    rt3_blue=?כחול
-    # 👽 rt3_busy -> Busy
-    rt3_busy=?תפוס
-    # 👽 rt3_call -> Call
-    rt3_call=?שיחה
-    # 👽 rt3_call_action_title -> Select an action for a call
-    rt3_call_action_title=?בחר פעולה לשיחה
-    # 👽 rt3_call_actions -> Call Actions
-    rt3_call_actions=?פעולות שיחה
-    # 👽 rt3_call_actions_subtitle -> Click on a call to select it
-    rt3_call_actions_subtitle=?לחץ על שיחה כדי לבחור אותה
-    # 👽 rt3_call_agent -> Agent
-    rt3_call_agent=?נציג
-    # 👽 rt3_call_alarm_red -> Call Red Alarm
-    rt3_call_alarm_red=?שיחה - אזעקה אדומה
-    # 👽 rt3_call_alarm_yel -> Call Yellow Alarm
-    rt3_call_alarm_yel=?שיחה - אזעקה צהובה
-    # 👽 rt3_call_close -> Close Call
-    rt3_call_close=?סגור שיחה
-    # 👽 rt3_call_failed -> The call has failed.
-    rt3_call_failed=?השיחה נכשלה.
-    # 👽 rt3_call_hangup -> Hangup Call
-    rt3_call_hangup=?נתק שיחה
-    # 👽 rt3_call_id -> Call Id
-    rt3_call_id=?מזהה שיחה
-    # 👽 rt3_call_in_progress -> Call in progress
-    rt3_call_in_progress=?שיחה בביצוע
-    # 👽 rt3_call_localextension -> Local Extension
-    rt3_call_localextension=?שלוחה מקומית
-    # 👽 rt3_call_monitor -> Monitor Call
-    rt3_call_monitor=?נטר שיחה
-    # 👽 rt3_call_number -> Caller
-    rt3_call_number=?מתקשר
-    # 👽 rt3_call_offhold -> The call was taken off hold.
-    rt3_call_offhold=?השיחה הוצאה מהמתנה.
-    # 👽 rt3_call_onhold -> The call was put on hold.
-    rt3_call_onhold=?השיחה הוכנסה להמתנה.
-    # 👽 rt3_call_qa -> Grade Call
-    rt3_call_qa=?דרג שיחה
-    # 👽 rt3_call_queue -> Queue
-    rt3_call_queue=?תור
-    # 👽 rt3_call_started -> The call has started.
-    rt3_call_started=?השיחה החלה.
-    # 👽 rt3_call_status -> Status
-    rt3_call_status=?סטטוס
-    # 👽 rt3_call_terminated -> The call was terminated.
-    rt3_call_terminated=?השיחה הסתיימה.
-    # 👽 rt3_call_transfer -> Transfer Call
-    rt3_call_transfer=?העבר שיחה
-    # 👽 rt3_call_transferextension -> Transfer to (ext.)
-    rt3_call_transferextension=?העבר ל-(שלוחה)
-    # 👽 rt3_caller -> Caller
-    rt3_caller=?מתקשר
-    # 👽 rt3_callfeatures -> Call Features
-    rt3_callfeatures=?תכונות שיחה
-    # 👽 rt3_callgoalfeatures -> Goal Ftrs
-    rt3_callgoalfeatures=?תכונות יעד
-    # 👽 rt3_calls_alm_red -> Waiting Calls Red Alarm
-    rt3_calls_alm_red=?שיחות ממתינות - אזעקה אדומה
-    # 👽 rt3_calls_alm_yel -> Waiting Calls Yellow Alarm
-    rt3_calls_alm_yel=?שיחות ממתינות - אזעקה צהובה
-    # 👽 rt3_calltag -> Tag
-    rt3_calltag=?תגית
-    # 👽 rt3_cancel -> Cancel
-    rt3_cancel=?בטל
-    # 👽 rt3_cannot_edit_wb_warning -> Editing is disabled, user is not holding the necessary keys.
-    rt3_cannot_edit_wb_warning=?העריכה מושבתת, למשתמש אין את המפתחות הנדרשים.
-    # 👽 rt3_category_chart -> Charts
-    rt3_category_chart=?גרפים
-    # 👽 rt3_category_circular -> Circular Panels
-    rt3_category_circular=?לוחות עגולים
-    # 👽 rt3_category_debug -> Debug Only
-    rt3_category_debug=?לניפוי באגים בלבד
-    # 👽 rt3_category_item -> Items
-    rt3_category_item=?פריטים
-    # 👽 rt3_category_multiitem -> Composite Items
-    rt3_category_multiitem=?פריטים מורכבים
-    # 👽 rt3_category_table -> Tables
-    rt3_category_table=?טבלאות
-    # 👽 rt3_category_various -> Various
-    rt3_category_various=?שונות
-    # 👽 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
-    rt3_change_queue_confirm=?יש לך שינויים שלא נשמרו שייאבדו אם תשנה תור. לאשר?
-    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    rt3_exit_confirm=?יש לך שינויים שלא נשמרו שייאבדו אם תצא מהדף. לאשר?
-    # 👽 rt3_choose_action -> Choose Action
-    rt3_choose_action=?בחר פעולה
-    # 👽 rt3_choose_monitor_mode -> Monitoring Mode
-    rt3_choose_monitor_mode=?מצב ניטור
-    # 👽 rt3_choose_queue -> Choose Queue
-    rt3_choose_queue=?בחר תור
-    # 👽 rt3_choose_server -> Choose the server
-    rt3_choose_server=?בחר את השרת
-    # 👽 rt3_circle_agents_oncall -> N Agents On Call
-    rt3_circle_agents_oncall=?מס' נציגים בשיחה
-    # 👽 rt3_circle_answered_calls -> N Answered Calls
-    rt3_circle_answered_calls=?מס' שיחות נענו
-    # 👽 rt3_circle_answered_perc -> Answered %
-    rt3_circle_answered_perc=?נענו %
-    # 👽 rt3_circle_longest_wait -> Longest Wait
-    rt3_circle_longest_wait=?המתנה ארוכה ביותר
+    rt3_Talk=דיבור
+    rt3_action_error=אירעה שגיאה, הפקודה לא נשלחה.
+    rt3_action_success=הפקודה נשלחה בהצלחה.
+    rt3_actions_barge=התפרץ
+    rt3_actions_chanspy=האזן
+    rt3_actions_whisper=לחש
+    rt3_add=הוסף ווידג'ט חדש
+    rt3_add_box=הוסף ווידג'ט חדש לדף
+    rt3_add_queue=בחר תור
+    rt3_add_view=הוסף תצוגה חדשה
+    rt3_advanced=מתקדם
+    rt3_ag_calls_alm_red=נציגים תפוסים - אזעקה אדומה
+    rt3_ag_calls_alm_yel=נציגים תפוסים - אזעקה צהובה
+    rt3_ag_inbound_alm_red=נציגי נכנסות - אזעקה אדומה
+    rt3_ag_inbound_alm_yel=נציגי נכנסות - אזעקה צהובה
+    rt3_ag_onqueue_alm_red=נציגים בתור - אזעקה אדומה
+    rt3_ag_onqueue_alm_yel=נציגים בתור - אזעקה צהובה
+    rt3_ag_outbound_alm_red=נציגי יוצאות - אזעקה אדומה
+    rt3_ag_outbound_alm_yel=נציגי יוצאות - אזעקה צהובה
+    rt3_ag_pause_alm_red=נציגים בהפסקה - אזעקה אדומה
+    rt3_ag_pause_alm_yel=נציגים בהפסקה - אזעקה צהובה
+    rt3_ag_unk_alm_red=נציגים לא ידועים - אזעקה אדומה
+    rt3_ag_unk_alm_yel=נציגים לא ידועים - אזעקה צהובה
+    rt3_ag_wait_alm_red=נציגים פנויים - אזעקה אדומה
+    rt3_ag_wait_alm_yel=נציגים פנויים - אזעקה צהובה
+    rt3_agent=נציג
+    rt3_agent_action_title=בחר פעולה עבור נציג
+    rt3_agent_actions=פעולות נציג
+    rt3_agent_addmember=הוסף חבר לתור
+    rt3_agent_changepause=שנה הפסקה
+    rt3_agent_code=קוד נציג
+    rt3_agent_extension=שלוחת נציג
+    rt3_agent_extension_regex_error=שלוחת הנציג אינה בפורמט תקין.
+    rt3_agent_code_regex_error=קוד הנציג אינו בפורמט תקין.
+    rt3_agent_extension_min_1_char_error=שלוחת הנציג חייבת להיות באורך של תו אחד לפחות.
+    rt3_agent_code_min_1_char_error=קוד הנציג חייב להיות באורך של תו אחד לפחות.
+    rt3_agent_info=פרטי נציג
+    rt3_agent_login=התחבר (כל התורים)
+    rt3_agent_logon=התחברות נציג
+    rt3_agent_logout=התנתק (כל התורים)
+    rt3_agent_pause=הכנס נציג להפסקה
+    rt3_agent_removemember=הסר חבר מהתור
+    rt3_agent_select=אנא בחר נציג...
+    rt3_agent_status=סטטוס
+    rt3_agent_unpause=הוצא נציג מהפסקה
+    rt3_agents=נציגים
+    rt3_agents_on_inbound=נציגים בשיחות נכנסות
+    rt3_agents_on_outbound=נציגים בשיחות יוצאות
+    rt3_alarm_cell_value=ערך תא
+    rt3_alarm_column_title=עמודה
+    rt3_all_agents=כל הנציגים
+    rt3_all_columns=כל העמודות
+    rt3_all_queues=כל התורים
+    rt3_answer=ענה
+    rt3_avgTalk=ממוצע דיבור
+    rt3_avgWait=ממוצע המתנה
+    rt3_avg_queue_info=מידע ממוצע תור
+    rt3_avg_talk=ממוצע דיבור
+    rt3_avg_wait=ממוצע המתנה
+    rt3_avgtalk_alarm_red=ממוצע דיבור - אזעקה אדומה
+    rt3_avgtalk_alarm_yel=ממוצע דיבור - אזעקה צהובה
+    rt3_bar_sla=גרף עמודות - SLA
+    rt3_billpause=הפסקה בחיוב
+    rt3_blue=כחול
+    rt3_busy=תפוס
+    rt3_call=שיחה
+    rt3_call_action_title=בחר פעולה לשיחה
+    rt3_call_actions=פעולות שיחה
+    rt3_call_actions_subtitle=לחץ על שיחה כדי לבחור אותה
+    rt3_call_agent=נציג
+    rt3_call_alarm_red=שיחה - אזעקה אדומה
+    rt3_call_alarm_yel=שיחה - אזעקה צהובה
+    rt3_call_close=סגור שיחה
+    rt3_call_failed=השיחה נכשלה.
+    rt3_call_hangup=נתק שיחה
+    rt3_call_id=מזהה שיחה
+    rt3_call_in_progress=שיחה מתבצעת
+    rt3_call_localextension=שלוחה מקומית
+    rt3_call_monitor=נטר שיחה
+    rt3_call_number=מתקשר
+    rt3_call_offhold=השיחה הוצאה מהמתנה.
+    rt3_call_onhold=השיחה הוכנסה להמתנה.
+    rt3_call_qa=דרג שיחה
+    rt3_call_queue=תור
+    rt3_call_started=השיחה החלה.
+    rt3_call_status=סטטוס
+    rt3_call_terminated=השיחה הסתיימה.
+    rt3_call_transfer=העבר שיחה
+    rt3_call_transferextension=העבר ל-(שלוחה)
+    rt3_caller=מתקשר
+    rt3_callfeatures=מאפייני שיחה
+    rt3_callgoalfeatures=מאפייני יעד
+    rt3_calls_alm_red=שיחות ממתינות - אזעקה אדומה
+    rt3_calls_alm_yel=שיחות ממתינות - אזעקה צהובה
+    rt3_calltag=תגית
+    rt3_cancel=בטל
+    rt3_cannot_edit_wb_warning=העריכה מושבתת, למשתמש אין את ההרשאות הנדרשות.
+    rt3_category_chart=גרפים
+    rt3_category_circular=לוחות עגולים
+    rt3_category_debug=לניפוי באגים בלבד
+    rt3_category_item=פריטים
+    rt3_category_multiitem=פריטים מורכבים
+    rt3_category_table=טבלאות
+    rt3_category_various=שונות
+    rt3_change_queue_confirm=יש לך שינויים שלא נשמרו שייאבדו אם תחליף תור. האם לאשר?
+    rt3_exit_confirm=יש לך שינויים שלא נשמרו שייאבדו אם תצא מהדף. האם לאשר?
+    rt3_choose_action=בחר פעולה
+    rt3_choose_monitor_mode=מצב ניטור
+    rt3_choose_queue=בחר תור
+    rt3_choose_server=בחר שרת
+    rt3_circle_agents_oncall=מס' נציגים בשיחה
+    rt3_circle_answered_calls=מס' שיחות שנענו
+    rt3_circle_answered_perc=% שנענו
+    rt3_circle_longest_wait=המתנה ארוכה ביותר
     rt3_circle_lost_calls=שיחות ננטשות
-    rt3_circle_lost_perc=ננטשות %
-    # 👽 rt3_circle_offered_calls -> N Offered Calls
-    rt3_circle_offered_calls=?מס' שיחות שהוצעו
-    # 👽 rt3_circle_ready -> Agents Ready
-    rt3_circle_ready=?נציגים פנויים
-    # 👽 rt3_circle_sla_prc -> SLA Level %
-    rt3_circle_sla_prc=?רמת SLA %
-    # 👽 rt3_circle_waiting_calls -> N Waiting Calls
-    rt3_circle_waiting_calls=?מס' שיחות ממתינות
-    # 👽 rt3_clock -> Clock
-    rt3_clock=?שעון
-    # 👽 rt3_clone -> Clone this widget
-    rt3_clone=?שכפל ווידג'ט זה
-    # 👽 rt3_close -> Close
-    rt3_close=?סגור
-    # 👽 rt3_code -> Code
-    rt3_code=?קוד
-    # 👽 rt3_color -> Color
-    rt3_color=?צבע
-    # 👽 rt3_columns -> Columns
-    rt3_columns=?עמודות
-    # 👽 rt3_comment -> Comment
-    rt3_comment=?הערה
+    rt3_circle_lost_perc=% ננטשות
+    rt3_circle_offered_calls=מס' שיחות שהוצעו
+    rt3_circle_ready=נציגים פנויים
+    rt3_circle_sla_prc=% רמת SLA
+    rt3_circle_waiting_calls=מס' שיחות ממתינות
+    rt3_clock=שעון
+    rt3_clone=שכפל ווידג'ט זה
+    rt3_close=סגור
+    rt3_code=קוד
+    rt3_color=צבע
+    rt3_columns=עמודות
+    rt3_comment=הערה
     rt3_configure_phone=הגדרות סופטפון (טלפון תוכנה)
-    # 👽 rt3_connection_error -> Server connection error.
-    rt3_connection_error=?שגיאת חיבור לשרת.
-    # 👽 rt3_connection_valid -> The connection to the server is working correctly.
-    rt3_connection_valid=?החיבור לשרת פועל כשורה.
-    # 👽 rt3_cont -> Cont.
-    rt3_cont=?קשר
-    # 👽 rt3_contph -> CPH
-    rt3_contph=?CPH
-    # 👽 rt3_conversation -> Conversation
-    rt3_conversation=?שיחה
-    # 👽 rt3_conversions -> Conv.
-    rt3_conversions=?המרות
-    # 👽 rt3_copy -> Copy
-    rt3_copy=?העתק
-    # 👽 rt3_copy_kiosk_url -> Kiosk Mode Public URL
-    rt3_copy_kiosk_url=?כתובת URL ציבורית למצב קיוסק
-    # 👽 rt3_create_new -> Create new
-    rt3_create_new=?צור חדש
-    # 👽 rt3_current -> Current
-    rt3_current=?נוכחי
-    # 👽 rt3_current_agent -> Current agent:
-    rt3_current_agent=?נציג נוכחי:
-    # 👽 rt3_current_call -> Current Call
-    rt3_current_call=?שיחה נוכחית
-    # 👽 rt3_current_props -> Current props:
-    rt3_current_props=?מאפיינים נוכחיים:
-    # 👽 rt3_data_block -> Data Block
-    rt3_data_block=?בלוק נתונים
-    # 👽 rt3_data_block_chart -> Chart
-    rt3_data_block_chart=?גרף
-    # 👽 rt3_database -> Database
-    rt3_database=?מסד נתונים
-    # 👽 rt3_datablock -> Data Block
-    rt3_datablock=?בלוק נתונים
-    # 👽 rt3_del -> Delete view
-    rt3_del=?מחק תצוגה
-    # 👽 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
-    rt3_delete_current_wallboard_confirm=?הוולבורד הנוכחי יימחק, להמשיך?
-    # 👽 rt3_delete_wallboard -> Delete
-    rt3_delete_wallboard=?מחק
-    # 👽 rt3_direction -> Direction
-    rt3_direction=?כיוון
-    # 👽 rt3_display_size -> Display Size
-    rt3_display_size=?גודל תצוגה
-    # 👽 rt3_dummy_wlbd -> Dummy wallboard
-    rt3_dummy_wlbd=?וולבורד דמה
-    # 👽 rt3_duration -> Duration (sec.)
-    rt3_duration=?משך (שניות)
-    # 👽 rt3_dwn -> Move down
-    rt3_dwn=?הזז למטה
-    # 👽 rt3_edit -> Edit widget
-    rt3_edit=?ערוך ווידג'ט
-    # 👽 rt3_edit_required -> Edit Required
-    rt3_edit_required=?נדרש עריכה
-    # 👽 rt3_edit_wallboard_cfg -> Edit the current wallboard and view
-    rt3_edit_wallboard_cfg=?ערוך את הוולבורד והתצוגה הנוכחיים
-    # 👽 rt3_editwdg_title -> Edit Widget
-    rt3_editwdg_title=?ערוך ווידג'ט
-    # 👽 rt3_empty_wlbd -> Empty wallboard
-    rt3_empty_wlbd=?וולבורד ריק
-    # 👽 rt3_enter_title -> Enter Title
-    rt3_enter_title=?הכנס כותרת
-    # 👽 rt3_error_prefs_fetch -> The user preferences could not be retrieved
-    rt3_error_prefs_fetch=?לא ניתן לאחזר את העדפות המשתמש
-    # 👽 rt3_error_saving -> Error saving wallboard
-    rt3_error_saving=?שגיאה בשמירת הוולבורד
-    # 👽 rt3_error_saving_prefs -> The user preferences could not be saved
-    rt3_error_saving_prefs=?לא ניתן לשמור את העדפות המשתמש
-    # 👽 rt3_error_saving_public_wb -> User cannot save a public wallboard
-    rt3_error_saving_public_wb=?המשתמש אינו יכול לשמור וולבורד ציבורי
-    # 👽 rt3_error_saving_wb_missing_key -> User cannot save a wallboard, the user key WALLBOARD_ADD is missing
-    rt3_error_saving_wb_missing_key=?המשתמש אינו יכול לשמור וולבורד, חסר מפתח המשתמש WALLBOARD_ADD
-    # 👽 rt3_export_schema -> Export
-    rt3_export_schema=?ייצא
-    # 👽 rt3_extension -> Extension
-    rt3_extension=?שלוחה
-    # 👽 rt3_extension_info -> Logged in as:
-    rt3_extension_info=?מחובר בתור:
-    # 👽 rt3_extra_value -> Some of the selected values are not available
-    rt3_extra_value=?חלק מהערכים הנבחרים אינם זמינים
-    # 👽 rt3_filters -> Show/Hide Filters
-    rt3_filters=?הצג/הסתר מסננים
-    # 👽 rt3_go -> Go
-    rt3_go=?קדימה
-    # 👽 rt3_gohome -> Home
-    rt3_gohome=?בית
-    # 👽 rt3_goto_login -> Go to Login
-    rt3_goto_login=?עבור להתחברות
-    # 👽 rt3_green -> green
-    rt3_green=?ירוק
-    # 👽 rt3_hangup -> Hangup
-    rt3_hangup=?ניתוק
-    # 👽 rt3_hold -> Hold
-    rt3_hold=?המתנה
-    # 👽 rt3_html -> HTML Page
-    rt3_html=?דף HTML
+    rt3_connection_error=שגיאת חיבור לשרת.
+    rt3_connection_valid=החיבור לשרת פועל כשורה.
+    rt3_cont=פניות
+    rt3_contph=CPH
+    rt3_conversation=שיחה
+    rt3_conversions=המרות
+    rt3_copy=העתק
+    rt3_copy_kiosk_url=כתובת URL ציבורית למצב קיוסק
+    rt3_create_new=צור חדש
+    rt3_current=נוכחי
+    rt3_current_agent=נציג נוכחי:
+    rt3_current_call=שיחה נוכחית
+    rt3_current_props=מאפיינים נוכחיים:
+    rt3_data_block=בלוק נתונים
+    rt3_data_block_chart=גרף
+    rt3_database=מסד נתונים
+    rt3_datablock=בלוק נתונים
+    rt3_del=מחק תצוגה
+    rt3_delete_current_wallboard_confirm=הוולבורד הנוכחי יימחק. האם להמשיך?
+    rt3_delete_wallboard=מחק
+    rt3_direction=כיוון
+    rt3_display_size=גודל תצוגה
+    rt3_dummy_wlbd=וולבורד דמה
+    rt3_duration=משך (שניות)
+    rt3_dwn=הזז למטה
+    rt3_edit=ערוך ווידג'ט
+    rt3_edit_required=נדרשת עריכה
+    rt3_edit_wallboard_cfg=ערוך את הוולבורד והתצוגה הנוכחיים
+    rt3_editwdg_title=ערוך ווידג'ט
+    rt3_empty_wlbd=וולבורד ריק
+    rt3_enter_title=הכנס כותרת
+    rt3_error_prefs_fetch=לא ניתן לאחזר את העדפות המשתמש
+    rt3_error_saving=שגיאה בשמירת הוולבורד
+    rt3_error_saving_prefs=לא ניתן לשמור את העדפות המשתמש
+    rt3_error_saving_public_wb=המשתמש אינו יכול לשמור וולבורד ציבורי
+    rt3_error_saving_wb_missing_key=המשתמש אינו יכול לשמור וולבורד, חסר מפתח המשתמש WALLBOARD_ADD
+    rt3_export_schema=ייצא
+    rt3_extension=שלוחה
+    rt3_extension_info=מחובר בתור:
+    rt3_extra_value=חלק מהערכים הנבחרים אינם זמינים
+    rt3_filters=הצג/הסתר מסננים
+    rt3_go=המשך
+    rt3_gohome=דף הבית
+    rt3_goto_login=עבור להתחברות
+    rt3_green=ירוק
+    rt3_hangup=נתק
+    rt3_hold=המתן
+    rt3_html=דף HTML
     rt3_idle=לא פנוי
     rt3_idle_alarm_red=לא פנוי - אזעקה אדומה
     rt3_idle_alarm_yel=לא פנוי - אזעקה צהובה
-    # 👽 rt3_import_schema -> Import
-    rt3_import_schema=?ייבא
-    # 👽 rt3_in_ivr -> IVR
-    rt3_in_ivr=?IVR
-    # 👽 rt3_incoming_call_from -> Incoming call from
-    rt3_incoming_call_from=?שיחה נכנסת מ-
-    # 👽 rt3_insert_valid_value -> Please insert a valid value
-    rt3_insert_valid_value=?אנא הכנס ערך תקין
-    # 👽 rt3_ispublic -> Public?
-    rt3_ispublic=?ציבורי?
-    # 👽 rt3_ivr_time -> IVR
-    rt3_ivr_time=?IVR
-    # 👽 rt3_kill -> Remove this widget from view
-    rt3_kill=?הסר ווידג'ט זה מהתצוגה
-    # 👽 rt3_kiosk_mode_warning -> You are currently in kiosk mode, wallboard editing is disabled.
-    rt3_kiosk_mode_warning=?אתה נמצא במצב קיוסק, עריכת וולבורד מושבתת.
+    rt3_import_schema=ייבא
+    rt3_in_ivr=IVR
+    rt3_incoming_call_from=שיחה נכנסת מ-
+    rt3_insert_valid_value=אנא הכנס ערך תקין
+    rt3_ispublic=ציבורי?
+    rt3_ivr_time=IVR
+    rt3_kill=הסר ווידג'ט זה מהתצוגה
+    rt3_kiosk_mode_warning=אתה נמצא במצב קיוסק, עריכת וולבורד מושבתת.
     rt3_last_completed_call=זמן בפנוי
-    # 👽 rt3_live_agent -> Agent
-    rt3_live_agent=?נציג
-    # 👽 rt3_live_agent_counters -> Live Agent Counters
-    rt3_live_agent_counters=?מוני נציג מחובר
-    # 👽 rt3_live_agent_info -> Live Agent Info
-    rt3_live_agent_info=?פרטי נציג מחובר
-    # 👽 rt3_live_queue_info -> Live Queue Info
-    rt3_live_queue_info=?פרטי תור פעיל
-    # 👽 rt3_live_status -> Status
-    rt3_live_status=?סטטוס
-    # 👽 rt3_load -> Load wallboard
-    rt3_load=?טען וולבורד
-    # 👽 rt3_loading_data -> Loading data....
-    rt3_loading_data=?טוען נתונים....
-    # 👽 rt3_loggedoff -> Logged Off
-    rt3_loggedoff=?מנותק
-    # 👽 rt3_loggedon -> Logged On
-    rt3_loggedon=?מחובר
-    # 👽 rt3_longest_wait -> Longest Wait
-    rt3_longest_wait=?המתנה ארוכה ביותר
+    rt3_live_agent=נציג
+    rt3_live_agent_counters=מוני נציג מחובר
+    rt3_live_agent_info=פרטי נציג מחובר
+    rt3_live_queue_info=פרטי תור פעיל
+    rt3_live_status=סטטוס
+    rt3_load=טען וולבורד
+    rt3_loading_data=טוען נתונים....
+    rt3_loggedoff=מנותק
+    rt3_loggedon=מחובר
+    rt3_longest_wait=המתנה ארוכה ביותר
     rt3_lost_attempts=ניסיונות כושלים
     rt3_lost_prc=נכשלו/ננטשו
-    # 👽 rt3_manual_insert -> Manual insert
-    rt3_manual_insert=?הוספה ידנית
-    # 👽 rt3_menu_delete -> Delete
-    rt3_menu_delete=?מחק
-    # 👽 rt3_menu_edit -> Edit
-    rt3_menu_edit=?ערוך
-    # 👽 rt3_menu_share -> Share
-    rt3_menu_share=?שתף
-    # 👽 rt3_missing_wdg -> Missing Wdg
-    rt3_missing_wdg=?ווידג'ט חסר
-    # 👽 rt3_n_agents -> N. Of Agents
-    rt3_n_agents=?מס' נציגים
-    # 👽 rt3_n_calls_answered -> Answered Calls
-    rt3_n_calls_answered=?שיחות נענו
-    rt3_n_calls_lost= שיחות ננטשות 
-    # 👽 rt3_n_calls_offered -> Offered Calls
-    rt3_n_calls_offered=?שיחות שהוצעו
-    # 👽 rt3_n_calls_waiting -> Calls Waiting
-    rt3_n_calls_waiting=?שיחות ממתינות
-    # 👽 rt3_name -> Name
-    rt3_name=?שם
-    # 👽 rt3_new_wlbd -> New Wallboard
-    rt3_new_wlbd=?וולבורד חדש
-    # 👽 rt3_no_data -> No Data Available
-    rt3_no_data=?אין נתונים זמינים
-    # 👽 rt3_no_url_to_be_copied -> This wallboard does not have a shareable URL
-    rt3_no_url_to_be_copied=?לוולבורד זה אין כתובת URL ניתנת לשיתוף
-    # 👽 rt3_nobillpause -> Pause non Bill.
-    rt3_nobillpause=?הפסקה ללא חיוב
-    # 👽 rt3_nofcalls_answered -> Answered Calls
-    rt3_nofcalls_answered=?שיחות נענו
+    rt3_manual_insert=הוספה ידנית
+    rt3_menu_delete=מחק
+    rt3_menu_edit=ערוך
+    rt3_menu_share=שתף
+    rt3_missing_wdg=ווידג'ט חסר
+    rt3_n_agents=מס' נציגים
+    rt3_n_calls_answered=שיחות שנענו
+    rt3_n_calls_lost=שיחות ננטשות
+    rt3_n_calls_offered=שיחות שהוצעו
+    rt3_n_calls_waiting=שיחות ממתינות
+    rt3_name=שם
+    rt3_new_wlbd=וולבורד חדש
+    rt3_no_data=אין נתונים זמינים
+    rt3_no_url_to_be_copied=לוולבורד זה אין כתובת URL לשיתוף
+    rt3_nobillpause=הפסקה ללא חיוב
+    rt3_nofcalls_answered=שיחות שנענו
     rt3_nofcalls_lost=שיחות ננטשות
-    # 👽 rt3_nofcalls_offered -> Offered Calls
-    rt3_nofcalls_offered=?שיחות שהוצעו
-    # 👽 rt3_nofcolumns -> Columns
-    rt3_nofcolumns=?עמודות
-    # 👽 rt3_ntodial -> Dial Number
-    rt3_ntodial=?חייג מספר
-    # 👽 rt3_number_calling -> Calling:
-    rt3_number_calling=?מתקשר:
-    # 👽 rt3_offered -> Offered
-    rt3_offered=?הוצעו
-    # 👽 rt3_ok -> Ok
-    rt3_ok=?אישור
-    # 👽 rt3_on_pause -> On Pause
-    rt3_on_pause=?בהפסקה
-    # 👽 rt3_oncall -> On Call
-    rt3_oncall=?בשיחה
-    # 👽 rt3_onhold -> On Hold
-    rt3_onhold=?בהמתנה
-    # 👽 rt3_pause_alarm_red -> Pause Red Alarm
-    rt3_pause_alarm_red=?הפסקה - אזעקה אדומה
-    # 👽 rt3_pause_alarm_yel -> Pause Yellow Alarm
-    rt3_pause_alarm_yel=?הפסקה - אזעקה צהובה
-    # 👽 rt3_paused -> Paused
-    rt3_paused=?מושהה
-    # 👽 rt3_pausetimes -> Pause Time
-    rt3_pausetimes=?זמני הפסקה
-    rt3_phone=סופטפון (טלפון תוכנה).
-    # 👽 rt3_phone_settings -> Phone Settings
-    rt3_phone_settings=?הגדרות טלפון
-    # 👽 rt3_pin -> Pin
-    rt3_pin=?PIN
-    # 👽 rt3_pink -> pink
-    rt3_pink=?ורוד
-    # 👽 rt3_play -> Play
-    rt3_play=?נגן
-    # 👽 rt3_position -> Position
-    rt3_position=?מיקום
-    # 👽 rt3_preset -> Preset:
-    rt3_preset=?קבוע מראש:
-    # 👽 rt3_private -> Private Wallboard
-    rt3_private=?וולבורד פרטי
-    # 👽 rt3_public -> Public Wallboard
-    rt3_public=?וולבורד ציבורי
-    # 👽 rt3_purple -> purple
-    rt3_purple=?סגול
-    # 👽 rt3_qcont -> QC
-    rt3_qcont=?QC
-    # 👽 rt3_qcontph -> QCPH
-    rt3_qcontph=?QCPH
-    # 👽 rt3_qualconversions -> QConv.
-    rt3_qualconversions=?המרות מוסמכות
-    # 👽 rt3_queue -> Queue
-    rt3_queue=?תור
-    # 👽 rt3_queue_inbound -> Inbound
-    rt3_queue_inbound=?נכנסות
-    # 👽 rt3_queue_outbound -> Outbound
-    rt3_queue_outbound=?יוצאות
-    # 👽 rt3_queue_unknown -> Unknown
-    rt3_queue_unknown=?לא ידוע
-    # 👽 rt3_queuemetrics -> QueueMetrics
-    rt3_queuemetrics=?QueueMetrics
-    # 👽 rt3_queuemetrics_isdown -> QueueMetrics is down, retrying
-    rt3_queuemetrics_isdown=?QueueMetrics לא פעיל, מנסה שוב
-    # 👽 rt3_queuemetrics_isrunning -> QueueMetrics is running again, relogging user
-    rt3_queuemetrics_isrunning=?QueueMetrics פועל שוב, מתחבר מחדש
-    # 👽 rt3_queues -> Queue
-    rt3_queues=?תור
-    # 👽 rt3_ready_agents -> Ready
-    rt3_ready_agents=?פנויים
-    # 👽 rt3_red_alarm -> Red Alarm
-    rt3_red_alarm=?אזעקה אדומה
-    # 👽 rt3_red_line_limit -> Red Line Limit
-    rt3_red_line_limit=?מגבלת קו אדום
-    # 👽 rt3_red_line_text -> Red Line Text
-    rt3_red_line_text=?טקסט קו אדום
-    # 👽 rt3_register -> Register
-    rt3_register=?הרשם
+    rt3_nofcalls_offered=שיחות שהוצעו
+    rt3_nofcolumns=עמודות
+    rt3_ntodial=חייג מספר
+    rt3_number_calling=מתקשר:
+    rt3_offered=הוצעו
+    rt3_ok=אישור
+    rt3_on_pause=בהפסקה
+    rt3_oncall=בשיחה
+    rt3_onhold=בהמתנה
+    rt3_pause_alarm_red=הפסקה - אזעקה אדומה
+    rt3_pause_alarm_yel=הפסקה - אזעקה צהובה
+    rt3_paused=בהפסקה
+    rt3_pausetimes=זמני הפסקה
+    rt3_phone=סופטפון (טלפון תוכנה)
+    rt3_phone_settings=הגדרות טלפון
+    rt3_pin=הצמד
+    rt3_pink=ורוד
+    rt3_play=נגן
+    rt3_position=מיקום
+    rt3_preset=ערכה מוגדרת:
+    rt3_private=וולבורד פרטי
+    rt3_public=וולבורד ציבורי
+    rt3_purple=סגול
+    rt3_qcont=QC
+    rt3_qcontph=QCPH
+    rt3_qualconversions=המרות מוסמכות
+    rt3_queue=תור
+    rt3_queue_inbound=נכנסות
+    rt3_queue_outbound=יוצאות
+    rt3_queue_unknown=לא ידוע
+    rt3_queuemetrics=QueueMetrics
+    rt3_queuemetrics_isdown=QueueMetrics אינו פעיל, מנסה שוב
+    rt3_queuemetrics_isrunning=QueueMetrics פועל שוב, מחבר משתמש מחדש
+    rt3_queues=תור
+    rt3_ready_agents=פנויים
+    rt3_red_alarm=אזעקה אדומה
+    rt3_red_line_limit=מגבלת קו אדום
+    rt3_red_line_text=טקסט קו אדום
+    rt3_register=הרשם
     rt3_register_error=שגיאה ברישום הסופטפון (טלפון תוכנה).
     rt3_register_notset=הגדרת "הרשם" בסופטפון (טלפון תוכנה) חייבת להיות "כן"
     rt3_register_txt=הרשם
     rt3_registered=רשום
-    # 👽 rt3_reorder_views -> Views
-    rt3_reorder_views=?תצוגות
+    rt3_reorder_views=תצוגות
     rt3_retry_now=נסה שוב עכשיו
     rt3_ringing=מצלצל
     rt3_sales=מכירות
-    # 👽 rt3_salesph -> SPH
-    rt3_salesph=?SPH
+    rt3_salesph=SPH
     rt3_save=שמור
-    # 👽 rt3_secondary_color -> Secondary Color
-    rt3_secondary_color=?צבע משני
-    # 👽 rt3_seconds -> seconds
-    rt3_seconds=?שניות
-    # 👽 rt3_security_key -> Visibility key
-    rt3_security_key=?מפתח נראות
-    # 👽 rt3_select_chart -> Select a Chart...
-    rt3_select_chart=?בחר גרף...
-    # 👽 rt3_select_db -> Select a DataBlock...
-    rt3_select_db=?בחר בלוק נתונים...
-    # 👽 rt3_select_wallboard -> Select Wallboard
-    rt3_select_wallboard=?בחר וולבורד
-    # 👽 rt3_send_command -> Ok
-    rt3_send_command=?אישור
-    # 👽 rt3_session_invalid_reconnecting -> Connection issue with Queuemetrics, reconnecting
-    rt3_session_invalid_reconnecting=?בעיית חיבור עם Queuemetrics, מתחבר מחדש
-    # 👽 rt3_size_is -> Size is
-    rt3_size_is=?גודל הוא
-    # 👽 rt3_sla -> SLA
-    rt3_sla=?SLA
-    # 👽 rt3_sla_level -> SLA Level
-    rt3_sla_level=?רמת SLA
-    # 👽 rt3_softphone_displayname -> Display name
-    rt3_softphone_displayname=?שם תצוגה
-    # 👽 rt3_softphone_displayvalue -> Display Value
-    rt3_softphone_displayvalue=?ערך תצוגה
-    # 👽 rt3_softphone_max_interval -> Connection recovery max. interval
-    rt3_softphone_max_interval=?מרווח מקס. שחזור חיבור
-    # 👽 rt3_softphone_min_interval -> Connection recovery min. interval
-    rt3_softphone_min_interval=?מרווח מינ. שחזור חיבור
-    # 👽 rt3_softphone_password -> Password
-    rt3_softphone_password=?סיסמה
-    # 👽 rt3_softphone_realm -> Realm
-    rt3_softphone_realm=?Realm
-    # 👽 rt3_softphone_rtcwebbreaker -> Rtc Web Breaker
-    rt3_softphone_rtcwebbreaker=?מפריע RTC Web
-    # 👽 rt3_softphone_server -> Server
-    rt3_softphone_server=?שרת
-    # 👽 rt3_softphone_sipuri -> Sip URI
-    rt3_softphone_sipuri=?SIP URI
+    rt3_secondary_color=צבע משני
+    rt3_seconds=שניות
+    rt3_security_key=מפתח נראות
+    rt3_select_chart=בחר גרף...
+    rt3_select_db=בחר בלוק נתונים...
+    rt3_select_wallboard=בחר וולבורד
+    rt3_send_command=אישור
+    rt3_session_invalid_reconnecting=בעיית חיבור עם QueueMetrics, מתחבר מחדש
+    rt3_size_is=הגודל הוא
+    rt3_sla=SLA
+    rt3_sla_level=רמת SLA
+    rt3_softphone_displayname=שם תצוגה
+    rt3_softphone_displayvalue=ערך תצוגה
+    rt3_softphone_max_interval=מרווח מקסימלי לשחזור חיבור
+    rt3_softphone_min_interval=מרווח מינימלי לשחזור חיבור
+    rt3_softphone_password=סיסמה
+    rt3_softphone_realm=Realm
+    rt3_softphone_rtcwebbreaker=RTC Web Breaker
+    rt3_softphone_server=שרת
+    rt3_softphone_sipuri=SIP URI
     rt3_softphone_status_info_registered=סופטפון (טלפון תוכנה) רשום
     rt3_softphone_status_info_unregistered=סופטפון (טלפון תוכנה) לא רשום
     rt3_softphone_status_title=סופטפון (טלפון תוכנה) WebRTC
-    # 👽 rt3_softphone_timeout -> No answer timeout
-    rt3_softphone_timeout=?פסק זמן ללא מענה
-    # 👽 rt3_softphone_username -> Username
-    rt3_softphone_username=?שם משתמש
-    # 👽 rt3_softphone_websocketurl -> Web Socket URL
-    rt3_softphone_websocketurl=?כתובת URL של Web Socket
-    # 👽 rt3_status -> Status
-    rt3_status=?סטטוס
-    # 👽 rt3_stop -> Stop
-    rt3_stop=?עצור
-    # 👽 rt3_table_agentandoutcome -> Agent And Outcome
-    rt3_table_agentandoutcome=?נציג ותוצאה
-    # 👽 rt3_table_aggrbyqueue -> Aggregated By Queue
-    rt3_table_aggrbyqueue=?מאוגד לפי תור
-    # 👽 rt3_table_aggrbytag -> Aggregated By Tag
-    rt3_table_aggrbytag=?מאוגד לפי תגית
-    # 👽 rt3_table_lastattempts -> Last attempts
-    rt3_table_lastattempts=?ניסיונות אחרונים
-    # 👽 rt3_table_live_agents -> Live Agents
-    rt3_table_live_agents=?נציגים זמן אמת
-    # 👽 rt3_table_live_calls -> Live Calls
-    rt3_table_live_calls=?שיחות זמן אמת
-    # 👽 rt3_table_live_queues -> Live Queues
-    rt3_table_live_queues=?תורים זמן אמת
-    # 👽 rt3_table_raw -> Raw Data
-    rt3_table_raw=?נתונים גולמיים
-    # 👽 rt3_taken -> Taken
-    rt3_taken=?נלקח
-    # 👽 rt3_taken_alarm_red -> Taken Red Alarm
-    rt3_taken_alarm_red=?נלקח - אזעקה אדומה
-    # 👽 rt3_taken_alarm_yel -> Taken Yellow Alarm
-    rt3_taken_alarm_yel=?נלקח - אזעקה צהובה
-    # 👽 rt3_talk_red_alarm -> Talk Red Alarm
-    rt3_talk_red_alarm=?דיבור - אזעקה אדומה
-    # 👽 rt3_talk_time -> Talk
-    rt3_talk_time=?דיבור
-    # 👽 rt3_talk_yellow_alarm -> Talk Yellow Alarm
-    rt3_talk_yellow_alarm=?דיבור - אזעקה צהובה
-    # 👽 rt3_talking -> Talk
-    rt3_talking=?דיבור
-    # 👽 rt3_text -> Text
-    rt3_text=?טקסט
-    # 👽 rt3_text_area_placeholder -> Insert text here
-    rt3_text_area_placeholder=?הכנס טקסט כאן
-    # 👽 rt3_title -> Title
-    rt3_title=?כותרת
-    # 👽 rt3_tot_talk -> Tot. Talk
-    rt3_tot_talk=?סה"כ דיבור
-    # 👽 rt3_total -> Total
-    rt3_total=?סה"כ
-    # 👽 rt3_tottalk_alarm_red -> Tot. Talk Red Alarm
-    rt3_tottalk_alarm_red=?סה"כ דיבור - אזעקה אדומה
-    # 👽 rt3_tottalk_alarm_yel -> Tot. Talk Yellow Alarm
-    rt3_tottalk_alarm_yel=?סה"כ דיבור - אזעקה צהובה
-    # 👽 rt3_unhold -> Unhold
-    rt3_unhold=?הוצא מהמתנה
-    # 👽 rt3_unknown -> Unknown
-    rt3_unknown=?לא ידוע
-    # 👽 rt3_unpin -> Unpin
-    rt3_unpin=?בטל הצמדה
-    # 👽 rt3_unregister -> Unregister
-    rt3_unregister=?בטל רישום
-    # 👽 rt3_unregister_txt -> Unregister
-    rt3_unregister_txt=?בטל רישום
-    # 👽 rt3_unregistered -> Unregistered
-    rt3_unregistered=?לא רשום
-    # 👽 rt3_up -> Move up
-    rt3_up=?הזז למעלה
-    # 👽 rt3_url -> Url
-    rt3_url=?כתובת URL
-    # 👽 rt3_url_copied -> Shareable URL copied to clipboard
-    rt3_url_copied=?כתובת URL ניתנת לשיתוף הועתקה ללוח
-    # 👽 rt3_user_prefs_saved -> The user preferences have been saved
-    rt3_user_prefs_saved=?העדפות המשתמש נשמרו
-    # 👽 rt3_user_session_invalid -> User session is invalid, please log-in again.
-    rt3_user_session_invalid=?הפעלת משתמש לא חוקית, אנא התחבר שוב.
-    # 👽 rt3_value_not_allowed_anymore -> This value is not allowed anymore
-    rt3_value_not_allowed_anymore=?ערך זה אינו מותר יותר
-    # 👽 rt3_view -> View
-    rt3_view=?תצוגה
-    # 👽 rt3_views_list -> Views list
-    rt3_views_list=?רשימת תצוגות
-    # 👽 rt3_wait_alarm_red -> Wait Red Alarm
-    rt3_wait_alarm_red=?המתנה - אזעקה אדומה
-    # 👽 rt3_wait_alarm_yel -> Wait Yellow Alarm
-    rt3_wait_alarm_yel=?המתנה - אזעקה צהובה
-    # 👽 rt3_wait_red_alarm -> Wait Red Alarm
-    rt3_wait_red_alarm=?המתנה - אזעקה אדומה
-    # 👽 rt3_wait_time -> Wait
-    rt3_wait_time=?המתנה
-    # 👽 rt3_wait_yellow_alarm -> Wait Yellow Alarm
-    rt3_wait_yellow_alarm=?המתנה - אזעקה צהובה
-    # 👽 rt3_waiting -> Wait
-    rt3_waiting=?המתנה
-    # 👽 rt3_wallboard_num -> Wallboard configuration
-    rt3_wallboard_num=?הגדרות וולבורד
-    # 👽 rt3_wallboard_saved -> Wallboard saved
-    rt3_wallboard_saved=?וולבורד נשמר
-    # 👽 rt3_widget -> Widget:
-    rt3_widget=?ווידג'ט:
-    # 👽 rt3_widget_added -> Widget added
-    rt3_widget_added=?ווידג'ט נוסף
-    # 👽 rt3_widget_cloned -> Widget cloned
-    rt3_widget_cloned=?ווידג'ט שוכפל
-    # 👽 rt3_widget_removed -> Widget removed
-    rt3_widget_removed=?ווידג'ט הוסר
-    # 👽 rt3_widget_updated -> Widget updated
-    rt3_widget_updated=?ווידג'ט עודכן
-    # 👽 rt3_yellow_alarm -> Yellow Alarm
-    rt3_yellow_alarm=?אזעקה צהובה
-    # 👽 rt3_yellow_line_limit -> Yellow Line Limit
-    rt3_yellow_line_limit=?מגבלת קו צהוב
-    # 👽 rt3_yellow_line_text -> Yellow Line Text
-    rt3_yellow_line_text=?טקסט קו צהוב
-
+    rt3_softphone_timeout=פסק זמן ללא מענה
+    rt3_softphone_username=שם משתמש
+    rt3_softphone_websocketurl=כתובת URL של Web Socket
+    rt3_status=סטטוס
+    rt3_stop=עצור
+    rt3_table_agentandoutcome=נציג ותוצאה
+    rt3_table_aggrbyqueue=מאוגד לפי תור
+    rt3_table_aggrbytag=מאוגד לפי תגית
+    rt3_table_lastattempts=ניסיונות אחרונים
+    rt3_table_live_agents=נציגים בזמן אמת
+    rt3_table_live_calls=שיחות בזמן אמת
+    rt3_table_live_queues=תורים בזמן אמת
+    rt3_table_raw=נתונים גולמיים
+    rt3_taken=נלקחו
+    rt3_taken_alarm_red=נלקחו - אזעקה אדומה
+    rt3_taken_alarm_yel=נלקחו - אזעקה צהובה
+    rt3_talk_red_alarm=דיבור - אזעקה אדומה
+    rt3_talk_time=דיבור
+    rt3_talk_yellow_alarm=דיבור - אזעקה צהובה
+    rt3_talking=דיבור
+    rt3_text=טקסט
+    rt3_text_area_placeholder=הכנס טקסט כאן
+    rt3_title=כותרת
+    rt3_tot_talk=סה"כ דיבור
+    rt3_total=סה"כ
+    rt3_tottalk_alarm_red=סה"כ דיבור - אזעקה אדומה
+    rt3_tottalk_alarm_yel=סה"כ דיבור - אזעקה צהובה
+    rt3_unhold=הוצא מהמתנה
+    rt3_unknown=לא ידוע
+    rt3_unpin=בטל הצמדה
+    rt3_unregister=בטל רישום
+    rt3_unregister_txt=בטל רישום
+    rt3_unregistered=לא רשום
+    rt3_up=הזז למעלה
+    rt3_url=כתובת URL
+    rt3_url_copied=כתובת ה-URL לשיתוף הועתקה ללוח
+    rt3_user_prefs_saved=העדפות המשתמש נשמרו
+    rt3_user_session_invalid=הפעלת המשתמש אינה תקפה, אנא התחבר שוב.
+    rt3_value_not_allowed_anymore=ערך זה אינו מותר יותר
+    rt3_view=תצוגה
+    rt3_views_list=רשימת תצוגות
+    rt3_wait_alarm_red=המתנה - אזעקה אדומה
+    rt3_wait_alarm_yel=המתנה - אזעקה צהובה
+    rt3_wait_red_alarm=המתנה - אזעקה אדומה
+    rt3_wait_time=המתנה
+    rt3_wait_yellow_alarm=המתנה - אזעקה צהובה
+    rt3_waiting=המתנה
+    rt3_wallboard_num=הגדרות וולבורד
+    rt3_wallboard_saved=וולבורד נשמר
+    rt3_widget=ווידג'ט:
+    rt3_widget_added=ווידג'ט נוסף
+    rt3_widget_cloned=ווידג'ט שוכפל
+    rt3_widget_removed=ווידג'ט הוסר
+    rt3_widget_updated=ווידג'ט עודכן
+    rt3_yellow_alarm=אזעקה צהובה
+    rt3_yellow_line_limit=מגבלת קו צהוב
+    rt3_yellow_line_text=טקסט קו צהוב
+    
 ## Agent page
 
     pgag_addmember=הצטרף לתור
@@ -3156,531 +2833,276 @@ Used for data blocks Overview by Agent/Queue
 
 Description of configuration properties
 
-    # 👽 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
-    propedit_agent_max_qap_calls_desc=?מקסימום שיחות יומיות המוצגות לנציגים
-    # 👽 propedit_category_agentpage -> Agent's page
-    propedit_category_agentpage=?דף נציג
-    # 👽 propedit_category_engine -> Calculation engine
-    propedit_category_engine=?מנוע חישוב
-    # 👽 propedit_category_misc -> Uncategorized
-    propedit_category_misc=?לא מקוטלג
-    # 👽 propedit_category_platformactions -> Platform Actions:
-    propedit_category_platformactions=?פעולות פלטפורמה:
-    # 👽 propedit_category_platformdialer -> Platform Dialer:
-    propedit_category_platformdialer=?חייגן פלטפורמה:
-    # 👽 propedit_category_qa -> Quality Assessment
-    propedit_category_qa=?הערכת איכות
-    # 👽 propedit_category_realtime -> Realtime page
-    propedit_category_realtime=?דף זמן אמת
+   propedit_agent_max_qap_calls_desc=מקסימום שיחות יומיות המוצגות לנציגים
+    propedit_category_agentpage=דף נציג
+    propedit_category_engine=מנוע חישוב
+    propedit_category_misc=לא מקוטלג
+    propedit_category_platformactions=פעולות פלטפורמה:
+    propedit_category_platformdialer=חייגן פלטפורמה:
+    propedit_category_qa=הערכת איכות
+    propedit_category_realtime=דף זמן אמת
     propedit_category_softphone=סופטפון (טלפון תוכנה) WebRTC
-    # 👽 propedit_category_synchronizer -> Synchronizer
-    propedit_category_synchronizer=?מסנכרן
-    # 👽 propedit_edit_label -> Edit
-    propedit_edit_label=?ערוך
-    # 👽 propedit_explore_label -> Explore
-    propedit_explore_label=?חקור
-    # 👽 propedit_feature_agent_amo -> AMO
-    propedit_feature_agent_amo=?AMO
-    # 👽 propedit_feature_ap_backg -> Optional backgrounds
-    propedit_feature_ap_backg=?רקעים אופציונליים
-    # 👽 propedit_feature_ap_login_out -> Login and logout
-    propedit_feature_ap_login_out=?התחברות והתנתקות
-    # 👽 propedit_feature_ap_other -> Uncategorized
-    propedit_feature_ap_other=?לא מקוטלג
-    # 👽 propedit_feature_autoopenurl -> Background refresh
-    propedit_feature_autoopenurl=?רענון רקע
-    # 👽 propedit_feature_engine_audit -> Auditing
-    propedit_feature_engine_audit=?ביקורת
-    # 👽 propedit_feature_engine_other -> Uncategorized
-    propedit_feature_engine_other=?לא מקוטלג
-    # 👽 propedit_feature_engine_shortcalls -> Short Calls
-    propedit_feature_engine_shortcalls=?שיחות קצרות
-    # 👽 propedit_feature_engine_sla -> SLA
-    propedit_feature_engine_sla=?SLA
-    # 👽 propedit_feature_misc_export -> Report export
-    propedit_feature_misc_export=?ייצוא דוח
-    # 👽 propedit_feature_misc_other -> Other parameters
-    propedit_feature_misc_other=?פרמטרים אחרים
-    # 👽 propedit_feature_misc_system -> System parameters
-    propedit_feature_misc_system=?פרמטרים מערכתיים
-    # 👽 propedit_feature_platformactions_directami -> DirectAMI
-    propedit_feature_platformactions_directami=?DirectAMI
-    # 👽 propedit_feature_platformactions_enswitch -> Enswitch
-    propedit_feature_platformactions_enswitch=?Enswitch
-    # 👽 propedit_feature_platformactions_jsonapi -> The JSON API Platform
-    propedit_feature_platformactions_jsonapi=?פלטפורמת ה-JSON API
-    # 👽 propedit_feature_platformactions_settings -> General Settings
-    propedit_feature_platformactions_settings=?הגדרות כלליות
-    # 👽 propedit_feature_platformdialer_directami -> DirectAMI
-    propedit_feature_platformdialer_directami=?DirectAMI
-    # 👽 propedit_feature_platformdialer_settings -> General Settings
-    propedit_feature_platformdialer_settings=?הגדרות כלליות
-    # 👽 propedit_feature_rtmisc -> Other realtime parameters
-    propedit_feature_rtmisc=?פרמטרים נוספים בזמן אמת
-    # 👽 propedit_feature_rtpanels -> Realtime panels
-    propedit_feature_rtpanels=?פאנלים בזמן אמת
+    propedit_category_synchronizer=מסנכרן
+    propedit_edit_label=ערוך
+    propedit_explore_label=חקור
+    propedit_feature_agent_amo=AMO
+    propedit_feature_ap_backg=רקעים אופציונליים
+    propedit_feature_ap_login_out=התחברות והתנתקות
+    propedit_feature_ap_other=לא מקוטלג
+    propedit_feature_autoopenurl=רענון רקע
+    propedit_feature_engine_audit=ביקורת
+    propedit_feature_engine_other=לא מקוטלג
+    propedit_feature_engine_shortcalls=שיחות קצרות
+    propedit_feature_engine_sla=SLA
+    propedit_feature_misc_export=ייצוא דו"ח
+    propedit_feature_misc_other=פרמטרים אחרים
+    propedit_feature_misc_system=פרמטרים מערכתיים
+    propedit_feature_platformactions_directami=DirectAMI
+    propedit_feature_platformactions_enswitch=Enswitch
+    propedit_feature_platformactions_jsonapi=פלטפורמת ה-JSON API
+    propedit_feature_platformactions_settings=הגדרות כלליות
+    propedit_feature_platformdialer_directami=DirectAMI
+    propedit_feature_platformdialer_settings=הגדרות כלליות
+    propedit_feature_rtmisc=פרמטרים נוספים בזמן אמת
+    propedit_feature_rtpanels=פאנלים בזמן אמת
     propedit_feature_softphone_defaults=ברירות מחדל גלובליות של סופטפון (טלפון תוכנה)
     propedit_feature_softphone_settings=הגדרות סופטפון (טלפון תוכנה) בדף נציג
-    # 👽 propedit_feature_synchronizer_settings -> Synchronizer Settings
-    propedit_feature_synchronizer_settings=?הגדרות מסנכרן
+    propedit_feature_synchronizer_settings=הגדרות מסנכרן
     propedit_feature_wallboard=וולבורד
     propedit_feature_wbsoftphone_settings=הגדרות סופטפון (טלפון תוכנה) בוולבורד
-    # 👽 propedit_key_agent_background_desc -> URL of the agent page background.
-    propedit_key_agent_background_desc=?כתובת URL של רקע דף הנציג.
-    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
-    propedit_key_agent_leaveAllQueuesOnLogoff_desc=?סוכנים יתנתקו אוטומטית מכל התורים בעת יציאה
-    # 👽 propedit_key_agent_outcome_size -> Maximum height of outcome selection list
-    propedit_key_agent_outcome_size=?גובה מרבי של רשימת בחירת תוצאה
-    # 👽 propedit_key_agent_pause_dialout -> Disable agents dial out when they are on pause
-    propedit_key_agent_pause_dialout=?השבת חיוג יוצא של נציגים כשהם בהפסקה
-    # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
-    propedit_key_agent_qap_cached_for_ms_desc=?זמן שמירה מקסימלי מותר לדף הנציג
-    # 👽 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    propedit_key_amo_placed_call_timeout=?פסק זמן מיחזור AMO
+    propedit_key_agent_background_desc=כתובת URL של רקע דף הנציג.
+    propedit_key_agent_leaveAllQueuesOnLogoff_desc=נציגים יתנתקו אוטומטית מכל התורים בעת יציאה
+    propedit_key_agent_outcome_size=גובה מרבי של רשימת בחירת תוצאה
+    propedit_key_agent_pause_dialout=השבת חיוג יוצא של נציגים כשהם בהפסקה
+    propedit_key_agent_qap_cached_for_ms_desc=זמן שמירה מקסימלי מותר לדף הנציג
+    propedit_key_amo_placed_call_timeout=פסק זמן מיחזור AMO
     propedit_key_answer_src=צליל מענה של הסופטפון (טלפון תוכנה) (URL)
-    # 👽 propedit_key_atxfer -> Attended Transfer Feature Code
-    propedit_key_atxfer=?קוד תכונה להעברה מודרכת
-    # 👽 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
-    propedit_key_atxferabort=?קוד תכונה לביטול העברה מודרכת
-    # 👽 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
-    propedit_key_atxfercomplete=?קוד תכונה להשלמת העברה מודרכת
-    # 👽 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
-    propedit_key_atxferswap=?קוד תכונה להחלפת העברה מודרכת
-    # 👽 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
-    propedit_key_atxferthreeway=?קוד תכונה לצירוף העברה מודרכת
-    # 👽 propedit_key_audio_html5player_desc -> Use the HTML5 audio player
-    propedit_key_audio_html5player_desc=?השתמש בנגן שמע HTML5
-    # 👽 propedit_key_audit_log_days -> How many days of logs to preserve during an Audit Log Cleanup
-    propedit_key_audit_log_days=?כמה ימי יומני ביקורת לשמור במהלך ניקוי יומן ביקורת
-    # 👽 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
-    propedit_key_audit_max_report_time=?משך דוח מקסימלי שאינו דורש ביקורת
-    # 👽 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
-    propedit_key_audit_max_rows_fetched=?מספר שורות מקסימלי שנבדקו שאינן דורשות ביקורת
-    # 👽 propedit_key_blindxfer -> Blind Transfer Feature Code
-    propedit_key_blindxfer=?קוד תכונה להעברה עיוורת
-    # 👽 propedit_key_cronjobs_localwebapp -> Base Url for Scheduled Jobs Execution
-    propedit_key_cronjobs_localwebapp=?כתובת בסיסית ליישום אינטרנט עבור ביצוע משימות מתוזמנות
-    # 👽 propedit_key_decodeknownnumbers -> Decode known numbers
-    propedit_key_decodeknownnumbers=?פענוח מספרים ידועים
-    # 👽 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
-    propedit_key_default_agentcanamendpause_desc=?אם מאפיין זה מוגדר ל"כן", נציגים יכולים לשנות את קוד ההפסקה הנוכחי, ולשנות אותו רטרואקטיבית (מה שיגרום לכך שקוד ההפסקה החדש יופיע בדוחות במקום הישן, עבור ההפסקה הנוכחית). אם מוגדר ל"לא", כאשר נציגים משנים קוד הפסקה, זה יסיים אוטומטית את ההפסקה הנוכחית ויתחיל חדשה עם הקוד החדש.
-    # 👽 propedit_key_default_alwaysLogonUnpaused_desc -> When an agent logs on, he will always be unpaused
-    propedit_key_default_alwaysLogonUnpaused_desc=?כאשר נציג מתחבר, הוא תמיד יהיה לא מושהה
-    # 👽 propedit_key_default_areacode_digits_desc -> How many digits to consider as a default area code
-    propedit_key_default_areacode_digits_desc=?כמה ספרות נחשבות כקידומת ברירת מחדל
-    # 👽 propedit_key_default_callstatustimeout_desc -> Time window (in seconds) within which the agent can set a call outcome (defaults to 30 min).
-    propedit_key_default_callstatustimeout_desc=?חלון זמן (בשניות) שבתוכו הנציג יכול להגדיר תוצאת שיחה (ברירת מחדל ל-30 דקות).
-    # 👽 propedit_key_default_closeDuration_desc -> The default length of a manually-closed call
-    propedit_key_default_closeDuration_desc=?אורך ברירת המחדל של שיחה שנסגרה ידנית
-    # 👽 propedit_key_default_considerIncompletetEntities_desc -> Count sessions and calls not complete yet for the main analysis?
-    propedit_key_default_considerIncompletetEntities_desc=?האם לכלול הפעלות ושיחות שטרם הושלמו בניתוח הראשי?
-    # 👽 propedit_key_default_crmapp_desc -> URL (can have dynamic tags, see user's manual)
-    propedit_key_default_crmapp_desc=?כתובת URL (יכולה לכלול תגיות דינמיות, ראה מדריך למשתמש)
-    # 👽 propedit_key_default_crmlabel_desc -> Label shown in the Icon page menu
-    propedit_key_default_crmlabel_desc=?תווית המוצגת בתפריט דף האייקון
-    # 👽 propedit_key_default_decimalDigits_desc -> Number of digits to display for floating-point numbers
-    propedit_key_default_decimalDigits_desc=?מספר ספרות להצגה עבור מספרים עשרוניים
-    # 👽 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
-    propedit_key_default_effectiveCallThresold_desc=?אורך מינימלי של שיחה כדי להיחשב יעילה
-    # 👽 propedit_key_default_export_orientation_desc -> PDF direct exported reports orientation
-    propedit_key_default_export_orientation_desc=?כיוון דוחות PDF המיוצאים ישירות
-    # 👽 propedit_key_default_export_orientation_landscape_desc -> Landscape
-    propedit_key_default_export_orientation_landscape_desc=?לרוחב
-    # 👽 propedit_key_default_export_orientation_portrait_desc -> Portrait
-    propedit_key_default_export_orientation_portrait_desc=?לאורך
-    # 👽 propedit_key_default_groupingmargin_desc -> Time margin (in hours) to include different calls in the same cluster
-    propedit_key_default_groupingmargin_desc=?מרווח זמן (בשעות) לכלול שיחות שונות באותו אשכול
-    # 👽 propedit_key_default_hotdesking_desc -> If set to something different than 0 enables the hotdesking
-    propedit_key_default_hotdesking_desc=?אם מוגדר לערך שונה מ-0, מאפשר Hotdesking
-    # 👽 propedit_key_default_hourly_slot_desc -> How long is an hour for hourly breakdown
-    propedit_key_default_hourly_slot_desc=?כמה זמן היא שעה לפי פירוט שעתי
-    # 👽 propedit_key_default_ignoreQueueStarts_desc -> Ignore QUEUESTART statements
-    propedit_key_default_ignoreQueueStarts_desc=?התעלם מהצהרות QUEUESTART
-    # 👽 propedit_key_default_joinMultiStintCalls_desc -> Join multi-stint calls
-    propedit_key_default_joinMultiStintCalls_desc=?צרף שיחות מרובות קטעים
-    # 👽 propedit_key_default_lockedAgentPopupCode_desc -> Can users change their code in the login/logoff/pause popups?
-    propedit_key_default_lockedAgentPopupCode_desc=?האם משתמשים יכולים לשנות את הקוד שלהם בחלונות קופצים של התחברות/התנתקות/הפסקה?
-    # 👽 propedit_key_default_maxOngoingTalkTime_desc -> If an ongoing call has a talk time that exceeds this value, drop it. 0: ignore
-    propedit_key_default_maxOngoingTalkTime_desc=?אם לשיחה מתמשכת יש זמן דיבור העולה על ערך זה, בטל אותה. 0: התעלם
-    # 👽 propedit_key_default_maxOngoingWaitTime_desc -> If an ongoing call has a wait time that exceeds this value, drop it. 0: ignore
-    propedit_key_default_maxOngoingWaitTime_desc=?אם לשיחה מתמשכת יש זמן המתנה העולה על ערך זה, בטל אותה. 0: התעלם
-    # 👽 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
-    propedit_key_default_maxrowspdf_desc=?מספר שורות מקסימלי לטבלה בעת ייצוא דוח בפורמט PDF.
-    # 👽 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
-    propedit_key_default_maxrowsxls_desc=?מספר שורות מקסימלי לטבלה בעת ייצוא דוח בפורמט XLS. זכור שמספר השורות המקסימלי בדף XLS אינו יכול לעלות על 65435.
-    # 👽 propedit_key_default_openUrlInPopup_desc -> Open CRM in a separate window (do not embed in Icon)
-    propedit_key_default_openUrlInPopup_desc=?פתח CRM בחלון נפרד (אל תשבץ באייקון)
-    # 👽 propedit_key_default_pausecoderequired_desc -> If set to true, agents are required to provide a valid pause reason
-    propedit_key_default_pausecoderequired_desc=?אם מוגדר ל"אמת", נציגים נדרשים לספק סיבת הפסקה חוקית
-    # 👽 propedit_key_default_queue_desc -> Internal numerical id of the preselected default queue, leave blank for no default queue.
-    propedit_key_default_queue_desc=?מזהה מספרי פנימי של התור הנבחר כברירת מחדל, השאר ריק עבור ללא תור ברירת מחדל.
-    # 👽 propedit_key_default_rewriteLocalChannels_desc -> Rewrites Local/XXX@ext channels in the format Agent/XXX
-    propedit_key_default_rewriteLocalChannels_desc=?שכתב ערוצי Local/XXX@ext לפורמט Agent/XXX
-    # 👽 propedit_key_default_searchQA_byCallDate_calldate_label -> Call date
-    propedit_key_default_searchQA_byCallDate_calldate_label=?תאריך שיחה
-    # 👽 propedit_key_default_searchQA_byCallDate_desc -> QA reports should be calculated by call date or by filling form date
-    propedit_key_default_searchQA_byCallDate_desc=?דוחות QA צריכים להיות מחושבים לפי תאריך שיחה או לפי תאריך מילוי טופס
-    # 👽 propedit_key_default_searchQA_byCallDate_filling_label -> Filling form date
-    propedit_key_default_searchQA_byCallDate_filling_label=?מילוי תאריך טופס
-    # 👽 propedit_key_default_shortcalls_attempts -> How many seconds of ringing time must a call attempt possess, before being included in reports. (-1 means that all call attempts are included regardless of their ringing time).
-    propedit_key_default_shortcalls_attempts=?כמה שניות צלצול צריכה שיחה לכלול, לפני שתכלל בדוחות. (-1 אומר שכל נסיונות השיחה נכללים ללא קשר לזמן הצלצול שלהם).
-    # 👽 propedit_key_default_shortcalls_talk -> How many seconds of talk time must a call possess, before being included in reports. (-1 means that all calls are included regardless of their talk time).
-    propedit_key_default_shortcalls_talk=?כמה שניות דיבור צריכה שיחה לכלול, לפני שתכלל בדוחות. (-1 אומר שכל השיחות נכללות ללא קשר לזמן הדיבור שלהן).
-    # 👽 propedit_key_default_shortcalls_wait -> How many seconds of wait time must a call possess, before being included in reports. (-1 means that all calls are included regardless of their wait time).
-    propedit_key_default_shortcalls_wait=?כמה שניות המתנה צריכה שיחה לכלול, לפני שתכלל בדוחות. (-1 אומר שכל השיחות נכללות ללא קשר לזמן ההמתנה שלהן).
-    propedit_key_default_showLostCallsWhenFiltering_desc=הצגת שיחות שנכשלו
-    # 👽 propedit_key_default_showQueueComposition_desc -> Show the queue composition or just the main queue name
-    propedit_key_default_showQueueComposition_desc=?הצג הרכב תור או רק שם התור הראשי
-    # 👽 propedit_key_default_showSecondsOnTotalCalls_desc -> Show summary report call time in hhmmss format instead of hours
-    propedit_key_default_showSecondsOnTotalCalls_desc=?הצג זמן שיחה בדוח סיכום בפורמט hhmmss במקום שעות
-    # 👽 propedit_key_default_ssarMaxReportPeriod_desc -> Maximum period allowed for a Self Service Agent Report
-    propedit_key_default_ssarMaxReportPeriod_desc=?תקופה מקסימלית מותרת לדוח נציג בשירות עצמי
-    # 👽 propedit_key_default_stripChannelNames_desc -> Do we want to strip channel names after the "-"?
-    propedit_key_default_stripChannelNames_desc=?האם להסיר שמות ערוצים אחרי ה-"-"?
-    # 👽 propedit_key_default_sync_mode_desc -> Choose default synchronizer mode
-    propedit_key_default_sync_mode_desc=?בחר מצב סנכרון ברירת מחדל
-    # 👽 propedit_key_default_sync_reader_desc -> Synchronizer Default Source Reader
-    propedit_key_default_sync_reader_desc=?קורא מקור ברירת מחדל של סנכרון
-    # 👽 propedit_key_default_useRawAgentSessions_desc -> Agent Sessions
-    propedit_key_default_useRawAgentSessions_desc=?הפעלות נציג
-    # 👽 propedit_key_default_useRawAgentSessions_false_desc -> Show only agent sessions with at least one call
-    propedit_key_default_useRawAgentSessions_false_desc=?הצג רק הפעלות נציג עם שיחה אחת לפחות
-    # 👽 propedit_key_default_useRawAgentSessions_true_desc -> Show all agent sessions
-    propedit_key_default_useRawAgentSessions_true_desc=?הצג את כל הפעלות הנציג
-    # 👽 propedit_key_default_viewTechInfo_desc -> Tech Info and DBTest visibility
-    propedit_key_default_viewTechInfo_desc=?נראות מידע טכני ובדיקת מסד נתונים
-    # 👽 propedit_key_default_webloaderpbx_desc -> Activate WebLoaderPBX (UniLoader)
-    propedit_key_default_webloaderpbx_desc=?הפעל WebLoaderPBX (UniLoader)
-    # 👽 propedit_key_default_wombatagentrecall_desc -> Enable wombat's agent recall service
-    propedit_key_default_wombatagentrecall_desc=?אפשר שירות התקשרות חוזרת של WombatDialer
+    propedit_key_atxfer=קוד מאפיין להעברה מודרכת
+    propedit_key_atxferabort=קוד מאפיין לביטול העברה מודרכת
+    propedit_key_atxfercomplete=קוד מאפיין להשלמת העברה מודרכת
+    propedit_key_atxferswap=קוד מאפיין להחלפת שיחה בהעברה מודרכת
+    propedit_key_atxferthreeway=קוד מאפיין להעברה מודרכת תלת-צדדית
+    propedit_key_audio_html5player_desc=השתמש בנגן השמע HTML5
+    propedit_key_audit_log_days=כמה ימים של יומני ביקורת לשמר במהלך ניקוי יומן הביקורת
+    propedit_key_audit_max_report_time=משך דו"ח מקסימלי שאינו דורש ביקורת
+    propedit_key_audit_max_rows_fetched=מספר שורות מקסימלי שנסרק שאינו דורש ביקורת
+    propedit_key_blindxfer=קוד מאפיין להעברה עיוורת
+    propedit_key_cronjobs_localwebapp=כתובת בסיס ליישום אינטרנט עבור ביצוע משימות מתוזמנות
+    propedit_key_decodeknownnumbers=פענוח מספרים ידועים
+    propedit_key_default_agentcanamendpause_desc=אם מאפיין זה מוגדר ל"כן", נציגים יכולים לשנות את קוד ההפסקה הנוכחי, ולעדכן אותו רטרואקטיבית (כך שקוד ההפסקה החדש יופיע בדו"חות במקום הישן, עבור ההפסקה הנוכחית). אם מוגדר ל"לא", כאשר נציגים משנים קוד הפסקה, ההפסקה הנוכחית מסתיימת אוטומטית ומתחילה חדשה עם הקוד החדש.
+    propedit_key_default_alwaysLogonUnpaused_desc=כאשר נציג מתחבר, הוא תמיד יהיה לא בהפסקה
+    propedit_key_default_areacode_digits_desc=כמה ספרות להחשיב כקידומת אזורית ברירת מחדל
+    propedit_key_default_callstatustimeout_desc=חלון זמן (בשניות) שבתוכו הנציג יכול להגדיר תוצאת שיחה (ברירת המחדל היא 30 דקות).
+    propedit_key_default_closeDuration_desc=אורך ברירת המחדל של שיחה שנסגרה ידנית
+    propedit_key_default_considerIncompletetEntities_desc=האם לכלול הפעלות ושיחות שטרם הושלמו בניתוח הראשי?
+    propedit_key_default_crmapp_desc=כתובת URL (יכולה לכלול תגיות דינמיות, ראה מדריך למשתמש)
+    propedit_key_default_crmlabel_desc=תווית המוצגת בתפריט דף האייקון
+    propedit_key_default_decimalDigits_desc=מספר ספרות להצגה עבור מספרים עשרוניים
+    propedit_key_default_effectiveCallThresold_desc=אורך מינימלי של שיחה כדי להיחשב יעילה
+    propedit_key_default_export_orientation_desc=כיוון דו"חות PDF המיוצאים ישירות
+    propedit_key_default_export_orientation_landscape_desc=לרוחב
+    propedit_key_default_export_orientation_portrait_desc=לאורך
+    propedit_key_default_groupingmargin_desc=מרווח זמן (בשעות) לכלול שיחות שונות באותו אשכול
+    propedit_key_default_hotdesking_desc=אם מוגדר לערך שונה מ-0, מאפשר Hotdesking
+    propedit_key_default_hourly_slot_desc=אורך השעה לצורך פירוט שעתי
+    propedit_key_default_ignoreQueueStarts_desc=התעלם מהצהרות QUEUESTART
+    propedit_key_default_joinMultiStintCalls_desc=צרף קטעי שיחה
+    propedit_key_default_lockedAgentPopupCode_desc=האם משתמשים יכולים לשנות את הקוד שלהם בחלונות הקופצים של התחברות/התנתקות/הפסקה?
+    propedit_key_default_maxOngoingTalkTime_desc=אם לשיחה מתמשכת יש זמן דיבור העולה על ערך זה, בטל אותה. 0: התעלם
+    propedit_key_default_maxOngoingWaitTime_desc=אם לשיחה מתמשכת יש זמן המתנה העולה על ערך זה, בטל אותה. 0: התעלם
+    propedit_key_default_maxrowspdf_desc=מספר שורות מקסימלי לטבלה בעת ייצוא דו"ח בפורמט PDF.
+    propedit_key_default_maxrowsxls_desc=מספר שורות מקסימלי לטבלה בעת ייצוא דו"ח בפורמט XLS. שים לב שמספר השורות המקסימלי בדף XLS אינו יכול לעלות על 65435.
+    propedit_key_default_openUrlInPopup_desc=פתח CRM בחלון נפרד (אל תשבץ באייקון)
+    propedit_key_default_pausecoderequired_desc=אם מוגדר ל-True, נציגים נדרשים לספק סיבת הפסקה חוקית
+    propedit_key_default_queue_desc=מזהה מספרי פנימי של תור ברירת המחדל הנבחר מראש, השאר ריק עבור ללא תור ברירת מחדל.
+    propedit_key_default_rewriteLocalChannels_desc=שכתב ערוצי Local/XXX@ext לפורמט Agent/XXX
+    propedit_key_default_searchQA_byCallDate_calldate_label=תאריך שיחה
+    propedit_key_default_searchQA_byCallDate_desc=האם דו"חות QA יחושבו לפי תאריך שיחה או לפי תאריך מילוי הטופס
+    propedit_key_default_searchQA_byCallDate_filling_label=תאריך מילוי טופס
+    propedit_key_default_shortcalls_attempts=כמה שניות צלצול חייבת שיחה לכלול כדי להיכלל בדו"חות. (-1 משמעו שכל ניסיונות השיחה נכללים ללא קשר לזמן הצלצול שלהם).
+    propedit_key_default_shortcalls_talk=כמה שניות דיבור חייבת שיחה לכלול כדי להיכלל בדו"חות. (-1 משמעו שכל השיחות נכללות ללא קשר לזמן הדיבור שלהן).
+    propedit_key_default_shortcalls_wait=כמה שניות המתנה חייבת שיחה לכלול כדי להיכלל בדו"חות. (-1 משמעו שכל השיחות נכללות ללא קשר לזמן ההמתנה שלהן).
+    propedit_key_default_showLostCallsWhenFiltering_desc=הצגת שיחות שננטשו
+    propedit_key_default_showQueueComposition_desc=הצג את הרכב התור או רק את שם התור הראשי
+    propedit_key_default_showSecondsOnTotalCalls_desc=הצג זמן שיחה בדו"ח הסיכום בפורמט hhmmss במקום שעות
+    propedit_key_default_ssarMaxReportPeriod_desc=תקופה מקסימלית מותרת לדו"ח נציג בשירות עצמי
+    propedit_key_default_stripChannelNames_desc=האם להסיר שמות ערוצים אחרי ה-"-"?
+    propedit_key_default_sync_mode_desc=בחר מצב סנכרון ברירת מחדל
+    propedit_key_default_sync_reader_desc=קורא מקור ברירת מחדל של הסנכרון
+    propedit_key_default_useRawAgentSessions_desc=הפעלות נציג
+    propedit_key_default_useRawAgentSessions_false_desc=הצג רק הפעלות נציג עם שיחה אחת לפחות
+    propedit_key_default_useRawAgentSessions_true_desc=הצג את כל הפעלות הנציג
+    propedit_key_default_viewTechInfo_desc=נראות מידע טכני ובדיקת מסד נתונים
+    propedit_key_default_webloaderpbx_desc=הפעל WebLoaderPBX (UniLoader)
+    propedit_key_default_wombatagentrecall_desc=אפשר שירות התקשרות חוזרת של WombatDialer
     propedit_key_dialtone_src=צליל חיוג של הסופטפון (טלפון תוכנה) (URL)
-    # 👽 propedit_key_directami_agent_desc -> The way an agent channel is supposed to be
-    propedit_key_directami_agent_desc=?איך ערוץ נציג אמור להיות
-    # 👽 propedit_key_directami_cmdseparator_desc -> The separator used for parameters in your Asterisk version. Defaults to comma (",") and should be changed to pipe ("|") for very old Asterisk systems (pre-1.8)
-    propedit_key_directami_cmdseparator_desc=?המפריד המשמש לפרמטרים בגרסת Asterisk שלך. ברירת המחדל היא פסיק (",") ויש לשנות ל-pipe ("|") עבור מערכות Asterisk ישנות מאוד (לפני 1.8)
-    # 👽 propedit_key_directami_extension_desc -> The way an agent extension channel is supposed to be
-    propedit_key_directami_extension_desc=?איך ערוץ שלוחת נציג אמור להיות
-    # 👽 propedit_key_directami_localext_desc -> The channel used for chanspy
-    propedit_key_directami_localext_desc=?הערוץ המשמש ל-chanspy
-    # 👽 propedit_key_directami_optimizedagentchannel_desc -> Is the format of the agent channel when it is live and you want to spy on it. If blank, uses the same physical agent channel, based on the agent code or the extension code  depening on whether you are in hotdesking mode or not. Defaults to blank.
-    propedit_key_directami_optimizedagentchannel_desc=?פורמט ערוץ נציג כשהוא פעיל וברצונך לצותת לו. אם ריק, משתמש באותו ערוץ נציג פיזי, מבוסס על קוד הנציג או קוד השלוחה, תלוי אם אתה במצב HotDesking או לא. ברירת המחדל ריקה.
-    # 👽 propedit_key_directami_outboundenabled_desc -> Whether outbound dialing is enabled
-    propedit_key_directami_outboundenabled_desc=?האם חיוג יוצא מופעל
-    # 👽 propedit_key_directami_outboundstanza_desc -> the point in the dialplan that should be called when doing outbound
-    propedit_key_directami_outboundstanza_desc=?הנקודה בתוכנית החיוג שיש לקרוא בעת חיוג יוצא
-    # 👽 propedit_key_directami_spyoptions_desc -> The options you want to use for the Asterisk application ChanSpy when listening to calls. By changing these options, you can have whispers or barge instead of plain spy.
-    propedit_key_directami_spyoptions_desc=?האפשרויות שברצונך להשתמש בהן עבור יישום Asterisk ChanSpy בעת האזנה לשיחות. על ידי שינוי אפשרויות אלו, ניתן ללחוש או לפרוץ במקום ציתות רגיל.
-    # 👽 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
-    propedit_key_directami_stateinterface_desc=?ממשק מצב עבור הנציג שלנו. אם ריק, לא מתווסף.
-    # 👽 propedit_key_directami_trackerdialout_desc -> The extension and context we connect to when dialing out
-    propedit_key_directami_trackerdialout_desc=?השלוחה וההקשר שאנו מתחברים אליהם בעת חיוג יוצא
-    # 👽 propedit_key_directami_transfer_desc -> The transfer destination, in the form ext@context
-    propedit_key_directami_transfer_desc=?יעד העברה, בפורמט שלוחה@הקשר
-    # 👽 propedit_key_directami_usetracker_desc -> Do we use the Uniloader Tracker for outbound?
-    propedit_key_directami_usetracker_desc=?האם אנו משתמשים ב-Uniloader Tracker עבור שיחות יוצאות?
-    # 👽 propedit_key_directami_verbose_desc -> Whether to dump all AMI interactions to the system log (default: false)
-    propedit_key_directami_verbose_desc=?האם לזרוק את כל אינטראקציות AMI ליומן המערכת (ברירת מחדל: False)
-    # 👽 propedit_key_enswitch_bargeprefix_desc -> The default prefix to use to initiate a barge-in (Default: *92)
-    propedit_key_enswitch_bargeprefix_desc=?קידומת ברירת המחדל לשימוש ליזום התפרצות (ברירת מחדל: *92)
-    # 👽 propedit_key_enswitch_baseurl_desc -> Is the main URL for the Enswitch system
-    propedit_key_enswitch_baseurl_desc=?כתובת ה-URL הראשית עבור מערכת Enswitch
-    # 👽 propedit_key_enswitch_guiaddmember_desc -> Whether ADDMEMBER/REMOVEMEMBER actions are available (default: false)
-    propedit_key_enswitch_guiaddmember_desc=?האם פעולות ADDMEMBER/REMOVEMEMBER זמינות (ברירת מחדל: False)
-    # 👽 propedit_key_enswitch_httplogin_desc -> An API user log-in
-    propedit_key_enswitch_httplogin_desc=?כניסת משתמש API
-    # 👽 propedit_key_enswitch_httppassword_desc -> An API user password
-    propedit_key_enswitch_httppassword_desc=?סיסמת משתמש API
-    # 👽 propedit_key_enswitch_lookback_desc -> For how long a recently-closed call should be searched on CDRs (default: 7200 seconds)
-    propedit_key_enswitch_lookback_desc=?כמה זמן יש לחפש שיחה שנסגרה לאחרונה ב-CDRs (ברירת מחדל: 7200 שניות)
-    # 👽 propedit_key_enswitch_qpmain_desc -> The queue priority for an agent being logged in with priority MAIN (default: 8)
-    propedit_key_enswitch_qpmain_desc=?עדיפות תור עבור נציג מחובר בעדיפות MAIN (ברירת מחדל: 8)
-    # 👽 propedit_key_enswitch_qpspill_desc -> The queue priority for an agent being logged in with priority SPILL (default: 4)
-    propedit_key_enswitch_qpspill_desc=?עדיפות תור עבור נציג מחובר בעדיפות SPILL (ברירת מחדל: 4)
-    # 👽 propedit_key_enswitch_qpwrap_desc -> The queue priority for an agent being logged in with priority WRAP (default: 6)
-    propedit_key_enswitch_qpwrap_desc=?עדיפות תור עבור נציג מחובר בעדיפות WRAP (ברירת מחדל: 6)
-    # 👽 propedit_key_enswitch_spyprefix_desc -> The default prefix to use to initiate a chanspy (Default: *91)
-    propedit_key_enswitch_spyprefix_desc=?קידומת ברירת המחדל לשימוש ליזום chanspy (ברירת מחדל: *91)
-    # 👽 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
-    propedit_key_enswitch_verbose_desc=?האם כל אינטראקציות Enswitch יירשמו במלואן ליומן הסטנדרטי (ברירת מחדל: False)
-    # 👽 propedit_key_extrabody -> Extra text in e-mail bodies.
-    propedit_key_extrabody=?טקסט נוסף בגוף מייל.
+    propedit_key_directami_agent_desc=הצורה שבה ערוץ הנציג אמור להיות
+    propedit_key_directami_cmdseparator_desc=המפריד המשמש לפרמטרים בגרסת Asterisk שלך. ברירת המחדל היא פסיק (",") ויש לשנות ל-pipe ("|") עבור מערכות Asterisk ישנות מאוד (לפני 1.8)
+    propedit_key_directami_extension_desc=הצורה שבה ערוץ שלוחת הנציג אמור להיות
+    propedit_key_directami_localext_desc=הערוץ המשמש ל-chanspy
+    propedit_key_directami_optimizedagentchannel_desc=הפורמט של ערוץ הנציג כשהוא פעיל וברצונך לצותת לו. אם ריק, משתמש באותו ערוץ נציג פיזי, מבוסס על קוד הנציג או קוד השלוחה, בהתאם למצב Hotdesking. ברירת המחדל ריקה.
+    propedit_key_directami_outboundenabled_desc=האם חיוג יוצא מופעל
+    propedit_key_directami_outboundstanza_desc=הנקודה בתוכנית החיוג שיש להפעיל בעת חיוג יוצא
+    propedit_key_directami_spyoptions_desc=האפשרויות שברצונך להשתמש בהן עבור יישום Asterisk ChanSpy בעת האזנה לשיחות. על ידי שינוי אפשרויות אלו, ניתן ללחוש או לפרוץ במקום ציתות רגיל.
+    propedit_key_directami_stateinterface_desc=StateInterface עבור הנציג שלנו. אם ריק, לא מתווסף.
+    propedit_key_directami_trackerdialout_desc=השלוחה וההקשר שאליהם אנו מתחברים בעת חיוג יוצא
+    propedit_key_directami_transfer_desc=יעד ההעברה, בפורמט ext@context
+    propedit_key_directami_usetracker_desc=האם אנו משתמשים ב-Uniloader Tracker עבור שיחות יוצאות?
+    propedit_key_directami_verbose_desc=האם לכתוב את כל אינטראקציות AMI ליומן המערכת (ברירת מחדל: False)
+    propedit_key_enswitch_bargeprefix_desc=קידומת ברירת המחדל לשימוש ליזום התפרצות (ברירת מחדל: *92)
+    propedit_key_enswitch_baseurl_desc=כתובת ה-URL הראשית עבור מערכת Enswitch
+    propedit_key_enswitch_guiaddmember_desc=האם פעולות ADDMEMBER/REMOVEMEMBER זמינות (ברירת מחדל: False)
+    propedit_key_enswitch_httplogin_desc=שם משתמש API
+    propedit_key_enswitch_httppassword_desc=סיסמת משתמש API
+    propedit_key_enswitch_lookback_desc=למשך כמה זמן יש לחפש שיחה שנסגרה לאחרונה ב-CDRs (ברירת מחדל: 7200 שניות)
+    propedit_key_enswitch_qpmain_desc=עדיפות תור עבור נציג מחובר בעדיפות MAIN (ברירת מחדל: 8)
+    propedit_key_enswitch_qpspill_desc=עדיפות תור עבור נציג מחובר בעדיפות SPILL (ברירת מחדל: 4)
+    propedit_key_enswitch_qpwrap_desc=עדיפות תור עבור נציג מחובר בעדיפות WRAP (ברירת מחדל: 6)
+    propedit_key_enswitch_spyprefix_desc=קידומת ברירת המחדל לשימוש ליזום chanspy (ברירת מחדל: *91)
+    propedit_key_enswitch_verbose_desc=האם כל אינטראקציות Enswitch יירשמו במלואן ליומן הסטנדרטי (ברירת מחדל: False)
+    propedit_key_extrabody=טקסט נוסף בגוף הודעת מייל.
     propedit_key_hangup_src=צליל ניתוק של הסופטפון (טלפון תוכנה) (URL)
-    # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    propedit_key_hiddennumberpolicy=?מדיניות הסתרת מספרים
-    # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
-    propedit_key_layout_logo_desc=?לוגו החברה שלך (נתיב מלא או יחסי). גודל מקסימלי 200X40 פיקסל, גודל מועדף 150X40 פיקסל
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
-    # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
-    propedit_key_noans_timeout=?זמן (בשניות) שלאחריו שיחה נכנסת נדחית אם לא נענתה. ערך ברירת מחדל הוא 60.
-    # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
-    propedit_key_phone_iceservers=?רשימת שרתי ICE לשימוש.
-    propedit_key_phone_maxsessions=מספר מקס. של הפעלות עבור טלפון סופטפון (טלפון תוכנה) בדף נציג
-    # 👽 propedit_key_phone_websocketurl -> Web Socket URL for the connection.
-    propedit_key_phone_websocketurl=?כתובת URL של Web Socket לחיבור.
-    # 👽 propedit_key_platform_dialer_desc -> Choose the type of dialer to be used
-    propedit_key_platform_dialer_desc=?בחר את סוג החייגן לשימוש
-    # 👽 propedit_key_platform_jsonapi_enabled -> A comma-separated list of actions to offer
-    propedit_key_platform_jsonapi_enabled=?רשימה מופרדת בפסיקים של פעולות להצעה
-    # 👽 propedit_key_platform_jsonapi_method -> Which HTTP method to use
-    propedit_key_platform_jsonapi_method=?באיזו שיטת HTTP להשתמש
-    # 👽 propedit_key_platform_jsonapi_token -> An identification token for this QM system
-    propedit_key_platform_jsonapi_token=?אסימון זיהוי עבור מערכת QM זו
-    # 👽 propedit_key_platform_jsonapi_url -> The HTTP/S URL to send commands to
-    propedit_key_platform_jsonapi_url=?כתובת ה-HTTP/S URL לשליחת פקודות אל
-    # 👽 propedit_key_platform_jsonapi_verbose -> Verbose logging
-    propedit_key_platform_jsonapi_verbose=?רישום מפורט
-    # 👽 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
-    propedit_key_platform_pbx_desc=?בחר את סוג פלטפורמת ה-PBX לשימוש.
-    # 👽 propedit_key_realtime_absolutePauseTimes_desc -> Show absolute agent logon times on the RT page?
-    propedit_key_realtime_absolutePauseTimes_desc=?הצג זמני התחברות נציגים מוחלטים בדף זמן אמת?
-    # 👽 propedit_key_realtime_absolutePauseTimes_fase_desc -> Relative times
-    propedit_key_realtime_absolutePauseTimes_fase_desc=?זמנים יחסיים
-    # 👽 propedit_key_realtime_absolutePauseTimes_true_desc -> Absolute times
-    propedit_key_realtime_absolutePauseTimes_true_desc=?זמנים מוחלטים
-    # 👽 propedit_key_realtime_agentPausedOnLogin_desc -> When logging, pause with the following code
-    propedit_key_realtime_agentPausedOnLogin_desc=?בעת כניסה, השהה עם הקוד הבא
-    # 👽 propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc -> Agent and outcome selector status
-    propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc=?מצב בורר נציג ותוצאה
-    # 👽 propedit_key_realtime_agent_and_outcome_invisible_desc -> Agent and outcome panel selector visibility
-    propedit_key_realtime_agent_and_outcome_invisible_desc=?נראות בורר לוח נציג ותוצאה
-    # 👽 propedit_key_realtime_agent_autoopenurl_desc -> Open an URL each new taken call
-    propedit_key_realtime_agent_autoopenurl_desc=?פתח כתובת URL בכל שיחה נכנסת חדשה
-    # 👽 propedit_key_realtime_agent_show_agaw_desc -> Show AGAW information on the (old) realtime agent page
-    propedit_key_realtime_agent_show_agaw_desc=?הצג מידע AGAW בדף הנציג (הישן) בזמן אמת
-    # 👽 propedit_key_realtime_agent_web1_label -> Label 1 shown in the Icon page menu
-    propedit_key_realtime_agent_web1_label=?תווית 1 המוצגת בתפריט דף הסמל
-    # 👽 propedit_key_realtime_agent_web1_url -> URL 1  (can have dynamic tags, see user's manual)
-    propedit_key_realtime_agent_web1_url=?כתובת URL 1 (יכול לכלול תגיות דינמיות, ראה מדריך למשתמש)
-    # 👽 propedit_key_realtime_agent_web2_label -> Label 2 shown in the Icon page menu
-    propedit_key_realtime_agent_web2_label=?תווית 2 המוצגת בתפריט דף הסמל
-    # 👽 propedit_key_realtime_agent_web2_url -> URL 2 (can have dynamic tags, see user's manual)
-    propedit_key_realtime_agent_web2_url=?כתובת URL 2 (יכול לכלול תגיות דינמיות, ראה מדריך למשתמש)
-    # 👽 propedit_key_realtime_agents_invisible_buttonEnabled_desc -> Agents panel button status
-    propedit_key_realtime_agents_invisible_buttonEnabled_desc=?מצב כפתור לוח נציגים
-    # 👽 propedit_key_realtime_agents_invisible_desc -> Agents panel default visibility
-    propedit_key_realtime_agents_invisible_desc=?נראות ברירת מחדל של לוח נציגים
-    # 👽 propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc -> Aggregated by queue selector status
-    propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc=?מצב בורר מקובץ לפי תור
-    # 👽 propedit_key_realtime_aggr_by_queue_invisible_desc -> Aggregated by queue panel selector visibility
-    propedit_key_realtime_aggr_by_queue_invisible_desc=?נראות בורר לוח מקובץ לפי תור
-    # 👽 propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc -> Aggregated by tag selector status
-    propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc=?מצב בורר מקובץ לפי תגית
-    # 👽 propedit_key_realtime_aggr_by_tag_invisible_desc -> Aggregated by tag panel selector visibility
-    propedit_key_realtime_aggr_by_tag_invisible_desc=?נראות בורר לוח מקובץ לפי תגית
-    # 👽 propedit_key_realtime_ajaxPollingDelay_desc -> Refresh time (in seconds)
-    propedit_key_realtime_ajaxPollingDelay_desc=?זמן רענון (בשניות)
-    # 👽 propedit_key_realtime_all_includes_current_logins_desc -> When logging off from ALL QUEUES, should we include any other Q logged in as well?
-    propedit_key_realtime_all_includes_current_logins_desc=?בעת יציאה מכל התורים, האם לכלול גם תורים אחרים שחובר אליהם?
-    # 👽 propedit_key_realtime_all_subqueues_buttonEnabled_desc -> Subqueue button status
-    propedit_key_realtime_all_subqueues_buttonEnabled_desc=?מצב כפתור תת-תור
-    # 👽 propedit_key_realtime_all_subqueues_desc -> Show of all subqueues
-    propedit_key_realtime_all_subqueues_desc=?הצג את כל תתי התורים
-    # 👽 propedit_key_realtime_assertExtensionNotInUse_desc -> When logging (in hotdesking mode) makes sure the extension is not already in use
-    propedit_key_realtime_assertExtensionNotInUse_desc=?בעת כניסה (במצב hotdesking) מוודא שהשלוחה אינה בשימוש
-    # 👽 propedit_key_realtime_assignedLocationsOnly_desc -> Will the user able to monitor without a given location?
-    propedit_key_realtime_assignedLocationsOnly_desc=?האם המשתמש יוכל לנטר ללא מיקום נתון?
-    # 👽 propedit_key_realtime_autopauseCodeLogin_desc -> Auto login pause code
-    propedit_key_realtime_autopauseCodeLogin_desc=?קוד השהיה אוטומטי בכניסה
-    # 👽 propedit_key_realtime_calls_invisible_buttonEnabled_desc -> Calls panel selector status
-    propedit_key_realtime_calls_invisible_buttonEnabled_desc=?מצב בורר לוח שיחות
-    # 👽 propedit_key_realtime_calls_invisible_desc -> Calls panel selector visibility
-    propedit_key_realtime_calls_invisible_desc=?נראות בורר לוח שיחות
-    # 👽 propedit_key_realtime_dynamicLoginQueues_desc -> Queues the agent can select when logging on
-    propedit_key_realtime_dynamicLoginQueues_desc=?תורים שהנציג יכול לבחור בעת כניסה
-    # 👽 propedit_key_realtime_hideExportButtons_desc -> Export buttons visibility on the Realtime page
-    propedit_key_realtime_hideExportButtons_desc=?נראות כפתורי ייצוא בדף זמן אמת
-    # 👽 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
-    propedit_key_realtime_max_bytes_agent_desc=?קרא עד N שניות בעת ספירת זמן אמת
-    # 👽 propedit_key_realtime_members_only_buttonEnabledd_desc -> 'known' member status
-    propedit_key_realtime_members_only_buttonEnabledd_desc=?סטטוס חבר 'ידוע'
-    # 👽 propedit_key_realtime_members_only_desc -> Show only 'known' member for the queue
-    propedit_key_realtime_members_only_desc=?הצג רק חברים 'ידועים' עבור התור
-    # 👽 propedit_key_realtime_preventLoggedAgentInfoChanges_desc -> Can users change their code and extension if logged on at least one queue?
-    propedit_key_realtime_preventLoggedAgentInfoChanges_desc=?האם משתמשים יכולים לשנות את הקוד והשלוחה שלהם אם הם מחוברים לתור אחד לפחות?
-    # 👽 propedit_key_realtime_refresh_time_desc -> Page refresh time
-    propedit_key_realtime_refresh_time_desc=?זמן רענון דף
-    # 👽 propedit_key_realtime_relative_pause_time -> Show ongoing pause times.
-    propedit_key_realtime_relative_pause_time=?הצג זמני השהיה מתמשכים.
-    # 👽 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
-    propedit_key_realtime_rememberLastExtension_desc=?זכור שלוחה אחרונה של נציג
-    # 👽 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
-    propedit_key_realtime_showAgentPriorityReports_desc=?הצג רמת עדיפות נציג בדוחות.
-    # 👽 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
-    propedit_key_realtime_showAgentPriority_desc=?הצג את עדיפות הנציג בתורים ב"פאנל התחברות לתור".
-    # 👽 propedit_key_realtime_show_incorrect_queue_sets_desc -> Should differences to the expected queue work set be shown?
-    propedit_key_realtime_show_incorrect_queue_sets_desc=?האם להציג הבדלים למערך העבודה הצפוי בתור?
-    # 👽 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
-    propedit_key_realtime_use_new_wb=?הפעל את לוח המחוונים הניתן להתאמה אישית?
-    # 👽 propedit_key_realtime_waitAlarmOnLiveCalls_desc -> Check for alarms on the wait time of ongoing conversations
-    propedit_key_realtime_waitAlarmOnLiveCalls_desc=?בדוק התראות על זמן המתנה של שיחות מתמשכות
-    # 👽 propedit_key_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
-    propedit_key_recovery_max=?מרווח מקסימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ערך ברירת מחדל הוא 30.
-    # 👽 propedit_key_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
-    propedit_key_recovery_min=?מרווח מינימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ערך ברירת מחדל הוא 2.
+    propedit_key_hiddennumberpolicy=מדיניות הסתרת מספרים
+    propedit_key_layout_logo_desc=לוגו החברה שלך (נתיב מלא או יחסי). גודל מקסימלי 200x40 פיקסל, גודל מועדף 150x40 פיקסל
+    propedit_key_maxGatheringTime=מגדיר את הזמן הכולל המקסימלי המותר עבור תהליך איסוף ה-ICE. אם מוגדר ל-0, האופטימיזציה מושבתת.
+    propedit_key_maxPostGatheringTime=משך פסק הזמן הרך המופעל לאחר זיהוי מועמד STUN/TURN הניתן לניתוב.
+    propedit_key_noans_timeout=זמן (בשניות) שלאחריו שיחה נכנסת נדחית אם לא נענתה. ערך ברירת המחדל הוא 60.
+    propedit_key_phone_iceservers=רשימת שרתי ICE לשימוש.
+    propedit_key_phone_maxsessions=מספר מקס. של הפעלות לסופטפון (טלפון תוכנה) בדף הנציג
+    propedit_key_phone_websocketurl=כתובת URL של Web Socket לחיבור.
+    propedit_key_platform_dialer_desc=בחר את סוג החייגן לשימוש
+    propedit_key_platform_jsonapi_enabled=רשימה מופרדת בפסיקים של פעולות להצעה
+    propedit_key_platform_jsonapi_method=באיזו שיטת HTTP להשתמש
+    propedit_key_platform_jsonapi_token=אסימון זיהוי עבור מערכת QM זו
+    propedit_key_platform_jsonapi_url=כתובת ה-HTTP/S URL לשליחת פקודות אליה
+    propedit_key_platform_jsonapi_verbose=רישום מפורט
+    propedit_key_platform_pbx_desc=בחר את סוג פלטפורמת ה-PBX לשימוש.
+    propedit_key_realtime_absolutePauseTimes_desc=הצג זמני התחברות נציגים מוחלטים בדף זמן אמת?
+    propedit_key_realtime_absolutePauseTimes_fase_desc=זמנים יחסיים
+    propedit_key_realtime_absolutePauseTimes_true_desc=זמנים מוחלטים
+    propedit_key_realtime_agentPausedOnLogin_desc=בעת התחברות, הכנס להפסקה עם הקוד הבא
+    propedit_key_realtime_agent_and_outcome_invisible_buttonEnabled_desc=מצב בורר נציג ותוצאה
+    propedit_key_realtime_agent_and_outcome_invisible_desc=נראות בורר לוח נציג ותוצאה
+    propedit_key_realtime_agent_autoopenurl_desc=פתח כתובת URL בכל שיחה חדשה שנלקחת
+    propedit_key_realtime_agent_show_agaw_desc=הצג מידע AGAW בדף הנציג (הישן) בזמן אמת
+    propedit_key_realtime_agent_web1_label=תווית 1 המוצגת בתפריט דף האייקון
+    propedit_key_realtime_agent_web1_url=כתובת URL 1 (יכולה לכלול תגיות דינמיות, ראה מדריך למשתמש)
+    propedit_key_realtime_agent_web2_label=תווית 2 המוצגת בתפריט דף האייקון
+    propedit_key_realtime_agent_web2_url=כתובת URL 2 (יכולה לכלול תגיות דינמיות, ראה מדריך למשתמש)
+    propedit_key_realtime_agents_invisible_buttonEnabled_desc=מצב כפתור לוח הנציגים
+    propedit_key_realtime_agents_invisible_desc=נראות ברירת מחדל של לוח הנציגים
+    propedit_key_realtime_aggr_by_queue_invisible_buttonEnabled_desc=מצב בורר אגרגציה לפי תור
+    propedit_key_realtime_aggr_by_queue_invisible_desc=נראות בורר לוח אגרגציה לפי תור
+    propedit_key_realtime_aggr_by_tag_invisible_buttonEnabled_desc=מצב בורר אגרגציה לפי תגית
+    propedit_key_realtime_aggr_by_tag_invisible_desc=נראות בורר לוח אגרגציה לפי תגית
+    propedit_key_realtime_ajaxPollingDelay_desc=זמן רענון (בשניות)
+    propedit_key_realtime_all_includes_current_logins_desc=בעת התנתקות מ"כל התורים", האם לכלול גם תורים אחרים שאליהם הנציג מחובר?
+    propedit_key_realtime_all_subqueues_buttonEnabled_desc=מצב כפתור תת-תור
+    propedit_key_realtime_all_subqueues_desc=הצג את כל תתי התורים
+    propedit_key_realtime_assertExtensionNotInUse_desc=בעת התחברות (במצב Hotdesking) מוודא שהשלוחה אינה בשימוש
+    propedit_key_realtime_assignedLocationsOnly_desc=האם המשתמש יוכל לנטר ללא מיקום מוגדר?
+    propedit_key_realtime_autopauseCodeLogin_desc=קוד הפסקה אוטומטי בהתחברות
+    propedit_key_realtime_calls_invisible_buttonEnabled_desc=מצב בורר לוח השיחות
+    propedit_key_realtime_calls_invisible_desc=נראות בורר לוח השיחות
+    propedit_key_realtime_dynamicLoginQueues_desc=תורים שהנציג יכול לבחור בעת התחברות
+    propedit_key_realtime_hideExportButtons_desc=נראות כפתורי ייצוא בדף זמן אמת
+    propedit_key_realtime_max_bytes_agent_desc=קרא לאחור עד N שניות בעת ספירת זמן אמת
+    propedit_key_realtime_members_only_buttonEnabledd_desc=סטטוס "חבר ידוע"
+    propedit_key_realtime_members_only_desc=הצג רק חברים "ידועים" עבור התור
+    propedit_key_realtime_preventLoggedAgentInfoChanges_desc=האם משתמשים יכולים לשנות את הקוד והשלוחה שלהם אם הם מחוברים לתור אחד לפחות?
+    propedit_key_realtime_refresh_time_desc=זמן רענון דף
+    propedit_key_realtime_relative_pause_time=הצג זמני הפסקה מתמשכים.
+    propedit_key_realtime_rememberLastExtension_desc=זכור את השלוחה האחרונה של הנציג
+    propedit_key_realtime_showAgentPriorityReports_desc=הצג רמת עדיפות נציג בדו"חות.
+    propedit_key_realtime_showAgentPriority_desc=הצג את עדיפות הנציג בתורים ב"פאנל התחברות לתור".
+    propedit_key_realtime_show_incorrect_queue_sets_desc=האם להציג הבדלים ממערך התורים הצפוי?
+    propedit_key_realtime_use_new_wb=הפעל את הוולבורד הניתן להתאמה אישית?
+    propedit_key_realtime_waitAlarmOnLiveCalls_desc=בדוק התראות על זמן ההמתנה של שיחות מתמשכות
+    propedit_key_recovery_max=מרווח מקסימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ערך ברירת המחדל הוא 30.
+    propedit_key_recovery_min=מרווח מינימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ערך ברירת המחדל הוא 2.
     propedit_key_ringtone_src=צליל צלצול של הסופטפון (טלפון תוכנה) (URL)
-    # 👽 propedit_key_sla_initial_interval_desc -> Interval for the initial part of the SLA
-    propedit_key_sla_initial_interval_desc=?מרווח עבור החלק הראשוני של ה-SLA
-    # 👽 propedit_key_sla_interval_desc -> How big are time intervals for the SLA graph
-    propedit_key_sla_interval_desc=?כמה גדולים מרווחי הזמן עבור גרף ה-SLA
-    # 👽 propedit_key_sla_max_initial_delay_desc -> Initial timeband for SLA calculation
-    propedit_key_sla_max_initial_delay_desc=?טווח זמן ראשוני לחישוב SLA
-    # 👽 propedit_key_sla_max_monitored_delay_desc -> Max delay shown in the SLA graph
-    propedit_key_sla_max_monitored_delay_desc=?עיכוב מקסימלי המוצג בגרף ה-SLA
-    # 👽 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    propedit_key_smtpsubjectprefix=?קידומת לנושאי מייל
-    # 👽 propedit_key_synchronizer_agents_file -> Default agents.conf File
-    propedit_key_synchronizer_agents_file=?קובץ agents.conf ברירת מחדל
-    # 👽 propedit_key_synchronizer_queuelog_file -> Default Queue Log File
-    propedit_key_synchronizer_queuelog_file=?קובץ יומן תור ברירת מחדל
-    # 👽 propedit_key_synchronizer_queues_file -> Default queues.conf File
-    propedit_key_synchronizer_queues_file=?קובץ queues.conf ברירת מחדל
-    # 👽 propedit_key_synchronizer_url_source -> Url to fetch Synchronizer JSON configuration file with URL Reader
-    propedit_key_synchronizer_url_source=?כתובת URL להבאת קובץ תצורת JSON של סנכרון עם קורא URL
-    # 👽 propedit_key_synchronizer_users_file -> Default users.conf File
-    propedit_key_synchronizer_users_file=?קובץ users.conf ברירת מחדל
-    # 👽 propedit_key_wallboard_kiosk_user -> The default user for the Wallboard Kiosk URL
-    propedit_key_wallboard_kiosk_user=?משתמש ברירת המחדל לכתובת ה-URL של לוח המחוונים של קיוסק
-    # 👽 propedit_key_wb_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
-    propedit_key_wb_noans_timeout=?זמן (בשניות) שלאחריו שיחה נכנסת נדחית אם לא נענתה. ברירת מחדל 60.
-    propedit_key_wb_phone_autoanswer=אפשר מענה אוטומטי כברירת מחדל בסופטפון (טלפון תוכנה) של לוח המחוונים
-    # 👽 propedit_key_wb_phone_displayname -> Descriptive name (String) to be shown to the called party when calling.
-    propedit_key_wb_phone_displayname=?שם תיאורי (מחרוזת) שיוצג לצד המתקשר בעת התקשרות.
-    # 👽 propedit_key_wb_phone_iceservers -> List of ICE Servers to use.
-    propedit_key_wb_phone_iceservers=?רשימת שרתי ICE לשימוש.
-    propedit_key_wb_phone_maxsessions=מספר מקס. של הפעלות עבור סופטפון (טלפון תוכנה) של לוח המחוונים
-    # 👽 propedit_key_wb_phone_password -> SIP Authentication password (String).
-    propedit_key_wb_phone_password=?סיסמת אימות SIP (מחרוזת).
+    propedit_key_sla_initial_interval_desc=מרווח עבור החלק הראשוני של ה-SLA
+    propedit_key_sla_interval_desc=גודל מרווחי הזמן עבור גרף ה-SLA
+    propedit_key_sla_max_initial_delay_desc=טווח זמן ראשוני לחישוב SLA
+    propedit_key_sla_max_monitored_delay_desc=עיכוב מקסימלי המוצג בגרף ה-SLA
+    propedit_key_smtpsubjectprefix=קידומת לנושאי מייל
+    propedit_key_synchronizer_agents_file=קובץ agents.conf ברירת מחדל
+    propedit_key_synchronizer_queuelog_file=קובץ יומן תור ברירת מחדל
+    propedit_key_synchronizer_queues_file=קובץ queues.conf ברירת מחדל
+    propedit_key_synchronizer_url_source=כתובת URL להבאת קובץ תצורת JSON של הסנכרון באמצעות קורא URL
+    propedit_key_synchronizer_users_file=קובץ users.conf ברירת מחדל
+    propedit_key_wallboard_kiosk_user=משתמש ברירת המחדל לכתובת ה-URL של וולבורד הקיוסק
+    propedit_key_wb_noans_timeout=זמן (בשניות) שלאחריו שיחה נכנסת נדחית אם לא נענתה. ברירת המחדל היא 60.
+    propedit_key_wb_phone_autoanswer=אפשר מענה אוטומטי כברירת מחדל בסופטפון (טלפון תוכנה) של הוולבורד
+    propedit_key_wb_phone_displayname=שם תיאורי (מחרוזת) שיוצג לצד המוחזק בעת ביצוע שיחה.
+    propedit_key_wb_phone_iceservers=רשימת שרתי ICE לשימוש.
+    propedit_key_wb_phone_maxsessions=מספר מקס. של הפעלות לסופטפון (טלפון תוכנה) של הוולבורד
+    propedit_key_wb_phone_password=סיסמת אימות SIP (מחרוזת).
     propedit_key_wb_phone_register=מציין אם הסופטפון (טלפון תוכנה) צריך להירשם ל-PBX.
-    # 👽 propedit_key_wb_phone_server -> The PBX Server the phone is connected to.
-    propedit_key_wb_phone_server=?שרת ה-PBX שהטלפון מחובר אליו.
-    # 👽 propedit_key_wb_phone_username -> SIP Authentication username (String).
-    propedit_key_wb_phone_username=?שם משתמש אימות SIP (מחרוזת).
-    # 👽 propedit_key_wb_phone_websocketurl -> Web Socket URL for the connection.
-    propedit_key_wb_phone_websocketurl=?כתובת URL של Web Socket לחיבור.
-    # 👽 propedit_key_wb_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
-    propedit_key_wb_recovery_max=?מרווח מקסימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ברירת מחדל 30.
-    # 👽 propedit_key_wb_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
-    propedit_key_wb_recovery_min=?מרווח מינימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ברירת מחדל 2.
-    # 👽 propedit_key_wombat_password_desc -> WombatDialer password
-    propedit_key_wombat_password_desc=?סיסמת WombatDialer
-    # 👽 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
-    propedit_key_wombat_prevdial_desc=?כתובת ה-URL של דף חיוג מקדים של WombatDialer.
-    # 👽 propedit_key_wombat_url_desc -> WombatDialer's main URL
-    propedit_key_wombat_url_desc=?כתובת ה-URL הראשית של WombatDialer
-    # 👽 propedit_key_wombat_username_desc -> WombatDialer username
-    propedit_key_wombat_username_desc=?שם משתמש WombatDialer
-    # 👽 propedit_option_barge -> Barge
-    propedit_option_barge=?התפרץ
-    # 👽 propedit_option_classic -> Classic
-    propedit_option_classic=?קלאסי
-    # 👽 propedit_option_classiclive -> Classic-Live
-    propedit_option_classiclive=?קלאסי-חי
-    # 👽 propedit_option_directami -> DirectAMI
-    propedit_option_directami=?DirectAMI
-    # 👽 propedit_option_directami_live -> DirectAMI-Live
-    propedit_option_directami_live=?DirectAMI-חי
-    # 👽 propedit_option_disabled -> Disabled
-    propedit_option_disabled=?מושבת
-    # 👽 propedit_option_enabled -> Enabled
-    propedit_option_enabled=?מופעל
-    # 👽 propedit_option_enswitch -> Enswitch
-    propedit_option_enswitch=?Enswitch
-    # 👽 propedit_option_false -> False
-    propedit_option_false=?שקר
-    # 👽 propedit_option_freeswitch -> FreeSwitch
-    propedit_option_freeswitch=?FreeSwitch
-    # 👽 propedit_option_freeswitch_live -> FreeSwitch-Live
-    propedit_option_freeswitch_live=?FreeSwitch-חי
-    # 👽 propedit_option_hash -> hash
-    propedit_option_hash=?גיבוב
-    # 👽 propedit_option_hide -> hide
-    propedit_option_hide=?הסתר
-    # 👽 propedit_option_hide3 -> hide3
-    propedit_option_hide3=?הסתר3
-    # 👽 propedit_option_hide5 -> hide5
-    propedit_option_hide5=?הסתר5
-    # 👽 propedit_option_jsonapi -> JSON API
-    propedit_option_jsonapi=?JSON API
-    # 👽 propedit_option_mirtapbx -> MirtaPBX
-    propedit_option_mirtapbx=?MirtaPBX
-    # 👽 propedit_option_no -> No
-    propedit_option_no=?לא
-    # 👽 propedit_option_none -> none
-    propedit_option_none=?אין
-    # 👽 propedit_option_notvisible -> Not Visible
-    propedit_option_notvisible=?לא גלוי
-    # 👽 propedit_option_realtime_dynamicLoginQueues_all_desc -> All visible queues with cherry pick
-    propedit_option_realtime_dynamicLoginQueues_all_desc=?כל התורים הגלויים עם בחירה ידנית
-    # 👽 propedit_option_realtime_dynamicLoginQueues_all_label -> All
-    propedit_option_realtime_dynamicLoginQueues_all_label=?הכל
-    # 👽 propedit_option_realtime_dynamicLoginQueues_assigned_desc -> Only assigned queues with no cherry pick
-    propedit_option_realtime_dynamicLoginQueues_assigned_desc=?רק תורים שהוקצו ללא בחירה ידנית
-    # 👽 propedit_option_realtime_dynamicLoginQueues_assigned_label -> Only Assigned
-    propedit_option_realtime_dynamicLoginQueues_assigned_label=?מוקצים בלבד
-    # 👽 propedit_option_realtime_dynamicLoginQueues_registered_desc -> Only assigned queues with cherry pick
-    propedit_option_realtime_dynamicLoginQueues_registered_desc=?רק תורים שהוקצו עם בחירה ידנית
-    # 👽 propedit_option_realtime_dynamicLoginQueues_registered_label -> Registered
-    propedit_option_realtime_dynamicLoginQueues_registered_label=?רשומים
-    # 👽 propedit_option_spy -> Spy
-    propedit_option_spy=?ציתות
-    # 👽 propedit_option_stars -> stars
-    propedit_option_stars=?כוכבים
-    # 👽 propedit_option_sync_mode_c -> Create Only
-    propedit_option_sync_mode_c=?צור בלבד
-    # 👽 propedit_option_sync_mode_c_d -> Create, Delete
-    propedit_option_sync_mode_c_d=?צור, מחק
-    # 👽 propedit_option_sync_mode_c_d_usr -> Create, Delete, Create Users
-    propedit_option_sync_mode_c_d_usr=?צור, מחק, צור משתמשים
-    # 👽 propedit_option_sync_mode_c_u -> Create, Update
-    propedit_option_sync_mode_c_u=?צור, עדכן
-    # 👽 propedit_option_sync_mode_c_u_d -> Create, Update, Delete
-    propedit_option_sync_mode_c_u_d=?צור, עדכן, מחק
-    # 👽 propedit_option_sync_mode_c_u_d_usr -> Create, Update, Delete, Create Users
-    propedit_option_sync_mode_c_u_d_usr=?צור, עדכן, מחק, צור משתמשים
-    # 👽 propedit_option_sync_mode_c_u_usr -> Create, Update, Create Users
-    propedit_option_sync_mode_c_u_usr=?צור, עדכן, צור משתמשים
-    # 👽 propedit_option_sync_mode_c_usr -> Create, Create User
-    propedit_option_sync_mode_c_usr=?צור, צור משתמש
-    # 👽 propedit_option_sync_mode_d -> Delete
-    propedit_option_sync_mode_d=?מחק
-    # 👽 propedit_option_sync_mode_d_c -> Delete, Create
-    propedit_option_sync_mode_d_c=?מחק, צור
-    # 👽 propedit_option_sync_mode_d_u -> Delete, Update
-    propedit_option_sync_mode_d_u=?מחק, עדכן
-    # 👽 propedit_option_sync_mode_d_u_usr -> Delete, Update, Create Users
-    propedit_option_sync_mode_d_u_usr=?מחק, עדכן, צור משתמשים
-    # 👽 propedit_option_sync_mode_u -> Update
-    propedit_option_sync_mode_u=?עדכן
-    # 👽 propedit_option_sync_mode_u_c -> Update, Create
-    propedit_option_sync_mode_u_c=?עדכן, צור
-    # 👽 propedit_option_sync_reader_ami -> Single Machine AMI
-    propedit_option_sync_reader_ami=?AMI מכונה יחידה
-    # 👽 propedit_option_sync_reader_ami_cluster -> Cluster AMI
-    propedit_option_sync_reader_ami_cluster=?אשכול AMI
-    # 👽 propedit_option_sync_reader_file -> File
-    propedit_option_sync_reader_file=?קובץ
-    # 👽 propedit_option_sync_reader_queuelog -> Queue Log File
-    propedit_option_sync_reader_queuelog=?קובץ יומן תור
-    # 👽 propedit_option_sync_reader_queuelog_db -> Queue Log Database Table
-    propedit_option_sync_reader_queuelog_db=?טבלת מסד נתונים של יומן תור
-    # 👽 propedit_option_sync_reader_url -> Url
-    propedit_option_sync_reader_url=?URL
-    # 👽 propedit_option_true -> True
-    propedit_option_true=?אמת
-    # 👽 propedit_option_visible -> Visible
-    propedit_option_visible=?גלוי
-    # 👽 propedit_option_whisper -> Whisper
-    propedit_option_whisper=?לחישה
-    # 👽 propedit_option_wombat -> WombatDialer
-    propedit_option_wombat=?WombatDialer
-    # 👽 propedit_option_yes -> Yes
-    propedit_option_yes=?כן
-    # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
-    propedit_rewrite_hotdesking_desc=?מאפשר שכתוב מידע HotDesking בשדה data1 בטבלת queue_log
-
+    propedit_key_wb_phone_server=שרת ה-PBX שאליו הטלפון מחובר.
+    propedit_key_wb_phone_username=שם משתמש אימות SIP (מחרוזת).
+    propedit_key_wb_phone_websocketurl=כתובת URL של Web Socket לחיבור.
+    propedit_key_wb_recovery_max=מרווח מקסימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ברירת המחדל היא 30.
+    propedit_key_wb_recovery_min=מרווח מינימלי בשניות בין ניסיונות חיבור מחדש של WebSocket. ברירת המחדל היא 2.
+    propedit_key_wombat_password_desc=סיסמת WombatDialer
+    propedit_key_wombat_prevdial_desc=כתובת ה-URL של דף החיוג המקדים של WombatDialer.
+    propedit_key_wombat_url_desc=כתובת ה-URL הראשית של WombatDialer
+    propedit_key_wombat_username_desc=שם משתמש WombatDialer
+    propedit_option_barge=התפרץ
+    propedit_option_classic=קלאסי
+    propedit_option_classiclive=קלאסי-Live
+    propedit_option_directami=DirectAMI
+    propedit_option_directami_live=DirectAMI-Live
+    propedit_option_disabled=מושבת
+    propedit_option_enabled=מופעל
+    propedit_option_enswitch=Enswitch
+    propedit_option_false=False
+    propedit_option_freeswitch=FreeSwitch
+    propedit_option_freeswitch_live=FreeSwitch-Live
+    propedit_option_hash=סולמיות
+    propedit_option_hide=הסתר
+    propedit_option_hide3=הסתר3
+    propedit_option_hide5=הסתר5
+    propedit_option_jsonapi=JSON API
+    propedit_option_mirtapbx=MirtaPBX
+    propedit_option_no=לא
+    propedit_option_none=ללא
+    propedit_option_notvisible=לא גלוי
+    propedit_option_realtime_dynamicLoginQueues_all_desc=כל התורים הגלויים עם בחירה ידנית
+    propedit_option_realtime_dynamicLoginQueues_all_label=הכל
+    propedit_option_realtime_dynamicLoginQueues_assigned_desc=רק תורים שהוקצו, ללא בחירה ידנית
+    propedit_option_realtime_dynamicLoginQueues_assigned_label=מוקצים בלבד
+    propedit_option_realtime_dynamicLoginQueues_registered_desc=רק תורים שהוקצו עם בחירה ידנית
+    propedit_option_realtime_dynamicLoginQueues_registered_label=רשומים
+    propedit_option_spy=ציתות
+    propedit_option_stars=כוכביות
+    propedit_option_sync_mode_c=צור בלבד
+    propedit_option_sync_mode_c_d=צור, מחק
+    propedit_option_sync_mode_c_d_usr=צור, מחק, צור משתמשים
+    propedit_option_sync_mode_c_u=צור, עדכן
+    propedit_option_sync_mode_c_u_d=צור, עדכן, מחק
+    propedit_option_sync_mode_c_u_d_usr=צור, עדכן, מחק, צור משתמשים
+    propedit_option_sync_mode_c_u_usr=צור, עדכן, צור משתמשים
+    propedit_option_sync_mode_c_usr=צור, צור משתמש
+    propedit_option_sync_mode_d=מחק
+    propedit_option_sync_mode_d_c=מחק, צור
+    propedit_option_sync_mode_d_u=מחק, עדכן
+    propedit_option_sync_mode_d_u_usr=מחק, עדכן, צור משתמשים
+    propedit_option_sync_mode_u=עדכן
+    propedit_option_sync_mode_u_c=עדכן, צור
+    propedit_option_sync_reader_ami=AMI של מכונה יחידה
+    propedit_option_sync_reader_ami_cluster=AMI של אשכול
+    propedit_option_sync_reader_file=קובץ
+    propedit_option_sync_reader_queuelog=קובץ יומן תור
+    propedit_option_sync_reader_queuelog_db=טבלת מסד נתונים של יומן תור
+    propedit_option_sync_reader_url=URL
+    propedit_option_true=True
+    propedit_option_visible=גלוי
+    propedit_option_whisper=לחישה
+    propedit_option_wombat=WombatDialer
+    propedit_option_yes=כן
+    propedit_rewrite_hotdesking_desc=מאפשר שכתוב של מידע Hotdesking בשדה data1 של טבלת queue_log
+    
 ## Editor of security keys
 
 Description of security keys:
@@ -4070,305 +3492,159 @@ Description of security keys:
 
 ### Softphone
 
-    # 👽 phone_advanced_settings -> Advanced Settings
-    phone_advanced_settings=?הגדרות מתקדמות
-    # 👽 phone_agent -> Agent
-    phone_agent=?נציג
-    # 👽 phone_anonymous -> Anonymous
-    phone_anonymous=?אנונימי
-    # 👽 phone_answer -> Answer
-    phone_answer=?ענה
-    # 👽 phone_attended -> Attended Transfer
-    phone_attended=?העברה מלווה
-    # 👽 phone_attended_transfer -> Attended Transfer
-    phone_attended_transfer=?העברה מלווה
-    # 👽 phone_auto_answer_toggle_off -> Auto Answer is Disabled
-    phone_auto_answer_toggle_off=?מענה אוטומטי מושבת
-    # 👽 phone_auto_answer_toggle_on -> Auto Answer is Enabled
-    phone_auto_answer_toggle_on=?מענה אוטומטי מופעל
-    # 👽 phone_basic_settings -> Basic Settings
-    phone_basic_settings=?הגדרות בסיסיות
-    # 👽 phone_blind -> Blind Transfer
-    phone_blind=?העברה עיוורת
-    # 👽 phone_blind_transfer -> Blind Transfer
-    phone_blind_transfer=?העברה עיוורת
-    # 👽 phone_call -> Call
-    phone_call=?התקשר
-    # 👽 phone_calling -> Calling...
-    phone_calling=?מתקשר...
-    # 👽 phone_cancel -> Cancel
-    phone_cancel=?בטל
-    # 👽 phone_close -> Close
-    phone_close=?סגור
-    # 👽 phone_confirm -> Confirm
-    phone_confirm=?אשר
-    # 👽 phone_connectionrecoverymax -> Conn. Recovery Max.
-    phone_connectionrecoverymax=?התאוששות חיבור מקסימלית
-    # 👽 phone_connectionrecoverymin -> Conn. Recovery Min.
-    phone_connectionrecoverymin=?התאוששות חיבור מינימלית
-    # 👽 phone_debug -> Click to print debug information in the browser console.
-    phone_debug=?לחץ כדי להדפיס פרטי דיבוג בקונסולת הדפדפן.
-    # 👽 phone_dial -> Dial
-    phone_dial=?חיוג
-    # 👽 phone_dialing -> Dialing...
-    phone_dialing=?מחייג...
-    # 👽 phone_dialling -> Dialling...
-    phone_dialling=?מחייג...
-    # 👽 phone_displayname -> Display Name
-    phone_displayname=?שם תצוגה
-    # 👽 phone_hangup -> Hangup
-    phone_hangup=?נתק
-    # 👽 phone_http_error -> WebRTC Error.
-    phone_http_error=?שגיאת WebRTC.
-    phone_http_error_body=כדי שסופטפון (טלפון תוכנה) של WebRTC יעבוד כהלכה, QueueMetrics חייב להיות מוגש באמצעות HTTPS.
-    # 👽 phone_iceservers -> Ice Servers
-    phone_iceservers=?שרתי Ice
-    # 👽 phone_incoming_call -> Incoming call...
-    phone_incoming_call=?שיחה נכנסת...
-    # 👽 phone_input_error -> Input Error
-    phone_input_error=?שגיאת קלט
-    # 👽 phone_join -> Join
-    phone_join=?הצטרף
-    # 👽 phone_maxsessions -> Max. Sessions
-    phone_maxsessions=?מקסימום הפעלות
-    # 👽 phone_mute -> Mute
-    phone_mute=?השתק
-    # 👽 phone_mute_toggle -> Toggle Mute
-    phone_mute_toggle=?הפעל/כבה השתקה
-    phone_no_https=QueueMetrics צריך להיות מוגש דרך HTTPS כדי שהסופטפון (טלפון תוכנה) יעבוד כהלכה.
-    # 👽 phone_no_queue -> No Queue
-    phone_no_queue=?אין תור
-    # 👽 phone_noanswertimeout -> No Answer Timeout
-    phone_noanswertimeout=?זמן קצוב ללא מענה
+   phone_advanced_settings=הגדרות מתקדמות
+    phone_agent=נציג
+    phone_anonymous=אנונימי
+    phone_answer=ענה
+    phone_attended=העברה מודרכת
+    phone_attended_transfer=העברה מודרכת
+    phone_auto_answer_toggle_off=מענה אוטומטי מושבת
+    phone_auto_answer_toggle_on=מענה אוטומטי מופעל
+    phone_basic_settings=הגדרות בסיסיות
+    phone_blind=העברה עיוורת
+    phone_blind_transfer=העברה עיוורת
+    phone_call=התקשר
+    phone_calling=מתקשר...
+    phone_cancel=בטל
+    phone_close=סגור
+    phone_confirm=אשר
+    phone_connectionrecoverymax=שחזור חיבור מקס.
+    phone_connectionrecoverymin=שחזור חיבור מינ.
+    phone_debug=לחץ כדי להדפיס מידע ניפוי באגים בקונסולת הדפדפן.
+    phone_dial=חייג
+    phone_dialing=מחייג...
+    phone_dialling=מחייג...
+    phone_displayname=שם תצוגה
+    phone_hangup=נתק
+    phone_http_error=שגיאת WebRTC.
+    phone_http_error_body=כדי שהסופטפון (טלפון תוכנה) של WebRTC יעבוד כהלכה, QueueMetrics חייב להיות מוגש באמצעות HTTPS.
+    phone_iceservers=שרתי ICE
+    phone_incoming_call=שיחה נכנסת...
+    phone_input_error=שגיאת קלט
+    phone_join=הצטרף
+    phone_maxsessions=מקס. הפעלות
+    phone_mute=השתק
+    phone_mute_toggle=הפעל/בטל השתקה
+    phone_no_https=על QueueMetrics להיות מוגש דרך HTTPS כדי שהסופטפון (טלפון תוכנה) יעבוד כהלכה.
+    phone_no_queue=ללא תור
+    phone_noanswertimeout=פסק זמן ללא מענה
     phone_not_avaialable=סופטפון (טלפון תוכנה) לא זמין.
     phone_not_available=סופטפון (טלפון תוכנה) לא זמין.
-    # 👽 phone_password -> Password
-    phone_password=?סיסמה
-    # 👽 phone_register -> Register
-    phone_register=?הירשם
-    # 👽 phone_registered -> Registered
-    phone_registered=?רשום
-    # 👽 phone_registering -> Registering
-    phone_registering=?נרשם
-    # 👽 phone_returntophone -> Return to Phone
-    phone_returntophone=?חזור לטלפון
-    # 👽 phone_server -> Server
-    phone_server=?שרת
-    # 👽 phone_settings -> Settings
-    phone_settings=?הגדרות
-    # 👽 phone_swap -> Swap
-    phone_swap=?החלף
-    # 👽 phone_toggle_hold -> Hold/Unhold
-    phone_toggle_hold=?החזק/שחרר
-    # 👽 phone_toggle_transfer -> Transfer
-    phone_toggle_transfer=?העברה
-    # 👽 phone_transfer -> Transfer
-    phone_transfer=?העברה
-    # 👽 phone_unmute -> Unmute
-    phone_unmute=?בטל השתקה
-    # 👽 phone_unregistered -> Unregistered
-    phone_unregistered=?לא רשום
-    # 👽 phone_update_settings -> Update Settings
-    phone_update_settings=?עדכן הגדרות
-    # 👽 phone_username -> Username
-    phone_username=?שם משתמש
-    # 👽 phone_websocketurl -> Websocket URL
-    phone_websocketurl=?כתובת URL של Websocket
-    # 👽 phone_audio_mic_not_found -> No microphone device found
-    phone_audio_mic_not_found=?לא נמצא מכשיר מיקרופון
-    # 👽 phone_audio_settings -> Audio Settings
-    phone_audio_settings=?הגדרות שמע
-    # 👽 phone_audio_device_not_found -> Audio device not found
-    phone_audio_device_not_found=?לא נמצא מכשיר שמע
-    # 👽 phone_choose_device -> Choose device..
-    phone_choose_device=?בחר מכשיר..
-    # 👽 phone_default_audio_device -> Using default audio device
-    phone_default_audio_device=?שימוש במכשיר שמע ברירת מחדל
-    # 👽 phone_hid_disconnect_device -> Disconnect HID device
-    phone_hid_disconnect_device=?נתק התקן HID
-    # 👽 phone_hid_close_device -> Closed HID device
-    phone_hid_close_device=?מכשיר HID נסגר
-    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
-    phone_hid_close_device_err=?אירעה שגיאה בעת סגירת מכשיר HID
-    # 👽 phone_hid_device_already_open -> HID device already open
-    phone_hid_device_already_open=?מכשיר HID כבר פתוח
-    # 👽 phone_hid_device_connected -> HID device connected
-    phone_hid_device_connected=?מכשיר HID מחובר
-    # 👽 phone_hid_disconnected_device -> Disconnected HID device
-    phone_hid_disconnected_device=?מכשיר HID מנותק
-    # 👽 phone_hid_open_device -> Select a HID device
-    phone_hid_open_device=?בחר מכשיר HID
-    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
-    phone_hid_open_device_err=?אירעה שגיאה בעת פתיחת מכשיר HID
-    # 👽 phone_selected_audio_device -> Selected audio device
-    phone_selected_audio_device=?מכשיר שמע נבחר
-    # 👽 phone_selected_hid_device -> Selected HID device
-    phone_selected_hid_device=?מכשיר HID נבחר
-    # 👽 phone_selected_mic_device -> Selected microphone device
-    phone_selected_mic_device=?מכשיר מיקרופון נבחר
-    # 👽 phone_selected_ringtone_device -> Selected ringtone device
-    phone_selected_ringtone_device=?מכשיר צלצול נבחר
-    # 👽 phone_set_audio_info -> Changed audio device
-    phone_set_audio_info=?מכשיר שמע שונה
-    # 👽 phone_set_mic_info -> Changed mic device
-    phone_set_mic_info=?מכשיר מיקרופון שונה
-    # 👽 phone_set_audio_err -> Error occurred while setting audio device
-    phone_set_audio_err=?אירעה שגיאה בעת הגדרת מכשיר שמע
-    # 👽 phone_ringtone -> Ringtone    
-    phone_ringtone=?צלצול
-
+    phone_password=סיסמה
+    phone_register=הירשם
+    phone_registered=רשום
+    phone_registering=מתבצע רישום...
+    phone_returntophone=חזור לטלפון
+    phone_server=שרת
+    phone_settings=הגדרות
+    phone_swap=החלף
+    phone_toggle_hold=המתנה/שחרור
+    phone_toggle_transfer=העברה
+    phone_transfer=העברה
+    phone_unmute=בטל השתקה
+    phone_unregistered=לא רשום
+    phone_update_settings=עדכן הגדרות
+    phone_username=שם משתמש
+    phone_websocketurl=כתובת URL של Websocket
+    phone_audio_mic_not_found=לא נמצא מיקרופון
+    phone_audio_settings=הגדרות שמע
+    phone_audio_device_not_found=לא נמצא התקן שמע
+    phone_choose_device=בחר התקן..
+    phone_default_audio_device=שימוש בהתקן שמע ברירת מחדל
+    phone_hid_disconnect_device=נתק התקן HID
+    phone_hid_close_device=התקן HID נסגר
+    phone_hid_close_device_err=אירעה שגיאה בעת סגירת התקן HID
+    phone_hid_device_already_open=התקן HID כבר פתוח
+    phone_hid_device_connected=התקן HID מחובר
+    phone_hid_disconnected_device=התקן HID מנותק
+    phone_hid_open_device=בחר התקן HID
+    phone_hid_open_device_err=אירעה שגיאה בעת פתיחת התקן HID
+    phone_selected_audio_device=התקן שמע נבחר
+    phone_selected_hid_device=התקן HID נבחר
+    phone_selected_mic_device=מיקרופון נבחר
+    phone_selected_ringtone_device=התקן צלצול נבחר
+    phone_set_audio_info=התקן השמע שונה
+    phone_set_mic_info=המיקרופון שונה
+    phone_set_audio_err=אירעה שגיאה בעת הגדרת התקן השמע
+    phone_ringtone=צלצול
+    
 ## Homepage
 
-    # 👽 home_add_infobox -> Add InfoBox
-    home_add_infobox=?הוסף תיבת מידע
-    # 👽 home_configuration_agents -> Agents
-    home_configuration_agents=?נציגים
-    # 👽 home_configuration_cases -> Cases
-    home_configuration_cases=?מקרים
-    # 👽 home_configuration_cbt -> CBTs
-    home_configuration_cbt=?CBTs
-    # 👽 home_configuration_clients -> Clients
-    home_configuration_clients=?לקוחות
-    # 👽 home_configuration_custom_blocks -> Custom Data Blocks
-    home_configuration_custom_blocks=?בלוקי נתונים מותאמים אישית
-    # 👽 home_configuration_dnis -> DID/DNIS Lines
-    home_configuration_dnis=?קווי DID/DNIS
-    # 👽 home_configuration_export_jobs -> Edit Report Exports
-    home_configuration_export_jobs=?ערוך ייצוא דוחות
-    # 👽 home_configuration_features -> Call Features
-    home_configuration_features=?תכונות שיחות
-    # 👽 home_configuration_groups -> Agent Groups
-    home_configuration_groups=?קבוצות נציגים
-    # 👽 home_configuration_ivr -> IVR Selections
-    home_configuration_ivr=?בחירות IVR
-    # 👽 home_configuration_known_numbers -> Known Numbers
-    home_configuration_known_numbers=?מספרים ידועים
-    # 👽 home_configuration_locations -> Locations
-    home_configuration_locations=?מיקומים
-    # 👽 home_configuration_outcomes -> Call Outcomes
-    home_configuration_outcomes=?תוצאות שיחות
-    # 👽 home_configuration_pause_codes -> Pause Codes
-    home_configuration_pause_codes=?קודי השהיה
-    # 👽 home_configuration_perftracker -> QA Performance Tracker
-    home_configuration_perftracker=?מעקב ביצועי QA
-    # 👽 home_configuration_qaforms -> QA Forms
-    home_configuration_qaforms=?טופסי QA
-    # 👽 home_configuration_queues -> Queues
-    home_configuration_queues=?תורים
-    # 👽 home_configuration_scheduled_jobs -> Edit Scheduled Jobs
-    home_configuration_scheduled_jobs=?ערוך משימות מתוזמנות
-    # 👽 home_configuration_skills -> Agent Skills
-    home_configuration_skills=?מיומנויות נציג
-    # 👽 home_configuration_subtitle -> Edit QueueMetrics Configuration Objects
-    home_configuration_subtitle=?ערוך אובייקטי תצורה של QueueMetrics
-    # 👽 home_configuration_tags -> Call Tags
-    home_configuration_tags=?תגיות שיחות
-    # 👽 home_configuration_title -> Configuration
-    home_configuration_title=?תצורה
-    # 👽 home_configuration_users -> Users
-    home_configuration_users=?משתמשים
-    # 👽 home_dbtest_ami -> AMI tester
-    home_dbtest_ami=?בודק AMI
-    # 👽 home_dbtest_ami_queue -> AMI Commands
-    home_dbtest_ami_queue=?פקודות AMI
-    # 👽 home_dbtest_configuration -> View configuration
-    home_dbtest_configuration=?הצג תצורה
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
-    # 👽 home_dbtest_db_inspector -> Database inspector
-    home_dbtest_db_inspector=?בודק מסד נתונים
-    # 👽 home_dbtest_ram_cache -> RAM caching
-    home_dbtest_ram_cache=?קש זיכרון RAM
-    # 👽 home_dbtest_smtp -> SMTP tester
-    home_dbtest_smtp=?בודק SMTP
-    # 👽 home_diagnostics_title -> Diagnostics
-    home_diagnostics_title=?אבחון
-    # 👽 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    home_error_fetch_admin_infoboxes=?שגיאה באחזור תיבות מידע ניהול
-    # 👽 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    home_error_fetch_available_infoboxes=?שגיאה באחזור תיבות מידע זמינות
-    # 👽 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    home_error_fetch_infoboxes=?שגיאה באחזור תיבות מידע
-    # 👽 home_error_save_prefs -> Error Saving InfoBox Data
-    home_error_save_prefs=?שגיאה בשמירת נתוני תיבת מידע
-    # 👽 home_icon_subtitle -> Icon Agent Page
-    home_icon_subtitle=?דף נציג אייקון
-    # 👽 home_icon_title -> Icon
-    home_icon_title=?אייקון
-    # 👽 home_infobox_close -> Close
-    home_infobox_close=?סגור
-    # 👽 home_infobox_preview -> Preview
-    home_infobox_preview=?תצוגה מקדימה
-    # 👽 home_infobox_private -> Private
-    home_infobox_private=?פרטי
-    # 👽 home_infobox_quicklinks -> Quicklinks
-    home_infobox_quicklinks=?קישורים מהירים
-    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
-    home_master_key_error=?מפתח ראשי מופעל — מומלץ לשימוש בבדיקות בלבד
-    # 👽 home_news_subtitle -> QueueMetrics Latest News
-    home_news_subtitle=?חדשות אחרונות של QueueMetrics
-    # 👽 home_news_title -> News
-    home_news_title=?חדשות
-    # 👽 home_payroll_subtitle -> Start a Payroll Report
-    home_payroll_subtitle=?התחל דוח שכר
-    # 👽 home_payroll_title -> Payroll Report
-    home_payroll_title=?דוח שכר
-    # 👽 home_qa_subtitle -> Start a QA Report
-    home_qa_subtitle=?התחל דוח QA
-    # 👽 home_qa_title -> QA Reports
-    home_qa_title=?דוחות QA
-    # 👽 home_qap_subtitle -> Queuemetrics Agent Interface
-    home_qap_subtitle=?ממשק נציג של Queuemetrics
-    # 👽 home_qap_title -> Agent Page
-    home_qap_title=?דף נציג
-    # 👽 home_realtime_subtitle -> Comprehensive view of Live calls
-    home_realtime_subtitle=?תצוגה מקיפה של שיחות בזמן אמת
-    # 👽 home_realtime_title -> Realtime
-    home_realtime_title=?זמן אמת
-    # 👽 home_reports_subtitle -> Historical reports
-    home_reports_subtitle=?דוחות היסטוריים
-    # 👽 home_reports_title -> Reports
-    home_reports_title=?דוחות
-    # 👽 home_search -> Search
-    home_search=?חיפוש
-    # 👽 home_search_placeholder -> Search...
-    home_search_placeholder=?חיפוש...
-    # 👽 home_select_infobox -> Check the InfoBox you want to see in the Home Page
-    home_select_infobox=?סמן את תיבת המידע שברצונך לראות בדף הבית
-    # 👽 home_ssar_subtitle -> Self Service Agent Reports
-    home_ssar_subtitle=?דוחות נציג בשירות עצמי
-    # 👽 home_ssar_title -> SSAR
-    home_ssar_title=?SSAR
-    # 👽 home_synchronizer_subtitle -> QueueMetrics Automatic Setup
-    home_synchronizer_subtitle=?הגדרה אוטומטית של QueueMetrics
-    # 👽 home_synchronizer_title -> Synchronizer
-    home_synchronizer_title=?סנכרון
-    # 👽 home_sysadmin_agaw -> Agent Awareness Manager
-    home_sysadmin_agaw=?מנהל מודעות נציג
-    # 👽 home_sysadmin_audit -> View Audit Logs
-    home_sysadmin_audit=?הצג יומני ביקורת
-    # 👽 home_sysadmin_diagnostic_tools -> System diagnostic tools
-    home_sysadmin_diagnostic_tools=?כלי אבחון מערכת
-    # 👽 home_sysadmin_edit_parameters -> Edit System Parameters
-    home_sysadmin_edit_parameters=?ערוך פרמטרי מערכת
-    # 👽 home_sysadmin_explore_parameters -> Explore System Parameters
-    home_sysadmin_explore_parameters=?חקור פרמטרי מערכת
-    # 👽 home_sysadmin_import_export -> Import/Export Calls
-    home_sysadmin_import_export=?ייבוא/ייצוא שיחות
-    # 👽 home_sysadmin_mysql_storage -> Storage Information
-    home_sysadmin_mysql_storage=?מידע אחסון
-    # 👽 home_sysadmin_subtitle -> Useful tools for Sysadmins
-    home_sysadmin_subtitle=?כלים שימושיים למנהלי מערכת
-    # 👽 home_sysadmin_title -> System Administration
-    home_sysadmin_title=?ניהול מערכת
-    # 👽 home_throwaway_report -> Create Throw Away Report
-    home_throwaway_report=?צור דוח חד פעמי
-    # 👽 home_unexpected_server_error -> An unexpected server error has occured
-    home_unexpected_server_error=?אירעה שגיאת שרת בלתי צפויה
-    # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
-    home_wallboards_subtitle=?לוחות מחוונים ניתנים להתאמה אישית לנתוני זמן אמת
-    # 👽 home_wallboards_title -> Wallboards
-    home_wallboards_title=?לוחות מחוונים
+ home_add_infobox=הוסף תיבת מידע
+    home_configuration_agents=נציגים
+    home_configuration_cases=מקרים
+    home_configuration_cbt=CBTs
+    home_configuration_clients=לקוחות
+    home_configuration_custom_blocks=בלוקי נתונים מותאמים אישית
+    home_configuration_dnis=קווי DID/DNIS
+    home_configuration_export_jobs=ערוך ייצוא דו"חות
+    home_configuration_features=מאפייני שיחה
+    home_configuration_groups=קבוצות נציגים
+    home_configuration_ivr=בחירות IVR
+    home_configuration_known_numbers=מספרים ידועים
+    home_configuration_locations=מיקומים
+    home_configuration_outcomes=תוצאות שיחה
+    home_configuration_pause_codes=קודי הפסקה
+    home_configuration_perftracker=מעקב ביצועי QA
+    home_configuration_qaforms=טפסי QA
+    home_configuration_queues=תורים
+    home_configuration_scheduled_jobs=ערוך משימות מתוזמנות
+    home_configuration_skills=כישורי נציג
+    home_configuration_subtitle=ערוך אובייקטי תצורה של QueueMetrics
+    home_configuration_tags=תגיות שיחה
+    home_configuration_title=תצורה
+    home_configuration_users=משתמשים
+    home_dbtest_ami=בודק AMI
+    home_dbtest_ami_queue=פקודות AMI
+    home_dbtest_configuration=הצג תצורה
+    home_dbtest_ephemeral_attribute_inspector=בודק מאפיינים זמניים
+    home_dbtest_db_inspector=בודק מסד נתונים
+    home_dbtest_ram_cache=מטמון זיכרון RAM
+    home_dbtest_smtp=בודק SMTP
+    home_diagnostics_title=אבחון
+    home_error_fetch_admin_infoboxes=שגיאה באחזור תיבות מידע ניהול
+    home_error_fetch_available_infoboxes=שגיאה באחזור תיבות מידע זמינות
+    home_error_fetch_infoboxes=שגיאה באחזור תיבות מידע
+    home_error_save_prefs=שגיאה בשמירת נתוני תיבת מידע
+    home_icon_subtitle=דף נציג Icon
+    home_icon_title=Icon
+    home_infobox_close=סגור
+    home_infobox_preview=תצוגה מקדימה
+    home_infobox_private=פרטי
+    home_infobox_quicklinks=קישורים מהירים
+    home_master_key_error=המפתח הראשי מופעל — מומלץ לשימוש בבדיקות בלבד
+    home_news_subtitle=חדשות אחרונות של QueueMetrics
+    home_news_title=חדשות
+    home_payroll_subtitle=התחל דו"ח שכר
+    home_payroll_title=דו"ח שכר
+    home_qa_subtitle=התחל דו"ח QA
+    home_qa_title=דו"חות QA
+    home_qap_subtitle=ממשק הנציג של QueueMetrics
+    home_qap_title=דף נציג
+    home_realtime_subtitle=תצוגה מקיפה של שיחות בזמן אמת
+    home_realtime_title=זמן אמת
+    home_reports_subtitle=דו"חות היסטוריים
+    home_reports_title=דו"חות
+    home_search=חיפוש
+    home_search_placeholder=חיפוש...
+    home_select_infobox=סמן את תיבת המידע שברצונך לראות בדף הבית
+    home_ssar_subtitle=דו"חות נציג בשירות עצמי
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=הגדרה אוטומטית של QueueMetrics
+    home_synchronizer_title=סנכרון
+    home_sysadmin_agaw=מנהל מודעות נציג
+    home_sysadmin_audit=הצג יומני ביקורת
+    home_sysadmin_diagnostic_tools=כלי אבחון מערכת
+    home_sysadmin_edit_parameters=ערוך פרמטרי מערכת
+    home_sysadmin_explore_parameters=חקור פרמטרי מערכת
+    home_sysadmin_import_export=ייבוא/ייצוא שיחות
+    home_sysadmin_mysql_storage=מידע אחסון
+    home_sysadmin_subtitle=כלים שימושיים למנהלי מערכת
+    home_sysadmin_title=ניהול מערכת
+    home_throwaway_report=צור דו"ח חד-פעמי
+    home_unexpected_server_error=אירעה שגיאת שרת בלתי צפויה
+    home_wallboards_subtitle=וולבורדים ניתנים להתאמה אישית לנתוני זמן אמת
+    home_wallboards_title=וולבורדים
 
 ## Microsoft Teams
 
