@@ -979,7 +979,6 @@ Do not change the items below:
     clhdr_unans=לא נענו
     clhdr_wait=סינון לפי זמן המתנה
 
-
 ## Taken calls
 
 
@@ -2344,6 +2343,7 @@ Used for data blocks Overview by Agent/Queue
 
 ## Wallboard
 
+
     rt3_Talk=דיבור
     rt3_action_error=אירעה שגיאה, הפקודה לא נשלחה.
     rt3_action_success=הפקודה נשלחה בהצלחה.
@@ -2690,7 +2690,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_yellow_alarm=אזעקה צהובה
     rt3_yellow_line_limit=מגבלת קו צהוב
     rt3_yellow_line_text=טקסט קו צהוב
-    
+
 ## Agent page
 
     pgag_addmember=הצטרף לתור
@@ -2833,7 +2833,7 @@ Used for data blocks Overview by Agent/Queue
 
 Description of configuration properties
 
-   propedit_agent_max_qap_calls_desc=מקסימום שיחות יומיות המוצגות לנציגים
+    propedit_agent_max_qap_calls_desc=מקסימום שיחות יומיות המוצגות לנציגים
     propedit_category_agentpage=דף נציג
     propedit_category_engine=מנוע חישוב
     propedit_category_misc=לא מקוטלג
@@ -3102,7 +3102,7 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=כן
     propedit_rewrite_hotdesking_desc=מאפשר שכתוב של מידע Hotdesking בשדה data1 של טבלת queue_log
-    
+
 ## Editor of security keys
 
 Description of security keys:
@@ -3492,7 +3492,7 @@ Description of security keys:
 
 ### Softphone
 
-   phone_advanced_settings=הגדרות מתקדמות
+    phone_advanced_settings=הגדרות מתקדמות
     phone_agent=נציג
     phone_anonymous=אנונימי
     phone_answer=ענה
@@ -3567,10 +3567,10 @@ Description of security keys:
     phone_set_mic_info=המיקרופון שונה
     phone_set_audio_err=אירעה שגיאה בעת הגדרת התקן השמע
     phone_ringtone=צלצול
-    
+
 ## Homepage
 
- home_add_infobox=הוסף תיבת מידע
+    home_add_infobox=הוסף תיבת מידע
     home_configuration_agents=נציגים
     home_configuration_cases=מקרים
     home_configuration_cbt=CBTs
