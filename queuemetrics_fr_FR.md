@@ -4003,6 +4003,7 @@ Other items
     rt3_circle_wbt_incomplete=Appels incomplets
     rt3_nofstate_wbt=Éphémère - Valeur
     rt3_wbt_campaign_stats=Statistiques de campagne
+    rt3_wbt_camp_est=Tentatives restantes
     rt3_attributes=Attribut éphémère
     rt3_display_value=Mode de visualisation
     rt3_maxvalue=Valeur maximale

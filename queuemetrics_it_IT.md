@@ -4046,6 +4046,8 @@ Other items
     ➡️ rt3_nofstate_wbt=
     # 🔴 rt3_wbt_campaign_stats -> Campaign stats
     ➡️ rt3_wbt_campaign_stats=
+    # 🔴 rt3_wbt_camp_est -> Attempts remaining
+    ➡️ rt3_wbt_camp_est=
     # 🔴 rt3_attributes -> Ephemeral Attribute
     ➡️ rt3_attributes=
     # 🔴 rt3_display_value -> Visualization mode

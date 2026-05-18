@@ -3925,6 +3925,7 @@ Other items
     rt3_circle_wbt_incomplete=Incomplete calls
     rt3_nofstate_wbt=Ephemeral - Value
     rt3_wbt_campaign_stats=Campaign stats
+    rt3_wbt_camp_est=Attempts remaining
     rt3_attributes=Ephemeral Attribute
     rt3_display_value=Visualization mode
     rt3_maxvalue=Max value
