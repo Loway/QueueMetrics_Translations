@@ -497,7 +497,7 @@ Do not change the items below:
     clage_min_agent_time=Tempo minimo:
     clage_n_calls=N. chiam.
     clage_n_of_agents_available=N. agenti disponibili:
-    clage_nanswcalls=Risposte
+    clage_nanswcalls=Prese
     clage_nbsp= 
     clage_nftrs=Features
     clage_ngoalftrs=Goal Ftrs.
@@ -802,8 +802,8 @@ Do not change the items below:
     cldst_ta_max_dur_out=Dur max U.
     cldst_ta_max_wait_ans=Att.max rsp.
     cldst_ta_max_wait_lost=Att.max perse
-    cldst_ta_n_answ=Rsp.
-    cldst_ta_n_answ_out=Rsp.U.
+    cldst_ta_n_answ=Prs.
+    cldst_ta_n_answ_out=Prs.U.
     cldst_ta_n_offered=Off.
     cldst_ta_out_in=U./E.
     cldst_ta_svclvl=Lvl Srv
@@ -980,7 +980,7 @@ Do not change the items below:
     clok_agent=Agenti
     clok_agents_on_queue=Agenti sulla coda
     clok_all_calls=Tutte le chiamate
-    clok_answer=Risposte
+    clok_answer=Prese
     clok_answered_calls=Chiamate prese
     clok_answered_calls_by_direction=Chiamate prese per direzione
     clok_answered_calls_by_queue=Chiamate prese per coda
@@ -1101,7 +1101,7 @@ Used for data blocks Overview by Agent/Queue
     evt_phone_fail_session=Fallimento sessione telefonica
     evt_phone_start_session=Inizio sessione telefonica
     evt_ringcancel=Annulla squillo
-    evt_ringing=Sta squillando
+    evt_ringing=Squilla
     evt_ringnoanswer=Squillo non risposto
     evt_setvar=Variabile impostata
     evt_setvar_deleted=Variabile tolta
@@ -1141,7 +1141,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_answered_details_title=Dettaglio chiamate prese
     hdr_area=Prefisso
     hdr_area_title=Analisi per prefisso
-    hdr_attempts=Squilli
+    hdr_attempts=Sq.
     hdr_broadcast=Broadcast
     hdr_calls=Chiamate
     hdr_calls_title=Dettagli Chiamata
@@ -2175,7 +2175,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_choose_server=Scegli il server
     rt3_circle_agents_oncall=N Agenti in Chiamata
     rt3_circle_answered_calls=N Chiamate Risposte
-    rt3_circle_answered_perc=Risposte %
+    rt3_circle_answered_perc=Prese %
     rt3_circle_longest_wait=Attesa Più lunga
     rt3_circle_lost_calls=Chiamate Perse
     rt3_circle_lost_perc=Perse %
@@ -4573,7 +4573,7 @@ Other items
     rt_rep_sales=Vendite
     rt_rep_salesph=SPH
     rt_rep_sla=SLA
-    rt_rep_taken=Risposte
+    rt_rep_taken=Prese
     rt_reports=Reports
     rt_sendText=Invia SMS
     rt_sendText_tt=Invia SMS

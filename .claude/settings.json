@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"=$\" queuemetrics_fr_FR.md)",
+      "Bash(grep -oE '^\\( {4}\\)[^=]+=.*$' queuemetrics_en_US.md)",
+      "Read(//tmp/**)",
+      "Bash(grep -oE '\\\\b[A-Z]{2,6}\\\\b' /tmp/values.txt)",
+      "Bash(grep -oE '\\\\b[A-Za-z][a-z]{2,}\\\\b' /tmp/values.txt)"
+    ]
+  }
+}
