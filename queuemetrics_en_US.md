@@ -3919,6 +3919,9 @@ Other items
     qap_skip_success=Skipped
     qap_no_call_to_reserve=No call available for reservation
     qap_agent=Agent
+    qap_id_not_found=No such ID
+    qap_id_found_wrong_state=The ID exists but the call is in a wrong state
+    ephatt_attribute_character_error=Attribute name cannot contain the '.' character
     rt3_att_text=Ephemeral - Text
     rt3_nofstate_unix_wbt=Ephemeral - Time
     rt3_circle_wbt_reservable=Reservable calls

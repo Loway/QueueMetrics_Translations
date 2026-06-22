@@ -3997,6 +3997,9 @@ Other items
     qap_skip_success=Ignoré
     qap_no_call_to_reserve=Aucun appel disponible pour la réservation
     qap_agent=Agent
+    qap_id_not_found=Identifiant introuvable
+    qap_id_found_wrong_state=L'identifiant existe mais l'appel est dans un état incorrect
+    ephatt_attribute_character_error=Le nom de l'attribut ne peut pas contenir le caractère '.'
     rt3_att_text=Éphémère - Texte
     rt3_nofstate_unix_wbt=Éphémère - Heure
     rt3_circle_wbt_reservable=Appels réservables

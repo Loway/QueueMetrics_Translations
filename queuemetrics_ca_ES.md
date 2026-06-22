@@ -4807,6 +4807,12 @@ Other items
     ➡️ qap_no_call_to_reserve=
     # 🔴 qap_agent -> Agent
     ➡️ qap_agent=
+    # 🔴 qap_id_not_found -> No such ID
+    ➡️ qap_id_not_found=
+    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    ➡️ qap_id_found_wrong_state=
+    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ➡️ ephatt_attribute_character_error=
     # 🔴 rt3_att_text -> Ephemeral - Text
     ➡️ rt3_att_text=
     # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
