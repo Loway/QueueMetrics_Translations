@@ -1212,8 +1212,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=DB 보기
     hdr_dbtest_ram_cache=Cache 보기
     hdr_dbtest_smtp=SMTP 테스트
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?임시 속성 보기
     hdr_distrib=콜분배
     hdr_distrib_day=일
     hdr_distrib_day_title=날짜별 콜분배
@@ -1263,8 +1263,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=작업(Task)
     hdr_tasks_rss=RSS Feed
     hdr_tc=교육훈련 및 코칭(T&C)
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?전사 서버
     hdr_unanswered=미응대
     hdr_unanswered_details=미응대콜 상세
     hdr_unanswered_details_title=미응대콜에 대한 상세정보
@@ -1833,46 +1833,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=실제 이름 : 
     edit_record_users_title=사용자 상세정보
     edit_record_users_token=토큰(Token) : 
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?상담원
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?원격 작업 ID
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?원격 미디어 파일
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?상태
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?예약 시각
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?마지막 확인
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?이름
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?드라이버
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?최대 채널 수
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?채널
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?우선순위
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?태그
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?전사 서버 세부 정보
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?토큰
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?설명
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?매개변수
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?상태
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?정상
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?마지막 상태 점검
     edit_record_xref_blank=자동으로 생성하려면 빈칸으로 두세요.
     edit_reports_automatic=보고서 자동 설정
     edit_reports_desc=설명
@@ -1900,10 +1900,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=할당된
     edit_ssar_reports_code=상담원 코드
     edit_ssar_reports_title=보고서에 대한 상담원 보고서(Self Service용) : 
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?전사 서버 편집
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?실시간 보기로 이동
     edit_users_class=클래스(Class)
     edit_users_email=e메일
     edit_users_enabled=활성화여부
@@ -1912,22 +1912,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=실제 이름
     edit_users_title=시스템 사용자
     edit_users_user_keys=사용자 키(Key)
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?잠김
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?프롬프트
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?섹션
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?큐 표시 여부
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?자동 QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?AI 프롬프트:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?자동 QA 대상 큐:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?이 항목이 적용되는 큐의 파이프로 구분된 목록입니다.
 
 ## Quality Assessments
 
@@ -2428,8 +2428,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Go
     rt3_gohome=홈(Home)
     rt3_goto_login=로그인으로 가기
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?보기로 이동
     rt3_green=green
     rt3_hangup=Hangup
     rt3_hold=Hold
@@ -2916,10 +2916,10 @@ Description of configuration properties
     # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     propedit_key_hiddennumberpolicy=?번호 숨기기 정책
     propedit_key_layout_logo_desc=회사 로고이미지 (전체 또는 상대위치) 크기는 200x72
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?ICE 수집 프로세스에 허용되는 최대 총 시간을 설정합니다. 0으로 설정하면 최적화가 비활성화됩니다.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?라우팅 가능한 STUN/TURN 후보가 감지된 후 트리거되는 소프트 타임아웃의 지속 시간입니다.
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?수신 전화를 받지 않은 경우 거부되는 시간(초)입니다. 기본값은 60입니다.
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -3197,8 +3197,8 @@ Description of security keys:
     keydesc_qa_track=사용자는 품질평가(Quality Assessment) 데이터를 입력할 수 있습니다.
     keydesc_qlog_edit=사용자는 queue_log 내용을 편집할 수 있습니다.
     keydesc_qlog_lngr=사용자는 세션 데이터를 편집할 수 있습니다.
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?사용자는 할당된 큐에만 로그인할 수 있습니다
     keydesc_queue_lst=통화 목록에 (보고서 페이지를 통하지 않고)직접 접근 허용
     keydesc_robot=사용자는 ROBOT 작업을 실행할 수도 있습니다.
     keydesc_rt_addmember=사용자는 '실시간' 페이지에서 대기큐에 상담원을 추가할 수 있습니다.
@@ -3251,10 +3251,10 @@ Description of security keys:
     keydesc_wallboard_forall=사용자는 공개 현황판(public wallboard)을 저장할 수 있습니다.
     keydesc_wallboard_phone=사용자는 현황판의 소프트폰을 사용할 수 있습니다.
     keydesc_wqloader=사용자는 HTTP를 통해 로그를 업로드 할 수 있습니다.
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?사용자가 임시 데이터 테이블에서 읽을 수 있습니다
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?사용자가 임시 데이터 테이블에 쓸 수 있습니다
 
 ## Tasks/Memos
 
@@ -3523,14 +3523,14 @@ Description of security keys:
     home_configuration_subtitle=QueueMetrics Configuration Objects 편집
     home_configuration_tags=Call Tags
     home_configuration_title=Configuration
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?전사 서버
     home_configuration_users=Users
     home_dbtest_ami=AMI 테스터
     home_dbtest_ami_queue=AMI Commands
     home_dbtest_configuration=View configuration
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?임시 속성 검사기
     home_dbtest_db_inspector=Database inspector
     home_dbtest_ram_cache=RAM caching
     home_dbtest_smtp=SMTP 테스터
@@ -3577,10 +3577,10 @@ Description of security keys:
     home_sysadmin_subtitle=시스템관리자용 유용한 툴
     home_sysadmin_title=시스템 관리
     home_throwaway_report=Throw Away Report 생성
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?실시간 전사
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?실시간 전사 보기
     home_unexpected_server_error=예상치 못한 서버 오류가 발생하였습니다.
     home_wallboards_subtitle=Customizable wallboards for live data
     home_wallboards_title=Wallboards
@@ -3697,34 +3697,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?속성 추가
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?작업
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?상담원
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?이 속성이 삭제됩니다
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?속성 이름은 필수입니다
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?만료됨
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?만료 시각
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?속성 이름
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?큐
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?속성 유효 기간(초)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?값
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?새로 고침 간격(초)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?검색
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?유효 기간은 0보다 큰 숫자여야 합니다
 
 
 ## Misc
@@ -4192,8 +4192,8 @@ Other items
     qagrader_outcome=통화결과
     qagrader_queue=대기큐(Queue)
     qagrader_supervisor=수퍼바이저
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?위치
     qagrader_talk=통화
     qagrader_time=시간
     qagrader_wait=대기
@@ -4692,100 +4692,100 @@ Other items
     qap_welcome=?다시 오신 것을 환영합니다!
     # 👽 qap_you_have -> You have
     qap_you_have=?당신은 가지고 있습니다
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?확장 상태
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?발신 번호
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?시도
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?재발신 시도
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?통화 기록
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?발신
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?확장 상태가 성공적으로 추가되었습니다
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?발신할 번호
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?속성이 성공적으로 추가되었습니다
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?예약
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?재시도 요청됨
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?상담원 건너뜀
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?번호가 블랙리스트에 등록됨
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?통화 중
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?기술적 오류
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?통화 끊김
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?상담원 시간 초과
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?응답 없음
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?잘못된 번호
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?네트워크 거부
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?통화 완료
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?최대 시간
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?건너뛰기
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?업데이트
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?확장 상태를 선택해야 합니다
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?WombatDialer에서 오류가 발생했습니다
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?상담원을 사용할 수 없습니다
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?발신함
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?건너뜀
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?예약할 수 있는 통화가 없습니다
+    # 👽 qap_agent -> Agent
+    qap_agent=?상담원
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?해당 ID가 없습니다
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?ID는 존재하지만 통화가 잘못된 상태입니다
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?속성 이름에는 '.' 문자를 포함할 수 없습니다
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?임시 - 텍스트
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?임시 - 시간
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?예약 가능한 통화
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?미완료 통화
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?임시 - 값
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?캠페인 통계
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?남은 시도
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?임시 속성
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?시각화 모드
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?최대값
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?마크다운 여부
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?일반
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?백분율
     qatarget_agentgroup=상담원 그룹
     qatarget_allcalls=전체 통화
     qatarget_individual_agents=상담원
@@ -4986,8 +4986,8 @@ Other items
     reports_edit_report=?보고서 편집
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?편집 키
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?유효한 이메일 주소를 입력하세요
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?새 보고서 제목을 입력하십시오.
     reports_export_email_body=QueueMetrics results for export report named
@@ -5448,16 +5448,16 @@ Other items
     reports_unsaved=?저장되지 않음
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?가시성 키
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?메모 저장
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?비채점 평가
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?페이지 목록
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?필터 삭제
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?필터 편집
     rt_active_queues=Show active queues
     rt_addmember=멤버 추가
     rt_agent_nbsp=상담원
@@ -5776,8 +5776,8 @@ Other items
     sync2_delete=?삭제 작업 사용
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?모든 상담원을 삭제하시겠습니까?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?클러스터 삭제
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?모든 대기열을 삭제하시겠습니까?
     # 👽 sync2_delete_selected -> Delete
@@ -5894,8 +5894,8 @@ Other items
     timeline_close=돌아가기
     timeline_debug=디버그 정보 다운로드
     timeline_download_recording=녹음 다운로드
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?파일 다운로드
     timeline_event=이벤트
     timeline_events=타임라인 이벤트
     # 👽 timeline_interaction_calltot -> Total:
@@ -5923,8 +5923,8 @@ Other items
     timeline_min=?최소
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?녹음 없음
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?사용 가능한 채팅이 없습니다
     # 👽 timeline_number -> Number
     timeline_number=?번호
     # 👽 timeline_stint_end -> Stint End
@@ -5937,8 +5937,8 @@ Other items
     timeline_tab_qa=?QA/녹음
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?녹음
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?채팅
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?총 시간
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

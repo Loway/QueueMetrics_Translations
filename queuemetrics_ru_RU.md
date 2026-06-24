@@ -1216,8 +1216,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=База данных
     hdr_dbtest_ram_cache=Кэш
     hdr_dbtest_smtp=Тест SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?Просмотр эфем. атрибутов
     hdr_distrib=Распределение
     hdr_distrib_day=По дням периода
     hdr_distrib_day_title=Распределение вызовов, по дням
@@ -1272,8 +1272,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Задачи
     hdr_tasks_rss=RSS канал
     hdr_tc=T&C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?Серверы транскрипции
     hdr_unanswered=Неотвеченные
     hdr_unanswered_details=Неотв. (подробно)
     hdr_unanswered_details_title=Детали неотвеченных вызовов
@@ -1862,46 +1862,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Реальное имя:
     edit_record_users_title=Параметры пользователя
     edit_record_users_token=Токен:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?Агент
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?ID удалённой задачи
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?Удалённый медиафайл
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?Состояние
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?Зарезервировано
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?Последняя активность
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?Имя
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?Драйвер
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?Макс. каналов
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?Каналы
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?Приоритет
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Теги
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?Сведения о сервере транскрипции
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?Токен
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?Описание
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?Параметры
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?Статус
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?Исправен
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?Последняя проверка состояния
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Оставить пустым для автосоздания
     edit_reports_automatic=Автоматическая конфигурация отчета
@@ -1930,10 +1930,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Назначенный
     edit_ssar_reports_code=Код агента
     edit_ssar_reports_title=Самообслуживаемая отчетность агентов по отчету:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?Изменить серверы транскрипции
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?Перейти к просмотру в реальном времени
     edit_users_class=Класс
     edit_users_email= E-mail
     edit_users_enabled=Доступно
@@ -1942,22 +1942,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Реальное имя
     edit_users_title=Пользователи системы
     edit_users_user_keys=Ключи пользователя
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?Заблокировано
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Промпт
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?Разделы
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?Видимость очереди
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?Автоматическое QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?Промпт ИИ:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?Очереди для автоматического QA:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?Список очередей через вертикальную черту, к которым это применяется.
 
 ## Quality Assessments
 
@@ -2442,8 +2442,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Выполнить
     rt3_gohome=Домой
     rt3_goto_login=Перейти ко входу
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?Перейти к виду
     rt3_green=Зеленый
     rt3_hangup=Отключение
     rt3_hold=Удержание
@@ -2902,10 +2902,10 @@ Description of configuration properties
     # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     propedit_key_hiddennumberpolicy=?Политика скрытия номеров
     propedit_key_layout_logo_desc=Логотип вашей компании (полный или относительный путь). Должен быть размером 200 х 72.
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?Задаёт максимальное общее время для процесса сбора ICE. При значении 0 оптимизация отключена.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?Длительность мягкого таймаута, запускаемого после обнаружения маршрутизируемого кандидата STUN/TURN.
     propedit_key_noans_timeout=Время (сек.), после которого сбрасывается входящий вызов, если не ответили. Значение по умолчанию - 60.
     propedit_key_phone_iceservers=Список ICE серверов для использования.
     propedit_key_phone_maxsessions=Мах. кол-во сессий для страницы агента в софтфоне
@@ -3109,8 +3109,8 @@ Description of security keys:
     keydesc_qa_track=Пользователь может вводить данные по оценке качества
     keydesc_qlog_edit=Пользователь может редактировать записи журнала очереди
     keydesc_qlog_lngr=Пользователь может редактировать данные сессии, делая их длиннее
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?Пользователи могут входить только в назначенные им очереди
     keydesc_queue_lst=Разрешить  прямой доступ к списку вызовов (пропуская страницу отчетов)
     keydesc_robot=Пользователь может запустить робот транзакций
     keydesc_rt_addmember=Пользователь может добавить агентов в очередь, используя страницу реального времени
@@ -3165,10 +3165,10 @@ Description of security keys:
     keydesc_wallboard_forall=Пользователь может сохранять публичные табло
     keydesc_wallboard_phone=Пользователь может использовать софтфон на табло
     keydesc_wqloader=Пользователь может выгружать логи через HTTP
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?Пользователи могут читать из таблицы эфемерных данных
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?Пользователи могут записывать в таблицу эфемерных данных
 
 ## Tasks/Memos
 
@@ -3418,14 +3418,14 @@ Description of security keys:
     home_configuration_subtitle=Редактировать объекты конфигурации QueueMetrics
     home_configuration_tags=Тэги вызова
     home_configuration_title=Конфигурация
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?Серверы транскрипции
     home_configuration_users=Пользователи
     home_dbtest_ami=AMI тестер
     home_dbtest_ami_queue=Команды AMI
     home_dbtest_configuration=Просмотреть конфигурацию
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?Инспектор эфем. атрибутов
     home_dbtest_db_inspector=Проверить базу данных
     home_dbtest_ram_cache=Кэширование RAM
     home_dbtest_smtp=SMTP тестер
@@ -3478,10 +3478,10 @@ Description of security keys:
     home_sysadmin_subtitle=Полезные инструменты для системных администраторов
     home_sysadmin_title=Администрирование системы
     home_throwaway_report=Создать одноразовый отчет
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?Транскрипции в реальном времени
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?Просмотр транскрипций в реальном времени
     home_unexpected_server_error=Непредвиденная ошибка сервера
     home_wallboards_subtitle=Настраиваемые табло для данных в реальном времени
     home_wallboards_title=Табло
@@ -3598,34 +3598,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?Добавить атрибут
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?Действие
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?Агент
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?Это удалит данный атрибут
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?Имя атрибута обязательно
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?Истёк
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?Истекает
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?Имя атрибута
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?Очередь
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?Срок действия атрибута (сек.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?Значение
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?Обновлять каждые (сек.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?Искать
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?Срок действия должен быть числом больше 0
 
 
 ## Misc
@@ -4105,8 +4105,8 @@ Other items
     qagrader_outcome=Результат
     qagrader_queue=Очередь
     qagrader_supervisor=Супервайзер
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?Расположение
     qagrader_talk=Разговор
     qagrader_time=Время
     qagrader_wait=Ожидание
@@ -4607,100 +4607,100 @@ Other items
     qap_welcome=?С возвращением!
     # 👽 qap_you_have -> You have
     qap_you_have=?У вас есть
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?Расширенный статус
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?Набранный номер
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?Попытка
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?Попытки перезвона
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?История вызовов
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?Набрать
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?Расширенный статус успешно добавлен
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?Номер для набора
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?Атрибут успешно добавлен
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?Зарезервировать
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?Запрошен повтор
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?Пропуск агента
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?Номер в чёрном списке
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?Линия занята
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?Техническая ошибка
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?Вызов потерян
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?Тайм-аут агента
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?Нет ответа
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?Неверный номер
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?Отклонено сетью
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?Вызов завершён
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?Макс. длительность
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?Пропустить
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?Обновить
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?Необходимо выбрать расширенный статус
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?Произошла ошибка в WombatDialer
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?Агент недоступен
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?Набрано
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?Пропущено
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?Нет вызовов для резервирования
+    # 👽 qap_agent -> Agent
+    qap_agent=?Агент
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?Нет такого ID
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?ID существует, но вызов находится в неверном состоянии
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?Имя атрибута не может содержать символ '.'
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?Эфемерный - Текст
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?Эфемерный - Время
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?Резервируемые вызовы
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?Незавершённые вызовы
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?Эфемерный - Значение
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?Статистика кампании
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?Осталось попыток
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?Эфемерный атрибут
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?Режим визуализации
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?Макс. значение
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?Это Markdown
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?Обычный
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?Процент
     qatarget_agentgroup=Группа агента
     qatarget_allcalls=Все вызовы
     qatarget_individual_agents=Агент
@@ -4829,8 +4829,8 @@ Other items
     reports_edit_page_complete=Подтвердить изменения
     reports_edit_report=Редактировать отчет
     reports_editingkey=Ключ редактирования
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?Введите действительные адреса эл. почты
     reports_enter_title=Введите название нового отчета
     reports_export_email_body=Результаты QueueMetrics для экспорта в отчет, названный
     reports_export_email_subject=[QueueMetrics] Отчет
@@ -5104,16 +5104,16 @@ Other items
     reports_trash=Перетащите сюда для удаления
     reports_unsaved=Не сохранен
     reports_visibilitykey=Ключ видимости
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?Сохранить заметку
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?Неоценочная проверка
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?Список страниц
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?Удалить фильтр
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?Изменить фильтр
     rt_active_queues=Показать активные очереди
     rt_addmember=Добавить участника
     rt_agent_nbsp=Агент 
@@ -5393,8 +5393,8 @@ Other items
     sync2_create_users=Доступно создание пользователей
     sync2_delete=Доступны действия "Удалить"
     sync2_delete_agents_confirm=Вы уверены, что хотите удалить всех агентов?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?Удалить кластер
     sync2_delete_queues_confirm=Вы уверены, что хотите удалить все очереди?
     sync2_delete_selected=Удалить
     sync2_deleteall_agent=Удалить всех агентов
@@ -5461,8 +5461,8 @@ Other items
     timeline_close=Вернуться к отчету
     timeline_debug=Загрузить отладочную информацию
     timeline_download_recording=Загрузить запись
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?Скачать файл
     # 👽 timeline_event -> Event
     timeline_event=?Событие
     # 👽 timeline_events -> Timeline Events
@@ -5485,8 +5485,8 @@ Other items
     # 👽 timeline_min -> Min.
     timeline_min=?Мин.
     timeline_no_recordings=Нет записи
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?Нет доступных чатов
     # 👽 timeline_number -> Number
     timeline_number=?Номер
     timeline_stint_end=Конец периода
@@ -5494,8 +5494,8 @@ Other items
     timeline_tab_details=Детали
     timeline_tab_qa=QA
     timeline_tab_recordings=Запись
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?Чаты
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Общ. длит.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

@@ -1654,8 +1654,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_ram_cache=?キャッシュの表示
     # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?SMTPのテスト
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?エフェメラル属性を表示
     hdr_distrib=分配
     hdr_distrib_day=日
     hdr_distrib_day_title=日ごとの着信分配
@@ -1740,8 +1740,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks_rss=?RSSフィード
     # 👽 hdr_tc -> T&C
     hdr_tc=?T＆C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?文字起こしサーバー
     hdr_unanswered=捨て呼
     hdr_unanswered_details=捨て呼詳細
     hdr_unanswered_details_title=捨て呼の詳細
@@ -2766,46 +2766,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=?ユーザー詳細
     # 👽 edit_record_users_token -> Token:
     edit_record_users_token=?トークン：
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?エージェント
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?リモートジョブID
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?リモートメディアファイル
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?状態
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?予約日時
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?最終確認
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?名前
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?ドライバー
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?最大チャネル数
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?チャネル
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?優先度
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?タグ
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?文字起こしサーバーの詳細
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?トークン
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?説明
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?パラメータ
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?ステータス
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?正常
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?最終ヘルスチェック
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?参照を自動的に作成するには、空白のままにしてください
     # 👽 edit_reports_automatic -> Automatic report configuration
@@ -2860,10 +2860,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_code=?エージェントコード
     # 👽 edit_ssar_reports_title -> Self-service agents reporting for report:
     edit_ssar_reports_title=?レポートのセルフサービスエージェントレポート：
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?文字起こしサーバーを編集
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?ライブビューへ移動
     # 👽 edit_users_class -> Class
     edit_users_class=?クラス
     # 👽 edit_users_email -> Email
@@ -2880,22 +2880,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_title=?システムユーザー
     # 👽 edit_users_user_keys -> User Keys
     edit_users_user_keys=?ユーザーキー
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?ロック済み
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?プロンプト
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?セクション
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?キューの可視性
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?自動QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?AIプロンプト:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?自動QA対象のキュー:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?これが適用されるキューのパイプ区切りリスト。
 
 ## Quality Assessments
 
@@ -3710,8 +3710,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=?ホーム
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?ログインに移動
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?ビューへ移動
     # 👽 rt3_green -> green
     rt3_green=?緑
     # 👽 rt3_hangup -> Hangup
@@ -4513,10 +4513,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?番号を隠すためのポリシー
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?あなたの会社のロゴ（フルパスまたは相対パス）。最大サイズ200 x 40 px、推奨サイズ150 x 40 px
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?ICE収集プロセスに許可される最大合計時間を設定します。0に設定すると最適化は無効になります。
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?ルーティング可能なSTUN/TURN候補が検出された後にトリガーされるソフトタイムアウトの継続時間。
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?着信通話が応答されない場合に拒否されるまでの時間（秒単位）。デフォルト値は60です。
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -4896,8 +4896,8 @@ Description of security keys:
     keydesc_qlog_edit=?ユーザーはqueue_logレコードを編集できます
     # 👽 keydesc_qlog_lngr -> User can edit session data by making it longer
     keydesc_qlog_lngr=?ユーザーはセッションデータを長くして編集できます
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?ユーザーは割り当てられたキューにのみログインできます
     # 👽 keydesc_queue_lst -> Allows direct access to the call list (skipping the Reports page)
     keydesc_queue_lst=?コールリストへの直接アクセスを許可します（レポートページをスキップします）
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
@@ -5000,10 +5000,10 @@ Description of security keys:
     keydesc_wallboard_phone=?ユーザーはウォールボードのソフトフォンを使用できます
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?ユーザーはHTTP経由でログをアップロードできます
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?ユーザーはエフェメラルデータテーブルから読み取ることができます
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?ユーザーはエフェメラルデータテーブルに書き込むことができます
 
 ## Tasks/Memos
 
@@ -5406,8 +5406,8 @@ Description of security keys:
     home_configuration_tags=?通話タグ
     # 👽 home_configuration_title -> Configuration
     home_configuration_title=?構成
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?文字起こしサーバー
     # 👽 home_configuration_users -> Users
     home_configuration_users=?ユーザー
     # 👽 home_dbtest_ami -> AMI tester
@@ -5416,8 +5416,8 @@ Description of security keys:
     home_dbtest_ami_queue=?AMIコマンド
     # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?構成を表示
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?エフェメラル属性インスペクター
     # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?データベースインスペクター
     # 👽 home_dbtest_ram_cache -> RAM caching
@@ -5506,10 +5506,10 @@ Description of security keys:
     home_sysadmin_title=?システム管理
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?使い捨てレポートを作成
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?ライブ文字起こし
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?ライブ文字起こしの表示
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?予期しないサーバーエラーが発生しました
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -5637,34 +5637,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?属性を追加
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?アクション
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?エージェント
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?この属性を削除します
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?属性名は必須です
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?期限切れ
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?有効期限
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?属性名
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?キュー
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?属性の有効期間（秒）
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?値
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?更新間隔（秒）
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?検索
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?有効期間は0より大きい数値である必要があります
 
 
 ## Misc
@@ -6290,8 +6290,8 @@ Other items
     qagrader_queue=キュー
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?スーパーバイザー
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?場所
     qagrader_talk=通話
     qagrader_time=時間
     qagrader_wait=待機
@@ -6793,100 +6793,100 @@ Other items
     qap_welcome=?おかえりなさい！
     # 👽 qap_you_have -> You have
     qap_you_have=?あなたは持っています
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?拡張ステータス
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?発信番号
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?試行
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?再コール試行
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?通話履歴
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?発信
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?拡張ステータスが正常に追加されました
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?発信する番号
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?属性が正常に追加されました
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?予約
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?再試行が要求されました
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?エージェントスキップ
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?番号がブラックリストに登録
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?回線話中
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?技術的エラー
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?通話切断
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?エージェントタイムアウト
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?応答なし
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?無効な番号
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?ネットワーク拒否
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?通話完了
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?最大継続時間
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?スキップ
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?更新
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?拡張ステータスを選択する必要があります
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?WombatDialerでエラーが発生しました
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?エージェントが利用できません
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?発信しました
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?スキップしました
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?予約可能な通話がありません
+    # 👽 qap_agent -> Agent
+    qap_agent=?エージェント
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?該当するIDがありません
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?IDは存在しますが、通話が誤った状態にあります
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?属性名に '.' 文字を含めることはできません
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?エフェメラル - テキスト
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?エフェメラル - 時刻
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?予約可能な通話
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?未完了の通話
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?エフェメラル - 値
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?キャンペーン統計
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?残りの試行回数
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?エフェメラル属性
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?表示モード
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?最大値
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?Markdownである
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?通常
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?パーセント
     qatarget_agentgroup=エージェントグループ
     qatarget_allcalls=全ての呼び出し
     qatarget_individual_agents=エージェント
@@ -7111,8 +7111,8 @@ Other items
     reports_edit_report=?レポートを編集
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?編集キー
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?有効なメールアドレスを入力してください
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?新しいレポートのタイトルを入力
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -7581,16 +7581,16 @@ Other items
     reports_unsaved=?未保存
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?表示キー
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?メモを保存
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?非採点評価
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?ページ一覧
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?フィルターを削除
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?フィルターを編集
     rt_active_queues=アクティブキューの表示
     # 👽 rt_addmember -> Add Member
     rt_addmember=?メンバーを追加
@@ -8005,8 +8005,8 @@ Other items
     sync2_delete=?削除アクションを有効にする
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?すべてエージェントを削除してもよろしいですか？
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?クラスターを削除
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?すべてキューを削除してもよろしいですか？
     # 👽 sync2_delete_selected -> Delete
@@ -8137,8 +8137,8 @@ Other items
     timeline_debug=?デバッグ情報をダウンロード
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?録音をダウンロード
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?ファイルをダウンロード
     # 👽 timeline_event -> Event
     timeline_event=?イベント
     # 👽 timeline_events -> Timeline Events
@@ -8173,8 +8173,8 @@ Other items
     timeline_min=?最小
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?録音はありません
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?利用可能なチャットがありません
     # 👽 timeline_number -> Number
     timeline_number=?番号
     # 👽 timeline_stint_end -> Stint End
@@ -8187,8 +8187,8 @@ Other items
     timeline_tab_qa=?QA / 録音
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?録音
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?チャット
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?合計時間
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

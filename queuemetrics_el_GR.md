@@ -1164,8 +1164,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=Παρουσίαση Βάσης Δεδομένων
     hdr_dbtest_ram_cache=Παρουσίαση Μνήμης Cache
     hdr_dbtest_smtp=Τεστ SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?Προβ. εφήμ. χαρακτηρ.
     hdr_distrib=Διανομ.
     hdr_distrib_day=Ημέρα
     hdr_distrib_day_title=Διανομή κλήσεων ανά ημέρα
@@ -1215,8 +1215,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Εργασίες
     hdr_tasks_rss=RSS Feed
     hdr_tc=Εκπαίδευση και καθοδήγηση (T&C)
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?Διακομιστές μεταγραφής
     hdr_unanswered=Αναπάντητες
     hdr_unanswered_details=Λεπτομ. Αναπαντ.
     hdr_unanswered_details_title=Λεπτομέρειες αναπάντητων
@@ -1737,46 +1737,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Πραγματικό όνομα:
     edit_record_users_title=Λεπτομέριες χρήστη
     edit_record_users_token=Token:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?Εκπρόσωπος
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?ID απομακρυσμένης εργασίας
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?Απομακρυσμένο αρχείο πολυμέσων
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?Κατάσταση
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?Δεσμεύτηκε στις
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?Τελευταία εμφάνιση
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?Όνομα
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?Πρόγραμμα οδήγησης
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?Μέγ. κανάλια
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?Κανάλια
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?Προτεραιότητα
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Ετικέτες
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?Λεπτομέρειες διακομιστή μεταγραφής
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?Διακριτικό
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?Περιγραφή
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?Παράμετροι
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?Κατάσταση
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?Υγιής
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?Τελευταίος έλεγχος υγείας
     edit_record_xref_blank=Αφήστε κενό για να δημιουργηθεί μια παραπομπή αυτόματα
     edit_reports_automatic=Αυτόματη ρύθμιση παραμέτρων αναφοράς
     edit_reports_desc=Περιγρ.
@@ -1804,10 +1804,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Έχει ανατεθεί
     edit_ssar_reports_code=Κωδικός χρήστη
     edit_ssar_reports_title=Αναφορά 'Self-Service' των Χρηστών για την αναφορά
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?Επεξεργασία διακομιστών μεταγραφής
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?Μετάβαση στην προβολή ζωντανά
     edit_users_class=Κλάση
     edit_users_email=E-mail
     edit_users_enabled=Ενεργό
@@ -1816,22 +1816,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Πραγματικό όνομα
     edit_users_title=Χρήστες του συστήματος
     edit_users_user_keys=Κλειδιά χρηστών
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?Κλειδωμένο
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?Ενότητες
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?Ορατότητα ουράς
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?Αυτοματοποιημένο QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?Prompt AI:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?Ουρές για αυτοματοποιημένο QA:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?Λίστα ουρών διαχωρισμένων με κάθετη γραμμή, στις οποίες ισχύει αυτό.
 
 ## Quality Assessments
 
@@ -2305,8 +2305,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Εκτέλεση
     rt3_gohome=Αρχική
     rt3_goto_login=Πηγαίνετε στη σύνδεση
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?Μετάβαση στην προβολή
     rt3_green=Πράσινο
     rt3_hangup=Τερματισμός κλήσης
     rt3_hold=Αναμονή
@@ -2754,10 +2754,10 @@ Description of configuration properties
     propedit_key_hangup_src=Ο τόνος τερματισμού του Softphone (URL)
     propedit_key_hiddennumberpolicy=Πολιτική απόκρυψης αριθμών
     propedit_key_layout_logo_desc=Το λογότυπο της εταιρείας σας (πλήρης ή σχετική διαδρομή). Θα πρέπει να αλλάξει το μέγεθος σε 200 x 72.
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?Ορίζει τον μέγιστο συνολικό χρόνο που επιτρέπεται για τη διαδικασία συλλογής ICE. Αν οριστεί σε 0, η βελτιστοποίηση απενεργοποιείται.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?Η διάρκεια του ήπιου χρονικού ορίου που ενεργοποιείται μετά τον εντοπισμό ενός δρομολογήσιμου υποψηφίου STUN/TURN.
     propedit_key_noans_timeout=Ώρα (σε δευτερόλεπτα) μετά την οποία μια εισερχόμενη κλήση απορρίπτεται αν δεν απαντηθεί. Η προεπιλεγμένη τιμή είναι 60.
     propedit_key_phone_iceservers=Λίστα διακομιστών ICE που θα χρησιμοποιήσετε
     propedit_key_phone_maxsessions=Μέγ. Αριθμ. συνεδριών της σελίδας Softphone του χρήστη
@@ -2953,8 +2953,8 @@ Description of security keys:
     keydesc_qa_track=Ο χρήστης μπορεί να εισάγει δεδομένα Αξιολόγησης Ποιότητας
     keydesc_qlog_edit=Ο χρήστης μπορεί να επεξεργαστεί τις εγγραφές queue_log
     keydesc_qlog_lngr=Ο χρήστης μπορεί να επεξεργαστεί τα δεδομένα της σύνδεσης επεκτείνοντας την
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?Οι χρήστες μπορούν να συνδεθούν μόνο στις ουρές που τους έχουν ανατεθεί
     keydesc_queue_lst=Επιτρέπει την άμεση πρόσβαση στη λίστα κλήσεων (παρακάμπτοντας τη σελίδα Αναφορές)
     keydesc_robot=Ο χρήστης μπορεί να ξεκινήσει συναλλαγές ROBOT.
     keydesc_rt_addmember=Ο χρήστης μπορεί να προσθέσει agent μέσα σε μια Oυρά αναμονής από τη σελίδα απεικόνισης σε πραγματικό χρόνο
@@ -3006,10 +3006,10 @@ Description of security keys:
     keydesc_wallboard_forall=Ο χρήστης μπορεί να αποθηκεύσει δημόσιες προβολές
     keydesc_wallboard_phone=Ο χρήστης μπορεί να χρησιμοποιήσει το softphone στην οθόνη
     keydesc_wqloader=Ο χρήστης μπορεί να ανεβάσει αρχεία καταγραφής μέσω HTTP
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?Οι χρήστες μπορούν να διαβάζουν από τον πίνακα εφήμερων δεδομένων
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?Οι χρήστες μπορούν να γράφουν στον πίνακα εφήμερων δεδομένων
 
 ## Tasks/Memos
 
@@ -3241,14 +3241,14 @@ Description of security keys:
     home_configuration_subtitle=Επεξεργασία αντικειμένων διαμόρφωσης QueueMetrics
     home_configuration_tags=Ετικέτες κλήσης
     home_configuration_title=Διαμόρφωση
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?Διακομιστές μεταγραφής
     home_configuration_users=Χρήστες
     home_dbtest_ami=Ελεγκτής AMI
     home_dbtest_ami_queue=Εντολές AMI
     home_dbtest_configuration=Προβολή διαμόρφωσης
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?Επιθεωρητής εφήμ. χαρακτηρ.
     home_dbtest_db_inspector=Επιθεωρητής βάσης δεδομένων
     home_dbtest_ram_cache=Προσωρινή αποθήκευση RAM
     home_dbtest_smtp=Ελεγκτής SMTP
@@ -3294,10 +3294,10 @@ Description of security keys:
     home_sysadmin_subtitle=Χρήσιμα εργαλεία για Διαχειριστές Συστήματος
     home_sysadmin_title=Διαχείριση Συστήματος
     home_throwaway_report=Δημιουργία αναφοράς μιας χρήσης
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?Ζωντανές μεταγραφές
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?Προβολή ζωντανών μεταγραφών
     home_unexpected_server_error=Παρουσιάστηκε μη αναμενόμενο σφάλμα διακομιστή
     home_wallboards_subtitle=Προσαρμόσιμα Wallboards για ζωντανά δεδομένα
     home_wallboards_title=Wallboards
@@ -3401,34 +3401,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?Προσθήκη χαρακτηριστικού
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?Ενέργεια
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?Εκπρόσωπος
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?Αυτό θα διαγράψει αυτό το χαρακτηριστικό
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?Το όνομα του χαρακτηριστικού είναι υποχρεωτικό
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?Έληξε
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?Λήγει στις
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?Όνομα χαρακτηριστικού
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?Ουρά
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?Ισχύς χαρακτηριστικού (δευτ.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?Τιμή
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?Ανανέωση κάθε (δευτ.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?Αναζήτηση
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?Ο χρόνος ισχύος πρέπει να είναι αριθμός μεγαλύτερος από 0
 
 
 ## Misc
@@ -3805,8 +3805,8 @@ Other items
     qagrader_outcome=Αποτέλεσμα
     qagrader_queue=Ουρά αναμονής
     qagrader_supervisor=Επόπτης
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?Τοποθεσία
     qagrader_talk=Συνομιλία
     qagrader_time=Χρόνος
     qagrader_wait=Αναμονή
@@ -4064,100 +4064,100 @@ Other items
     qap_wbt_title=Προγραμματισμός Επανακλήσης WombatDialer
     qap_welcome=Καλώς ήρθατε ξανά!
     qap_you_have=Έχετε
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?Εκτεταμένη κατάσταση
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?Αριθμός που κλήθηκε
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?Προσπάθεια
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?Προσπάθειες επανάκλησης
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?Ιστορικό κλήσεων
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?Κλήση
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?Η εκτεταμένη κατάσταση προστέθηκε με επιτυχία
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?Αριθμός προς κλήση
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?Το χαρακτηριστικό προστέθηκε με επιτυχία
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?Δέσμευση
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?Ζητήθηκε επανάληψη
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?Παράλειψη εκπροσώπου
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?Αριθμός σε μαύρη λίστα
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?Γραμμή κατειλημμένη
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?Τεχνικό σφάλμα
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?Κλήση χάθηκε
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?Λήξη χρόνου εκπροσώπου
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?Καμία απάντηση
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?Μη έγκυρος αριθμός
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?Απόρριψη δικτύου
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?Κλήση ολοκληρώθηκε
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?Μέγ. διάρκεια
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?Παράλειψη
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?Ενημέρωση
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?Πρέπει να επιλεγεί εκτεταμένη κατάσταση
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?Παρουσιάστηκε σφάλμα στο WombatDialer
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?Ο εκπρόσωπος δεν είναι διαθέσιμος
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?Κλήθηκε
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?Παραλείφθηκε
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?Δεν υπάρχει διαθέσιμη κλήση για δέσμευση
+    # 👽 qap_agent -> Agent
+    qap_agent=?Εκπρόσωπος
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?Δεν υπάρχει τέτοιο ID
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?Το ID υπάρχει αλλά η κλήση βρίσκεται σε λάθος κατάσταση
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?Το όνομα του χαρακτηριστικού δεν μπορεί να περιέχει τον χαρακτήρα '.'
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?Εφήμερο - Κείμενο
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?Εφήμερο - Ώρα
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?Δεσμεύσιμες κλήσεις
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?Ημιτελείς κλήσεις
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?Εφήμερο - Τιμή
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?Στατιστικά καμπάνιας
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?Υπολειπόμενες προσπάθειες
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?Εφήμερο χαρακτηριστικό
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?Λειτουργία απεικόνισης
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?Μέγ. τιμή
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?Είναι markdown
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?Κανονικό
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?Ποσοστό
     qatarget_agentgroup=Ομάδα χρηστών
     qatarget_allcalls=Όλες οι κλήσεις
     qatarget_individual_agents=Χρήστης
@@ -4273,8 +4273,8 @@ Other items
     reports_edit_page_complete=Επιβεβαίωση αλλαγών
     reports_edit_report=Επεξεργασία Αναφοράς
     reports_editingkey=Επεξεργασία Κλειδιού
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?Εισαγάγετε έγκυρες διευθύνσεις email
     reports_enter_title=Εισαγάγετε τον νέο τίτλο αναφοράς
     reports_export_email_body=Αναφορά αποτελεσμάτων QueueMetrics για εξαγωγή με την ονομασία
     reports_export_email_subject=[QueueMetrics] Αναφορά
@@ -4523,16 +4523,16 @@ Other items
     reports_trash=Σύρετε εδώ για να διαγράψετε
     reports_unsaved=Μη αποθηκευμένο
     reports_visibilitykey=Κλειδί Ορατότητας
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?Αποθήκευση σημείωσης
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?Αξιολόγηση χωρίς βαθμολογία
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?Λίστα σελίδων
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?Διαγραφή φίλτρου
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?Επεξεργασία φίλτρου
     rt_active_queues=Εμφάνιση ενεργών ουρών αναμονής
     rt_addmember=Προσθήκη μέλους
     rt_agent_nbsp=Χρήστης
@@ -4805,8 +4805,8 @@ Other items
     sync2_create_users=Ενεργοποίηση δημιουργίας Χρήστη
     sync2_delete=Ενεργοποίηση ενεργειών Διαγραφής
     sync2_delete_agents_confirm=Είστε βέβαιοι ότι θέλετε να διαγράψετε όλους τους χρήστες;
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?Διαγραφή συμπλέγματος
     sync2_delete_queues_confirm=Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις ουρές αναμονής;
     sync2_delete_selected=Διαγραφή
     sync2_deleteall_agent=Διαγραφή όλων των χρηστών
@@ -4872,8 +4872,8 @@ Other items
     timeline_close=Επιστροφή στην Αναφορά
     timeline_debug=Λήψη Πληροφοριών Σφαλμάτων  
     timeline_download_recording=Λήψη Ηχογράφησης  
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?Λήψη αρχείου
     timeline_event=Γεγονός
     timeline_events=Γεγονότα Χρονολογίου
     timeline_interaction_calltot=Συνολικό:
@@ -4891,16 +4891,16 @@ Other items
     timeline_max=Μέγιστο
     timeline_min=Ελάχιστο
     timeline_no_recordings=Χωρίς Ηχογραφήσεις
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?Δεν υπάρχουν διαθέσιμες συνομιλίες
     timeline_number=Αριθμός
     timeline_stint_end=Λήξη Σειράς
     timeline_stint_start=Έναρξη Σειράς
     timeline_tab_details=Λεπτομέρειες
     timeline_tab_qa=QA/Ηχογραφήσεις
     timeline_tab_recordings=Ηχογραφήσεις
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?Συνομιλίες
     timeline_totdur=Συνολική Διάρκεια
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Συνεδρίες & Παύσεις Πρακτόρων

@@ -1312,8 +1312,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_ram_cache=?Bekijk Cache
     # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?Test SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?Eph. attr. bekijken
     hdr_distrib=Distributie
     hdr_distrib_day=Dag
     hdr_distrib_day_title=Opr. distributie, per dag
@@ -1394,8 +1394,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks_rss=RSS Feed
     # 👽 hdr_tc -> T&C
     hdr_tc=?AV
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?Transcriptieservers
     hdr_unanswered=Onbeantwoord
     hdr_unanswered_details=Onbeantw.Dt
     hdr_unanswered_details_title=Details van onbeantwoorde oproepen
@@ -2366,46 +2366,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=?Gebruikersdetail
     # 👽 edit_record_users_token -> Token:
     edit_record_users_token=?Token:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?Externe taak-ID
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?Extern mediabestand
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?Toestand
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?Gereserveerd op
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?Laatst gezien
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?Naam
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?Stuurprogramma
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?Max. kanalen
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?Kanalen
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?Prioriteit
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Tags
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?Transcriptieserverdetails
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?Token
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?Beschrijving
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?Parameters
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?Status
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?Gezond
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?Laatste statuscontrole
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Laat leeg om automatisch een referentie te maken
     # 👽 edit_reports_automatic -> Automatic report configuration
@@ -2460,10 +2460,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_code=?Agent code
     # 👽 edit_ssar_reports_title -> Self-service agents reporting for report:
     edit_ssar_reports_title=?Self-service agenten rapporteren voor rapport:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?Transcriptieservers bewerken
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?Ga naar live-weergave
     # 👽 edit_users_class -> Class
     edit_users_class=?Klasse
     # 👽 edit_users_email -> Email
@@ -2480,22 +2480,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_title=?Systeemgebruikers
     # 👽 edit_users_user_keys -> User Keys
     edit_users_user_keys=?Gebruikerssleutels
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?Vergrendeld
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?Secties
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?Wachtrijzichtbaarheid
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?Geautomatiseerde QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?AI-prompt:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?Wachtrijen voor geautomatiseerde QA:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?Door pipes gescheiden lijst van wachtrijen waarop dit van toepassing is.
 
 ## Quality Assessments
 
@@ -3199,8 +3199,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=?Start
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?Ga naar inloggen
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?Ga naar weergave
     # 👽 rt3_green -> green
     rt3_green=?groen
     # 👽 rt3_hangup -> Hangup
@@ -3980,10 +3980,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?Beleid voor het verbergen van nummers
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?Het logo van uw bedrijf (volledig of relatief pad). Maximale grootte van 200 x 40 px, voorkeursgrootte is 150 x 40 px
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?Stelt de maximale totale tijd in die is toegestaan voor het ICE-verzamelproces. Bij 0 is de optimalisatie uitgeschakeld.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?De duur van de zachte time-out die wordt geactiveerd nadat een routeerbare STUN/TURN-kandidaat is gedetecteerd.
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?Tijd (in seconden) waarna een inkomend gesprek wordt geweigerd als het niet wordt beantwoord. De standaardwaarde is 60.
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -4363,8 +4363,8 @@ Description of security keys:
     keydesc_qlog_edit=?Gebruiker kan de queue_log records bewerken
     # 👽 keydesc_qlog_lngr -> User can edit session data by making it longer
     keydesc_qlog_lngr=?Gebruiker kan sessie data bewerken door het langer te maken
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?Gebruikers kunnen alleen inloggen bij hun toegewezen wachtrijen
     # 👽 keydesc_queue_lst -> Allows direct access to the call list (skipping the Reports page)
     keydesc_queue_lst=?Geeft directe toegang tot de bellijst (de pagina Rapporten overslaan)
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
@@ -4467,10 +4467,10 @@ Description of security keys:
     keydesc_wallboard_phone=?Gebruiker kan de wallboard softphone gebruiken
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?De gebruiker kan logs uploaden via HTTP
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?Gebruikers kunnen lezen uit de ephemeral-gegevenstabel
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?Gebruikers kunnen schrijven naar de ephemeral-gegevenstabel
 
 ## Tasks/Memos
 
@@ -4806,8 +4806,8 @@ Description of security keys:
     home_configuration_tags=?Call tags
     # 👽 home_configuration_title -> Configuration
     home_configuration_title=?Configuratie
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?Transcriptieservers
     # 👽 home_configuration_users -> Users
     home_configuration_users=?Gebruikers
     # 👽 home_dbtest_ami -> AMI tester
@@ -4816,8 +4816,8 @@ Description of security keys:
     home_dbtest_ami_queue=?AMI Commando's
     # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?Configuratie weergeven
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?Eph.-attr.-inspector
     # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?Database inspector
     # 👽 home_dbtest_ram_cache -> RAM caching
@@ -4906,10 +4906,10 @@ Description of security keys:
     home_sysadmin_title=?Systeembeheer
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?Maak een wegwerp rapport
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?Live-transcripties
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?Weergave van live-transcripties
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?Er is een onverwachte serverfout opgetreden
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -5029,34 +5029,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?Attribuut toevoegen
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?Actie
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?Agent
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?Hiermee wordt dit attribuut verwijderd
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?Attribuutnaam is vereist
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?Verlopen
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?Verloopt op
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?Attribuutnaam
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?Wachtrij
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?Geldigheid attribuut (sec.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?Waarde
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?Vernieuwen elke (sec.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?Zoeken naar
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?De geldigheidsduur moet een getal groter dan 0 zijn
 
 
 ## Misc
@@ -5599,8 +5599,8 @@ Other items
     qagrader_outcome=Resultaat
     qagrader_queue=Wachtrij
     qagrader_supervisor=Supervisor
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?Locatie
     qagrader_talk=Spreken
     qagrader_time=Tijd
     qagrader_wait=Wacht
@@ -6101,100 +6101,100 @@ Other items
     qap_welcome=?Welkom terug!
     # 👽 qap_you_have -> You have
     qap_you_have=?U heeft
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?Uitgebreide status
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?Gekozen nummer
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?Poging
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?Herhaalpogingen
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?Oproepgeschiedenis
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?Bellen
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?Uitgebreide status succesvol toegevoegd
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?Te bellen nummer
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?Attribuut succesvol toegevoegd
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?Reserveren
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?Nieuwe poging aangevraagd
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?Agent overgeslagen
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?Nummer op zwarte lijst
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?Lijn bezet
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?Technische fout
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?Oproep verloren
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?Time-out agent
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?Geen antwoord
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?Ongeldig nummer
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?Netwerkafwijzing
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?Oproep voltooid
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?Max. duur
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?Overslaan
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?Bijwerken
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?Er moet een uitgebreide status worden geselecteerd
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?Er is een fout opgetreden in WombatDialer
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?Agent niet beschikbaar
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?Gebeld
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?Overgeslagen
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?Geen oproep beschikbaar voor reservering
+    # 👽 qap_agent -> Agent
+    qap_agent=?Agent
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?Geen dergelijke ID
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?De ID bestaat, maar de oproep verkeert in een verkeerde toestand
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?Attribuutnaam mag het teken '.' niet bevatten
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?Ephemeral - Tekst
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?Ephemeral - Tijd
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?Reserveerbare oproepen
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?Onvolledige oproepen
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?Ephemeral - Waarde
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?Campagnestatistieken
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?Resterende pogingen
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?Ephemeral-attribuut
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?Visualisatiemodus
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?Max. waarde
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?Is markdown
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?Normaal
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?Percentage
     qatarget_agentgroup=Agent groep
     qatarget_allcalls=Alle oproepen
     qatarget_individual_agents=Agent
@@ -6400,8 +6400,8 @@ Other items
     reports_edit_report=?Rapport bewerken
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?Bewerkingssleutel
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?Voer geldige e-mailadressen in
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?Voer de nieuwe rapporttitel in
     reports_export_email_body=Queuemetrics resultaten export voor rapport
@@ -6862,16 +6862,16 @@ Other items
     reports_unsaved=?Niet opgeslagen
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?Zichtbaarheidssleutel
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?Notitie opslaan
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?Niet-scorende evaluatie
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?Paginalijst
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?Filter verwijderen
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?Filter bewerken
     rt_active_queues=Laat actieve wachtrijen zien
     rt_addmember=Voeg wachtrij toe
     rt_agent_nbsp=Agent
@@ -7251,8 +7251,8 @@ Other items
     sync2_delete=?Verwijderacties inschakelen
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?Weet u zeker dat u alle agents wilt verwijderen?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?Cluster verwijderen
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?Weet u zeker dat u alle wachtrijen wilt verwijderen?
     # 👽 sync2_delete_selected -> Delete
@@ -7383,8 +7383,8 @@ Other items
     timeline_debug=?Debug-informatie downloaden
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?Opname downloaden
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?Bestand downloaden
     # 👽 timeline_event -> Event
     timeline_event=?Gebeurtenis
     # 👽 timeline_events -> Timeline Events
@@ -7419,8 +7419,8 @@ Other items
     timeline_min=?Min.
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?Geen opnamen
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?Geen chats beschikbaar
     # 👽 timeline_number -> Number
     timeline_number=?Nummer
     # 👽 timeline_stint_end -> Stint End
@@ -7433,8 +7433,8 @@ Other items
     timeline_tab_qa=?QA/Opnamen
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?Opnamen
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?Chats
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Tot. duur.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

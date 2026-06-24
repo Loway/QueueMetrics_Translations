@@ -1254,8 +1254,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=Veritabanı Görüntüle
     hdr_dbtest_ram_cache=Önbelleği Görüntüle
     hdr_dbtest_smtp=CR
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?Geçici Öznit. Görüntüle
     hdr_distrib=Distrib.
     hdr_distrib_day=Gün
     hdr_distrib_day_title=Çağrı dağıtımı - güne göre
@@ -1310,8 +1310,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Görevler
     hdr_tasks_rss=RSS beslemesi
     hdr_tc=T&C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?Transkripsiyon Sunucuları
     hdr_unanswered=Cvplmamış.
     hdr_unanswered_details=Cvplmamış.Dt.
     hdr_unanswered_details_title=Cevaplanmayan çağrıların detayları
@@ -1942,46 +1942,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Gerçek ad:
     edit_record_users_title=Kullanıcı detayları
     edit_record_users_token=Token:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?Temsilci
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?Uzak İş Kimliği
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?Uzak Medya Dosyası
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?Durum
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?Rezerve Edildiği Zaman
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?Son Görülme
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?Ad
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?Sürücü
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?Maks. Kanal
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?Kanallar
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?Öncelik
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Etiketler
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?Transkripsiyon Sunucusu Ayrıntısı
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?Belirteç
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?Açıklama
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?Parametreler
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?Durum
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?Sağlıklı
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?Son Sağlık Kontrolü
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Otomatik referans oluşturmak için boş bırakın
     edit_reports_automatic=Otomatik rapor yapılandırması
@@ -2010,10 +2010,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Atanan
     edit_ssar_reports_code=Müşteri Temsilcisi kodu
     edit_ssar_reports_title=Rapor için raporlama yapan self servis müşteri temsilcileri:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?Transkripsiyon Sunucularını Düzenle
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?Canlı görünüme git
     edit_users_class=Sınıf
     edit_users_email=Email
     edit_users_enabled=Etkin
@@ -2022,22 +2022,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Gerçek Ad
     edit_users_title=Sistem Kullanıcıları
     edit_users_user_keys=Kullanıcı Tuşları
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?Kilitli
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?Bölümler
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?Kuyruk görünürlüğü
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?Otomatik QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?AI Prompt:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?Otomatik QA için kuyruklar:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?Bunun uygulandığı, dikey çizgiyle ayrılmış kuyruk listesi.
 
 ## Quality Assessments
 
@@ -2531,8 +2531,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Git
     rt3_gohome=Ana Sayfa
     rt3_goto_login=Girişe Git
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?Görünüme git
     rt3_green=yeşil
     rt3_hangup=Telefonu kapat
     rt3_hold=Tut
@@ -3002,10 +3002,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?Numaraları gizleme politikası
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?Şirket logonuz (tam veya göreli yol). Maksimum boyut 200 x 40 px, tercih edilen boyut 150 x 40 px'tir.
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?ICE toplama işlemi için izin verilen maksimum toplam süreyi ayarlar. 0 olarak ayarlanırsa optimizasyon devre dışı bırakılır.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?Yönlendirilebilir bir STUN/TURN adayı algılandıktan sonra tetiklenen yumuşak zaman aşımının süresi.
     propedit_key_noans_timeout=Yanıtlanmadıysa, gelen bir çağrının reddedildiği süre (saniye olarak). Varsayılan değer 60'tır.
     propedit_key_phone_iceservers=Kullanılacak ICE Sunucularının listesi.
     propedit_key_phone_maxsessions=Duvarpanosu SoftPhone oturumlarının Max Sayısı
@@ -3209,8 +3209,8 @@ Description of security keys:
     keydesc_qa_track=Kullanıcı Kalite Değerlendirme verilerini girebilir
     keydesc_qlog_edit=Kullanıcı queue_log kayıtlarını düzenleyebilir
     keydesc_qlog_lngr=Kullanıcı oturum verilerini daha uzun yaparak düzenleyebilir
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?Kullanıcılar yalnızca kendilerine atanan kuyruklara giriş yapabilir
     keydesc_queue_lst=Çağrı listesine doğrudan erişim sağlar (Raporlar sayfasının atlanması)
     keydesc_robot=Kullanıcı ROBOT işlemlerini başlatabilir.
     keydesc_rt_addmember=Kullanıcı gerçek zamanlı sayfadan bir havuza müşteri temsilcisi ekleyebilir
@@ -3266,10 +3266,10 @@ Description of security keys:
     keydesc_wallboard_forall=Kullanıcı duvar panolarını koruyabilir
     keydesc_wallboard_phone=Kullanıcı duvar panolarını koruyabilir
     keydesc_wqloader=Kullanıcı, HTTP üzerinden günlükleri yükleyebilir
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?Kullanıcılar geçici veri tablosundan okuyabilir
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?Kullanıcılar geçici veri tablosuna yazabilir
 
 ## Tasks/Memos
 
@@ -3522,14 +3522,14 @@ Description of security keys:
     home_configuration_subtitle=QueueMetrics Konfig Nesnelerini Düzenle
     home_configuration_tags=Çağrı etiketleri
     home_configuration_title=Konfigrasyon
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?Transkripsiyon Sunucuları
     home_configuration_users=Kullanıcılar
     home_dbtest_ami=AMI testi
     home_dbtest_ami_queue=AMI Komutları
     home_dbtest_configuration=Konfif Göster
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?Geçici Öznit. Denetçisi
     home_dbtest_db_inspector=Veritabanı denetçisi
     home_dbtest_ram_cache=RAM Cache
     home_dbtest_smtp=SMTP Test
@@ -3582,10 +3582,10 @@ Description of security keys:
     home_sysadmin_subtitle=Sysadmins için kullanışlı araçlar
     home_sysadmin_title=Sistem Yönetimi
     home_throwaway_report=Throw Away Raporu Oluştur
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?Canlı Transkripsiyonlar
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?Canlı Transkripsiyonların Görünümü
     home_unexpected_server_error=Beklenmeyen bir sunucu hatası oluştu
     home_wallboards_subtitle=Duvarpanoları için özelleştirilebilir canlı veriler
     home_wallboards_title=Duvar Panoları
@@ -3702,34 +3702,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?Öznitelik Ekle
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?Eylem
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?Temsilci
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?Bu, bu özniteliği silecek
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?Öznitelik adı gereklidir
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?Süresi doldu
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?Sona erme
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?Öznitelik adı
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?Kuyruk
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?Öznitelik geçerliliği (sn.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?Değer
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?Yenileme aralığı (sn.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?Ara
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?Geçerlilik süresi 0'dan büyük bir sayı olmalıdır
 
 
 ## Misc
@@ -4241,8 +4241,8 @@ Other items
     qagrader_outcome=Sonuç
     qagrader_queue=Havuz
     qagrader_supervisor=Denetmen (supervisor)
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?Konum
     qagrader_talk=Konuş
     qagrader_time=Süre
     qagrader_wait=Bekle
@@ -4743,100 +4743,100 @@ Other items
     qap_welcome=?Tekrar Hoş Geldiniz!
     # 👽 qap_you_have -> You have
     qap_you_have=?Sahipsiniz
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?Genişletilmiş durum
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?Aranan numara
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?Deneme
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?Yeniden arama denemeleri
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?Çağrı geçmişi
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?Ara
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?Genişletilmiş durum başarıyla eklendi
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?Aranacak numara
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?Öznitelik başarıyla eklendi
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?Rezerve et
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?Yeniden deneme istendi
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?Temsilci atlandı
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?Numara kara listede
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?Hat meşgul
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?Teknik hata
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?Çağrı kaybedildi
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?Temsilci zaman aşımı
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?Yanıt yok
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?Geçersiz numara
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?Ağ reddi
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?Çağrı tamamlandı
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?Maks. süre
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?Atla
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?Güncelle
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?Genişletilmiş bir durum seçilmelidir
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?WombatDialer'da bir hata oluştu
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?Temsilci uygun değil
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?Arandı
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?Atlandı
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?Rezervasyon için uygun çağrı yok
+    # 👽 qap_agent -> Agent
+    qap_agent=?Temsilci
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?Böyle bir ID yok
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?ID mevcut ancak çağrı yanlış bir durumda
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?Öznitelik adı '.' karakterini içeremez
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?Geçici - Metin
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?Geçici - Zaman
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?Rezerve edilebilir çağrılar
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?Tamamlanmamış çağrılar
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?Geçici - Değer
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?Kampanya istatistikleri
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?Kalan denemeler
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?Geçici Öznitelik
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?Görselleştirme modu
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?Maks. değer
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?Markdown mı
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?Normal
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?Yüzde
     qatarget_agentgroup=Müşteri Temsilcisi Grubu
     qatarget_allcalls=Tüm çağrılar
     qatarget_individual_agents=Müşteri Temsilcisi
@@ -4987,8 +4987,8 @@ Other items
     reports_edit_page_complete=Değişiklikleri onayla
     reports_edit_report=Raporu Düzenle
     reports_editingkey=Düzenleme Anahtarı
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?Lütfen geçerli e-posta adresleri girin
     reports_enter_title=Lütfen geçerli bir saat formatı giriniz
     reports_export_email_body=İsimlendirilmiş dışa aktarma raporu için QueueMetrics sonuçları
     reports_export_email_subject=[QueueMetrics] Rapor
@@ -5306,16 +5306,16 @@ Other items
     reports_trash=Silmek için buraya sürükleyin
     reports_unsaved=Kaydedilmemiş
     reports_visibilitykey=Görünürlük anahtarı
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?Notu kaydet
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?Puanlamasız değerlendirme
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?Sayfa listesi
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?Filtreyi sil
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?Filtreyi düzenle
     rt_active_queues=Aktif havuzları göster
     rt_addmember=Üye ekle
     rt_agent_nbsp=Müşteri Temsilcisi
@@ -5600,8 +5600,8 @@ Other items
     sync2_create_users=Kullanıcı oluşturmayı etkinleştir
     sync2_delete=Silme eylemlerini etkinleştir
     sync2_delete_agents_confirm=Tüm müşteri temsilcilerini silmek istediğinizden emin misiniz?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?Kümeyi sil
     sync2_delete_queues_confirm=Tüm havuzları silmek istediğinizden emin misiniz?
     # 👽 sync2_delete_selected -> Delete
     sync2_delete_selected=?Sil
@@ -5677,8 +5677,8 @@ Other items
     timeline_debug=?Hata Ayıklama Bilgisini İndir
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?Kaydı İndir
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?Dosyayı indir
     # 👽 timeline_event -> Event
     timeline_event=?Olay
     # 👽 timeline_events -> Timeline Events
@@ -5713,8 +5713,8 @@ Other items
     timeline_min=?Min.
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?Kayıt Yok
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?Kullanılabilir sohbet yok
     # 👽 timeline_number -> Number
     timeline_number=?Numara
     # 👽 timeline_stint_end -> Stint End
@@ -5727,8 +5727,8 @@ Other items
     timeline_tab_qa=?QA/Kayıtlar
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?Kayıtlar
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?Sohbetler
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Toplam Süre
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

@@ -1782,8 +1782,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_ram_cache=?Cache megtekintése
     # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?SMTP teszt
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?Efem. attr. megtek.
     hdr_distrib=Elosztás
     # 👽 hdr_distrib_day -> Day
     hdr_distrib_day=?Nap
@@ -1876,8 +1876,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks_rss=?RSS hírfolyam
     # 👽 hdr_tc -> T&C
     hdr_tc=?T&C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?Átírási szerverek
     hdr_unanswered=Nem fogadott
     # 👽 hdr_unanswered_details -> Unans.Dt.
     hdr_unanswered_details=?Válasz nélkül Dt.
@@ -2904,46 +2904,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=?Felhasználói adatok
     # 👽 edit_record_users_token -> Token:
     edit_record_users_token=?Token:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?Ügynök
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?Távoli feladat azonosító
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?Távoli médiafájl
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?Állapot
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?Lefoglalva ekkor
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?Utoljára látva
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?Név
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?Illesztőprogram
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?Max. csatornák
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?Csatornák
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?Prioritás
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Címkék
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?Átírási szerver részletei
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?Token
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?Leírás
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?Paraméterek
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?Állapot
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?Egészséges
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?Utolsó állapotellenőrzés
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Hagyja üresen a referencia automatikus létrehozásához
     # 👽 edit_reports_automatic -> Automatic report configuration
@@ -2998,10 +2998,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_code=?Ügynök kódja
     # 👽 edit_ssar_reports_title -> Self-service agents reporting for report:
     edit_ssar_reports_title=?Önkiszolgáló ügynök jelentések a jelentéshez:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?Átírási szerverek szerkesztése
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?Ugrás az élő nézetre
     # 👽 edit_users_class -> Class
     edit_users_class=?Osztály
     # 👽 edit_users_email -> Email
@@ -3018,22 +3018,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_title=?Rendszer felhasználók
     # 👽 edit_users_user_keys -> User Keys
     edit_users_user_keys=?Felhasználói kulcsok
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?Zárolva
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?Szakaszok
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?Várólista láthatósága
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?Automatizált QA
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?MI prompt:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?Várólisták az automatizált QA-hoz:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?Csővonallal elválasztott várólisták listája, amelyekre ez vonatkozik.
 
 ## Quality Assessments
 
@@ -3916,8 +3916,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=?Főoldal
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?Ugrás a bejelentkezéshez
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?Ugrás a nézetre
     # 👽 rt3_green -> green
     rt3_green=?zöld
     # 👽 rt3_hangup -> Hangup
@@ -4730,10 +4730,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?Számok elrejtésének szabályzata
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?Cégének logója (teljes vagy relatív elérési út). Maximális méret 200 x 40 px, ajánlott méret 150 x 40 px
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?Beállítja az ICE-gyűjtési folyamathoz engedélyezett maximális teljes időt. 0 érték esetén az optimalizálás letiltva.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?A továbbítható STUN/TURN-jelölt észlelése után kiváltott lágy időtúllépés időtartama.
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?Idő (másodpercben), amely után a bejövő hívás elutasításra kerül, ha nem válaszolják meg. Alapértelmezett érték 60.
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -5113,8 +5113,8 @@ Description of security keys:
     keydesc_qlog_edit=?A felhasználó szerkesztheti a queue_log bejegyzéseket
     # 👽 keydesc_qlog_lngr -> User can edit session data by making it longer
     keydesc_qlog_lngr=?A felhasználó szerkesztheti a munkamenet adatait hosszabbítva
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?A felhasználók csak a hozzájuk rendelt várólistákra jelentkezhetnek be
     # 👽 keydesc_queue_lst -> Allows direct access to the call list (skipping the Reports page)
     keydesc_queue_lst=?Közvetlen hozzáférést biztosít a híváslistához (a Jelentések oldal kihagyásával)
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
@@ -5217,10 +5217,10 @@ Description of security keys:
     keydesc_wallboard_phone=?A felhasználó használhatja a wallboard softphone-t
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?A felhasználó HTTP-n keresztül naplókat tölthet fel
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?A felhasználók olvashatnak az efemer adattáblából
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?A felhasználók írhatnak az efemer adattáblába
 
 ## Tasks/Memos
 
@@ -5623,8 +5623,8 @@ Description of security keys:
     home_configuration_tags=?Hívás címkék
     # 👽 home_configuration_title -> Configuration
     home_configuration_title=?Konfiguráció
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?Átírási szerverek
     # 👽 home_configuration_users -> Users
     home_configuration_users=?Felhasználók
     # 👽 home_dbtest_ami -> AMI tester
@@ -5633,8 +5633,8 @@ Description of security keys:
     home_dbtest_ami_queue=?AMI parancsok
     # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?Konfiguráció megtekintése
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?Efem. attr. ellenőrző
     # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?Adatbázis ellenőrző
     # 👽 home_dbtest_ram_cache -> RAM caching
@@ -5723,10 +5723,10 @@ Description of security keys:
     home_sysadmin_title=?Rendszeradminisztráció
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?Eldobható Jelentés létrehozása
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?Élő átiratok
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?Élő átiratok megtekintése
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?Váratlan szerverhiba történt
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -5854,34 +5854,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?Attribútum hozzáadása
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?Művelet
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?Ügynök
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?Ezzel törli ezt az attribútumot
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?Az attribútum neve kötelező
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?Lejárt
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?Lejárat ideje
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?Attribútum neve
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?Várólista
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?Attribútum érvényessége (mp.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?Érték
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?Frissítés ennyi időnként (mp.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?Keresés
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?Az érvényességi időnek 0-nál nagyobb számnak kell lennie
 
 
 ## Misc
@@ -6572,8 +6572,8 @@ Other items
     qagrader_queue=?Sor
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?Felügyelő
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?Hely
     # 👽 qagrader_talk -> Talk
     qagrader_talk=?Beszélgetés
     # 👽 qagrader_time -> Time
@@ -7078,100 +7078,100 @@ Other items
     qap_welcome=?Üdv újra!
     # 👽 qap_you_have -> You have
     qap_you_have=?Önnek van
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?Bővített állapot
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?Tárcsázott szám
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?Próbálkozás
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?Visszahívási próbálkozások
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?Híváselőzmények
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?Tárcsázás
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?Bővített állapot sikeresen hozzáadva
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?Tárcsázandó szám
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?Attribútum sikeresen hozzáadva
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?Foglalás
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?Újrapróbálkozás kérve
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?Ügynök kihagyva
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?Szám feketelistán
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?Vonal foglalt
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?Technikai hiba
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?Hívás elveszett
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?Ügynök időtúllépés
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?Nincs válasz
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?Érvénytelen szám
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?Hálózat elutasította
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?Hívás befejezve
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?Max. időtartam
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?Kihagyás
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?Frissítés
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?Ki kell választani egy bővített állapotot
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?Hiba történt a WombatDialerben
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?Az ügynök nem érhető el
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?Tárcsázva
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?Kihagyva
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?Nincs foglalható hívás
+    # 👽 qap_agent -> Agent
+    qap_agent=?Ügynök
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?Nincs ilyen azonosító
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?Az azonosító létezik, de a hívás rossz állapotban van
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?Az attribútum neve nem tartalmazhatja a '.' karaktert
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?Efemer - Szöveg
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?Efemer - Idő
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?Foglalható hívások
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?Befejezetlen hívások
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?Efemer - Érték
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?Kampánystatisztika
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?Hátralévő próbálkozások
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?Efemer attribútum
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?Megjelenítési mód
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?Max. érték
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?Markdown-e
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?Normál
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?Százalék
     # 👽 qatarget_agentgroup -> Agent Group
     qatarget_agentgroup=?Ügynök Csoport
     # 👽 qatarget_allcalls -> All calls
@@ -7400,8 +7400,8 @@ Other items
     reports_edit_report=?Jelentés Szerkesztése
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?Szerkesztési Kulcs
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?Adjon meg érvényes e-mail címeket
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?Adja meg az új Jelentés címet
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -7870,16 +7870,16 @@ Other items
     reports_unsaved=?Nem mentett
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?Láthatósági kulcs
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?Jegyzet mentése
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?Nem pontozó értékelés
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?Oldallista
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?Szűrő törlése
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?Szűrő szerkesztése
     rt_active_queues=Aktív sorok mutatása
     # 👽 rt_addmember -> Add Member
     rt_addmember=?Tag hozzáadása
@@ -8315,8 +8315,8 @@ Other items
     sync2_delete=?Törlési műveletek engedélyezése
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?Biztosan törli az összes operátort?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?Fürt törlése
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?Biztosan törli az összes sort?
     # 👽 sync2_delete_selected -> Delete
@@ -8447,8 +8447,8 @@ Other items
     timeline_debug=?Hibakeresési információk letöltése
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?Felvétel letöltése
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?Fájl letöltése
     # 👽 timeline_event -> Event
     timeline_event=?Esemény
     # 👽 timeline_events -> Timeline Events
@@ -8483,8 +8483,8 @@ Other items
     timeline_min=?Perc.
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?Nincsenek felvételek
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?Nincs elérhető csevegés
     # 👽 timeline_number -> Number
     timeline_number=?Szám
     # 👽 timeline_stint_end -> Stint End
@@ -8497,8 +8497,8 @@ Other items
     timeline_tab_qa=?QA/Felvételek
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?Felvételek
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?Csevegések
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Telj. Tart.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

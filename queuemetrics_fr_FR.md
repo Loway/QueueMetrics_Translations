@@ -1212,8 +1212,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Tâche
     hdr_tasks_rss=Feed RSS
     hdr_tc=T&C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?Serveurs de transcription
     hdr_unanswered=Non répondus.
     hdr_unanswered_details=Non répondus (Détails)
     hdr_unanswered_details_title=Détails pour les appels non répondus
@@ -1734,46 +1734,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Nom complet:
     edit_record_users_title=Détail Utilisateur
     edit_record_users_token=Jeton:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?ID de tâche distante
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?Fichier média distant
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?État
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?Réservé le
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?Dernière activité
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?Nom
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?Pilote
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?Canaux max
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?Canaux
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?Priorité
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Étiquettes
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?Détail du serveur de transcription
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?Jeton
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?Description
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?Paramètres
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?Statut
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?Sain
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?Dernier contrôle d'intégrité
     edit_record_xref_blank=Laisser vide pour créer une référence automatiquement
     edit_reports_automatic=Configuration Automatique de rapport
     edit_reports_desc=Desc.
@@ -1801,10 +1801,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Affecté
     edit_ssar_reports_code=Code Agent
     edit_ssar_reports_title=Rapport "Self-Service" de l'Agent pour:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?Modifier les serveurs de transcription
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?Aller à la vue en direct
     edit_users_class=Classe
     edit_users_email=email
     edit_users_enabled=Activé
@@ -1813,22 +1813,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Nom complet
     edit_users_title=Utilisateurs du système
     edit_users_user_keys=Clefs de l'Utilisateur
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?Verrouillé
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?Sections
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?Visibilité de la file
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?QA automatisée
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?Prompt IA :
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?Files pour la QA automatisée :
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?Liste de files séparées par des barres verticales auxquelles cela s'applique.
 
 ## Quality Assessments
 
@@ -2301,8 +2301,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Entrer
     rt3_gohome=Accueil
     rt3_goto_login=S'authentifier
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?Aller à la vue
     rt3_green=Vert
     rt3_hangup=raccroché
     rt3_hold=Attente
@@ -2746,10 +2746,10 @@ Description of configuration properties
     propedit_key_hangup_src=La tonalité de raccrochage du Softphone (URL)
     propedit_key_hiddennumberpolicy=Politique de masquage des numéros
     propedit_key_layout_logo_desc=Le logo de votre entreprise (chemin complet ou relatif) doit être redimensionné à 200 x 72.
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?Définit le temps total maximal autorisé pour le processus de collecte ICE. Si la valeur est 0, l'optimisation est désactivée.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?La durée du délai d'attente souple déclenché après la détection d'un candidat STUN/TURN routable.
     propedit_key_noans_timeout=Temps (sec) pour rejeter un appel non répondus - Défaut : 60 sec.
     propedit_key_phone_iceservers=Liste des serveurs ICE.
     propedit_key_phone_maxsessions=Nombre Maximum de sessions pour un Agent SoftPhone
@@ -2944,8 +2944,8 @@ Description of security keys:
     keydesc_qa_track=L'utilisateur peut créer des rapports Qualité
     keydesc_qlog_edit=L'utilisateur peut consulter le Queue_Log
     keydesc_qlog_lngr=L'utilisateur peut étendre la durée des sessions
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?Les utilisateurs ne peuvent se connecter qu'aux files qui leur sont assignées
     keydesc_queue_lst=Permet un accès direct à la liste des appels
     keydesc_robot=L'utilisateur peut lancer des transactions de type Robot
     keydesc_rt_addmember=L'utilisateur peut ajouter des agents dans une File depuis la page Temps-Réel
@@ -3230,8 +3230,8 @@ Description of security keys:
     home_configuration_subtitle=Editer les Objets de Configuration de QueueMetrics
     home_configuration_tags=Marque d'Appel
     home_configuration_title=Configuration
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?Serveurs de transcription
     home_configuration_users=Utilisateurs
     home_dbtest_ami=Testeur AMI
     home_dbtest_ami_queue=Commandes AMI
@@ -3282,10 +3282,10 @@ Description of security keys:
     home_sysadmin_subtitle=Outils utiles pour Admin
     home_sysadmin_title=System Administration
     home_throwaway_report=Créer un rapport temporaire (jetable)
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?Transcriptions en direct
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?Vue des transcriptions en direct
     home_unexpected_server_error=Une erreur inattendue est apparue
     home_wallboards_subtitle=Tableau de Bord Personnalisable pour Données "Live"
     home_wallboards_title=Tableaux de Bord
@@ -3779,8 +3779,8 @@ Other items
     qagrader_outcome=Issues d'appels
     qagrader_queue=File
     qagrader_supervisor=Superviseur
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?Emplacement
     qagrader_talk=Conversation
     qagrader_time=Temps
     qagrader_wait=Attente
@@ -4200,8 +4200,8 @@ Other items
     reports_edit_page_complete=Confirmer les changements
     reports_edit_report=Modifier le Rapport
     reports_editingkey=Editer la clef
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?Veuillez saisir des adresses e-mail valides
     reports_enter_title=Saisir le nouveau Nom du Rapport
     reports_export_email_body=Resultats QueueMetrics pour le rapport courant
     reports_export_email_subject=[Queuemetrics] Rapport
@@ -4450,16 +4450,16 @@ Other items
     reports_trash=Déplace ici pour détruire
     reports_unsaved=Non sauvegardé
     reports_visibilitykey=Clef de Visibilité
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?Enregistrer la note
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?Évaluation sans notation
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?Liste des pages
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?Supprimer le filtre
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?Modifier le filtre
     rt_active_queues=Montrer les files actives
     rt_addmember=Ajouter un membre
     rt_agent_nbsp=Opérateur
@@ -4731,8 +4731,8 @@ Other items
     sync2_create_users=Permet de créer un Utilisateur
     sync2_delete=Permet de détruire des Actions
     sync2_delete_agents_confirm=Etes-vous sûr de vouloir détruire tous les Agents ?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?Supprimer le cluster
     sync2_delete_queues_confirm=Etes-vous sûr de vouloir détruire toutes les Files ?
     sync2_delete_selected=Détruire
     sync2_deleteall_agent=Destruction de tous les Agents
@@ -4798,8 +4798,8 @@ Other items
     timeline_close=Retour aux Rapports
     timeline_debug=Télécharger les informations de debug.
     timeline_download_recording=Télécharger l'enregistrement
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?Télécharger le fichier
     timeline_event=Evènement
     timeline_events=Événements chronologiques
     timeline_interaction_calltot=Total:
@@ -4817,16 +4817,16 @@ Other items
     timeline_max=Max.
     timeline_min=Min.
     timeline_no_recordings=Pas d'enregistrement
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?Aucune discussion disponible
     timeline_number=Numéro
     timeline_stint_end=Fin du morceau
     timeline_stint_start=Début du morceau
     timeline_tab_details=Détails
     timeline_tab_qa=QA
     timeline_tab_recordings=Enregistrements
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?Discussions
     timeline_totdur=Durée totale
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Sessions et pauses des agents
