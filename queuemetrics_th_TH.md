@@ -1518,6 +1518,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Tasks
     hdr_tasks_rss=RSS Feed
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=สายที่ไม่ได้รับ
     hdr_unanswered_details=รายละเอียดสายที่ไม่ได้รับ
     hdr_unanswered_details_title=รายละเอียดสายที่ไม่ได้รับ
@@ -2191,7 +2193,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=?Security key for reports:=รหัสความปลอดภัยสำหรับรายงาน:
     # 👽 edit_record_qa_secnames -> Section Names
     edit_record_qa_secnames=?Section Names=ชื่อส่วน
-    # 👽 edit_record_qa_section -> section
+    # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?section=ส่วน
     edit_record_qa_title=แก้ไข QA: ฟอร์ม
     # 👽 edit_record_qa_visibility -> Queue visibility:
@@ -2415,6 +2417,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=?รายละเอียดผู้ใช้
     # 👽 edit_record_users_token -> Token:
     edit_record_users_token=?โทเค็น:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?เว้นว่างไว้เพื่อสร้างการอ้างอิงโดยอัตโนมัติ
     # 👽 edit_reports_automatic -> Automatic report configuration
@@ -2467,6 +2509,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_code=?รหัสตัวแทน
     # 👽 edit_ssar_reports_title -> Self-service agents reporting for report:
     edit_ssar_reports_title=?รายงานตัวแทนบริการตนเองสำหรับรายงาน:
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     # 👽 edit_users_class -> Class
     edit_users_class=?ระดับ
     # 👽 edit_users_email -> Email
@@ -2482,6 +2528,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_title=บัญชีผู้ใช้งาน
     # 👽 edit_users_user_keys -> User Keys
     edit_users_user_keys=?รหัสผู้ใช้
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -3350,6 +3412,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=หน้าหลัก
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?ไปที่การเข้าสู่ระบบ
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=เขียว
     # 👽 rt3_hangup -> Hangup
     rt3_hangup=?วางสาย
@@ -4986,6 +5050,8 @@ Description of security keys:
     home_configuration_tags=?แท็กการโทร
     # 👽 home_configuration_title -> Configuration
     home_configuration_title=?การกำหนดค่า
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     # 👽 home_configuration_users -> Users
     home_configuration_users=?ผู้ใช้
     # 👽 home_dbtest_ami -> AMI tester
@@ -5084,6 +5150,10 @@ Description of security keys:
     home_sysadmin_title=?การดูแลระบบ
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?สร้างรายงานทิ้ง
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?เกิดข้อผิดพลาดที่ไม่คาดคิดของเซิร์ฟเวอร์
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -5910,6 +5980,8 @@ Other items
     qagrader_queue=?คิว
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?หัวหน้างาน
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     # 👽 qagrader_talk -> Talk
     qagrader_talk=?พูดคุย
     # 👽 qagrader_time -> Time
@@ -6736,6 +6808,8 @@ Other items
     reports_edit_report=?แก้ไขรายงาน
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?แก้ไขคีย์
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?ป้อนชื่อรายงานใหม่
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -7204,6 +7278,16 @@ Other items
     reports_unsaved=?ไม่ได้บันทึก
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?คีย์การมองเห็น
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     # 👽 rt_active_queues -> Show active queues
     rt_active_queues=?แสดงคิวที่ใช้งานอยู่
     rt_addmember=เพิ่ม agent
@@ -7641,6 +7725,8 @@ Other items
     sync2_delete=?เปิดใช้งานการดำเนินการลบ
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?คุณแน่ใจหรือไม่ว่าต้องการลบตัวแทนทั้งหมด
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?คุณแน่ใจหรือไม่ว่าต้องการลบคิวทั้งหมด
     # 👽 sync2_delete_selected -> Delete
@@ -7769,6 +7855,8 @@ Other items
     timeline_debug=?ดาวน์โหลดข้อมูลแก้ไขข้อผิดพลาด
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?ดาวน์โหลดการบันทึก
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?เหตุการณ์
     # 👽 timeline_events -> Timeline Events
@@ -7803,6 +7891,8 @@ Other items
     timeline_min=?ต่ำสุด
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?ไม่มีการบันทึก
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?หมายเลข
     # 👽 timeline_stint_end -> Stint End
@@ -7815,6 +7905,8 @@ Other items
     timeline_tab_qa=?QA/การบันทึก
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?การบันทึก
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?รวมระยะเวลา
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

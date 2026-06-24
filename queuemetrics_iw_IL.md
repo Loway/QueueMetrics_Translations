@@ -1217,6 +1217,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=משימות
     hdr_tasks_rss=הזנת RSS
     hdr_tc=תנאים והתניות
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=לא נענו
     hdr_unanswered_details=פ.ל.נ.
     hdr_unanswered_details_title=פרטי שיחות שלא נענו
@@ -1737,6 +1739,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=שם מלא:
     edit_record_users_title=פרטי משתמש
     edit_record_users_token=אסימון:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     edit_record_xref_blank=השאר ריק ליצירת הפניה אוטומטית
     edit_reports_automatic=תצורת דוח אוטומטית
     edit_reports_desc=תיאור
@@ -1764,6 +1806,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=שויכו
     edit_ssar_reports_code=קוד נציג
     edit_ssar_reports_title=דו"חות נציגים בשירות עצמי לדוח:
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=סיווג
     edit_users_email=דוא"ל
     edit_users_enabled=מופעל
@@ -1772,6 +1818,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=שם מלא
     edit_users_title=משתמשי מערכת
     edit_users_user_keys=מפתחות משתמש
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2516,6 +2578,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=המשך
     rt3_gohome=דף הבית
     rt3_goto_login=עבור להתחברות
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=ירוק
     rt3_hangup=נתק
     rt3_hold=המתן
@@ -3593,6 +3657,8 @@ Description of security keys:
     home_configuration_subtitle=ערוך אובייקטי תצורה של QueueMetrics
     home_configuration_tags=תגיות שיחה
     home_configuration_title=תצורה
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=משתמשים
     home_dbtest_ami=בודק AMI
     home_dbtest_ami_queue=פקודות AMI
@@ -3642,6 +3708,10 @@ Description of security keys:
     home_sysadmin_subtitle=כלים שימושיים למנהלי מערכת
     home_sysadmin_title=ניהול מערכת
     home_throwaway_report=צור דו"ח חד-פעמי
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=אירעה שגיאת שרת בלתי צפויה
     home_wallboards_subtitle=וולבורדים ניתנים להתאמה אישית לנתוני זמן אמת
     home_wallboards_title=וולבורדים
@@ -4465,6 +4535,8 @@ Other items
     qagrader_queue=?תור
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?מפקח
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     # 👽 qagrader_talk -> Talk
     qagrader_talk=?דיבור
     # 👽 qagrader_time -> Time
@@ -5281,6 +5353,8 @@ Other items
     reports_edit_report=?ערוך דוח
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?מפתח עריכה
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?הזן את כותרת הדוח החדשה
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -5741,6 +5815,16 @@ Other items
     reports_unsaved=לא נשמר
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?מפתח חשיפה
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=הצג תורים פעילים
     rt_addmember=הוסף נציג
     # 👽 rt_agent_nbsp -> Agent
@@ -6178,6 +6262,8 @@ Other items
     sync2_delete=?אפשר פעולות מחיקה
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?האם אתה בטוח שברצונך למחוק את כל הנציגים?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?האם אתה בטוח שברצונך למחוק את כל התורים?
     # 👽 sync2_delete_selected -> Delete
@@ -6308,6 +6394,8 @@ Other items
     timeline_debug=?הורד פרטי ניפוי באגים
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?הורד הקלטה
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?אירוע
     # 👽 timeline_events -> Timeline Events
@@ -6342,6 +6430,8 @@ Other items
     timeline_min=?מינימום
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?אין הקלטות
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?מספר
     # 👽 timeline_stint_end -> Stint End
@@ -6354,6 +6444,8 @@ Other items
     timeline_tab_qa=?QA/הקלטות
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?הקלטות
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?משך כולל
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

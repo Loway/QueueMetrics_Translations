@@ -1215,6 +1215,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Εργασίες
     hdr_tasks_rss=RSS Feed
     hdr_tc=Εκπαίδευση και καθοδήγηση (T&C)
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=Αναπάντητες
     hdr_unanswered_details=Λεπτομ. Αναπαντ.
     hdr_unanswered_details_title=Λεπτομέρειες αναπάντητων
@@ -1735,6 +1737,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Πραγματικό όνομα:
     edit_record_users_title=Λεπτομέριες χρήστη
     edit_record_users_token=Token:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     edit_record_xref_blank=Αφήστε κενό για να δημιουργηθεί μια παραπομπή αυτόματα
     edit_reports_automatic=Αυτόματη ρύθμιση παραμέτρων αναφοράς
     edit_reports_desc=Περιγρ.
@@ -1762,6 +1804,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Έχει ανατεθεί
     edit_ssar_reports_code=Κωδικός χρήστη
     edit_ssar_reports_title=Αναφορά 'Self-Service' των Χρηστών για την αναφορά
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=Κλάση
     edit_users_email=E-mail
     edit_users_enabled=Ενεργό
@@ -1770,6 +1816,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Πραγματικό όνομα
     edit_users_title=Χρήστες του συστήματος
     edit_users_user_keys=Κλειδιά χρηστών
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2243,6 +2305,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Εκτέλεση
     rt3_gohome=Αρχική
     rt3_goto_login=Πηγαίνετε στη σύνδεση
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=Πράσινο
     rt3_hangup=Τερματισμός κλήσης
     rt3_hold=Αναμονή
@@ -3177,6 +3241,8 @@ Description of security keys:
     home_configuration_subtitle=Επεξεργασία αντικειμένων διαμόρφωσης QueueMetrics
     home_configuration_tags=Ετικέτες κλήσης
     home_configuration_title=Διαμόρφωση
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=Χρήστες
     home_dbtest_ami=Ελεγκτής AMI
     home_dbtest_ami_queue=Εντολές AMI
@@ -3228,6 +3294,10 @@ Description of security keys:
     home_sysadmin_subtitle=Χρήσιμα εργαλεία για Διαχειριστές Συστήματος
     home_sysadmin_title=Διαχείριση Συστήματος
     home_throwaway_report=Δημιουργία αναφοράς μιας χρήσης
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=Παρουσιάστηκε μη αναμενόμενο σφάλμα διακομιστή
     home_wallboards_subtitle=Προσαρμόσιμα Wallboards για ζωντανά δεδομένα
     home_wallboards_title=Wallboards
@@ -3735,6 +3805,8 @@ Other items
     qagrader_outcome=Αποτέλεσμα
     qagrader_queue=Ουρά αναμονής
     qagrader_supervisor=Επόπτης
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=Συνομιλία
     qagrader_time=Χρόνος
     qagrader_wait=Αναμονή
@@ -4201,6 +4273,8 @@ Other items
     reports_edit_page_complete=Επιβεβαίωση αλλαγών
     reports_edit_report=Επεξεργασία Αναφοράς
     reports_editingkey=Επεξεργασία Κλειδιού
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     reports_enter_title=Εισαγάγετε τον νέο τίτλο αναφοράς
     reports_export_email_body=Αναφορά αποτελεσμάτων QueueMetrics για εξαγωγή με την ονομασία
     reports_export_email_subject=[QueueMetrics] Αναφορά
@@ -4449,6 +4523,16 @@ Other items
     reports_trash=Σύρετε εδώ για να διαγράψετε
     reports_unsaved=Μη αποθηκευμένο
     reports_visibilitykey=Κλειδί Ορατότητας
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=Εμφάνιση ενεργών ουρών αναμονής
     rt_addmember=Προσθήκη μέλους
     rt_agent_nbsp=Χρήστης
@@ -4721,6 +4805,8 @@ Other items
     sync2_create_users=Ενεργοποίηση δημιουργίας Χρήστη
     sync2_delete=Ενεργοποίηση ενεργειών Διαγραφής
     sync2_delete_agents_confirm=Είστε βέβαιοι ότι θέλετε να διαγράψετε όλους τους χρήστες;
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     sync2_delete_queues_confirm=Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις ουρές αναμονής;
     sync2_delete_selected=Διαγραφή
     sync2_deleteall_agent=Διαγραφή όλων των χρηστών
@@ -4786,6 +4872,8 @@ Other items
     timeline_close=Επιστροφή στην Αναφορά
     timeline_debug=Λήψη Πληροφοριών Σφαλμάτων  
     timeline_download_recording=Λήψη Ηχογράφησης  
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     timeline_event=Γεγονός
     timeline_events=Γεγονότα Χρονολογίου
     timeline_interaction_calltot=Συνολικό:
@@ -4803,12 +4891,16 @@ Other items
     timeline_max=Μέγιστο
     timeline_min=Ελάχιστο
     timeline_no_recordings=Χωρίς Ηχογραφήσεις
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     timeline_number=Αριθμός
     timeline_stint_end=Λήξη Σειράς
     timeline_stint_start=Έναρξη Σειράς
     timeline_tab_details=Λεπτομέρειες
     timeline_tab_qa=QA/Ηχογραφήσεις
     timeline_tab_recordings=Ηχογραφήσεις
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     timeline_totdur=Συνολική Διάρκεια
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Συνεδρίες & Παύσεις Πρακτόρων

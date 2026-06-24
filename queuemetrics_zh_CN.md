@@ -1330,6 +1330,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=任务
     hdr_tasks_rss=订阅图标
     hdr_tc=条件 (T&C)
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=丢失
     hdr_unanswered_details=丢失列表.
     hdr_unanswered_details_title=未接通话详细
@@ -1960,6 +1962,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=真名：
     edit_record_users_title=用户明细
     edit_record_users_token=密钥：
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?留空以自动创建引用
     edit_reports_automatic=自动报表配置：
@@ -1988,6 +2030,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=关联
     edit_ssar_reports_code=坐席代码
     edit_ssar_reports_title=自助坐席报表：
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=权限
     edit_users_email=E-mail
     edit_users_enabled=启用
@@ -1996,6 +2042,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=真名
     edit_users_title=系统用户
     edit_users_user_keys=用户Keys
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2682,6 +2744,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=?主页
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?转到登录
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     # 👽 rt3_green -> green
     rt3_green=?绿色
     # 👽 rt3_hangup -> Hangup
@@ -4178,6 +4242,8 @@ Description of security keys:
     home_configuration_subtitle=编辑QueueMetrics配置对象
     home_configuration_tags=通话标签
     home_configuration_title=配置
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=用户
     home_dbtest_ami=AMI 测试
     # 👽 home_dbtest_ami_queue -> AMI Commands
@@ -4274,6 +4340,10 @@ Description of security keys:
     home_sysadmin_title=?系统管理
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?创建临时报告
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?发生意外的服务器错误
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -4941,6 +5011,8 @@ Other items
     qagrader_outcome=结果
     qagrader_queue=队列
     qagrader_supervisor=监督者
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=通话
     qagrader_time=时间
     qagrader_wait=等待
@@ -5740,6 +5812,8 @@ Other items
     reports_edit_report=?编辑报表
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?编辑键
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?输入新的报表标题
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -6208,6 +6282,16 @@ Other items
     reports_unsaved=?未保存
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?可见性密钥
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=显示活跃队列
     rt_addmember=添加成员
     rt_agent_nbsp=客服
@@ -6589,6 +6673,8 @@ Other items
     sync2_delete=?启用删除操作
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?确定要删除所有座席吗？
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?确定要删除所有队列吗？
     # 👽 sync2_delete_selected -> Delete
@@ -6719,6 +6805,8 @@ Other items
     timeline_debug=?下载调试信息
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?下载录音
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?事件
     # 👽 timeline_events -> Timeline Events
@@ -6753,6 +6841,8 @@ Other items
     timeline_min=?最小
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?没有录音
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?号码
     # 👽 timeline_stint_end -> Stint End
@@ -6765,6 +6855,8 @@ Other items
     timeline_tab_qa=?QA/录音
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?录音
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?总持续时间
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

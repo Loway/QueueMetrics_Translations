@@ -1272,6 +1272,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Задачи
     hdr_tasks_rss=RSS канал
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=Неотвеченные
     hdr_unanswered_details=Неотв. (подробно)
     hdr_unanswered_details_title=Детали неотвеченных вызовов
@@ -1860,6 +1862,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Реальное имя:
     edit_record_users_title=Параметры пользователя
     edit_record_users_token=Токен:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Оставить пустым для автосоздания
     edit_reports_automatic=Автоматическая конфигурация отчета
@@ -1888,6 +1930,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Назначенный
     edit_ssar_reports_code=Код агента
     edit_ssar_reports_title=Самообслуживаемая отчетность агентов по отчету:
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=Класс
     edit_users_email= E-mail
     edit_users_enabled=Доступно
@@ -1896,6 +1942,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Реальное имя
     edit_users_title=Пользователи системы
     edit_users_user_keys=Ключи пользователя
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2380,6 +2442,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Выполнить
     rt3_gohome=Домой
     rt3_goto_login=Перейти ко входу
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=Зеленый
     rt3_hangup=Отключение
     rt3_hold=Удержание
@@ -3354,6 +3418,8 @@ Description of security keys:
     home_configuration_subtitle=Редактировать объекты конфигурации QueueMetrics
     home_configuration_tags=Тэги вызова
     home_configuration_title=Конфигурация
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=Пользователи
     home_dbtest_ami=AMI тестер
     home_dbtest_ami_queue=Команды AMI
@@ -3412,6 +3478,10 @@ Description of security keys:
     home_sysadmin_subtitle=Полезные инструменты для системных администраторов
     home_sysadmin_title=Администрирование системы
     home_throwaway_report=Создать одноразовый отчет
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=Непредвиденная ошибка сервера
     home_wallboards_subtitle=Настраиваемые табло для данных в реальном времени
     home_wallboards_title=Табло
@@ -4035,6 +4105,8 @@ Other items
     qagrader_outcome=Результат
     qagrader_queue=Очередь
     qagrader_supervisor=Супервайзер
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=Разговор
     qagrader_time=Время
     qagrader_wait=Ожидание
@@ -4757,6 +4829,8 @@ Other items
     reports_edit_page_complete=Подтвердить изменения
     reports_edit_report=Редактировать отчет
     reports_editingkey=Ключ редактирования
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     reports_enter_title=Введите название нового отчета
     reports_export_email_body=Результаты QueueMetrics для экспорта в отчет, названный
     reports_export_email_subject=[QueueMetrics] Отчет
@@ -5030,6 +5104,16 @@ Other items
     reports_trash=Перетащите сюда для удаления
     reports_unsaved=Не сохранен
     reports_visibilitykey=Ключ видимости
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=Показать активные очереди
     rt_addmember=Добавить участника
     rt_agent_nbsp=Агент 
@@ -5309,6 +5393,8 @@ Other items
     sync2_create_users=Доступно создание пользователей
     sync2_delete=Доступны действия "Удалить"
     sync2_delete_agents_confirm=Вы уверены, что хотите удалить всех агентов?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     sync2_delete_queues_confirm=Вы уверены, что хотите удалить все очереди?
     sync2_delete_selected=Удалить
     sync2_deleteall_agent=Удалить всех агентов
@@ -5375,6 +5461,8 @@ Other items
     timeline_close=Вернуться к отчету
     timeline_debug=Загрузить отладочную информацию
     timeline_download_recording=Загрузить запись
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?Событие
     # 👽 timeline_events -> Timeline Events
@@ -5397,6 +5485,8 @@ Other items
     # 👽 timeline_min -> Min.
     timeline_min=?Мин.
     timeline_no_recordings=Нет записи
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?Номер
     timeline_stint_end=Конец периода
@@ -5404,6 +5494,8 @@ Other items
     timeline_tab_details=Детали
     timeline_tab_qa=QA
     timeline_tab_recordings=Запись
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Общ. длит.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

@@ -1274,6 +1274,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Tasques
     hdr_tasks_rss=RSS Feed
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=No ateses
     hdr_unanswered_details=No ateses (detall)
     hdr_unanswered_details_title=Detall de trucades no ateses
@@ -1887,6 +1889,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Nom Real:
     edit_record_users_title=Detall d'Usuari
     edit_record_users_token=Token:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Deixeu-ho en blanc per crear una referència automàticament
     edit_reports_automatic=Configuració Automàtica d'Informes
@@ -1915,6 +1957,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Assignat
     edit_ssar_reports_code=Codi d'Agent
     edit_ssar_reports_title=Self-Service d'Informes d'Agent per Informe
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=Classe
     edit_users_email=Email
     edit_users_enabled=Actiu
@@ -1923,6 +1969,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Nom Real
     edit_users_title=Usuaris de Sistema
     edit_users_user_keys=Claus d'Usuari
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2481,6 +2543,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Anar
     rt3_gohome=Home
     rt3_goto_login=Anar a l'ingrés
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=Verd
     # 👽 rt3_hangup -> Hangup
     rt3_hangup=?Penjar
@@ -3561,6 +3625,8 @@ Description of security keys:
     home_configuration_subtitle=Editar objectes de configuració de QueueMetrics
     home_configuration_tags=Etiquetes de trucada
     home_configuration_title=Configuració
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=Usuaris
     home_dbtest_ami=Test AMI
     home_dbtest_ami_queue=Comandes AMI
@@ -3619,6 +3685,10 @@ Description of security keys:
     home_sysadmin_subtitle=Eines útils pels Administradors de Sistemes
     home_sysadmin_title=Administració del Sistema
     home_throwaway_report=Crear un informe temporal
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=S'ha produït un error inesperat del servidor
     home_wallboards_subtitle=Taulers personalitzats per dades en temps real
     home_wallboards_title=Taulers
@@ -4245,6 +4315,8 @@ Other items
     qagrader_outcome=Resultat
     qagrader_queue=Cua
     qagrader_supervisor=Supervisor
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=Conv.
     qagrader_time=Temps
     qagrader_wait=Espera
@@ -5039,6 +5111,8 @@ Other items
     reports_edit_report=?Edita l'informe
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?Clau d'edició
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?Introdueix el nou títol de l'informe
     reports_export_email_body=Resultats de Queuemetrics per l'informe exportat amb nom
@@ -5499,6 +5573,16 @@ Other items
     reports_unsaved=?Sense desar
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?Clau de visibilitat
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=Mostrar les cues actives
     rt_addmember=Afegir Membre
     rt_agent_nbsp=Agent
@@ -5823,6 +5907,8 @@ Other items
     sync2_delete=?Activa accions d'eliminació
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?Segur que vols suprimir tots els agents?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?Segur que vols suprimir totes les cues?
     # 👽 sync2_delete_selected -> Delete
@@ -5951,6 +6037,8 @@ Other items
     timeline_debug=?Descarrega la Informació de Depuració
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?Descarrega la Gravació
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?Esdeveniment
     # 👽 timeline_events -> Timeline Events
@@ -5985,6 +6073,8 @@ Other items
     timeline_min=?Mín.
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?Sense gravacions
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?Número
     # 👽 timeline_stint_end -> Stint End
@@ -5997,6 +6087,8 @@ Other items
     timeline_tab_qa=?GC/Gravacions
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?Gravacions
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Dur. Tot.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

@@ -2130,6 +2130,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks_rss=?RSS ምግብ
     # 👽 hdr_tc -> T&C
     hdr_tc=?T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     # 👽 hdr_unanswered -> Unans.
     hdr_unanswered=?ያልተመለሱ
     # 👽 hdr_unanswered_details -> Unans.Dt.
@@ -2932,7 +2934,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=?ለሪፖርቶች የደህንነት ቁልፍ:
     # 👽 edit_record_qa_secnames -> Section Names
     edit_record_qa_secnames=?የክፍል ስሞች
-    # 👽 edit_record_qa_section -> section
+    # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?ክፍል
     # 👽 edit_record_qa_title -> QA: Forms Editor
     edit_record_qa_title=?QA: የቅጾች አርታዒ
@@ -3158,6 +3160,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=?የተጠቃሚ ዝርዝር
     # 👽 edit_record_users_token -> Token:
     edit_record_users_token=?ቶከን:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?ማጣቀሻን በራስ ሰር ለመፍጠር ባዶ ይተዉት
     # 👽 edit_reports_automatic -> Automatic report configuration
@@ -3212,6 +3254,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_code=?የወኪል ኮድ
     # 👽 edit_ssar_reports_title -> Self-service agents reporting for report:
     edit_ssar_reports_title=?ለሪፖርት የራስ-አገዝ ወኪሎች ሪፖርት ማድረግ
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     # 👽 edit_users_class -> Class
     edit_users_class=?ክፍል
     # 👽 edit_users_email -> Email
@@ -3228,6 +3274,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_title=?የስርዓት ተጠቃሚዎች
     # 👽 edit_users_user_keys -> User Keys
     edit_users_user_keys=?የተጠቃሚ ቁልፎች
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -4155,6 +4217,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=?ቤት
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?ወደ መግቢያ ሂድ
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     # 👽 rt3_green -> green
     rt3_green=?አረንጓዴ
     # 👽 rt3_hangup -> Hangup
@@ -5919,6 +5983,8 @@ Description of security keys:
     home_configuration_tags=?የጥሪ መለያዎች
     # 👽 home_configuration_title -> Configuration
     home_configuration_title=?ውቅር
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     # 👽 home_configuration_users -> Users
     home_configuration_users=?ተጠቃሚዎች
     # 👽 home_dbtest_ami -> AMI tester
@@ -6017,6 +6083,10 @@ Description of security keys:
     home_sysadmin_title=?የስርዓት አስተዳደር
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?ሪፖርት ይፍጠሩ
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?ያልተጠበቀ የአገልጋይ ስህተት ተከስቷል
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -6896,6 +6966,8 @@ Other items
     qagrader_queue=?ወረፋ
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?ተቆጣጣሪ
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     # 👽 qagrader_talk -> Talk
     qagrader_talk=?ንግግር
     # 👽 qagrader_time -> Time
@@ -7722,6 +7794,8 @@ Other items
     reports_edit_report=?ሪፖርት ያርትዑ
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?የማስተካከያ ቁልፍ
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?አዲሱን የሪፖርት ርዕስ ያስገቡ
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -8190,6 +8264,16 @@ Other items
     reports_unsaved=?ያልተቀመጠ
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?የሚታይበት ቁልፍ
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     # 👽 rt_active_queues -> Show active queues
     rt_active_queues=?የሚንቀሳቀሱ ወረፋዎችን አሳይ
     # 👽 rt_addmember -> Add Member
@@ -8729,6 +8813,8 @@ Other items
     sync2_delete=?ሰርዝ የሚለውን አንቃ
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?ሁሉንም ወኪሎች መሰረዝ ይፈልጋሉ?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?ሁሉንም ወረፋዎች መሰረዝ ይፈልጋሉ?
     # 👽 sync2_delete_selected -> Delete
@@ -8859,6 +8945,8 @@ Other items
     timeline_debug=?የማረም መረጃን ያውርዱ
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?ቅጂ ያውርዱ
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?ክስተት
     # 👽 timeline_events -> Timeline Events
@@ -8893,6 +8981,8 @@ Other items
     timeline_min=?ዝቅተኛ.
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?ምንም ቅጂዎች የሉም
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?ቁጥር
     # 👽 timeline_stint_end -> Stint End
@@ -8905,6 +8995,8 @@ Other items
     timeline_tab_qa=?QA/ቅጂዎች
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?ቅጂዎች
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?ጠቅላላ ቆይታ.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

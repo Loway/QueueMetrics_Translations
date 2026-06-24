@@ -1212,6 +1212,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Tâche
     hdr_tasks_rss=Feed RSS
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=Non répondus.
     hdr_unanswered_details=Non répondus (Détails)
     hdr_unanswered_details_title=Détails pour les appels non répondus
@@ -1732,6 +1734,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Nom complet:
     edit_record_users_title=Détail Utilisateur
     edit_record_users_token=Jeton:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     edit_record_xref_blank=Laisser vide pour créer une référence automatiquement
     edit_reports_automatic=Configuration Automatique de rapport
     edit_reports_desc=Desc.
@@ -1759,6 +1801,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Affecté
     edit_ssar_reports_code=Code Agent
     edit_ssar_reports_title=Rapport "Self-Service" de l'Agent pour:
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=Classe
     edit_users_email=email
     edit_users_enabled=Activé
@@ -1767,6 +1813,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Nom complet
     edit_users_title=Utilisateurs du système
     edit_users_user_keys=Clefs de l'Utilisateur
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2239,6 +2301,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Entrer
     rt3_gohome=Accueil
     rt3_goto_login=S'authentifier
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=Vert
     rt3_hangup=raccroché
     rt3_hold=Attente
@@ -3166,6 +3230,8 @@ Description of security keys:
     home_configuration_subtitle=Editer les Objets de Configuration de QueueMetrics
     home_configuration_tags=Marque d'Appel
     home_configuration_title=Configuration
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=Utilisateurs
     home_dbtest_ami=Testeur AMI
     home_dbtest_ami_queue=Commandes AMI
@@ -3216,6 +3282,10 @@ Description of security keys:
     home_sysadmin_subtitle=Outils utiles pour Admin
     home_sysadmin_title=System Administration
     home_throwaway_report=Créer un rapport temporaire (jetable)
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=Une erreur inattendue est apparue
     home_wallboards_subtitle=Tableau de Bord Personnalisable pour Données "Live"
     home_wallboards_title=Tableaux de Bord
@@ -3709,6 +3779,8 @@ Other items
     qagrader_outcome=Issues d'appels
     qagrader_queue=File
     qagrader_supervisor=Superviseur
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=Conversation
     qagrader_time=Temps
     qagrader_wait=Attente
@@ -4128,6 +4200,8 @@ Other items
     reports_edit_page_complete=Confirmer les changements
     reports_edit_report=Modifier le Rapport
     reports_editingkey=Editer la clef
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     reports_enter_title=Saisir le nouveau Nom du Rapport
     reports_export_email_body=Resultats QueueMetrics pour le rapport courant
     reports_export_email_subject=[Queuemetrics] Rapport
@@ -4376,6 +4450,16 @@ Other items
     reports_trash=Déplace ici pour détruire
     reports_unsaved=Non sauvegardé
     reports_visibilitykey=Clef de Visibilité
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=Montrer les files actives
     rt_addmember=Ajouter un membre
     rt_agent_nbsp=Opérateur
@@ -4647,6 +4731,8 @@ Other items
     sync2_create_users=Permet de créer un Utilisateur
     sync2_delete=Permet de détruire des Actions
     sync2_delete_agents_confirm=Etes-vous sûr de vouloir détruire tous les Agents ?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     sync2_delete_queues_confirm=Etes-vous sûr de vouloir détruire toutes les Files ?
     sync2_delete_selected=Détruire
     sync2_deleteall_agent=Destruction de tous les Agents
@@ -4712,6 +4798,8 @@ Other items
     timeline_close=Retour aux Rapports
     timeline_debug=Télécharger les informations de debug.
     timeline_download_recording=Télécharger l'enregistrement
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     timeline_event=Evènement
     timeline_events=Événements chronologiques
     timeline_interaction_calltot=Total:
@@ -4729,12 +4817,16 @@ Other items
     timeline_max=Max.
     timeline_min=Min.
     timeline_no_recordings=Pas d'enregistrement
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     timeline_number=Numéro
     timeline_stint_end=Fin du morceau
     timeline_stint_start=Début du morceau
     timeline_tab_details=Détails
     timeline_tab_qa=QA
     timeline_tab_recordings=Enregistrements
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     timeline_totdur=Durée totale
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Sessions et pauses des agents

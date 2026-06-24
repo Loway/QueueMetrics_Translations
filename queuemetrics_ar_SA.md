@@ -1309,6 +1309,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=المهام
     hdr_tasks_rss=RSS أخبار
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=غير مجابة
     hdr_unanswered_details=تفاصيل المكالمات غير المجابة
     hdr_unanswered_details_title=تفاصيل المكالمات غير المجابة 
@@ -1939,6 +1941,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=الاسم الحقيقي:
     edit_record_users_title=تفاصيل المستخدم
     edit_record_users_token=مأخوذة:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?اتركه فارغًا لإنشاء مرجع تلقائيًا
     edit_reports_automatic=اعدادات التقارير الآلية
@@ -1967,6 +2009,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=تم اسنادها
     edit_ssar_reports_code=رمز الوكيل
     edit_ssar_reports_title=تقارير الخدمة الذاتية للوكيل للتقرير
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=مستوى
     edit_users_email=E-mail
     edit_users_enabled=تم تفعيلها
@@ -1975,6 +2021,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=الاسم الحقيقي
     edit_users_title=مستخدم نظام
     edit_users_user_keys=مفاتيح المستخدم
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2467,6 +2529,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=اذهب
     rt3_gohome=الرئيسي
     rt3_goto_login=اذهب لتسجيل الدخول
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=اخضر
     rt3_hangup=اغلاق
     rt3_hold=انتظار
@@ -3456,6 +3520,8 @@ Description of security keys:
     home_configuration_subtitle=تعديل مواضيع اعدادات كيوميتركس
     home_configuration_tags=اشارات المكالمة
     home_configuration_title=الاعدادات
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=مستخدمين
     home_dbtest_ami=AMI Tester
     home_dbtest_ami_queue=AMI Commands
@@ -3514,6 +3580,10 @@ Description of security keys:
     home_sysadmin_subtitle=أدوات مفيدة لمدير النظام
     home_sysadmin_title=إدارة النظام
     home_throwaway_report=اصدار تقرير سريع
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=ظهر خطأ غير متوقع
     home_wallboards_subtitle=شاشة قابلة للتعديل لعرض المعلومات المباشرة
     home_wallboards_title=شاشة معلومات
@@ -4169,6 +4239,8 @@ Other items
     qagrader_outcome=مخرجات
     qagrader_queue=صف
     qagrader_supervisor=مشرف
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=تحدث
     qagrader_time=مرة
     qagrader_wait=انتظر
@@ -4913,6 +4985,8 @@ Other items
     reports_edit_page_complete=تأكيد التغييرات
     reports_edit_report=تعديل التقرير
     reports_editingkey=تعديل المفتاح
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     reports_enter_title=أدخل عنوان التقرير الجديد
     reports_export_email_body=نتائج كيوميتركس عن تصدير التقرير المسمى
     reports_export_email_subject=[كيوميتركس] تقرير
@@ -5230,6 +5304,16 @@ Other items
     reports_trash=اسحب إلى هنا للحذف
     reports_unsaved=غير محفوظ
     reports_visibilitykey=مفتاح الرؤية
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=تظهر طوابير النشطة
     rt_addmember=إضافة الأعضاء
     rt_agent_nbsp=وكيل
@@ -5513,6 +5597,8 @@ Other items
     sync2_create_users=تفعيل انشاء مستخدمين
     sync2_delete=تفعيل حذف أفعال
     sync2_delete_agents_confirm=هل أنت متأكد من انك تريد حذف كل الوكلاء؟
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     sync2_delete_queues_confirm=هل أنت متأكد من انك تريد حذف كل الصفوف؟
     # 👽 sync2_delete_selected -> Delete
     sync2_delete_selected=?حذف
@@ -5588,6 +5674,8 @@ Other items
     timeline_debug=?تنزيل معلومات التصحيح
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?تنزيل التسجيل
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?حدث
     # 👽 timeline_events -> Timeline Events
@@ -5622,6 +5710,8 @@ Other items
     timeline_min=?الحد الأدنى
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?لا توجد تسجيلات
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?الرقم
     # 👽 timeline_stint_end -> Stint End
@@ -5634,6 +5724,8 @@ Other items
     timeline_tab_qa=?ضمان الجودة/التسجيلات
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?التسجيلات
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?إجمالي المدة
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

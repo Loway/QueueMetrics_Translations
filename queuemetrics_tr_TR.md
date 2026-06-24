@@ -1310,6 +1310,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Görevler
     hdr_tasks_rss=RSS beslemesi
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=Cvplmamış.
     hdr_unanswered_details=Cvplmamış.Dt.
     hdr_unanswered_details_title=Cevaplanmayan çağrıların detayları
@@ -1940,6 +1942,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Gerçek ad:
     edit_record_users_title=Kullanıcı detayları
     edit_record_users_token=Token:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Otomatik referans oluşturmak için boş bırakın
     edit_reports_automatic=Otomatik rapor yapılandırması
@@ -1968,6 +2010,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Atanan
     edit_ssar_reports_code=Müşteri Temsilcisi kodu
     edit_ssar_reports_title=Rapor için raporlama yapan self servis müşteri temsilcileri:
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=Sınıf
     edit_users_email=Email
     edit_users_enabled=Etkin
@@ -1976,6 +2022,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Gerçek Ad
     edit_users_title=Sistem Kullanıcıları
     edit_users_user_keys=Kullanıcı Tuşları
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2469,6 +2531,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Git
     rt3_gohome=Ana Sayfa
     rt3_goto_login=Girişe Git
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=yeşil
     rt3_hangup=Telefonu kapat
     rt3_hold=Tut
@@ -3458,6 +3522,8 @@ Description of security keys:
     home_configuration_subtitle=QueueMetrics Konfig Nesnelerini Düzenle
     home_configuration_tags=Çağrı etiketleri
     home_configuration_title=Konfigrasyon
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=Kullanıcılar
     home_dbtest_ami=AMI testi
     home_dbtest_ami_queue=AMI Komutları
@@ -3516,6 +3582,10 @@ Description of security keys:
     home_sysadmin_subtitle=Sysadmins için kullanışlı araçlar
     home_sysadmin_title=Sistem Yönetimi
     home_throwaway_report=Throw Away Raporu Oluştur
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=Beklenmeyen bir sunucu hatası oluştu
     home_wallboards_subtitle=Duvarpanoları için özelleştirilebilir canlı veriler
     home_wallboards_title=Duvar Panoları
@@ -4171,6 +4241,8 @@ Other items
     qagrader_outcome=Sonuç
     qagrader_queue=Havuz
     qagrader_supervisor=Denetmen (supervisor)
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=Konuş
     qagrader_time=Süre
     qagrader_wait=Bekle
@@ -4915,6 +4987,8 @@ Other items
     reports_edit_page_complete=Değişiklikleri onayla
     reports_edit_report=Raporu Düzenle
     reports_editingkey=Düzenleme Anahtarı
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     reports_enter_title=Lütfen geçerli bir saat formatı giriniz
     reports_export_email_body=İsimlendirilmiş dışa aktarma raporu için QueueMetrics sonuçları
     reports_export_email_subject=[QueueMetrics] Rapor
@@ -5232,6 +5306,16 @@ Other items
     reports_trash=Silmek için buraya sürükleyin
     reports_unsaved=Kaydedilmemiş
     reports_visibilitykey=Görünürlük anahtarı
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=Aktif havuzları göster
     rt_addmember=Üye ekle
     rt_agent_nbsp=Müşteri Temsilcisi
@@ -5516,6 +5600,8 @@ Other items
     sync2_create_users=Kullanıcı oluşturmayı etkinleştir
     sync2_delete=Silme eylemlerini etkinleştir
     sync2_delete_agents_confirm=Tüm müşteri temsilcilerini silmek istediğinizden emin misiniz?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     sync2_delete_queues_confirm=Tüm havuzları silmek istediğinizden emin misiniz?
     # 👽 sync2_delete_selected -> Delete
     sync2_delete_selected=?Sil
@@ -5591,6 +5677,8 @@ Other items
     timeline_debug=?Hata Ayıklama Bilgisini İndir
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?Kaydı İndir
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     # 👽 timeline_event -> Event
     timeline_event=?Olay
     # 👽 timeline_events -> Timeline Events
@@ -5625,6 +5713,8 @@ Other items
     timeline_min=?Min.
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?Kayıt Yok
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     # 👽 timeline_number -> Number
     timeline_number=?Numara
     # 👽 timeline_stint_end -> Stint End
@@ -5637,6 +5727,8 @@ Other items
     timeline_tab_qa=?QA/Kayıtlar
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?Kayıtlar
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Toplam Süre
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

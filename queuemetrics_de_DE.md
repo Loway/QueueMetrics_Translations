@@ -349,7 +349,6 @@ Do not change the items below:
     art_connectivity_problem=Server-Verbindungsproblem
     art_copied_to_clipboard=In Zwischenablage kopiert.
     art_currentExtension=Aktuelle Nebenstelle
-    # 👽 art_deprecated_page -> Notice: A new agent page is available now. The one you are currently using will be removed in the next release. Please ask your administrator to migrate you to the updated agent page.
     art_deprecated_page= Hinweis: Neue Agentenseite ist jetzt verfügbar. Die derzeit verwendete wird in der nächsten Version entfernt. Bitten Sie Ihren Administrator, Sie zur aktualisierten Agentenseite zu migrieren.
     art_endCall=Anruf beenden
     art_exitfullscreen=Klicken Sie hier, um aus dem Vollbildmodus zurückzukehren
@@ -592,11 +591,9 @@ Do not change the items below:
     clacd_max_attempts=Max. Anz. Versuche:
     clacd_min_attempts=Min. Anz. Versuche:
     clacd_last_acd_attempts=letzte ACD Versuche
-    # 👽 clacd_n_all_lost -> All lost
     clacd_n_all_lost=Alle verloren
     clacd_n_lost=Anz. verloren
     clacd_n_taken=Anz. angenommen
-    # 👽 clacd_n_zero -> N. Zero
     clacd_n_zero=N. Null
     clacd_queue=Warteschlange
     clacd_ring_s=Ges. Klingelzeit
@@ -1162,8 +1159,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=Ansicht DB
     hdr_dbtest_ram_cache=Cache ansehen
     hdr_dbtest_smtp=Test SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=„Ephemeral Attrs“ anzeigen
+    hdr_dbtest_ephemeral_attribute_inspector=„Ephemeral Attrs“ anzeigen
     hdr_distrib=Verteilung
     hdr_distrib_day=Tag
     hdr_distrib_day_title=Anrufverteilung, pro Tag
@@ -1213,6 +1209,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Aufgaben
     hdr_tasks_rss=RSS Feed
     hdr_tc=T&C
+    # 🔴 hdr_transcription_servers -> Transcription Servers
+    ➡️ hdr_transcription_servers=
     hdr_unanswered=Nicht angenommen
     hdr_unanswered_details=Unbeantwortete Details
     hdr_unanswered_details_title=Details zu nicht beantworteten Anrufen
@@ -1583,7 +1581,6 @@ Used for data blocks Overview by Agent/Queue
     edit_record_groups_noagents=Keine Agenten, die zu dieser Gruppe gehören.
     edit_record_groups_title=Details der Agentengruppe bearbeiten
     edit_record_icon=Ikone
-    # 👽 edit_record_id -> Id
     edit_record_id=ID
     edit_record_ivr_code=Nummer des Sprachdialogs
     edit_record_ivr_title=Sprachdialog-Details editieren
@@ -1733,6 +1730,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Echter Name:
     edit_record_users_title=Benutzer Detail
     edit_record_users_token=Token:
+    # 🔴 edit_record_transcription_channel_agent -> Agent
+    ➡️ edit_record_transcription_channel_agent=
+    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    ➡️ edit_record_transcription_channel_remote_job_id=
+    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    ➡️ edit_record_transcription_channel_remote_media_file=
+    # 🔴 edit_record_transcription_channel_state -> State
+    ➡️ edit_record_transcription_channel_state=
+    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
+    ➡️ edit_record_transcription_channel_reserverd_at=
+    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
+    ➡️ edit_record_transcription_channel_last_seen=
+    # 🔴 edit_record_transcription_server_name -> Name
+    ➡️ edit_record_transcription_server_name=
+    # 🔴 edit_record_transcription_server_driver -> Driver
+    ➡️ edit_record_transcription_server_driver=
+    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
+    ➡️ edit_record_transcription_server_max_channels=
+    # 🔴 edit_record_transcription_server_channels -> Channels
+    ➡️ edit_record_transcription_server_channels=
+    # 🔴 edit_record_transcription_server_priority -> Priority
+    ➡️ edit_record_transcription_server_priority=
+    # 🔴 edit_record_transcription_server_tags -> Tags
+    ➡️ edit_record_transcription_server_tags=
+    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
+    ➡️ edit_record_transcription_server_title=
+    # 🔴 edit_record_transcription_server_url -> URL
+    ➡️ edit_record_transcription_server_url=
+    # 🔴 edit_record_transcription_server_auth_token -> Token
+    ➡️ edit_record_transcription_server_auth_token=
+    # 🔴 edit_record_transcription_server_description -> Description
+    ➡️ edit_record_transcription_server_description=
+    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
+    ➡️ edit_record_transcription_server_driver_parms=
+    # 🔴 edit_record_transcription_server_status -> Status
+    ➡️ edit_record_transcription_server_status=
+    # 🔴 edit_record_transcription_server_healthy -> Healthy
+    ➡️ edit_record_transcription_server_healthy=
+    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
+    ➡️ edit_record_transcription_server_last_health=
     edit_record_xref_blank= Leer lassen, um eine Referenz automatisch zu erzeugen.
     edit_reports_automatic=Automatische Berichtkonfiguration
     edit_reports_desc=Beschr.
@@ -1760,6 +1797,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Zugewiesen
     edit_ssar_reports_code=Nebenstelle des Agenten
     edit_ssar_reports_title=Selbstbedienungs-Agenten, die für den Bericht berichten:
+    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
+    ➡️ edit_transcription_servers_title=
+    # 🔴 edit_transcription_go_live_status -> Go to live view
+    ➡️ edit_transcription_go_live_status=
     edit_users_class=Klasse
     edit_users_email=E-Mail
     edit_users_enabled=Aktiv
@@ -1768,6 +1809,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Echter Name
     edit_users_title=Systemnutzer
     edit_users_user_keys=Nutzer-Schlüssel
+    # 🔴 edit_qa_locked -> Locked
+    ➡️ edit_qa_locked=
+    # 🔴 edit_qa_prompt -> Prompt
+    ➡️ edit_qa_prompt=
+    # 🔴 edit_qa_sections -> Sections
+    ➡️ edit_qa_sections=
+    # 🔴 edit_qa_visibility -> Queue visibility
+    ➡️ edit_qa_visibility=
+    # 🔴 edit_record_qa_ai -> Automated QA
+    ➡️ edit_record_qa_ai=
+    # 🔴 edit_record_qa_aiprompt -> AI prompt:
+    ➡️ edit_record_qa_aiprompt=
+    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
+    ➡️ edit_record_qa_aiqueues=
+    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    ➡️ edit_record_qa_aiqueues_hint=
 
 ## Quality Assessments
 
@@ -2234,11 +2291,12 @@ Used for data blocks Overview by Agent/Queue
     rt3_extension=Erweiterung
     rt3_extension_info=Eingeloggt als:
     rt3_extra_value=Einige der ausgewählten Werte sind nicht verfügbar
-    # 👽 rt3_filters -> Show/Hide Filters
     rt3_filters=Filter zeigen/verbergen
     rt3_go=Weiter
     rt3_gohome=Home
     rt3_goto_login=Zum Login gehen
+    # 🔴 rt3_goto_view -> Go to View
+    ➡️ rt3_goto_view=
     rt3_green=Grün
     rt3_hangup=Auflegen
     rt3_hold=Halten
@@ -2267,7 +2325,6 @@ Used for data blocks Overview by Agent/Queue
     rt3_longest_wait=Längste Wartezeit
     rt3_lost_attempts=Verlorene Versuche
     rt3_lost_prc=Verloren
-    # 👽 rt3_manual_insert -> Manual insert
     rt3_manual_insert=Manuelles Einfügen
     rt3_menu_delete=Löschen
     rt3_menu_edit=Bearbeiten
@@ -2588,7 +2645,6 @@ Description of configuration properties
     propedit_feature_wallboard=Wallboard
     propedit_feature_wbsoftphone_settings=Wallboard Softphone Einstellungen
     propedit_key_agent_background_desc=URL des Hintergrunds der Agentenseite.
-    # 👽 propedit_key_agent_leaveAllQueuesOnLogoff_desc -> Agents will be automatically logged off from all queues at logout
     propedit_key_agent_leaveAllQueuesOnLogoff_desc=Agenten werden beim Abmelden automatisch von allen Warteschlangen abgemeldet
     propedit_key_agent_outcome_size=Maximale Höhe der Ergebnisauswahlliste
     propedit_key_agent_pause_dialout=Deaktivieren Sie die Anwahl von Agenten, wenn diese eine Pause machen
@@ -2682,10 +2738,8 @@ Description of configuration properties
     propedit_key_hangup_src=Softphone Auflegeton (URL)
     propedit_key_hiddennumberpolicy= Konzept für versteckte Nummern
     propedit_key_layout_logo_desc=Ihr Firmenlogo (vollständiger oder relativer Pfad). Sollte auf 200 x 72 verkleinert werden.
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=Legt die maximal zulässige Gesamtdauer für den ICE-Erfassungsprozess fest. Bei der Einstellung 0 ist die Optimierung deaktiviert.
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=Die Dauer des Soft-Timeouts, das ausgelöst wird, nachdem ein routbarer STUN/TURN-Kandidat erkannt wurde.
+    propedit_key_maxGatheringTime=Legt die maximal zulässige Gesamtdauer für den ICE-Erfassungsprozess fest. Bei der Einstellung 0 ist die Optimierung deaktiviert.
+    propedit_key_maxPostGatheringTime=Die Dauer des Soft-Timeouts, das ausgelöst wird, nachdem ein routbarer STUN/TURN-Kandidat erkannt wurde.
     propedit_key_noans_timeout=Zeit (in Sekunden), nach der ein eingehender Anruf abgewiesen wird, wenn er nicht beantwortet wird. Der Standardwert ist 60.
     propedit_key_phone_iceservers=Liste der zu verwendenden ICE Server.
     propedit_key_phone_maxsessions=Maximale Anzahl von Sitzungen für das Agent Page SoftPhone
@@ -2856,7 +2910,6 @@ Description of security keys:
     keydesc_config=Der Benutzer kann den automatischen Konfigurationsassistenten (Synchronizer) starten.
     keydesc_edit_cfg=Der Benutzer kann die lokale Datei configuration. Properties bearbeiten
     keydesc_hidenumbers= Alle Telefonnummern/Anrufer Identität sind versteckt.
-    # 👽 keydesc_hid -> Enable Softphone headset controls
     keydesc_hid=Softphone Headset-Steuerung aktivieren
     keydesc_keyupdate=Der Benutzer kann einen neuen QueueMetrics-Aktivierungsschlüssel installieren
     keydesc_mon_audio=Der Benutzer kann einen Anruf in Echtzeit überwachen
@@ -2865,7 +2918,6 @@ Description of security keys:
     keydesc_mon_vnc=Der Benutzer kann den Bildschirm eines Agenten über VNC überwachen
     keydesc_mon_whisper=Der Benutzer kann während eines Echtzeitgesprächs flüstern
     keydesc_newagentpage=Schaltet die neue Icon Agent Seite ein
-    # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
     keydesc_nodialout=Benutzer darf keine ausgehenden Anrufe tätigen
     keydesc_payroll=Benutzer können die Gehaltsabrechnungsseite überprüfen
     keydesc_payroll_removenote=Benutzer kann eine Notiz auf der Lohnbuchseite entfernen
@@ -2880,8 +2932,7 @@ Description of security keys:
     keydesc_qa_track=Benutzer kann Daten zur Qualitätsbewertung eingeben
     keydesc_qlog_edit=Benutzer kann die queue_log Einträge bearbeiten
     keydesc_qlog_lngr=Der Benutzer kann die Sitzungsdaten bearbeiten, indem er sie länger macht
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=Benutzer können sich nur bei den ihnen zugewiesenen Warteschlangen anmelden.
+    keydesc_queue_login_assigned_only=Benutzer können sich nur bei den ihnen zugewiesenen Warteschlangen anmelden.
     keydesc_queue_lst=Ermöglicht den direkten Zugriff auf die Anrufliste (Überspringen der Seite Berichte)
     keydesc_robot=Der Benutzer kann ROBOT-Transaktionen starten.
     keydesc_rt_addmember=Benutzer können von der Echtzeit-Seite aus Agenten zu einer Warteschlange hinzufügen
@@ -2933,10 +2984,8 @@ Description of security keys:
     keydesc_wallboard_forall=Nutzer kann öffentliche Wandtafeln speichern
     keydesc_wallboard_phone=Der Benutzer kann das Wallboard-Softphone verwenden
     keydesc_wqloader=Der Benutzer kann Protokolle über HTTP hochladen
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=Benutzer können aus der Tabelle mit den temporären Daten lesen.
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=Benutzer können in die Tabelle für zeitlich befristete Daten schreiben.
+    keydesc_ephemeral_read=Benutzer können aus der Tabelle mit den temporären Daten lesen.
+    keydesc_ephemeral_write=Benutzer können in die Tabelle für zeitlich befristete Daten schreiben.
 
 ## Tasks/Memos
 
@@ -3077,7 +3126,6 @@ Description of security keys:
     phone_join=Beitreten
     phone_maxsessions=Max. Sitzungen
     phone_mute=Stummschalten
-    # 👽 phone_mute_toggle -> Toggle Mute
     phone_mute_toggle=Stummschaltung umschalten
     phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
     phone_no_queue=keine Warteschlange
@@ -3100,47 +3148,26 @@ Description of security keys:
     phone_update_settings=Einstellungen aktualisieren
     phone_username=Benutzername
     phone_websocketurl=Websocket URL
-    # 👽 phone_audio_mic_not_found -> No microphone device found
     phone_audio_mic_not_found=Kein Mikrofon gefunden
-    # 👽 phone_audio_settings -> Audio Settings
     phone_audio_settings=Audioeinstellungen
-    # 👽 phone_audio_device_not_found -> Audio device not found
     phone_audio_device_not_found=Audiogerät nicht gefunden
-    # 👽 phone_choose_device -> Choose device..
     phone_choose_device=Gerät auswählen...
-    # 👽 phone_default_audio_device -> Using default audio device
     phone_default_audio_device=Standardaudiogerät verwenden
-    # 👽 phone_hid_disconnect_device -> Disconnect HID device
     phone_hid_disconnect_device=Trennen Sie das HID-Gerät
-    # 👽 phone_hid_close_device -> Closed HID device
     phone_hid_close_device=HID-Gerät geschlossen
-    # 👽 phone_hid_close_device_err -> Error occurred while closing HID device
     phone_hid_close_device_err=Fehler beim Schließen des HID-Geräts
-    # 👽 phone_hid_device_already_open -> HID device already open
     phone_hid_device_already_open=HID-Gerät ist bereits geöffnet
-    # 👽 phone_hid_device_connected -> HID device connected
     phone_hid_device_connected=HID-Gerät verbunden
-    # 👽 phone_hid_disconnected_device -> Disconnected HID device
     phone_hid_disconnected_device=HID-Gerät getrennt
-    # 👽 phone_hid_open_device -> Select a HID device
     phone_hid_open_device=HID-Gerät auswählen
-    # 👽 phone_hid_open_device_err -> Error occurred while opening HID device
     phone_hid_open_device_err=Fehler beim Öffnen des HID-Geräts
-    # 👽 phone_selected_audio_device -> Selected audio device
     phone_selected_audio_device=Ausgewähltes Audiogerät
-    # 👽 phone_selected_hid_device -> Selected HID device
     phone_selected_hid_device=Ausgewähltes HID-Gerät
-    # 👽 phone_selected_mic_device -> Selected microphone device
     phone_selected_mic_device=Ausgewähltes Mikrofon
-    # 👽 phone_selected_ringtone_device -> Selected ringtone device
     phone_selected_ringtone_device=Ausgewähltes Gerät für Klingelton
-    # 👽 phone_set_audio_info -> Changed audio device
     phone_set_audio_info=Audiogerät geändert
-    # 👽 phone_set_mic_info -> Changed mic device
     phone_set_mic_info=Mikrofon geändert
-    # 👽 phone_set_audio_err -> Error occurred while setting audio device
     phone_set_audio_err=Fehler beim Einstellen des Audiogeräts
-    # 👽 phone_ringtone -> Ringtone    
     phone_ringtone=Klingelton
 
 ## Homepage
@@ -3168,12 +3195,13 @@ Description of security keys:
     home_configuration_subtitle=QueueMetrics-Konfigurationsobjekte bearbeiten
     home_configuration_tags=Tags aufrufen
     home_configuration_title=Konfiguration
+    # 🔴 home_configuration_transcription_servers -> Transcription Servers
+    ➡️ home_configuration_transcription_servers=
     home_configuration_users=Benutzer
     home_dbtest_ami=AMI-Prüfgerät
     home_dbtest_ami_queue=AMI Commands
     home_dbtest_configuration=Konfiguration ansehen
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=Zeitlich befristeter Inspektor
+    home_dbtest_ephemeral_attribute_inspector=Zeitlich befristeter Inspektor
     home_dbtest_db_inspector=Konfiguration ansehen
     home_dbtest_ram_cache=RAM-Zwischenspeicherung
     home_dbtest_smtp=SMTP-Tester
@@ -3188,7 +3216,6 @@ Description of security keys:
     home_infobox_preview=Vorschau
     home_infobox_private= Private
     home_infobox_quicklinks=Quicklinks
-    # 👽 home_master_key_error -> Masterkey enabled — recommended use for testing only
     home_master_key_error=Masterkey aktiviert — nur für Tests empfohlen
     home_news_subtitle=QueueMetrics Neueste Nachrichten
     home_news_title=Nachrichten
@@ -3219,6 +3246,10 @@ Description of security keys:
     home_sysadmin_subtitle=Nützliche Tools für Sysadmins
     home_sysadmin_title=Systemverwaltung
     home_throwaway_report=Wegwerfbericht erstellen
+    # 🔴 home_transcription_title -> Live Transcriptions
+    ➡️ home_transcription_title=
+    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
+    ➡️ home_transcription_subtitle=
     home_unexpected_server_error=Es ist ein unerwarteter Serverfehler aufgetreten
     home_wallboards_subtitle=Anpassbare Wallboards für Live-Daten
     home_wallboards_title=Wallboards
@@ -3227,63 +3258,38 @@ Description of security keys:
 
 These are the titles of data blocks:
 
-    # 👽 teams_blk_external_callers -> External Callers
     teams_blk_external_callers=Externe Anrufer
-    # 👽 teams_blk_external_callees -> External Callees
     teams_blk_external_callees=Externe Angerufene
-    # 👽 teams_blk_external_callers_on_all -> External Callers (on all Calls)
     teams_blk_external_callers_on_all=Externe Anrufer (bei allen Anrufen)
-    # 👽 teams_blk_external_callees_on_all -> External Callees (on all Calls)
     teams_blk_external_callees_on_all=Externe Angerufene (bei allen Anrufen)
-    # 👽 teams_blk_caller_classification -> Teams Caller Classification
     teams_blk_caller_classification=Teams Anruferklassifizierung
-    # 👽 teams_blk_callee_classification -> Teams Callee Classification
     teams_blk_callee_classification=Teams Angerufenklassifizierung
 
-    # 👽 hdr_teamsdo -> TeamsDO
     hdr_teamsdo=TeamsDO
 
 
 These are kinds of calls:
 
-    # 👽 teams_kind_guest_user -> Guest User
     teams_kind_guest_user=Gastbenutzer
-    # 👽 teams_kind_ext_user -> External User
     teams_kind_ext_user=Externer Benutzer
-    # 👽 teams_kind_phone -> Phone
     teams_kind_phone=Telefon
-    # 👽 teams_kind_other -> Other
     teams_kind_other=Andere
 
 These are localization labels for data blocks:
 
-    # 👽 teams_caller_domain -> Caller domain
     teams_caller_domain=Anruferdomain
-    # 👽 teams_n_calls -> N. Calls
     teams_n_calls=Anzahl Anrufe
-    # 👽 teams_avg_wait -> Avg Wait
     teams_avg_wait=Durchschn. Wartezeit
-    # 👽 teams_avg_talk -> Avg Talk
     teams_avg_talk=Durchschn. Gesprächsdauer
-    # 👽 teams_tot_talk -> Tot Talk
     teams_tot_talk=Ges. Gesprächsdauer
-    # 👽 teams_all_calls -> All Calls
     teams_all_calls=Alle Anrufe
-    # 👽 teams_guest_n_calls -> Guest N Calls
     teams_guest_n_calls=Gast Anzahl Anrufe
-    # 👽 teams_guest_avg_wait -> Guest Avg Wait
     teams_guest_avg_wait=Gast Durchschn. Wartezeit
-    # 👽 teams_guest_avg_talk -> Guest Avg Talk
     teams_guest_avg_talk=Gast Durchschn. Gesprächsdauer
-    # 👽 teams_guest_tot_talk -> Guest Tot Talk
     teams_guest_tot_talk=Gast Ges. Gesprächsdauer
-    # 👽 teams_ext_n_calls -> Ext N Calls
     teams_ext_n_calls=Ext Anzahl Anrufe
-    # 👽 teams_ext_avg_wait -> Ext Avg Wait
     teams_ext_avg_wait=Ext Durchschn. Wartezeit
-    # 👽 teams_ext_avg_talk -> Ext Avg Talk
     teams_ext_avg_talk=Ext Durchschn. Gesprächsdauer
-    # 👽 teams_ext_tot_talk -> Ext Tot Talk
     teams_ext_tot_talk=Ext Ges. Gesprächsdauer
 
 
@@ -3322,34 +3328,20 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=Attribut hinzufügen
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=Aktion
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=Agent
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=Damit wird dieses Attribut gelöscht.
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=Attributname ist erforderlich
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=Abgelaufen
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=Gültig bis
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=Attributname
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=Warteschlange
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=Attributvalidität (Sek.)
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=Wert
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=Alle (Sek.) aktualisieren
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=Suche nach
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=Die Gültigkeitsdauer muss eine Zahl größer als 0 sein.
+    ephatt_add_attribute_btn=Attribut hinzufügen
+    ephatt_attribute_action=Aktion
+    ephatt_attribute_agent=Agent
+    ephatt_attribute_confirm_delete=Damit wird dieses Attribut gelöscht.
+    ephatt_attribute_error=Attributname ist erforderlich
+    ephatt_attribute_expired=Abgelaufen
+    ephatt_attribute_expiry=Gültig bis
+    ephatt_attribute_name=Attributname
+    ephatt_attribute_queue=Warteschlange
+    ephatt_attribute_validity=Attributvalidität (Sek.)
+    ephatt_attribute_value=Wert
+    ephatt_qry_refresh=Alle (Sek.) aktualisieren
+    ephatt_qry_search=Suche nach
+    ephatt_validity_error=Die Gültigkeitsdauer muss eine Zahl größer als 0 sein.
 
 
 ## Misc
@@ -3438,7 +3430,6 @@ Other items
     editor_search=Suchen
     editor_show_classes=Klassen anzeigen
     editor_show_users=Nutzer anzeigen
-    # 👽 err_not_blank -> Input cannot be left blank.
     err_not_blank=Eingabe darf nicht leer bleiben.
     err_super_multiple=Sie können nicht nach Agenten oder Ort filtern, während ein Supervisor-Bericht läuft
     err_super_noagents=Der derzeitige Benutzer beaufsichtigt keine Agenten.
@@ -3454,25 +3445,15 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Als XML exportieren
-    # 👽 graph_position -> Graph Position
     graph_position=Diagrammposition
-    # 👽 graph_position_top -> Top
     graph_position_top=Oben
-    # 👽 graph_position_bottom -> Bottom
     graph_position_bottom=Unten
-    # 👽 graph_position_left -> Left
     graph_position_left=Links
-    # 👽 graph_position_right -> Right
     graph_position_right=Rechts
-    # 👽 graph_size -> Graph Size
     graph_size=Diagrammgröße
-    # 👽 graph_size_big -> Big
     graph_size_big=Groß
-    # 👽 graph_size_normal -> Normal
     graph_size_normal=Normal
-    # 👽 graph_size_small -> Small
     graph_size_small=Klein
-    # 👽 graph_size_extra_small -> Extra Small
     graph_size_extra_small=Extra klein
     grp_ivr=IVR Ereignisse
     grp_ivr_calls= IVR Anrufe
@@ -3488,7 +3469,6 @@ Other items
     gui_form_back= zurück
     gui_form_cancel= abbrechen
     gui_form_next= nächste
-    # 👽 gui_form_ok -> OK
     gui_form_ok=OK
     jump_to_main_content=Zum Hauptinhalt springen
     keyinstall_err_nokey=Der Benutzer muss die Taste KEYUPDATE gedrückt halten. Sie können nicht fortfahren.
@@ -3564,7 +3544,6 @@ Other items
     memo_details_form= Formular
     memo_details_from= von
     memo_details_goback= zurück
-    # 👽 memo_details_info -> Memo Info
     memo_details_info=Memo-Info
     memo_details_queue= Warteschlange
     memo_details_save= sichern
@@ -3586,28 +3565,22 @@ Other items
     memo_filter_tbd= Memos zu erledigen
     memo_from= von
     memo_group= Gruppe
-    # 👽 memo_id -> Id
     memo_id=ID
     memo_items_found= gefundene Items
     memo_list=Memo Liste
     memo_list_norecords= Keine Aufzeichnungen
     memo_loadbyid_error= Es gab einen Fehler beim Laden der Memos nach ID
     memo_loadbyid_missing= Es scheint keine Memos mit ID zu geben.
-    # 👽 memo_manager -> Manager
     memo_manager=Manager
     memo_message= Nachricht
     memo_related_to= Bezogen auf
-    # 👽 memo_status -> Status
     memo_status=Status
     memo_tree_empty= leer
-    # 👽 memo_tree_title -> Linked memos
     memo_tree_title=Verknüpfte Memos
     memo_type= Typ
     menu_licence_page=Lizenz Seite
     menu_user_page=Benutzer-Infos
-    # 👽 modal_cancel -> Cancel
     modal_cancel=Abbrechen
-    # 👽 modal_ok -> Ok
     modal_ok=Ok
     notification_error=Fehler
     notification_info=Info
@@ -3734,6 +3707,8 @@ Other items
     qagrader_outcome=Ergebnis
     qagrader_queue=Warteschlange
     qagrader_supervisor=Supervisor
+    # 🔴 qagrader_location -> Location
+    ➡️ qagrader_location=
     qagrader_talk=Gespräch
     qagrader_time=Zeit
     qagrader_wait=Warten
@@ -3768,9 +3743,7 @@ Other items
     qap_amo_request= Anfrage AMO Anruf
     qap_amo_reserved= Anruf erfolgreich reserviert
     qap_amo_terminated= Keine verfügbaren AMO Anrufe
-    # 👽 qap_apply_feature_error -> Error while applying feature to interaction
     qap_apply_feature_error=Fehler beim Anwenden der Funktion auf Interaktion
-    # 👽 qap_apply_outcome_error -> Error while applying outcome to interaction
     qap_apply_outcome_error=Fehler beim Anwenden des Ergebnisses auf Interaktion
     qap_assign_case= Zuordnen einer Interaktion zu einem Case
     qap_assign_client= zuordnen einer Interaktion zu einem Kunden
@@ -3816,7 +3789,6 @@ Other items
     qap_control_priority= Priorität
     qap_control_removeall= verlassen ausgewählt
     qap_control_selectall= alle ausgewählt
-    # 👽 qap_control_timer -> Timer
     qap_control_timer=Timer
     qap_control_unpause= Pause beenden
     qap_create_note_error=Fehler während des Erstellen einen neuen Hinweises
@@ -3891,11 +3863,9 @@ Other items
     qap_invalid_outcome= Das ausgewählte Ergebnis ist nicht gültig für ein oder mehr Interaktions Merkmal Codes.
     qap_join= beitreten
     qap_label_freetext= Freitext
-    # 👽 qap_label_freetext_error -> Character limit exceeded (maximum 200)
     qap_label_freetext_error=Zeichenlimit überschritten (max. 200)
     qap_leave= verlassen
     qap_loading= laden...
-    # 👽 qap_logout_message -> Logging you out from all queues
     qap_logout_message=Sie werden von allen Warteschlangen abgemeldet
     qap_memos= Memos
     qap_missing_cases_key= Sie haben nicht die Berechtigung neue Cases zu erstellen.
@@ -3910,7 +3880,6 @@ Other items
     qap_nav_interactions=Interaktionen
     qap_nav_overview= Übersicht
     qap_nav_qa= QA
-    # 👽 qap_nav_wallboard -> Wallboard
     qap_nav_wallboard=Wallboard
     qap_nav_wombat= WombatDialer Wahlvorschau
     qap_new_case=Neuer Case
@@ -3918,7 +3887,6 @@ Other items
     qap_new_memo= erknüpftes Memo erstellen
     qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
     qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.
-    # 👽 qap_agent_not_present_on_queue -> Agent is not present on selected outbound queue.
     qap_agent_not_present_on_queue=Agent ist nicht in der gewählten Outbound-Warteschlange.
     qap_none= kein
     qap_note_actions= Aktionen
@@ -3993,100 +3961,53 @@ Other items
     qap_wbt_title= Zeitplan WombatDialer Rückruf
     qap_welcome= Willkommen zurück!
     qap_you_have= Sie haben
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=Erweiterter Status
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=Gewählte Nummer
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=Versuch
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=Rückrufversuche
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=Anrufverlauf
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=Wählen
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=Erweiterter Status erfolgreich hinzugefügt
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=wählende Nummer
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=Attribut erfolgreich hinzugefügt
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=Reserve
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=Wiederholungsversuch angefordert
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=Agent Auslassen
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=Nummer auf der Sperrliste
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=Leitung besetzt
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=Technischer Fehler
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=Anruf verpasst
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=Zeitüberschreitung des Agenten
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=Keine Antwort
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=Ungültige Nummer
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=Netzwerk-Ablehnung
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=Anruf beendet
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=Maximale Dauer
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=Auslassen
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=Update
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=Es muss ein erweiterter Status ausgewählt werden
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=In WombatDialer ist ein Fehler aufgetreten
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=Agent nicht verfügbar
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=Gewählt
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=Ausgelassen
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=kein Anruf für die Reservierung verfügbar
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=Agent
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=Keine solche ID
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=ID ist vorhanden, aber der Anruf befindet sich in einem falschen Status.
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=Der Attributname darf das Zeichen „.“ nicht enthalten.
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=Text
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=Vergänglich – Zeit
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=Reservierbare Anrufe
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=Unvollständige Anrufe
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt= Vergänglich  - Wert
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=Kampagnenstatistiken
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=Verbleibende Versuche
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=Vergänglich - Attribut
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=Visualisierungsmodus
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=Maximalwert
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=Ist Markdown
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=Normal
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=Prozent
+    qap_extended_status=Erweiterter Status
+    qap_number_dialed=Gewählte Nummer
+    qap_wbt_attempt=Versuch
+    qap_wbt_recall_attempt=Rückrufversuche
+    qap_wombat_call_history=Anrufverlauf
+    qap_wombat_dial=Wählen
+    qap_wombat_ext_status_success=Erweiterter Status erfolgreich hinzugefügt
+    qap_wombat_number_dial=wählende Nummer
+    qap_wombat_out_attribute_success=Attribut erfolgreich hinzugefügt
+    qap_wombat_reserve=Reserve
+    qap_wombat_rs_agent=Wiederholungsversuch angefordert
+    qap_wombat_rs_agentskip=Agent Auslassen
+    qap_wombat_rs_blacklist=Nummer auf der Sperrliste
+    qap_wombat_rs_busy=Leitung besetzt
+    qap_wombat_rs_err=Technischer Fehler
+    qap_wombat_rs_lost=Anruf verpasst
+    qap_wombat_rs_noagent=Zeitüberschreitung des Agenten
+    qap_wombat_rs_noanswer=Keine Antwort
+    qap_wombat_rs_number=Ungültige Nummer
+    qap_wombat_rs_rejected=Netzwerk-Ablehnung
+    qap_wombat_rs_terminated=Anruf beendet
+    qap_wombat_rs_timeout=Maximale Dauer
+    qap_wombat_skip=Auslassen
+    qap_wombat_update=Update
+    qap_wombat_update_disable_msg=Es muss ein erweiterter Status ausgewählt werden
+    qap_generic_error=In WombatDialer ist ein Fehler aufgetreten
+    qap_agent_not_available=Agent nicht verfügbar
+    qap_dial_success=Gewählt
+    qap_skip_success=Ausgelassen
+    qap_no_call_to_reserve=kein Anruf für die Reservierung verfügbar
+    qap_agent=Agent
+    qap_id_not_found=Keine solche ID
+    qap_id_found_wrong_state=ID ist vorhanden, aber der Anruf befindet sich in einem falschen Status.
+    ephatt_attribute_character_error=Der Attributname darf das Zeichen „.“ nicht enthalten.
+    rt3_att_text=Text
+    rt3_nofstate_unix_wbt=Vergänglich – Zeit
+    rt3_circle_wbt_reservable=Reservierbare Anrufe
+    rt3_circle_wbt_incomplete=Unvollständige Anrufe
+    rt3_nofstate_wbt= Vergänglich  - Wert
+    rt3_wbt_campaign_stats=Kampagnenstatistiken
+    rt3_wbt_camp_est=Verbleibende Versuche
+    rt3_attributes=Vergänglich - Attribut
+    rt3_display_value=Visualisierungsmodus
+    rt3_maxvalue=Maximalwert
+    rt3_md_checkbox=Ist Markdown
+    rt3_normal_number=Normal
+    rt3_normal_perc=Prozent
     qatarget_agentgroup=Agent Gruppe
     qatarget_allcalls=Alle Anrufe
     qatarget_individual_agents=Agent
@@ -4147,7 +4068,6 @@ Other items
     reports_at_wait=Warten:
     reports_atomic_filters=Filterauswahl
     reports_autosave_toggle=Automatisch speichern
-    # 👽 reports_filter_empty_hour_toggle -> Hide empty hour slots
     reports_filter_empty_hour_toggle=Leere Stundenslots verbergen
     reports_change_report_confirm=Sie haben ungespeicherte Änderungen. Wenn Sie einen anderen Bericht auswählen, werden diese Änderungen rückgängig gemacht. Möchten Sie den Bericht ändern?
     reports_chart_avgdur=Durchschnittliche Dauer
@@ -4202,6 +4122,8 @@ Other items
     reports_edit_page_complete=Änderungen bestätigen
     reports_edit_report=Bericht bearbeiten
     reports_editingkey=Bearbeitungskey
+    # 🔴 reports_email_not_valid -> Please enter valid email addresses
+    ➡️ reports_email_not_valid=
     reports_enter_title=Geben Sie den neuen Berichtstitel ein
     reports_export_email_body=QueueMetrics-Ergebnisse für den Exportbericht namens
     reports_export_email_subject=[QueueMetrics] Bericht
@@ -4215,15 +4137,10 @@ Other items
     reports_export_schema_error=Das Berichtsschema konnte nicht exportiert werden.
     reports_export_test_icon=Jetzt ausführen
     reports_export_xls_short=XLS
-    # 👽 reports_exportjob_create -> Create New Export Job
     reports_exportjob_create=Neuen Export-Job erstellen
-    # 👽 reports_exportjob_create_successful -> Export job created successfully
     reports_exportjob_create_successful=Export-Job erfolgreich erstellt
-    # 👽 reports_exportjob_error_create -> Error Creating Export Job:
     reports_exportjob_error_create=Fehler beim Erstellen des Export-Jobs:
-    # 👽 reports_exportjob_title -> Existing jobs for this report
     reports_exportjob_title=Vorhandene Jobs für diesen Bericht
-    # 👽 reports_export_job -> Export
     reports_export_job=Export
     reports_fetch_error=Fehler beim Abrufen eines DataBlocks
     reports_filter_agent=Agent
@@ -4258,19 +4175,12 @@ Other items
     reports_filter_nrmcaller=Normalisierter Anrufer
     reports_filter_operator=Operator
     reports_filter_outcome=Ergebnis
-    # 👽 reports_filter_pausedurmax -> Max. Pause Duration
     reports_filter_pausedurmax=Max. Pausendauer
-    # 👽 reports_filter_pausedurmin -> Min. Pause Duration
     reports_filter_pausedurmin=Min. Pausendauer
-    # 👽 reports_filter_pausenmax -> Max. N Pause
     reports_filter_pausenmax=Max. N Pausen
-    # 👽 reports_filter_pausenmin -> Min. N Pause
     reports_filter_pausenmin=Min. N Pausen
-    # 👽 reports_filter_sessiondurmax -> Max. Session Duration
     reports_filter_sessiondurmax=Max. Sitzungsdauer
-    # 👽 reports_filter_sessiondurmin -> Min. Session Duration
     reports_filter_sessiondurmin=Min. Sitzungsdauer
-    # 👽 reports_filter_sessionext -> Session Ext.
     reports_filter_sessionext=Sitzungs-Ext.
     reports_filter_selected_queues=Warteschlangen
     reports_filter_server=Server
@@ -4351,7 +4261,6 @@ Other items
     reports_qa_performance_title=Leistung
     reports_qa_performance_total=Gesamtpunktzahl
     reports_qa_queue=Warteschlange
-    # 👽 reports_qa_range -> Range
     reports_qa_range=Bereich
     reports_qa_recap_heading=Details aufrufen
     reports_qa_select_form=Formular auswählen
@@ -4359,7 +4268,6 @@ Other items
     reports_qa_status=Status
     reports_qa_uid=Eindeutige Kennung
     reports_qa_value=Wert
-    # 👽 reports_qa_print -> Print
     reports_qa_print=Drucken
     reports_query_loading=Laden
     reports_ratio=Ratio
@@ -4374,17 +4282,14 @@ Other items
     reports_save_report_confirm_current=Aktuell
     reports_save_report_confirm_message=Bearbeiten Sie den aktuellen Bericht oder erstellen Sie eine Kopie mit den neuen Änderungen?
     reports_save_report_confirm_title=Bericht speichern
-    # 👽 reports_save_report_title_exception -> A report with the same name already exists. Please select a different name.
     reports_save_report_title_exception=Ein Bericht mit demselben Namen existiert bereits. Bitte wählen Sie einen anderen Namen.
     reports_save_successful=Bericht erfolgreich gespeichert
-    # 👽 reports_scheduled_job -> Scheduled
     reports_scheduled_job=Geplant
     reports_search_placeholder=Suche
     reports_select_report=Wählen Sie einen Bericht
     reports_settings=Einstellungen
     reports_settings_areacode=Vorwahl
     reports_settings_datablock=DataBlock
-    # 👽 reports_settings_default -> Reset to System Default
     reports_settings_default=Auf Systemstandard zurücksetzen
     reports_settings_hourlyslot=Stündlicher Slot
     reports_settings_report=Bericht
@@ -4453,6 +4358,16 @@ Other items
     reports_trash=Zum Löschen hierher ziehen
     reports_unsaved=Nicht gespeichert
     reports_visibilitykey=Sichtbarkeitskey
+    # 🔴 reports_qa_noteform_save -> Save Note
+    ➡️ reports_qa_noteform_save=
+    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
+    ➡️ reports_qa_nonscoring=
+    # 🔴 report_tab_page_list -> Page List
+    ➡️ report_tab_page_list=
+    # 🔴 reports_delete_filter_text -> Delete Filter
+    ➡️ reports_delete_filter_text=
+    # 🔴 reports_edit_filter_text -> Edit Filter
+    ➡️ reports_edit_filter_text=
     rt_active_queues=Zeige Aktivitäten der Warteschlangen
     rt_addmember=Mitglied hinzufügen
     rt_agent_nbsp=Agent
@@ -4708,17 +4623,11 @@ Other items
     sync2_apply=Anwenden
     sync2_choose_pbx=PBX
     sync2_choose_source=Quelle auswählen
-    # 👽 sync2_chunker_uploading -> Data Upload
     sync2_chunker_uploading=Daten-Hochladen
-    # 👽 sync2_chunker_progress -> Uploaded chunks
     sync2_chunker_progress=Hochgeladene Blöcke
-    # 👽 sync2_chunker_actions -> Actions left
     sync2_chunker_actions=Verbleibende Aktionen
-    # 👽 sync2_chunker_chunks -> Uploading configuration
     sync2_chunker_chunks=Konfiguration wird hochgeladen
-    # 👽 sync2_chunker_sending -> Applying actions
     sync2_chunker_sending=Aktionen werden angewendet
-    # 👽 sync2_chunker_waiting -> Waiting...
     sync2_chunker_waiting=Warten...
     sync2_cluster=Cluster-Einstellungen
     sync2_cluster_info=Cluster-Informationen
@@ -4730,6 +4639,8 @@ Other items
     sync2_create_users=Benutzererstellung aktivieren
     sync2_delete=Löschen-Aktionen aktivieren
     sync2_delete_agents_confirm=Sind Sie sicher, dass Sie alle Agenten löschen möchten?
+    # 🔴 sync2_delete_cluster -> Delete Cluster
+    ➡️ sync2_delete_cluster=
     sync2_delete_queues_confirm=Sind Sie sicher, dass Sie alle Warteschlangen löschen möchten?
     sync2_delete_selected=Löschen
     sync2_deleteall_agent=Alle Agenten löschen
@@ -4795,6 +4706,8 @@ Other items
     timeline_close=Zurück zum Bericht
     timeline_debug=Debug-Informationen herunterladen
     timeline_download_recording=Aufnahme herunterladen
+    # 🔴 timeline_download_chat_file -> Download File
+    ➡️ timeline_download_chat_file=
     timeline_event=Veranstaltung
     timeline_events=Zeitleiste Ereignisse
     timeline_interaction_calltot=Insgesamt:
@@ -4812,44 +4725,32 @@ Other items
     timeline_max=Max.
     timeline_min=Min.
     timeline_no_recordings=Keine Aufzeichnungen
+    # 🔴 timeline_no_chats -> No chats available
+    ➡️ timeline_no_chats=
     timeline_number=Nummer
     timeline_stint_end=Pensum Ende
     timeline_stint_start=Pensum Start
     timeline_tab_details=Details
     timeline_tab_qa=QA/Aufzeichnungen
     timeline_tab_recordings=Aufzeichnungen
+    # 🔴 timeline_tab_chats -> Chats
+    ➡️ timeline_tab_chats=
     timeline_totdur=Gesamtdauer
-    # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=Agenten-Sitzungen und Pausen
-    # 👽 title_do_areaando -> Area codes
     title_do_areaando=Vorwahl
-    # 👽 title_do_calldistrdo -> Call Distribution
     title_do_calldistrdo=Anrufverteilung
-    # 👽 title_do_calltagdo -> Call Tags
     title_do_calltagdo=Anruf-Tags
-    # 👽 title_do_casedo -> Cases
     title_do_casedo=Cases
-    # 👽 title_do_customblkdo -> Custom DataBlock
     title_do_customblkdo=Benutzerdefinierter Datenblock
-    # 👽 title_do_detailsdo -> Details
     title_do_detailsdo=Details
-    # 👽 title_do_distrdo -> Attempts
     title_do_distrdo=Versuche
-    # 👽 title_do_extsourcedo -> External Source
     title_do_extsourcedo=Externe Quelle
-    # 👽 title_do_fcrdo -> First Call Resolution
     title_do_fcrdo=Erste Anrufauflösung
-    # 👽 title_do_groupingsdo -> Calls Grouping
     title_do_groupingsdo=Anruf Gruppierung
-    # 👽 title_do_ivrdo -> Ivr Calls
     title_do_ivrdo=IVR Anrufe
-    # 👽 title_do_kodo -> Unanswered Calls
     title_do_kodo=Unbeantwortete Anrufe
-    # 👽 title_do_okdo -> Taken Calls
     title_do_okdo=Angenommene Anrufe
-    # 👽 title_do_outcomesdo -> Call with Outcomes
     title_do_outcomesdo=Anruf mit Ergebnissen
-    # 👽 title_do_teamsdo -> Teams
     title_do_teamsdo=Teams
     ts_agawrep_invalidlocation=Bitte geben Sie einen gültigen Standort an
     userpage_change_button=Ändern
