@@ -1208,6 +1208,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Tasks
     hdr_tasks_rss=RSS Feed
     hdr_tc=T&C
+    hdr_transcription_servers=Transcription Servers
     hdr_unanswered=Unans.
     hdr_unanswered_details=Unans.Dt.
     hdr_unanswered_details_title=Details of unanswered calls
@@ -1727,6 +1728,26 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Real name:
     edit_record_users_title=User Detail
     edit_record_users_token=Token:
+    edit_record_transcription_channel_agent=Agent
+    edit_record_transcription_channel_remote_job_id=Remote Job ID
+    edit_record_transcription_channel_remote_media_file=Remote Media File
+    edit_record_transcription_channel_state=State
+    edit_record_transcription_channel_reserverd_at=Reserved At
+    edit_record_transcription_channel_last_seen=Last Seen
+    edit_record_transcription_server_name=Name
+    edit_record_transcription_server_driver=Driver
+    edit_record_transcription_server_max_channels=Max Channels
+    edit_record_transcription_server_channels=Channels
+    edit_record_transcription_server_priority=Priority
+    edit_record_transcription_server_tags=Tags
+    edit_record_transcription_server_title=Transcription Server Detail
+    edit_record_transcription_server_url=URL
+    edit_record_transcription_server_auth_token=Token
+    edit_record_transcription_server_description=Description
+    edit_record_transcription_server_driver_parms=Parameters
+    edit_record_transcription_server_status=Status
+    edit_record_transcription_server_healthy=Healthy
+    edit_record_transcription_server_last_health=Last Health Check
     edit_record_xref_blank=Leave blank to create a reference automatically
     edit_reports_automatic=Automatic report configuration
     edit_reports_desc=Desc.
@@ -1754,6 +1775,8 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=Assigned
     edit_ssar_reports_code=Agent code
     edit_ssar_reports_title=Self-service agents reporting for report:
+    edit_transcription_servers_title=Edit Transcription Servers
+    edit_transcription_go_live_status=Go to live view
     edit_users_class=Class
     edit_users_email=Email
     edit_users_enabled=Enabled
@@ -2232,6 +2255,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=Go
     rt3_gohome=Home
     rt3_goto_login=Go to Login
+    rt3_goto_view=Go to View
     rt3_green=green
     rt3_hangup=Hangup
     rt3_hold=Hold
@@ -3130,6 +3154,7 @@ Description of security keys:
     home_configuration_subtitle=Edit QueueMetrics Configuration Objects
     home_configuration_tags=Call Tags
     home_configuration_title=Configuration
+    home_configuration_transcription_servers=Transcription Servers
     home_configuration_users=Users
     home_dbtest_ami=AMI tester
     home_dbtest_ami_queue=AMI Commands
@@ -3179,6 +3204,8 @@ Description of security keys:
     home_sysadmin_subtitle=Useful tools for Sysadmins
     home_sysadmin_title=System Administration
     home_throwaway_report=Create Throw Away Report
+    home_transcription_title=Live Transcriptions
+    home_transcription_subtitle=View of Live Transcriptions
     home_unexpected_server_error=An unexpected server error has occured
     home_wallboards_subtitle=Customizable wallboards for live data
     home_wallboards_title=Wallboards
@@ -3636,6 +3663,7 @@ Other items
     qagrader_outcome=Outcome
     qagrader_queue=Queue
     qagrader_supervisor=Supervisor
+    qagrader_location=Location
     qagrader_talk=Talk
     qagrader_time=Time
     qagrader_wait=Wait
@@ -4049,6 +4077,7 @@ Other items
     reports_edit_page_complete=Confirm changes
     reports_edit_report=Edit Report
     reports_editingkey=Editing Key
+    reports_email_not_valid=Please enter valid email addresses
     reports_enter_title=Enter the new Report title
     reports_export_email_body=QueueMetrics results for export report named
     reports_export_email_subject=[QueueMetrics] Report
@@ -4283,6 +4312,11 @@ Other items
     reports_trash=Drag here to delete
     reports_unsaved=Unsaved
     reports_visibilitykey=Visibility Key
+    reports_qa_noteform_save=Save Note
+    reports_qa_nonscoring=Non-Scoring Evaluation
+    report_tab_page_list=Page List
+    reports_delete_filter_text=Delete Filter
+    reports_edit_filter_text=Edit Filter
     rt_active_queues=Show active queues
     rt_addmember=Add Member
     rt_agent_nbsp=Agent
@@ -4554,6 +4588,7 @@ Other items
     sync2_create_users=Enable User creation
     sync2_delete=Enable Delete actions
     sync2_delete_agents_confirm=Are you sure you want to delete all the agents?
+    sync2_delete_cluster=Delete Cluster
     sync2_delete_queues_confirm=Are you sure you want to delete all the queues?
     sync2_delete_selected=Delete
     sync2_deleteall_agent=Delete all agents
@@ -4619,6 +4654,7 @@ Other items
     timeline_close=Return to Report
     timeline_debug=Download Debug Info
     timeline_download_recording=Download Recording
+    timeline_download_chat_file=Download File
     timeline_event=Event
     timeline_events=Timeline Events
     timeline_interaction_calltot=Total:
@@ -4636,12 +4672,14 @@ Other items
     timeline_max=Max.
     timeline_min=Min.
     timeline_no_recordings=No Recordings
+    timeline_no_chats=No chats available
     timeline_number=Number
     timeline_stint_end=Stint End
     timeline_stint_start=Stint Start
     timeline_tab_details=Details
     timeline_tab_qa=QA/Recordings
     timeline_tab_recordings=Recordings
+    timeline_tab_chats=Chats
     timeline_totdur=Tot. Dur.
     title_do_agentsdo=Agents Sessions and Pauses
     title_do_areaando=Area codes
