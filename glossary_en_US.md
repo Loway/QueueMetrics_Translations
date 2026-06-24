@@ -74,6 +74,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | | `art_lblQAForm` (QA Form) |
 | QC | Quality Control | | `ko_succ_q` |
 | CBT | Computer-Based Training | | `hdr_cbt` (CBTs) |
+| Prompt | A prompt for an AI model to perform QA | | `edit_qa_prompt`, `edit_record_qa_aiprompt`
 
 ---
 

@@ -1615,7 +1615,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_nofgradedcalls=N. calls graded:
     edit_record_qa_reportkey=Security key for reports:
     edit_record_qa_secnames=Section Names
-    edit_record_qa_section=section
+    edit_record_qa_section=Section
     edit_record_qa_title=QA: Forms Editor
     edit_record_qa_visibility=Queue visibility:
     edit_record_qaformitem_activeif=Active if...
@@ -1785,6 +1785,14 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=Real Name
     edit_users_title=System Users
     edit_users_user_keys=User Keys
+    edit_qa_locked=Locked
+    edit_qa_prompt=Prompt
+    edit_qa_sections=Sections
+    edit_qa_visibility=Queue visibility
+    edit_record_qa_ai=Automated QA
+    edit_record_qa_aiprompt=AI prompt:
+    edit_record_qa_aiqueues=Queues for automated QA:
+    edit_record_qa_aiqueues_hint=Pipe-separated list of queues this applies to.    
 
 ## Quality Assessments
 
