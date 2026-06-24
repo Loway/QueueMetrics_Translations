@@ -74,6 +74,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | QA | `art_lblQAForm` | Kept in English |
 | QC | Quality Control | תור | `ko_succ_q` | Partially extracted from context |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` | Kept in English |
+| Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
 
 ---
 

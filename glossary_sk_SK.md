@@ -78,6 +78,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | QA Formulár | `art_lblQAForm` (QA Form) | Verify against pack |
 | QC | Quality Control | Úsp.Q. | `ko_succ_q` | Verify against pack |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` (CBTs) | Kept in English |
+| Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
 
 ---
 

@@ -55,6 +55,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QA | Quality Assurance | QA | `art_lblQAForm` | Kept as acronym |
 | QC | Quality Control | QC | `ko_succ_q` | Kept as acronym |
 | CBT | Computer-Based Training | Тренинг | `hdr_cbt` | Kept in English |
+| Prompt | A prompt for an AI model to perform QA | Промпт | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
 
 ---
 

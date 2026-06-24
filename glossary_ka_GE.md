@@ -76,6 +76,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | ხარისხის შეფასება | `art_lblQAForm` (QA Form) | |
 | QC | Quality Control | ხარისხის კონტროლი | `ko_succ_q` | |
 | CBT | Computer-Based Training | ტრენინგი | `hdr_cbt` (CBTs) | |
+| Prompt | A prompt for an AI model to perform QA | მოთხოვნა | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
 
 ---
 
@@ -183,4 +184,5 @@ uncertain or whose existing pack is inconsistent.
 | Wallboard | Product feature term, pack keeps in English | wallboard | Decide if should keep English or translate to Georgian equivalent |
 | IVR | Pack expands fully as "(IVR)" — verify abbreviation choice | IVR | Verify if abbreviation should stand alone or always include expansion |
 | DNIS | Pack expands fully as "(DNIS)" — verify abbreviation choice | DNIS | Verify if abbreviation should stand alone or always include expansion |
+| Prompt (AI prompt) | New AI term; `edit_qa_prompt` still untranslated in pack | მოთხოვნა | მოთხოვნა vs transliteration "პრომპტი" vs keep "Prompt" — verify against pack once labels are translated |
 

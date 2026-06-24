@@ -55,6 +55,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QA | Quality Assurance | نموذج ضمان الجودة | `art_lblQAForm` | |
 | QC | Quality Control | ناجح.ق. | `ko_succ_q` | Abbreviated form from pack |
 | CBT | Computer-Based Training | CBTs | `hdr_cbt` | Kept in English |
+| Prompt | A prompt for an AI model to perform QA | موجّه | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
 
 ---
 
@@ -159,3 +160,4 @@ Resolve each, then update the table above and remove the row here.
 | Realtime (live view) | No clear confirmation | — | Pack fragment suggests complex phrasing — need context from actual labels |
 | DID acronym | Kept English in DID/DNIS line | DID | Consider translating to Arabic equivalent or standard term |
 | Create (CRUD action) | Not confirmed | — | Need to find "Create" or equivalent action in pack |
+| Prompt (AI prompt) | New AI term; `edit_qa_prompt` still untranslated in pack | موجّه | موجّه vs برومبت (transliteration) vs keep "Prompt" — verify standard Arabic AI term against pack once labels are translated |

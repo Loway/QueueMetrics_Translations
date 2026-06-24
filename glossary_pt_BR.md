@@ -76,6 +76,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | Formulário PR | `art_lblQAForm` | (Packed as "Formulário PR") |
 | QC | Quality Control | Filas Sucesso | `ko_succ_q` | Verify against pack |
 | CBT | Computer-Based Training | CBTs | `hdr_cbt` | Kept in English |
+| Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
 
 ---
 

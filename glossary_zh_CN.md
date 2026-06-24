@@ -75,6 +75,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | 质检 | `art_lblQAForm` (QA Form) | Seeded from pack |
 | QC | Quality Control | 质控 | `ko_succ_q` | Verify against pack |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` (CBTs) | Kept in English |
+| Prompt | A prompt for an AI model to perform QA | 提示词 | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
 
 ---
 

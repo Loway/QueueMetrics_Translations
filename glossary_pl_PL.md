@@ -76,6 +76,7 @@ formats, standards).
 | QA | Quality Assurance (grading / scorecards) | Formularz QA | `art_lblQAForm` (QA Form) | Seeded from pack (marked as alien) |
 | QC | Quality Control | Pomyślne.K. | `ko_succ_q` | Uncertain; see Doubts section |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` (CBTs) | Kept in English (marked as alien in pack) |
+| Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
 
 ---
 

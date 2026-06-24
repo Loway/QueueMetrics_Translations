@@ -53,6 +53,8 @@ translating that language's label files. This is the source of truth for term
 consistency; when a glossary entry conflicts with an ad-hoc choice, follow the
 glossary.
 
+When you are told that the Glossary file was updated, look at the git history of the English version, then apply the same change to each language. If the corresponding label does not exists, decide one.
+
 ## File format
 
 Translatable entries live inside indented code blocks, one per line:
