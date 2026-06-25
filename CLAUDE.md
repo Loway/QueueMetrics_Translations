@@ -122,19 +122,65 @@ Output one translated line per input line:
 
 ### Complete missing translations for a language
 
-1. In the target language file, find untranslated items — lines whose value is empty
-   (`key=` with nothing after the `=`; in practice `    ➡️ key=`).
-2. Look up the same key in the corresponding English file (`*_en_US.md`) to get the
-   source text. The reference text is also shown on the preceding `# ... -> English`
-   comment line.
-3. Translate it and fill the value **in place**: keep the `# ...` comment line and the
-   `➡️` arrow as they are, and just insert the translation after the `=`, using `=?` to
-   mark it as an AI translation:
+Use [find_missing.py](find_missing.py) to drive the work, then translate in place.
+
+1. **Build the worklist with the script.** A missing item is an `➡️ key=` line with an
+   empty value; the script finds them for you (see "Finding missing entries" below):
+
+   ```
+   python3 find_missing.py            # which locales still need work (+ counts)
+   python3 find_missing.py <locale>   # the detail of every missing entry for one locale
+   ```
+
+   The per-locale output gives, for each entry, its line number, the `# ... -> English`
+   reference comment, and the empty `➡️ key=` line — that list *is* the worklist.
+2. **Load the glossary first.** If `glossary_<locale>.md` exists, read it before writing
+   anything and note the agreed translation for every glossary term that appears in the
+   worklist. The glossary wins over any ad-hoc choice; reuse its renderings **exactly** so
+   terminology stays consistent across the pack.
+3. **Get the source text.** Normally the `# ... -> English` comment on the line above the
+   `➡️` is enough. When that reference is blank (e.g. `# 🔴 td_calloutc_? ->`), look the
+   key up in the corresponding English file (`*_en_US.md`). If English has no value either,
+   leave the entry and flag it rather than inventing one.
+4. **Translate in place, in batches.** Work top-to-bottom (grouping related `key_prefix_*`
+   entries). For each filled entry, follow the repo's convention for an AI-filled entry:
+   drop the `➡️` arrow, flip the reference comment from `🔴` to `👽`, and write
+   `key=?Translated text` (`=?` marks it as an AI translation). So this:
 
    ```
        # 🔴 key -> English text for reference
-       ➡️ key=?Translated text
+       ➡️ key=
    ```
+
+   becomes:
+
+   ```
+       # 👽 key -> English text for reference
+       key=?Translated text
+   ```
+
+   (No filled entry in the repo keeps the `➡️` arrow; the arrow + `🔴` are missing-only
+   scan aids.)
+
+   Hold to the translation rules throughout: never alter the key; preserve placeholders,
+   HTML tags and punctuation; keep abbreviations short where the English is abbreviated.
+   Prefer batches of ~20–30 entries so quality can be spot-checked as you go.
+5. **Verify with the script.** Re-run `python3 find_missing.py <locale>` after each batch:
+   the count must drop by exactly what you filled, and the locale should end at
+   "No missing entries … ✅", disappearing from the no-argument listing.
+
+#### Finding missing entries — `find_missing.py`
+
+A small helper (repo root, no dependencies) that scans both products' label files
+(`queuemetrics_*.md` and `WombatDialer/wombatdialer_*.md`), skipping `en_US`:
+
+- **No arguments** — lists every locale that has missing entries, most-missing first, with
+  per-product counts.
+- **`<locale>` argument** (e.g. `th_TH`) — prints the detail of each missing entry, grouped
+  by file, with line numbers and English reference comments.
+
+"Missing" means an `➡️` line whose value after `=` is empty, so an already-filled alien
+(`=?…`) entry is **not** reported.
 
 ### Create a glossary for a language
 

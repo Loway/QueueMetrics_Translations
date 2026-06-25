@@ -1253,8 +1253,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=اظهار قاعدة البيانات
     hdr_dbtest_ram_cache=اظهار الذاكرة العشوائية
     hdr_dbtest_smtp=فحص  SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?عرض السمات المؤقتة
     hdr_distrib=التوزيع
     hdr_distrib_day=يوم
     hdr_distrib_day_title=توزيع المكالمات حسب اليوم
@@ -1309,8 +1309,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=المهام
     hdr_tasks_rss=RSS أخبار
     hdr_tc=T&C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?خوادم النسخ النصي
     hdr_unanswered=غير مجابة
     hdr_unanswered_details=تفاصيل المكالمات غير المجابة
     hdr_unanswered_details_title=تفاصيل المكالمات غير المجابة 
@@ -1941,46 +1941,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=الاسم الحقيقي:
     edit_record_users_title=تفاصيل المستخدم
     edit_record_users_token=مأخوذة:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?وكيل
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?معرّف المهمة البعيدة
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?ملف الوسائط البعيد
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?الحالة
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?محجوز في
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?آخر ظهور
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?الاسم
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?برنامج التشغيل
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?أقصى عدد للقنوات
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?القنوات
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?الأولوية
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?البطاقات
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?تفاصيل خادم النسخ النصي
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?الرمز المميز
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?الوصف
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?المعلمات
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?الحالة
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?سليم
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?آخر فحص للسلامة
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?اتركه فارغًا لإنشاء مرجع تلقائيًا
     edit_reports_automatic=اعدادات التقارير الآلية
@@ -2009,10 +2009,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=تم اسنادها
     edit_ssar_reports_code=رمز الوكيل
     edit_ssar_reports_title=تقارير الخدمة الذاتية للوكيل للتقرير
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?تحرير خوادم النسخ النصي
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?الانتقال إلى العرض المباشر
     edit_users_class=مستوى
     edit_users_email=E-mail
     edit_users_enabled=تم تفعيلها
@@ -2021,22 +2021,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=الاسم الحقيقي
     edit_users_title=مستخدم نظام
     edit_users_user_keys=مفاتيح المستخدم
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?مقفل
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?موجّه
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?الأقسام
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?ظهور الصف
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?ضمان الجودة الآلي
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?موجّه الذكاء الاصطناعي:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?الصفوف لضمان الجودة الآلي:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?قائمة بالصفوف مفصولة بخط عمودي (|) ينطبق عليها هذا.
 
 ## Quality Assessments
 
@@ -2529,8 +2529,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=اذهب
     rt3_gohome=الرئيسي
     rt3_goto_login=اذهب لتسجيل الدخول
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?الانتقال إلى العرض
     rt3_green=اخضر
     rt3_hangup=اغلاق
     rt3_hold=انتظار
@@ -3000,10 +3000,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?سياسة إخفاء الأرقام
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?شعار شركتك (مسار كامل أو نسبي). أقصى حجم 200 × 40 بكسل، الحجم المفضل هو 150 × 40 بكسل
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?يحدد أقصى وقت إجمالي مسموح به لعملية تجميع ICE. إذا تم الضبط على 0، يتم تعطيل التحسين.
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?مدة المهلة المرنة التي يتم تشغيلها بعد اكتشاف مرشح STUN/TURN قابل للتوجيه.
     propedit_key_noans_timeout=الوقت بالثواني بعد أي مكالمة يتم رفضها في حال عدم الرد، الافتراضي ٦٠ ثانية
     propedit_key_phone_iceservers=لائحة مخدمات ICEs المتاحة للاستخدام
     propedit_key_phone_maxsessions=أقصى عدد جلسات للهاتف المتضمن للوكيل
@@ -3207,8 +3207,8 @@ Description of security keys:
     keydesc_qa_track=يمكن للمستخدم ادخال بيانات تقرير ضمان الجودة
     keydesc_qlog_edit=يمكن للمستخدم تعديل مدخلات سجل الصف
     keydesc_qlog_lngr=يمكن للمستخدم تعديل جلسات العمل بجعلها أطول
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?يمكن للمستخدمين تسجيل الدخول فقط إلى الصفوف المخصصة لهم
     keydesc_queue_lst=يسمح بالوصول المباشر لقائمة المكالمة (تخطي صفحة التقارير)
     keydesc_robot=يمكن للمستخدم اطلاق اجراءات روبوتية
     keydesc_rt_addmember=يمكن للمستخدم اضافة وكيل لص من خلال صفحة الزمن الحقيقي
@@ -3264,10 +3264,10 @@ Description of security keys:
     keydesc_wallboard_forall=المستخدم يستطيع حفظ لوحة تحكم عامة
     keydesc_wallboard_phone=المستخدم يستطيع استخدام الهاتف المدمج في الشاشة
     keydesc_wqloader=المستخدم يستطيع رفع السجلات عبر HTTP
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?يمكن للمستخدمين القراءة من جدول البيانات المؤقتة
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?يمكن للمستخدمين الكتابة في جدول البيانات المؤقتة
 
 ## Tasks/Memos
 
@@ -3520,14 +3520,14 @@ Description of security keys:
     home_configuration_subtitle=تعديل مواضيع اعدادات كيوميتركس
     home_configuration_tags=اشارات المكالمة
     home_configuration_title=الاعدادات
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?خوادم النسخ النصي
     home_configuration_users=مستخدمين
     home_dbtest_ami=AMI Tester
     home_dbtest_ami_queue=AMI Commands
     home_dbtest_configuration=اظهار الاعدادات
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?مفتش السمات المؤقتة
     home_dbtest_db_inspector=مفتش قاعدة البيانات
     home_dbtest_ram_cache=تخزين مؤقت في ذاكرة التخزين العشوائية
     home_dbtest_smtp=SMTP فاحص
@@ -3580,10 +3580,10 @@ Description of security keys:
     home_sysadmin_subtitle=أدوات مفيدة لمدير النظام
     home_sysadmin_title=إدارة النظام
     home_throwaway_report=اصدار تقرير سريع
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?عمليات النسخ المباشرة
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?عرض عمليات النسخ المباشرة
     home_unexpected_server_error=ظهر خطأ غير متوقع
     home_wallboards_subtitle=شاشة قابلة للتعديل لعرض المعلومات المباشرة
     home_wallboards_title=شاشة معلومات
@@ -3700,34 +3700,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?إضافة سمة
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?إجراء
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?وكيل
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?سيؤدي هذا إلى حذف هذه السمة
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?اسم السمة مطلوب
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?منتهية الصلاحية
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?تنتهي في
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?اسم السمة
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?صف
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?صلاحية السمة (ث.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?القيمة
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?تحديث كل (ث.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?البحث عن
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?يجب أن يكون وقت الصلاحية رقمًا أكبر من 0
 
 
 ## Misc
@@ -4239,8 +4239,8 @@ Other items
     qagrader_outcome=مخرجات
     qagrader_queue=صف
     qagrader_supervisor=مشرف
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?الموقع
     qagrader_talk=تحدث
     qagrader_time=مرة
     qagrader_wait=انتظر
@@ -4741,100 +4741,100 @@ Other items
     qap_welcome=?مرحبًا بك مرة أخرى!
     # 👽 qap_you_have -> You have
     qap_you_have=?لديك
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?الحالة الموسّعة
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?الرقم المطلوب
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?محاولة
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?محاولات إعادة الاتصال
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?سجل المكالمات
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?اتصال
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?تمت إضافة الحالة الموسّعة بنجاح
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?الرقم المراد طلبه
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?تمت إضافة السمة بنجاح
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?حجز
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?تم طلب إعادة المحاولة
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?تخطّي الوكيل
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?الرقم في القائمة السوداء
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?الخط مشغول
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?خطأ تقني
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?مكالمة مفقودة
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?انتهت مهلة الوكيل
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?لا يوجد رد
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?رقم غير صالح
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?رفض الشبكة
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?اكتملت المكالمة
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?أقصى مدة
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?تخطّي
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?تحديث
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?يجب تحديد حالة موسّعة
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?حدث خطأ في WombatDialer
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?الوكيل غير متاح
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?تم الطلب
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?تم التخطّي
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?لا توجد مكالمة متاحة للحجز
+    # 👽 qap_agent -> Agent
+    qap_agent=?وكيل
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?لا يوجد مثل هذا المعرّف
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?المعرّف موجود لكن المكالمة في حالة خاطئة
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?لا يمكن أن يحتوي اسم السمة على الحرف '.'
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?مؤقت - نص
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?مؤقت - وقت
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?المكالمات القابلة للحجز
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?المكالمات غير المكتملة
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?مؤقت - قيمة
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?إحصائيات الحملة
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?المحاولات المتبقية
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?سمة مؤقتة
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?وضع العرض المرئي
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?أقصى قيمة
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?بصيغة markdown
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?عادي
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?نسبة مئوية
     qatarget_agentgroup=مجموعة وكيل
     qatarget_allcalls=جميع المكالمات
     qatarget_individual_agents=وكيل
@@ -4985,8 +4985,8 @@ Other items
     reports_edit_page_complete=تأكيد التغييرات
     reports_edit_report=تعديل التقرير
     reports_editingkey=تعديل المفتاح
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?الرجاء إدخال عناوين بريد إلكتروني صالحة
     reports_enter_title=أدخل عنوان التقرير الجديد
     reports_export_email_body=نتائج كيوميتركس عن تصدير التقرير المسمى
     reports_export_email_subject=[كيوميتركس] تقرير
@@ -5304,16 +5304,16 @@ Other items
     reports_trash=اسحب إلى هنا للحذف
     reports_unsaved=غير محفوظ
     reports_visibilitykey=مفتاح الرؤية
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?حفظ الملاحظة
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?تقييم بدون تسجيل نقاط
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?قائمة الصفحات
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?حذف عامل التصفية
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?تحرير عامل التصفية
     rt_active_queues=تظهر طوابير النشطة
     rt_addmember=إضافة الأعضاء
     rt_agent_nbsp=وكيل
@@ -5597,8 +5597,8 @@ Other items
     sync2_create_users=تفعيل انشاء مستخدمين
     sync2_delete=تفعيل حذف أفعال
     sync2_delete_agents_confirm=هل أنت متأكد من انك تريد حذف كل الوكلاء؟
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?حذف المجموعة العنقودية
     sync2_delete_queues_confirm=هل أنت متأكد من انك تريد حذف كل الصفوف؟
     # 👽 sync2_delete_selected -> Delete
     sync2_delete_selected=?حذف
@@ -5674,8 +5674,8 @@ Other items
     timeline_debug=?تنزيل معلومات التصحيح
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?تنزيل التسجيل
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?تنزيل الملف
     # 👽 timeline_event -> Event
     timeline_event=?حدث
     # 👽 timeline_events -> Timeline Events
@@ -5710,8 +5710,8 @@ Other items
     timeline_min=?الحد الأدنى
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?لا توجد تسجيلات
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?لا توجد محادثات متاحة
     # 👽 timeline_number -> Number
     timeline_number=?الرقم
     # 👽 timeline_stint_end -> Stint End
@@ -5724,8 +5724,8 @@ Other items
     timeline_tab_qa=?ضمان الجودة/التسجيلات
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?التسجيلات
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?المحادثات
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?إجمالي المدة
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

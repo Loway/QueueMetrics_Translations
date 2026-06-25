@@ -1457,8 +1457,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_ram_cache=?View Cache
     # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?Test SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?ดูแอตทริบิวต์ชั่วคราว
     hdr_distrib=การกระจายสาย
     hdr_distrib_day=รายวัน
     hdr_distrib_day_title=การกระจายสาย แยกตามรายวัน
@@ -1518,8 +1518,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=Tasks
     hdr_tasks_rss=RSS Feed
     hdr_tc=T&C
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?เซิร์ฟเวอร์ถอดเสียง
     hdr_unanswered=สายที่ไม่ได้รับ
     hdr_unanswered_details=รายละเอียดสายที่ไม่ได้รับ
     hdr_unanswered_details_title=รายละเอียดสายที่ไม่ได้รับ
@@ -2417,46 +2417,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=?รายละเอียดผู้ใช้
     # 👽 edit_record_users_token -> Token:
     edit_record_users_token=?โทเค็น:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?ตัวแทน
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?ID งานระยะไกล
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?ไฟล์มีเดียระยะไกล
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?สถานะ
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?สำรองเมื่อ
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?เห็นล่าสุด
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?ชื่อ
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?ไดรเวอร์
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?ช่องสัญญาณสูงสุด
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?ช่องสัญญาณ
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?ลำดับความสำคัญ
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?Tags
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?รายละเอียดเซิร์ฟเวอร์ถอดเสียง
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?โทเค็น
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?คำอธิบาย
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?พารามิเตอร์
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?สถานะ
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?ปกติ
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?การตรวจสุขภาพล่าสุด
     # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?เว้นว่างไว้เพื่อสร้างการอ้างอิงโดยอัตโนมัติ
     # 👽 edit_reports_automatic -> Automatic report configuration
@@ -2509,10 +2509,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_code=?รหัสตัวแทน
     # 👽 edit_ssar_reports_title -> Self-service agents reporting for report:
     edit_ssar_reports_title=?รายงานตัวแทนบริการตนเองสำหรับรายงาน:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?แก้ไขเซิร์ฟเวอร์ถอดเสียง
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?ไปที่มุมมองสด
     # 👽 edit_users_class -> Class
     edit_users_class=?ระดับ
     # 👽 edit_users_email -> Email
@@ -2528,22 +2528,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_title=บัญชีผู้ใช้งาน
     # 👽 edit_users_user_keys -> User Keys
     edit_users_user_keys=?รหัสผู้ใช้
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?ล็อก
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?ส่วนต่างๆ
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?การมองเห็นคิว
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?QA อัตโนมัติ
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?Prompt ของ AI:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?คิวสำหรับ QA อัตโนมัติ:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?รายการคิวที่คั่นด้วยเครื่องหมายไปป์ (|) ที่ใช้กับสิ่งนี้
 
 ## Quality Assessments
 
@@ -3412,8 +3412,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_gohome=หน้าหลัก
     # 👽 rt3_goto_login -> Go to Login
     rt3_goto_login=?ไปที่การเข้าสู่ระบบ
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?ไปที่มุมมอง
     rt3_green=เขียว
     # 👽 rt3_hangup -> Hangup
     rt3_hangup=?วางสาย
@@ -4165,10 +4165,10 @@ Description of configuration properties
     propedit_key_hiddennumberpolicy=?นโยบายสำหรับการซ่อนหมายเลข
     # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?โลโก้บริษัทของคุณ (พาธแบบเต็มหรือแบบสัมพัทธ์) ขนาดสูงสุด 200 x 40 px ขนาดที่แนะนำคือ 150 x 40 px
-    # 🔴 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
-    ➡️ propedit_key_maxGatheringTime=
-    # 🔴 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
-    ➡️ propedit_key_maxPostGatheringTime=
+    # 👽 propedit_key_maxGatheringTime -> Sets the maximum total time allowed for the ICE gathering process. If set to 0 the optimization is disabled.
+    propedit_key_maxGatheringTime=?กำหนดเวลารวมสูงสุดที่อนุญาตสำหรับกระบวนการรวบรวม ICE หากตั้งเป็น 0 การปรับให้เหมาะสมจะถูกปิดใช้งาน
+    # 👽 propedit_key_maxPostGatheringTime -> The duration of the soft timeout triggered after a routable STUN/TURN candidate is detected.
+    propedit_key_maxPostGatheringTime=?ระยะเวลาของการหมดเวลาแบบนุ่มที่ทำงานหลังจากตรวจพบผู้สมัคร STUN/TURN ที่กำหนดเส้นทางได้
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?เวลา (เป็นวินาที) หลังจากที่สายเรียกเข้าถูกปฏิเสธหากไม่มีผู้รับ ค่าเริ่มต้นคือ 60
     # 👽 propedit_key_phone_iceservers -> List of ICE Servers to use.
@@ -4548,8 +4548,8 @@ Description of security keys:
     keydesc_qlog_edit=?ผู้ใช้สามารถแก้ไขระเบียน queue_log ได้
     # 👽 keydesc_qlog_lngr -> User can edit session data by making it longer
     keydesc_qlog_lngr=?ผู้ใช้สามารถแก้ไขข้อมูลเซสชันโดยทำให้ยาวขึ้นได้
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?ผู้ใช้สามารถเข้าสู่ระบบได้เฉพาะคิวที่ได้รับมอบหมายเท่านั้น
     # 👽 keydesc_queue_lst -> Allows direct access to the call list (skipping the Reports page)
     keydesc_queue_lst=?อนุญาตให้เข้าถึงรายการโทรโดยตรง (ข้ามหน้า Reports)
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
@@ -4652,10 +4652,10 @@ Description of security keys:
     keydesc_wallboard_phone=?ผู้ใช้สามารถใช้ softphone wallboard ได้
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?ผู้ใช้สามารถอัปโหลดบันทึกผ่าน HTTP ได้
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?ผู้ใช้สามารถอ่านจากตารางข้อมูลชั่วคราวได้
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?ผู้ใช้สามารถเขียนลงในตารางข้อมูลชั่วคราวได้
 
 ## Tasks/Memos
 
@@ -5050,8 +5050,8 @@ Description of security keys:
     home_configuration_tags=?แท็กการโทร
     # 👽 home_configuration_title -> Configuration
     home_configuration_title=?การกำหนดค่า
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?เซิร์ฟเวอร์ถอดเสียง
     # 👽 home_configuration_users -> Users
     home_configuration_users=?ผู้ใช้
     # 👽 home_dbtest_ami -> AMI tester
@@ -5060,8 +5060,8 @@ Description of security keys:
     home_dbtest_ami_queue=?คำสั่ง AMI
     # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?ดูการกำหนดค่า
-    # 🔴 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
-    ➡️ home_dbtest_ephemeral_attribute_inspector=
+    # 👽 home_dbtest_ephemeral_attribute_inspector -> Ephemeral Att. Inspector
+    home_dbtest_ephemeral_attribute_inspector=?ตัวตรวจสอบแอตทริบิวต์ชั่วคราว
     # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?เครื่องมือตรวจสอบฐานข้อมูล
     # 👽 home_dbtest_ram_cache -> RAM caching
@@ -5150,10 +5150,10 @@ Description of security keys:
     home_sysadmin_title=?การดูแลระบบ
     # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?สร้างรายงานทิ้ง
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?การถอดเสียงสด
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?มุมมองการถอดเสียงสด
     # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?เกิดข้อผิดพลาดที่ไม่คาดคิดของเซิร์ฟเวอร์
     # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
@@ -5273,34 +5273,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?เพิ่มแอตทริบิวต์
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?การกระทำ
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?ตัวแทน
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?การดำเนินการนี้จะลบแอตทริบิวต์นี้
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?ต้องระบุชื่อแอตทริบิวต์
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?หมดอายุ
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?หมดอายุเมื่อ
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?ชื่อแอตทริบิวต์
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?คิว
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?อายุของแอตทริบิวต์ (วิ.)
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?ค่า
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?รีเฟรชทุก (วิ.)
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?ค้นหา
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?เวลาที่ใช้ได้ต้องเป็นตัวเลขที่มากกว่า 0
 
 
 ## Misc
@@ -5980,8 +5980,8 @@ Other items
     qagrader_queue=?คิว
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?หัวหน้างาน
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?ตำแหน่ง
     # 👽 qagrader_talk -> Talk
     qagrader_talk=?พูดคุย
     # 👽 qagrader_time -> Time
@@ -6486,100 +6486,100 @@ Other items
     qap_welcome=?ยินดีต้อนรับกลับ!
     # 👽 qap_you_have -> You have
     qap_you_have=?คุณมี
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?สถานะเพิ่มเติม
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?หมายเลขที่โทร
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?ความพยายาม
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?ความพยายามโทรซ้ำ
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?ประวัติการโทร
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?โทร
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?เพิ่มสถานะเพิ่มเติมสำเร็จ
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?หมายเลขที่จะโทร
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?เพิ่มแอตทริบิวต์สำเร็จ
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?สำรอง
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?ขอให้ลองใหม่
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?ตัวแทนข้าม
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?หมายเลขอยู่ในบัญชีดำ
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?สายไม่ว่าง
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?ข้อผิดพลาดทางเทคนิค
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?สายหลุด
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?ตัวแทนหมดเวลา
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?ไม่มีคนรับสาย
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?หมายเลขไม่ถูกต้อง
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?เครือข่ายปฏิเสธ
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?สายเสร็จสมบูรณ์
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?ระยะเวลาสูงสุด
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?ข้าม
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?อัปเดต
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?ต้องเลือกสถานะเพิ่มเติม
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?เกิดข้อผิดพลาดใน WombatDialer
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?ตัวแทนไม่พร้อมใช้งาน
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?โทรแล้ว
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?ข้ามแล้ว
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?ไม่มีสายที่พร้อมสำหรับการสำรอง
+    # 👽 qap_agent -> Agent
+    qap_agent=?ตัวแทน
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?ไม่มี ID ดังกล่าว
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?ID มีอยู่แต่สายอยู่ในสถานะที่ไม่ถูกต้อง
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?ชื่อแอตทริบิวต์ไม่สามารถมีอักขระ '.' ได้
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?ชั่วคราว - ข้อความ
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?ชั่วคราว - เวลา
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?สายที่สำรองได้
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?สายที่ไม่สมบูรณ์
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?ชั่วคราว - ค่า
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?สถิติแคมเปญ
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?ความพยายามที่เหลือ
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?แอตทริบิวต์ชั่วคราว
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?โหมดการแสดงผล
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?ค่าสูงสุด
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?เป็น markdown
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?ปกติ
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?เปอร์เซ็นต์
     # 👽 qatarget_agentgroup -> Agent Group
     qatarget_agentgroup=?กลุ่มตัวแทน
     # 👽 qatarget_allcalls -> All calls
@@ -6808,8 +6808,8 @@ Other items
     reports_edit_report=?แก้ไขรายงาน
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?แก้ไขคีย์
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?โปรดป้อนที่อยู่อีเมลที่ถูกต้อง
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?ป้อนชื่อรายงานใหม่
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -7278,16 +7278,16 @@ Other items
     reports_unsaved=?ไม่ได้บันทึก
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?คีย์การมองเห็น
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?บันทึกหมายเหตุ
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?การประเมินแบบไม่ให้คะแนน
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?รายการหน้า
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?ลบตัวกรอง
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?แก้ไขตัวกรอง
     # 👽 rt_active_queues -> Show active queues
     rt_active_queues=?แสดงคิวที่ใช้งานอยู่
     rt_addmember=เพิ่ม agent
@@ -7725,8 +7725,8 @@ Other items
     sync2_delete=?เปิดใช้งานการดำเนินการลบ
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?คุณแน่ใจหรือไม่ว่าต้องการลบตัวแทนทั้งหมด
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?ลบคลัสเตอร์
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?คุณแน่ใจหรือไม่ว่าต้องการลบคิวทั้งหมด
     # 👽 sync2_delete_selected -> Delete
@@ -7855,8 +7855,8 @@ Other items
     timeline_debug=?ดาวน์โหลดข้อมูลแก้ไขข้อผิดพลาด
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?ดาวน์โหลดการบันทึก
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?ดาวน์โหลดไฟล์
     # 👽 timeline_event -> Event
     timeline_event=?เหตุการณ์
     # 👽 timeline_events -> Timeline Events
@@ -7891,8 +7891,8 @@ Other items
     timeline_min=?ต่ำสุด
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?ไม่มีการบันทึก
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?ไม่มีแชทที่ใช้ได้
     # 👽 timeline_number -> Number
     timeline_number=?หมายเลข
     # 👽 timeline_stint_end -> Stint End
@@ -7905,8 +7905,8 @@ Other items
     timeline_tab_qa=?QA/การบันทึก
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?การบันทึก
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?แชท
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?รวมระยะเวลา
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

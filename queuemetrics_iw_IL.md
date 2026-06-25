@@ -1166,8 +1166,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_dbtest_db_inspector=הצג בסיס נתונים
     hdr_dbtest_ram_cache=הצג מטמון
     hdr_dbtest_smtp=בדיקת SMTP
-    # 🔴 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
-    ➡️ hdr_dbtest_ephemeral_attribute_inspector=
+    # 👽 hdr_dbtest_ephemeral_attribute_inspector -> View Ephemeral Attrs
+    hdr_dbtest_ephemeral_attribute_inspector=?הצג מאפיינים זמניים
     hdr_distrib=הפצה
     hdr_distrib_day=יום
     hdr_distrib_day_title=הפצת שיחות לפי יום
@@ -1217,8 +1217,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_tasks=משימות
     hdr_tasks_rss=הזנת RSS
     hdr_tc=תנאים והתניות
-    # 🔴 hdr_transcription_servers -> Transcription Servers
-    ➡️ hdr_transcription_servers=
+    # 👽 hdr_transcription_servers -> Transcription Servers
+    hdr_transcription_servers=?שרתי תמלול
     hdr_unanswered=לא נענו
     hdr_unanswered_details=פ.ל.נ.
     hdr_unanswered_details_title=פרטי שיחות שלא נענו
@@ -1739,46 +1739,46 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=שם מלא:
     edit_record_users_title=פרטי משתמש
     edit_record_users_token=אסימון:
-    # 🔴 edit_record_transcription_channel_agent -> Agent
-    ➡️ edit_record_transcription_channel_agent=
-    # 🔴 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    ➡️ edit_record_transcription_channel_remote_job_id=
-    # 🔴 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    ➡️ edit_record_transcription_channel_remote_media_file=
-    # 🔴 edit_record_transcription_channel_state -> State
-    ➡️ edit_record_transcription_channel_state=
-    # 🔴 edit_record_transcription_channel_reserverd_at -> Reserved At
-    ➡️ edit_record_transcription_channel_reserverd_at=
-    # 🔴 edit_record_transcription_channel_last_seen -> Last Seen
-    ➡️ edit_record_transcription_channel_last_seen=
-    # 🔴 edit_record_transcription_server_name -> Name
-    ➡️ edit_record_transcription_server_name=
-    # 🔴 edit_record_transcription_server_driver -> Driver
-    ➡️ edit_record_transcription_server_driver=
-    # 🔴 edit_record_transcription_server_max_channels -> Max Channels
-    ➡️ edit_record_transcription_server_max_channels=
-    # 🔴 edit_record_transcription_server_channels -> Channels
-    ➡️ edit_record_transcription_server_channels=
-    # 🔴 edit_record_transcription_server_priority -> Priority
-    ➡️ edit_record_transcription_server_priority=
-    # 🔴 edit_record_transcription_server_tags -> Tags
-    ➡️ edit_record_transcription_server_tags=
-    # 🔴 edit_record_transcription_server_title -> Transcription Server Detail
-    ➡️ edit_record_transcription_server_title=
-    # 🔴 edit_record_transcription_server_url -> URL
-    ➡️ edit_record_transcription_server_url=
-    # 🔴 edit_record_transcription_server_auth_token -> Token
-    ➡️ edit_record_transcription_server_auth_token=
-    # 🔴 edit_record_transcription_server_description -> Description
-    ➡️ edit_record_transcription_server_description=
-    # 🔴 edit_record_transcription_server_driver_parms -> Parameters
-    ➡️ edit_record_transcription_server_driver_parms=
-    # 🔴 edit_record_transcription_server_status -> Status
-    ➡️ edit_record_transcription_server_status=
-    # 🔴 edit_record_transcription_server_healthy -> Healthy
-    ➡️ edit_record_transcription_server_healthy=
-    # 🔴 edit_record_transcription_server_last_health -> Last Health Check
-    ➡️ edit_record_transcription_server_last_health=
+    # 👽 edit_record_transcription_channel_agent -> Agent
+    edit_record_transcription_channel_agent=?נציג
+    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
+    edit_record_transcription_channel_remote_job_id=?מזהה משימה מרוחקת
+    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
+    edit_record_transcription_channel_remote_media_file=?קובץ מדיה מרוחק
+    # 👽 edit_record_transcription_channel_state -> State
+    edit_record_transcription_channel_state=?מצב
+    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
+    edit_record_transcription_channel_reserverd_at=?שוריין בתאריך
+    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
+    edit_record_transcription_channel_last_seen=?נראה לאחרונה
+    # 👽 edit_record_transcription_server_name -> Name
+    edit_record_transcription_server_name=?שם
+    # 👽 edit_record_transcription_server_driver -> Driver
+    edit_record_transcription_server_driver=?דרייבר
+    # 👽 edit_record_transcription_server_max_channels -> Max Channels
+    edit_record_transcription_server_max_channels=?מקס' ערוצים
+    # 👽 edit_record_transcription_server_channels -> Channels
+    edit_record_transcription_server_channels=?ערוצים
+    # 👽 edit_record_transcription_server_priority -> Priority
+    edit_record_transcription_server_priority=?עדיפות
+    # 👽 edit_record_transcription_server_tags -> Tags
+    edit_record_transcription_server_tags=?תגיות
+    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
+    edit_record_transcription_server_title=?פרטי שרת תמלול
+    # 👽 edit_record_transcription_server_url -> URL
+    edit_record_transcription_server_url=?URL
+    # 👽 edit_record_transcription_server_auth_token -> Token
+    edit_record_transcription_server_auth_token=?טוקן
+    # 👽 edit_record_transcription_server_description -> Description
+    edit_record_transcription_server_description=?תיאור
+    # 👽 edit_record_transcription_server_driver_parms -> Parameters
+    edit_record_transcription_server_driver_parms=?פרמטרים
+    # 👽 edit_record_transcription_server_status -> Status
+    edit_record_transcription_server_status=?סטטוס
+    # 👽 edit_record_transcription_server_healthy -> Healthy
+    edit_record_transcription_server_healthy=?תקין
+    # 👽 edit_record_transcription_server_last_health -> Last Health Check
+    edit_record_transcription_server_last_health=?בדיקת תקינות אחרונה
     edit_record_xref_blank=השאר ריק ליצירת הפניה אוטומטית
     edit_reports_automatic=תצורת דוח אוטומטית
     edit_reports_desc=תיאור
@@ -1806,10 +1806,10 @@ Used for data blocks Overview by Agent/Queue
     edit_ssar_reports_assigned=שויכו
     edit_ssar_reports_code=קוד נציג
     edit_ssar_reports_title=דו"חות נציגים בשירות עצמי לדוח:
-    # 🔴 edit_transcription_servers_title -> Edit Transcription Servers
-    ➡️ edit_transcription_servers_title=
-    # 🔴 edit_transcription_go_live_status -> Go to live view
-    ➡️ edit_transcription_go_live_status=
+    # 👽 edit_transcription_servers_title -> Edit Transcription Servers
+    edit_transcription_servers_title=?עריכת שרתי תמלול
+    # 👽 edit_transcription_go_live_status -> Go to live view
+    edit_transcription_go_live_status=?מעבר לתצוגה חיה
     edit_users_class=סיווג
     edit_users_email=דוא"ל
     edit_users_enabled=מופעל
@@ -1818,22 +1818,22 @@ Used for data blocks Overview by Agent/Queue
     edit_users_real_name=שם מלא
     edit_users_title=משתמשי מערכת
     edit_users_user_keys=מפתחות משתמש
-    # 🔴 edit_qa_locked -> Locked
-    ➡️ edit_qa_locked=
-    # 🔴 edit_qa_prompt -> Prompt
-    ➡️ edit_qa_prompt=
-    # 🔴 edit_qa_sections -> Sections
-    ➡️ edit_qa_sections=
-    # 🔴 edit_qa_visibility -> Queue visibility
-    ➡️ edit_qa_visibility=
-    # 🔴 edit_record_qa_ai -> Automated QA
-    ➡️ edit_record_qa_ai=
-    # 🔴 edit_record_qa_aiprompt -> AI prompt:
-    ➡️ edit_record_qa_aiprompt=
-    # 🔴 edit_record_qa_aiqueues -> Queues for automated QA:
-    ➡️ edit_record_qa_aiqueues=
-    # 🔴 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
-    ➡️ edit_record_qa_aiqueues_hint=
+    # 👽 edit_qa_locked -> Locked
+    edit_qa_locked=?נעול
+    # 👽 edit_qa_prompt -> Prompt
+    edit_qa_prompt=?Prompt
+    # 👽 edit_qa_sections -> Sections
+    edit_qa_sections=?מקטעים
+    # 👽 edit_qa_visibility -> Queue visibility
+    edit_qa_visibility=?נראות תור
+    # 👽 edit_record_qa_ai -> Automated QA
+    edit_record_qa_ai=?QA אוטומטי
+    # 👽 edit_record_qa_aiprompt -> AI prompt:
+    edit_record_qa_aiprompt=?Prompt של AI:
+    # 👽 edit_record_qa_aiqueues -> Queues for automated QA:
+    edit_record_qa_aiqueues=?תורים ל-QA אוטומטי:
+    # 👽 edit_record_qa_aiqueues_hint -> Pipe-separated list of queues this applies to.    
+    edit_record_qa_aiqueues_hint=?רשימת תורים מופרדת בקו אנכי (|) שעליהם זה חל.
 
 ## Quality Assessments
 
@@ -2578,8 +2578,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_go=המשך
     rt3_gohome=דף הבית
     rt3_goto_login=עבור להתחברות
-    # 🔴 rt3_goto_view -> Go to View
-    ➡️ rt3_goto_view=
+    # 👽 rt3_goto_view -> Go to View
+    rt3_goto_view=?מעבר לתצוגה
     rt3_green=ירוק
     rt3_hangup=נתק
     rt3_hold=המתן
@@ -3272,8 +3272,8 @@ Description of security keys:
     keydesc_qlog_edit=?משתמש יכול לערוך את רשומות queue_log
     # 👽 keydesc_qlog_lngr -> User can edit session data by making it longer
     keydesc_qlog_lngr=?משתמש יכול לערוך נתוני הפעלה על ידי הארכתם
-    # 🔴 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
-    ➡️ keydesc_queue_login_assigned_only=
+    # 👽 keydesc_queue_login_assigned_only -> Users can only login to their assigned queues
+    keydesc_queue_login_assigned_only=?משתמשים יכולים להתחבר רק לתורים שהוקצו להם
     # 👽 keydesc_queue_lst -> Allows direct access to the call list (skipping the Reports page)
     keydesc_queue_lst=?מאפשר גישה ישירה לרשימת השיחות (בדילוג על דף הדוחות)
     # 👽 keydesc_robot -> User may launch ROBOT transactions.
@@ -3375,10 +3375,10 @@ Description of security keys:
     keydesc_wallboard_phone=משתמש יכול להשתמש בסופטפון (טלפון תוכנה) של לוח המחוונים
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?המשתמש יכול להעלות יומנים דרך HTTP
-    # 🔴 keydesc_ephemeral_read -> Users can read from the ephemeral data table
-    ➡️ keydesc_ephemeral_read=
-    # 🔴 keydesc_ephemeral_write -> Users can write to the ephemeral data table
-    ➡️ keydesc_ephemeral_write=
+    # 👽 keydesc_ephemeral_read -> Users can read from the ephemeral data table
+    keydesc_ephemeral_read=?משתמשים יכולים לקרוא מטבלת הנתונים הזמניים
+    # 👽 keydesc_ephemeral_write -> Users can write to the ephemeral data table
+    keydesc_ephemeral_write=?משתמשים יכולים לכתוב לטבלת הנתונים הזמניים
 
 ## Tasks/Memos
 
@@ -3657,8 +3657,8 @@ Description of security keys:
     home_configuration_subtitle=ערוך אובייקטי תצורה של QueueMetrics
     home_configuration_tags=תגיות שיחה
     home_configuration_title=תצורה
-    # 🔴 home_configuration_transcription_servers -> Transcription Servers
-    ➡️ home_configuration_transcription_servers=
+    # 👽 home_configuration_transcription_servers -> Transcription Servers
+    home_configuration_transcription_servers=?שרתי תמלול
     home_configuration_users=משתמשים
     home_dbtest_ami=בודק AMI
     home_dbtest_ami_queue=פקודות AMI
@@ -3708,10 +3708,10 @@ Description of security keys:
     home_sysadmin_subtitle=כלים שימושיים למנהלי מערכת
     home_sysadmin_title=ניהול מערכת
     home_throwaway_report=צור דו"ח חד-פעמי
-    # 🔴 home_transcription_title -> Live Transcriptions
-    ➡️ home_transcription_title=
-    # 🔴 home_transcription_subtitle -> View of Live Transcriptions
-    ➡️ home_transcription_subtitle=
+    # 👽 home_transcription_title -> Live Transcriptions
+    home_transcription_title=?תמלולים חיים
+    # 👽 home_transcription_subtitle -> View of Live Transcriptions
+    home_transcription_subtitle=?תצוגת תמלולים חיים
     home_unexpected_server_error=אירעה שגיאת שרת בלתי צפויה
     home_wallboards_subtitle=וולבורדים ניתנים להתאמה אישית לנתוני זמן אמת
     home_wallboards_title=וולבורדים
@@ -3828,34 +3828,34 @@ These are obsolete:
 
 ### Viewer of ephemeral attributes
 
-    # 🔴 ephatt_add_attribute_btn -> Add Attribute
-    ➡️ ephatt_add_attribute_btn=
-    # 🔴 ephatt_attribute_action -> Action
-    ➡️ ephatt_attribute_action=
-    # 🔴 ephatt_attribute_agent -> Agent
-    ➡️ ephatt_attribute_agent=
-    # 🔴 ephatt_attribute_confirm_delete -> This will delete this attribute
-    ➡️ ephatt_attribute_confirm_delete=
-    # 🔴 ephatt_attribute_error -> Attribute name is required
-    ➡️ ephatt_attribute_error=
-    # 🔴 ephatt_attribute_expired -> Expired
-    ➡️ ephatt_attribute_expired=
-    # 🔴 ephatt_attribute_expiry -> Expires at
-    ➡️ ephatt_attribute_expiry=
-    # 🔴 ephatt_attribute_name -> Attribute name
-    ➡️ ephatt_attribute_name=
-    # 🔴 ephatt_attribute_queue -> Queue
-    ➡️ ephatt_attribute_queue=
-    # 🔴 ephatt_attribute_validity -> Attribute validity (sec.)
-    ➡️ ephatt_attribute_validity=
-    # 🔴 ephatt_attribute_value -> Value
-    ➡️ ephatt_attribute_value=
-    # 🔴 ephatt_qry_refresh -> Refresh every (sec.)
-    ➡️ ephatt_qry_refresh=
-    # 🔴 ephatt_qry_search -> Search for
-    ➡️ ephatt_qry_search=
-    # 🔴 ephatt_validity_error -> Validity time must be a number greater than 0
-    ➡️ ephatt_validity_error=
+    # 👽 ephatt_add_attribute_btn -> Add Attribute
+    ephatt_add_attribute_btn=?הוסף מאפיין
+    # 👽 ephatt_attribute_action -> Action
+    ephatt_attribute_action=?פעולה
+    # 👽 ephatt_attribute_agent -> Agent
+    ephatt_attribute_agent=?נציג
+    # 👽 ephatt_attribute_confirm_delete -> This will delete this attribute
+    ephatt_attribute_confirm_delete=?פעולה זו תמחק את המאפיין הזה
+    # 👽 ephatt_attribute_error -> Attribute name is required
+    ephatt_attribute_error=?נדרש שם מאפיין
+    # 👽 ephatt_attribute_expired -> Expired
+    ephatt_attribute_expired=?פג תוקף
+    # 👽 ephatt_attribute_expiry -> Expires at
+    ephatt_attribute_expiry=?פג בתאריך
+    # 👽 ephatt_attribute_name -> Attribute name
+    ephatt_attribute_name=?שם המאפיין
+    # 👽 ephatt_attribute_queue -> Queue
+    ephatt_attribute_queue=?תור
+    # 👽 ephatt_attribute_validity -> Attribute validity (sec.)
+    ephatt_attribute_validity=?תוקף המאפיין (שנ')
+    # 👽 ephatt_attribute_value -> Value
+    ephatt_attribute_value=?ערך
+    # 👽 ephatt_qry_refresh -> Refresh every (sec.)
+    ephatt_qry_refresh=?רענון כל (שנ')
+    # 👽 ephatt_qry_search -> Search for
+    ephatt_qry_search=?חיפוש
+    # 👽 ephatt_validity_error -> Validity time must be a number greater than 0
+    ephatt_validity_error=?זמן התוקף חייב להיות מספר גדול מ-0
 
 
 ## Misc
@@ -4535,8 +4535,8 @@ Other items
     qagrader_queue=?תור
     # 👽 qagrader_supervisor -> Supervisor
     qagrader_supervisor=?מפקח
-    # 🔴 qagrader_location -> Location
-    ➡️ qagrader_location=
+    # 👽 qagrader_location -> Location
+    qagrader_location=?מיקום
     # 👽 qagrader_talk -> Talk
     qagrader_talk=?דיבור
     # 👽 qagrader_time -> Time
@@ -5032,100 +5032,100 @@ Other items
     qap_welcome=?ברוך הבא בחזרה\!
     # 👽 qap_you_have -> You have
     qap_you_have=?יש לך
-    # 🔴 qap_extended_status -> Extended status
-    ➡️ qap_extended_status=
-    # 🔴 qap_number_dialed -> Number dialed
-    ➡️ qap_number_dialed=
-    # 🔴 qap_wbt_attempt -> Attempt
-    ➡️ qap_wbt_attempt=
-    # 🔴 qap_wbt_recall_attempt -> Recall attempts
-    ➡️ qap_wbt_recall_attempt=
-    # 🔴 qap_wombat_call_history -> Call history
-    ➡️ qap_wombat_call_history=
-    # 🔴 qap_wombat_dial -> Dial
-    ➡️ qap_wombat_dial=
-    # 🔴 qap_wombat_ext_status_success -> Extended status added successful
-    ➡️ qap_wombat_ext_status_success=
-    # 🔴 qap_wombat_number_dial -> Number to dial
-    ➡️ qap_wombat_number_dial=
-    # 🔴 qap_wombat_out_attribute_success -> Attribute added successful
-    ➡️ qap_wombat_out_attribute_success=
-    # 🔴 qap_wombat_reserve -> Reserve
-    ➡️ qap_wombat_reserve=
-    # 🔴 qap_wombat_rs_agent -> Retry Requested
-    ➡️ qap_wombat_rs_agent=
-    # 🔴 qap_wombat_rs_agentskip -> Agent Skip
-    ➡️ qap_wombat_rs_agentskip=
-    # 🔴 qap_wombat_rs_blacklist -> Number Blacklisted
-    ➡️ qap_wombat_rs_blacklist=
-    # 🔴 qap_wombat_rs_busy -> Line Busy
-    ➡️ qap_wombat_rs_busy=
-    # 🔴 qap_wombat_rs_err -> Technical Error
-    ➡️ qap_wombat_rs_err=
-    # 🔴 qap_wombat_rs_lost -> Call Lost
-    ➡️ qap_wombat_rs_lost=
-    # 🔴 qap_wombat_rs_noagent -> Agent Timeout
-    ➡️ qap_wombat_rs_noagent=
-    # 🔴 qap_wombat_rs_noanswer -> No Answer
-    ➡️ qap_wombat_rs_noanswer=
-    # 🔴 qap_wombat_rs_number -> Invalid Number
-    ➡️ qap_wombat_rs_number=
-    # 🔴 qap_wombat_rs_rejected -> Network Reject
-    ➡️ qap_wombat_rs_rejected=
-    # 🔴 qap_wombat_rs_terminated -> Call Completed
-    ➡️ qap_wombat_rs_terminated=
-    # 🔴 qap_wombat_rs_timeout -> Max Duration
-    ➡️ qap_wombat_rs_timeout=
-    # 🔴 qap_wombat_skip -> Skip
-    ➡️ qap_wombat_skip=
-    # 🔴 qap_wombat_update -> Update
-    ➡️ qap_wombat_update=
-    # 🔴 qap_wombat_update_disable_msg -> An extended status must be selected
-    ➡️ qap_wombat_update_disable_msg=
-    # 🔴 qap_generic_error -> Error occured in WombatDialer
-    ➡️ qap_generic_error=
-    # 🔴 qap_agent_not_available -> Agent not available
-    ➡️ qap_agent_not_available=
-    # 🔴 qap_dial_success -> Dialed
-    ➡️ qap_dial_success=
-    # 🔴 qap_skip_success -> Skipped
-    ➡️ qap_skip_success=
-    # 🔴 qap_no_call_to_reserve -> No call available for reservation
-    ➡️ qap_no_call_to_reserve=
-    # 🔴 qap_agent -> Agent
-    ➡️ qap_agent=
-    # 🔴 qap_id_not_found -> No such ID
-    ➡️ qap_id_not_found=
-    # 🔴 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
-    ➡️ qap_id_found_wrong_state=
-    # 🔴 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
-    ➡️ ephatt_attribute_character_error=
-    # 🔴 rt3_att_text -> Ephemeral - Text
-    ➡️ rt3_att_text=
-    # 🔴 rt3_nofstate_unix_wbt -> Ephemeral - Time
-    ➡️ rt3_nofstate_unix_wbt=
-    # 🔴 rt3_circle_wbt_reservable -> Reservable calls
-    ➡️ rt3_circle_wbt_reservable=
-    # 🔴 rt3_circle_wbt_incomplete -> Incomplete calls
-    ➡️ rt3_circle_wbt_incomplete=
-    # 🔴 rt3_nofstate_wbt -> Ephemeral - Value
-    ➡️ rt3_nofstate_wbt=
-    # 🔴 rt3_wbt_campaign_stats -> Campaign stats
-    ➡️ rt3_wbt_campaign_stats=
-    # 🔴 rt3_wbt_camp_est -> Attempts remaining
-    ➡️ rt3_wbt_camp_est=
-    # 🔴 rt3_attributes -> Ephemeral Attribute
-    ➡️ rt3_attributes=
-    # 🔴 rt3_display_value -> Visualization mode
-    ➡️ rt3_display_value=
-    # 🔴 rt3_maxvalue -> Max value
-    ➡️ rt3_maxvalue=
-    # 🔴 rt3_md_checkbox -> Is markdown
-    ➡️ rt3_md_checkbox=
-    # 🔴 rt3_normal_number -> Normal
-    ➡️ rt3_normal_number=
-    # 🔴 rt3_normal_perc -> Percentage
-    ➡️ rt3_normal_perc=
+    # 👽 qap_extended_status -> Extended status
+    qap_extended_status=?סטטוס מורחב
+    # 👽 qap_number_dialed -> Number dialed
+    qap_number_dialed=?מספר שחויג
+    # 👽 qap_wbt_attempt -> Attempt
+    qap_wbt_attempt=?ניסיון
+    # 👽 qap_wbt_recall_attempt -> Recall attempts
+    qap_wbt_recall_attempt=?ניסיונות חיוג חוזר
+    # 👽 qap_wombat_call_history -> Call history
+    qap_wombat_call_history=?היסטוריית שיחות
+    # 👽 qap_wombat_dial -> Dial
+    qap_wombat_dial=?חייג
+    # 👽 qap_wombat_ext_status_success -> Extended status added successful
+    qap_wombat_ext_status_success=?הסטטוס המורחב נוסף בהצלחה
+    # 👽 qap_wombat_number_dial -> Number to dial
+    qap_wombat_number_dial=?מספר לחיוג
+    # 👽 qap_wombat_out_attribute_success -> Attribute added successful
+    qap_wombat_out_attribute_success=?המאפיין נוסף בהצלחה
+    # 👽 qap_wombat_reserve -> Reserve
+    qap_wombat_reserve=?שריין
+    # 👽 qap_wombat_rs_agent -> Retry Requested
+    qap_wombat_rs_agent=?התבקש ניסיון חוזר
+    # 👽 qap_wombat_rs_agentskip -> Agent Skip
+    qap_wombat_rs_agentskip=?דילוג נציג
+    # 👽 qap_wombat_rs_blacklist -> Number Blacklisted
+    qap_wombat_rs_blacklist=?מספר ברשימה שחורה
+    # 👽 qap_wombat_rs_busy -> Line Busy
+    qap_wombat_rs_busy=?הקו תפוס
+    # 👽 qap_wombat_rs_err -> Technical Error
+    qap_wombat_rs_err=?שגיאה טכנית
+    # 👽 qap_wombat_rs_lost -> Call Lost
+    qap_wombat_rs_lost=?שיחה אבודה
+    # 👽 qap_wombat_rs_noagent -> Agent Timeout
+    qap_wombat_rs_noagent=?פסק זמן נציג
+    # 👽 qap_wombat_rs_noanswer -> No Answer
+    qap_wombat_rs_noanswer=?אין מענה
+    # 👽 qap_wombat_rs_number -> Invalid Number
+    qap_wombat_rs_number=?מספר לא תקין
+    # 👽 qap_wombat_rs_rejected -> Network Reject
+    qap_wombat_rs_rejected=?דחיית רשת
+    # 👽 qap_wombat_rs_terminated -> Call Completed
+    qap_wombat_rs_terminated=?השיחה הושלמה
+    # 👽 qap_wombat_rs_timeout -> Max Duration
+    qap_wombat_rs_timeout=?משך מרבי
+    # 👽 qap_wombat_skip -> Skip
+    qap_wombat_skip=?דלג
+    # 👽 qap_wombat_update -> Update
+    qap_wombat_update=?עדכן
+    # 👽 qap_wombat_update_disable_msg -> An extended status must be selected
+    qap_wombat_update_disable_msg=?יש לבחור סטטוס מורחב
+    # 👽 qap_generic_error -> Error occured in WombatDialer
+    qap_generic_error=?אירעה שגיאה ב-WombatDialer
+    # 👽 qap_agent_not_available -> Agent not available
+    qap_agent_not_available=?הנציג אינו זמין
+    # 👽 qap_dial_success -> Dialed
+    qap_dial_success=?חויג
+    # 👽 qap_skip_success -> Skipped
+    qap_skip_success=?דולג
+    # 👽 qap_no_call_to_reserve -> No call available for reservation
+    qap_no_call_to_reserve=?אין שיחה זמינה לשריון
+    # 👽 qap_agent -> Agent
+    qap_agent=?נציג
+    # 👽 qap_id_not_found -> No such ID
+    qap_id_not_found=?מזהה לא קיים
+    # 👽 qap_id_found_wrong_state -> The ID exists but the call is in a wrong state
+    qap_id_found_wrong_state=?המזהה קיים אך השיחה במצב שגוי
+    # 👽 ephatt_attribute_character_error -> Attribute name cannot contain the '.' character
+    ephatt_attribute_character_error=?שם המאפיין לא יכול להכיל את התו '.'
+    # 👽 rt3_att_text -> Ephemeral - Text
+    rt3_att_text=?זמני - טקסט
+    # 👽 rt3_nofstate_unix_wbt -> Ephemeral - Time
+    rt3_nofstate_unix_wbt=?זמני - זמן
+    # 👽 rt3_circle_wbt_reservable -> Reservable calls
+    rt3_circle_wbt_reservable=?שיחות הניתנות לשריון
+    # 👽 rt3_circle_wbt_incomplete -> Incomplete calls
+    rt3_circle_wbt_incomplete=?שיחות לא הושלמו
+    # 👽 rt3_nofstate_wbt -> Ephemeral - Value
+    rt3_nofstate_wbt=?זמני - ערך
+    # 👽 rt3_wbt_campaign_stats -> Campaign stats
+    rt3_wbt_campaign_stats=?סטטיסטיקת קמפיין
+    # 👽 rt3_wbt_camp_est -> Attempts remaining
+    rt3_wbt_camp_est=?ניסיונות שנותרו
+    # 👽 rt3_attributes -> Ephemeral Attribute
+    rt3_attributes=?מאפיין זמני
+    # 👽 rt3_display_value -> Visualization mode
+    rt3_display_value=?מצב תצוגה
+    # 👽 rt3_maxvalue -> Max value
+    rt3_maxvalue=?ערך מרבי
+    # 👽 rt3_md_checkbox -> Is markdown
+    rt3_md_checkbox=?האם markdown
+    # 👽 rt3_normal_number -> Normal
+    rt3_normal_number=?רגיל
+    # 👽 rt3_normal_perc -> Percentage
+    rt3_normal_perc=?אחוז
     # 👽 qatarget_agentgroup -> Agent Group
     qatarget_agentgroup=?קבוצת נציג
     # 👽 qatarget_allcalls -> All calls
@@ -5353,8 +5353,8 @@ Other items
     reports_edit_report=?ערוך דוח
     # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?מפתח עריכה
-    # 🔴 reports_email_not_valid -> Please enter valid email addresses
-    ➡️ reports_email_not_valid=
+    # 👽 reports_email_not_valid -> Please enter valid email addresses
+    reports_email_not_valid=?נא להזין כתובות דוא"ל תקינות
     # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?הזן את כותרת הדוח החדשה
     # 👽 reports_export_email_body -> QueueMetrics results for export report named
@@ -5815,16 +5815,16 @@ Other items
     reports_unsaved=לא נשמר
     # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?מפתח חשיפה
-    # 🔴 reports_qa_noteform_save -> Save Note
-    ➡️ reports_qa_noteform_save=
-    # 🔴 reports_qa_nonscoring -> Non-Scoring Evaluation
-    ➡️ reports_qa_nonscoring=
-    # 🔴 report_tab_page_list -> Page List
-    ➡️ report_tab_page_list=
-    # 🔴 reports_delete_filter_text -> Delete Filter
-    ➡️ reports_delete_filter_text=
-    # 🔴 reports_edit_filter_text -> Edit Filter
-    ➡️ reports_edit_filter_text=
+    # 👽 reports_qa_noteform_save -> Save Note
+    reports_qa_noteform_save=?שמור הערה
+    # 👽 reports_qa_nonscoring -> Non-Scoring Evaluation
+    reports_qa_nonscoring=?הערכה ללא ניקוד
+    # 👽 report_tab_page_list -> Page List
+    report_tab_page_list=?רשימת עמודים
+    # 👽 reports_delete_filter_text -> Delete Filter
+    reports_delete_filter_text=?מחק מסנן
+    # 👽 reports_edit_filter_text -> Edit Filter
+    reports_edit_filter_text=?ערוך מסנן
     rt_active_queues=הצג תורים פעילים
     rt_addmember=הוסף נציג
     # 👽 rt_agent_nbsp -> Agent
@@ -6262,8 +6262,8 @@ Other items
     sync2_delete=?אפשר פעולות מחיקה
     # 👽 sync2_delete_agents_confirm -> Are you sure you want to delete all the agents?
     sync2_delete_agents_confirm=?האם אתה בטוח שברצונך למחוק את כל הנציגים?
-    # 🔴 sync2_delete_cluster -> Delete Cluster
-    ➡️ sync2_delete_cluster=
+    # 👽 sync2_delete_cluster -> Delete Cluster
+    sync2_delete_cluster=?מחק אשכול
     # 👽 sync2_delete_queues_confirm -> Are you sure you want to delete all the queues?
     sync2_delete_queues_confirm=?האם אתה בטוח שברצונך למחוק את כל התורים?
     # 👽 sync2_delete_selected -> Delete
@@ -6394,8 +6394,8 @@ Other items
     timeline_debug=?הורד פרטי ניפוי באגים
     # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?הורד הקלטה
-    # 🔴 timeline_download_chat_file -> Download File
-    ➡️ timeline_download_chat_file=
+    # 👽 timeline_download_chat_file -> Download File
+    timeline_download_chat_file=?הורד קובץ
     # 👽 timeline_event -> Event
     timeline_event=?אירוע
     # 👽 timeline_events -> Timeline Events
@@ -6430,8 +6430,8 @@ Other items
     timeline_min=?מינימום
     # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?אין הקלטות
-    # 🔴 timeline_no_chats -> No chats available
-    ➡️ timeline_no_chats=
+    # 👽 timeline_no_chats -> No chats available
+    timeline_no_chats=?אין צ'אטים זמינים
     # 👽 timeline_number -> Number
     timeline_number=?מספר
     # 👽 timeline_stint_end -> Stint End
@@ -6444,8 +6444,8 @@ Other items
     timeline_tab_qa=?QA/הקלטות
     # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?הקלטות
-    # 🔴 timeline_tab_chats -> Chats
-    ➡️ timeline_tab_chats=
+    # 👽 timeline_tab_chats -> Chats
+    timeline_tab_chats=?צ'אטים
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?משך כולל
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
