@@ -1734,6 +1734,9 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_state=State
     edit_record_transcription_channel_reserverd_at=Reserved At
     edit_record_transcription_channel_last_seen=Last Seen
+    edit_record_transcription_channel_tokens_in=Tokens Input
+    edit_record_transcription_channel_tokens_out=Tokens Output
+    edit_record_transcription_channel_tokens=Tokens
     edit_record_transcription_server_name=Name
     edit_record_transcription_server_driver=Driver
     edit_record_transcription_server_max_channels=Max Channels
