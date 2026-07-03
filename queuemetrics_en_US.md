@@ -4663,6 +4663,10 @@ Other items
     t3_live_agent_info=Live agent info
     timeline_avg=Avg.
     timeline_close=Return to Report
+    timeline_chat_edit_speakers=Edit Speakers
+    timeline_chat_segments_history=View Edit History
+    timeline_chat_speaker=Speaker
+    timeline_chat_edited=Edited
     timeline_debug=Download Debug Info
     timeline_download_recording=Download Recording
     timeline_download_chat_file=Download File
