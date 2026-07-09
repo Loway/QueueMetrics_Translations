@@ -3698,6 +3698,7 @@ Other items
     qap_agent_notifications_error=Error while fetching agent notifications.
     qap_agent_settings_error=Error while fetching agent settings.
     qap_agent_status_error=Error while fetching agent status.
+    qap_agent_license_error=Exceeds licensed agent limit. Please ask your supervisor.
     qap_amo=AMO
     qap_amo_attributes=Attributes
     qap_amo_cannot=Cannot reserve a call at this time.
