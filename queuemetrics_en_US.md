@@ -2894,6 +2894,10 @@ Description of security keys:
     keydesc_pbxapi=The user can access PBX-level services
     keydesc_qa_calrep=Access to Grader calibration reports
     keydesc_qa_grader=Allows access to the Grader’s page and related statistics
+    keydesc_qa_chat_read=Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_edit=Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_write=Allows users to load the interaction's chat or transcription
+
     keydesc_qa_perf_rules=User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_track=Can run Agent Performance Tracking
     keydesc_qa_remove=User can delete Quality Assessment reports
