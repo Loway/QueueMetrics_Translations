@@ -2924,6 +2924,7 @@ Description of security keys:
     keydesc_tasks_push_tc=User can access to the Training and Coaching page for sending CBTs and Coaching tasks
     keydesc_tasks_rep=User can access the tab showing Task Statistics
     keydesc_tasks_viewall=User can see other people’s tasks
+    keydesc_transcription_server=User can view and update transcription servers
     keydesc_user=This key Must be held by any valid user
     keydesc_usr_agent=User can edit agents
     keydesc_usr_agroups=User can edit custom agent groups
