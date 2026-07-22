@@ -1628,7 +1628,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Engagement code:
     edit_record_qaitems_form=Form
     edit_record_qaitems_mandatory=Item is mandatory:
-    edit_record_qaitems_explanation=Item explanation:
+    edit_record_qaitems_explanation=Explanation:
     edit_record_qaitems_multivalue=Multi value options:
     edit_record_qaitems_notuse=This Engagement Code is not in use in any form.
     edit_record_qaitems_section=Item is a section shortcut:
@@ -1850,6 +1850,7 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Value
     qa_gradeedit_comment=This form was edited. Previous graded score was
     qa_grading_change_criteria=Change search criteria
+    qa_grading_no_valid_targets=Please enter at least one grading target
     qa_grading_page=Grading page
     qa_grading_run_again=Run again
     qa_grading_search_form=Grading search form
