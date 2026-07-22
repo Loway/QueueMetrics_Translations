@@ -1628,6 +1628,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Engagement code:
     edit_record_qaitems_form=Form
     edit_record_qaitems_mandatory=Item is mandatory:
+    edit_record_qaitems_explanation=Item explanation:
     edit_record_qaitems_multivalue=Multi value options:
     edit_record_qaitems_notuse=This Engagement Code is not in use in any form.
     edit_record_qaitems_section=Item is a section shortcut:
