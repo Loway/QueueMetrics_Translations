@@ -1626,6 +1626,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaformitem_section=Section:
     edit_record_qaformitem_title=QA: Items for Form
     edit_record_qaitems_code=Engagement code:
+    edit_record_qaitems_explanation=Explanation
     edit_record_qaitems_form=Form
     edit_record_qaitems_mandatory=Item is mandatory:
     edit_record_qaitems_explanation=Explanation:
@@ -3480,10 +3481,12 @@ Other items
     licence_firefox_client=Firefox client version:
     licence_install_now=Install now
     licence_licence_expires_on=Licence expires on:
+    licence_licence_expiring=Your license is about to expire
     licence_licence_information=Licence information
     licence_licenced_to=Licenced to:
     licence_maximum_licenced_agents=Maximum licenced agents:
     licence_show_eula=Show end-user licence agreement
+    licence_software_new_release_available=New version available:
     licence_software_release=Software release:
     licence_website=The official QueueMetrics website is located at
     list_amo_title=AMO Campaigns
