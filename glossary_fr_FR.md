@@ -112,7 +112,7 @@ Keep the French abbreviated too (tight headers/menus).
 | Voicemail | Recorded message | Boîte vocale | `td_cko_timeout_voicemail` | |
 | Recall | Scheduled call-back | Rappel | `art_lblWbRecallPanel` | |
 | Supervisor | Agent overseer | Superviseur | `edit_ac_supervisor` | |
-| Barge / Whisper / Spy | Live-call monitoring | Couper la parole / Susurrer / Espionner | `rt3_actions_barge`, `rt3_actions_whisper` | Verify *Espionner* in pack |
+| Barge / Whisper / Spy | Live-call monitoring | Intervenir / Coacher / Écouter | `rt3_actions_barge`, `rt3_actions_whisper` | Decided terms — replaced *Couper la parole / Susurrer / Espionner* |
 | Billable | Billed time/activity | Facturable | `aout_act_billable` | |
 | Outcome | Call result | Issue (d'appel) | `aout_call_res_by_outcome` | |
 | Disposition | Coded result / rule | Disposition | `cdp_clonedispositions` | *règles de disposition* |
@@ -155,5 +155,4 @@ Resolve each, then update the table above and remove the row here.
 | Ans. (Answered) | No abbreviation in pack | *Répondus* | Keep full, or shorten to *Rép.* in tight headers |
 | ACD | Acronym vs phrasing | *ACD* | Keep acronym, or phrase as *groupe de Files* like some labels |
 | Inbound / Outbound | Not confirmed from a label | *Entrant / Sortant* | Verify the wording actually used in the pack |
-| Spy (monitoring) | Not confirmed from a label | *Espionner* | Verify against the pack's live-monitoring labels |
 | Visibility | Not confirmed from a label | *Visibilité* | Verify against the visibility-key labels |

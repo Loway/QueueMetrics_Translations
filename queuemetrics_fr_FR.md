@@ -2130,9 +2130,9 @@ Used for data blocks Overview by Agent/Queue
     rt3_Talk=Conversation
     rt3_action_error=Une erreur s'est produite. La commande n'a pas été envoyée.
     rt3_action_success=La commande a été envoyée avec succès.
-    rt3_actions_barge=Couper la parole
-    rt3_actions_chanspy=Espionne
-    rt3_actions_whisper=Susurre
+    rt3_actions_barge=Intervenir
+    rt3_actions_chanspy=Écouter
+    rt3_actions_whisper=Coacher
     rt3_add=Ajout un nouveau Gadget(Widget)
     rt3_add_box=Ajouter une nouvelle boite sur la page
     rt3_add_queue=Sélectionner une file
@@ -2721,17 +2721,17 @@ Description of configuration properties
     propedit_key_directami_agent_desc=Format du canal Agent
     propedit_key_directami_cmdseparator_desc=Le séparateur ',' doit être changé pour "|" pour les systèmes Asterisk antérieur à 1.8
     propedit_key_directami_extension_desc=Format de l'extension d'un Agent
-    propedit_key_directami_localext_desc=Canal utilisé pour l'écoute (espion)
-    propedit_key_directami_optimizedagentchannel_desc=Format du canal Agent quand il faut l'espionner. Si "blanc" le Code Agent ou l'Extension de l'Agent sera utilisé en fonction du mode de "HotDesking", ou pas. Par défaut, à "blanc'"
+    propedit_key_directami_localext_desc=Canal utilisé pour l'écoute (ChanSpy)
+    propedit_key_directami_optimizedagentchannel_desc=Format du canal Agent quand il faut l'écouter. Si "blanc" le Code Agent ou l'Extension de l'Agent sera utilisé en fonction du mode de "HotDesking", ou pas. Par défaut, à "blanc'"
     propedit_key_directami_outboundenabled_desc=Au cas ou les appels sortants sont permis
     propedit_key_directami_outboundstanza_desc=Le point du plan de numérotation(Dial Plan) qui doit être appelé pour les appels sortants
-    propedit_key_directami_spyoptions_desc=Option à utiliser lors de l'écoute(espion) par Asterisk. Donne accès aux fonctions d'aide(whisper) ou de conférence(barge)
+    propedit_key_directami_spyoptions_desc=Options à utiliser avec l'application Asterisk ChanSpy lors de l'écoute des appels. En modifiant ces options, vous pouvez coacher (whisper) ou intervenir (barge) au lieu d'une simple écoute.
     propedit_key_directami_stateinterface_desc=L'état de L'interface de l'Agent - Si vide, n'est pas ajouté
     propedit_key_directami_trackerdialout_desc=Extension et Contexte à utiliser lors de l'exécution d'un appel sortant
     propedit_key_directami_transfer_desc=Destination du transfert, dans le format ext@context
     propedit_key_directami_usetracker_desc=Doit-on utiliser Uniloader Tracker pour la sortie?
     propedit_key_directami_verbose_desc=Option pour mémoriser toutes les interactions AMI dans le Registre(Log). Défaut : Non
-    propedit_key_enswitch_bargeprefix_desc=Préfixe par défaut pour démarrer une conférence(Barge-In) (Défaut *92)
+    propedit_key_enswitch_bargeprefix_desc=Préfixe par défaut pour intervenir sur un appel (Barge-In) (Défaut *92)
     propedit_key_enswitch_baseurl_desc=est l'URL principal pour le system Enswitch
     propedit_key_enswitch_guiaddmember_desc=Dans le cas ou les actions ADDMEMBER/REMOVEMEMBER sont disponible (défaut : non)
     propedit_key_enswitch_httplogin_desc=API Utilisateur : Connexion
@@ -2832,7 +2832,7 @@ Description of configuration properties
     propedit_key_wombat_prevdial_desc=URL de la page de numérotation d'aperçu de WombatDialer.
     propedit_key_wombat_url_desc=Principale URL WombatDialer
     propedit_key_wombat_username_desc=Nom d'utilisateur WombatDialer
-    propedit_option_barge=Interrompre(Barge)
+    propedit_option_barge=Intervenir
     propedit_option_classic=Classique
     propedit_option_classiclive=Classique-Live
     propedit_option_directami=AMI Direct
@@ -2858,7 +2858,7 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_assigned_label=Uniquement affectées
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Uniquement les Files affectées avec sélection (cherry pick)
     propedit_option_realtime_dynamicLoginQueues_registered_label=Enregistré
-    propedit_option_spy=Espion
+    propedit_option_spy=Écouter
     propedit_option_stars=étoiles
     propedit_option_sync_mode_c=Créer Seulement
     propedit_option_sync_mode_c_d=Créer, Détruire
@@ -2882,7 +2882,7 @@ Description of configuration properties
     propedit_option_sync_reader_url=URL
     propedit_option_true=Vrai
     propedit_option_visible=Visible
-    propedit_option_whisper=Sussure
+    propedit_option_whisper=Coacher
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Oui
     propedit_rewrite_hotdesking_desc=Permet de ré-écrire l'information de 'hotdesking' dans le Champs 'data 1' de la Table queue_log
@@ -2924,10 +2924,10 @@ Description of security keys:
     keydesc_hid=?Activer les commandes du casque Softphone
     keydesc_keyupdate=L'utilisateur peut installer une nouvelle clef d'activation de QueueMetrics
     keydesc_mon_audio=L'utilisateur peut superviser un appel en Temps-Réel
-    keydesc_mon_barge=L'utilisateur peut s'immiscer sur un appel en cours
+    keydesc_mon_barge=L'utilisateur peut intervenir sur un appel en cours
     keydesc_mon_im=L'utilisateur peut démarrer une conversation avec un agent
     keydesc_mon_vnc=L'utilisateur peut suivre un agent via VNC
-    keydesc_mon_whisper=L'utilisateur peut susurer sur un appel en cours
+    keydesc_mon_whisper=L'utilisateur peut coacher un agent sur un appel en cours
     keydesc_newagentpage=Activer la nouvelle page Icône de l'Agent
     # 👽 keydesc_nodialout -> User is not allowed to make outbound calls
     keydesc_nodialout=?L'utilisateur n'est pas autorisé à effectuer des appels sortants
@@ -4555,8 +4555,8 @@ Other items
     rt_pop_agent_extension=Extension Opérateur:
     rt_pop_agent_logon_extension=Numèro local pour l'agent
     rt_pop_agent_name=Nom Opérateur:
-    rt_pop_barge=Couper la parole (intervenir)
-    rt_pop_chanspy=Espionne (écoute seulement)
+    rt_pop_barge=Intervenir
+    rt_pop_chanspy=Écouter
     rt_pop_close=Fermer
     rt_pop_hangup_runbtn=Raccrocher
     rt_pop_hangup_title=Raccrocher un appel
@@ -4568,7 +4568,7 @@ Other items
     rt_pop_transfer_runbtn=Transfert
     rt_pop_transfer_title=Transférer un appel
     rt_pop_unique_id=ID unique:
-    rt_pop_whisper=Susurrer (Seuk l'agent entend)
+    rt_pop_whisper=Coacher (seul l'agent entend)
     rt_pop_your_extension=Votre extention:
     rt_qacall=QA
     rt_qacall_tt=QA
