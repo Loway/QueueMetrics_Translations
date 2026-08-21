@@ -56,6 +56,12 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | QC | `ko_succ_q` | Kept in labels |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` | Kept (*CBTs*) |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| AI | Artificial Intelligence (QA grading engine) | AI | `qa_ai_grading`, `qa_gtype_llm` | Kept in English |
+| LLM | Large Language Model (AI grading engine) | LLM | `qa_ai_testdialog_hint`, `propedit_key_llm_verbose_desc` | Kept in English; used as adjective, e.g. *motore LLM* |
+| Token | LLM usage unit | Token | `edit_record_transcription_channel_tokens`, `qa_grader_stat_tokens_used` | Kept in English (invariable plural), consistent with existing `edit_record_transcription_server_auth_token` |
+| Transcription | Speech-to-text conversion of a call | Trascrizione | `edit_record_transcription_server_title`, `keydesc_transcription_server` | |
+| Grader | QA person/module scoring calls | Grader | `qa_grader_col_score`, `keydesc_qa_grader` | Kept in English (product feature name) |
+| Speaker | Party in a call transcript/chat | Interlocutore | `timeline_chat_speaker`, `timeline_chat_edit_speakers` | No prior pack usage — decided *Interlocutore* |
 
 ---
 

@@ -75,6 +75,12 @@ formats, standards).
 | QC | Quality Control | | `ko_succ_q` |
 | CBT | Computer-Based Training | | `hdr_cbt` (CBTs) |
 | Prompt | A prompt for an AI model to perform QA | | `edit_qa_prompt`, `edit_record_qa_aiprompt` |
+| AI | Artificial Intelligence (QA grading engine) | | `qa_ai_grading`, `qa_gtype_llm` |
+| LLM | Large Language Model (AI grading engine) | | `qa_ai_testdialog_hint`, `propedit_key_llm_verbose_desc` |
+| Token | LLM usage unit | | `edit_record_transcription_channel_tokens`, `qa_grader_stat_tokens_used` |
+| Transcription | Speech-to-text conversion of a call | | `edit_record_transcription_server_title`, `keydesc_transcription_server` |
+| Grader | QA person/module that scores calls | | `qa_grader_col_score`, `keydesc_qa_grader` |
+| Speaker | Party in a call transcript/chat | | `timeline_chat_speaker`, `timeline_chat_edit_speakers` |
 
 ---
 
