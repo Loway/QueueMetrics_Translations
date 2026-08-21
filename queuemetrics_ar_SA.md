@@ -1819,6 +1819,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=المفتاح السري للتقارير:
     edit_record_qa_secnames=أسماء القطاعات
     edit_record_qa_section=قطاع
+    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
+    ➡️ edit_record_qa_testaidialog=
     edit_record_qa_title=QA: محرر النماذج
     edit_record_qa_visibility=رؤية الصف:
     edit_record_qaformitem_activeif=مفعل إذا ... 
@@ -1831,6 +1833,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=رمز الإرتباط:
     edit_record_qaitems_form=نموذج
     edit_record_qaitems_mandatory=البند إجباري:
+    # 🔴 edit_record_qaitems_explanation -> Explanation:
+    ➡️ edit_record_qaitems_explanation=
     edit_record_qaitems_multivalue=خيارات متعددة القيمة:
     edit_record_qaitems_notuse=رمز الارتباط هذا غير مستخدم في أي نموذج
     edit_record_qaitems_section=البند هو اختصار قطاع:
@@ -1953,6 +1957,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?محجوز في
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?آخر ظهور
+    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
+    ➡️ edit_record_transcription_channel_tokens_in=
+    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
+    ➡️ edit_record_transcription_channel_tokens_out=
+    # 🔴 edit_record_transcription_channel_tokens -> Tokens
+    ➡️ edit_record_transcription_channel_tokens=
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?الاسم
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2040,8 +2050,6 @@ Used for data blocks Overview by Agent/Queue
 
 ## Quality Assessments
 
-
-
     qa_agent=وكيل
     qa_agent_groups=مجموعات الوكيل
     qa_agent_groups_icon=ايقونة
@@ -2090,6 +2098,8 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=القيمة
     qa_gradeedit_comment=هذا النموذج تم تعديله، التقييم السابق كان
     qa_grading_change_criteria=معايير تغيير البحث
+    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
+    ➡️ qa_grading_no_valid_targets=
     qa_grading_page=صفحة التقييم
     qa_grading_run_again=تشغيل مرة أخرى
     qa_grading_search_form=نموذج بحث التقييم
@@ -2098,6 +2108,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=الأقران
     qa_gtype_caller=المستخدمين
     qa_gtype_grader=المقيَّمين
+    # 🔴 qa_gtype_llm -> AI
+    ➡️ qa_gtype_llm=
     qa_individual_agents=وكلاء أفراد
     qa_input_form=نموذج الادخال
     qa_input_form_tasks=المهام
@@ -2294,6 +2306,64 @@ Used for data blocks Overview by Agent/Queue
     qa_tracked_calls=المكالمات التي تم تعقبها لكل وكيل
     qa_tracked_calls_agentgroup=المكالمات التي تم تعقبها لكل مجموعة وكيل
     qa_tracked_calls_queue=المكالمات التي تم تعقبها لكل صف
+
+### Automated AI grading
+
+
+    # 🔴 qa_ai_grading -> AI grading
+    ➡️ qa_ai_grading=
+    # 🔴 qa_ai_testdialog_col_comment -> Comment
+    ➡️ qa_ai_testdialog_col_comment=
+    # 🔴 qa_ai_testdialog_col_item -> Item
+    ➡️ qa_ai_testdialog_col_item=
+    # 🔴 qa_ai_testdialog_col_value -> Value
+    ➡️ qa_ai_testdialog_col_value=
+    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    ➡️ qa_ai_testdialog_hint=
+    # 🔴 qa_ai_testdialog_request -> Request
+    ➡️ qa_ai_testdialog_request=
+    # 🔴 qa_ai_testdialog_response -> Response
+    ➡️ qa_ai_testdialog_response=
+    # 🔴 qa_ai_testdialog_title -> Test AI dialog
+    ➡️ qa_ai_testdialog_title=
+    # 🔴 qa_ai_testdialog_try -> Try it
+    ➡️ qa_ai_testdialog_try=
+    # 🔴 qa_grader_col_agent -> Agent
+    ➡️ qa_grader_col_agent=
+    # 🔴 qa_grader_col_call_duration -> Call duration
+    ➡️ qa_grader_col_call_duration=
+    # 🔴 qa_grader_col_caller -> Caller
+    ➡️ qa_grader_col_caller=
+    # 🔴 qa_grader_col_datetime -> Date/time
+    ➡️ qa_grader_col_datetime=
+    # 🔴 qa_grader_col_queue -> Queue
+    ➡️ qa_grader_col_queue=
+    # 🔴 qa_grader_col_score -> Score
+    ➡️ qa_grader_col_score=
+    # 🔴 qa_grader_col_tokens -> Tokens
+    ➡️ qa_grader_col_tokens=
+    # 🔴 qa_grader_col_transcription_duration -> Scoring time
+    ➡️ qa_grader_col_transcription_duration=
+    # 🔴 qa_grader_no_more_calls -> No other calls found
+    ➡️ qa_grader_no_more_calls=
+    # 🔴 qa_grader_stat_attempted -> Attempted
+    ➡️ qa_grader_stat_attempted=
+    # 🔴 qa_grader_stat_average_score -> Average score
+    ➡️ qa_grader_stat_average_score=
+    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
+    ➡️ qa_grader_stat_calls_loaded=
+    # 🔴 qa_grader_stat_evaluated -> Evaluated
+    ➡️ qa_grader_stat_evaluated=
+    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
+    ➡️ qa_grader_stat_evaluation_errors=
+    # 🔴 qa_grader_stat_maximum_score -> Max. score
+    ➡️ qa_grader_stat_maximum_score=
+    # 🔴 qa_grader_stat_minimum_score -> Min. score
+    ➡️ qa_grader_stat_minimum_score=
+    # 🔴 qa_grader_stat_tokens_used -> Tokens used
+    ➡️ qa_grader_stat_tokens_used=
+
+
 
 ## Report filters
 
@@ -3148,6 +3218,16 @@ Description of configuration properties
     propedit_option_wombat=وومبات دايلر
     propedit_option_yes=نعم
     propedit_rewrite_hotdesking_desc=تفعيل امكانية اعادة الكتابة في معلومات hotdesking في خانة data1 في جدول سجل الصف
+    # 🔴 propedit_category_ai_integration -> AI Integration
+    ➡️ propedit_category_ai_integration=
+    # 🔴 propedit_feature_ai_integration_settings -> General Settings
+    ➡️ propedit_feature_ai_integration_settings=
+    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    ➡️ propedit_key_llm_captureUniqueId_desc=
+    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    ➡️ propedit_key_llm_verbose_desc=
+    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    ➡️ propedit_key_qa_minPrcAllCalls_desc=
 
 ## Editor of security keys
 
@@ -3199,6 +3279,13 @@ Description of security keys:
     keydesc_pbxapi=المستخدم يستطيع الوصول إلى مستوى خدمات PBX
     keydesc_qa_calrep=الوصول إلى تقارير التقييم
     keydesc_qa_grader=السماح بالوصول إلى صفحة التقييم والاحصائيات المتعلقة بها
+    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_read=
+    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    ➡️ keydesc_qa_chat_write=
+
     keydesc_qa_perf_rules=يمكن للمستخدم تحديد قواعد تتبع أداء الوكيل
     keydesc_qa_perf_track=يمكن تشغيل تتبع أداء وكيل
     keydesc_qa_remove=يمكن للمستخدم حذف تقارير ضمان الجودة
@@ -3226,6 +3313,8 @@ Description of security keys:
     keydesc_tasks_push_tc=يمكن للمستخدم أن يصل لصفحة التدريب والإرشاد ويرسل CBTs ومهام تدريب
     keydesc_tasks_rep=يمكن للمستخدم الوصول إلى صفحة عرص احصائيات المهام
     keydesc_tasks_viewall=يمكن للمستخدم رؤية مهام الآخرين
+    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
+    ➡️ keydesc_transcription_server=
     keydesc_user=هذا المفتاح يجب أن يحمل من قبل أي مستخدم متوفر
     keydesc_usr_agent=يمكن للمستخدم تعديل الوكلاء
     keydesc_usr_agroups=يمكن للمستخدم تعديل مجموعات الوكلاء المخصصة
@@ -3975,10 +4064,14 @@ Other items
     licence_firefox_client=نسخة firefox
     licence_install_now=تثبيت الآن
     licence_licence_expires_on=تنتهي الرخصة في
+    # 🔴 licence_licence_expiring -> Your license is about to expire
+    ➡️ licence_licence_expiring=
     licence_licence_information=معلومات الرخصة
     licence_licenced_to=مرخصة لصالح: 
     licence_maximum_licenced_agents=العدد الأقصى للوكلاء المرخصين
     licence_show_eula=عرض موافقة رخصة المستخدم
+    # 🔴 licence_software_new_release_available -> New version available:
+    ➡️ licence_software_new_release_available=
     licence_software_release=تاريخ اصدار البرنامج
     licence_website=تجد الموقع الرسمي لكيوميتركس في 
     # 👽 list_amo_title -> AMO Campaigns
@@ -4283,6 +4376,8 @@ Other items
     qap_agent_settings_error=?خطأ أثناء جلب إعدادات الوكيل.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?خطأ أثناء جلب حالة الوكيل.
+    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    ➡️ qap_agent_license_error=
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5670,6 +5765,14 @@ Other items
     timeline_avg=?المتوسط
     # 👽 timeline_close -> Return to Report
     timeline_close=?العودة إلى التقرير
+    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
+    ➡️ timeline_chat_edit_speakers=
+    # 🔴 timeline_chat_segments_history -> View Edit History
+    ➡️ timeline_chat_segments_history=
+    # 🔴 timeline_chat_speaker -> Speaker
+    ➡️ timeline_chat_speaker=
+    # 🔴 timeline_chat_edited -> Edited
+    ➡️ timeline_chat_edited=
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?تنزيل معلومات التصحيح
     # 👽 timeline_download_recording -> Download Recording

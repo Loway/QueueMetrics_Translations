@@ -1820,6 +1820,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=Raporlar için güvenlik anahtarı:
     edit_record_qa_secnames=Oturum isimleri
     edit_record_qa_section=Oturum
+    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
+    ➡️ edit_record_qa_testaidialog=
     edit_record_qa_title=QA: Form Düzenleyici
     edit_record_qa_visibility=Havuz görünebilirliği:
     edit_record_qaformitem_activeif=Aktif Eğer...
@@ -1832,6 +1834,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Katılım kodu:
     edit_record_qaitems_form=Form
     edit_record_qaitems_mandatory=Ürün zorunludur:
+    # 🔴 edit_record_qaitems_explanation -> Explanation:
+    ➡️ edit_record_qaitems_explanation=
     edit_record_qaitems_multivalue=Çok değerli seçenekler:
     edit_record_qaitems_notuse=Bu Etkileşim Kodu herhangi bir biçimde kullanılmamaktadır.
     edit_record_qaitems_section=Ürün bir bölüm kısayoludur:
@@ -1954,6 +1958,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?Rezerve Edildiği Zaman
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?Son Görülme
+    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
+    ➡️ edit_record_transcription_channel_tokens_in=
+    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
+    ➡️ edit_record_transcription_channel_tokens_out=
+    # 🔴 edit_record_transcription_channel_tokens -> Tokens
+    ➡️ edit_record_transcription_channel_tokens=
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?Ad
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2041,8 +2051,6 @@ Used for data blocks Overview by Agent/Queue
 
 ## Quality Assessments
 
-
-
     qa_agent=Müşteri Temsilcisi
     qa_agent_groups=Müşteri Temsilcisi grupları
     qa_agent_groups_icon=İkon
@@ -2092,6 +2100,8 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Değer
     qa_gradeedit_comment=Bu form düzenlendi. önceki not ortalaması şudur
     qa_grading_change_criteria=Arama kriterini değiştir
+    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
+    ➡️ qa_grading_no_valid_targets=
     qa_grading_page=Sınıflandırma sayfası
     qa_grading_run_again=Tekrar çalıştır
     qa_grading_search_form=Sınıflandırma arama formu
@@ -2100,6 +2110,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Çift
     qa_gtype_caller=Kullanıcılar
     qa_gtype_grader=Sınıflandırmalar
+    # 🔴 qa_gtype_llm -> AI
+    ➡️ qa_gtype_llm=
     qa_individual_agents=Bireysel müşteri temsilcileri
     qa_input_form=SLA hesaplaması için ilk zaman aralığı
     qa_input_form_tasks=Görevler
@@ -2296,6 +2308,64 @@ Used for data blocks Overview by Agent/Queue
     qa_tracked_calls=Müşteri temsilcisi başına takip edilen çağrılar
     qa_tracked_calls_agentgroup=Müşteri temsilcisi grubu başına takip edilen çağrılar
     qa_tracked_calls_queue=Havuz başına takip edilen çağrılar
+
+### Automated AI grading
+
+
+    # 🔴 qa_ai_grading -> AI grading
+    ➡️ qa_ai_grading=
+    # 🔴 qa_ai_testdialog_col_comment -> Comment
+    ➡️ qa_ai_testdialog_col_comment=
+    # 🔴 qa_ai_testdialog_col_item -> Item
+    ➡️ qa_ai_testdialog_col_item=
+    # 🔴 qa_ai_testdialog_col_value -> Value
+    ➡️ qa_ai_testdialog_col_value=
+    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    ➡️ qa_ai_testdialog_hint=
+    # 🔴 qa_ai_testdialog_request -> Request
+    ➡️ qa_ai_testdialog_request=
+    # 🔴 qa_ai_testdialog_response -> Response
+    ➡️ qa_ai_testdialog_response=
+    # 🔴 qa_ai_testdialog_title -> Test AI dialog
+    ➡️ qa_ai_testdialog_title=
+    # 🔴 qa_ai_testdialog_try -> Try it
+    ➡️ qa_ai_testdialog_try=
+    # 🔴 qa_grader_col_agent -> Agent
+    ➡️ qa_grader_col_agent=
+    # 🔴 qa_grader_col_call_duration -> Call duration
+    ➡️ qa_grader_col_call_duration=
+    # 🔴 qa_grader_col_caller -> Caller
+    ➡️ qa_grader_col_caller=
+    # 🔴 qa_grader_col_datetime -> Date/time
+    ➡️ qa_grader_col_datetime=
+    # 🔴 qa_grader_col_queue -> Queue
+    ➡️ qa_grader_col_queue=
+    # 🔴 qa_grader_col_score -> Score
+    ➡️ qa_grader_col_score=
+    # 🔴 qa_grader_col_tokens -> Tokens
+    ➡️ qa_grader_col_tokens=
+    # 🔴 qa_grader_col_transcription_duration -> Scoring time
+    ➡️ qa_grader_col_transcription_duration=
+    # 🔴 qa_grader_no_more_calls -> No other calls found
+    ➡️ qa_grader_no_more_calls=
+    # 🔴 qa_grader_stat_attempted -> Attempted
+    ➡️ qa_grader_stat_attempted=
+    # 🔴 qa_grader_stat_average_score -> Average score
+    ➡️ qa_grader_stat_average_score=
+    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
+    ➡️ qa_grader_stat_calls_loaded=
+    # 🔴 qa_grader_stat_evaluated -> Evaluated
+    ➡️ qa_grader_stat_evaluated=
+    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
+    ➡️ qa_grader_stat_evaluation_errors=
+    # 🔴 qa_grader_stat_maximum_score -> Max. score
+    ➡️ qa_grader_stat_maximum_score=
+    # 🔴 qa_grader_stat_minimum_score -> Min. score
+    ➡️ qa_grader_stat_minimum_score=
+    # 🔴 qa_grader_stat_tokens_used -> Tokens used
+    ➡️ qa_grader_stat_tokens_used=
+
+
 
 ## Report filters
 
@@ -3150,6 +3220,16 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Evet
     propedit_rewrite_hotdesking_desc=Evet
+    # 🔴 propedit_category_ai_integration -> AI Integration
+    ➡️ propedit_category_ai_integration=
+    # 🔴 propedit_feature_ai_integration_settings -> General Settings
+    ➡️ propedit_feature_ai_integration_settings=
+    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    ➡️ propedit_key_llm_captureUniqueId_desc=
+    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    ➡️ propedit_key_llm_verbose_desc=
+    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    ➡️ propedit_key_qa_minPrcAllCalls_desc=
 
 ## Editor of security keys
 
@@ -3201,6 +3281,13 @@ Description of security keys:
     keydesc_pbxapi=Kullanıcı PBX seviyesinde servislere erişebilir
     keydesc_qa_calrep=Grader kalibrasyon raporlarına erişim
     keydesc_qa_grader=Grader \ u2019s sayfasına ve ilgili istatistiklere erişim izni verir
+    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_read=
+    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    ➡️ keydesc_qa_chat_write=
+
     keydesc_qa_perf_rules=Kullanıcı Müşteri Temsilcisi Performansı İzleme için kural kümelerini tanımlayabilir
     keydesc_qa_perf_track=Müşteri Temsilcisi Performans İzleme'yi çalıştırabilir
     keydesc_qa_remove=Kullanıcı Kalite Değerlendirme raporlarını silebilir
@@ -3228,6 +3315,8 @@ Description of security keys:
     keydesc_tasks_push_tc=Kullanıcı, CBTs ve Koçluk görevlerini göndermek için Eğitim ve Koçluk sayfasına erişebilir
     keydesc_tasks_rep=Kullanıcı Görev İstatistiklerini gösteren sekmeye erişebilir
     keydesc_tasks_viewall=Kullanıcı diğer kişilerin görebileceği görevleri’s  görebilir
+    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
+    ➡️ keydesc_transcription_server=
     keydesc_user=Bu anahtar geçerli herhangi bir kullanıcı tarafından Tutulmalıdır
     keydesc_usr_agent=Kullanıcı müşteri temsilcilerini düzenleyebilir
     keydesc_usr_agroups=Kullanıcı özel müşteri temsilcisi gruplarını düzenleyebilir
@@ -3977,10 +4066,14 @@ Other items
     licence_firefox_client=Firefox istemci sürümü:
     licence_install_now=Şimdi kur
     licence_licence_expires_on=Lisansın süresinin bitişi:
+    # 🔴 licence_licence_expiring -> Your license is about to expire
+    ➡️ licence_licence_expiring=
     licence_licence_information=Lisans bilgisi
     licence_licenced_to=Lisanslı:
     licence_maximum_licenced_agents=Maksimum lisanslı aracılar:
     licence_show_eula=Son kullanıcı lisans sözleşmesini göster
+    # 🔴 licence_software_new_release_available -> New version available:
+    ➡️ licence_software_new_release_available=
     licence_software_release=Yazılım sürümü:
     licence_website=Resmi QueueMetrics web sitesi bu adrestedir
     # 👽 list_amo_title -> AMO Campaigns
@@ -4285,6 +4378,8 @@ Other items
     qap_agent_settings_error=?Temsilci ayarları getirilirken hata oluştu.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?Temsilci durumu getirilirken hata oluştu.
+    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    ➡️ qap_agent_license_error=
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5673,6 +5768,14 @@ Other items
     timeline_avg=?Ort.
     # 👽 timeline_close -> Return to Report
     timeline_close=?Rapora Geri Dön
+    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
+    ➡️ timeline_chat_edit_speakers=
+    # 🔴 timeline_chat_segments_history -> View Edit History
+    ➡️ timeline_chat_segments_history=
+    # 🔴 timeline_chat_speaker -> Speaker
+    ➡️ timeline_chat_speaker=
+    # 🔴 timeline_chat_edited -> Edited
+    ➡️ timeline_chat_edited=
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?Hata Ayıklama Bilgisini İndir
     # 👽 timeline_download_recording -> Download Recording

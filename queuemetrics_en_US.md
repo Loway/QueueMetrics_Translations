@@ -1616,6 +1616,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=Security key for reports:
     edit_record_qa_secnames=Section Names
     edit_record_qa_section=Section
+    edit_record_qa_testaidialog=Test AI dialog
     edit_record_qa_title=QA: Forms Editor
     edit_record_qa_visibility=Queue visibility:
     edit_record_qaformitem_activeif=Active if...
@@ -1626,7 +1627,6 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaformitem_section=Section:
     edit_record_qaformitem_title=QA: Items for Form
     edit_record_qaitems_code=Engagement code:
-    edit_record_qaitems_explanation=Explanation
     edit_record_qaitems_form=Form
     edit_record_qaitems_mandatory=Item is mandatory:
     edit_record_qaitems_explanation=Explanation:
@@ -1801,8 +1801,6 @@ Used for data blocks Overview by Agent/Queue
 
 ## Quality Assessments
 
-
-
     qa_agent=Agent
     qa_agent_groups=Agent groups
     qa_agent_groups_icon=Icon
@@ -1860,6 +1858,7 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Peers
     qa_gtype_caller=Users
     qa_gtype_grader=Graders
+    qa_gtype_llm=AI
     qa_individual_agents=Individual agents
     qa_input_form=Input form
     qa_input_form_tasks=Tasks
@@ -2055,6 +2054,38 @@ Used for data blocks Overview by Agent/Queue
     qa_tracked_calls=Tracked calls per agent
     qa_tracked_calls_agentgroup=Tracked calls per agent group
     qa_tracked_calls_queue=Tracked calls per queue
+
+### Automated AI grading
+
+
+    qa_ai_grading=AI grading
+    qa_ai_testdialog_col_comment=Comment
+    qa_ai_testdialog_col_item=Item
+    qa_ai_testdialog_col_value=Value
+    qa_ai_testdialog_hint=This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_request=Request
+    qa_ai_testdialog_response=Response
+    qa_ai_testdialog_title=Test AI dialog
+    qa_ai_testdialog_try=Try it
+    qa_grader_col_agent=Agent
+    qa_grader_col_call_duration=Call duration
+    qa_grader_col_caller=Caller
+    qa_grader_col_datetime=Date/time
+    qa_grader_col_queue=Queue
+    qa_grader_col_score=Score
+    qa_grader_col_tokens=Tokens
+    qa_grader_col_transcription_duration=Scoring time
+    qa_grader_no_more_calls=No other calls found
+    qa_grader_stat_attempted=Attempted
+    qa_grader_stat_average_score=Average score
+    qa_grader_stat_calls_loaded=Calls loaded
+    qa_grader_stat_evaluated=Evaluated
+    qa_grader_stat_evaluation_errors=Evaluation errors
+    qa_grader_stat_maximum_score=Max. score
+    qa_grader_stat_minimum_score=Min. score
+    qa_grader_stat_tokens_used=Tokens used
+
+
 
 ## Report filters
 
@@ -2849,6 +2880,11 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Yes
     propedit_rewrite_hotdesking_desc=Enables rewriting of hotdesking information in data1 field of queue_log table
+    propedit_category_ai_integration=AI Integration
+    propedit_feature_ai_integration_settings=General Settings
+    propedit_key_llm_captureUniqueId_desc=This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_verbose_desc=Print input and output from/to the LLM model to the system log
+    propedit_key_qa_minPrcAllCalls_desc=Default value of mininum percentage of calls scored for All calls on Grader's page
 
 ## Editor of security keys
 

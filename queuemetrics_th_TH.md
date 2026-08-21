@@ -2195,6 +2195,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_secnames=?Section Names=ชื่อส่วน
     # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?section=ส่วน
+    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
+    ➡️ edit_record_qa_testaidialog=
     edit_record_qa_title=แก้ไข QA: ฟอร์ม
     # 👽 edit_record_qa_visibility -> Queue visibility:
     edit_record_qa_visibility=?Queue visibility:=การมองเห็นคิว:
@@ -2218,6 +2220,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_form=?Form=แบบฟอร์ม
     # 👽 edit_record_qaitems_mandatory -> Item is mandatory:
     edit_record_qaitems_mandatory=?Item is mandatory:=รายการเป็นข้อบังคับ:
+    # 🔴 edit_record_qaitems_explanation -> Explanation:
+    ➡️ edit_record_qaitems_explanation=
     # 👽 edit_record_qaitems_multivalue -> Multi value options:
     edit_record_qaitems_multivalue=?Multi value options:=ตัวเลือกหลายค่า:
     # 👽 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
@@ -2429,6 +2433,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?สำรองเมื่อ
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?เห็นล่าสุด
+    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
+    ➡️ edit_record_transcription_channel_tokens_in=
+    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
+    ➡️ edit_record_transcription_channel_tokens_out=
+    # 🔴 edit_record_transcription_channel_tokens -> Tokens
+    ➡️ edit_record_transcription_channel_tokens=
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?ชื่อ
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2547,8 +2557,6 @@ Used for data blocks Overview by Agent/Queue
 
 ## Quality Assessments
 
-
-
     # 👽 qa_agent -> Agent
     qa_agent=?ตัวแทน
     # 👽 qa_agent_groups -> Agent groups
@@ -2645,6 +2653,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gradeedit_comment=?แบบฟอร์มนี้ได้รับการแก้ไข คะแนนก่อนหน้าคือ
     # 👽 qa_grading_change_criteria -> Change search criteria
     qa_grading_change_criteria=?เปลี่ยนเกณฑ์การค้นหา
+    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
+    ➡️ qa_grading_no_valid_targets=
     # 👽 qa_grading_page -> Grading page
     qa_grading_page=?หน้าให้คะแนน
     # 👽 qa_grading_run_again -> Run again
@@ -2661,6 +2671,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_caller=?ผู้ใช้
     # 👽 qa_gtype_grader -> Graders
     qa_gtype_grader=?ผู้ให้คะแนน
+    # 🔴 qa_gtype_llm -> AI
+    ➡️ qa_gtype_llm=
     # 👽 qa_individual_agents -> Individual agents
     qa_individual_agents=?ตัวแทนแต่ละราย
     # 👽 qa_input_form -> Input form
@@ -3051,6 +3063,64 @@ Used for data blocks Overview by Agent/Queue
     qa_tracked_calls_agentgroup=?การโทรที่ติดตามต่อกลุ่มตัวแทน
     # 👽 qa_tracked_calls_queue -> Tracked calls per queue
     qa_tracked_calls_queue=?การโทรที่ติดตามต่อคิว
+
+### Automated AI grading
+
+
+    # 🔴 qa_ai_grading -> AI grading
+    ➡️ qa_ai_grading=
+    # 🔴 qa_ai_testdialog_col_comment -> Comment
+    ➡️ qa_ai_testdialog_col_comment=
+    # 🔴 qa_ai_testdialog_col_item -> Item
+    ➡️ qa_ai_testdialog_col_item=
+    # 🔴 qa_ai_testdialog_col_value -> Value
+    ➡️ qa_ai_testdialog_col_value=
+    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    ➡️ qa_ai_testdialog_hint=
+    # 🔴 qa_ai_testdialog_request -> Request
+    ➡️ qa_ai_testdialog_request=
+    # 🔴 qa_ai_testdialog_response -> Response
+    ➡️ qa_ai_testdialog_response=
+    # 🔴 qa_ai_testdialog_title -> Test AI dialog
+    ➡️ qa_ai_testdialog_title=
+    # 🔴 qa_ai_testdialog_try -> Try it
+    ➡️ qa_ai_testdialog_try=
+    # 🔴 qa_grader_col_agent -> Agent
+    ➡️ qa_grader_col_agent=
+    # 🔴 qa_grader_col_call_duration -> Call duration
+    ➡️ qa_grader_col_call_duration=
+    # 🔴 qa_grader_col_caller -> Caller
+    ➡️ qa_grader_col_caller=
+    # 🔴 qa_grader_col_datetime -> Date/time
+    ➡️ qa_grader_col_datetime=
+    # 🔴 qa_grader_col_queue -> Queue
+    ➡️ qa_grader_col_queue=
+    # 🔴 qa_grader_col_score -> Score
+    ➡️ qa_grader_col_score=
+    # 🔴 qa_grader_col_tokens -> Tokens
+    ➡️ qa_grader_col_tokens=
+    # 🔴 qa_grader_col_transcription_duration -> Scoring time
+    ➡️ qa_grader_col_transcription_duration=
+    # 🔴 qa_grader_no_more_calls -> No other calls found
+    ➡️ qa_grader_no_more_calls=
+    # 🔴 qa_grader_stat_attempted -> Attempted
+    ➡️ qa_grader_stat_attempted=
+    # 🔴 qa_grader_stat_average_score -> Average score
+    ➡️ qa_grader_stat_average_score=
+    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
+    ➡️ qa_grader_stat_calls_loaded=
+    # 🔴 qa_grader_stat_evaluated -> Evaluated
+    ➡️ qa_grader_stat_evaluated=
+    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
+    ➡️ qa_grader_stat_evaluation_errors=
+    # 🔴 qa_grader_stat_maximum_score -> Max. score
+    ➡️ qa_grader_stat_maximum_score=
+    # 🔴 qa_grader_stat_minimum_score -> Min. score
+    ➡️ qa_grader_stat_minimum_score=
+    # 🔴 qa_grader_stat_tokens_used -> Tokens used
+    ➡️ qa_grader_stat_tokens_used=
+
+
 
 ## Report filters
 
@@ -4441,6 +4511,16 @@ Description of configuration properties
     propedit_option_yes=?ใช่
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?เปิดใช้งานการเขียนข้อมูล hotdesking ใหม่ในฟิลด์ data1 ของตาราง queue_log
+    # 🔴 propedit_category_ai_integration -> AI Integration
+    ➡️ propedit_category_ai_integration=
+    # 🔴 propedit_feature_ai_integration_settings -> General Settings
+    ➡️ propedit_feature_ai_integration_settings=
+    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    ➡️ propedit_key_llm_captureUniqueId_desc=
+    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    ➡️ propedit_key_llm_verbose_desc=
+    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    ➡️ propedit_key_qa_minPrcAllCalls_desc=
 
 ## Editor of security keys
 
@@ -4532,6 +4612,13 @@ Description of security keys:
     keydesc_qa_calrep=?เข้าถึงรายงานการสอบเทียบ Grader
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?อนุญาตให้เข้าถึงหน้า Grader และสถิติที่เกี่ยวข้อง
+    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_read=
+    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    ➡️ keydesc_qa_chat_write=
+
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_rules=?ผู้ใช้สามารถกำหนดชุดกฎสำหรับการติดตามประสิทธิภาพของ Agent ได้
     # 👽 keydesc_qa_perf_track -> Can run Agent Performance Tracking
@@ -4584,6 +4671,8 @@ Description of security keys:
     keydesc_tasks_rep=?ผู้ใช้สามารถเข้าถึงแท็บที่แสดงสถิติของ Task ได้
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?ผู้ใช้สามารถดูงานของบุคคลอื่นได้
+    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
+    ➡️ keydesc_transcription_server=
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?คีย์นี้จะต้องถูกถือโดยผู้ใช้ที่ถูกต้องใดๆ
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -5598,6 +5687,8 @@ Other items
     licence_install_now=?ติดตั้งทันที
     # 👽 licence_licence_expires_on -> Licence expires on:
     licence_licence_expires_on=?ใบอนุญาตหมดอายุวันที่:
+    # 🔴 licence_licence_expiring -> Your license is about to expire
+    ➡️ licence_licence_expiring=
     # 👽 licence_licence_information -> Licence information
     licence_licence_information=?ข้อมูลใบอนุญาต
     # 👽 licence_licenced_to -> Licenced to:
@@ -5606,6 +5697,8 @@ Other items
     licence_maximum_licenced_agents=?จำนวนตัวแทนที่ได้รับอนุญาตสูงสุด:
     # 👽 licence_show_eula -> Show end-user licence agreement
     licence_show_eula=?แสดงข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้ปลายทาง
+    # 🔴 licence_software_new_release_available -> New version available:
+    ➡️ licence_software_new_release_available=
     # 👽 licence_software_release -> Software release:
     licence_software_release=?รุ่นซอฟต์แวร์:
     # 👽 licence_website -> The official QueueMetrics website is located at
@@ -6028,6 +6121,8 @@ Other items
     qap_agent_settings_error=?ข้อผิดพลาดขณะดึงข้อมูลการตั้งค่าของตัวแทน
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?ข้อผิดพลาดขณะดึงข้อมูลสถานะของตัวแทน
+    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    ➡️ qap_agent_license_error=
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -7851,6 +7946,14 @@ Other items
     timeline_avg=?ค่าเฉลี่ย
     # 👽 timeline_close -> Return to Report
     timeline_close=?กลับสู่รายงาน
+    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
+    ➡️ timeline_chat_edit_speakers=
+    # 🔴 timeline_chat_segments_history -> View Edit History
+    ➡️ timeline_chat_segments_history=
+    # 🔴 timeline_chat_speaker -> Speaker
+    ➡️ timeline_chat_speaker=
+    # 🔴 timeline_chat_edited -> Edited
+    ➡️ timeline_chat_edited=
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?ดาวน์โหลดข้อมูลแก้ไขข้อผิดพลาด
     # 👽 timeline_download_recording -> Download Recording
