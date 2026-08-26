@@ -4742,6 +4742,7 @@ Other items
     timeline_tab_qa=QA/Recordings
     timeline_tab_recordings=Recordings
     timeline_tab_chats=Chats
+    timeline_tab_chats_speaker_error=Speaker names must be unique
     timeline_totdur=Tot. Dur.
     title_do_agentsdo=Agents Sessions and Pauses
     title_do_areaando=Area codes

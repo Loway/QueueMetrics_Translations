@@ -4934,6 +4934,7 @@ Other items
     timeline_tab_recordings=Registrazioni
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chat
+    timeline_tab_chats_speaker_error=I nomi degli interlocutori devono essere unici
     timeline_totdur=Durata Tot.
     title_do_agentsdo=Sessioni e Pause degli Agenti
     title_do_areaando=Prefissi
