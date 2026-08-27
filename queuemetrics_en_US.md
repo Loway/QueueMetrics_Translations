@@ -4212,6 +4212,7 @@ Other items
     reports_import_schema_error=Error while importing Report Schema.
     reports_import_schema_success=Report Schema Imported Successfully.
     reports_invalid_input=The value you have entered is not allowed
+    reports_info_datablockview_short=Info
     reports_link_copy_successful=Report URL copied to Clipboard
     reports_lost_calls=Lost Calls
     reports_modify_report_name=Modify Report name

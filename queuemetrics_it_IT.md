@@ -4392,6 +4392,7 @@ Other items
     reports_import_schema_error=Impossibile importare lo schema di questo report.
     reports_import_schema_success=Schema report importato con successo
     reports_invalid_input=Il valore inserito non è valido
+    reports_info_datablockview_short=Info
     reports_link_copy_successful=URL Report copiato negli appunti
     reports_lost_calls=Perse
     reports_modify_report_name=Modifica il nome del report
