@@ -4262,6 +4262,7 @@ Other items
     reports_qa_error_download_forms=Error Downloading QA Forms
     reports_qa_error_edit_form=Error Editing QA Form
     reports_qa_error_update_form=Error Updating QA Form
+    reports_qa_grader_type=Grader Type
     reports_qa_items=Items
     reports_qa_level=Level
     reports_qa_na=N/A
@@ -4278,6 +4279,7 @@ Other items
     reports_qa_select_form=Select Form
     reports_qa_start=Start Time
     reports_qa_status=Status
+    reports_qa_tracked_by=Graded By
     reports_qa_uid=Unique Id
     reports_qa_value=Value
     reports_qa_print=Print

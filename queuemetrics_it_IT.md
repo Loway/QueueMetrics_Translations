@@ -4442,6 +4442,7 @@ Other items
     reports_qa_error_download_forms=Errore download form QA
     reports_qa_error_edit_form=Errora modifica form QA
     reports_qa_error_update_form=Errore aggiornamento form QA
+    reports_qa_grader_type=Tipo di Valutatore
     reports_qa_items=Numero
     reports_qa_level=Livello
     reports_qa_na=N/A
@@ -4458,6 +4459,7 @@ Other items
     reports_qa_select_form=Seleziona Form
     reports_qa_start=Inizio
     reports_qa_status=Stato
+    reports_qa_tracked_by=Valutato da
     reports_qa_uid=ID Univoco
     reports_qa_value=Valore
     reports_qa_print=Stampa
