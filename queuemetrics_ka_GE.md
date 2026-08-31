@@ -3544,6 +3544,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -5646,6 +5648,8 @@ Other items
     reports_import_schema_success=?ანგარიშის სქემა წარმატებით იმპორტირდა.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?შეყვანილი მნიშვნელობა დაუშვებელია
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?ანგარიშის URL კოპირებულია ბუფერში
     # 👽 reports_lost_calls -> Lost Calls
@@ -5746,6 +5750,8 @@ Other items
     reports_qa_error_edit_form=?QA ფორმის რედაქტირების შეცდომა
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?QA ფორმის განახლების შეცდომა
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     # 👽 reports_qa_items -> Items
     reports_qa_items=?ერთეულები
     # 👽 reports_qa_level -> Level
@@ -5778,6 +5784,8 @@ Other items
     reports_qa_start=?დაწყების დრო
     # 👽 reports_qa_status -> Status
     reports_qa_status=?სტატუსი
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?უნიკალური ID
     # 👽 reports_qa_value -> Value
@@ -6486,6 +6494,8 @@ Other items
     timeline_tab_recordings=?ჩანაწერები
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?ჩატები
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?სულ ხანგრ.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

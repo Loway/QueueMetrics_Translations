@@ -3020,6 +3020,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -4385,6 +4387,8 @@ Other items
     reports_import_schema_error=Échec de l'importation du schéma de ce rapport.
     reports_import_schema_success=Schéma de rapport importé avec succès
     reports_invalid_input=La Valeur entrée n'est pas autorisée
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     reports_link_copy_successful=URL du rapport copié
     reports_lost_calls=Appels perdus
     reports_modify_report_name=Modifier le Nom du Rapport
@@ -4435,6 +4439,8 @@ Other items
     reports_qa_error_download_forms=Erreur de téléchargement du formulaire QA
     reports_qa_error_edit_form=Erreur d'édition d'un formulaire QA
     reports_qa_error_update_form=Erreur de mise à jour d'un formulaire QA
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     reports_qa_items=Numéro
     reports_qa_level=Niveau
     reports_qa_na=N/A
@@ -4451,6 +4457,8 @@ Other items
     reports_qa_select_form=Sélectionner un formulaire
     reports_qa_start=Heure de début
     reports_qa_status=Status
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     reports_qa_uid=ID unique
     reports_qa_value=Valeur
     reports_qa_print=Imprimer
@@ -4930,6 +4938,8 @@ Other items
     timeline_tab_recordings=Enregistrements
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Discussions
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     timeline_totdur=Durée totale
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Sessions et pauses des agents

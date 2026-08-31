@@ -2973,6 +2973,8 @@ Description of security keys:
     keydesc_qa_grader=Può accedere alla pagina del Grader e statistiche relative
     keydesc_qa_chat_read=Consente agli utenti di leggere la chat e la trascrizione dell'interazione
     keydesc_qa_chat_edit=Consente agli utenti di modificare la chat e la trascrizione dell'interazione
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     keydesc_qa_chat_write=Consente agli utenti di caricare la chat o la trascrizione dell'interazione
 
     keydesc_qa_perf_rules=Può definire gruppi di regole per l'Agent Performance Tracking

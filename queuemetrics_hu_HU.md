@@ -5181,6 +5181,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -7649,6 +7651,8 @@ Other items
     reports_import_schema_success=?A jelentés séma sikeresen importálva.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?A megadott érték nem engedélyezett
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?A riport URL-je a vágólapra másolva
     # 👽 reports_lost_calls -> Lost Calls
@@ -7749,6 +7753,8 @@ Other items
     reports_qa_error_edit_form=?Hiba a QA űrlap szerkesztésekor
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Hiba a QA űrlap frissítésekor
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     # 👽 reports_qa_items -> Items
     reports_qa_items=?Elemek
     # 👽 reports_qa_level -> Level
@@ -7781,6 +7787,8 @@ Other items
     reports_qa_start=?Kezdési idő
     # 👽 reports_qa_status -> Status
     reports_qa_status=?Állapot
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?Egyedi azonosító
     # 👽 reports_qa_value -> Value
@@ -8602,6 +8610,8 @@ Other items
     timeline_tab_recordings=?Felvételek
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Csevegések
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Telj. Tart.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

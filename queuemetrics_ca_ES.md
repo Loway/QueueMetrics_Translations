@@ -3400,6 +3400,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -5352,6 +5354,8 @@ Other items
     reports_import_schema_success=?Esquema de l'informe importat correctament.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?El valor que has introduït no està permès
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?URL de l'informe copiat al porta-retalls
     # 👽 reports_lost_calls -> Lost Calls
@@ -5452,6 +5456,8 @@ Other items
     reports_qa_error_edit_form=?Error en editar el formulari de control de qualitat
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Error en actualitzar el formulari de control de qualitat
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     # 👽 reports_qa_items -> Items
     reports_qa_items=?Elements
     # 👽 reports_qa_level -> Level
@@ -5484,6 +5490,8 @@ Other items
     reports_qa_start=?Hora d'inici
     # 👽 reports_qa_status -> Status
     reports_qa_status=?Estat
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?Id. únic
     # 👽 reports_qa_value -> Value
@@ -6192,6 +6200,8 @@ Other items
     timeline_tab_recordings=?Gravacions
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Xats
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Dur. Tot.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

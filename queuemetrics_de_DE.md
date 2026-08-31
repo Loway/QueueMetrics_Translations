@@ -3008,6 +3008,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -4295,6 +4297,8 @@ Other items
     reports_import_schema_error=Fehler beim Importieren des Berichtsschemas.
     reports_import_schema_success=Berichtsschema erfolgreich importiert.
     reports_invalid_input=Der von Ihnen eingegebene Wert ist nicht zulässig
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     reports_link_copy_successful=URL des Berichts in die Zwischenablage kopiert
     reports_lost_calls=Verlorene Anrufe
     reports_modify_report_name=Name des Berichts ändern
@@ -4345,6 +4349,8 @@ Other items
     reports_qa_error_download_forms=Fehler beim Herunterladen von QA-Formularen
     reports_qa_error_edit_form=Fehler beim Bearbeiten des QA-Formulars
     reports_qa_error_update_form=Fehler beim Aktualisieren des QA-Formulars
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     reports_qa_items=Artikel
     reports_qa_level=Ebene
     reports_qa_na=N/A
@@ -4361,6 +4367,8 @@ Other items
     reports_qa_select_form=Formular auswählen
     reports_qa_start=Startzeit
     reports_qa_status=Status
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     reports_qa_uid=Eindeutige Kennung
     reports_qa_value=Wert
     reports_qa_print=Drucken
@@ -4838,6 +4846,8 @@ Other items
     timeline_tab_recordings=Aufzeichnungen
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chats
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     timeline_totdur=Gesamtdauer
     title_do_agentsdo=Agenten-Sitzungen und Pausen
     title_do_areaando=Vorwahl

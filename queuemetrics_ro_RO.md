@@ -4538,6 +4538,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -6755,6 +6757,8 @@ Other items
     reports_import_schema_success=?Schema Raportului Importată cu Succes.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?Valoarea pe care ați introdus-o nu este permisă
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?URL-ul raportului a fost copiat în Clipboard
     # 👽 reports_lost_calls -> Lost Calls
@@ -6855,6 +6859,8 @@ Other items
     reports_qa_error_edit_form=?Eroare la Editarea Formularului QA
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Eroare la Actualizarea Formularului QA
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     # 👽 reports_qa_items -> Items
     reports_qa_items=?Articole
     # 👽 reports_qa_level -> Level
@@ -6887,6 +6893,8 @@ Other items
     reports_qa_start=?Ora de Început
     # 👽 reports_qa_status -> Status
     reports_qa_status=?Stare
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?ID Unic
     # 👽 reports_qa_value -> Value
@@ -7652,6 +7660,8 @@ Other items
     timeline_tab_recordings=?Înregistrări
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chat-uri
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Dur. totală
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

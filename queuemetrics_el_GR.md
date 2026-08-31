@@ -3029,6 +3029,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -4458,6 +4460,8 @@ Other items
     reports_import_schema_error=Σφάλμα κατά την εισαγωγή Σχήματος Αναφοράς.
     reports_import_schema_success=Το Σχήμα Αναφοράς εισήχθη με επιτυχία.
     reports_invalid_input=Η τιμή που έχετε εισαγάγει δεν επιτρέπεται
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     reports_link_copy_successful=Η διεύθυνση URL της αναφοράς αντιγράφηκε στο πρόχειρο
     reports_lost_calls=Χαμένες Κλήσεις
     reports_modify_report_name=Τροποποίηση ονόματος Αναφοράς
@@ -4508,6 +4512,8 @@ Other items
     reports_qa_error_download_forms=Σφάλμα Κατά τη Λήψη Φορμών QA
     reports_qa_error_edit_form=Σφάλμα Κατά την Επεξεργασία Φόρμας QA
     reports_qa_error_update_form=Σφάλμα Κατά την Ενημέρωση Φόρμας QA
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     reports_qa_items=Αντικείμενα
     reports_qa_level=Επίπεδο
     reports_qa_na=N/A
@@ -4524,6 +4530,8 @@ Other items
     reports_qa_select_form=Επιλέξτε Φόρμα
     reports_qa_start=Ώρα Έναρξης
     reports_qa_status=Κατάσταση
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     reports_qa_uid=Μοναδικό ID
     reports_qa_value=Τιμή
     reports_qa_print=Εκτύπωση
@@ -5004,6 +5012,8 @@ Other items
     timeline_tab_recordings=Ηχογραφήσεις
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Συνομιλίες
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     timeline_totdur=Συνολική Διάρκεια
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Συνεδρίες & Παύσεις Πρακτόρων

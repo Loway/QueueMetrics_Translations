@@ -3010,6 +3010,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -4363,6 +4365,8 @@ Other items
     reports_import_schema_error=No se pudo importar el esquema de este informe.
     reports_import_schema_success=Esquema de informe importado con éxito
     reports_invalid_input=El valor que ha introducido no está permitido
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     reports_link_copy_successful=URL del informe copiada al portapapeles
     reports_lost_calls=Perdidas
     reports_modify_report_name=Modificar el nombre del informe
@@ -4413,6 +4417,8 @@ Other items
     reports_qa_error_download_forms=Error en la descarga de formulario QA
     reports_qa_error_edit_form=Error en la edición de formulario QA
     reports_qa_error_update_form=Error en la actualización formulario QA
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     reports_qa_items=Número
     reports_qa_level=Nivel
     reports_qa_na=N/A
@@ -4429,6 +4435,8 @@ Other items
     reports_qa_select_form=Seleccionar un Formulario
     reports_qa_start=Inicio
     reports_qa_status=Estado
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     reports_qa_uid=Único
     reports_qa_value=Valor
     reports_qa_print=Imprimir
@@ -4906,6 +4914,8 @@ Other items
     timeline_tab_recordings=Grabaciones
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chats
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     timeline_totdur=Dur. Tot.
     title_do_agentsdo=Sesiones y Pausas de Agentes
     title_do_areaando=Códigos de área

@@ -3340,6 +3340,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -5602,6 +5604,8 @@ Other items
     reports_import_schema_success=?סכימת הדוח יובאה בהצלחה.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?הערך שהזנת אינו מותר
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?כתובת אתר הדוח הועתקה ללוח
     # 👽 reports_lost_calls -> Lost Calls
@@ -5702,6 +5706,8 @@ Other items
     reports_qa_error_edit_form=?שגיאה בעריכת טופס QA
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?שגיאה בעדכון טופס QA
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     # 👽 reports_qa_items -> Items
     reports_qa_items=?פריטים
     # 👽 reports_qa_level -> Level
@@ -5734,6 +5740,8 @@ Other items
     reports_qa_start=?זמן התחלה
     # 👽 reports_qa_status -> Status
     reports_qa_status=?סטטוס
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?מזהה ייחודי
     # 👽 reports_qa_value -> Value
@@ -6549,6 +6557,8 @@ Other items
     timeline_tab_recordings=?הקלטות
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?צ'אטים
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?משך כולל
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

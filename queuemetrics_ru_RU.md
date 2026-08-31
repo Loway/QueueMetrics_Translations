@@ -3185,6 +3185,8 @@ Description of security keys:
     ➡️ keydesc_qa_chat_read=
     # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
     ➡️ keydesc_qa_chat_edit=
+    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    ➡️ keydesc_qa_chat_delete=
     # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
     ➡️ keydesc_qa_chat_write=
 
@@ -5021,6 +5023,8 @@ Other items
     reports_import_schema_error=Ошибка при импорте схемы отчета.
     reports_import_schema_success=Схема отчета успешно импортирована.
     reports_invalid_input=Введенное значение недопустимо
+    # 🔴 reports_info_datablockview_short -> Info
+    ➡️ reports_info_datablockview_short=
     reports_link_copy_successful=URL отчета скопирован в  буфер обмена
     # 👽 reports_lost_calls -> Lost Calls
     reports_lost_calls=?Потерянные звонки
@@ -5084,6 +5088,8 @@ Other items
     reports_qa_error_edit_form=?Ошибка редактирования формы QA
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Ошибка обновления формы QA
+    # 🔴 reports_qa_grader_type -> Grader Type
+    ➡️ reports_qa_grader_type=
     reports_qa_items=Элементы
     reports_qa_level=Уровень
     reports_qa_na=N/A
@@ -5101,6 +5107,8 @@ Other items
     reports_qa_select_form=Выбор формы
     reports_qa_start=Время начала
     reports_qa_status=Состояние
+    # 🔴 reports_qa_tracked_by -> Graded By
+    ➡️ reports_qa_tracked_by=
     reports_qa_uid=Уникальный ID
     reports_qa_value=Значение
     # 👽 reports_qa_print -> Print
@@ -5599,6 +5607,8 @@ Other items
     timeline_tab_recordings=Запись
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Чаты
+    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    ➡️ timeline_tab_chats_speaker_error=
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Общ. длит.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
