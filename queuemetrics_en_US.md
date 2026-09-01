@@ -4101,6 +4101,7 @@ Other items
     reports_datablock_columns_customization=Customize Columns
     reports_datablock_columns_short=Columns
     reports_datablock_errormsg=Error Message
+    reports_datablock_info_error=Unable to load DataBlock information
     reports_datablock_label_subtititle=Subtitle
     reports_datablock_label_subtitle=DataBlock notes
     reports_datablock_label_title=Title

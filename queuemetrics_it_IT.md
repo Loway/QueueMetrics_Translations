@@ -4269,6 +4269,7 @@ Other items
     reports_datablock_columns_customization=Modifica colonne
     reports_datablock_columns_short=Colonne
     reports_datablock_errormsg=Messaggio di errore
+    reports_datablock_info_error=Impossibile caricare le informazioni del DataBlock
     reports_datablock_label_subtititle=Sottotitolo
     reports_datablock_label_subtitle=Note del DataBlock
     reports_datablock_label_title=Titolo
