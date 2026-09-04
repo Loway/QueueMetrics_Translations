@@ -4907,6 +4907,7 @@ Other items
     timeline_close=Ritorna al report
     timeline_chat_edit_speakers=Modifica interlocutori
     timeline_chat_segments_history=Visualizza cronologia modifiche
+    timeline_chat_segments_delete=Cancella Chat
     timeline_chat_speaker=Interlocutore
     timeline_chat_edited=Modificato
     timeline_debug=Scarica informazioni di debug
@@ -4941,6 +4942,8 @@ Other items
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chat
     timeline_tab_chats_speaker_error=I nomi degli interlocutori devono essere unici
+    timeline_tab_chats_no=No
+    timeline_tab_chats_yes=Si
     timeline_totdur=Durata Tot.
     title_do_agentsdo=Sessioni e Pause degli Agenti
     title_do_areaando=Prefissi

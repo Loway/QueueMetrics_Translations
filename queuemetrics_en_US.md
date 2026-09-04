@@ -4717,6 +4717,7 @@ Other items
     timeline_close=Return to Report
     timeline_chat_edit_speakers=Edit Speakers
     timeline_chat_segments_history=View Edit History
+    timeline_chat_segments_delete=Delete Chat
     timeline_chat_speaker=Speaker
     timeline_chat_edited=Edited
     timeline_debug=Download Debug Info
@@ -4748,6 +4749,8 @@ Other items
     timeline_tab_recordings=Recordings
     timeline_tab_chats=Chats
     timeline_tab_chats_speaker_error=Speaker names must be unique
+    timeline_tab_chats_no=No
+    timeline_tab_chats_yes=Yes
     timeline_totdur=Tot. Dur.
     title_do_agentsdo=Agents Sessions and Pauses
     title_do_areaando=Area codes
