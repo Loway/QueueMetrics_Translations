@@ -2357,12 +2357,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?ערך
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?זוהי הבקשה הנשלחת למנוע ה-LLM, על תמליל שיחה לדוגמה. ערוך אותה ונסה שוב כדי לראות כיצד המודל מגיב.
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?Prompt: חלק זה תלוי רק ב-QA טופס, כך שהוא זהה עבור כל שיחה ומנוע ה-LLM עשוי לשמור אותו במטמון.
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?בקשה
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?תגובה
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?בדיקת דיאלוג AI
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?תמליל: חלק זה משתנה בכל שיחה, ולכן הוא נשלח בנפרד ולעולם אינו נשמר במטמון.
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?נסה
     # 👽 qa_grader_col_agent -> Agent

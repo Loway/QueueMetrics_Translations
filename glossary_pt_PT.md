@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | QC | `ko_succ_q` | Kept |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` | Kept (*CBTs*) |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Transcrição | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Pack uses "transcrição" for both Transcript and Transcription (e.g. `edit_record_transcription_server_title` -> "Detalhe do servidor de transcrição"); PT does not distinguish the two — same word reused |
 
 ---
 

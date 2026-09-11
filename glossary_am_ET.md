@@ -76,6 +76,8 @@ formats, standards).
 | QC | Quality Control | QC | `ko_succ_q` | Kept in English |
 | CBT | Computer-Based Training | CBTs | `hdr_cbt` (CBTs) | Kept in English |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| Transcription | Speech-to-text conversion of a call | ግልባጭ | `edit_record_transcription_server_title`, `keydesc_transcription_server` | |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | ግልባጭ | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Same word as Transcription in this pack — Amharic doesn't distinguish the two; verify against pack |
 
 ---
 

@@ -77,6 +77,7 @@ formats, standards).
 | QC | Quality Control | Filas Sucesso | `ko_succ_q` | Verify against pack |
 | CBT | Computer-Based Training | CBTs | `hdr_cbt` | Kept in English |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Transcrição | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Seeded from `qa_ai_testdialog_hint` ("transcrição de chamada"); pt_BR does not distinguish Transcript from Transcription, both render as "transcrição" |
 
 ---
 

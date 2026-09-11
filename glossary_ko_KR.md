@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | QC | `ko_succ_q` | Kept in English (abbreviation context) |
 | CBT | Computer-Based Training | CBTs | `hdr_cbt` | Kept in English |
 | Prompt | A prompt for an AI model to perform QA | 프롬프트 | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | 통화 스크립트 | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Seeded from existing rendering of "call transcript" in `qa_ai_testdialog_hint` |
 
 ---
 

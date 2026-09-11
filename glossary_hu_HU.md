@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | QC | `ko_succ_q` | Kept |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` | Kept (*CBT-k*) |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Átirat | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Distinct from Transcription (*Átírás*, the process); pack already uses *hívásátirat*/*átiratok* for the noun. Note: this glossary has no "Transcription" row yet to place this after — pack renders it as *Átírás*/*átírási* (e.g. `edit_record_transcription_server_title`); consider adding that row too |
 
 ---
 

@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | Q. | `ko_succ_q` | Abbreviated |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` | Kept |
 | Prompt | A prompt for an AI model to perform QA | プロンプト | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | 文字起こし | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Pack renders "call transcript" as 通話文字起こし (`qa_ai_testdialog_hint`); no separate term exists for Transcription in this pack, so the same word is reused — no distinction made in Japanese |
 
 ---
 

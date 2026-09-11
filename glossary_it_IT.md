@@ -60,6 +60,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | LLM | Large Language Model (AI grading engine) | LLM | `qa_ai_testdialog_hint`, `propedit_key_llm_verbose_desc` | Kept in English; used as adjective, e.g. *motore LLM* |
 | Token | LLM usage unit | Token | `edit_record_transcription_channel_tokens`, `qa_grader_stat_tokens_used` | Kept in English (invariable plural), consistent with existing `edit_record_transcription_server_auth_token` |
 | Transcription | Speech-to-text conversion of a call | Trascrizione | `edit_record_transcription_server_title`, `keydesc_transcription_server` | |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Trascrizione | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Italian doesn't distinguish Transcript from Transcription — same rendering as the Transcription row, consistent with existing `qa_ai_testdialog_hint` ("trascrizione di chiamata di esempio") |
 | Grader | QA person/module scoring calls | Grader | `qa_grader_col_score`, `keydesc_qa_grader` | Kept in English (product feature name) |
 | Speaker | Party in a call transcript/chat | Interlocutore | `timeline_chat_speaker`, `timeline_chat_edit_speakers` | No prior pack usage — decided *Interlocutore* |
 

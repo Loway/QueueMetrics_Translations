@@ -2114,12 +2114,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?Τιμή
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?Αυτό είναι το αίτημα που αποστέλλεται στη μηχανή LLM, πάνω σε ένα δείγμα απομαγνητοφώνησης κλήσης. Επεξεργαστείτε το και δοκιμάστε ξανά για να δείτε πώς αντιδρά το μοντέλο.
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?Prompt: αυτό το τμήμα εξαρτάται μόνο από τη Φόρμα QA, οπότε είναι το ίδιο για κάθε κλήση και η μηχανή LLM μπορεί να το αποθηκεύσει στην cache.
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?Αίτημα
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?Απόκριση
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?Δοκιμή διαλόγου AI
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?Απομαγνητοφώνηση: αυτό το τμήμα αλλάζει σε κάθε κλήση, οπότε αποστέλλεται ξεχωριστά και δεν αποθηκεύεται ποτέ στην cache.
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?Δοκιμάστε το
     # 👽 qa_grader_col_agent -> Agent

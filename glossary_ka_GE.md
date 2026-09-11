@@ -77,6 +77,7 @@ formats, standards).
 | QC | Quality Control | ხარისხის კონტროლი | `ko_succ_q` | |
 | CBT | Computer-Based Training | ტრენინგი | `hdr_cbt` (CBTs) | |
 | Prompt | A prompt for an AI model to perform QA | მოთხოვნა | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | ტრანსკრიფტი | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Seeded from existing `qa_ai_testdialog_hint` translation ("ტრანსკრიფტი") |
 
 ---
 

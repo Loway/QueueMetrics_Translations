@@ -3116,12 +3116,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?Hodnota
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?Toto je požiadavka odoslaná do LLM modelu na vzorovom prepise hovoru. Upravte ju a skúste znova, aby ste videli, ako model reaguje.
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?Prompt: táto časť závisí iba od QA Formulára, takže je rovnaká pre každý hovor a LLM model ju môže uložiť do vyrovnávacej pamäte (cache).
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?Požiadavka
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?Odpoveď
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?Testovací AI dialóg
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?Prepis: táto časť sa mení pri každom hovore, takže sa odosiela samostatne a nikdy sa neukladá do vyrovnávacej pamäte (cache).
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?Vyskúšať
     # 👽 qa_grader_col_agent -> Agent

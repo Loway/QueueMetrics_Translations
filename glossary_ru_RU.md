@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | QC | `ko_succ_q` | Kept as acronym |
 | CBT | Computer-Based Training | Тренинг | `hdr_cbt` | Kept in English |
 | Prompt | A prompt for an AI model to perform QA | Промпт | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Расшифровка | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Pack does not distinguish Transcript from Transcription (both rendered as "расшифровка"/"транскрипция" inconsistently); seeded from `qa_ai_testdialog_hint`'s "расшифровки звонка" |
 
 ---
 
@@ -162,4 +163,5 @@ Resolve each, then update the table above and remove the row here.
 | Feature | Seeded value may be wrong | *Код* | Verify that "Код" is correct; may need different term |
 | Realtime | Pack keeps English | *Real-time* | Keep English or translate to *Режим реального времени* |
 | Transfer | Seeded from past tense | *Переведенные* | Should be infinitive or noun; verify correct form |
+| Transcript | Not distinguished from Transcription in pack | *Расшифровка* | Keep single word for both, or introduce a separate term for Transcript vs Transcription (pack also uses "транскрипция" elsewhere) |
 | Spill | Seeded value unclear | *Дополнительный* | Verify actual meaning; should refer to overflow |

@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | QC | `ko_succ_q` | Kept in abbreviations like *Erfolgreiche Q.* |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` | Kept; *CBTs* in pack |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Transkript | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Seeded from *Gesprächstranskript* in `qa_ai_testdialog_hint`; distinct from *Transkription* (the process), as in English |
 
 ---
 

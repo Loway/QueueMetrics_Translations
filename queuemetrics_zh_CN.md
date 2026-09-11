@@ -2380,12 +2380,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?值
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?这是发送给 LLM 引擎的请求，基于示例通话记录。编辑后重新尝试，查看模型的反应。
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?提示词：此部分仅取决于质检表单，因此每次通话都相同，LLM 引擎可能会对其进行缓存。
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?请求
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?响应
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?测试 AI 对话
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?通话记录：此部分随每次通话变化，因此会单独发送，且从不缓存。
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?试一下
     # 👽 qa_grader_col_agent -> Agent

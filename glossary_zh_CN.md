@@ -76,6 +76,7 @@ formats, standards).
 | QC | Quality Control | 质控 | `ko_succ_q` | Verify against pack |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` (CBTs) | Kept in English |
 | Prompt | A prompt for an AI model to perform QA | 提示词 | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | 通话记录 | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Seeded from `qa_ai_testdialog_hint`'s existing wording ("call transcript" -> 通话记录); no separate Transcription row exists yet in this pack, so the same noun is reused — verify if Transcription is added later |
 
 ---
 

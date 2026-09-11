@@ -56,6 +56,7 @@ Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
 | QC | Quality Control | ناجح.ق. | `ko_succ_q` | Abbreviated form from pack |
 | CBT | Computer-Based Training | CBTs | `hdr_cbt` | Kept in English |
 | Prompt | A prompt for an AI model to perform QA | موجّه | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | نص المكالمة | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | Seeded from `qa_ai_testdialog_hint` ("نص المكالمة"); pack has no separate Transcription label yet, so the same noun would be reused if one is added — verify if Arabic needs to distinguish the two |
 
 ---
 

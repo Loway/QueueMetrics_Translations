@@ -3077,12 +3077,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?ค่า
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?นี่คือคำขอที่ส่งไปยังเอ็นจิน LLM จากตัวอย่างบทถอดเสียงการโทร แก้ไขแล้วลองอีกครั้งเพื่อดูว่าโมเดลตอบสนองอย่างไร
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?Prompt: ส่วนนี้ขึ้นอยู่กับฟอร์ม QA เท่านั้น จึงเหมือนกันในทุกการโทร และเอ็นจิน LLM อาจแคชไว้ได้
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?คำขอ
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?การตอบสนอง
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?ทดสอบไดอะล็อก AI
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?Transcript: ส่วนนี้เปลี่ยนแปลงไปในทุกการโทร จึงถูกส่งแยกต่างหากและไม่เคยถูกแคชไว้
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?ลองเลย
     # 👽 qa_grader_col_agent -> Agent

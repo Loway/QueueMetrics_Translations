@@ -2111,12 +2111,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?Valeur
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?Voici la requête envoyée au moteur LLM, sur un exemple de transcription d'appel. Modifiez-la et réessayez pour voir comment le modèle réagit.
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?Prompt : cette partie ne dépend que du module QA, elle est donc identique pour chaque appel et le moteur LLM peut la mettre en cache.
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?Requête
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?Réponse
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?Tester le dialogue IA
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?Transcription : cette partie change à chaque appel, elle est donc envoyée séparément et n'est jamais mise en cache.
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?Essayer
     # 👽 qa_grader_col_agent -> Agent

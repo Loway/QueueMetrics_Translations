@@ -77,6 +77,7 @@ formats, standards).
 | QC | Quality Control | Pomyślne.K. | `ko_succ_q` | Uncertain; see Doubts section |
 | CBT | Computer-Based Training | CBT | `hdr_cbt` (CBTs) | Kept in English (marked as alien in pack) |
 | Prompt | A prompt for an AI model to perform QA | Prompt | `edit_qa_prompt`, `edit_record_qa_aiprompt` | New AI term; kept in English — verify against pack |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | Zapis rozmowy | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` | New AI term; seeded from pack's existing "przykładowym zapisie rozmowy" (`qa_ai_testdialog_hint`). No "Transcription" row exists yet in this glossary to distinguish from; Polish pack does not currently separate the two concepts — reuses the same "zapis" noun family. Verify if a dedicated Transcription row is later needed. |
 
 ---
 

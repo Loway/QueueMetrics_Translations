@@ -3316,12 +3316,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?値
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?これはサンプルの通話文字起こしに対してLLMエンジンに送信されるリクエストです。編集してもう一度試し、モデルの反応を確認してください。
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?プロンプト：この部分はQAフォームのみに依存するため、すべての通話で同じであり、LLMエンジンがキャッシュする場合があります。
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?リクエスト
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?レスポンス
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?テストAIダイアログ
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?文字起こし：この部分は通話ごとに変化するため、個別に送信され、キャッシュされることはありません。
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?試す
     # 👽 qa_grader_col_agent -> Agent

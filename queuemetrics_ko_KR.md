@@ -2212,12 +2212,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?값
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?이는 샘플 통화 스크립트에 대해 LLM 엔진으로 전송되는 요청입니다. 편집한 후 다시 시도하여 모델의 반응을 확인하세요.
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?프롬프트: 이 부분은 QA 양식에만 의존하므로 모든 통화에서 동일하며 LLM 엔진이 캐시할 수 있습니다.
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?요청
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?응답
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?AI 대화 테스트
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?통화 스크립트: 이 부분은 통화마다 달라지므로 별도로 전송되며 캐시되지 않습니다.
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?시도해 보기
     # 👽 qa_grader_col_agent -> Agent

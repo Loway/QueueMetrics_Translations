@@ -2365,12 +2365,16 @@ Used for data blocks Overview by Agent/Queue
     qa_ai_testdialog_col_value=?მნიშვნელობა
     # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
     qa_ai_testdialog_hint=?ეს არის მოთხოვნა, რომელიც იგზავნება LLM ძრავზე, სატესტო ზარის ტრანსკრიფტზე დაყრდნობით. შეასწორეთ და კვლავ სცადეთ, რომ ნახოთ, როგორ რეაგირებს მოდელი.
+    # 👽 qa_ai_testdialog_prompt_hint -> Prompt: this part only depends on the QA form, so it is the same for every call and the LLM engine may cache it.
+    qa_ai_testdialog_prompt_hint=?მოთხოვნა: ეს ნაწილი დამოკიდებულია მხოლოდ ხარისხის შეფასების ფორმაზე, ამიტომ ის ერთნაირია ყველა ზარისთვის და LLM ძრავას შეუძლია მისი დაქეშვა.
     # 👽 qa_ai_testdialog_request -> Request
     qa_ai_testdialog_request=?მოთხოვნა
     # 👽 qa_ai_testdialog_response -> Response
     qa_ai_testdialog_response=?პასუხი
     # 👽 qa_ai_testdialog_title -> Test AI dialog
     qa_ai_testdialog_title=?AI დიალოგის ტესტირება
+    # 👽 qa_ai_testdialog_transcript_hint -> Transcript: this part changes with every call, so it is sent separately and never cached.
+    qa_ai_testdialog_transcript_hint=?ტრანსკრიფტი: ეს ნაწილი იცვლება ყოველ ზარზე, ამიტომ ის იგზავნება ცალკე და არასდროს ინახება ქეშში.
     # 👽 qa_ai_testdialog_try -> Try it
     qa_ai_testdialog_try=?სცადეთ
     # 👽 qa_grader_col_agent -> Agent
