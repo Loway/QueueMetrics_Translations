@@ -79,6 +79,7 @@ formats, standards).
 | LLM | Large Language Model (AI grading engine) | | `qa_ai_testdialog_hint`, `propedit_key_llm_verbose_desc` |
 | Token | LLM usage unit | | `edit_record_transcription_channel_tokens`, `qa_grader_stat_tokens_used` |
 | Transcription | Speech-to-text conversion of a call | | `edit_record_transcription_server_title`, `keydesc_transcription_server` |
+| Transcript | The resulting text of a call, as sent to the LLM (distinct from Transcription, the process) | | `qa_ai_testdialog_transcript_hint`, `qa_ai_testdialog_hint` |
 | Grader | QA person/module that scores calls | | `qa_grader_col_score`, `keydesc_qa_grader` |
 | Speaker | Party in a call transcript/chat | | `timeline_chat_speaker`, `timeline_chat_edit_speakers` |
 
