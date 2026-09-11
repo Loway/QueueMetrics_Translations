@@ -15,7 +15,7 @@ Romanian terminology master for QueueMetrics. Derived from
 ## 0. Do-not-translate terms
 
 Leave unaltered (product names, protocols, file formats): **QueueMetrics**,
-**WombatDialer**, **Teams** (MS Teams), **CSV, JSON, XML, HTML, PDF, XLS**,
+**WombatDialer**, **Teams** (MS Teams), **CSV, JSON, XML, HTML, PDF, XLS, Markdown**,
 **SIP, AMI, HTTP(S), SMTP, RPC, API, URL, VNC, SSO, ICE**.
 
 ---

@@ -1820,8 +1820,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=Raporlar için güvenlik anahtarı:
     edit_record_qa_secnames=Oturum isimleri
     edit_record_qa_section=Oturum
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?AI Diyaloğunu Test Et
     edit_record_qa_title=QA: Form Düzenleyici
     edit_record_qa_visibility=Havuz görünebilirliği:
     edit_record_qaformitem_activeif=Aktif Eğer...
@@ -1834,8 +1834,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Katılım kodu:
     edit_record_qaitems_form=Form
     edit_record_qaitems_mandatory=Ürün zorunludur:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?Açıklama:
     edit_record_qaitems_multivalue=Çok değerli seçenekler:
     edit_record_qaitems_notuse=Bu Etkileşim Kodu herhangi bir biçimde kullanılmamaktadır.
     edit_record_qaitems_section=Ürün bir bölüm kısayoludur:
@@ -1958,12 +1958,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?Rezerve Edildiği Zaman
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?Son Görülme
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?Giriş Token
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?Çıkış Token
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?Token
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?Ad
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2100,8 +2100,8 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Değer
     qa_gradeedit_comment=Bu form düzenlendi. önceki not ortalaması şudur
     qa_grading_change_criteria=Arama kriterini değiştir
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?Lütfen en az bir sınıflandırma hedefi girin
     qa_grading_page=Sınıflandırma sayfası
     qa_grading_run_again=Tekrar çalıştır
     qa_grading_search_form=Sınıflandırma arama formu
@@ -2110,8 +2110,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Çift
     qa_gtype_caller=Kullanıcılar
     qa_gtype_grader=Sınıflandırmalar
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     qa_individual_agents=Bireysel müşteri temsilcileri
     qa_input_form=SLA hesaplaması için ilk zaman aralığı
     qa_input_form_tasks=Görevler
@@ -2312,60 +2312,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?AI Sınıflandırması
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?Yorum
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?Öğe
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?Değer
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?Bu, bir örnek çağrı transkripti üzerinde LLM motoruna gönderilen istektir. Modelin nasıl tepki verdiğini görmek için düzenleyip tekrar deneyin.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?İstek
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?Yanıt
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?AI Diyaloğunu Test Et
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?Dene
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?Müşteri Temsilcisi
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?Çağrı süresi
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?Arayan
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?Tarih/saat
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?Kuyruk
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?Puan
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?Token
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?Puanlama süresi
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?Başka çağrı bulunamadı
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?Bu sayfaya erişmek için QA_TRACK anahtarına ihtiyacınız var
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?Denenen
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?Ortalama puan
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?Yüklenen çağrılar
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?Değerlendirilen
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?Değerlendirme hataları
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?Max. puan
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?Min. puan
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?Kullanılan token
 
 
 
@@ -3222,16 +3222,16 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Evet
     propedit_rewrite_hotdesking_desc=Evet
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?AI Entegrasyonu
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?Genel Ayarlar
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?Bu regexp, dosya adına göre çağrının UniqueId'sini eşleştirmek için kullanılır. Örneğin audio-(.+).wav, audio-1234.1235.wav dosya adından uniqueid 1234.1235'i yakalar. Boş bırakılırsa hiçbir UniqueId yakalanmaz
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?LLM modelinden/modeline gelen/giden girdi ve çıktıyı sistem günlüğüne yazdırır
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?Grader sayfasında Tüm çağrılar için puanlanan çağrıların minimum yüzdesinin varsayılan değeri
 
 ## Editor of security keys
 
@@ -3283,14 +3283,14 @@ Description of security keys:
     keydesc_pbxapi=Kullanıcı PBX seviyesinde servislere erişebilir
     keydesc_qa_calrep=Grader kalibrasyon raporlarına erişim
     keydesc_qa_grader=Grader \ u2019s sayfasına ve ilgili istatistiklere erişim izni verir
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?Kullanıcıların etkileşimin sohbetini ve transkripsiyonunu okumasına izin verir
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?Kullanıcıların etkileşimin sohbetini ve transkripsiyonunu düzenlemesine izin verir
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?Kullanıcıların etkileşimin sohbetini ve transkripsiyonunu silmesine izin verir
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?Kullanıcıların etkileşimin sohbetini veya transkripsiyonunu yüklemesine izin verir
 
     keydesc_qa_perf_rules=Kullanıcı Müşteri Temsilcisi Performansı İzleme için kural kümelerini tanımlayabilir
     keydesc_qa_perf_track=Müşteri Temsilcisi Performans İzleme'yi çalıştırabilir
@@ -3319,8 +3319,8 @@ Description of security keys:
     keydesc_tasks_push_tc=Kullanıcı, CBTs ve Koçluk görevlerini göndermek için Eğitim ve Koçluk sayfasına erişebilir
     keydesc_tasks_rep=Kullanıcı Görev İstatistiklerini gösteren sekmeye erişebilir
     keydesc_tasks_viewall=Kullanıcı diğer kişilerin görebileceği görevleri’s  görebilir
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?Kullanıcı transkripsiyon sunucularını görüntüleyebilir ve güncelleyebilir
     keydesc_user=Bu anahtar geçerli herhangi bir kullanıcı tarafından Tutulmalıdır
     keydesc_usr_agent=Kullanıcı müşteri temsilcilerini düzenleyebilir
     keydesc_usr_agroups=Kullanıcı özel müşteri temsilcisi gruplarını düzenleyebilir
@@ -4070,14 +4070,14 @@ Other items
     licence_firefox_client=Firefox istemci sürümü:
     licence_install_now=Şimdi kur
     licence_licence_expires_on=Lisansın süresinin bitişi:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?Lisansınızın süresi dolmak üzere
     licence_licence_information=Lisans bilgisi
     licence_licenced_to=Lisanslı:
     licence_maximum_licenced_agents=Maksimum lisanslı aracılar:
     licence_show_eula=Son kullanıcı lisans sözleşmesini göster
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?Yeni sürüm mevcut:
     licence_software_release=Yazılım sürümü:
     licence_website=Resmi QueueMetrics web sitesi bu adrestedir
     # 👽 list_amo_title -> AMO Campaigns
@@ -4382,8 +4382,8 @@ Other items
     qap_agent_settings_error=?Temsilci ayarları getirilirken hata oluştu.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?Temsilci durumu getirilirken hata oluştu.
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?Lisanslı müşteri temsilcisi sınırını aşıyor. Lütfen denetmeninize danışın.
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5041,8 +5041,8 @@ Other items
     reports_datablock_columns_short=?Sütunlar
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?Hata Mesajı
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?DataBlock bilgisi yüklenemiyor
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?Alt Başlık
     reports_datablock_label_subtitle=DataBlock notları
@@ -5194,8 +5194,8 @@ Other items
     # 👽 reports_import_schema_success -> Report Schema Imported Successfully.
     reports_import_schema_success=?Rapor Şeması Başarıyla İçe Aktarıldı.
     reports_invalid_input=Girdiğiniz değere izin verilmiyor
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?Bilgi
     reports_link_copy_successful=Pano'ya kopyalanan rapor URL'si
     # 👽 reports_lost_calls -> Lost Calls
     reports_lost_calls=?Kaybolan Çağrılar
@@ -5269,8 +5269,8 @@ Other items
     reports_qa_error_edit_form=?QA Formu Düzenlenirken Hata Oluştu
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?QA Formu Güncellenirken Hata Oluştu
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?Sınıflandırma Türü
     # 👽 reports_qa_items -> Items
     reports_qa_items=?Öğeler
     # 👽 reports_qa_level -> Level
@@ -5303,8 +5303,8 @@ Other items
     reports_qa_start=?Başlangıç Saati
     # 👽 reports_qa_status -> Status
     reports_qa_status=?Durum
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?Değerlendiren
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?Benzersiz Kimlik
     # 👽 reports_qa_value -> Value
@@ -5780,18 +5780,18 @@ Other items
     timeline_avg=?Ort.
     # 👽 timeline_close -> Return to Report
     timeline_close=?Rapora Geri Dön
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?Seçilen Sohbet silinecek. Devam edilsin mi?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?Konuşmacıları Düzenle
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?Düzenleme Geçmişini Görüntüle
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?Sohbeti Sil
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?Konuşmacı
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?Düzenlendi
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?Hata Ayıklama Bilgisini İndir
     # 👽 timeline_download_recording -> Download Recording
@@ -5848,12 +5848,12 @@ Other items
     timeline_tab_recordings=?Kayıtlar
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Sohbetler
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?Konuşmacı adları benzersiz olmalıdır
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?Hayır
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?Evet
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Toplam Süre
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

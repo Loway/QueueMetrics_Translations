@@ -2448,8 +2448,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_secnames=?Názvy sekcií
     # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?sekcia
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?Testovací AI dialóg
     # 👽 edit_record_qa_title -> QA: Forms Editor
     edit_record_qa_title=?QA: Editor formulárov
     # 👽 edit_record_qa_visibility -> Queue visibility:
@@ -2474,8 +2474,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_form=?Formulár
     # 👽 edit_record_qaitems_mandatory -> Item is mandatory:
     edit_record_qaitems_mandatory=?Položka je povinná:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?Vysvetlenie:
     # 👽 edit_record_qaitems_multivalue -> Multi value options:
     edit_record_qaitems_multivalue=?Možnosti s viacerými hodnotami:
     # 👽 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
@@ -2688,12 +2688,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?Rezervované o
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?Naposledy videné
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?Vstupné tokeny
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?Výstupné tokeny
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?Tokeny
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?Názov
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2867,8 +2867,8 @@ Used for data blocks Overview by Agent/Queue
     # 👽 qa_gradeedit_comment -> This form was edited. Previous graded score was
     qa_gradeedit_comment=?Tento formulár bol upravený. Predchádzajúce hodnotené skóre bolo
     qa_grading_change_criteria=Zmeniť vyhľadávacie kritériá
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?Zadajte aspoň jeden cieľ hodnotenia
     qa_grading_page=Stránka hodnotenia
     qa_grading_run_again=Spustiť znova
     qa_grading_search_form=Zotriedenie vyhľadávacieho formuláru
@@ -2877,8 +2877,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Kolegovia
     qa_gtype_caller=Užívatelia
     qa_gtype_grader=Hodnotiaci
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     qa_individual_agents=Individuálni agenti
     qa_input_form=Vstupný formulár:
     # 👽 qa_input_form_tasks -> Tasks
@@ -3106,60 +3106,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?AI hodnotenie
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?Komentár
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?Položka
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?Hodnota
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?Toto je požiadavka odoslaná do LLM modelu na vzorovom prepise hovoru. Upravte ju a skúste znova, aby ste videli, ako model reaguje.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?Požiadavka
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?Odpoveď
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?Testovací AI dialóg
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?Vyskúšať
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?Agent
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?Dĺžka hovoru
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?Volajúci
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?Dátum/čas
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?Fronta
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?Skóre
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?Tokeny
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?Čas hodnotenia
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?Neboli nájdené žiadne ďalšie hovory
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?Na prístup k tejto stránke potrebujete kľúč QA_TRACK
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?Pokusy
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?Priemerné skóre
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?Načítané hovory
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?Vyhodnotené
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?Chyby vyhodnotenia
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?Max. skóre
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?Min. skóre
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?Použité tokeny
 
 
 
@@ -4639,16 +4639,16 @@ Description of configuration properties
     propedit_option_yes=?Áno
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?Umožňuje prepisovanie informácií o hotdeskingu v poli data1 tabuľky queue_log
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?Integrácia AI
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?Všeobecné nastavenia
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?Tento regulárny výraz sa používa na priradenie UniqueId hovoru na základe názvu súboru. Napr. audio-(.+).wav zachytí uniqueid 1234.1235 z názvu súboru audio-1234.1235.wav. Ak zostane prázdne, UniqueId sa nezachytí.
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?Zapisovať vstup a výstup z/do modelu LLM do systémového logu
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?Predvolená hodnota minimálneho percenta hovorov hodnotených pre All calls na stránke Grader
 
 ## Editor of security keys
 
@@ -4740,14 +4740,14 @@ Description of security keys:
     keydesc_qa_calrep=?Prístup k správam o kalibrácii hodnotiaceho
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?Umožňuje prístup na stránku hodnotiaceho a súvisiace štatistiky
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?Umožňuje používateľom čítať chat a prepis interakcie
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?Umožňuje používateľom upravovať chat a prepis interakcie
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?Umožňuje používateľom vymazať chat a prepis interakcie
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?Umožňuje používateľom nahrať chat alebo prepis interakcie
 
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_rules=?Používateľ môže definovať sady pravidiel pre sledovanie výkonu agenta
@@ -4801,8 +4801,8 @@ Description of security keys:
     keydesc_tasks_rep=?Používateľ má prístup na kartu zobrazujúcu štatistiky úloh
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?Používateľ môže vidieť úlohy iných ľudí
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?Používateľ môže zobrazovať a aktualizovať prepisové servery
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?Tento kľúč musí mať každý platný používateľ
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -5745,14 +5745,14 @@ Other items
     licence_firefox_client=Verzia Firefox klienta:
     licence_install_now=Inštalované teraz
     licence_licence_expires_on=Ukončenie licencie:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?Platnosť vašej licencie čoskoro vyprší
     licence_licence_information=Informácia o licencii
     licence_licenced_to=Licencia pre:
     licence_maximum_licenced_agents=Maximálny počet agentov:
     licence_show_eula=Pozri licenčné podmienky
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?K dispozícii je nová verzia:
     licence_software_release=Verzia software:
     licence_website=Oficiálny web QueueMetrics
     # 👽 list_amo_title -> AMO Campaigns
@@ -6066,8 +6066,8 @@ Other items
     qap_agent_settings_error=?Chyba pri načítaní nastavení agenta.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?Chyba pri načítaní stavu agenta.
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?Prekročený limit licencovaných agentov. Kontaktujte svojho supervízora.
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -6755,8 +6755,8 @@ Other items
     reports_datablock_columns_short=?Stĺpce
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?Chybové hlásenie
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?Nepodarilo sa načítať informácie o DataBlocku
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?Podnadpis
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -6973,8 +6973,8 @@ Other items
     reports_import_schema_success=?Schéma prehľadu úspešne importovaná.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?Zadaná hodnota nie je povolená
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?Info
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?URL prehľadu skopírované do schránky
     # 👽 reports_lost_calls -> Lost Calls
@@ -7075,8 +7075,8 @@ Other items
     reports_qa_error_edit_form=?Chyba pri úprave QA formulára
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Chyba pri aktualizácii QA formulára
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?Typ hodnotiteľa
     # 👽 reports_qa_items -> Items
     reports_qa_items=?Položky
     # 👽 reports_qa_level -> Level
@@ -7109,8 +7109,8 @@ Other items
     reports_qa_start=?Čas začiatku
     # 👽 reports_qa_status -> Status
     reports_qa_status=?Stav
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?Hodnotil
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?Unikátne ID
     # 👽 reports_qa_value -> Value
@@ -7812,18 +7812,18 @@ Other items
     timeline_avg=?Priem.
     # 👽 timeline_close -> Return to Report
     timeline_close=?Návrat na prehľad
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?Vybraný chat bude vymazaný. Pokračovať?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?Upraviť rečníkov
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?Zobraziť históriu úprav
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?Vymazať chat
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?Rečník
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?Upravené
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?Stiahnuť ladiace informácie
     # 👽 timeline_download_recording -> Download Recording
@@ -7880,12 +7880,12 @@ Other items
     timeline_tab_recordings=?Nahrávky
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chaty
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?Mená rečníkov musia byť jedinečné
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?Nie
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?Áno
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Celk. Trv.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

@@ -1625,8 +1625,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=Κλειδί ασφαλείας για αναφορές:
     edit_record_qa_secnames=Ονόματα Ενοτήτων
     edit_record_qa_section=ενότητα
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?Δοκιμή διαλόγου AI
     edit_record_qa_title=QA: Επεξεργασία Φόρμών
     edit_record_qa_visibility=Ορατότητα Ουράς αναμονής:
     edit_record_qaformitem_activeif=Ενεργό εάν ... 
@@ -1639,8 +1639,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Κωδικός δέσμευσης:
     edit_record_qaitems_form=Φόρμα
     edit_record_qaitems_mandatory=Το στοιχείο είναι υποχρεωτικό:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?Επεξήγηση:
     edit_record_qaitems_multivalue=Επιλογές πολλαπλών τιμών:
     edit_record_qaitems_notuse=Αυτός ο κωδικός δέσμευσης δεν χρησιμοποιείται σε καμία μορφή.
     edit_record_qaitems_section=Το στοιχείο είναι συντόμευση ενότητας:
@@ -1753,12 +1753,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?Δεσμεύτηκε στις
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?Τελευταία εμφάνιση
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?Tokens Εισόδου
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?Tokens Εξόδου
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?Tokens
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?Όνομα
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -1893,8 +1893,8 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Τιμή
     qa_gradeedit_comment=Αυτή η φόρμα έχει υποστεί επεξεργασία. Η προηγούμενη βαθμολογηση ήταν
     qa_grading_change_criteria=Αλλαγή κριτηρίων αναζήτησης
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?Παρακαλώ εισάγετε τουλάχιστον έναν στόχο βαθμολόγησης
     qa_grading_page=Σελίδα βαθμολόγησης
     qa_grading_run_again=Εκτέλεση ξανά
     qa_grading_search_form=Φόρμα αναζήτησης βαθμολογίας
@@ -1903,8 +1903,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Συνεργάτες
     qa_gtype_caller=Χρήστες
     qa_gtype_grader=Βαθμολογητές
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     qa_individual_agents=Αυτόνομοι χρήστες
     qa_input_form=Φόρμα εισαγωγής
     qa_input_form_tasks=Εργασίες
@@ -2104,60 +2104,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?Βαθμολόγηση AI
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?Σχόλιο
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?Στοιχείο
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?Τιμή
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?Αυτό είναι το αίτημα που αποστέλλεται στη μηχανή LLM, πάνω σε ένα δείγμα απομαγνητοφώνησης κλήσης. Επεξεργαστείτε το και δοκιμάστε ξανά για να δείτε πώς αντιδρά το μοντέλο.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?Αίτημα
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?Απόκριση
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?Δοκιμή διαλόγου AI
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?Δοκιμάστε το
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?Χρήστης
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?Διάρκεια κλήσης
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?Καλών
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?Ημερομηνία/Ώρα
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?Ουρά αναμονής
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?Βαθμολογία
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?Tokens
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?Χρόνος βαθμολόγησης
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?Δεν βρέθηκαν άλλες κλήσεις
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?Χρειάζεστε το κλειδί QA_TRACK για να αποκτήσετε πρόσβαση σε αυτή τη σελίδα
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?Απόπειρες
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?Μέση βαθμολογία
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?Φορτωμένες κλήσεις
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?Αξιολογήθηκαν
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?Σφάλματα αξιολόγησης
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?Μέγ. βαθμολογία
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?Ελάχ. βαθμολογία
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?Tokens που χρησιμοποιήθηκαν
 
 
 
@@ -2966,16 +2966,16 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Ναι
     propedit_rewrite_hotdesking_desc=Επιτρέπει την επανεγγραφή των πληροφοριών hotdesking στο πεδίο data1 του πίνακα queue_log
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?Ενσωμάτωση AI
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?Γενικές Ρυθμίσεις
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?Αυτή η κανονική έκφραση (regexp) χρησιμοποιείται για την αντιστοίχιση του UniqueId της κλήσης με βάση το όνομα αρχείου. Π.χ. το audio-(.+).wav θα συλλάβει το uniqueid 1234.1235 από το όνομα αρχείου audio-1234.1235.wav. Αν αφεθεί κενό, δεν συλλαμβάνεται κανένα UniqueId
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?Εκτύπωση εισόδου και εξόδου από/προς το μοντέλο LLM στο αρχείο καταγραφής συστήματος
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?Προεπιλεγμένη τιμή του ελάχιστου ποσοστού βαθμολογημένων κλήσεων για Όλες τις κλήσεις στη σελίδα του Grader
 
 ## Editor of security keys
 
@@ -3027,14 +3027,14 @@ Description of security keys:
     keydesc_pbxapi=Ο χρήστης μπορεί να έχει πρόσβαση σε υπηρεσίες επιπέδου Τηλ. Κέντρου
     keydesc_qa_calrep=Πρόσβαση σε αναφορές ρύθμισης Βαθμολογητή
     keydesc_qa_grader=Επιτρέπει τη πρόσβαση στη σελίδα του Βαθμολογητή και σε σχετικά στατιστικά
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?Επιτρέπει στους χρήστες να διαβάζουν τη συνομιλία και την απομαγνητοφώνηση της αλληλεπίδρασης
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?Επιτρέπει στους χρήστες να επεξεργάζονται τη συνομιλία και την απομαγνητοφώνηση της αλληλεπίδρασης
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?Επιτρέπει στους χρήστες να διαγράφουν τη συνομιλία και την απομαγνητοφώνηση της αλληλεπίδρασης
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?Επιτρέπει στους χρήστες να φορτώνουν τη συνομιλία ή την απομαγνητοφώνηση της αλληλεπίδρασης
 
     keydesc_qa_perf_rules=Ο χρήστης μπορεί να προσδιορίσει σετ κανόνων για τον Αναλυτή Επίδοσης των Agent
     keydesc_qa_perf_track=Μπορεί να εκτελεστεί ο Αναλυτής Επίδοσης των Agent
@@ -3063,8 +3063,8 @@ Description of security keys:
     keydesc_tasks_push_tc=Ο χρήστης έχει πρόσβαση στη σελίδα Εκπαίδευσης και Καθοδήγησης για την αποστολή CBT και Εργασιών Εκπαίδευσης
     keydesc_tasks_rep=Ο χρήστης έχει πρόσβαση στο tab που δείχνει τα Στατιστικά Εργασιών
     keydesc_tasks_viewall=Ο χρήστης μπορεί να δει τις εργασίες των άλλων 
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?Ο χρήστης μπορεί να προβάλλει και να ενημερώνει τους διακομιστές απομαγνητοφώνησης
     keydesc_user=Το κλειδί αυτό πρέπει να κατέχεται από οποιαδήποτε έγκυρο χρήστη
     keydesc_usr_agent=Ο χρήστης μπορεί να επεξεργαστεί agents
     keydesc_usr_agroups=Ο χρήστης μπορεί να επεξεργαστεί τις παραμετροποιημένες ομάδες των agent
@@ -3697,14 +3697,14 @@ Other items
     licence_firefox_client=Έκδοση Firefox
     licence_install_now=Εγκατάσταση τώρα
     licence_licence_expires_on=Η άδεια λήγει στις:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?Η άδεια χρήσης σας πρόκειται να λήξει
     licence_licence_information=Πληροφορίες άδειας χρήσης
     licence_licenced_to=Κάτοχος αδείας:
     licence_maximum_licenced_agents=Μέγιστος αριθμός χρηστών με άδεια:
     licence_show_eula=Εμφάνιση Άδειας Χρήσης Τελικού Χρήστη (EULA)
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?Διαθέσιμη νέα έκδοση:
     licence_software_release=Έκδοση λογισμικού:
     licence_website=Το επίσημο website του QueueMetrics βρίσκεται
     list_amo_title=ΑΜΟ Καμπάνιες
@@ -3927,8 +3927,8 @@ Other items
     qap_agent_notifications_error=Σφάλμα κατά την αναζήτηση ειδοποιήσεων του χρήστη
     qap_agent_settings_error=Σφάλμα κατά την αναζήτηση ρυθμίσεων του χρήστη
     qap_agent_status_error=Σφάλμα κατά την αναζήτηση κατάστασης του χρήστη
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?Υπέρβαση του ορίου αδειοδοτημένων χρηστών. Παρακαλώ επικοινωνήστε με τον επιβλέποντά σας.
     qap_amo=AMO
     qap_amo_attributes=Χαρακτηριστικά
     qap_amo_cannot=Δεν μπορεί να κρατηθεί μια κλήση αυτή τη στιγμή
@@ -4337,8 +4337,8 @@ Other items
     reports_datablock_columns_customization=Προσαρμογή Στηλών
     reports_datablock_columns_short=Στήλες
     reports_datablock_errormsg=Μήνυμα Σφάλματος
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?Αδυναμία φόρτωσης πληροφοριών DataBlock
     reports_datablock_label_subtititle=Υπότιτλος
     reports_datablock_label_subtitle=Σημειώσεις DataBlock
     reports_datablock_label_title=Τίτλος
@@ -4464,8 +4464,8 @@ Other items
     reports_import_schema_error=Σφάλμα κατά την εισαγωγή Σχήματος Αναφοράς.
     reports_import_schema_success=Το Σχήμα Αναφοράς εισήχθη με επιτυχία.
     reports_invalid_input=Η τιμή που έχετε εισαγάγει δεν επιτρέπεται
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?Πληροφορίες
     reports_link_copy_successful=Η διεύθυνση URL της αναφοράς αντιγράφηκε στο πρόχειρο
     reports_lost_calls=Χαμένες Κλήσεις
     reports_modify_report_name=Τροποποίηση ονόματος Αναφοράς
@@ -4516,8 +4516,8 @@ Other items
     reports_qa_error_download_forms=Σφάλμα Κατά τη Λήψη Φορμών QA
     reports_qa_error_edit_form=Σφάλμα Κατά την Επεξεργασία Φόρμας QA
     reports_qa_error_update_form=Σφάλμα Κατά την Ενημέρωση Φόρμας QA
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?Τύπος Grader
     reports_qa_items=Αντικείμενα
     reports_qa_level=Επίπεδο
     reports_qa_na=N/A
@@ -4534,8 +4534,8 @@ Other items
     reports_qa_select_form=Επιλέξτε Φόρμα
     reports_qa_start=Ώρα Έναρξης
     reports_qa_status=Κατάσταση
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?Βαθμολογήθηκε από
     reports_qa_uid=Μοναδικό ID
     reports_qa_value=Τιμή
     reports_qa_print=Εκτύπωση
@@ -4977,18 +4977,18 @@ Other items
     t3_live_agent_info=Πληροφ. Ενεργού Χρήστη (Live)
     timeline_avg=Μ.Ο.
     timeline_close=Επιστροφή στην Αναφορά
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?Η επιλεγμένη Συνομιλία θα διαγραφεί. Συνέχεια;
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?Επεξεργασία Ομιλητών
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?Προβολή Ιστορικού Επεξεργασίας
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?Διαγραφή Συνομιλίας
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?Ομιλητής
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?Επεξεργάστηκε
     timeline_debug=Λήψη Πληροφοριών Σφαλμάτων  
     timeline_download_recording=Λήψη Ηχογράφησης  
     # 👽 timeline_download_chat_file -> Download File
@@ -5020,12 +5020,12 @@ Other items
     timeline_tab_recordings=Ηχογραφήσεις
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Συνομιλίες
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?Τα ονόματα ομιλητών πρέπει να είναι μοναδικά
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?Όχι
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?Ναι
     timeline_totdur=Συνολική Διάρκεια
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Συνεδρίες & Παύσεις Πρακτόρων

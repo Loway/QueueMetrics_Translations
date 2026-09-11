@@ -34,7 +34,7 @@ formats, standards).
 | QueueMetrics | Product name |
 | WombatDialer | Product name |
 | Teams | Refers to MS Teams — keep the name |
-| CSV, JSON, XML, HTML, PDF, XLS | File formats |
+| CSV, JSON, XML, HTML, PDF, XLS, Markdown | File / text formats |
 | SIP, AMI, HTTP(S), SMTP, RPC, API, URL, VNC, SSO, ICE | Protocols / standards |
 
 ---

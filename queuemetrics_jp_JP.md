@@ -2542,8 +2542,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_secnames=?セクション名
     # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?セクション
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?テストAIダイアログ
     # 👽 edit_record_qa_title -> QA: Forms Editor
     edit_record_qa_title=?QA：フォームエディター
     # 👽 edit_record_qa_visibility -> Queue visibility:
@@ -2568,8 +2568,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_form=?フォーム
     # 👽 edit_record_qaitems_mandatory -> Item is mandatory:
     edit_record_qaitems_mandatory=?アイテムは必須です:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?説明：
     # 👽 edit_record_qaitems_multivalue -> Multi value options:
     edit_record_qaitems_multivalue=?複数値オプション:
     # 👽 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
@@ -2782,12 +2782,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?予約日時
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?最終確認
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?入力トークン
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?出力トークン
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?トークン
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?名前
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2973,8 +2973,8 @@ Used for data blocks Overview by Agent/Queue
     # 👽 qa_gradeedit_comment -> This form was edited. Previous graded score was
     qa_gradeedit_comment=?このフォームは編集されました。以前の採点スコアは
     qa_grading_change_criteria=検索基準の変更
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?採点対象を少なくとも1つ入力してください
     qa_grading_page=ページの格付け
     qa_grading_run_again=再試行
     qa_grading_search_form=検索フォームの格付け
@@ -2986,8 +2986,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_caller=?ユーザー
     # 👽 qa_gtype_grader -> Graders
     qa_gtype_grader=?グレーダー
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     qa_individual_agents=個々のエージェント
     qa_input_form=入力フォーム
     # 👽 qa_input_form_tasks -> Tasks
@@ -3306,60 +3306,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?AI採点
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?コメント
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?項目
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?値
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?これはサンプルの通話文字起こしに対してLLMエンジンに送信されるリクエストです。編集してもう一度試し、モデルの反応を確認してください。
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?リクエスト
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?レスポンス
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?テストAIダイアログ
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?試す
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?エージェント
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?通話時間
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?発信者
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?日付/時刻
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?キュー
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?スコア
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?トークン
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?採点時間
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?他の通話が見つかりません
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?このページにアクセスするにはQA_TRACKキーが必要です
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?試行済み
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?平均スコア
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?読み込まれた通話数
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?評価済み
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?評価エラー
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?最大スコア
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?最小スコア
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?使用トークン数
 
 
 
@@ -4861,16 +4861,16 @@ Description of configuration properties
     propedit_option_yes=?はい
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?queue_logテーブルのdata1フィールドのホットデスク情報のリライトを有効にします
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?AI統合
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?一般設定
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?この正規表現は、ファイル名から通話のUniqueIdを照合するために使用されます。例えば、audio-(.+).wav はファイル名 audio-1234.1235.wav からuniqueid 1234.1235を取得します。空欄の場合、UniqueIdは取得されません。
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?LLMモデルへの入力および出力をシステムログに出力します
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?グレーダーページの「すべての通話」で採点される通話の最小割合のデフォルト値
 
 ## Editor of security keys
 
@@ -4962,14 +4962,14 @@ Description of security keys:
     keydesc_qa_calrep=?グレーダーキャリブレーションレポートへのアクセス
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?グレーダーのページと関連する統計へのアクセスを許可します
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?ユーザーがインタラクションのチャットと文字起こしを読むことを許可します
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?ユーザーがインタラクションのチャットと文字起こしを編集することを許可します
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?ユーザーがインタラクションのチャットと文字起こしを削除することを許可します
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?ユーザーがインタラクションのチャットまたは文字起こしを読み込むことを許可します
 
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_rules=?ユーザーはエージェントパフォーマンス追跡のルールセットを定義できます
@@ -5023,8 +5023,8 @@ Description of security keys:
     keydesc_tasks_rep=?ユーザーはタスク統計を表示するタブにアクセスできます
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?ユーザーは他の人のタスクを見ることができます
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?ユーザーは文字起こしサーバーを表示および更新できます
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?このキーは、有効なユーザーが保持する必要があります
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -6065,15 +6065,15 @@ Other items
     licence_firefox_client=Firefox　クライアントバージョン
     licence_install_now=今すぐインストール
     licence_licence_expires_on=：にライセンスの期限が切れます
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?ライセンスの有効期限が近づいています
     licence_licence_information=ライセンス情報
     licence_licenced_to=：するためのライセンスがある
     licence_maximum_licenced_agents=最大ライセンス保持エージェント数
     # 👽 licence_show_eula -> Show end-user licence agreement
     licence_show_eula=?エンドユーザーライセンス契約を表示
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?新しいバージョンが利用可能です：
     licence_software_release=ソフトウェアライセンス
     licence_website=キューメトリックスの公式ウェブサイトはこちらから
     # 👽 list_amo_title -> AMO Campaigns
@@ -6432,8 +6432,8 @@ Other items
     qap_agent_settings_error=?エージェント設定の取得中にエラーが発生しました。
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?エージェントステータスの取得中にエラーが発生しました。
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?ライセンスされたエージェント数の上限を超えています。スーパーバイザーにお問い合わせください。
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -7140,8 +7140,8 @@ Other items
     reports_datablock_columns_short=?列
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?エラーメッセージ
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?データブロック情報を読み込めません
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?サブタイトル
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -7366,8 +7366,8 @@ Other items
     reports_import_schema_success=?レポートスキーマが正常にインポートされました。
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?入力された値は許可されていません
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?情報
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?レポートURLがクリップボードにコピーされました
     # 👽 reports_lost_calls -> Lost Calls
@@ -7468,8 +7468,8 @@ Other items
     reports_qa_error_edit_form=?QAフォームの編集エラー
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?QAフォームの更新エラー
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?グレーダータイプ
     # 👽 reports_qa_items -> Items
     reports_qa_items=?項目
     # 👽 reports_qa_level -> Level
@@ -7502,8 +7502,8 @@ Other items
     reports_qa_start=?開始時間
     # 👽 reports_qa_status -> Status
     reports_qa_status=?ステータス
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?採点者
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?ユニークID
     # 👽 reports_qa_value -> Value
@@ -8240,18 +8240,18 @@ Other items
     timeline_avg=?平均
     # 👽 timeline_close -> Return to Report
     timeline_close=?レポートに戻る
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?選択したチャットは削除されます。続けますか？
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?話者を編集
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?編集履歴を表示
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?チャットを削除
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?話者
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?編集済み
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?デバッグ情報をダウンロード
     # 👽 timeline_download_recording -> Download Recording
@@ -8308,12 +8308,12 @@ Other items
     timeline_tab_recordings=?録音
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?チャット
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?話者名は一意である必要があります
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?いいえ
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?はい
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?合計時間
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

@@ -2109,8 +2109,8 @@ Used for data blocks Overview by Agent/Queue
     qa_grader_col_tokens=Token
     qa_grader_col_transcription_duration=Tempo di valutazione
     qa_grader_no_more_calls=Nessun'altra chiamata trovata
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?È necessaria la chiave QA_TRACK per accedere a questa pagina
     qa_grader_stat_attempted=Tentate
     qa_grader_stat_average_score=Punteggio medio
     qa_grader_stat_calls_loaded=Chiamate caricate
@@ -2975,8 +2975,8 @@ Description of security keys:
     keydesc_qa_grader=Può accedere alla pagina del Grader e statistiche relative
     keydesc_qa_chat_read=Consente agli utenti di leggere la chat e la trascrizione dell'interazione
     keydesc_qa_chat_edit=Consente agli utenti di modificare la chat e la trascrizione dell'interazione
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?Consente agli utenti di eliminare la chat e la trascrizione dell'interazione
     keydesc_qa_chat_write=Consente agli utenti di caricare la chat o la trascrizione dell'interazione
 
     keydesc_qa_perf_rules=Può definire gruppi di regole per l'Agent Performance Tracking

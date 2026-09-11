@@ -2680,8 +2680,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_secnames=?Szekciónevek
     # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?szekció
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?AI párbeszéd tesztelése
     # 👽 edit_record_qa_title -> QA: Forms Editor
     edit_record_qa_title=?QA: Űrlapszerkesztő
     # 👽 edit_record_qa_visibility -> Queue visibility:
@@ -2706,8 +2706,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_form=?Űrlap
     # 👽 edit_record_qaitems_mandatory -> Item is mandatory:
     edit_record_qaitems_mandatory=?Elem kötelező:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?Magyarázat:
     # 👽 edit_record_qaitems_multivalue -> Multi value options:
     edit_record_qaitems_multivalue=?Többértékű opciók:
     # 👽 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
@@ -2920,12 +2920,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?Lefoglalva ekkor
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?Utoljára látva
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?Bemeneti tokenek
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?Kimeneti tokenek
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?Tokenek
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?Név
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -3127,8 +3127,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gradeedit_comment=?Ezt az űrlapot szerkesztették. Az előző pontszám:
     # 👽 qa_grading_change_criteria -> Change search criteria
     qa_grading_change_criteria=?Keresési feltételek módosítása
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?Kérjük, adjon meg legalább egy értékelési célt
     # 👽 qa_grading_page -> Grading page
     qa_grading_page=?Értékelési oldal
     # 👽 qa_grading_run_again -> Run again
@@ -3145,8 +3145,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_caller=?Felhasználók
     # 👽 qa_gtype_grader -> Graders
     qa_gtype_grader=?Értékelők
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     # 👽 qa_individual_agents -> Individual agents
     qa_individual_agents=?Egyedi ügynökök
     qa_input_form=Betáplált forma
@@ -3512,60 +3512,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?AI értékelés
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?Megjegyzés
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?Elem
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?Érték
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?Ez a kérés kerül elküldésre az LLM motorhoz egy minta hívásátirat alapján. Szerkessze, majd próbálja újra, hogy lássa, hogyan reagál a modell.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?Kérés
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?Válasz
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?AI párbeszéd tesztelése
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?Kipróbálás
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?Közvetítő
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?Hívás időtartama
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?Hívó
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?Dátum/idő
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?Sor
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?Pontszám
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?Tokenek
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?Értékelési idő
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?Nem található több hívás
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?A QA_TRACK kulcs szükséges az oldal eléréséhez
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?Megkísérelve
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?Átlagos pontszám
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?Betöltött hívások
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?Kiértékelve
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?Kiértékelési hibák
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?Max. pontszám
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?Min. pontszám
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?Felhasznált tokenek
 
 
 
@@ -5078,16 +5078,16 @@ Description of configuration properties
     propedit_option_yes=?Igen
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?Engedélyezi a hotdesking információk átírását a queue_log tábla data1 mezőjében
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?AI integráció
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?Általános beállítások
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?Ez a reguláris kifejezés a hívás UniqueId azonosítójának megfeleltetésére szolgál a fájlnév alapján. Pl. az audio-(.+).wav kifejezés az 1234.1235 uniqueid-t rögzíti az audio-1234.1235.wav fájlnévből. Ha üresen marad, nem kerül rögzítésre UniqueId
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?Kiírja az LLM modelltől érkező és a modellnek küldött bemenetet/kimenetet a rendszernaplóba
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?Az Értékelő oldal 'Minden hívás' beállításánál pontozott hívások minimális százalékának alapértelmezett értéke
 
 ## Editor of security keys
 
@@ -5179,14 +5179,14 @@ Description of security keys:
     keydesc_qa_calrep=?Hozzáférés az értékelő kalibrációs jelentéseihez
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?Hozzáférés az Értékelő oldalhoz és a kapcsolódó statisztikákhoz
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?A felhasználó olvashatja az interakció csevegését és átiratát
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?A felhasználó szerkesztheti az interakció csevegését és átiratát
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?A felhasználó törölheti az interakció csevegését és átiratát
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?A felhasználó betöltheti az interakció csevegését vagy átiratát
 
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_rules=?A felhasználó szabályokat definiálhat az ügynök teljesítményének nyomon követéséhez
@@ -5240,8 +5240,8 @@ Description of security keys:
     keydesc_tasks_rep=?A felhasználó hozzáférhet a Feladatstatisztikákat mutató fülhöz
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?A felhasználó láthatja mások feladatait
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?A felhasználó megtekintheti és frissítheti az átírási szervereket
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?Ezt a kulcsot minden érvényes felhasználónak birtokolnia kell
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -6291,15 +6291,15 @@ Other items
     licence_firefox_client=Firefox kliens
     licence_install_now=Install most
     licence_licence_expires_on=Szerzõdés lejárata:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?A licence hamarosan lejár
     licence_licence_information=Szerzõdés információ
     licence_licenced_to=Szerzõdtetett:
     licence_maximum_licenced_agents=Maximum szerzõdtetett közvetítõk:
     # 👽 licence_show_eula -> Show end-user licence agreement
     licence_show_eula=?Végfelhasználói licencszerződés megjelenítése
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?Új verzió elérhető:
     licence_software_release=Szoftver kiadása:
     licence_website=A hivatalos QueueMetric weboldal megtalálható
     # 👽 list_amo_title -> AMO Campaigns
@@ -6717,8 +6717,8 @@ Other items
     qap_agent_settings_error=?Hiba az ügynök beállításainak lekérése közben.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?Hiba az ügynök állapotának lekérése közben.
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?Túllépi az engedélyezett közvetítők számát. Kérjük, forduljon a felügyelőjéhez.
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -7429,8 +7429,8 @@ Other items
     reports_datablock_columns_short=?Oszlopok
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?Hibaüzenet
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?Nem sikerült betölteni az adatblokk információit
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?Alcím
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -7655,8 +7655,8 @@ Other items
     reports_import_schema_success=?A jelentés séma sikeresen importálva.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?A megadott érték nem engedélyezett
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?Infó
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?A riport URL-je a vágólapra másolva
     # 👽 reports_lost_calls -> Lost Calls
@@ -7757,8 +7757,8 @@ Other items
     reports_qa_error_edit_form=?Hiba a QA űrlap szerkesztésekor
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Hiba a QA űrlap frissítésekor
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?Értékelő típusa
     # 👽 reports_qa_items -> Items
     reports_qa_items=?Elemek
     # 👽 reports_qa_level -> Level
@@ -7791,8 +7791,8 @@ Other items
     reports_qa_start=?Kezdési idő
     # 👽 reports_qa_status -> Status
     reports_qa_status=?Állapot
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?Értékelte
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?Egyedi azonosító
     # 👽 reports_qa_value -> Value
@@ -8550,18 +8550,18 @@ Other items
     timeline_avg=?Átl.
     # 👽 timeline_close -> Return to Report
     timeline_close=?Visszatérés a jelentéshez
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?A kijelölt csevegés törlésre kerül. Folytatja?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?Beszélők szerkesztése
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?Szerkesztési előzmények megtekintése
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?Csevegés törlése
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?Beszélő
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?Szerkesztve
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?Hibakeresési információk letöltése
     # 👽 timeline_download_recording -> Download Recording
@@ -8618,12 +8618,12 @@ Other items
     timeline_tab_recordings=?Felvételek
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Csevegések
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?A beszélők nevének egyedinek kell lennie
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?Nem
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?Igen
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Telj. Tart.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

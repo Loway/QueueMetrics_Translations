@@ -1840,8 +1840,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=报表安全Key：
     edit_record_qa_secnames=版块名称
     edit_record_qa_section=版块
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?测试 AI 对话
     edit_record_qa_title=质检：表单编辑
     edit_record_qa_visibility=队列可见性
     edit_record_qaformitem_activeif=活动，如果...
@@ -1854,8 +1854,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=参与代码：
     edit_record_qaitems_form=表单
     edit_record_qaitems_mandatory=项目必填：
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?说明：
     edit_record_qaitems_multivalue=多选项：
     edit_record_qaitems_notuse=该参与代码未被任何表单使用
     edit_record_qaitems_section=项目是版块缩写：
@@ -1978,12 +1978,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?预留时间
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?最后出现
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?输入令牌数
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?输出令牌数
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?令牌数
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?名称
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -2127,8 +2127,8 @@ Used for data blocks Overview by Agent/Queue
     # 👽 qa_gradeedit_comment -> This form was edited. Previous graded score was
     qa_gradeedit_comment=?此表格已编辑。先前的评分是
     qa_grading_change_criteria=改变搜索条件
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?请至少输入一个评级目标
     qa_grading_page=评级页面
     qa_grading_run_again=再次运行
     qa_grading_search_form=评级搜索表单
@@ -2137,8 +2137,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=终端
     qa_gtype_caller=用户
     qa_gtype_grader=评级者
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     qa_individual_agents=单个客服
     qa_input_form=输入表单
     # 👽 qa_input_form_tasks -> Tasks
@@ -2370,60 +2370,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?AI 评级
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?备注
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?项目
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?值
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?这是发送给 LLM 引擎的请求，基于示例通话记录。编辑后重新尝试，查看模型的反应。
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?请求
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?响应
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?测试 AI 对话
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?试一下
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?客服
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?通话时长
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?主叫
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?日期/时间
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?队列
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?得分
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?令牌数
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?评分时长
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?未找到其他通话
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?您需要 QA_TRACK 密钥才能访问此页面
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?已尝试
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?平均得分
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?已加载通话数
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?已评估
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?评估错误
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?最高得分
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?最低得分
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?已使用令牌数
 
 
 
@@ -3842,16 +3842,16 @@ Description of configuration properties
     propedit_option_yes=?是
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?启用在queue_log表的data1字段中重写热线信息
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?AI 集成
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?常规设置
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?此正则表达式用于根据文件名匹配通话的 UniqueId。例如，audio-(.+).wav 将从文件名 audio-1234.1235.wav 中捕获 uniqueid 1234.1235。如果留空，则不捕获 UniqueId
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?将 LLM 模型的输入和输出打印到系统日志
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?评级页面中“所有通话”选项下已评分通话的最低百分比默认值
 
 ## Editor of security keys
 
@@ -3906,14 +3906,14 @@ Description of security keys:
     keydesc_pbxapi=用户可以访问pbx级别服务
     keydesc_qa_calrep=访问分级标准报表
     keydesc_qa_grader=访问分机页面与关联分析
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?允许用户查看交互的聊天记录和转录内容
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?允许用户编辑交互的聊天记录和转录内容
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?允许用户删除交互的聊天记录和转录内容
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?允许用户加载交互的聊天记录或转录内容
 
     keydesc_qa_perf_rules=用户可以定义表现跟踪规则集
     keydesc_qa_perf_track=可以运行坐席表现跟踪
@@ -3946,8 +3946,8 @@ Description of security keys:
     keydesc_tasks_rep=?用户可以访问显示任务统计信息的选项卡
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?用户可以查看其他人的任务
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?用户可以查看和更新转录服务器
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?任何有效用户都必须持有此密钥
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -4832,14 +4832,14 @@ Other items
     licence_firefox_client=火狐版本
     licence_install_now=开始安装
     licence_licence_expires_on=许可证有效期至：
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?您的许可证即将到期
     licence_licence_information=许可证信息
     licence_licenced_to=授权给：
     licence_maximum_licenced_agents=最大许可客服数：
     licence_show_eula=显示最终用户许可协议
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?有新版本可用：
     licence_software_release=软件版本：
     licence_website=QueueMetrics官方网站：
     # 👽 list_amo_title -> AMO Campaigns
@@ -5152,8 +5152,8 @@ Other items
     qap_agent_settings_error=?获取座席设置时出错。
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?获取座席状态时出错。
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?超出授权客服数量限制。请联系您的主管。
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5841,8 +5841,8 @@ Other items
     reports_datablock_columns_short=?列
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?错误消息
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?无法加载数据块信息
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?子标题
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -6067,8 +6067,8 @@ Other items
     reports_import_schema_success=?报告架构已成功导入。
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?您输入的值不被允许
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?信息
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?报告 URL 已复制到剪贴板
     # 👽 reports_lost_calls -> Lost Calls
@@ -6169,8 +6169,8 @@ Other items
     reports_qa_error_edit_form=?编辑 QA 表单时出错
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?更新 QA 表单时出错
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?评级类型
     # 👽 reports_qa_items -> Items
     reports_qa_items=?项目
     # 👽 reports_qa_level -> Level
@@ -6203,8 +6203,8 @@ Other items
     reports_qa_start=?开始时间
     # 👽 reports_qa_status -> Status
     reports_qa_status=?状态
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?评级人
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?唯一 ID
     # 👽 reports_qa_value -> Value
@@ -6908,18 +6908,18 @@ Other items
     timeline_avg=?平均
     # 👽 timeline_close -> Return to Report
     timeline_close=?返回报表
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?所选聊天记录将被删除。是否继续？
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?编辑发言人
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?查看编辑历史
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?删除聊天记录
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?发言人
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?已编辑
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?下载调试信息
     # 👽 timeline_download_recording -> Download Recording
@@ -6976,12 +6976,12 @@ Other items
     timeline_tab_recordings=?录音
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?聊天
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?发言人姓名必须唯一
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?否
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?是
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?总持续时间
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

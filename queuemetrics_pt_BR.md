@@ -1666,8 +1666,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=Chave de Segurança para relatórios:
     edit_record_qa_secnames=Nomes de Sessão
     edit_record_qa_section=Seção
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?Testar diálogo de IA
     edit_record_qa_title=Editor de Formulários
     edit_record_qa_visibility=Visibilidade da Fila:
     edit_record_qaformitem_activeif=Ativo se...
@@ -1680,8 +1680,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Código de compromisso:
     edit_record_qaitems_form=Formulário
     edit_record_qaitems_mandatory=O ítem é obrigatório:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?Explicação:
     edit_record_qaitems_multivalue=Opções de múltiplos valores:
     edit_record_qaitems_notuse=Este Código de Compromisso não está em uso de nenhuma forma.
     edit_record_qaitems_section=O ítem é um atalho de seção:
@@ -1794,12 +1794,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?Reservado em
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?Visto por último
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?Tokens de Entrada
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?Tokens de Saída
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?Tokens
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?Nome
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -1934,8 +1934,8 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Valor
     qa_gradeedit_comment=Este formulário foi alterado. A pontuação anterior era
     qa_grading_change_criteria=Alterar critério de pesquisa
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?Por favor, insira ao menos um alvo de classificação
     qa_grading_page=Página de Classificação
     qa_grading_run_again=Repetir execução
     qa_grading_search_form=Formulário de pesquisa da classificação
@@ -1944,8 +1944,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Colegas
     qa_gtype_caller=Usuários
     qa_gtype_grader=Niveladores
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?IA
     qa_individual_agents=Agentes individuais
     qa_input_form=Formulário de entrada
     qa_input_form_tasks=Tarefas
@@ -2146,60 +2146,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?Classificação por IA
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?Comentário
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?Ítem
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?Valor
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?Esta é a requisição enviada ao motor de LLM, sobre uma transcrição de chamada de exemplo. Edite-a e tente novamente para ver como o modelo reage.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?Requisição
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?Resposta
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?Testar diálogo de IA
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?Tentar
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?Agente
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?Duração da chamada
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?Originador
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?Data/hora
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?Fila
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?Pontuação
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?Tokens
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?Tempo de pontuação
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?Nenhuma outra chamada encontrada
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?Você precisa da chave QA_TRACK para acessar esta página
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?Tentativas
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?Pontuação média
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?Chamadas carregadas
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?Avaliadas
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?Erros de avaliação
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?Pontuação máx.
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?Pontuação mín.
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?Tokens utilizados
 
 
 
@@ -3020,16 +3020,16 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Sim
     propedit_rewrite_hotdesking_desc=Permite a regravação de informações de hotdesking no campo data1 da tabela queue_log
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?Integração de IA
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?Configurações Gerais
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?Esta expressão regular é usada para capturar o UniqueId da chamada a partir do nome do arquivo. Ex.: audio-(.+).wav capturará o uniqueid 1234.1235 do arquivo audio-1234.1235.wav. Se deixado em branco, nenhum UniqueId será capturado
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?Imprime a entrada e saída de/para o modelo LLM no log do sistema
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?Valor padrão da porcentagem mínima de chamadas pontuadas para Todas as chamadas na página do Grader
 
 ## Editor of security keys
 
@@ -3081,14 +3081,14 @@ Description of security keys:
     keydesc_pbxapi=O usuário pode acessar os serviços de PBX
     keydesc_qa_calrep=Acesso ao calibrador de grade de relatórios
     keydesc_qa_grader=Permite acesso ao calibrador de grade de relatórios e estatísticas relacionadas
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?Permite aos usuários ler o chat e a transcrição da interação
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?Permite aos usuários editar o chat e a transcrição da interação
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?Permite aos usuários excluir o chat e a transcrição da interação
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?Permite aos usuários carregar o chat ou a transcrição da interação
 
     keydesc_qa_perf_rules=Usuário pode definir grupos de regras para o Analisador de Performance do Agente
     keydesc_qa_perf_track=Pode executar o Analisador de Performance do Agente
@@ -3117,8 +3117,8 @@ Description of security keys:
     keydesc_tasks_push_tc=Usuário pode acessar a página de Treinamento e Instrução para enviar CBTs e tarefas de instrução
     keydesc_tasks_rep=Usuário pode acessar a aba que mostra as estatísticas das tarefas
     keydesc_tasks_viewall=Usuário pode ver as tarefas de outras pessoas
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?Usuário pode ver e atualizar os servidores de transcrição
     keydesc_user=A chave deve estar em posse de um usuário válido
     keydesc_usr_agent=Usuário pode editar os agentes
     keydesc_usr_agroups=Usuário pode editar os grupos de agentes customizados
@@ -3767,14 +3767,14 @@ Other items
     licence_firefox_client=Versão do cliente para Firefox
     licence_install_now=Instalar
     licence_licence_expires_on=A licença expira em:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?Sua licença está prestes a expirar
     licence_licence_information=Informações sobre licenciamento
     licence_licenced_to=Licenciado para:
     licence_maximum_licenced_agents=Número máximo de agentes permitidos:
     licence_show_eula=Mostra o contrado de licença (EULA)
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?Nova versão disponível:
     licence_software_release=Versão do software:
     licence_website=O website oficial do QueueMetrics está localizado em
     list_amo_title=Campanha AMO
@@ -4001,8 +4001,8 @@ Other items
     qap_agent_notifications_error=Erro enquanto buscava as notificações do agente.
     qap_agent_settings_error=Erro enquanto buscava as configurações do agente
     qap_agent_status_error=Erro enquanto buscava o estado do agente.
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?Excede o limite de agentes licenciados. Por favor, consulte seu supervisor.
     qap_amo=AMO
     qap_amo_attributes=Atributos
     qap_amo_cannot=Impossível reservar a chamada nesta hora.
@@ -4419,8 +4419,8 @@ Other items
     reports_datablock_columns_customization=Personalizar Colunas
     reports_datablock_columns_short=Colunas
     reports_datablock_errormsg=Mensagem de Erro
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?Não foi possível carregar as informações do DataBlock
     reports_datablock_label_subtititle=Sub-título
     reports_datablock_label_subtitle=Notas do DataBlock
     reports_datablock_label_title=Título do DataBlock
@@ -4548,8 +4548,8 @@ Other items
     reports_import_schema_error=Erro enquanto importava esquema de relatório
     reports_import_schema_success=Esquema de relatório importado com êxito
     reports_invalid_input=O valor que você inseriu não é permitido
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?Info
     reports_link_copy_successful=URL do relatório copiado para a área de transferência
     reports_lost_calls=Chamadas perdidas
     reports_modify_report_name=Modificar o nome do relatório
@@ -4600,8 +4600,8 @@ Other items
     reports_qa_error_download_forms=Erro ao baixar formulário de QA
     reports_qa_error_edit_form=Erro ao editar formulário de QA
     reports_qa_error_update_form=Erro ao atualizar formulário de QA
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?Tipo de Grader
     reports_qa_items=Itens
     reports_qa_level=Nível
     reports_qa_na=N/A
@@ -4619,8 +4619,8 @@ Other items
     reports_qa_select_form=Selecionar formulário
     reports_qa_start=Hora de início
     reports_qa_status=Estado
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?Avaliado por
     reports_qa_uid=ID Único
     reports_qa_value=Valor
     # 👽 reports_qa_print -> Print
@@ -5070,18 +5070,18 @@ Other items
     t3_live_agent_info=Informações de Agentes On line
     timeline_avg=Média
     timeline_close=Voltar ao relatório
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?O chat selecionado será excluído. Continuar?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?Editar Interlocutores
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?Ver Histórico de Edições
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?Excluir Chat
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?Interlocutor
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?Editado
     timeline_debug=Baixar informações de Debug
     timeline_download_recording=Baixar gravação
     # 👽 timeline_download_chat_file -> Download File
@@ -5113,12 +5113,12 @@ Other items
     timeline_tab_recordings=Gravações
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?Chats
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?Os nomes dos interlocutores devem ser únicos
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?Não
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?Sim
     timeline_totdur=Dur. Total
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
     title_do_agentsdo=?Sessões e Pausas de Agentes

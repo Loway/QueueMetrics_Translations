@@ -432,8 +432,7 @@ Other items
     elp_uploadnumbers=Номера для загрузки
     email_subj_campaign=Кампания:
     email_subj_state=в состоянии
-    # 🔴 empty -> 
-    ➡️ empty=
+    empty= 
     epde_asteriskserver=Сервер Asterisk
     epde_boostfactor=Коэффициент повышения
     epde_capacity=Число линий

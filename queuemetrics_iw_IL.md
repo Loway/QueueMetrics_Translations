@@ -1627,8 +1627,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=מפתח אבטחה לדוחות:
     edit_record_qa_secnames=שמות מקטעים
     edit_record_qa_section=מקטע
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?בדיקת דיאלוג AI
     edit_record_qa_title=בקרת איכות: עורך טפסים
     edit_record_qa_visibility=נראות תור:
     edit_record_qaformitem_activeif=פעיל אם...
@@ -1641,8 +1641,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=קוד מעקב:
     edit_record_qaitems_form=טופס
     edit_record_qaitems_mandatory=שדה חובה:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?הסבר:
     edit_record_qaitems_multivalue=אפשרויות מרובות:
     edit_record_qaitems_notuse=קוד זה לא בשימוש באף טופס.
     edit_record_qaitems_section=קיצור לקטע:
@@ -1755,12 +1755,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?שוריין בתאריך
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?נראה לאחרונה
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?קלט טוקנים
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?פלט טוקנים
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?טוקנים
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?שם
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -1933,8 +1933,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gradeedit_comment=?הטופס נערך. הציון הקודם היה
     # 👽 qa_grading_change_criteria -> Change search criteria
     qa_grading_change_criteria=?שנה קריטריוני חיפוש
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?נא להזין לפחות יעד ניקוד אחד
     # 👽 qa_grading_page -> Grading page
     qa_grading_page=?עמוד דירוג
     # 👽 qa_grading_run_again -> Run again
@@ -1951,8 +1951,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_caller=?משתמשים
     # 👽 qa_gtype_grader -> Graders
     qa_gtype_grader=?מדרגים
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     # 👽 qa_individual_agents -> Individual agents
     qa_individual_agents=?נציגים בודדים
     # 👽 qa_input_form -> Input form
@@ -2347,60 +2347,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?ניקוד AI
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?הערה
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?פריט
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?ערך
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?זוהי הבקשה הנשלחת למנוע ה-LLM, על תמליל שיחה לדוגמה. ערוך אותה ונסה שוב כדי לראות כיצד המודל מגיב.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?בקשה
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?תגובה
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?בדיקת דיאלוג AI
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?נסה
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?נציג
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?משך שיחה
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?מתקשר
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?תאריך/שעה
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?תור
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?ציון
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?טוקנים
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?זמן ניקוד
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?לא נמצאו שיחות נוספות
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?עליך להחזיק במפתח QA_TRACK כדי לגשת לדף זה
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?נוסו
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?ציון ממוצע
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?שיחות שנטענו
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?הוערכו
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?שגיאות הערכה
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?ציון מקס.
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?ציון מין.
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?טוקנים בשימוש
 
 
 
@@ -3238,16 +3238,16 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=כן
     propedit_rewrite_hotdesking_desc=מאפשר שכתוב של מידע Hotdesking בשדה data1 של טבלת queue_log
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?שילוב AI
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?הגדרות כלליות
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?ביטוי רגולרי זה משמש להתאמת ה-UniqueId של השיחה על סמך שם הקובץ. לדוגמה, audio-(.+).wav ילכוד את uniqueid 1234.1235 מתוך שם הקובץ audio-1234.1235.wav. אם נותר ריק, לא ייתפס UniqueId
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?הדפס קלט ופלט מ/אל מודל ה-LLM ליומן המערכת
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?ערך ברירת המחדל של אחוז המינימום של שיחות שמנוקדות עבור All calls בדף הבודק
 
 ## Editor of security keys
 
@@ -3338,14 +3338,14 @@ Description of security keys:
     keydesc_qa_calrep=?גישה לדוחות כיול בודק
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?מאפשר גישה לדף הבודק ולסטטיסטיקות קשורות
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?מאפשר למשתמשים לקרוא את הצ'אט והתמלול של האינטראקציה
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?מאפשר למשתמשים לערוך את הצ'אט והתמלול של האינטראקציה
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?מאפשר למשתמשים למחוק את הצ'אט והתמלול של האינטראקציה
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?מאפשר למשתמשים לטעון את הצ'אט או התמלול של האינטראקציה
 
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_rules=?משתמש יכול להגדיר כללים למעקב ביצועי נציג
@@ -3399,8 +3399,8 @@ Description of security keys:
     keydesc_tasks_rep=?משתמש יכול לגשת ללשונית המציגה סטטיסטיקות משימות
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?משתמש יכול לראות משימות של אנשים אחרים
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?משתמש יכול לצפות בשרתי תמלול ולעדכן אותם
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?מפתח זה חייב להיות מוחזק על ידי כל משתמש חוקי
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -4244,8 +4244,8 @@ Other items
     licence_install_now=?התקן כעת
     # 👽 licence_licence_expires_on -> Licence expires on:
     licence_licence_expires_on=?תוקף הרישיון יפוג ב:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?הרישיון שלך עומד לפוג
     # 👽 licence_licence_information -> Licence information
     licence_licence_information=?פרטי רישיון
     # 👽 licence_licenced_to -> Licenced to:
@@ -4254,8 +4254,8 @@ Other items
     licence_maximum_licenced_agents=?מקסימום נציגים ברישיון:
     # 👽 licence_show_eula -> Show end-user licence agreement
     licence_show_eula=?הצג הסכם רישיון למשתמש קצה
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?גרסה חדשה זמינה:
     # 👽 licence_software_release -> Software release:
     licence_software_release=?מהדורת תוכנה:
     # 👽 licence_website -> The official QueueMetrics website is located at
@@ -4680,8 +4680,8 @@ Other items
     qap_agent_settings_error=?שגיאה באחזור הגדרות נציג.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?שגיאה באחזור סטטוס נציג.
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?חורג ממגבלת הנציגים המורשית ברישיון. אנא פנה למפקח שלך.
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5382,8 +5382,8 @@ Other items
     reports_datablock_columns_short=?עמודות
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?הודעת שגיאה
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?לא ניתן לטעון מידע DataBlock
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?כותרת משנה
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -5608,8 +5608,8 @@ Other items
     reports_import_schema_success=?סכימת הדוח יובאה בהצלחה.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?הערך שהזנת אינו מותר
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?מידע
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?כתובת אתר הדוח הועתקה ללוח
     # 👽 reports_lost_calls -> Lost Calls
@@ -5710,8 +5710,8 @@ Other items
     reports_qa_error_edit_form=?שגיאה בעריכת טופס QA
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?שגיאה בעדכון טופס QA
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?סוג בודק
     # 👽 reports_qa_items -> Items
     reports_qa_items=?פריטים
     # 👽 reports_qa_level -> Level
@@ -5744,8 +5744,8 @@ Other items
     reports_qa_start=?זמן התחלה
     # 👽 reports_qa_status -> Status
     reports_qa_status=?סטטוס
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?נוקד על ידי
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?מזהה ייחודי
     # 👽 reports_qa_value -> Value
@@ -6497,18 +6497,18 @@ Other items
     timeline_avg=?ממוצע
     # 👽 timeline_close -> Return to Report
     timeline_close=?חזור לדוח
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?הצ'אט שנבחר יימחק. להמשיך?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?ערוך דוברים
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?צפה בהיסטוריית עריכות
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?מחק צ'אט
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?דובר
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?נערך
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?הורד פרטי ניפוי באגים
     # 👽 timeline_download_recording -> Download Recording
@@ -6565,12 +6565,12 @@ Other items
     timeline_tab_recordings=?הקלטות
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?צ'אטים
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?שמות הדוברים חייבים להיות ייחודיים
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?לא
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?כן
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?משך כולל
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

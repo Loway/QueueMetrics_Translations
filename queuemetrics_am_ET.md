@@ -2936,8 +2936,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_secnames=?የክፍል ስሞች
     # 👽 edit_record_qa_section -> Section
     edit_record_qa_section=?ክፍል
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?የAI ውይይት ሙከራ
     # 👽 edit_record_qa_title -> QA: Forms Editor
     edit_record_qa_title=?QA: የቅጾች አርታዒ
     # 👽 edit_record_qa_visibility -> Queue visibility:
@@ -2962,8 +2962,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_form=?ቅጽ
     # 👽 edit_record_qaitems_mandatory -> Item is mandatory:
     edit_record_qaitems_mandatory=?ንጥሉ ግዴታ ነው:
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?ማብራሪያ:
     # 👽 edit_record_qaitems_multivalue -> Multi value options:
     edit_record_qaitems_multivalue=?ባለብዙ እሴት አማራጮች:
     # 👽 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
@@ -3176,12 +3176,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?የተያዘበት
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?መጨረሻ የታየበት
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?የግቤት ቶከኖች
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?የውጤት ቶከኖች
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?ቶከኖች
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?ስም
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -3399,8 +3399,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gradeedit_comment=?ይህ ቅጽ ተስተካክሏል። የቀደመው የተመዘገበው ውጤት
     # 👽 qa_grading_change_criteria -> Change search criteria
     qa_grading_change_criteria=?የፍለጋ መመዘኛዎችን ይቀይሩ
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?እባክዎ ቢያንስ አንድ የደረጃ አሰጣጥ ዒላማ ያስገቡ
     # 👽 qa_grading_page -> Grading page
     qa_grading_page=?የደረጃ መስጫ ገጽ
     # 👽 qa_grading_run_again -> Run again
@@ -3417,8 +3417,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_caller=?ተጠቃሚዎች
     # 👽 qa_gtype_grader -> Graders
     qa_gtype_grader=?ደረጃ ሰጪዎች
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     # 👽 qa_individual_agents -> Individual agents
     qa_individual_agents=?የግለሰብ ወኪሎች
     # 👽 qa_input_form -> Input form
@@ -3813,60 +3813,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?የAI ደረጃ አሰጣጥ
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?አስተያየት
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?ንጥል
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?ዋጋ
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?ይህ ወደ LLM ሞተር በናሙና የጥሪ ግልባጭ ላይ የተላከው ጥያቄ ነው። አርትዕ አድርገው ሞዴሉ እንዴት እንደሚምላሽ ለማየት እንደገና ይሞክሩ።
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?ጥያቄ
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?ምላሽ
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?የAI ውይይት ሙከራ
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?ይሞክሩት
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?ወኪል
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?የጥሪ ቆይታ
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?ደዋይ
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?ቀን/ሰዓት
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?ወረፋ
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?ውጤት
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?ቶከኖች
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?የደረጃ አሰጣጥ ጊዜ
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?ሌላ ጥሪ አልተገኘም
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?ይህን ገጽ ለመድረስ QA_TRACK ቁልፍ ያስፈልግዎታል
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?የተሞከረ
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?አማካይ ውጤት
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?የተጫኑ ጥሪዎች
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?የተገመገመ
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?የግምገማ ስህተቶች
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?ከፍተኛ ውጤት
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?ዝቅተኛ ውጤት
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?የተጠቀሙ ቶከኖች
 
 
 
@@ -5438,16 +5438,16 @@ Description of configuration properties
     propedit_option_yes=?አዎ
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?በqueue_log ሠንጠረዥ የውሂብ1 መስክ ውስጥ የ hotdesking መረጃን እንደገና መጻፍን ያነቃል።
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?የAI ውህደት
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?አጠቃላይ ቅንብሮች
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?ይህ regexp የፋይሉን ስም መሰረት በማድረግ የጥሪውን UniqueId ለማዛመድ ይጠቅማል። ለምሳሌ audio-(.+).wav ከፋይል ስም audio-1234.1235.wav uniqueid 1234.1235ን ይይዛል። ባዶ ከተተወ፣ UniqueId አይያዝም
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?ከLLM ሞዴል የሚገባውን እና የሚወጣውን በስርዓት ምዝግብ ማስታወሻ ላይ ያትሙ
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?በGrader ገጽ ላይ ለሁሉም ጥሪዎች ደረጃ ለሚሰጣቸው ጥሪዎች ዝቅተኛ መቶኛ ነባሪ ዋጋ
 
 ## Editor of security keys
 
@@ -5539,14 +5539,14 @@ Description of security keys:
     keydesc_qa_calrep=?ለ Grader calibration ሪፖርቶች መዳረሻ
     # 👽 keydesc_qa_grader -> Allows access to the Grader’s page and related statistics
     keydesc_qa_grader=?ወደ Grader ገጽ እና ተዛማጅ ስታቲስቲክስ መዳረሻን ይፈቅዳል።
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?ተጠቃሚዎች የግንኙነቱን ውይይት እና ግልባጭ እንዲያነቡ ይፈቅዳል
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?ተጠቃሚዎች የግንኙነቱን ውይይት እና ግልባጭ እንዲያርትዑ ይፈቅዳል
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?ተጠቃሚዎች የግንኙነቱን ውይይት እና ግልባጭ እንዲሰርዙ ይፈቅዳል
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?ተጠቃሚዎች የግንኙነቱን ውይይት ወይም ግልባጭ እንዲጭኑ ይፈቅዳል
 
     # 👽 keydesc_qa_perf_rules -> User can define rulesets for Agent Performance Tracking
     keydesc_qa_perf_rules=?ተጠቃሚ ለወኪል የአፈጻጸም ክትትል ህጎችን መግለጽ ይችላል
@@ -5600,8 +5600,8 @@ Description of security keys:
     keydesc_tasks_rep=?ተጠቃሚ የTask Statistics የሚያሳይ ትሩን መድረስ ይችላል።
     # 👽 keydesc_tasks_viewall -> User can see other people’s tasks
     keydesc_tasks_viewall=?ተጠቃሚ የሌሎችን ተግባራት ማየት ይችላል
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?ተጠቃሚ የግልባጭ ሰርቨሮችን ማየት እና ማዘመን ይችላል
     # 👽 keydesc_user -> This key Must be held by any valid user
     keydesc_user=?ይህ ቁልፍ በማንኛውም ትክክለኛ ተጠቃሚ መያዝ አለበት
     # 👽 keydesc_usr_agent -> User can edit agents
@@ -6657,8 +6657,8 @@ Other items
     licence_install_now=?አሁን ጫን
     # 👽 licence_licence_expires_on -> Licence expires on:
     licence_licence_expires_on=?ፈቃዱ የሚያበቃው በ:
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?ፈቃድዎ ሊያበቃ ተቃርቧል
     # 👽 licence_licence_information -> Licence information
     licence_licence_information=?የፍቃድ መረጃ
     # 👽 licence_licenced_to -> Licenced to:
@@ -6667,8 +6667,8 @@ Other items
     licence_maximum_licenced_agents=?ከፍተኛው ፈቃድ የተሰጣቸው ወኪሎች:
     # 👽 licence_show_eula -> Show end-user licence agreement
     licence_show_eula=?የመጨረሻ ተጠቃሚ የፍቃድ ስምምነትን አሳይ
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?አዲስ ስሪት ይገኛል:
     # 👽 licence_software_release -> Software release:
     licence_software_release=?የሶፍትዌር ልቀት:
     # 👽 licence_website -> The official QueueMetrics website is located at
@@ -7111,8 +7111,8 @@ Other items
     qap_agent_settings_error=?የወኪል ቅንብሮችን በሚያመጣበት ጊዜ ስህተት ተገኝቷል።
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?የወኪል ሁኔታን በሚያመጣበት ጊዜ ስህተት ተገኝቷል።
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?የፈቃድ ወኪል ገደብን ይበልጣል። እባክዎ ተቆጣጣሪዎን ይጠይቁ።
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -7823,8 +7823,8 @@ Other items
     reports_datablock_columns_short=?አምዶች
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?የስህተት መልዕክት
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?የDataBlock መረጃን መጫን አልተቻለም
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?ንዑስ ርዕስ
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -8049,8 +8049,8 @@ Other items
     reports_import_schema_success=?የሪፖርት ንድፍ በተሳካ ሁኔታ አስመጣ።
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?ያስገቡት እሴት አይፈቀድም
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?መረጃ
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?የሪፖርት ዩአርኤል ወደ ቅንጥብ ሰሌዳ ተገልብጧል
     # 👽 reports_lost_calls -> Lost Calls
@@ -8151,8 +8151,8 @@ Other items
     reports_qa_error_edit_form=?QA ቅጽን በማስተካከል ላይ ስህተት ተፈጥሯል
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?QA ቅጽን በማዘመን ላይ ስህተት ተፈጥሯል
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?የደረጃ ሰጪ ዓይነት
     # 👽 reports_qa_items -> Items
     reports_qa_items=?ንጥሎች
     # 👽 reports_qa_level -> Level
@@ -8185,8 +8185,8 @@ Other items
     reports_qa_start=?የመነሻ ሰዓት
     # 👽 reports_qa_status -> Status
     reports_qa_status=?ሁኔታ
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?ደረጃ የተሰጠው በ
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?ልዩ መለያ
     # 👽 reports_qa_value -> Value
@@ -9048,18 +9048,18 @@ Other items
     timeline_avg=?አማካይ.
     # 👽 timeline_close -> Return to Report
     timeline_close=?ወደ ሪፖርት ተመለስ
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?የተመረጠው ውይይት ይሰረዛል። ይቀጥሉ?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?ተናጋሪዎችን አርትዕ
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?የአርትዖት ታሪክን ይመልከቱ
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?ውይይት ሰርዝ
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?ተናጋሪ
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?ተስተካክሏል
     # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?የማረም መረጃን ያውርዱ
     # 👽 timeline_download_recording -> Download Recording
@@ -9116,12 +9116,12 @@ Other items
     timeline_tab_recordings=?ቅጂዎች
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?ውይይቶች
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?የተናጋሪ ስሞች ልዩ መሆን አለባቸው
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?አይ
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?አዎ
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?ጠቅላላ ቆይታ.
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses

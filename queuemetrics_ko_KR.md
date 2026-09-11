@@ -1711,8 +1711,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qa_reportkey=보고서용 보안키(Key) : 
     edit_record_qa_secnames=섹션 명 
     edit_record_qa_section=섹션
-    # 🔴 edit_record_qa_testaidialog -> Test AI dialog
-    ➡️ edit_record_qa_testaidialog=
+    # 👽 edit_record_qa_testaidialog -> Test AI dialog
+    edit_record_qa_testaidialog=?AI 대화 테스트
     edit_record_qa_title=QA: 양식 편집기
     edit_record_qa_visibility=대상 대기큐(Queue) : 
     edit_record_qaformitem_activeif=활성화 조건...
@@ -1725,8 +1725,8 @@ Used for data blocks Overview by Agent/Queue
     edit_record_qaitems_code=Engagement 코드:
     edit_record_qaitems_form=양식
     edit_record_qaitems_mandatory=필수 아이템 : 
-    # 🔴 edit_record_qaitems_explanation -> Explanation:
-    ➡️ edit_record_qaitems_explanation=
+    # 👽 edit_record_qaitems_explanation -> Explanation:
+    edit_record_qaitems_explanation=?설명:
     edit_record_qaitems_multivalue=다중값 옵션 : 
     edit_record_qaitems_notuse=이 Engagement 코드는 어떤 양식에서도 사용되고 있지 않습니다.
     edit_record_qaitems_section='섹션 shortcut' 여부 : 
@@ -1849,12 +1849,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_reserverd_at=?예약 시각
     # 👽 edit_record_transcription_channel_last_seen -> Last Seen
     edit_record_transcription_channel_last_seen=?마지막 확인
-    # 🔴 edit_record_transcription_channel_tokens_in -> Tokens Input
-    ➡️ edit_record_transcription_channel_tokens_in=
-    # 🔴 edit_record_transcription_channel_tokens_out -> Tokens Output
-    ➡️ edit_record_transcription_channel_tokens_out=
-    # 🔴 edit_record_transcription_channel_tokens -> Tokens
-    ➡️ edit_record_transcription_channel_tokens=
+    # 👽 edit_record_transcription_channel_tokens_in -> Tokens Input
+    edit_record_transcription_channel_tokens_in=?입력 토큰
+    # 👽 edit_record_transcription_channel_tokens_out -> Tokens Output
+    edit_record_transcription_channel_tokens_out=?출력 토큰
+    # 👽 edit_record_transcription_channel_tokens -> Tokens
+    edit_record_transcription_channel_tokens=?토큰
     # 👽 edit_record_transcription_server_name -> Name
     edit_record_transcription_server_name=?이름
     # 👽 edit_record_transcription_server_driver -> Driver
@@ -1990,8 +1990,8 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Value
     qa_gradeedit_comment=This form was edited. Previous graded score was
     qa_grading_change_criteria=검색기준 변경
-    # 🔴 qa_grading_no_valid_targets -> Please enter at least one grading target
-    ➡️ qa_grading_no_valid_targets=
+    # 👽 qa_grading_no_valid_targets -> Please enter at least one grading target
+    qa_grading_no_valid_targets=?하나 이상의 등급분류 대상을 입력하세요
     qa_grading_page=Grading 페이지
     qa_grading_run_again=다시 실행
     qa_grading_search_form=Grading 검색 양식
@@ -2000,8 +2000,8 @@ Used for data blocks Overview by Agent/Queue
     qa_gtype_agent=Peers
     qa_gtype_caller=사용자
     qa_gtype_grader=Graders
-    # 🔴 qa_gtype_llm -> AI
-    ➡️ qa_gtype_llm=
+    # 👽 qa_gtype_llm -> AI
+    qa_gtype_llm=?AI
     qa_individual_agents=개별 상담원
     qa_input_form=입력 양식
     qa_input_form_tasks=Tasks
@@ -2202,60 +2202,60 @@ Used for data blocks Overview by Agent/Queue
 ### Automated AI grading
 
 
-    # 🔴 qa_ai_grading -> AI grading
-    ➡️ qa_ai_grading=
-    # 🔴 qa_ai_testdialog_col_comment -> Comment
-    ➡️ qa_ai_testdialog_col_comment=
-    # 🔴 qa_ai_testdialog_col_item -> Item
-    ➡️ qa_ai_testdialog_col_item=
-    # 🔴 qa_ai_testdialog_col_value -> Value
-    ➡️ qa_ai_testdialog_col_value=
-    # 🔴 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
-    ➡️ qa_ai_testdialog_hint=
-    # 🔴 qa_ai_testdialog_request -> Request
-    ➡️ qa_ai_testdialog_request=
-    # 🔴 qa_ai_testdialog_response -> Response
-    ➡️ qa_ai_testdialog_response=
-    # 🔴 qa_ai_testdialog_title -> Test AI dialog
-    ➡️ qa_ai_testdialog_title=
-    # 🔴 qa_ai_testdialog_try -> Try it
-    ➡️ qa_ai_testdialog_try=
-    # 🔴 qa_grader_col_agent -> Agent
-    ➡️ qa_grader_col_agent=
-    # 🔴 qa_grader_col_call_duration -> Call duration
-    ➡️ qa_grader_col_call_duration=
-    # 🔴 qa_grader_col_caller -> Caller
-    ➡️ qa_grader_col_caller=
-    # 🔴 qa_grader_col_datetime -> Date/time
-    ➡️ qa_grader_col_datetime=
-    # 🔴 qa_grader_col_queue -> Queue
-    ➡️ qa_grader_col_queue=
-    # 🔴 qa_grader_col_score -> Score
-    ➡️ qa_grader_col_score=
-    # 🔴 qa_grader_col_tokens -> Tokens
-    ➡️ qa_grader_col_tokens=
-    # 🔴 qa_grader_col_transcription_duration -> Scoring time
-    ➡️ qa_grader_col_transcription_duration=
-    # 🔴 qa_grader_no_more_calls -> No other calls found
-    ➡️ qa_grader_no_more_calls=
-    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
-    ➡️ qa_grader_notrack_err=
-    # 🔴 qa_grader_stat_attempted -> Attempted
-    ➡️ qa_grader_stat_attempted=
-    # 🔴 qa_grader_stat_average_score -> Average score
-    ➡️ qa_grader_stat_average_score=
-    # 🔴 qa_grader_stat_calls_loaded -> Calls loaded
-    ➡️ qa_grader_stat_calls_loaded=
-    # 🔴 qa_grader_stat_evaluated -> Evaluated
-    ➡️ qa_grader_stat_evaluated=
-    # 🔴 qa_grader_stat_evaluation_errors -> Evaluation errors
-    ➡️ qa_grader_stat_evaluation_errors=
-    # 🔴 qa_grader_stat_maximum_score -> Max. score
-    ➡️ qa_grader_stat_maximum_score=
-    # 🔴 qa_grader_stat_minimum_score -> Min. score
-    ➡️ qa_grader_stat_minimum_score=
-    # 🔴 qa_grader_stat_tokens_used -> Tokens used
-    ➡️ qa_grader_stat_tokens_used=
+    # 👽 qa_ai_grading -> AI grading
+    qa_ai_grading=?AI 등급분류
+    # 👽 qa_ai_testdialog_col_comment -> Comment
+    qa_ai_testdialog_col_comment=?코멘트
+    # 👽 qa_ai_testdialog_col_item -> Item
+    qa_ai_testdialog_col_item=?아이템
+    # 👽 qa_ai_testdialog_col_value -> Value
+    qa_ai_testdialog_col_value=?값
+    # 👽 qa_ai_testdialog_hint -> This is the request sent to the LLM engine, on a sample call transcript. Edit it and try again to see how the model reacts.
+    qa_ai_testdialog_hint=?이는 샘플 통화 스크립트에 대해 LLM 엔진으로 전송되는 요청입니다. 편집한 후 다시 시도하여 모델의 반응을 확인하세요.
+    # 👽 qa_ai_testdialog_request -> Request
+    qa_ai_testdialog_request=?요청
+    # 👽 qa_ai_testdialog_response -> Response
+    qa_ai_testdialog_response=?응답
+    # 👽 qa_ai_testdialog_title -> Test AI dialog
+    qa_ai_testdialog_title=?AI 대화 테스트
+    # 👽 qa_ai_testdialog_try -> Try it
+    qa_ai_testdialog_try=?시도해 보기
+    # 👽 qa_grader_col_agent -> Agent
+    qa_grader_col_agent=?상담원
+    # 👽 qa_grader_col_call_duration -> Call duration
+    qa_grader_col_call_duration=?통화 시간
+    # 👽 qa_grader_col_caller -> Caller
+    qa_grader_col_caller=?Caller
+    # 👽 qa_grader_col_datetime -> Date/time
+    qa_grader_col_datetime=?날짜/시간
+    # 👽 qa_grader_col_queue -> Queue
+    qa_grader_col_queue=?대기큐
+    # 👽 qa_grader_col_score -> Score
+    qa_grader_col_score=?스코어(Score)
+    # 👽 qa_grader_col_tokens -> Tokens
+    qa_grader_col_tokens=?토큰
+    # 👽 qa_grader_col_transcription_duration -> Scoring time
+    qa_grader_col_transcription_duration=?채점 시간
+    # 👽 qa_grader_no_more_calls -> No other calls found
+    qa_grader_no_more_calls=?다른 통화를 찾을 수 없습니다
+    # 👽 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    qa_grader_notrack_err=?이 페이지에 접근하려면 QA_TRACK 키가 필요합니다
+    # 👽 qa_grader_stat_attempted -> Attempted
+    qa_grader_stat_attempted=?시도됨
+    # 👽 qa_grader_stat_average_score -> Average score
+    qa_grader_stat_average_score=?평균 점수
+    # 👽 qa_grader_stat_calls_loaded -> Calls loaded
+    qa_grader_stat_calls_loaded=?로드된 통화 수
+    # 👽 qa_grader_stat_evaluated -> Evaluated
+    qa_grader_stat_evaluated=?평가됨
+    # 👽 qa_grader_stat_evaluation_errors -> Evaluation errors
+    qa_grader_stat_evaluation_errors=?평가 오류
+    # 👽 qa_grader_stat_maximum_score -> Max. score
+    qa_grader_stat_maximum_score=?최대 점수
+    # 👽 qa_grader_stat_minimum_score -> Min. score
+    qa_grader_stat_minimum_score=?최소 점수
+    # 👽 qa_grader_stat_tokens_used -> Tokens used
+    qa_grader_stat_tokens_used=?사용된 토큰 수
 
 
 
@@ -3210,16 +3210,16 @@ Description of configuration properties
     propedit_option_wombat=WombatDialer
     propedit_option_yes=Yes
     propedit_rewrite_hotdesking_desc=Enables rewriting of hotdesking information in data1 field of queue_log table
-    # 🔴 propedit_category_ai_integration -> AI Integration
-    ➡️ propedit_category_ai_integration=
-    # 🔴 propedit_feature_ai_integration_settings -> General Settings
-    ➡️ propedit_feature_ai_integration_settings=
-    # 🔴 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
-    ➡️ propedit_key_llm_captureUniqueId_desc=
-    # 🔴 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
-    ➡️ propedit_key_llm_verbose_desc=
-    # 🔴 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
-    ➡️ propedit_key_qa_minPrcAllCalls_desc=
+    # 👽 propedit_category_ai_integration -> AI Integration
+    propedit_category_ai_integration=?AI 통합
+    # 👽 propedit_feature_ai_integration_settings -> General Settings
+    propedit_feature_ai_integration_settings=?General Settings
+    # 👽 propedit_key_llm_captureUniqueId_desc -> This regexp is used to match the UniqueId of the call given the file name. E.g. audio-(.+).wav will capture uniqueid 1234.1235 from filename audio-1234.1235.wav. If left blank, no UniqueId is captured
+    propedit_key_llm_captureUniqueId_desc=?이 정규식은 파일명으로부터 통화의 UniqueId를 매칭하는 데 사용됩니다. 예를 들어 audio-(.+).wav는 파일명 audio-1234.1235.wav에서 uniqueid 1234.1235를 캡처합니다. 비워두면 UniqueId가 캡처되지 않습니다.
+    # 👽 propedit_key_llm_verbose_desc -> Print input and output from/to the LLM model to the system log
+    propedit_key_llm_verbose_desc=?LLM 모델과 주고받는 입력 및 출력을 시스템 로그에 기록합니다.
+    # 👽 propedit_key_qa_minPrcAllCalls_desc -> Default value of mininum percentage of calls scored for All calls on Grader's page
+    propedit_key_qa_minPrcAllCalls_desc=?Grader 페이지의 All calls에 대해 채점되는 통화의 최소 비율 기본값
 
 ## Editor of security keys
 
@@ -3271,14 +3271,14 @@ Description of security keys:
     keydesc_pbxapi=사용자는 교환기 레벨(PBX-Level)의 서비스에 접근할 수 있습니다.
     keydesc_qa_calrep=Grader calibration 보고서에 접근
     keydesc_qa_grader=Grader's 페이지 및 관련 통계에 접근허용
-    # 🔴 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_read=
-    # 🔴 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_edit=
-    # 🔴 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
-    ➡️ keydesc_qa_chat_delete=
-    # 🔴 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
-    ➡️ keydesc_qa_chat_write=
+    # 👽 keydesc_qa_chat_read -> Allows users to read the interaction's chat and transcription
+    keydesc_qa_chat_read=?사용자는 인터랙션의 채팅 및 트랜스크립션을 읽을 수 있습니다.
+    # 👽 keydesc_qa_chat_edit -> Allows users to edit the interaction's chat and transcription
+    keydesc_qa_chat_edit=?사용자는 인터랙션의 채팅 및 트랜스크립션을 편집할 수 있습니다.
+    # 👽 keydesc_qa_chat_delete -> Allows users to delete the interaction's chat and transcription
+    keydesc_qa_chat_delete=?사용자는 인터랙션의 채팅 및 트랜스크립션을 삭제할 수 있습니다.
+    # 👽 keydesc_qa_chat_write -> Allows users to load the interaction's chat or transcription
+    keydesc_qa_chat_write=?사용자는 인터랙션의 채팅 또는 트랜스크립션을 불러올 수 있습니다.
 
     keydesc_qa_perf_rules=사용자는 상담원 성과도 추적을 위해 규칙집합(ruleset)을 정의할 수 있습니다.
     keydesc_qa_perf_track=상담원 성과도 추적(Performance Tracking)을 실행할 수 있습니다.
@@ -3307,8 +3307,8 @@ Description of security keys:
     keydesc_tasks_push_tc=사용자는 CBT와 코칭 Task를 보내기 위해 '교육훈련과 코칭'(Training and Coaching)페이지를 이용할 수 있습니다.
     keydesc_tasks_rep=사용자는 Task 통계 페이지(tab)을 볼 수 있습니다.
     keydesc_tasks_viewall=사용자는 다른 사람의 Task를 볼 수 있습니다.
-    # 🔴 keydesc_transcription_server -> User can view and update transcription servers
-    ➡️ keydesc_transcription_server=
+    # 👽 keydesc_transcription_server -> User can view and update transcription servers
+    keydesc_transcription_server=?사용자는 트랜스크립션 서버를 조회하고 업데이트할 수 있습니다.
     keydesc_user=이 Key는 적정한 사용자에게 주어져야 합니다.
     keydesc_usr_agent=사용자른 상담원 정보를 편집할 수 있습니다.
     keydesc_usr_agroups=사용자는 상담원 그룹을 편집할 수 있습니다.
@@ -4030,14 +4030,14 @@ Other items
     licence_firefox_client=Firefox 클라이언트 버젼 : 
     licence_install_now=지금 설치
     licence_licence_expires_on=라이선스 만료일 : 
-    # 🔴 licence_licence_expiring -> Your license is about to expire
-    ➡️ licence_licence_expiring=
+    # 👽 licence_licence_expiring -> Your license is about to expire
+    licence_licence_expiring=?라이선스가 곧 만료됩니다
     licence_licence_information=라이선스 정보 
     licence_licenced_to=라이선스 제공 대상 : 
     licence_maximum_licenced_agents= 라이선스 받은 상담원 수(최대) : 
     licence_show_eula=사용자 라이선스 합의서(agreement) 보기
-    # 🔴 licence_software_new_release_available -> New version available:
-    ➡️ licence_software_new_release_available=
+    # 👽 licence_software_new_release_available -> New version available:
+    licence_software_new_release_available=?새 버전 사용 가능:
     licence_software_release=소프트웨어 릴리즈 : 
     licence_website=공식 QueueMetrics 웹사이트 주소 : 
     # 👽 list_amo_title -> AMO Campaigns
@@ -4333,8 +4333,8 @@ Other items
     qap_agent_settings_error=?상담원 설정을 가져오는 동안 오류가 발생했습니다.
     # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?상담원 상태를 가져오는 동안 오류가 발생했습니다.
-    # 🔴 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
-    ➡️ qap_agent_license_error=
+    # 👽 qap_agent_license_error -> Exceeds licensed agent limit. Please ask your supervisor.
+    qap_agent_license_error=?라이선스된 상담원 수 제한을 초과했습니다. 감독자에게 문의하세요.
     # 👽 qap_amo -> AMO
     qap_amo=?AMO
     # 👽 qap_amo_attributes -> Attributes
@@ -5015,8 +5015,8 @@ Other items
     reports_datablock_columns_short=?열
     # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?오류 메시지
-    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
-    ➡️ reports_datablock_info_error=
+    # 👽 reports_datablock_info_error -> Unable to load DataBlock information
+    reports_datablock_info_error=?DataBlock 정보를 불러올 수 없습니다
     # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?부제
     # 👽 reports_datablock_label_subtitle -> DataBlock notes
@@ -5233,8 +5233,8 @@ Other items
     reports_import_schema_success=?보고서 스키마가 성공적으로 가져왔습니다.
     # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?입력한 값은 허용되지 않습니다.
-    # 🔴 reports_info_datablockview_short -> Info
-    ➡️ reports_info_datablockview_short=
+    # 👽 reports_info_datablockview_short -> Info
+    reports_info_datablockview_short=?정보
     # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?보고서 URL이 클립보드에 복사되었습니다.
     # 👽 reports_lost_calls -> Lost Calls
@@ -5335,8 +5335,8 @@ Other items
     reports_qa_error_edit_form=?QA 양식 편집 오류
     # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?QA 양식 업데이트 오류
-    # 🔴 reports_qa_grader_type -> Grader Type
-    ➡️ reports_qa_grader_type=
+    # 👽 reports_qa_grader_type -> Grader Type
+    reports_qa_grader_type=?Grader 유형
     # 👽 reports_qa_items -> Items
     reports_qa_items=?항목
     # 👽 reports_qa_level -> Level
@@ -5369,8 +5369,8 @@ Other items
     reports_qa_start=?시작 시간
     # 👽 reports_qa_status -> Status
     reports_qa_status=?상태
-    # 🔴 reports_qa_tracked_by -> Graded By
-    ➡️ reports_qa_tracked_by=
+    # 👽 reports_qa_tracked_by -> Graded By
+    reports_qa_tracked_by=?채점자
     # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?고유 ID
     # 👽 reports_qa_value -> Value
@@ -5999,18 +5999,18 @@ Other items
     # 👽 timeline_avg -> Avg.
     timeline_avg=?평균
     timeline_close=돌아가기
-    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
-    ➡️ timeline_chat_delete_confirm=
-    # 🔴 timeline_chat_edit_speakers -> Edit Speakers
-    ➡️ timeline_chat_edit_speakers=
-    # 🔴 timeline_chat_segments_history -> View Edit History
-    ➡️ timeline_chat_segments_history=
-    # 🔴 timeline_chat_segments_delete -> Delete Chat
-    ➡️ timeline_chat_segments_delete=
-    # 🔴 timeline_chat_speaker -> Speaker
-    ➡️ timeline_chat_speaker=
-    # 🔴 timeline_chat_edited -> Edited
-    ➡️ timeline_chat_edited=
+    # 👽 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    timeline_chat_delete_confirm=?선택된 채팅이 삭제됩니다. 계속할까요?
+    # 👽 timeline_chat_edit_speakers -> Edit Speakers
+    timeline_chat_edit_speakers=?화자 편집
+    # 👽 timeline_chat_segments_history -> View Edit History
+    timeline_chat_segments_history=?편집 기록 보기
+    # 👽 timeline_chat_segments_delete -> Delete Chat
+    timeline_chat_segments_delete=?채팅 삭제
+    # 👽 timeline_chat_speaker -> Speaker
+    timeline_chat_speaker=?화자
+    # 👽 timeline_chat_edited -> Edited
+    timeline_chat_edited=?편집됨
     timeline_debug=디버그 정보 다운로드
     timeline_download_recording=녹음 다운로드
     # 👽 timeline_download_chat_file -> Download File
@@ -6058,12 +6058,12 @@ Other items
     timeline_tab_recordings=?녹음
     # 👽 timeline_tab_chats -> Chats
     timeline_tab_chats=?채팅
-    # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
-    ➡️ timeline_tab_chats_speaker_error=
-    # 🔴 timeline_tab_chats_no -> No
-    ➡️ timeline_tab_chats_no=
-    # 🔴 timeline_tab_chats_yes -> Yes
-    ➡️ timeline_tab_chats_yes=
+    # 👽 timeline_tab_chats_speaker_error -> Speaker names must be unique
+    timeline_tab_chats_speaker_error=?화자 이름은 고유해야 합니다
+    # 👽 timeline_tab_chats_no -> No
+    timeline_tab_chats_no=?아니오
+    # 👽 timeline_tab_chats_yes -> Yes
+    timeline_tab_chats_yes=?예
     # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?총 시간
     # 👽 title_do_agentsdo -> Agents Sessions and Pauses
