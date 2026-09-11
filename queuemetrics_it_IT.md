@@ -4905,6 +4905,7 @@ Other items
     t3_live_agent_info=Info Agente Live
     timeline_avg=Media
     timeline_close=Ritorna al report
+    timeline_chat_delete_confirm=La Chat Selezionata verrà cancellata. Continuare?
     timeline_chat_edit_speakers=Modifica interlocutori
     timeline_chat_segments_history=Visualizza cronologia modifiche
     timeline_chat_segments_delete=Cancella Chat

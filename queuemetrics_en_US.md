@@ -4715,6 +4715,7 @@ Other items
     t3_live_agent_info=Live agent info
     timeline_avg=Avg.
     timeline_close=Return to Report
+    timeline_chat_delete_confirm=The selected Chat will be deleted. Continue?
     timeline_chat_edit_speakers=Edit Speakers
     timeline_chat_segments_history=View Edit History
     timeline_chat_segments_delete=Delete Chat
