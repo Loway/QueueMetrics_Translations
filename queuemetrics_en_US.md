@@ -2076,6 +2076,7 @@ Used for data blocks Overview by Agent/Queue
     qa_grader_col_tokens=Tokens
     qa_grader_col_transcription_duration=Scoring time
     qa_grader_no_more_calls=No other calls found
+    qa_grader_notrack_err=You need key QA_TRACK to access this page
     qa_grader_stat_attempted=Attempted
     qa_grader_stat_average_score=Average score
     qa_grader_stat_calls_loaded=Calls loaded

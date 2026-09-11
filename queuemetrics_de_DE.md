@@ -2133,6 +2133,8 @@ Used for data blocks Overview by Agent/Queue
     ➡️ qa_grader_col_transcription_duration=
     # 🔴 qa_grader_no_more_calls -> No other calls found
     ➡️ qa_grader_no_more_calls=
+    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    ➡️ qa_grader_notrack_err=
     # 🔴 qa_grader_stat_attempted -> Attempted
     ➡️ qa_grader_stat_attempted=
     # 🔴 qa_grader_stat_average_score -> Average score
@@ -4184,6 +4186,8 @@ Other items
     reports_datablock_columns_customization=Spalten anpassen
     reports_datablock_columns_short=Kolumnen
     reports_datablock_errormsg=Fehlermeldung
+    # 🔴 reports_datablock_info_error -> Unable to load DataBlock information
+    ➡️ reports_datablock_info_error=
     reports_datablock_label_subtititle=Untertitel
     reports_datablock_label_subtitle=DataBlock Anmerkungen
     reports_datablock_label_title=Titel
@@ -4807,10 +4811,14 @@ Other items
     t3_live_agent_info=Live-Agent Informationen
     timeline_avg=Durchschnitt.
     timeline_close=Zurück zum Bericht
+    # 🔴 timeline_chat_delete_confirm -> The selected Chat will be deleted. Continue?
+    ➡️ timeline_chat_delete_confirm=
     # 🔴 timeline_chat_edit_speakers -> Edit Speakers
     ➡️ timeline_chat_edit_speakers=
     # 🔴 timeline_chat_segments_history -> View Edit History
     ➡️ timeline_chat_segments_history=
+    # 🔴 timeline_chat_segments_delete -> Delete Chat
+    ➡️ timeline_chat_segments_delete=
     # 🔴 timeline_chat_speaker -> Speaker
     ➡️ timeline_chat_speaker=
     # 🔴 timeline_chat_edited -> Edited
@@ -4848,6 +4856,10 @@ Other items
     timeline_tab_chats=?Chats
     # 🔴 timeline_tab_chats_speaker_error -> Speaker names must be unique
     ➡️ timeline_tab_chats_speaker_error=
+    # 🔴 timeline_tab_chats_no -> No
+    ➡️ timeline_tab_chats_no=
+    # 🔴 timeline_tab_chats_yes -> Yes
+    ➡️ timeline_tab_chats_yes=
     timeline_totdur=Gesamtdauer
     title_do_agentsdo=Agenten-Sitzungen und Pausen
     title_do_areaando=Vorwahl

@@ -2109,6 +2109,8 @@ Used for data blocks Overview by Agent/Queue
     qa_grader_col_tokens=Token
     qa_grader_col_transcription_duration=Tempo di valutazione
     qa_grader_no_more_calls=Nessun'altra chiamata trovata
+    # 🔴 qa_grader_notrack_err -> You need key QA_TRACK to access this page
+    ➡️ qa_grader_notrack_err=
     qa_grader_stat_attempted=Tentate
     qa_grader_stat_average_score=Punteggio medio
     qa_grader_stat_calls_loaded=Chiamate caricate
