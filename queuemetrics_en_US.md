@@ -1741,11 +1741,16 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_tokens=Tokens
     edit_record_transcription_server_name=Name
     edit_record_transcription_server_driver=Driver
+    edit_record_transcription_server_main_tag=Main Tag
+    edit_record_transcription_server_extra_tags=Extra Tags
     edit_record_transcription_server_max_channels=Max Channels
     edit_record_transcription_server_channels=Channels
     edit_record_transcription_server_priority=Priority
     edit_record_transcription_server_tags=Tags
     edit_record_transcription_server_title=Transcription Server Detail
+    edit_record_transcription_server_transcription=Transcription
+    edit_record_transcription_server_diarization=Diarization
+    edit_record_transcription_server_quality_grading=Quality Grading
     edit_record_transcription_server_url=URL
     edit_record_transcription_server_auth_token=Token
     edit_record_transcription_server_description=Description

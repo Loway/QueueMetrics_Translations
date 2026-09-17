@@ -1748,34 +1748,25 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_channel_tokens_in=Token Input
     edit_record_transcription_channel_tokens_out=Token Output
     edit_record_transcription_channel_tokens=Token
-    # 👽 edit_record_transcription_server_name -> Name
-    edit_record_transcription_server_name=?Nome
-    # 👽 edit_record_transcription_server_driver -> Driver
-    edit_record_transcription_server_driver=?Driver
-    # 👽 edit_record_transcription_server_max_channels -> Max Channels
-    edit_record_transcription_server_max_channels=?Canali max
-    # 👽 edit_record_transcription_server_channels -> Channels
-    edit_record_transcription_server_channels=?Canali
-    # 👽 edit_record_transcription_server_priority -> Priority
-    edit_record_transcription_server_priority=?Priorità
-    # 👽 edit_record_transcription_server_tags -> Tags
-    edit_record_transcription_server_tags=?Tag
-    # 👽 edit_record_transcription_server_title -> Transcription Server Detail
-    edit_record_transcription_server_title=?Dettaglio server di trascrizione
-    # 👽 edit_record_transcription_server_url -> URL
-    edit_record_transcription_server_url=?URL
-    # 👽 edit_record_transcription_server_auth_token -> Token
-    edit_record_transcription_server_auth_token=?Token
-    # 👽 edit_record_transcription_server_description -> Description
-    edit_record_transcription_server_description=?Descrizione
-    # 👽 edit_record_transcription_server_driver_parms -> Parameters
-    edit_record_transcription_server_driver_parms=?Parametri
-    # 👽 edit_record_transcription_server_status -> Status
-    edit_record_transcription_server_status=?Stato
-    # 👽 edit_record_transcription_server_healthy -> Healthy
-    edit_record_transcription_server_healthy=?Integro
-    # 👽 edit_record_transcription_server_last_health -> Last Health Check
-    edit_record_transcription_server_last_health=?Ultimo controllo integrità
+    edit_record_transcription_server_name=Nome
+    edit_record_transcription_server_driver=Driver
+    edit_record_transcription_server_main_tag=Tag Principale
+    edit_record_transcription_server_extra_tags=Tag Aggiuntivi
+    edit_record_transcription_server_max_channels=Canali massimi
+    edit_record_transcription_server_channels=Canali
+    edit_record_transcription_server_priority=Priorità
+    edit_record_transcription_server_tags=Tag
+    edit_record_transcription_server_title=Dettaglio server di trascrizione
+    edit_record_transcription_server_transcription=Trascrizione
+    edit_record_transcription_server_diarization=Diarizzazione
+    edit_record_transcription_server_quality_grading=Valutazione Qualità
+    edit_record_transcription_server_url=URL
+    edit_record_transcription_server_auth_token=Token
+    edit_record_transcription_server_description=Descrizione
+    edit_record_transcription_server_driver_parms=Parametri
+    edit_record_transcription_server_status=Stato
+    edit_record_transcription_server_healthy=Integro
+    edit_record_transcription_server_last_health=Ultimo controllo integrità
     edit_record_xref_blank=Lascia vuoto perchè un numero di riferimento sia creato automaticamente
     edit_reports_automatic=Configurazione automatica report
     edit_reports_desc=Desc.
