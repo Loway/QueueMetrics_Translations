@@ -1733,18 +1733,16 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Vero nome:
     edit_record_users_title=Dettagli Utente
     edit_record_users_token=Gettone:
-    # 👽 edit_record_transcription_channel_agent -> Agent
-    edit_record_transcription_channel_agent=?Agente
-    # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
-    edit_record_transcription_channel_remote_job_id=?ID lavoro remoto
-    # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
-    edit_record_transcription_channel_remote_media_file=?File multimediale remoto
-    # 👽 edit_record_transcription_channel_state -> State
-    edit_record_transcription_channel_state=?Stato
-    # 👽 edit_record_transcription_channel_reserverd_at -> Reserved At
-    edit_record_transcription_channel_reserverd_at=?Riservato il
-    # 👽 edit_record_transcription_channel_last_seen -> Last Seen
-    edit_record_transcription_channel_last_seen=?Visto l'ultima volta
+    edit_record_transcription_channel_agent=Agente
+    edit_transcription_channel_delete_ok=Canale di trascrizione eliminato correttamente
+    edit_transcription_channel_delete_error=Errore durante l'eliminazione del canale di trascrizione
+    edit_record_transcription_delete=Elimina
+    edit_record_transcription_channel_confirm_delete=Il canale di trascrizione selezionato verrà eliminato. Continuare?
+    edit_record_transcription_channel_remote_job_id=ID lavoro remoto
+    edit_record_transcription_channel_remote_media_file=File multimediale remoto
+    edit_record_transcription_channel_state=Stato
+    edit_record_transcription_channel_reserverd_at=Riservato il
+    edit_record_transcription_channel_last_seen=Controllato l'ultima volta
     edit_record_transcription_channel_tokens_in=Token Input
     edit_record_transcription_channel_tokens_out=Token Output
     edit_record_transcription_channel_tokens=Token

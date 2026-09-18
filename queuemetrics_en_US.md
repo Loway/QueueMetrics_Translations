@@ -1731,6 +1731,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_title=User Detail
     edit_record_users_token=Token:
     edit_record_transcription_channel_agent=Agent
+    edit_transcription_channel_delete_ok=Transcription channel deleted successfully
+    edit_transcription_channel_delete_error=Error deleting transcription channel
+    edit_record_transcription_delete=Delete
+    edit_record_transcription_channel_confirm_delete=The selected transcription channel will be deleted. Continue?
     edit_record_transcription_channel_remote_job_id=Remote Job ID
     edit_record_transcription_channel_remote_media_file=Remote Media File
     edit_record_transcription_channel_state=State
