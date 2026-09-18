@@ -2678,6 +2678,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Kanál prepisu bol úspešne odstránený
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Chyba pri odstraňovaní kanála prepisu
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Vymazať
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Vybraný kanál prepisu bude odstránený. Pokračovať?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?ID vzdialenej úlohy
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2698,6 +2706,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Názov
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Ovládač
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Hlavná značka
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Ďalšie značky
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Max. kanálov
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2708,6 +2720,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Značky
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Detaily servera prepisu
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Prepis
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Diarizácia
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Hodnotenie kvality
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

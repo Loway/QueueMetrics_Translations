@@ -3166,6 +3166,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?ቶከን:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?ወኪል
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?የግልባጭ ቻናል በተሳካ ሁኔታ ተሰርዟል
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?የግልባጭ ቻናልን በመሰረዝ ላይ ስህተት
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?ሰርዝ
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?የተመረጠው የግልባጭ ቻናል ይሰረዛል። መቀጠል?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?የሩቅ ስራ መለያ
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -3186,6 +3194,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?ስም
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?ድራይቨር
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?ዋና መለያ
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?ተጨማሪ መለያዎች
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?ከፍተኛ ቻናሎች
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -3196,6 +3208,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?መለያዎች
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?የግልባጭ ሰርቨር ዝርዝር
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?ግልባጭ
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?የተናጋሪ መለያየት
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?የጥራት ደረጃ አሰጣጥ
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

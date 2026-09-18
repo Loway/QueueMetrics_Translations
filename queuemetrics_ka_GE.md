@@ -1991,6 +1991,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=სიგნალი:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?აგენტი
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?ტრანსკრიფციის არხი წარმატებით წაიშალა
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?ტრანსკრიფციის არხის წაშლის შეცდომა
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?წაშლა
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?არჩეული ტრანსკრიფციის არხი წაიშლება. გაგრძელება?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?დისტანციური სამუშაოს ID
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2011,6 +2019,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?სახელი
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?დრაივერი
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?მთავარი კატეგორია
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?დამატებითი კატეგორიები
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?მაქს. არხები
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2021,6 +2033,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?კატეგორიები
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?ტრანსკრიფციის სერვერის დეტალები
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?ტრანსკრიფცია
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?დიარიზაცია
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?ხარისხის შეფასება
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

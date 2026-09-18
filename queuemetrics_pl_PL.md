@@ -2775,6 +2775,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Kanał transkrypcji został pomyślnie usunięty
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Błąd podczas usuwania kanału transkrypcji
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Usuń
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Wybrany kanał transkrypcji zostanie usunięty. Kontynuować?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?ID zdalnego zadania
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2795,6 +2803,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Nazwa
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Sterownik
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Tag główny
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Tagi dodatkowe
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Maks. kanałów
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2805,6 +2817,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Tagi
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Szczegóły serwera transkrypcji
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Transkrypcja
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Diaryzacja
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Ocena jakości
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

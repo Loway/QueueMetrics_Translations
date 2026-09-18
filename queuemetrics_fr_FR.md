@@ -1740,6 +1740,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=Jeton:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Canal de transcription supprimé avec succès
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Erreur lors de la suppression du canal de transcription
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Détruire
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Le canal de transcription sélectionné sera supprimé. Continuez?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?ID de tâche distante
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -1760,6 +1768,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Nom
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Pilote
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Étiquette principale
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Étiquettes supplémentaires
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Canaux max
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -1770,6 +1782,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Étiquettes
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Détail du serveur de transcription
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Transcription
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Diarisation
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Évaluation de la qualité
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

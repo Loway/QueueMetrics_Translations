@@ -1743,6 +1743,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Εκπρόσωπος
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Το κανάλι μεταγραφής διαγράφηκε με επιτυχία
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Σφάλμα κατά τη διαγραφή του καναλιού μεταγραφής
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Διαγραφή
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Το επιλεγμένο κανάλι μεταγραφής θα διαγραφεί. Θέλετε να συνεχίσετε;
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?ID απομακρυσμένης εργασίας
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -1763,6 +1771,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Όνομα
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Πρόγραμμα οδήγησης
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Κύρια ετικέτα
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Πρόσθετες ετικέτες
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Μέγ. κανάλια
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -1773,6 +1785,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Ετικέτες
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Λεπτομέρειες διακομιστή μεταγραφής
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Μεταγραφή
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Διαχωρισμός ομιλητών
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Αξιολόγηση ποιότητας
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

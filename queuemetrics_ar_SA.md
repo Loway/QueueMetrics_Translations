@@ -1947,6 +1947,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=مأخوذة:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?وكيل
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?تم حذف قناة النسخ النصي بنجاح
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?خطأ في حذف قناة النسخ النصي
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?حذف
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?سيتم حذف قناة النسخ النصي المحددة. متابعة؟
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?معرّف المهمة البعيدة
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -1967,6 +1975,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?الاسم
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?برنامج التشغيل
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?البطاقة الرئيسية
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?بطاقات إضافية
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?أقصى عدد للقنوات
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -1977,6 +1989,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?البطاقات
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?تفاصيل خادم النسخ النصي
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?النسخ النصي
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?فصل المتحدثين
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?تقييم الجودة
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

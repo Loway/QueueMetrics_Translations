@@ -117,7 +117,7 @@ keep it consistent everywhere.
 
 | Term | English meaning / context | Translation | Example label(s) | Notes |
 |------|---------------------------|-------------|------------------|-------|
-| Agent | Operator who handles calls | ตัวแทน | `td_agstatus_agent_is_currently_logged_off` | Inconsistent: found both "ตัวแทน" and "agent" |
+| Agent | Operator who handles calls | ตัวแทน | `td_agstatus_agent_is_currently_logged_off` | Resolved: ตัวแทน (146 labels) over เอเจนต์/agent (26) |
 | Queue | Call queue | คิว | `td_ancod_answered_calls_agents_on_queue` | Kept mostly in English as "queue" |
 | Caller | The person calling in | ผู้โทร | `td_cko_caller_abandon` | Standard Thai term |
 | Call (answered) | Answered call | สายที่รับ | `td_ancod_answered_calls_details` | Verify against pack |
@@ -143,6 +143,7 @@ keep it consistent everywhere.
 | Outcome | Result/disposition of a call | ผลลัพธ์ (outcome) | `aout_call_res_by_outcome` | Inconsistent: mixed Thai and English |
 | Disposition | Coded call result / rule | Disposition Rules | `cdp_clonedispositions` | Kept in English |
 | Tag | Call tag / label | Tag | `aout_calltag` | Kept in English |
+| Case | Support case / ticket | เคส | `edit_record_cases_header`, `ccase_case_xref` | Resolved: เคส (21 labels) over กรณี (1) |
 | Realtime | Live monitoring view | realtime | `art_active_polling_error` | Kept in English |
 | Wallboard | Large real-time status display | Wallboard | `rt3_delete_current_wallboard_confirm` | Kept in English |
 | Alarm | Threshold alert | สัญญาณเตือน | `edit_record_agawqueue_title` | Verify against pack |
@@ -157,10 +158,10 @@ consistency.
 
 | Term | Context | Translation | Example label(s) | Notes |
 |------|---------|-------------|------------------|-------|
-| Report | Analysis output | Report | `aout_*`, report menus | Kept in English |
+| Report | Analysis output | รายงาน | `aout_*`, report menus | Resolved: รายงาน (133 labels) over "Report" (7) |
 | Edit / Add / Delete / Create | CRUD actions on forms | แก้ไข / เพิ่ม / ลบ / สร้าง | `*_edit`, `*_add`, `*_delete` | Mix of Thai and English |
-| Export | Export to CSV/PDF/XLS | Export | export buttons | Kept in English |
-| Configuration / Settings | Setup screens | การกำหนดค่า | `*configuration*`, `*settings*` | Thai term used |
+| Export | Export to CSV/PDF/XLS | ส่งออก | export buttons | Resolved: ส่งออก (29 labels) over "Export" (7) |
+| Configuration / Settings | Setup screens | การตั้งค่า | `*configuration*`, `*settings*` | Resolved: การตั้งค่า (48 labels) over การกำหนดค่า (25) |
 | Visibility | Access/visibility key | Visibility | visibility-key labels | Verify against pack |
 | Group | Agent / report grouping | กลุ่ม | `clage_agent_performance_acd_group` | Verify against pack |
 | Period | Time range of a report | ระยะเวลา | period selectors | Verify against pack |
@@ -189,7 +190,6 @@ consistency.
 | Qualif. | Kept English form in pack | Qualif. | Keep "Qualif." vs. "คุณสมบัติ" |
 | Cont. | Inconsistent form found | หมายเลขติดต่อ | "หมายเลขติดต่อ" (verbose) vs. "ติดต่อ" |
 | Short. | Mixed form found | สั้น Q | Keep "สั้น Q" vs. "Short.Q" vs. standardize |
-| Agent | Multiple renderings (ตัวแทน vs. agent) | ตัวแทน | Use "ตัวแทน" consistently vs. allow "agent" fallback |
 | Queue | Mostly kept English | คิว | "คิว" (Thai) vs. allow "queue" fallback |
 | Call (answered) | Incomplete verification | สายที่รับ | "สายที่รับ" vs. "สายตอบรับ" vs. "สายเข้า" |
 | Wait time | Pack uses "เวลาการรอเฉลี่ย" | เวลารอสาย | "เวลารอสาย" vs. "เวลาการรอเฉลี่ย" (verbose) |
@@ -205,7 +205,7 @@ consistency.
 | Wallboard | Kept English in pack | Wallboard | Keep "Wallboard" vs. "กระดานข้อมูล" |
 | Alarm | Found "สัญญาณเตือน" | สัญญาณเตือน | Verify "สัญญาณเตือน" vs. "สัญญาณแจ้งเตือน" |
 | Threshold | Kept English in pack | Threshold | Keep "Threshold" vs. "เกณฑ์" vs. "ระดับเตือน" |
-| Report | Kept English in pack | Report | Keep "Report" vs. "รายงาน" |
-| Export | Kept English in pack | Export | Keep "Export" vs. "ส่งออก" |
+| Visibility | Section 6 says keep English, but pack renders it การมองเห็น | การมองเห็น | "การมองเห็น" (used in `edit_record_*_visibility`) vs. keep "Visibility" |
+| DOW | Seeded "รายวันของสัปดาห์" fits a report period, not a cron field | วันในสัปดาห์ (cron) | Allow two renderings by context vs. pick one |
 | Edit/Add/Delete | Mix of Thai and English | แก้ไข / เพิ่ม / ลบ | Verify consistent use across all labels |
 | Password/User/Code | Mixed translations | รหัสผ่าน | Standardize User and Code terms |

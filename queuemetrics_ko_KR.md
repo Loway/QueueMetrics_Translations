@@ -1839,6 +1839,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=토큰(Token) : 
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?상담원
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?전사 채널이 성공적으로 삭제되었습니다
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?전사 채널 삭제 오류
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?삭제
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?선택된 전사 채널이 삭제됩니다. 계속할까요?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?원격 작업 ID
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -1859,6 +1867,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?이름
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?드라이버
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?기본 태그
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?추가 태그
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?최대 채널 수
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -1869,6 +1881,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?태그
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?전사 서버 세부 정보
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?전사
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?화자 분리
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?품질 평가
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

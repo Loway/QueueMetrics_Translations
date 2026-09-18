@@ -2372,6 +2372,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Transcriptiekanaal succesvol verwijderd
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Fout bij het verwijderen van transcriptiekanaal
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Verwijderen
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Het geselecteerde transcriptiekanaal wordt verwijderd. Doorgaan?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?Externe taak-ID
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2392,6 +2400,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Naam
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Stuurprogramma
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Hoofdtag
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Extra tags
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Max. kanalen
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2402,6 +2414,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Tags
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Transcriptieserverdetails
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Transcriptie
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Diarisatie
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Kwaliteitsbeoordeling
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

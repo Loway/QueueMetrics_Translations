@@ -1968,6 +1968,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=密钥：
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?坐席
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?转录通道删除成功
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?删除转录通道时出错
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?删除
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?将删除所选转录通道。 继续吗？
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?远程作业 ID
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -1988,6 +1996,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?名称
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?驱动程序
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?主标签
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?额外标签
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?最大通道数
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -1998,6 +2010,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?标签
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?转录服务器详情
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?转录
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?说话人分离
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?质量评分
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

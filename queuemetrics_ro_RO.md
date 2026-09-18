@@ -2495,6 +2495,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Agent
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Canalul de transcriere a fost șters cu succes
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Eroare la ștergerea canalului de transcriere
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Șterge
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Canalul de transcriere selectat va fi șters. Continuați?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?ID sarcină la distanță
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2515,6 +2523,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Nume
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Driver
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Etichetă principală
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Etichete suplimentare
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Canale max.
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2525,6 +2537,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Etichete
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Detalii server de transcriere
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Transcriere
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Diarizare
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Evaluarea calității
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

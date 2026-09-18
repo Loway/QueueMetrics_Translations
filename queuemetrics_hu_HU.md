@@ -2910,6 +2910,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Ügynök
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Az átírási csatorna sikeresen törölve
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Hiba az átírási csatorna törlésekor
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Törlés
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?A kijelölt átírási csatorna törlésre kerül. Folytatja?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?Távoli feladat azonosító
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2930,6 +2938,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Név
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Illesztőprogram
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Fő címke
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?További címkék
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Max. csatornák
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2940,6 +2952,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Címkék
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Átírási szerver részletei
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Átírás
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Beszélőelkülönítés
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Minőségértékelés
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

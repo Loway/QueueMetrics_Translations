@@ -1842,414 +1842,414 @@ Used for data blocks Overview by Agent/Queue
     # 👽 edit_record_agawqueue_asettings -> Agent settings
     edit_record_agawqueue_asettings=?Agent settings
     # 👽 edit_record_agawqueue_avgwait -> Average Wait Time (for waiting calls)
-    edit_record_agawqueue_avgwait=?Average Wait Time (for waiting calls)=เวลาการรอเฉลี่ย (สำหรับสายที่รอ)
+    edit_record_agawqueue_avgwait=?เวลารอสายเฉลี่ย (สำหรับสายที่รออยู่)
     # 👽 edit_record_agawqueue_avgwrap -> Average Wrap Time
-    edit_record_agawqueue_avgwrap=?Average Wrap Time=เวลาห่อเฉลี่ย
+    edit_record_agawqueue_avgwrap=?เวลาพักสายเฉลี่ย
     # 👽 edit_record_agawqueue_conversions -> Conversions %
-    edit_record_agawqueue_conversions=?Conversions %=Conversion %
+    edit_record_agawqueue_conversions=?Conversion %
     # 👽 edit_record_agawqueue_cph -> CPH - Contacts per Hour
-    edit_record_agawqueue_cph=?CPH - Contacts per Hour=CPH - จำนวนผู้ติดต่อต่อชั่วโมง
+    edit_record_agawqueue_cph=?CPH - จำนวนการโทรต่อชั่วโมง
     # 👽 edit_record_agawqueue_maxwait -> Maximum Wait Time (for waiting calls)
-    edit_record_agawqueue_maxwait=?Maximum Wait Time (for waiting calls)=เวลารอสูงสุด (สำหรับสายที่รอ)
+    edit_record_agawqueue_maxwait=?เวลารอสายสูงสุด (สำหรับสายที่รออยู่)
     # 👽 edit_record_agawqueue_ncallswait -> Number of calls waiting
-    edit_record_agawqueue_ncallswait=?Number of calls waiting=จำนวนสายที่รอ
+    edit_record_agawqueue_ncallswait=?จำนวนสายที่รออยู่
     # 👽 edit_record_agawqueue_qcph -> QCPH - Qualified Contacts per Hour
-    edit_record_agawqueue_qcph=?QCPH - Qualified Contacts per Hour=QCPH - จำนวนผู้ติดต่อที่มีคุณสมบัติต่อชั่วโมง
+    edit_record_agawqueue_qcph=?QCPH - Contacts ที่ยืนยันรายชั่วโมง
     # 👽 edit_record_agawqueue_qsettings -> Queue settings
-    edit_record_agawqueue_qsettings=?Queue settings=การตั้งค่าคิว
+    edit_record_agawqueue_qsettings=?การตั้งค่าคิว
     # 👽 edit_record_agawqueue_qualconversions -> Qualified Conversions %
-    edit_record_agawqueue_qualconversions=?Qualified Conversions %=Conversion ที่มีคุณภาพ %
+    edit_record_agawqueue_qualconversions=?Conversion ที่ยืนยันแล้ว %
     # 👽 edit_record_agawqueue_red -> red
-    edit_record_agawqueue_red=?red=สีแดง
+    edit_record_agawqueue_red=?สีแดง
     # 👽 edit_record_agawqueue_sph -> SPH - Sales per Hour
-    edit_record_agawqueue_sph=?SPH - Sales per Hour=SPH - ยอดขายต่อชั่วโมง
+    edit_record_agawqueue_sph=?SPH - ยอดขายต่อชั่วโมง
     # 👽 edit_record_agawqueue_title -> AGAW alarms for queue:
-    edit_record_agawqueue_title=?AGAW alarms for queue:=สัญญาณเตือน AGAW สำหรับคิว:
+    edit_record_agawqueue_title=?สัญญาณเตือน AGAW สำหรับคิว:
     # 👽 edit_record_agawqueue_yellow -> yellow
-    edit_record_agawqueue_yellow=?yellow=สีเหลือง
+    edit_record_agawqueue_yellow=?สีเหลือง
     # 👽 edit_record_agent_delete_protection -> Delete Protection
-    edit_record_agent_delete_protection=?Delete Protection=การป้องกันการลบ
+    edit_record_agent_delete_protection=?การป้องกันการลบ
     # 👽 edit_record_agent_syncsettings -> Synchronizer Settings
-    edit_record_agent_syncsettings=?Synchronizer Settings=การตั้งค่าตัวประสาน
+    edit_record_agent_syncsettings=?การตั้งค่าตัวซิงโครไนซ์
     # 👽 edit_record_agent_update_protection -> Update Protection
-    edit_record_agent_update_protection=?Update Protection=การป้องกันการอัปเดต
+    edit_record_agent_update_protection=?การป้องกันการอัปเดต
     # 👽 edit_record_agents_agentinqueue -> Agent is a known member of the following queues:
-    edit_record_agents_agentinqueue=?Agent is a known member of the following queues:=เอเจนต์เป็นสมาชิกที่รู้จักของคิวต่อไปนี้:
+    edit_record_agents_agentinqueue=?ตัวแทนเป็นสมาชิกของคิวต่อไปนี้:
     # 👽 edit_record_agents_agentkeys -> Agent Keys:
-    edit_record_agents_agentkeys=?Agent Keys:=คีย์ของเอเจนต์:
+    edit_record_agents_agentkeys=?คีย์ของตัวแทน:
     # 👽 edit_record_agents_aliases -> Aliases:
-    edit_record_agents_aliases=?Aliases:=นามแฝง:
+    edit_record_agents_aliases=?ชื่อแทน:
     # 👽 edit_record_agents_code -> Agent Code:
-    edit_record_agents_code=?Agent Code:=รหัสเอเจนต์:
+    edit_record_agents_code=?รหัสตัวแทน:
     # 👽 edit_record_agents_configure -> The Agent/Queue association can be configured from the 'CFG Queues' tab
-    edit_record_agents_configure=?The Agent/Queue association can be configured from the 'CFG Queues' tab=การเชื่อมโยง Agent/Queue สามารถกำหนดค่าได้จากแท็บ 'CFG Queues'
+    edit_record_agents_configure=?การเชื่อมโยงตัวแทน/คิว สามารถตั้งค่าได้จากแท็บ 'CFG Queues'
     # 👽 edit_record_agents_defaultserver -> Server
-    edit_record_agents_defaultserver=?Server=เซิร์ฟเวอร์
+    edit_record_agents_defaultserver=?เซิร์ฟเวอร์
     # 👽 edit_record_agents_description -> Agent description:
-    edit_record_agents_description=?Agent description:=คำอธิบายเอเจนต์:
+    edit_record_agents_description=?คำอธิบายตัวแทน:
     # 👽 edit_record_agents_direction -> Direction
-    edit_record_agents_direction=?Direction=ทิศทาง
+    edit_record_agents_direction=?ทิศทาง
     # 👽 edit_record_agents_eg -> E.g.: Agent/101
-    edit_record_agents_eg=?E.g.: Agent/101=เช่น: Agent/101
+    edit_record_agents_eg=?เช่น: Agent/101
     # 👽 edit_record_agents_group -> Agent group:
-    edit_record_agents_group=?Agent group:=กลุ่มเอเจนต์:
+    edit_record_agents_group=?กลุ่มตัวแทน:
     # 👽 edit_record_agents_imaddress -> Instant messenger address:
-    edit_record_agents_imaddress=?Instant messenger address:=ที่อยู่ผู้ส่งสารทันที:
+    edit_record_agents_imaddress=?ที่อยู่ Instant messenger:
     # 👽 edit_record_agents_level -> Level
-    edit_record_agents_level=?Level=ระดับ
+    edit_record_agents_level=?ระดับ
     # 👽 edit_record_agents_location -> Agent location:
-    edit_record_agents_location=?Agent location:=ตำแหน่งเอเจนต์:
+    edit_record_agents_location=?ตำแหน่งที่ตั้งตัวแทน:
     # 👽 edit_record_agents_multiplealiases1 -> Separate multiple aliases
-    edit_record_agents_multiplealiases1=?Separate multiple aliases=แยกนามแฝงหลายรายการ
+    edit_record_agents_multiplealiases1=?คั่นชื่อแทนหลายรายการ
     # 👽 edit_record_agents_multiplealiases2 -> with a "|" symbol
-    edit_record_agents_multiplealiases2=?with a "|" symbol=ด้วยสัญลักษณ์ "|"
+    edit_record_agents_multiplealiases2=?ด้วยสัญลักษณ์ "|"
     # 👽 edit_record_agents_noqueues -> No queues defined.
-    edit_record_agents_noqueues=?No queues defined.=ไม่ได้กำหนดคิวไว้
+    edit_record_agents_noqueues=?ไม่ได้กำหนดคิวไว้
     # 👽 edit_record_agents_payroll -> Payroll Code:
-    edit_record_agents_payroll=?Payroll Code:=รหัสเงินเดือน:
+    edit_record_agents_payroll=?รหัสบัญชีเงินเดือน:
     # 👽 edit_record_agents_queuename -> Queue name
-    edit_record_agents_queuename=?Queue name=ชื่อคิว
+    edit_record_agents_queuename=?ชื่อคิว
     # 👽 edit_record_agents_supervisor -> Supervisor:
-    edit_record_agents_supervisor=?Supervisor:=หัวหน้างาน:
+    edit_record_agents_supervisor=?Supervisor:
     # 👽 edit_record_agents_terminal -> Current terminal:
-    edit_record_agents_terminal=?Current terminal:=เครื่องปลายทางปัจจุบัน:
+    edit_record_agents_terminal=?เครื่องปลายทางปัจจุบัน:
     # 👽 edit_record_agents_title -> Agent Detail
-    edit_record_agents_title=?Agent Detail=รายละเอียดเอเจนต์
+    edit_record_agents_title=?รายละเอียดตัวแทน
     # 👽 edit_record_agents_vnc -> VNC monitoring URL:
-    edit_record_agents_vnc=?VNC monitoring URL:=URL การตรวจสอบ VNC:
+    edit_record_agents_vnc=?URL การมอนิเตอร์ VNC:
     # 👽 edit_record_agents_webphoneautoanswer -> Auto Answer
-    edit_record_agents_webphoneautoanswer=?Auto Answer=ตอบรับอัตโนมัติ
+    edit_record_agents_webphoneautoanswer=?รับสายอัตโนมัติ
     # 👽 edit_record_agents_webphonepassword -> WebPhone Password:
-    edit_record_agents_webphonepassword=?WebPhone Password:=รหัสผ่าน WebPhone:
+    edit_record_agents_webphonepassword=?รหัสผ่าน WebPhone:
     # 👽 edit_record_agents_webphonerealm -> WebPhone Realm:
-    edit_record_agents_webphonerealm=?WebPhone Realm:=WebPhone Realm:
+    edit_record_agents_webphonerealm=?WebPhone Realm:
     # 👽 edit_record_agents_webphoneuri -> WebPhone SIP Uri:
-    edit_record_agents_webphoneuri=?WebPhone SIP Uri:=WebPhone SIP Uri:
+    edit_record_agents_webphoneuri=?WebPhone SIP Uri:
     # 👽 edit_record_agents_webphoneusername -> WebPhone Username:
-    edit_record_agents_webphoneusername=?WebPhone Username:=ชื่อผู้ใช้ WebPhone:
+    edit_record_agents_webphoneusername=?ชื่อผู้ใช้ WebPhone:
     # 👽 edit_record_back -> Back
-    edit_record_back=?Back=ย้อนกลับ
+    edit_record_back=?ย้อนกลับ
     # 👽 edit_record_backtoallqueues -> Back to all queues
-    edit_record_backtoallqueues=?Back to all queues=กลับไปที่คิวทั้งหมด
+    edit_record_backtoallqueues=?กลับไปที่คิวทั้งหมด
     # 👽 edit_record_backtolist -> Back to list
-    edit_record_backtolist=?Back to list=กลับไปที่รายการ
+    edit_record_backtolist=?กลับไปที่รายการ
     # 👽 edit_record_backtoqueue -> Back to queue
-    edit_record_backtoqueue=?Back to queue=กลับไปที่คิว
+    edit_record_backtoqueue=?กลับไปที่คิว
     # 👽 edit_record_backtoreports -> Back to reports
-    edit_record_backtoreports=?Back to reports=กลับไปที่รายงาน
+    edit_record_backtoreports=?กลับไปที่รายงาน
     # 👽 edit_record_case_transactions -> Activity for this case
-    edit_record_case_transactions=?Activity for this case=กิจกรรมสำหรับกรณีนี้
+    edit_record_case_transactions=?กิจกรรมของเคสนี้
     # 👽 edit_record_cases_contact -> Contact
-    edit_record_cases_contact=?Contact=ติดต่อ
+    edit_record_cases_contact=?ผู้ติดต่อ
     # 👽 edit_record_cases_email -> Email
-    edit_record_cases_email=?Email=อีเมล
+    edit_record_cases_email=?อีเมล
     # 👽 edit_record_cases_for_client -> Recent cases for this client
-    edit_record_cases_for_client=?Recent cases for this client=กรณีล่าสุดสำหรับลูกค้ารายนี้
+    edit_record_cases_for_client=?เคสล่าสุดของลูกค้ารายนี้
     # 👽 edit_record_cases_handled_by -> Handled by
-    edit_record_cases_handled_by=?Handled by=จัดการโดย
+    edit_record_cases_handled_by=?จัดการโดย
     # 👽 edit_record_cases_header -> Edit Case
-    edit_record_cases_header=?Edit Case=แก้ไขกรณี
+    edit_record_cases_header=?แก้ไขเคส
     # 👽 edit_record_cases_id -> Case Id
-    edit_record_cases_id=?Case Id=รหัสกรณี
+    edit_record_cases_id=?รหัสเคส
     # 👽 edit_record_cases_none_found -> None found
-    edit_record_cases_none_found=?None found=ไม่พบ
+    edit_record_cases_none_found=?ไม่พบรายการ
     # 👽 edit_record_cases_notes -> Notes
-    edit_record_cases_notes=?Notes=หมายเหตุ
+    edit_record_cases_notes=?หมายเหตุ
     # 👽 edit_record_cases_queue -> Queue
-    edit_record_cases_queue=?Queue=คิว
+    edit_record_cases_queue=?คิว
     # 👽 edit_record_cases_securitykey -> Security Key
-    edit_record_cases_securitykey=?Security Key=รหัสความปลอดภัย
+    edit_record_cases_securitykey=?คีย์ความปลอดภัย
     # 👽 edit_record_cases_status -> Status
-    edit_record_cases_status=?Status=สถานะ
+    edit_record_cases_status=?สถานะ
     # 👽 edit_record_cases_text -> Note text
-    edit_record_cases_text=?Note text=ข้อความหมายเหตุ
+    edit_record_cases_text=?ข้อความหมายเหตุ
     # 👽 edit_record_cases_title -> Title
-    edit_record_cases_title=?Title=ชื่อเรื่อง
+    edit_record_cases_title=?ชื่อเรื่อง
     # 👽 edit_record_cases_xref -> Reference
-    edit_record_cases_xref=?Reference=อ้างอิง
+    edit_record_cases_xref=?อ้างอิง
     # 👽 edit_record_cbt_code -> CBT Code:
-    edit_record_cbt_code=?CBT Code:=รหัส CBT:
+    edit_record_cbt_code=?รหัส CBT:
     # 👽 edit_record_cbt_counter -> Sent counter:
-    edit_record_cbt_counter=?Sent counter:=ตัวนับที่ส่ง:
+    edit_record_cbt_counter=?ตัวนับการส่ง:
     # 👽 edit_record_cbt_offline -> Offline:
-    edit_record_cbt_offline=?Offline:=ออฟไลน์:
+    edit_record_cbt_offline=?ออฟไลน์:
     # 👽 edit_record_cbt_test -> Test
-    edit_record_cbt_test=?Test=ทดสอบ
+    edit_record_cbt_test=?ทดสอบ
     # 👽 edit_record_cbt_title -> Edit CBTs
-    edit_record_cbt_title=?Edit CBTs=แก้ไข CBT
+    edit_record_cbt_title=?แก้ไข CBT
     # 👽 edit_record_cbt_url -> CBT URL:
-    edit_record_cbt_url=?CBT URL:=URL CBT:
+    edit_record_cbt_url=?URL ของ CBT:
     # 👽 edit_record_classes_id -> Class Id:
-    edit_record_classes_id=?Class Id:=รหัสชั้นเรียน:
+    edit_record_classes_id=?รหัสคลาส:
     # 👽 edit_record_classes_keys -> Keys:
-    edit_record_classes_keys=?Keys:=คีย์:
+    edit_record_classes_keys=?คีย์:
     # 👽 edit_record_classes_name -> Class name:
-    edit_record_classes_name=?Class name:=ชื่อชั้นเรียน:
+    edit_record_classes_name=?ชื่อคลาส:
     # 👽 edit_record_classes_title -> Class Detail
-    edit_record_classes_title=?Class Detail=รายละเอียดชั้นเรียน
+    edit_record_classes_title=?รายละเอียดคลาส
     # 👽 edit_record_classes_usersinclass -> Number of users belonging to this class:
-    edit_record_classes_usersinclass=?Number of users belonging to this class:=จำนวนผู้ใช้ที่เป็นของชั้นเรียนนี้:
+    edit_record_classes_usersinclass=?จำนวนผู้ใช้ที่อยู่ในคลาสนี้:
     # 👽 edit_record_client_id -> Client
-    edit_record_client_id=?Client=ลูกค้า
+    edit_record_client_id=?ลูกค้า
     # 👽 edit_record_clients_contact -> Contact
-    edit_record_clients_contact=?Contact=ติดต่อ
+    edit_record_clients_contact=?ผู้ติดต่อ
     # 👽 edit_record_clients_email -> Email
-    edit_record_clients_email=?Email=อีเมล
+    edit_record_clients_email=?อีเมล
     # 👽 edit_record_clients_header -> Edit Client
-    edit_record_clients_header=?Edit Client=แก้ไขลูกค้า
+    edit_record_clients_header=?แก้ไขลูกค้า
     # 👽 edit_record_clients_name -> Name
-    edit_record_clients_name=?Name=ชื่อ
+    edit_record_clients_name=?ชื่อ
     # 👽 edit_record_clients_notes -> Notes
-    edit_record_clients_notes=?Notes=หมายเหตุ
+    edit_record_clients_notes=?หมายเหตุ
     # 👽 edit_record_clients_securitykey -> Security Key
-    edit_record_clients_securitykey=?Security Key=รหัสความปลอดภัย
+    edit_record_clients_securitykey=?คีย์ความปลอดภัย
     # 👽 edit_record_clients_status -> Client status
-    edit_record_clients_status=?Client status=สถานะลูกค้า
+    edit_record_clients_status=?สถานะลูกค้า
     # 👽 edit_record_clone -> Clone
-    edit_record_clone=?Clone=โคลน
+    edit_record_clone=?ทำสำเนา
     # 👽 edit_record_createdby -> Created By
-    edit_record_createdby=?Created By=สร้างโดย
+    edit_record_createdby=?สร้างโดย
     # 👽 edit_record_cronjob_dom -> Day of Month
-    edit_record_cronjob_dom=?Day of Month=วันที่ของเดือน
+    edit_record_cronjob_dom=?วันที่ของเดือน
     # 👽 edit_record_cronjob_dow -> Day of Week
-    edit_record_cronjob_dow=?Day of Week=วันของสัปดาห์
+    edit_record_cronjob_dow=?วันในสัปดาห์
     # 👽 edit_record_cronjob_lastruns -> Most Recent Runs
-    edit_record_cronjob_lastruns=?Most Recent Runs=การทำงานล่าสุด
+    edit_record_cronjob_lastruns=?การทำงานล่าสุด
     # 👽 edit_record_cronjobs_asuser -> Run as User
-    edit_record_cronjobs_asuser=?Run as User=เรียกใช้ในชื่อผู้ใช้
+    edit_record_cronjobs_asuser=?เรียกใช้ในชื่อผู้ใช้
     # 👽 edit_record_cronjobs_description -> Description
-    edit_record_cronjobs_description=?Description=คำอธิบาย
+    edit_record_cronjobs_description=?คำอธิบาย
     # 👽 edit_record_cronjobs_every -> Every
-    edit_record_cronjobs_every=?Every=ทุกๆ
+    edit_record_cronjobs_every=?ทุก
     # 👽 edit_record_cronjobs_hour -> Time
-    edit_record_cronjobs_hour=?Time=เวลา
+    edit_record_cronjobs_hour=?เวลา
     # 👽 edit_record_cronjobs_is_recurring -> When
-    edit_record_cronjobs_is_recurring=?When=เมื่อ
+    edit_record_cronjobs_is_recurring=?เมื่อใด
     # 👽 edit_record_cronjobs_isenabled -> Enabled
-    edit_record_cronjobs_isenabled=?Enabled=เปิดใช้งาน
+    edit_record_cronjobs_isenabled=?เปิดใช้งาน
     # 👽 edit_record_cronjobs_lastrun -> Last Run
-    edit_record_cronjobs_lastrun=?Last Run=การทำงานล่าสุด
+    edit_record_cronjobs_lastrun=?การทำงานครั้งล่าสุด
     # 👽 edit_record_cronjobs_lastrunaction -> Action
-    edit_record_cronjobs_lastrunaction=?Action=การกระทำ
+    edit_record_cronjobs_lastrunaction=?การดำเนินการ
     # 👽 edit_record_cronjobs_lastrundate -> Date
-    edit_record_cronjobs_lastrundate=?Date=วันที่
+    edit_record_cronjobs_lastrundate=?วันที่
     # 👽 edit_record_cronjobs_lastrunduration -> Duration
-    edit_record_cronjobs_lastrunduration=?Duration=ระยะเวลา
+    edit_record_cronjobs_lastrunduration=?ระยะเวลา
     # 👽 edit_record_cronjobs_lastrunstatus -> Status
-    edit_record_cronjobs_lastrunstatus=?Status=สถานะ
+    edit_record_cronjobs_lastrunstatus=?สถานะ
     # 👽 edit_record_cronjobs_lastruntext -> Info
-    edit_record_cronjobs_lastruntext=?Info=ข้อมูล
+    edit_record_cronjobs_lastruntext=?ข้อมูล
     # 👽 edit_record_cronjobs_name -> Name
-    edit_record_cronjobs_name=?Name=ชื่อ
+    edit_record_cronjobs_name=?ชื่อ
     # 👽 edit_record_cronjobs_nolastruns -> There are no recent runs to show
-    edit_record_cronjobs_nolastruns=?There are no recent runs to show=ไม่มีการทำงานล่าสุดที่จะแสดง
+    edit_record_cronjobs_nolastruns=?ไม่มีการทำงานล่าสุดที่จะแสดง
     # 👽 edit_record_cronjobs_title -> Scheduled Jobs Details
-    edit_record_cronjobs_title=?Scheduled Jobs Details=รายละเอียดงานที่กำหนดเวลา
+    edit_record_cronjobs_title=?รายละเอียดงานตามกำหนดเวลา
     # 👽 edit_record_customblocks_block -> Dispatch Name
-    edit_record_customblocks_block=?Dispatch Name=ชื่อการส่ง
+    edit_record_customblocks_block=?ชื่อ Dispatch
     # 👽 edit_record_customblocks_description -> Description
-    edit_record_customblocks_description=?Description=คำอธิบาย
+    edit_record_customblocks_description=?คำอธิบาย
     # 👽 edit_record_customblocks_graph_params -> Chart Parameters
-    edit_record_customblocks_graph_params=?Chart Parameters=พารามิเตอร์แผนภูมิ
+    edit_record_customblocks_graph_params=?พารามิเตอร์ของแผนภูมิ
     # 👽 edit_record_customblocks_graph_provider -> Chart Provider
-    edit_record_customblocks_graph_provider=?Chart Provider=ผู้ให้บริการแผนภูมิ
+    edit_record_customblocks_graph_provider=?ผู้ให้บริการแผนภูมิ
     # 👽 edit_record_customblocks_graphnone -> None
-    edit_record_customblocks_graphnone=?None=ไม่มี
+    edit_record_customblocks_graphnone=?ไม่มี
     # 👽 edit_record_customblocks_graphreact -> React
-    edit_record_customblocks_graphreact=?React=ตอบสนอง
+    edit_record_customblocks_graphreact=?React
     # 👽 edit_record_customblocks_header -> Edit Custom DataBlock
-    edit_record_customblocks_header=?Edit Custom DataBlock=แก้ไข DataBlock ที่กำหนดเอง
+    edit_record_customblocks_header=?แก้ไข DataBlock ที่กำหนดเอง
     # 👽 edit_record_customblocks_provider -> Provider
-    edit_record_customblocks_provider=?Provider=ผู้ให้บริการ
+    edit_record_customblocks_provider=?ผู้ให้บริการ
     # 👽 edit_record_customblocks_securitykey -> Security Key
-    edit_record_customblocks_securitykey=?Security Key=รหัสความปลอดภัย
+    edit_record_customblocks_securitykey=?คีย์ความปลอดภัย
     # 👽 edit_record_customblocks_source_body -> Source
-    edit_record_customblocks_source_body=?Source=แหล่งที่มา
+    edit_record_customblocks_source_body=?แหล่งข้อมูล
     # 👽 edit_record_customblocks_title -> Title
-    edit_record_customblocks_title=?Title=ชื่อเรื่อง
+    edit_record_customblocks_title=?ชื่อเรื่อง
     # 👽 edit_record_customblocks_view -> View
-    edit_record_customblocks_view=?View=ดู
+    edit_record_customblocks_view=?มุมมอง
     # 👽 edit_record_delete -> Delete
-    edit_record_delete=?Delete=ลบ
+    edit_record_delete=?ลบ
     # 👽 edit_record_description -> Description
-    edit_record_description=?Description=คำอธิบาย
+    edit_record_description=?คำอธิบาย
     # 👽 edit_record_dnis_code -> DNIS code:
-    edit_record_dnis_code=?DNIS code:=รหัส DNIS:
+    edit_record_dnis_code=?รหัส DNIS:
     # 👽 edit_record_dnis_title -> Edit DNIS details
-    edit_record_dnis_title=?Edit DNIS details=แก้ไขรายละเอียด DNIS
+    edit_record_dnis_title=?แก้ไขรายละเอียด DNIS
     # 👽 edit_record_editform -> Edit Form
-    edit_record_editform=?Edit Form=แก้ไขฟอร์ม
+    edit_record_editform=?แก้ไขแบบฟอร์ม
     # 👽 edit_record_export_emails -> E-Mail(s):
-    edit_record_export_emails=?E-Mail(s):=อีเมล:
+    edit_record_export_emails=?อีเมล:
     # 👽 edit_record_export_orientation -> Orientation:
-    edit_record_export_orientation=?Orientation:=การวางแนว:
+    edit_record_export_orientation=?การวางแนว:
     # 👽 edit_record_export_period -> Period:
-    edit_record_export_period=?Period:=ช่วงเวลา:
+    edit_record_export_period=?ระยะเวลา:
     # 👽 edit_record_export_queue -> Queue:
-    edit_record_export_queue=?Queue:=คิว:
+    edit_record_export_queue=?คิว:
     # 👽 edit_record_export_reportname -> Report name:
-    edit_record_export_reportname=?Report name:=ชื่อรายงาน:
+    edit_record_export_reportname=?ชื่อรายงาน:
     # 👽 edit_record_export_reporttype -> Report type:
-    edit_record_export_reporttype=?Report type:=ประเภทรายงาน:
+    edit_record_export_reporttype=?ประเภทรายงาน:
     # 👽 edit_record_export_separate -> Separate with '|'
-    edit_record_export_separate=?Separate with '|'=แยกด้วย '|'
+    edit_record_export_separate=?คั่นด้วย '|'
     # 👽 edit_record_export_title -> Reports Export detail
-    edit_record_export_title=?Reports Export detail=รายละเอียดการส่งออกรายงาน
+    edit_record_export_title=?รายละเอียดการส่งออกรายงาน
     # 👽 edit_record_export_titlefield -> Title:
-    edit_record_export_titlefield=?Title:=ชื่อเรื่อง:
+    edit_record_export_titlefield=?ชื่อเรื่อง:
     # 👽 edit_record_export_visibility -> Visibility key:
-    edit_record_export_visibility=?Visibility key:=คีย์การมองเห็น:
+    edit_record_export_visibility=?คีย์การมองเห็น:
     # 👽 edit_record_ext_ref -> Reference
-    edit_record_ext_ref=?Reference=อ้างอิง
+    edit_record_ext_ref=?อ้างอิง
     # 👽 edit_record_external_reference -> External Reference ID:
-    edit_record_external_reference=?External Reference ID:=รหัสอ้างอิงภายนอก:
+    edit_record_external_reference=?รหัสอ้างอิงภายนอก:
     # 👽 edit_record_features_code -> Feature code
-    edit_record_features_code=?Feature code=รหัสคุณสมบัติ
+    edit_record_features_code=?รหัส Feature
     # 👽 edit_record_features_goal -> Goal:
-    edit_record_features_goal=?Goal:=เป้าหมาย:
+    edit_record_features_goal=?เป้าหมาย:
     # 👽 edit_record_features_outcomes -> Relevant Outcomes:
-    edit_record_features_outcomes=?Relevant Outcomes:=ผลลัพธ์ที่เกี่ยวข้อง:
+    edit_record_features_outcomes=?ผลลัพธ์ (outcome) ที่เกี่ยวข้อง:
     # 👽 edit_record_features_title -> Edit call features
-    edit_record_features_title=?Edit call features=แก้ไขคุณสมบัติการโทร
+    edit_record_features_title=?แก้ไข Feature ของสาย
     # 👽 edit_record_features_visibility -> Queue visibility:
-    edit_record_features_visibility=?Queue visibility:=การมองเห็นคิว:
+    edit_record_features_visibility=?การมองเห็นคิว:
     # 👽 edit_record_groups_agentsingroup -> Agents belonging to this agent group:
-    edit_record_groups_agentsingroup=?Agents belonging to this agent group:=เอเจนต์ที่เป็นของกลุ่มเอเจนต์นี้:
+    edit_record_groups_agentsingroup=?ตัวแทนที่อยู่ในกลุ่มตัวแทนนี้:
     # 👽 edit_record_groups_code -> Agent Code
-    edit_record_groups_code=?Agent Code=รหัสเอเจนต์
+    edit_record_groups_code=?รหัสตัวแทน
     # 👽 edit_record_groups_name -> Agent Name
-    edit_record_groups_name=?Agent Name=ชื่อเอเจนต์
+    edit_record_groups_name=?ชื่อตัวแทน
     # 👽 edit_record_groups_noagents -> No agents belonging to this group.
-    edit_record_groups_noagents=?No agents belonging to this group.=ไม่มีเอเจนต์ที่เป็นของกลุ่มนี้
+    edit_record_groups_noagents=?ไม่มีตัวแทนที่อยู่ในกลุ่มนี้
     # 👽 edit_record_groups_title -> Edit agent group details
-    edit_record_groups_title=?Edit agent group details=แก้ไขรายละเอียดกลุ่มเอเจนต์
+    edit_record_groups_title=?แก้ไขรายละเอียดกลุ่มตัวแทน
     # 👽 edit_record_icon -> Icon
-    edit_record_icon=?Icon=ไอคอน
+    edit_record_icon=?ไอคอน
     # 👽 edit_record_id -> Id
     edit_record_id=?รหัส
     # 👽 edit_record_ivr_code -> IVR code:
-    edit_record_ivr_code=?IVR code:=รหัส IVR:
+    edit_record_ivr_code=?รหัส IVR:
     # 👽 edit_record_ivr_title -> Edit IVR details
-    edit_record_ivr_title=?Edit IVR details=แก้ไขรายละเอียด IVR
+    edit_record_ivr_title=?แก้ไขรายละเอียด IVR
     # 👽 edit_record_lastupdate -> Last Update
-    edit_record_lastupdate=?Last Update=อัปเดตล่าสุด
+    edit_record_lastupdate=?อัปเดตล่าสุด
     # 👽 edit_record_locations_agentsinlocation -> Number of agents belonging to this location:
-    edit_record_locations_agentsinlocation=?Number of agents belonging to this location:=จำนวนเอเจนต์ที่เป็นของตำแหน่งนี้:
+    edit_record_locations_agentsinlocation=?จำนวนตัวแทนที่อยู่ในตำแหน่งที่ตั้งนี้:
     # 👽 edit_record_locations_title -> Edit location details
-    edit_record_locations_title=?Edit location details=แก้ไขรายละเอียดตำแหน่ง
+    edit_record_locations_title=?แก้ไขรายละเอียดตำแหน่งที่ตั้ง
     # 👽 edit_record_name -> Name
-    edit_record_name=?Name=ชื่อ
+    edit_record_name=?ชื่อ
     # 👽 edit_record_new -> New
-    edit_record_new=?New=ใหม่
+    edit_record_new=?ใหม่
     # 👽 edit_record_outcomes_code -> Status code:
-    edit_record_outcomes_code=?Status code:=รหัสสถานะ:
+    edit_record_outcomes_code=?รหัสสถานะ:
     # 👽 edit_record_outcomes_contact -> Counts as Contact?
-    edit_record_outcomes_contact=?Counts as Contact?=นับเป็นผู้ติดต่อหรือไม่
+    edit_record_outcomes_contact=?นับเป็นการติดต่อหรือไม่
     # 👽 edit_record_outcomes_qualified -> Counts as Qualified Contact?
-    edit_record_outcomes_qualified=?Counts as Qualified Contact?=นับเป็นผู้ติดต่อที่มีคุณสมบัติหรือไม่
+    edit_record_outcomes_qualified=?นับเป็นการติดต่อที่ยืนยันแล้วหรือไม่
     # 👽 edit_record_outcomes_sale -> Counts as Sale?
-    edit_record_outcomes_sale=?Counts as Sale?=นับเป็นการขายหรือไม่
+    edit_record_outcomes_sale=?นับเป็นการขายหรือไม่
     # 👽 edit_record_outcomes_title -> Edit call outcomes
-    edit_record_outcomes_title=?Edit call outcomes=แก้ไขผลลัพธ์การโทร
+    edit_record_outcomes_title=?แก้ไขผลลัพธ์ (outcome) ของสาย
     # 👽 edit_record_outcomes_visibility -> Queue visibility:
-    edit_record_outcomes_visibility=?Queue visibility:=การมองเห็นคิว:
+    edit_record_outcomes_visibility=?การมองเห็นคิว:
     edit_record_pauses_billable=นับเป็นกิจกรรม billable หรือไม่
     # 👽 edit_record_pauses_code -> Status code:
-    edit_record_pauses_code=?Status code:=รหัสสถานะ:
+    edit_record_pauses_code=?รหัสสถานะ:
     edit_record_pauses_payable=นับเป็นกิจกรรม Payabl หรือไม่?
     edit_record_pauses_title=แก้ไข Code พักรับสาย (Reason code)
     # 👽 edit_record_pauses_type -> Pause type:
-    edit_record_pauses_type=?Pause type:=ประเภทการหยุดชั่วคราว:
+    edit_record_pauses_type=?ประเภทการพักรับสาย:
     # 👽 edit_record_prftrk_enabled -> Enabled
-    edit_record_prftrk_enabled=?Enabled=เปิดใช้งาน
+    edit_record_prftrk_enabled=?เปิดใช้งาน
     # 👽 edit_record_prftrk_form -> Form:
-    edit_record_prftrk_form=?Form:=แบบฟอร์ม:
+    edit_record_prftrk_form=?แบบฟอร์ม:
     # 👽 edit_record_prftrk_queue -> Queue:
-    edit_record_prftrk_queue=?Queue:=คิว:
+    edit_record_prftrk_queue=?คิว:
     # 👽 edit_record_prftrk_red -> Red
-    edit_record_prftrk_red=?Red=สีแดง
+    edit_record_prftrk_red=?สีแดง
     # 👽 edit_record_prftrk_score -> Score
-    edit_record_prftrk_score=?Score=คะแนน
+    edit_record_prftrk_score=?คะแนน
     # 👽 edit_record_prftrk_target -> Target
-    edit_record_prftrk_target=?Target=เป้าหมาย
+    edit_record_prftrk_target=?เป้าหมาย
     # 👽 edit_record_prftrk_title -> QA: Performance Tracker Scoring rules
-    edit_record_prftrk_title=?QA: Performance Tracker Scoring rules=QA: กฎการให้คะแนนตัวติดตามประสิทธิภาพ
+    edit_record_prftrk_title=?QA: กฎการให้คะแนนของ Performance Tracker
     # 👽 edit_record_prftrk_yellow -> Yellow
-    edit_record_prftrk_yellow=?Yellow=สีเหลือง
+    edit_record_prftrk_yellow=?สีเหลือง
     # 👽 edit_record_qa_editsections -> Edit Sections
-    edit_record_qa_editsections=?Edit Sections=แก้ไขส่วน
+    edit_record_qa_editsections=?แก้ไขส่วน
     edit_record_qa_grading=เกณฑ์การให้เกรด
     # 👽 edit_record_qa_inputkey -> Security key for input:
-    edit_record_qa_inputkey=?Security key for input:=รหัสความปลอดภัยสำหรับอินพุต:
+    edit_record_qa_inputkey=?คีย์ความปลอดภัยสำหรับการป้อนข้อมูล:
     # 👽 edit_record_qa_locked -> Form locked?
-    edit_record_qa_locked=?Form locked?=แบบฟอร์มถูกล็อคหรือไม่
+    edit_record_qa_locked=?ล็อคแบบฟอร์มหรือไม่
     # 👽 edit_record_qa_maxvalue -> Maximum value for
-    edit_record_qa_maxvalue=?Maximum value for=ค่าสูงสุดสำหรับ
+    edit_record_qa_maxvalue=?ค่าสูงสุดสำหรับ
     # 👽 edit_record_qa_name -> Form name:
-    edit_record_qa_name=?Form name:=ชื่อแบบฟอร์ม:
+    edit_record_qa_name=?ชื่อแบบฟอร์ม:
     # 👽 edit_record_qa_nofgradedcalls -> N. calls graded:
-    edit_record_qa_nofgradedcalls=?N. calls graded:=จำนวนสายที่ให้คะแนน:
+    edit_record_qa_nofgradedcalls=?จำนวนสายที่ให้คะแนนแล้ว:
     # 👽 edit_record_qa_reportkey -> Security key for reports:
-    edit_record_qa_reportkey=?Security key for reports:=รหัสความปลอดภัยสำหรับรายงาน:
+    edit_record_qa_reportkey=?คีย์ความปลอดภัยสำหรับรายงาน:
     # 👽 edit_record_qa_secnames -> Section Names
-    edit_record_qa_secnames=?Section Names=ชื่อส่วน
+    edit_record_qa_secnames=?ชื่อส่วน
     # 👽 edit_record_qa_section -> Section
-    edit_record_qa_section=?section=ส่วน
+    edit_record_qa_section=?ส่วน
     # 👽 edit_record_qa_testaidialog -> Test AI dialog
     edit_record_qa_testaidialog=?ทดสอบไดอะล็อก AI
     edit_record_qa_title=แก้ไข QA: ฟอร์ม
     # 👽 edit_record_qa_visibility -> Queue visibility:
-    edit_record_qa_visibility=?Queue visibility:=การมองเห็นคิว:
+    edit_record_qa_visibility=?การมองเห็นคิว:
     # 👽 edit_record_qaformitem_activeif -> Active if...
-    edit_record_qaformitem_activeif=?Active if...=ใช้งานได้ถ้า...
+    edit_record_qaformitem_activeif=?ใช้งานเมื่อ...
     # 👽 edit_record_qaformitem_addnew -> Add new item:
-    edit_record_qaformitem_addnew=?Add new item:=เพิ่มรายการใหม่:
+    edit_record_qaformitem_addnew=?เพิ่มรายการใหม่:
     # 👽 edit_record_qaformitem_extra -> Extra Score
-    edit_record_qaformitem_extra=?Extra Score=คะแนนพิเศษ
+    edit_record_qaformitem_extra=?คะแนนพิเศษ
     # 👽 edit_record_qaformitem_noitems -> No Items found
-    edit_record_qaformitem_noitems=?No Items found=ไม่พบรายการ
+    edit_record_qaformitem_noitems=?ไม่พบรายการ
     # 👽 edit_record_qaformitem_nonscoring -> Non Scoring
-    edit_record_qaformitem_nonscoring=?Non Scoring=ไม่ให้คะแนน
+    edit_record_qaformitem_nonscoring=?ไม่คิดคะแนน
     # 👽 edit_record_qaformitem_section -> Section:
-    edit_record_qaformitem_section=?Section:=ส่วน:
+    edit_record_qaformitem_section=?ส่วน:
     # 👽 edit_record_qaformitem_title -> QA: Items for Form
-    edit_record_qaformitem_title=?QA: Items for Form=QA: รายการสำหรับแบบฟอร์ม
+    edit_record_qaformitem_title=?QA: รายการของแบบฟอร์ม
     # 👽 edit_record_qaitems_code -> Engagement code:
-    edit_record_qaitems_code=?Engagement code:=รหัสการมีส่วนร่วม:
+    edit_record_qaitems_code=?รหัส Engagement:
     # 👽 edit_record_qaitems_form -> Form
-    edit_record_qaitems_form=?Form=แบบฟอร์ม
+    edit_record_qaitems_form=?แบบฟอร์ม
     # 👽 edit_record_qaitems_mandatory -> Item is mandatory:
-    edit_record_qaitems_mandatory=?Item is mandatory:=รายการเป็นข้อบังคับ:
+    edit_record_qaitems_mandatory=?รายการเป็นข้อบังคับ:
     # 👽 edit_record_qaitems_explanation -> Explanation:
     edit_record_qaitems_explanation=?คำอธิบาย:
     # 👽 edit_record_qaitems_multivalue -> Multi value options:
-    edit_record_qaitems_multivalue=?Multi value options:=ตัวเลือกหลายค่า:
+    edit_record_qaitems_multivalue=?ตัวเลือกแบบหลายค่า:
     # 👽 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
-    edit_record_qaitems_notuse=?This Engagement Code is not in use in any form.=รหัสการมีส่วนร่วมนี้ไม่ได้ใช้ในแบบฟอร์มใดๆ
+    edit_record_qaitems_notuse=?รหัส Engagement นี้ไม่ได้ใช้ในแบบฟอร์มใด
     # 👽 edit_record_qaitems_section -> Item is a section shortcut:
-    edit_record_qaitems_section=?Item is a section shortcut:=รายการเป็นทางลัดส่วน:
+    edit_record_qaitems_section=?รายการเป็นทางลัดของส่วน:
     # 👽 edit_record_qaitems_shortcut -> Item is a shortcut:
-    edit_record_qaitems_shortcut=?Item is a shortcut:=รายการเป็นทางลัด:
+    edit_record_qaitems_shortcut=?รายการเป็นทางลัด:
     # 👽 edit_record_qaitems_title -> QA: Items Editor
-    edit_record_qaitems_title=?QA: Items Editor=QA: ตัวแก้ไขรายการ
+    edit_record_qaitems_title=?QA: ตัวแก้ไขรายการ
     # 👽 edit_record_qaitems_type -> Item value type:
-    edit_record_qaitems_type=?Item value type:=ประเภทค่ารายการ:
+    edit_record_qaitems_type=?ประเภทค่าของรายการ:
     # 👽 edit_record_qaitems_usingcode -> Forms using this Engagement Code
-    edit_record_qaitems_usingcode=?Forms using this Engagement Code=แบบฟอร์มที่ใช้รหัสการมีส่วนร่วมนี้
+    edit_record_qaitems_usingcode=?แบบฟอร์มที่ใช้รหัส Engagement นี้
     # 👽 edit_record_qaitems_weight -> Item Weight:
-    edit_record_qaitems_weight=?Item Weight:=น้ำหนักรายการ:
+    edit_record_qaitems_weight=?น้ำหนักของรายการ:
     # 👽 edit_record_queue_agawalarms -> AGAW alarms
-    edit_record_queue_agawalarms=?AGAW alarms=สัญญาณเตือน AGAW
+    edit_record_queue_agawalarms=?สัญญาณเตือน AGAW
     # 👽 edit_record_queue_agawenabled -> AGAW enabled for this queue:
-    edit_record_queue_agawenabled=?AGAW enabled for this queue:=เปิดใช้งาน AGAW สำหรับคิวนี้:
+    edit_record_queue_agawenabled=?เปิดใช้งาน AGAW สำหรับคิวนี้:
     # 👽 edit_record_queue_agawlookback -> AGAW lookback period(mins):
-    edit_record_queue_agawlookback=?AGAW lookback period(mins):=ช่วงเวลา AGAW Lookback (นาที):
+    edit_record_queue_agawlookback=?ช่วงเวลาย้อนหลังของ AGAW (นาที):
     # 👽 edit_record_queue_agawrun -> Will AGAW be run for this queue?
-    edit_record_queue_agawrun=?Will AGAW be run for this queue?=จะมีการเรียกใช้ AGAW สำหรับคิวนี้หรือไม่
+    edit_record_queue_agawrun=?จะเรียกใช้ AGAW สำหรับคิวนี้หรือไม่
     # 👽 edit_record_queue_agawsettings -> AGAW settings
-    edit_record_queue_agawsettings=?AGAW settings=การตั้งค่า AGAW
+    edit_record_queue_agawsettings=?การตั้งค่า AGAW
     # 👽 edit_record_queue_agentsbutton -> Agents
-    edit_record_queue_agentsbutton=?Agents=ตัวแทน
+    edit_record_queue_agentsbutton=?ตัวแทน
     # 👽 edit_record_queue_agentsoncall -> Number of agents on call:
     edit_record_queue_agentsoncall=?Number of agents on call:
     # 👽 edit_record_queue_agentspaused -> Number of agents paused:
@@ -2423,6 +2423,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?โทเค็น:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?ตัวแทน
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?ลบช่องถอดเสียงสำเร็จแล้ว
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?เกิดข้อผิดพลาดในการลบช่องถอดเสียง
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?ลบ
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?ช่องถอดเสียงที่เลือกจะถูกลบ ดำเนินการต่อ?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?ID งานระยะไกล
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2443,6 +2451,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?ชื่อ
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?ไดรเวอร์
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Tag หลัก
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Tag เพิ่มเติม
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?ช่องสัญญาณสูงสุด
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2453,6 +2465,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Tags
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?รายละเอียดเซิร์ฟเวอร์ถอดเสียง
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?การถอดเสียง
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?การแยกเสียงผู้พูด
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?การให้คะแนนคุณภาพ
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

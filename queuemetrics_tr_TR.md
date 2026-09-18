@@ -1948,6 +1948,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=Token:
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?Temsilci
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?Transkripsiyon kanalı başarıyla silindi
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?Transkripsiyon kanalı silinirken hata oluştu
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?Sil
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?Seçilen transkripsiyon kanalı silinecek. Devam edilsin mi?
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?Uzak İş Kimliği
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -1968,6 +1976,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?Ad
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?Sürücü
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?Ana Etiket
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?Ek Etiketler
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?Maks. Kanal
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -1978,6 +1990,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?Etiketler
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?Transkripsiyon Sunucusu Ayrıntısı
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?Transkripsiyon
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?Konuşmacı Ayrıştırma
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?Kalite Değerlendirmesi
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token

@@ -2772,6 +2772,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_token=?トークン：
     # 👽 edit_record_transcription_channel_agent -> Agent
     edit_record_transcription_channel_agent=?エージェント
+    # 👽 edit_transcription_channel_delete_ok -> Transcription channel deleted successfully
+    edit_transcription_channel_delete_ok=?文字起こしチャネルを削除しました
+    # 👽 edit_transcription_channel_delete_error -> Error deleting transcription channel
+    edit_transcription_channel_delete_error=?文字起こしチャネルの削除中にエラーが発生しました
+    # 👽 edit_record_transcription_delete -> Delete
+    edit_record_transcription_delete=?削除
+    # 👽 edit_record_transcription_channel_confirm_delete -> The selected transcription channel will be deleted. Continue?
+    edit_record_transcription_channel_confirm_delete=?選択した文字起こしチャネルが削除されます。 続行しますか？
     # 👽 edit_record_transcription_channel_remote_job_id -> Remote Job ID
     edit_record_transcription_channel_remote_job_id=?リモートジョブID
     # 👽 edit_record_transcription_channel_remote_media_file -> Remote Media File
@@ -2792,6 +2800,10 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_name=?名前
     # 👽 edit_record_transcription_server_driver -> Driver
     edit_record_transcription_server_driver=?ドライバー
+    # 👽 edit_record_transcription_server_main_tag -> Main Tag
+    edit_record_transcription_server_main_tag=?メインタグ
+    # 👽 edit_record_transcription_server_extra_tags -> Extra Tags
+    edit_record_transcription_server_extra_tags=?追加タグ
     # 👽 edit_record_transcription_server_max_channels -> Max Channels
     edit_record_transcription_server_max_channels=?最大チャネル数
     # 👽 edit_record_transcription_server_channels -> Channels
@@ -2802,6 +2814,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_transcription_server_tags=?タグ
     # 👽 edit_record_transcription_server_title -> Transcription Server Detail
     edit_record_transcription_server_title=?文字起こしサーバーの詳細
+    # 👽 edit_record_transcription_server_transcription -> Transcription
+    edit_record_transcription_server_transcription=?文字起こし
+    # 👽 edit_record_transcription_server_diarization -> Diarization
+    edit_record_transcription_server_diarization=?話者分離
+    # 👽 edit_record_transcription_server_quality_grading -> Quality Grading
+    edit_record_transcription_server_quality_grading=?品質評価
     # 👽 edit_record_transcription_server_url -> URL
     edit_record_transcription_server_url=?URL
     # 👽 edit_record_transcription_server_auth_token -> Token
