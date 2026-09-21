@@ -11,7 +11,7 @@
 General information about this language pack. The language name should be written in the
 language itself, and will appear in the drop-down language selector.
 
-    00-LanguageName=Fran&ccedil;ais
+    00-LanguageName=Français
     
 Do not change the items below:
 
