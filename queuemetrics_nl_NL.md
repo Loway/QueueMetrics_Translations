@@ -2550,6 +2550,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Beller
     qa_comment=Opmerking
     qa_date=Datum
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Ingevuld formulier niet gevonden; het is mogelijk verwijderd
     qa_form=Van
     qa_frm_about= 
     qa_frm_addbtn=Toevoegen

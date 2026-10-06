@@ -2956,6 +2956,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Klient
     qa_comment=Komentarz
     qa_date=Data
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Nie znaleziono wypełnionego formularza; mógł zostać usunięty
     qa_form=Forma
     # 👽 qa_frm_about -> About
     qa_frm_about=?O

@@ -1880,6 +1880,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Appelant
     qa_comment=Commentaire
     qa_date=Date
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Formulaire rempli introuvable ; il a peut-être été supprimé
     qa_form=Formulaire:
     qa_frm_about=A propos
     qa_frm_addbtn=Ajouter

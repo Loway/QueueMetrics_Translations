@@ -2037,6 +2037,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Originador
     qa_comment=Comentari
     qa_date=Data
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?No s'ha trobat el formulari emplenat; potser s'ha eliminat
     qa_form=Formulari:
     qa_frm_about=Sobre
     qa_frm_addbtn=Afegir

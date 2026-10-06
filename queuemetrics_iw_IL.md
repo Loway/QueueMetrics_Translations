@@ -1905,6 +1905,8 @@ Used for data blocks Overview by Agent/Queue
     qa_comment=?הערה
     # 👽 qa_date -> Date
     qa_date=?תאריך
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?הטופס שמולא לא נמצא; ייתכן שנמחק
     # 👽 qa_form -> Form
     qa_form=?טופס
     # 👽 qa_frm_about -> About

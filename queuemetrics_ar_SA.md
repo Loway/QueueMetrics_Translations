@@ -2088,6 +2088,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=المتصل
     qa_comment=تعليق
     qa_date=تاريخ
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?لم يتم العثور على النموذج المعبأ؛ ربما تم حذفه
     qa_form= النموذج:
     qa_frm_about=حول
     qa_frm_addbtn=إضافة

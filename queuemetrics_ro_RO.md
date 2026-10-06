@@ -2673,6 +2673,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Apelant
     qa_comment=Comentariu
     qa_date=Data
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Formularul completat nu a fost găsit; este posibil să fi fost șters
     qa_form=Formular:
     qa_frm_about=Despre
     qa_frm_addbtn=Adauga

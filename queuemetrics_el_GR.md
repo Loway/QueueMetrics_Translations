@@ -1883,6 +1883,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Καλών
     qa_comment=Σχόλια
     qa_date=Ημερομηνία
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Η συμπληρωμένη φόρμα δεν βρέθηκε· ίσως έχει διαγραφεί
     qa_form=Φόρμα:
     qa_frm_about= Σχετικά
     qa_frm_addbtn=Προσθήκη

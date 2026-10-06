@@ -2009,6 +2009,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Вызывающий
     qa_comment=Комментарии
     qa_date=Дата
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Заполненная форма не найдена; возможно, она была удалена
     qa_form=Форма
     # 👽 qa_frm_about -> About
     qa_frm_about=?О программе

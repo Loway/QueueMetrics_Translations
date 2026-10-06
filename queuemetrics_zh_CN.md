@@ -2112,6 +2112,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=呼叫者
     qa_comment=评论
     qa_date=日期
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?未找到已填写的表格；它可能已被删除
     qa_form=表格:
     # 👽 qa_frm_about -> About
     qa_frm_about=?关于

@@ -1980,6 +1980,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=발신자
     qa_comment=비고(Comment)
     qa_date=날짜
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?작성된 양식을 찾을 수 없습니다. 삭제되었을 수 있습니다
     qa_form=양식 : 
     qa_frm_about= 
     qa_frm_addbtn=추가

@@ -1843,6 +1843,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Chiamante
     qa_comment=Commento
     qa_date=Data
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Modulo compilato non trovato; potrebbe essere stato eliminato
     qa_form=Modulo:
     qa_frm_about= 
     qa_frm_addbtn=Aggiungi

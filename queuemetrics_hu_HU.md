@@ -3094,6 +3094,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Hívó
     qa_comment=Megjegyzés
     qa_date=Dátum
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?A kitöltött űrlap nem található; lehet, hogy törölték
     qa_form=Forma:
     # 👽 qa_frm_about -> About
     qa_frm_about=?Rólunk

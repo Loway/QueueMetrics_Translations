@@ -2133,6 +2133,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=აბონენტი
     qa_comment=კომენტარი
     qa_date=თარიღი
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?შევსებული ფორმა ვერ მოიძებნა; შესაძლოა წაშლილია
     qa_form=ფორმა:
     qa_frm_about=შესახებ
     qa_frm_addbtn=დამატება

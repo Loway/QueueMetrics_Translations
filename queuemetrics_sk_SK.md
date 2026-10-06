@@ -2856,6 +2856,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Volajúci
     qa_comment=Poznámka
     qa_date=Dátum
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Vyplnený formulár sa nenašiel; možno bol odstránený
     qa_form=Formulár:
     qa_frm_about=o
     qa_frm_addbtn=Pridať

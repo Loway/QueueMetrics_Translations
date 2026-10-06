@@ -1876,6 +1876,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Anrufer
     qa_comment=Kommentar
     qa_date=Datum
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Ausgefülltes Formular nicht gefunden; es wurde möglicherweise gelöscht
     qa_form=Formular:
     qa_frm_about= 
     qa_frm_addbtn=Hinzufügen

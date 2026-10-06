@@ -2953,6 +2953,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=発信者
     qa_comment=コメント
     qa_date=日付
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?記入済みのフォームが見つかりません。削除された可能性があります
     qa_form=：から
     # 👽 qa_frm_about -> About
     qa_frm_about=?情報

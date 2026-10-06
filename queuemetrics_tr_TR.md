@@ -2089,6 +2089,8 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Arayan
     qa_comment=Açıklama
     qa_date=Tarih
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?Doldurulmuş form bulunamadı; silinmiş olabilir
     qa_form=Form:
     # 👽 qa_frm_about -> About
     qa_frm_about=?Hakkında

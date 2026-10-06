@@ -2615,6 +2615,8 @@ Used for data blocks Overview by Agent/Queue
     qa_comment=?ความคิดเห็น
     # 👽 qa_date -> Date
     qa_date=?วันที่
+    # 👽 qa_error_message -> Compiled form not found; it may have been deleted
+    qa_error_message=?ไม่พบแบบฟอร์มที่กรอกแล้ว อาจถูกลบไปแล้ว
     # 👽 qa_form -> Form
     qa_form=?แบบฟอร์ม
     # 👽 qa_frm_about -> About
