@@ -1830,6 +1830,7 @@ Used for data blocks Overview by Agent/Queue
     qa_caller=Caller
     qa_comment=Comment
     qa_date=Date
+    qa_error_message=Compiled form not found; it may have been deleted
     qa_form=Form
     qa_frm_about=About
     qa_frm_addbtn=Add
