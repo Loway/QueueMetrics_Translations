@@ -3007,6 +3007,7 @@ Description of security keys:
     keydesc_usr_skills=User can edit agent skills
     keydesc_usr_syslog=User can view the system’s audit log
     keydesc_usradmin=User can edit other users and classes
+    keydesc_usradmin_restricted=User can edit other users, but only in selected classes
     keydesc_visitor=Visitors have a partial set of statistics.
     keydesc_wallboard_add=User can create and edit wallboards
     keydesc_wallboard_forall=User can save public wallboards
@@ -4798,6 +4799,7 @@ Other items
     userpage_retype=Retype new password
     userpage_theme=Theme
     userpage_title=Current user information
+    usradmin_restricted_unavailable=The required operation is unavailable for a restricted user admin profile
     xtsrc_err=Error accessing an external data source. Please see the server error log.
     xtsrc_html=External data source providing HTML
     xtsrc_json=External data source accessed via JSON
