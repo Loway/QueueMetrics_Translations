@@ -5324,6 +5324,7 @@ Description of security keys:
     keydesc_usr_syslog=?A felhasználó megtekintheti a rendszer auditnaplóját
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?A felhasználó szerkesztheti a többi felhasználót és osztályt
+    keydesc_usradmin_restricted=?A felhasználó szerkesztheti a többi felhasználót, de csak a kiválasztott osztályokban
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?A látogatók statisztikáinak csak egy részét látják.
     # 👽 keydesc_wallboard_add -> User can create and edit wallboards
@@ -8700,6 +8701,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Téma
     userpage_title=Jelenlegi felhasználó adatai
+    usradmin_restricted_unavailable=?A kért művelet nem érhető el korlátozott felhasználóadminisztrátori profil esetén
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?Hiba a külső adatforrás elérésekor. Kérjük, tekintse meg a szerver hibajelentését.
     # 👽 xtsrc_html -> External data source providing HTML

@@ -3363,6 +3363,7 @@ Description of security keys:
     keydesc_usr_skills=사용자는 상담원 스킬(agent skills)정보를 편집할 수 있습니다.
     keydesc_usr_syslog=사용자는 시스템의 감사로그를 볼 수 있습니다.
     keydesc_usradmin=사용자는 다른 사용자와 클래스 정보를 편집할 수 있습니다.
+    keydesc_usradmin_restricted=?사용자는 다른 사용자를 편집할 수 있지만, 선택한 클래스에서만 가능합니다.
     keydesc_visitor=방문자(Visitor)는 통계자료의 일부를 가질 수 있습니다.
     keydesc_wallboard_add=사용자는 현황판(wallboard)을 생성하고 편집할 수 있습니다.
     keydesc_wallboard_forall=사용자는 공개 현황판(public wallboard)을 저장할 수 있습니다.
@@ -6138,6 +6139,7 @@ Other items
     userpage_retype=새 비밀번호를 다시 입력하세요
     userpage_theme=테마
     userpage_title=현재 사용자 정보
+    usradmin_restricted_unavailable=?요청한 작업은 제한된 사용자 관리자 프로필에서 사용할 수 없습니다.
     xtsrc_err=외부 데이터소스 접근에 오류발생, 서버 에러로그를 참고하세요
     xtsrc_html=외부 자료 (HTML)
     xtsrc_json=외부자료(JSON)

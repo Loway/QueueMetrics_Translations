@@ -3376,6 +3376,7 @@ Description of security keys:
     keydesc_usr_skills=يمكن للمستخدم تعديل مهارات الوكيل
     keydesc_usr_syslog=يمكن للمستخدم عرض سجل تدقيق النظام
     keydesc_usradmin=يمكن للمستهدم تعديل المستخدمين الآخرين وصلاحياتهم
+    keydesc_usradmin_restricted=?يمكن للمستخدم تعديل المستخدمين الآخرين، ولكن فقط ضمن الصلاحيات المحددة
     keydesc_visitor=الزوار يملكون جزئية من الاحصائيات
     keydesc_wallboard_add=المستخدم يستطيع انشاء وتعديل لوحات التحكم
     keydesc_wallboard_forall=المستخدم يستطيع حفظ لوحة تحكم عامة
@@ -5925,6 +5926,7 @@ Other items
     userpage_retype=أعد كتابة كلمة المرور الجديدة
     userpage_theme=النمط العام
     userpage_title=معلومات المستخدم الحالي
+    usradmin_restricted_unavailable=?العملية المطلوبة غير متاحة لملف تعريف مسؤول مستخدمين مقيّد
     xtsrc_err=خطأ في الوصول إلى مصدر بيانات خارجي الرجاء راجع سجل أخطاء الخادم
     xtsrc_html=مصدر بيانات خارجي يوفر HTML
     xtsrc_json=مصدر بيانات خارجي الوصول إليه عن طريق JSON

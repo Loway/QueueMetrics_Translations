@@ -3378,6 +3378,7 @@ Description of security keys:
     keydesc_usr_skills=Kullanıcı müşteri temsilcisi becerilerini düzenleyebilir
     keydesc_usr_syslog=Kullanıcı sistemi \ u2019s denetim günlüğünü görüntüleyebilir
     keydesc_usradmin=Kullanıcı diğer kullanıcıları ve sınıfları düzenleyebilir
+    keydesc_usradmin_restricted=?Kullanıcı diğer kullanıcıları düzenleyebilir, ancak yalnızca seçili sınıflarda
     keydesc_visitor=Ziyaretçilerin kısmi istatistik grubu var.
     keydesc_wallboard_add=Kullanıcı duvar panoları oluşturabilir ve düzenleyebilir
     keydesc_wallboard_forall=Kullanıcı duvar panolarını koruyabilir
@@ -5928,6 +5929,7 @@ Other items
     userpage_retype=Yeni şifreyi tekrar yazın
     userpage_theme=Yeni şifreyi tekrar yazın
     userpage_title=Geçerli kullanıcı bilgileri
+    usradmin_restricted_unavailable=?İstenen işlem, kısıtlı bir kullanıcı yöneticisi profili için kullanılamaz
     xtsrc_err=Harici  veri kaynağına erişilirken hata oluştu. Lütfen santral hata günlüğüne bakın.
     xtsrc_html=HTML sağlayan dış veri kaynağı
     xtsrc_json=JSON üzerinden erişilen harici veri kaynağı

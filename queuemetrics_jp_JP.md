@@ -5107,6 +5107,7 @@ Description of security keys:
     keydesc_usr_syslog=?ユーザーはシステムの監査ログを表示できます
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?ユーザーは他のユーザーとクラスを編集できます
+    keydesc_usradmin_restricted=?ユーザーは他のユーザーを編集できますが、選択したクラスのみに限られます
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?訪問者には統計情報の一部があります。
     # 👽 keydesc_wallboard_add -> User can create and edit wallboards
@@ -8390,6 +8391,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?テーマ
     userpage_title=現在のユーザー情報
+    usradmin_restricted_unavailable=?要求された操作は、制限付きユーザー管理者プロファイルでは使用できません
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?外部データソースへのアクセスエラー。 サーバーのエラーログを参照してください。
     # 👽 xtsrc_html -> External data source providing HTML

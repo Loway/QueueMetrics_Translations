@@ -4885,6 +4885,7 @@ Description of security keys:
     keydesc_usr_syslog=?Používateľ si môže prezerať systémový auditný záznam
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?Používateľ môže upravovať ostatných používateľov a triedy
+    keydesc_usradmin_restricted=?Používateľ môže upravovať ostatných používateľov, ale iba vo vybraných triedach
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?Návštevníci majú čiastočnú sadu štatistík.
     # 👽 keydesc_wallboard_add -> User can create and edit wallboards
@@ -7962,6 +7963,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Téma
     userpage_title=Informácie o užívateľovi
+    usradmin_restricted_unavailable=?Požadovaná operácia nie je dostupná pre obmedzený profil správcu používateľov
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?Chyba pri prístupe k externému zdroju údajov. Pozrite si chybový protokol servera.
     # 👽 xtsrc_html -> External data source providing HTML

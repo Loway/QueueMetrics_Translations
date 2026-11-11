@@ -5208,6 +5208,7 @@ Description of security keys:
     keydesc_usr_syslog=?Puede ver el log de auditoría de sistema
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?Puede editar otros uuarios usuarios y clases
+    keydesc_usradmin_restricted=?Puede editar otros usuarios, pero solo de las clases seleccionadas
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?Los Visistantes poseen un grupo parcial de estadísticas
     # 👽 keydesc_wallboard_add -> User can create and edit wallboards
@@ -8559,6 +8560,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Tema
     userpage_title=Información actual del usuario
+    usradmin_restricted_unavailable=?La operación solicitada no está disponible para un perfil de administrador de usuarios restringido
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?Error en acceder la fuente de datos externa. Por favor, revisar el log de errores
     # 👽 xtsrc_html -> External data source providing HTML

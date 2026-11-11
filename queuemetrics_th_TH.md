@@ -4759,6 +4759,7 @@ Description of security keys:
     keydesc_usr_syslog=?ผู้ใช้สามารถดูบันทึกการตรวจสอบระบบได้
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?ผู้ใช้สามารถแก้ไขผู้ใช้อื่นและคลาสได้
+    keydesc_usradmin_restricted=?ผู้ใช้สามารถแก้ไขผู้ใช้อื่นได้ แต่เฉพาะในคลาสที่เลือกเท่านั้น
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?ผู้เยี่ยมชมมีชุดสถิติบางส่วน
     # 👽 keydesc_wallboard_add -> User can create and edit wallboards
@@ -8118,6 +8119,7 @@ Other items
     userpage_theme=?ธีม
     # 👽 userpage_title -> Current user information
     userpage_title=?ข้อมูลผู้ใช้ปัจจุบัน
+    usradmin_restricted_unavailable=?การดำเนินการที่ร้องขอไม่พร้อมใช้งานสำหรับโปรไฟล์ผู้ดูแลผู้ใช้แบบจำกัด
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?ข้อผิดพลาดในการเข้าถึงแหล่งข้อมูลภายนอก โปรดดูบันทึกข้อผิดพลาดของเซิร์ฟเวอร์
     # 👽 xtsrc_html -> External data source providing HTML

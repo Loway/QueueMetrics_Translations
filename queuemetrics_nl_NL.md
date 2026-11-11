@@ -4574,6 +4574,7 @@ Description of security keys:
     keydesc_usr_syslog=?Gebruiker kan het auditlogboek van het systeem bekijken
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?Gebruiker kan andere gebruikers en klassen bewerken
+    keydesc_usradmin_restricted=?Gebruiker kan andere gebruikers bewerken, maar alleen in geselecteerde klassen
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?Bezoekers hebben een gedeeltelijke set statistieken.
     # 👽 keydesc_wallboard_add -> User can create and edit wallboards
@@ -7636,6 +7637,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Thema
     userpage_title=Huidige gebruiker informatie
+    usradmin_restricted_unavailable=?De gevraagde bewerking is niet beschikbaar voor een beperkt gebruikersbeheerdersprofiel
     xtsrc_err=Probleem met het benaderen van een extere data bron. Controleer de server fouten log
     xtsrc_html=Externe data bron voorziet in HTML
     xtsrc_json=Externe data bron toegankelijk via JSON
