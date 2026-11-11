@@ -4681,6 +4681,7 @@ Description of security keys:
     keydesc_usr_syslog=?Utilizatorul poate vizualiza jurnalul de audit al sistemului
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?Utilizatorul poate edita alți utilizatori și clase
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?Utilizatorul poate edita alți utilizatori, dar numai în clasele selectate
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?Vizitatorii au un set parțial de statistici.
@@ -7751,6 +7752,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Temă
     userpage_title=Informatii curente utilizator
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?Operațiunea solicitată nu este disponibilă pentru un profil restricționat de administrator de utilizatori
     xtsrc_err=Eroare de acces a sursei de date externe. Va rugam sa controlati log-ul de erori ale serverului
     xtsrc_html=Sursa de date externe format HTML

@@ -4030,6 +4030,7 @@ Description of security keys:
     keydesc_usr_syslog=?用户可以查看系统的审计日志
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?用户可以编辑其他用户和类
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?用户可以编辑其他用户，但仅限于所选的类
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?访问者具有部分统计信息集。
@@ -7059,6 +7060,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?主题
     userpage_title=当前用户信息
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?受限用户管理员配置文件无法执行所请求的操作
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?访问外部数据源时出错。 请参阅服务器错误日志。

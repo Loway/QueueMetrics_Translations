@@ -3031,6 +3031,7 @@ Description of security keys:
     keydesc_usr_skills=Può modificare le skills degli agenti
     keydesc_usr_syslog=Può vedere l'audit log
     keydesc_usradmin=Può modificare altri utenti e classi
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?Può modificare altri utenti, ma solo nelle classi selezionate
     keydesc_visitor=L'utente ha accesso VISITOR
     keydesc_wallboard_add=L'utente può creare e modificare le wallboard
@@ -4976,6 +4977,7 @@ Other items
     userpage_retype=Riscrivi la nuova password
     userpage_theme=Tema
     userpage_title=Informazioni sull'utente corrente
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?L'operazione richiesta non è disponibile per un profilo di amministratore utenti limitato
     xtsrc_err=Errore nella lettura di una sorgente dati esterna. Controlla il log del server. 
     xtsrc_html=Sorgente dati esterna che produce HTML

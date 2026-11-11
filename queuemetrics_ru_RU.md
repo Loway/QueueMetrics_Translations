@@ -3277,6 +3277,7 @@ Description of security keys:
     keydesc_usr_skills=Пользователь может редактировать квалификацию агента
     keydesc_usr_syslog=Пользователь может просматривать журналы аудита системы
     keydesc_usradmin=Пользователь может редактировать других пользователей и классы
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?Пользователь может редактировать других пользователей, но только в выбранных классах
     keydesc_visitor=Посетители имеют частичный набор статистики
     keydesc_wallboard_add=Пользователь может создавать и редактировать табло
@@ -5696,6 +5697,7 @@ Other items
     userpage_retype=Повторите новый пароль
     userpage_theme=Тема
     userpage_title=Информация о текущем пользователе
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?Запрошенная операция недоступна для ограниченного профиля администратора пользователей
     xtsrc_err=Произошла  ошибка на внешнем источнике данных. Пожалуйста, проверьте журнал ошибок сервера.
     xtsrc_html=Внешний источник данных, поддерживающий HTML

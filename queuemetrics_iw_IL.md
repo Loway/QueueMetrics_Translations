@@ -3483,6 +3483,7 @@ Description of security keys:
     keydesc_usr_syslog=?משתמש יכול לצפות ביומן הביקורת של המערכת
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?משתמש יכול לערוך משתמשים וקבוצות אחרים
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?משתמש יכול לערוך משתמשים אחרים, אך רק בקבוצות נבחרות
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?למבקרים יש קבוצה חלקית של סטטיסטיקות.
@@ -6650,6 +6651,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?ערכת נושא
     userpage_title=פרטי המשתמש הנוכחי
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?הפעולה המבוקשת אינה זמינה עבור פרופיל מנהל משתמשים מוגבל
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?שגיאה בגישה למקור נתונים חיצוני. אנא ראה את יומן השגיאות של השרת.

@@ -5684,6 +5684,7 @@ Description of security keys:
     keydesc_usr_syslog=?ተጠቃሚ የስርዓቱን የኦዲት ምዝግብ ማስታወሻ መመልከት ይችላል
     # 👽 keydesc_usradmin -> User can edit other users and classes
     keydesc_usradmin=?ተጠቃሚ ሌሎችን ተጠቃሚዎች እና ክፍሎችን ማርትዕ ይችላል
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?ተጠቃሚ ሌሎችን ተጠቃሚዎች ማርትዕ ይችላል፣ ነገር ግን በተመረጡ ክፍሎች ውስጥ ብቻ
     # 👽 keydesc_visitor -> Visitors have a partial set of statistics.
     keydesc_visitor=?ጎብኚዎች ከፊል ስታቲስቲክስ አላቸው።
@@ -9213,6 +9214,7 @@ Other items
     userpage_theme=?ገጽታ
     # 👽 userpage_title -> Current user information
     userpage_title=?የአሁኑ የተጠቃሚ መረጃ
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?የተጠየቀው ክዋኔ ለተገደበ የተጠቃሚ አስተዳዳሪ መገለጫ አይገኝም
     # 👽 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     xtsrc_err=?ውጫዊ የውሂብ ምንጭን በመድረስ ላይ ስህተት። እባክዎ የአገልጋይ ስህተት ምዝግብ ማስታወሻውን ይመልከቱ።

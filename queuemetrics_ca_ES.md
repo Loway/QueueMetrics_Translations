@@ -3492,6 +3492,7 @@ Description of security keys:
     keydesc_usr_skills=L'usuari pot modificar les competències dels agents
     keydesc_usr_syslog=L'usuari pot veure el log d'auditoria del sistema
     keydesc_usradmin=L'usuari pot editar altres usuaris i clases
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?L'usuari pot editar altres usuaris, però només de les classes seleccionades
     keydesc_visitor=Els visitants tenen un conjunt parcial d'estadístiques
     keydesc_wallboard_add=L'Usuari pot crear i editar taulells
@@ -6291,6 +6292,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Tema
     userpage_title=Informació actual de l'usuari
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?L'operació sol·licitada no està disponible per a un perfil d'administrador d'usuaris restringit
     xtsrc_err=Error d'accés a una font de dades externa. Si us plau, mireu el log d'errors del servidor
     xtsrc_html=Font de dades externa que produeix HTML

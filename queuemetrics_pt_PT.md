@@ -3422,6 +3422,7 @@ Description of security keys:
     keydesc_usr_skills=Utilizador pode editar competências de agente
     keydesc_usr_syslog=Utilizador pode visualizar o log de auditoria de sistema
     keydesc_usradmin=Utilizador pode editar outros utilizadores e classes
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?Utilizador pode editar outros utilizadores, mas apenas nas classes selecionadas
     keydesc_visitor=Visitantes com acesso parcial de estatísticas
     keydesc_wallboard_add=Utilizador pode criar e editar wallboards
@@ -6280,6 +6281,7 @@ Other items
     # 👽 userpage_theme -> Theme
     userpage_theme=?Tema
     userpage_title=Informação actual do utilizador
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?A operação solicitada não está disponível para um perfil de administrador de utilizadores restrito
     xtsrc_err=Erro ao aceder a uma fonte de dados externa. Por favor ver o ficheiro de logs de erro do servidor.
     xtsrc_html=Fonte de dados externa a fornecer HTML

@@ -3109,6 +3109,7 @@ Description of security keys:
     keydesc_usr_skills=L'utilisateur peut modifier les compétences des Agents
     keydesc_usr_syslog=L'utilisateur peut  visualiser le blog de l'audit du système
     keydesc_usradmin=L'utilisateur peut modifier les utilisateurs et leurs classes
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?L'utilisateur peut modifier les autres utilisateurs, mais uniquement dans les classes sélectionnées
     keydesc_visitor=Les visiteurs ont un accès réduit au statistiques
     keydesc_wallboard_add=L'utilisateur peut éditer ou créer des Tableaux de bord
@@ -5027,6 +5028,7 @@ Other items
     userpage_retype=Confirmer le nouveau mot de passe
     userpage_theme=Thème
     userpage_title=Informations sur l'utilisateur actuel
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?L'opération demandée n'est pas disponible pour un profil d'administrateur d'utilisateurs restreint
     xtsrc_err=Erreur d'accès à une source de données externe. Merci de vous référer au fichier log des erreurs
     xtsrc_html=Source de données externes au format HTML

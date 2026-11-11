@@ -3118,6 +3118,7 @@ Description of security keys:
     keydesc_usr_skills=Ο χρήστης μπορεί να επεξεργαστεί τις δεξιότητες των agent
     keydesc_usr_syslog=Ο χρήστης μπορεί να δει το αρχείο καταγραφής ελέγχων του συστήματος
     keydesc_usradmin=Ο χρήστης μπορεί να επεξεργαστεί άλλους χρήστες και τάξεις
+    # 👽 keydesc_usradmin_restricted -> User can edit other users, but only in selected classes
     keydesc_usradmin_restricted=?Ο χρήστης μπορεί να επεξεργαστεί άλλους χρήστες, αλλά μόνο σε επιλεγμένες τάξεις
     keydesc_visitor=Οι επισκέπτες έχουν μερικό σετ στατιστικών
     keydesc_wallboard_add=Ο χρήστης μπορεί να δημιουργήσει και να επεξεργαστεί οθόνες
@@ -5100,6 +5101,7 @@ Other items
     userpage_retype=Πληκτρολογήστε ξανά τον νέο κωδικό πρόσβασης
     userpage_theme=Θέμα
     userpage_title=Πληροφορίες τρέχοντος χρήστη
+    # 👽 usradmin_restricted_unavailable -> The required operation is unavailable for a restricted user admin profile
     usradmin_restricted_unavailable=?Η ζητούμενη λειτουργία δεν είναι διαθέσιμη για περιορισμένο προφίλ διαχειριστή χρηστών
     xtsrc_err=Σφάλμα κατά την πρόσβαση σε εξωτερική πηγή δεδομένων. Παρακαλούμε δείτε το αρχείο καταγραφής σφαλμάτων του διακομιστή.
     xtsrc_html=Εξωτερική πηγή δεδομένων που παρέχει HTML
